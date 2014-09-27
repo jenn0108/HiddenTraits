@@ -3,6 +3,7 @@
 ########################################################################################################
 
 eunuch = {
+	potential = { always = no }
 	sex_appeal_opinion = -20
 	fertility = -50.0
 
@@ -14,6 +15,7 @@ eunuch = {
 }
 
 blinded = {
+	potential = { always = no }
 	sex_appeal_opinion = -10
 	martial = -6
 	stewardship = -2
@@ -28,6 +30,7 @@ blinded = {
 
 # Hard coded to be given correctly and affect inheritance laws in the ERE
 born_in_the_purple = {
+	potential = { always = no }
 	customizer = no
 	
 	vassal_opinion = 10
@@ -36,6 +39,7 @@ born_in_the_purple = {
 }
 
 augustus = {
+	potential = { always = no }
 	customizer = no
 	
 	vassal_opinion = 15
@@ -44,6 +48,7 @@ augustus = {
 }
 
 flat_terrain_leader = {
+	potential = { always = no }
 	leader = yes
 	random = no
 	
@@ -55,6 +60,7 @@ flat_terrain_leader = {
 }
 
 rough_terrain_leader = {
+	potential = { always = no }
 	leader = yes
 	random = no
 	
@@ -65,6 +71,7 @@ rough_terrain_leader = {
 }
 
 mountain_terrain_leader = {
+	potential = { always = no }
 	leader = yes
 	random = no
 	
@@ -74,6 +81,7 @@ mountain_terrain_leader = {
 }
 
 desert_terrain_leader = {
+	potential = { always = no }
 	leader = yes
 	random = no
 	
@@ -83,6 +91,7 @@ desert_terrain_leader = {
 }
 
 holy_warrior = {
+	potential = { always = no }
 	leader = yes
 	
 	command_modifier = {
@@ -94,6 +103,7 @@ holy_warrior = {
 }
 
 unyielding_leader = {
+	potential = { always = no }
 	leader = yes
 	
 	command_modifier = {
@@ -104,6 +114,7 @@ unyielding_leader = {
 }
 
 has_aztec_disease = {
+	potential = { always = no }
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -123,6 +134,7 @@ has_aztec_disease = {
 }
 
 child_of_consort = {
+	potential = { always = no }
 	diplomacy = -1
 
 	customizer = no
@@ -130,6 +142,7 @@ child_of_consort = {
 }
 
 peasant_leader = {
+	potential = { always = no }
 	diplomacy = -5
 	
 	same_opinion = 50
@@ -142,6 +155,7 @@ peasant_leader = {
 }
 
 heresiarch = {
+	potential = { always = no }
 	infidel_opinion = -30
 	
 	same_religion_opinion = 50
@@ -153,6 +167,7 @@ heresiarch = {
 }
 
 berserker = {
+	potential = { always = no }
 	martial = 4
 	diplomacy = -2
 	
@@ -163,6 +178,7 @@ berserker = {
 }
 
 varangian = {
+	potential = { always = no }
 	martial = 2
 	diplomacy = 1
 	
@@ -173,6 +189,7 @@ varangian = {
 }
 
 saoshyant = {
+	potential = { always = no }
 	zoroastrian_opinion = 20
 	
 	customizer = no
@@ -180,6 +197,7 @@ saoshyant = {
 }
 
 saoshyant_descendant = {
+	potential = { always = no }
 	
 	zoroastrian_opinion = 10
 	
@@ -188,6 +206,7 @@ saoshyant_descendant = {
 }
 
 viking = {
+	potential = { always = no }
 	martial = 1
 	monthly_character_prestige = 0.3
 	same_religion_opinion = 15
@@ -198,6 +217,7 @@ viking = {
 }
 
 monk = {
+	potential = { always = no }
 	monthly_character_piety = 0.3
 	same_religion_opinion = 10
 	
@@ -209,6 +229,7 @@ monk = {
 }
 
 nun = {
+	potential = { always = no }
 	monthly_character_piety = 0.3
 	same_religion_opinion = 10
 	
@@ -221,6 +242,7 @@ nun = {
 
 # Christian pilgrim while doing pilgrimage
 on_pilgrimage = {
+	potential = { always = no }
 	
 	cached = yes    # Keep a cache of all trait holders, to use with the corresponding event trigger 
 	
@@ -234,6 +256,7 @@ on_pilgrimage = {
 
 # Babies can be born sickly
 sickly = {
+	potential = { always = no }
 	is_health = yes
 	is_illness = yes
 
@@ -244,6 +267,7 @@ sickly = {
 }
 
 mutazilite = {
+	potential = { always = no }
 	learning = 5
 	
 	religious = yes # Lost immediately on religion change
@@ -261,6 +285,7 @@ mutazilite = {
 }
 
 ashari = {
+	potential = { always = no }
 	monthly_character_piety = 1
 	
 	religious = yes # Lost immediately on religion change
@@ -278,6 +303,7 @@ ashari = {
 }
 
 sympathy_christendom = {
+	potential = { always = no }
 	opposites =  {
 		zealous
 		zealous_hidden
@@ -292,6 +318,7 @@ sympathy_christendom = {
 }
 
 sympathy_islam = {
+	potential = { always = no }
 	
 	opposites =  {
 		zealous
@@ -307,6 +334,7 @@ sympathy_islam = {
 }
 
 sympathy_pagans = {
+	potential = { always = no }
 	
 	opposites =  {
 		zealous
@@ -322,6 +350,7 @@ sympathy_pagans = {
 }
 
 sympathy_zoroastrianism = {
+	potential = { always = no }
 	
 	opposites =  {
 		zealous
@@ -337,6 +366,7 @@ sympathy_zoroastrianism = {
 }
 
 sympathy_judaism = {
+	potential = { always = no }
 	
 	opposites =  {
 		zealous
@@ -352,6 +382,7 @@ sympathy_judaism = {
 }
 
 bad_priest_christian = {
+	potential = { always = no }
 
 	religious = yes
 
@@ -365,6 +396,7 @@ bad_priest_christian = {
 }
 
 bad_priest_muslim = {
+	potential = { always = no }
 	
 	religious = yes
 
@@ -378,6 +410,7 @@ bad_priest_muslim = {
 }
 
 bad_priest_norse = {
+	potential = { always = no }
 	
 	religious = yes
 
@@ -391,6 +424,7 @@ bad_priest_norse = {
 }
 
 bad_priest_tengri = {
+	potential = { always = no }
 	
 	religious = yes
 	
@@ -404,6 +438,7 @@ bad_priest_tengri = {
 }
 
 bad_priest_zoroastrian = {
+	potential = { always = no }
 	
 	religious = yes
 
@@ -418,6 +453,7 @@ bad_priest_zoroastrian = {
 }
 
 bad_priest_aztec = {
+	potential = { always = no }
 	
 	religious = yes
 	
@@ -431,6 +467,7 @@ bad_priest_aztec = {
 }
 
 narrow_flank_leader = {
+	potential = { always = no }
 	leader = yes
 	
 	command_modifier = {
@@ -440,6 +477,7 @@ narrow_flank_leader = {
 }
 
 brahmin = {
+	potential = { always = no }
 	opposites = {
 		kshatriya
 		vaishya
@@ -456,6 +494,7 @@ brahmin = {
 }
 
 kshatriya = {
+	potential = { always = no }
 	opposites = {
 		brahmin
 		vaishya
@@ -472,6 +511,7 @@ kshatriya = {
 }
 
 vaishya = {
+	potential = { always = no }
 	opposites = {
 		brahmin
 		kshatriya
@@ -488,6 +528,7 @@ vaishya = {
 }
 
 sympathy_indian = {
+	potential = { always = no }
 	opposites =  {
 		zealous
 		zealous_hidden
@@ -502,6 +543,7 @@ sympathy_indian = {
 }
 
 shaivist_hindu = {
+	potential = { always = no }
 	opposites = {
 		vaishnavist_hindu
 		shaktist_hindu
@@ -522,6 +564,7 @@ shaivist_hindu = {
 }
 
 vaishnavist_hindu = {
+	potential = { always = no }
 	opposites = {
 		shaivist_hindu
 		shaktist_hindu
@@ -542,6 +585,7 @@ vaishnavist_hindu = {
 }
 
 shaktist_hindu = {
+	potential = { always = no }
 	opposites = {
 		vaishnavist_hindu
 		shaivist_hindu
@@ -562,6 +606,7 @@ shaktist_hindu = {
 }
 
 smartist_hindu = {
+	potential = { always = no }
 	opposites = {
 		vaishnavist_hindu
 		shaktist_hindu
@@ -582,6 +627,7 @@ smartist_hindu = {
 }
 
 mahayana_buddhist = {
+	potential = { always = no }
 	opposites = {
 		vajrayana_buddhist
 		theravada_buddhist
@@ -600,6 +646,7 @@ mahayana_buddhist = {
 }
 
 vajrayana_buddhist = {
+	potential = { always = no }
 	opposites = {
 		mahayana_buddhist
 		theravada_buddhist
@@ -618,6 +665,7 @@ vajrayana_buddhist = {
 }
 
 theravada_buddhist = {
+	potential = { always = no }
 	opposites = {
 		vajrayana_buddhist
 		mahayana_buddhist
@@ -636,6 +684,7 @@ theravada_buddhist = {
 }
 
 digambara_jain = {
+	potential = { always = no }
 	opposites = {
 		svetambara_jain
 		svetambara_jain_hidden
@@ -652,6 +701,7 @@ digambara_jain = {
 }
 
 svetambara_jain = {
+	potential = { always = no }
 	opposites = {
 		digambara_jain
 		digambara_jain_hidden
@@ -669,6 +719,7 @@ svetambara_jain = {
 
 # Controls Muslim decadence gain
 decadent = {
+	potential = { always = no }
 	opposites = {
 		zealous
 		zealous_hidden
@@ -680,11 +731,13 @@ decadent = {
 
 # Character is seen as a reincarnation of another character.
 reincarnation = {
+	potential = { always = no }
 	customizer = no
 	random = no
 }
 
 war_elephant_leader = {
+	potential = { always = no }
 	leader = yes
 	random = no
 	
@@ -695,6 +748,7 @@ war_elephant_leader = {
 }
 
 jungle_terrain_leader = {
+	potential = { always = no }
 	leader = yes
 	random = no
 	
