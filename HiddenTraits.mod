@@ -1,0 +1,7 @@
+name = "Hidden Traits"
+path = "mod/HiddenTraits"
+user_dir = "Hidden Traits"
+replace_path = "common/traits"
+#replace_path = "gfx/traits"
+#replace_path = "interface"
+#replace_path = "events" 

@@ -1,0 +1,1371 @@
+spriteTypes = {
+# start of hidden traits:
+
+	spriteType = {
+		name = "GFX_trait_amateurish_plotter_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_flamboyant_schemer_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_intricate_webweaver_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_elusive_shadow_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_naive_appeaser_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_underhanded_rogue_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_charismatic_negotiator_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_grey_eminence_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_indulgent_wastrel_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_thrifty_clerk_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_fortune_builder_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_midas_touched_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_misguided_warrior_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_tough_soldier_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_skilled_tactician_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_brilliant_strategist_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_indian_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_pagan_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_zoroastrian_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_jewish_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_detached_priest_muslim_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_indian_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_pagan_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_zoroastrian_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_jewish_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_martial_cleric_muslim_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_indian_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_pagan_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_zoroastrian_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_jewish_group_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_scholarly_theologian_muslim_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mastermind_theologian_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_stressed_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_depressed_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_lunatic_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_possessed_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ill_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_pneumonic_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_syphilitic_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_leper_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_wounded_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_maimed_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_infirm_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_incapable_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_crusader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_excommunicated_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bastard_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_legit_bastard_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kinslayer_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_pregnant_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_pregnant_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_has_tuberculosis_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_has_typhoid_fever_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_has_typhus_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_has_bubonic_plague_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_has_measles_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_has_small_pox_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_has_aztec_disease_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_clubfooted_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_harelip_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hunchback_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_lisp_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_stutter_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_fair_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ugly_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_dwarf_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_genius_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_quick_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_slow_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_imbecile_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_homosexual_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_inbred_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_celibate_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hedonist_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scholar_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_gardener_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mystic_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_impaler_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_duelist_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hunter_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_poet_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_falconer_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_drunkard_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_lustful_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_chaste_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_gluttonous_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_temperate_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_greedy_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_charitable_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_slothful_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_diligent_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_envious_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kind_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_wroth_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_patient_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_proud_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_humble_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_deceitful_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_honest_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_craven_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_brave_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_shy_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_gregarious_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ambitious_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_content_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_arbitrary_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_just_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_cynical_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_zealous_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_paranoid_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_trusting_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_weak_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_strong_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_cruel_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_twin_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	#Leadership traits
+	
+	spriteType = {
+		name = "GFX_trait_light_foot_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_heavy_infantry_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_cavalry_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_inspiring_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_trickster_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_organizer_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_defensive_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_experimenter_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_flanker_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_aggressive_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_flat_terrain_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_rough_terrain_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_mountain_terrain_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_desert_terrain_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_holy_warrior_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_unyielding_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	#01_traits.txt
+	spriteType = {
+		name = "GFX_trait_mujahid_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hajjaj_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_on_hajj_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_faqih_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_hafiz_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sayyid_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mirza_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_pilgrim_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_scarred_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_eunuch_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blinded_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_born_in_the_purple_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_augustus_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_child_of_consort_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_peasant_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_heresiarch_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_berserker_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_varangian_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_saoshyant_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_saoshyant_descendant_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_viking_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_siege_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_monk_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_nun_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_on_pilgrimage_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_sickly_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_mutazilite_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_ashari_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_christendom_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_islam_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_pagans_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_zoroastrianism_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_judaism_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_christian_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_muslim_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_norse_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_tengri_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_zoroastrian_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_bad_priest_aztec_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_narrow_flank_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_brahmin_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_kshatriya_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_vaishya_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_sympathy_indian_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_shaivist_hindu_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_vaishnavist_hindu_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_shaktist_hindu_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_smartist_hindu_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_mahayana_buddhist_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_vajrayana_buddhist_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_theravada_buddhist_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_digambara_jain_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_svetambara_jain_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_decadent_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_reincarnation_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_jungle_terrain_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_war_elephant_leader_hidden"
+		texturefile = "gfx/traits/hidden_trait.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+}

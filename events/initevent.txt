@@ -1,0 +1,25 @@
+
+namespace = hiddentraits
+
+character_event = {
+	id = hiddentraits.0
+	desc = "EVTDESC158"
+	picture = "GFX_evt_shadow"
+	
+	is_triggered_only = yes
+	
+	
+#	immediate = {
+#		if = {
+#			limit = {
+#					trait = ambitious
+#				}
+#			}
+#			remove_trait = ambitious
+#			add_trait = ambitious_hidden
+#	}
+	
+	option = {
+		name = OK
+	}
+}

@@ -1,0 +1,1507 @@
+# SPECIAL TRAIT FLAGS
+#
+# pilgrimage = yes		- The character is away and will need a regent, but does not lose any wards, etc
+# incapacitating = yes	- The character is essentially a vegetable
+# immortal = yes		- The character will not die of age or poor health, but can be executed (and killed by event effects)
+# inherit_chance = X	- Chance of passing on the trait to children
+# birth = X				- How many characters out of 10000 are born with this trait (when not inherited)
+# religious = yes		- Will be lost if the character changes religion
+
+########################################################################################################
+# WARNING: IF YOU DON'T ADD NEW TRAITS LAST (IN THE LAST READ TRAIT FILE), IT WILL BREAK OLD SAVE GAMES!
+########################################################################################################
+
+############
+# EDUCATION
+############
+
+# INTRIGUE OUTCOMES
+amateurish_plotter = {
+	education = yes
+	
+	intrigue = 1
+	stewardship = -1
+	random = no
+}
+flamboyant_schemer = {
+	education = yes
+	
+	intrigue = 3
+	stewardship = -1
+	random = no
+}
+intricate_webweaver = {
+	education = yes
+	
+	intrigue = 6
+	martial = 1
+	diplomacy = 1
+	stewardship = -1
+	random = no
+}
+elusive_shadow = {
+	education = yes
+	
+	intrigue = 9
+	martial = 2
+	diplomacy = 2
+	stewardship = -1
+	random = no
+}
+
+# DIPLOMACY OUTCOMES
+naive_appeaser = {
+	education = yes
+	
+	diplomacy = 1
+	martial = -1
+	random = no
+}
+underhanded_rogue = {
+	education = yes
+	
+	diplomacy = 3
+	martial = -1
+	fertility = 0.05
+	random = no
+}
+charismatic_negotiator = {
+	education = yes
+	
+	diplomacy = 6
+	intrigue = 1
+	learning = 1
+	martial = -1
+	fertility = 0.05
+	
+	random = no
+}
+grey_eminence = {
+	education = yes
+	
+	diplomacy = 9
+	intrigue = 2
+	learning = 2
+	martial = -1
+	fertility = 0.1
+	random = no
+}
+
+# STEWARDSHIP OUTCOMES
+indulgent_wastrel = {
+	education = yes
+	
+	stewardship = 1
+	diplomacy = -1
+	random = no
+}
+thrifty_clerk = {
+	education = yes
+	
+	stewardship = 3
+	diplomacy = -1
+	fertility = 0.05
+	random = no
+}
+fortune_builder = {	
+	education = yes
+	
+	stewardship = 6
+	martial = 1
+	learning = 1
+	diplomacy = -1
+	fertility = 0.1
+	random = no
+}
+midas_touched = {
+	education = yes
+	
+	stewardship = 9
+	martial = 2
+	learning = 2
+	diplomacy = -1
+	fertility = 0.15
+	random = no
+}
+
+# MARTIAL OUTCOMES
+misguided_warrior = {
+	education = yes
+	
+	martial = 1
+	learning = -1
+	
+	health = 0.5
+	random = no
+}
+tough_soldier = {
+	education = yes
+	
+	martial = 3
+	learning = -1
+	
+	health = 0.5
+	random = no
+}
+skilled_tactician = {
+	education = yes
+	
+	martial = 6
+	intrigue = 1
+	stewardship = 1
+	learning = -1
+	
+	health = 0.5
+	random = no
+}
+brilliant_strategist = {
+	education = yes
+	
+	martial = 9
+	intrigue = 2
+	stewardship = 2
+	learning = -1
+	
+	health = 0.5
+
+	leadership_traits = 1
+	random = no
+}
+
+# ECCLESIASTICAL OUTCOMES
+detached_priest = {
+	priest = yes
+	education = yes
+	
+	learning = 1
+	intrigue = -1
+	random = no
+}
+martial_cleric = {
+	priest = yes
+	education = yes
+	
+	learning = 3
+	intrigue = -1
+	
+	ai_zeal = 10
+	random = no
+}
+scholarly_theologian = {
+	priest = yes
+	education = yes
+	
+	learning = 6
+	diplomacy = 1
+	stewardship = 1
+	intrigue = -1
+	
+	fertility = -0.05
+	
+	ai_zeal = 20
+	random = no
+}
+mastermind_theologian = {
+	priest = yes
+	education = yes
+	
+	learning = 9
+	diplomacy = 2
+	stewardship = 2
+	intrigue = -1
+	
+	fertility = -0.05
+	
+	ai_zeal = 30
+	random = no
+}
+
+########################
+# HEALTH - Events
+########################
+
+stressed = {
+	is_health = yes
+	intrigue = -1
+	stewardship = -1
+	health = -1
+	fertility = -0.1
+	random = no
+}
+depressed = {
+	is_health = yes
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	health = -1
+	fertility = -0.05
+	random = no
+}
+lunatic = {
+	is_health = yes
+	# Highly event driven
+	
+	vassal_opinion = -25
+	sex_appeal_opinion = -25
+	same_opinion = 10
+	
+	ai_rationality = -50
+	random = no
+}
+possessed = {
+	is_health = yes
+	
+	sex_appeal_opinion = -25
+	same_opinion = 10
+	
+	ai_rationality = -40
+	
+	# Highly event driven
+	random = no
+}
+ill = {
+	is_health = yes
+	is_illness = yes
+	
+	opposites =  {
+		pneumonic
+		pneumonic_hidden
+	}
+	
+	martial = -1
+	health = -2
+	fertility = -0.1
+	
+	customizer = no
+	random = no
+}
+pneumonic = {
+	is_health = yes
+	is_illness = yes
+	
+	opposites =  {
+		ill
+		ill_hidden
+	}
+	
+	diplomacy = -2
+	stewardship = -2
+	martial = -2
+	intrigue = -2
+	learning = -2
+	health = -4
+	fertility = -0.5
+	
+	customizer = no
+	random = no
+}
+syphilitic = {
+	is_health = yes
+	is_illness = yes
+	inherit_chance = 10
+	
+	sex_appeal_opinion = -30
+	
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	learning = -1
+	
+	health = -2
+	fertility = -0.2
+	random = no
+}
+leper = {
+	is_health = yes
+	is_illness = yes
+	diplomacy = -2
+	health = -2
+	fertility = -0.2
+	
+	sex_appeal_opinion = -50
+	same_opinion = 10
+	
+	vassal_opinion = -20
+	random = no
+}
+wounded = {
+	is_health = yes
+	
+	opposites =  {
+		maimed
+		maimed_hidden
+	}
+	
+	martial = -1
+	health = -1
+	random = no
+}
+maimed = {
+	is_health = yes
+	
+	opposites =  {
+		wounded
+		wounded_hidden
+	}
+	
+	sex_appeal_opinion = -15
+	same_opinion = 10
+	
+	martial = -2
+	health = -2
+	random = no
+}
+infirm = {
+	is_health = yes
+
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+	
+	health = -1
+	fertility = -0.3
+	
+	ai_rationality = -10
+	random = no
+}
+incapable = {
+	is_health = yes
+	
+	incapacitating = yes # Will need a regent
+	
+	diplomacy = -6
+	intrigue = -6
+	stewardship = -6
+	martial = -6
+	learning = -6
+	
+	health = -3
+	fertility = -0.3
+	random = no
+}
+drunkard = {
+	is_health = yes
+	
+	stewardship = -2
+	
+	same_opinion = 10
+	church_opinion = -10
+	sex_appeal_opinion = -5
+	
+	ai_rationality = -5
+	random = no
+}
+has_tuberculosis = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -2
+	
+	customizer = no
+	random = no
+}
+has_typhoid_fever = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -3
+	
+	customizer = no
+	random = no
+}
+has_typhus = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -3
+	
+	customizer = no
+	random = no
+}
+has_bubonic_plague = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -7
+	
+	customizer = no
+	random = no
+}
+has_measles = {
+	is_epidemic = yes
+	is_illness = yes
+	
+	health = -2
+	
+	customizer = no
+	random = no
+}
+has_small_pox = {
+	is_epidemic = yes
+	is_illness = yes
+
+	health = -3
+	
+	customizer = no
+	random = no
+}
+
+############################
+# HARD STATUS - DO NOT REMOVE!
+############################
+
+crusader = {
+	potential = {
+		religion_group = christian
+	}
+	
+	martial = 2
+	
+	church_opinion = 25
+	same_opinion_if_same_religion = 30
+	
+	ai_zeal = 10
+	random = no
+}
+
+bastard = {
+	diplomacy = -1
+	same_opinion = 10
+	
+	customizer = no
+	random = no
+}
+twin = {
+	twin_opinion = 30
+	
+	customizer = no
+	random = no
+}
+legit_bastard = {
+	diplomacy = -1
+	random = no
+}
+pregnant = {
+	spouse_opinion = 25
+	
+	customizer = no
+	random = no
+}
+excommunicated = {
+	diplomacy = -5
+	same_religion_opinion = -30
+
+	religious = yes
+	customizer = no
+	random = no
+}
+kinslayer = {
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+
+	diplomacy = -3
+	
+	dynasty_opinion = -25
+	random = no
+}
+homosexual = {
+	sex_appeal_opinion = 30 # Only to those of the same sex
+	vassal_opinion = -10
+	
+	fertility = -0.15
+	random = no
+}
+
+#####################
+# POSSIBLY CONGENITAL
+#####################
+
+clubfooted = {
+	
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -10
+	same_opinion = 5
+	
+	martial = -1
+	random = no
+}
+harelip = {
+	
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -10
+	same_opinion = 5
+	
+	diplomacy = -1
+	random = no
+}
+hunchback = {
+	
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -30
+	same_opinion = 5
+	
+	vassal_opinion = -5
+	
+	martial = -1
+	random = no
+}
+lisp = {
+	
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -5
+	same_opinion = 5
+	
+	diplomacy = -1
+	random = no
+}
+stutter = {
+	
+	inherit_chance = 15
+	
+	same_opinion = 5
+	
+	diplomacy = -1
+	random = no
+}
+fair = {
+	
+	inherit_chance = 15
+	
+	sex_appeal_opinion = 30
+	
+	opposites =  {
+		ugly
+		ugly_hidden
+	}
+	
+	diplomacy = 1
+	random = no
+}
+ugly = {
+	
+	inherit_chance = 10
+	
+	sex_appeal_opinion = -20
+	
+	opposites =  {
+		fair
+		fair_hidden
+	}
+	
+	diplomacy = -1
+	random = no
+}
+dwarf = {
+	
+	inherit_chance = 25
+	
+	sex_appeal_opinion = -30
+	same_opinion = 10
+	
+	martial = -1
+	random = no
+}
+genius = {
+	
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		slow
+		quick
+		imbecile_hidden
+		slow_hidden
+		quick_hidden
+	}
+	
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	martial = 5
+	learning = 5
+	
+	ai_rationality = 30
+	
+	vassal_opinion = 5
+	
+	random = no
+}
+quick = {
+	
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		slow
+		genius
+		imbecile_hidden
+		slow_hidden
+		genius_hidden
+	}
+	
+	diplomacy = 3
+	intrigue = 3
+	stewardship = 3
+	martial = 3
+	learning = 3
+	
+	ai_rationality = 15
+	random = no
+}
+slow = {
+	
+	inherit_chance = 15
+	
+	opposites =  {
+		imbecile
+		quick
+		genius
+		imbecile_hidden
+		quick_hidden
+		genius_hidden
+	}
+	
+	diplomacy = -3
+	intrigue = -3
+	stewardship = -3
+	martial = -3
+	learning = -3
+	
+	ai_rationality = -15
+	random = no
+}
+imbecile = {
+	
+	inherit_chance = 15
+	
+	sex_appeal_opinion = -30
+	
+	opposites =  {
+		slow
+		quick
+		genius
+		slow_hidden
+		quick_hidden
+		genius_hidden
+	}
+	
+	diplomacy = -8
+	intrigue = -8
+	stewardship = -8
+	martial = -8
+	learning = -8
+	
+	ai_rationality = -30
+	
+	vassal_opinion = -10
+	random = no
+}
+inbred = {
+	inbred = yes
+	inherit_chance = 25
+	
+	sex_appeal_opinion = -30
+	
+	fertility = -0.3
+	health = -1.5
+	diplomacy = -5
+	intrigue = -5
+	stewardship = -5
+	martial = -5
+	learning = -5
+	
+	vassal_opinion = -20
+	
+	ai_rationality = -20
+	random = no
+}
+strong = {
+	
+	inherit_chance = 15
+	
+	opposites =  {
+		weak
+		weak_hidden
+	}
+	
+	diplomacy = 1
+	martial = 2
+	
+	health = 2
+	fertility = 0.1
+	
+	sex_appeal_opinion = 10
+	vassal_opinion = 10
+	random = no
+}
+weak = {
+	
+	inherit_chance = 15
+	
+	opposites =  {
+		strong
+		strong_hidden
+	}
+	
+	health = -1.0
+	fertility = -0.05
+	
+	martial = -1
+	
+	sex_appeal_opinion = -10
+	vassal_opinion = -10
+	random = no
+}
+
+################################################
+# LIFESTYLE - Events - only 1 lifestyle (adult)
+################################################
+
+celibate = {
+	lifestyle = yes
+	
+	potential = {
+		religion_group = christian
+	}
+	
+	opposites =  {
+		hedonist
+		hedonist_hidden
+	}
+	fertility = -10.0
+	
+	christian_church_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 20
+	
+	monthly_character_piety = 1
+	
+	ai_zeal = 30
+	random = no
+}
+hedonist = {
+	lifestyle = yes
+	
+	opposites =  {
+		celibate
+		celibate_hidden
+	}
+
+	fertility = 0.2
+	
+	opposite_opinion = -5
+	same_opinion = 20
+	
+	christian_church_opinion = -10
+	
+	monthly_character_piety = -0.5
+	
+	ai_zeal = -30
+	random = no
+}
+scholar = {
+	lifestyle = yes
+	
+	learning = 2
+	
+	same_opinion = 20
+	random = no
+}
+gardener = {
+	lifestyle = yes
+	
+	stewardship = 2
+	
+	same_opinion = 20
+	random = no
+}
+mystic = {
+	lifestyle = yes
+	
+	intrigue = 1
+	
+	same_opinion = 20
+	random = no
+}
+impaler = {
+	lifestyle = yes
+	
+	potential = {
+		NOT = { religion = jain }
+	}
+
+	intrigue = 1
+	
+	same_opinion = 20
+	
+	ai_honor = -15
+	
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	random = no
+}
+duelist = {
+	lifestyle = yes
+	
+	martial = 1
+	
+	same_opinion = 20
+	random = no
+}
+hunter = {
+	lifestyle = yes
+
+	potential = {
+		NOT = { religion = jain }
+	}
+	
+	martial = 1
+	
+	same_opinion = 20
+	random = no
+}
+poet = {
+	lifestyle = yes
+	
+	diplomacy = 1
+	
+	same_opinion = 20
+	random = no
+}
+falconer = {
+	lifestyle = yes
+	
+	potential = {
+		NOT = { religion = jain }
+	}
+
+	diplomacy = 1
+	
+	same_opinion = 20
+	random = no
+}
+
+#################################################################
+# PERSONALITY - Events, should happen more often during childhood
+#################################################################
+
+# THE SEVEN SINS AND VIRTUES
+lustful = {
+	personality = yes
+	opposites =  {
+		chaste
+		chaste_hidden
+	}
+	fertility = 0.2
+	
+	christian_church_opinion = -10
+	
+	monthly_character_piety = -0.25
+	
+	ai_greed = 20
+	ai_zeal = -10
+	random = no
+}
+chaste = {
+	personality = yes
+	
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+	
+	opposites =  {
+		lustful
+		lustful_hidden
+	}
+	fertility = -0.15
+	
+	christian_church_opinion = 10
+	opposite_opinion = -10
+	
+	monthly_character_piety = 0.5
+	
+	ai_zeal = 10
+	random = no
+}
+gluttonous = {
+	personality = yes
+	opposites =  {
+		temperate
+		temperate_hidden
+	}
+	
+	sex_appeal_opinion = -15
+	church_opinion = -10
+	same_opinion = 5
+	
+	stewardship = -2
+	
+	ai_greed = 20
+	ai_zeal = -10
+	random = no
+}
+temperate = {
+	personality = yes
+	opposites =  {
+		gluttonous
+		gluttonous_hidden
+	}
+	
+	church_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	stewardship = 2
+	
+	ai_greed = -20
+	ai_zeal = 10
+	random = no
+}
+greedy = {
+	personality = yes
+	opposites =  {
+		charitable
+		charitable_hidden
+	}
+	global_tax_modifier = 0.1
+	diplomacy = -1
+	
+	ai_honor = -10
+	ai_ambition = 15
+	ai_greed = 100
+	random = no
+}
+charitable = {
+	personality = yes
+	opposites =  {
+		greedy
+		greedy_hidden
+	}
+	diplomacy = 3
+	
+	church_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	ai_honor = 10
+	ai_ambition = -15
+	ai_greed = -100
+	
+	ai_zeal = 10
+	random = no
+}
+slothful = {
+	personality = yes
+	opposites =  {
+		diligent
+		diligent_hidden
+	}
+	
+	vassal_opinion = -10
+	
+	diplomacy = -1
+	intrigue = -1
+	stewardship = -1
+	martial = -1
+	learning = -1
+	
+	ai_ambition = -10
+	
+	ai_greed = 10
+	ai_zeal = -10
+	random = no
+}
+diligent = {
+	personality = yes
+	opposites =  {
+		slothful
+		slothful_hidden
+	}
+	
+	vassal_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	diplomacy = 1
+	intrigue = 1
+	stewardship = 1
+	martial = 1
+	learning = 1
+	
+	ai_greed = -10
+	ai_zeal = 10
+	random = no
+}
+envious = {
+	personality = yes
+	opposites =  {
+		kind
+		kind_hidden
+	}
+	intrigue = 2
+	diplomacy = -1
+	
+	liege_opinion = -15
+	
+	ai_honor = -10
+	random = no
+}
+kind = {
+	personality = yes
+	opposites =  {
+		envious
+		cruel
+		envious_hidden
+		cruel_hidden
+	}
+	intrigue = -2
+	diplomacy = 2
+	
+	vassal_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	ai_honor = 10
+	random = no
+}
+wroth = {
+	personality = yes
+	opposites =  {
+		patient
+		patient_hidden
+	}
+	diplomacy = -1
+	intrigue = -1
+	martial = 3
+	
+	ai_rationality = -10
+	ai_honor = -5
+	random = no
+}
+patient = {
+	personality = yes
+	opposites =  {
+		wroth
+		wroth_hidden
+	}
+	diplomacy = 1
+	intrigue = 1
+	stewardship = 1
+	learning = 1
+	opposite_opinion = -10
+	
+	ai_rationality = 10
+	
+	command_modifier = {
+		defence = 0.2
+	}
+	random = no
+}
+proud = {
+	personality = yes
+	opposites =  {
+		humble
+		humble_hidden
+	}
+	
+	monthly_character_prestige = 0.5
+	
+	ai_ambition = 10
+	random = no
+}
+humble = {
+	personality = yes
+	opposites =  {
+		proud
+		proud_hidden
+	}
+	
+	monthly_character_piety = 1
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	ai_ambition = -10
+	random = no
+}
+
+# OTHER
+
+deceitful = {
+	personality = yes
+	opposites =  {
+		honest
+		honest_hidden
+	}
+	
+	intrigue = 3
+	diplomacy = -2
+	
+	opposite_opinion = -10
+	
+	ai_honor = -25
+	random = no
+}
+honest = {
+	personality = yes
+	opposites =  {
+		deceitful
+		deceitful_hidden
+	}
+	
+	intrigue = -2
+	diplomacy = 3
+	
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	ai_honor = 25
+	random = no
+}
+craven = {
+	personality = yes
+	opposites =  {
+		brave
+		brave_hidden
+	}
+	
+	vassal_opinion = -5
+	
+	martial = -2
+	
+	command_modifier = {
+		morale_defence = -0.2
+	}
+	random = no
+}
+brave = {
+	personality = yes
+	opposites =  {
+		craven
+		craven_hidden
+	}
+	
+	vassal_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	martial = 2
+	
+	command_modifier = {
+		morale_defence = 0.1
+	}
+	random = no
+}
+shy = {
+	personality = yes
+	opposites =  {
+		gregarious
+		gregarious_hidden
+	}
+	
+	diplomacy = -2
+	random = no
+}
+gregarious = {
+	personality = yes
+	opposites =  {
+		shy
+		shy_hidden
+	}
+	
+	sex_appeal_opinion = 5
+	same_opinion = 5
+	
+	vassal_opinion = 5
+	
+	diplomacy = 2
+	random = no
+}
+ambitious = {
+	personality = yes
+	opposites =  {
+		content
+		content_hidden
+	}
+	
+	intrigue = 2
+	stewardship = 2
+	diplomacy = 2
+	martial = 2
+	learning = 2
+	
+	same_opinion = -5
+	ambition_opinion = -50 # Against those they want something from
+	
+	ai_ambition = 40
+	ai_zeal = 10
+	random = no
+}
+content = {
+	personality = yes
+	opposites =  {
+		ambitious
+		ambitious_hidden
+	}
+	
+	intrigue = -1
+	
+	liege_opinion = 50
+	
+	monthly_character_piety = 0.5
+	
+	ai_ambition = -40
+	ai_zeal = -10
+	random = no
+}
+arbitrary = {
+	personality = yes
+	opposites =  {
+		just
+		just_hidden
+	}
+	
+	stewardship = -2
+	learning = -1
+	
+	vassal_opinion = -10
+	
+	ai_rationality = -20
+	ai_honor = -10
+	ai_zeal = -10
+	random = no
+}
+just = {
+	personality = yes
+	opposites =  {
+		arbitrary
+		arbitrary_hidden
+	}
+	
+	stewardship = 2
+	learning = 1
+	
+	vassal_opinion = 10
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	ai_rationality = 20
+	ai_honor = 10
+	ai_zeal = 10
+	random = no
+}
+cynical = {
+	personality = yes
+	opposites = {
+		zealous
+		zealous_hidden
+	}
+	
+	intrigue = 2
+	
+	church_opinion = -5
+	opposite_opinion = -10
+	same_opinion = 10
+	
+	monthly_character_piety = -0.2
+	
+	ai_rationality = 10
+	ai_zeal = -100
+	random = no
+}
+zealous = {
+	personality = yes
+	opposites =  {
+		cynical
+		sympathy_christendom
+		sympathy_islam
+		sympathy_pagans
+		sympathy_zoroastrianism
+		sympathy_judaism
+		sympathy_indian
+		cynical_hidden
+		sympathy_christendom_hidden
+		sympathy_islam_hidden
+		sympathy_pagans_hidden
+		sympathy_zoroastrianism_hidden
+		sympathy_judaism_hidden
+		sympathy_indian_hidden
+	}
+	
+	martial = 2
+	
+	church_opinion = 10
+	infidel_opinion = -50
+	opposite_opinion = -10
+	same_opinion_if_same_religion = 30
+	
+	monthly_character_piety = 1
+	
+	ai_rationality = -10
+	ai_zeal = 100
+	random = no
+}
+paranoid = {
+	personality = yes
+	opposites =  {
+		trusting
+		trusting_hidden
+	}
+	
+	intrigue = 2
+	diplomacy = -1
+	
+	ai_honor = -10
+	random = no
+}
+trusting = {
+	personality = yes
+	opposites =  {
+		paranoid
+		paranoid_hidden
+	}
+	
+	intrigue = -2
+	diplomacy = 1
+	
+	ai_honor = 10
+	random = no
+}
+cruel = {
+	personality = yes
+	opposites =  {
+		kind
+		kind_hidden
+	}
+	
+	intrigue = 1
+	diplomacy = -1
+	
+	vassal_opinion = -10
+	ai_honor = -10
+	ai_greed = 10
+	
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	random = no
+}
+
+#Leadership traits
+light_foot_leader = {
+	leader = yes
+	
+	command_modifier = {
+		light_infantry = 0.2
+		heavy_infantry = -0.1
+	}
+	random = no
+}
+
+heavy_infantry_leader = {
+	leader = yes
+	
+	command_modifier = {
+		heavy_infantry = 0.2
+		cavalry = -0.1
+	}
+	random = no
+}
+
+cavalry_leader = {
+	leader = yes
+	
+	command_modifier = {
+		cavalry = 0.2
+		light_infantry = -0.1
+	}
+	random = no
+}
+
+inspiring_leader = {
+	leader = yes
+	
+	command_modifier = {
+		morale_defence = 0.1
+		center = 0.1
+	}
+	random = no
+}
+
+trickster = {
+	leader = yes
+	
+	command_modifier = {
+		morale_offence = 0.1
+		defence = -0.2
+	}
+	random = no
+}
+
+organizer = {
+	leader = yes
+	
+	command_modifier = {
+		speed = 0.2
+		retreat = 0.1
+	}
+	random = no
+}
+
+defensive_leader = {
+	leader = yes
+	
+	command_modifier = {
+		defence = 0.1
+		damage = -0.2
+	}
+	random = no
+}
+
+experimenter = {
+	leader = yes
+	
+	command_modifier = {
+		random = 0.3
+	}
+	random = no
+}
+
+flanker = {
+	leader = yes
+	
+	command_modifier = {
+		flank = 0.2
+		center = -0.2
+	}
+	random = no
+}
+
+aggressive_leader = {
+	leader = yes
+	
+	command_modifier = {
+		pursue = 0.2
+		damage = 0.1
+		defence = -0.2
+	}
+	random = no
+}
+
+siege_leader = {
+	leader = yes
+	
+	command_modifier = {
+		siege = 0.4
+	}
+	random = no
+}
