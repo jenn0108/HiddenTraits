@@ -8,9 +8,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="gluttonous"
-	trait="legit_bastard"
-	trait="fortune_builder"
+	trait = "gluttonous_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "fortune_builder_hidden"
 	father=100509 # Emund Slemme
 	1029.1.2={
 		birth="1029.1.2"
@@ -31,10 +31,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="lustful"
-	trait="wroth"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=100521
 	mother=100510
 	
@@ -46,7 +46,7 @@
 	}
 	
 	1066.1.1={
-		trait="pneumonic"
+		trait = "pneumonic_hidden"
 	}
 	
 	1066.9.25={
@@ -63,8 +63,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=100522
 	mother=100514
 	1047.1.2={
@@ -84,9 +84,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="kind"
-	trait="zealous"
-	trait="underhanded_rogue"
+	trait = "kind_hidden"
+	trait = "zealous_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=100522
 	mother=100514
 	1050.1.8={
@@ -104,8 +104,8 @@
 	diplomacy=3
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=100522 # Stenkil - Speculation
 	mother=100514 # Speculation
 	1046.1.4={
@@ -126,9 +126,9 @@
 	stewardship=4
 	religion="catholic" # Possibly Norse Pagan
 	culture="swedish"
-	trait="cynical"
-	trait="legit_bastard"
-	trait="intricate_webweaver"
+	trait = "cynical_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=100522 # Stenkil - Speculation
 	# mother=100514 # Presumed to have been a Bastard of Stenkil's	
 	1048.6.2={
@@ -149,10 +149,10 @@
 	stewardship=4
 	religion="norse_pagan"
 	culture="swedish"
-	trait="lustful"
-	trait="honest"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "lustful_hidden"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1048.1.2={
 		birth="1048.1.2"
 	}
@@ -170,8 +170,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="zealous"
-	trait="amateurish_plotter"
+	trait = "zealous_hidden"
+	trait = "amateurish_plotter_hidden"
 	1049.1.2={
 		birth="1049.1.2"
 	}
@@ -189,8 +189,8 @@
 	stewardship=6
 	religion="norse_pagan"
 	culture="swedish"
-	trait="cynical"
-	trait="amateurish_plotter"
+	trait = "cynical_hidden"
+	trait = "amateurish_plotter_hidden"
 	1030.1.2={
 		birth="1030.1.2"
 	}
@@ -208,8 +208,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father = 100529
 	1056.1.1={
 		birth="1056.1.1"
@@ -229,8 +229,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="hunchback"
-	trait="underhanded_rogue"
+	trait = "hunchback_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=100532
 	mother=100543
 	1030.1.1={
@@ -250,7 +250,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=100538
 	mother=100535
 	1047.1.1={
@@ -273,7 +273,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=100538
 	mother=100535
 	1052.1.1={
@@ -293,7 +293,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1025.1.1={
 		birth="1025.1.1"
 	}
@@ -314,8 +314,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=100539
 	mother=100534
 	1030.1.1={
@@ -336,8 +336,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="envious"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1024.1.1={
 		birth="1024.1.1"
 	}
@@ -355,7 +355,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=100533
 	mother=100541
 	1055.1.1={
@@ -375,8 +375,8 @@
 	stewardship=4
 	religion="norse_pagan"
 	culture="swedish"
-	trait="kind"
-	trait="scholarly_theologian"
+	trait = "kind_hidden"
+	trait = "scholarly_theologian_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}
@@ -398,9 +398,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="greedy"
-	trait="humble"
-	trait="flamboyant_schemer"
+	trait = "greedy_hidden"
+	trait = "humble_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1045.1.2={
 		birth="1045.1.2"
 	}
@@ -421,9 +421,9 @@
 	stewardship=4
 	religion="norse_pagan"
 	culture="swedish"
-	trait="envious"
-	trait="tough_soldier"
-	trait="legit_bastard"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
+	trait = "legit_bastard_hidden"
 	father=100509 # Emund the Old, speculative
 	1031.1.1={
 		birth="1031.1.1"
@@ -449,9 +449,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="honest"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1046.1.2={
 		birth="1046.1.2"
 	}
@@ -469,8 +469,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="underhanded_rogue"
+	trait = "diligent_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=100523
 	
 	1075.1.2={
@@ -494,8 +494,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="kind"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "tough_soldier_hidden"
 	father=100523
 	1078.1.2={
 		birth="1078.1.2"
@@ -518,8 +518,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="trusting"
-	trait="thrifty_clerk"
+	trait = "trusting_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=100524 # Possibly
 	
 	1075.1.8={
@@ -582,10 +582,10 @@
 	stewardship=5
 	religion="norse_pagan"
 	culture="swedish"
-	trait="charitable"
-	trait="envious"
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "charitable_hidden"
+	trait = "envious_hidden"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -604,7 +604,7 @@
 	stewardship=4
 	religion="norse_pagan"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -622,7 +622,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -640,10 +640,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="lustful"
-	trait="wroth"
-	trait="inbred"
-	trait="amateurish_plotter"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "inbred_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -662,7 +662,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -681,11 +681,11 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="slothful"
-	trait="wroth"
-	trait="brave"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "slothful_hidden"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -703,8 +703,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="gluttonous"
-	trait="charismatic_negotiator"
+	trait = "gluttonous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -722,8 +722,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="deceitful"
-	trait="martial_cleric"
+	trait = "deceitful_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -747,8 +747,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -766,9 +766,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="clubfooted"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "clubfooted_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -786,10 +786,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="temperate"
-	trait="honest"
-	trait="ill"
-	trait="martial_cleric"
+	trait = "temperate_hidden"
+	trait = "honest_hidden"
+	trait = "ill_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -807,8 +807,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="gluttonous"
-	trait="thrifty_clerk"
+	trait = "gluttonous_hidden"
+	trait = "thrifty_clerk_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -827,7 +827,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -863,9 +863,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="brave"
-	trait="martial_cleric"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "martial_cleric_hidden"
 	1149.1.1={
 		birth="1149.1.1"
 	}
@@ -883,7 +883,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1140.1.1={
 		birth="1140.1.1"
 	}
@@ -901,8 +901,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -920,7 +920,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=200009
 	mother=202506
 	1183.1.1={
@@ -940,8 +940,8 @@
 	stewardship=7
 	religion="norse_pagan"
 	culture="swedish"
-	trait="harelip"
-	trait="martial_cleric"
+	trait = "harelip_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -959,7 +959,7 @@
 	stewardship=7
 	religion="norse_pagan"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -977,9 +977,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="ill"
-	trait="fortune_builder"
+	trait = "humble_hidden"
+	trait = "ill_hidden"
+	trait = "fortune_builder_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}	
@@ -997,8 +997,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="skilled_tactician"
+	trait = "wroth_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1016,7 +1016,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1034,9 +1034,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="lustful"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1054,7 +1054,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1072,8 +1072,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="skilled_tactician"
+	trait = "wroth_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1092,9 +1092,9 @@
 	stewardship=5
 	religion="norse_pagan"
 	culture="swedish"
-	trait="patient"
-	trait="craven"
-	trait="underhanded_rogue"
+	trait = "patient_hidden"
+	trait = "craven_hidden"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1112,8 +1112,8 @@
 	stewardship=6
 	religion="norse_pagan"
 	culture="swedish"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1131,10 +1131,10 @@
 	stewardship=8
 	religion="norse_pagan"
 	culture="swedish"
-	trait="patient"
-	trait="kind"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "kind_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1165,8 +1165,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="martial_cleric"
+	trait = "just_hidden"
+	trait = "martial_cleric_hidden"
 	1120.1.1={
 		birth="1120.1.1"
 	}
@@ -1174,7 +1174,7 @@
 		add_spouse=200491 # Kristina Björnsdotter
 	}
 	1150.1.1={
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1160.6.6={
 		death="1160.6.6"
@@ -1228,8 +1228,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="gluttonous"
-	trait="naive_appeaser"
+	trait = "gluttonous_hidden"
+	trait = "naive_appeaser_hidden"
 	father=200490
 	mother=200491
 	1146.1.1={
@@ -1252,8 +1252,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="skilled_tactician"
+	trait = "just_hidden"
+	trait = "skilled_tactician_hidden"
 	father=200500
 	mother=200520
 	1171.1.2={
@@ -1273,9 +1273,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="deceitful"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "deceitful_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200500
 	mother=200520
 	1173.1.2={
@@ -1295,8 +1295,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=200500
 	mother=200520
 	1175.1.2={
@@ -1316,8 +1316,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=200500 # Knut, King of Sweden
 	mother=200520
 	1180.1.2={
@@ -1341,9 +1341,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="cynical"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=200500
 	mother=200520
 	1169.1.2={
@@ -1364,9 +1364,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="kind"
-	trait="charismatic_negotiator"
+	trait = "just_hidden"
+	trait = "kind_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=200490
 	1158.1.2={
 		birth="1158.1.2"
@@ -1385,10 +1385,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="lisp"
-	trait="clubfooted"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "lisp_hidden"
+	trait = "clubfooted_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200504 # Erik Knutsson
 	mother=201506
 	1216.1.2={
@@ -1415,8 +1415,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="temperate"
-	trait="charismatic_negotiator"
+	trait = "temperate_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=144649
 	1206.1.1={
 		birth="1206.1.1"
@@ -1438,11 +1438,11 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait=quick
-	trait=diligent
-	trait=just
-	trait=strong
-	trait="fortune_builder"
+	trait = "quick_hidden"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "strong_hidden"
+	trait = "fortune_builder_hidden"
 	1045.1.1={
 		birth="1045.1.1"
 	}
@@ -1464,7 +1464,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1482,9 +1482,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="deceitful"
-	trait="wroth"
-	trait="underhanded_rogue"
+	trait = "deceitful_hidden"
+	trait = "wroth_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=200535 # Folke the Fat
 	mother=101550 # Ingegerd Knudsdatter
 	1110.1.1={
@@ -1508,9 +1508,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="hunchback"
-	trait="thrifty_clerk"
+	trait = "just_hidden"
+	trait = "hunchback_hidden"
+	trait = "thrifty_clerk_hidden"
 	1127.1.2={
 		birth="1127.1.2"
 	}
@@ -1529,9 +1529,9 @@
 	stewardship=9
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="patient"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=200521
 	mother=200522
 	1141.1.2={
@@ -1554,10 +1554,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="charitable"
-	trait="proud"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "proud_hidden"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	father=200523
 	mother=202513
 	1163.1.2={
@@ -1577,9 +1577,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="deceitful"
-	trait="hunchback"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "hunchback_hidden"
+	trait = "tough_soldier_hidden"
 	father=200523
 	mother=202513
 	1162.1.2={
@@ -1602,9 +1602,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="temperate"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "temperate_hidden"
+	trait = "skilled_tactician_hidden"
 	father=200523
 	mother=202513
 	1166.1.1={
@@ -1624,9 +1624,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="greedy"
-	trait="stutter"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "stutter_hidden"
+	trait = "tough_soldier_hidden"
 	father=200523
 	mother=202513
 	1168.1.2={
@@ -1648,9 +1648,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="temperate"
-	trait="naive_appeaser"
+	trait = "patient_hidden"
+	trait = "temperate_hidden"
+	trait = "naive_appeaser_hidden"
 	father=200523 # Birger Brosa
 	mother=202513
 	1180.1.2={
@@ -1671,8 +1671,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200523
 	mother=202513
 	1172.1.2={
@@ -1693,10 +1693,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="cynical"
-	trait="harelip"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "cynical_hidden"
+	trait = "harelip_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200523
 	mother=202513
 	1174.1.2={
@@ -1716,9 +1716,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=200540
 	mother=200542
 	1175.10.1={
@@ -1739,8 +1739,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="slothful"
-	trait="thrifty_clerk"
+	trait = "slothful_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200540
 	mother=200542
 	1180.1.2={
@@ -1780,9 +1780,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=200526
 	1192.1.1={
 		birth="1192.1.1"
@@ -1805,8 +1805,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="gluttonous"
-	trait="fortune_builder"
+	trait = "gluttonous_hidden"
+	trait = "fortune_builder_hidden"
 	father=200519 # Ingevald
 	1080.1.1={
 		birth="1080.1.1"
@@ -1828,10 +1828,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="lustful"
-	trait="brave"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "brave_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	father=200521
 	mother=200522
 	1150.1.1={
@@ -1857,9 +1857,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="zealous"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "martial_cleric_hidden"
 	father=200521
 	mother=200522
 	1165.1.2={
@@ -1879,10 +1879,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="chaste"
-	trait="ill"
-	trait="amateurish_plotter"
+	trait = "wroth_hidden"
+	trait = "chaste_hidden"
+	trait = "ill_hidden"
+	trait = "amateurish_plotter_hidden"
 	1148.1.1={
 		birth="1148.1.1"
 	}
@@ -1900,7 +1900,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=200525
 	mother=200505
 	1185.1.2={
@@ -1920,9 +1920,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	1147.1.2={
 		birth="1147.1.2"
 	}
@@ -1940,9 +1940,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="clubfooted"
-	trait="zealous"
-	trait="martial_cleric"
+	trait = "clubfooted_hidden"
+	trait = "zealous_hidden"
+	trait = "martial_cleric_hidden"
 	father = 100530
 	1100.1.1={
 		birth="1100.1.1"
@@ -1967,8 +1967,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=200600
 	mother=200601
 	1136.1.1={
@@ -1991,9 +1991,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=200602
 	mother=200603
 	1164.1.1={
@@ -2019,8 +2019,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	father=200600
 	mother=221511
 	1154.1.2={
@@ -2042,9 +2042,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200606
 	1175.1.1={
 		birth="1175.1.1"
@@ -2063,9 +2063,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="content"
-	trait="legit_bastard"
-	trait="tough_soldier"
+	trait = "content_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=200600
 	1135.1.2={
 		birth="1135.1.2"
@@ -2085,8 +2085,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=200604 # Sverker den Yngre
 	mother=200528 # Ingegärd Birgersdotter
 	1201.1.1={
@@ -2108,7 +2108,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=200604 # Sverker den Yngre
 	mother=200605 # Benedicta Ebbesdotter
 	1185.1.1={
@@ -2130,9 +2130,9 @@
 	stewardship=7
 	religion="orthodox"
 	culture="swedish"
-	trait="slothful"
-	trait="arbitrary"
-	trait="fortune_builder"
+	trait = "slothful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "fortune_builder_hidden"
 	father=100524
 	1080.1.2={
 		birth="1080.1.2"
@@ -2180,7 +2180,7 @@
 	dynasty=155
 	religion="catholic"
 	culture="swedish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=450510
 	mother=450511
 	1240.1.1={
@@ -2201,11 +2201,11 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="charitable"
-	trait="cynical"
-	trait="brave"
-	trait="harelip"
-	trait="naive_appeaser"
+	trait = "charitable_hidden"
+	trait = "cynical_hidden"
+	trait = "brave_hidden"
+	trait = "harelip_hidden"
+	trait = "naive_appeaser_hidden"
 	father=450501 # Duke Erik Magnusson
 	mother=452505
 	1316.4.20={
@@ -2229,8 +2229,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="charitable"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "martial_cleric_hidden"
 	father=450502
 	mother=450503
 	1282.1.1={
@@ -2258,8 +2258,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="honest"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "skilled_tactician_hidden"
 	father=450510
 	mother=450511
 	1240.1.2={
@@ -2283,9 +2283,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "chaste_hidden"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	father=450502
 	mother=450503
 	1280.1.2={
@@ -2320,15 +2320,15 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="content"
-	trait="martial_cleric"
+	trait = "content_hidden"
+	trait = "martial_cleric_hidden"
 	father=450502
 	mother=450503
 	1277.1.2={
 		birth="1277.1.2"
 	}
 	1319.1.1={
-		trait="celibate"
+		trait = "celibate_hidden"
 	}
 	1319.4.5={
 		death="1319.4.5"
@@ -2345,7 +2345,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=450510
 	mother=450511
 	1240.1.1={
@@ -2373,8 +2373,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450506
 	mother=451511
 	1263.1.2={
@@ -2396,8 +2396,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="zealous"
-	trait="flamboyant_schemer"
+	trait = "zealous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450501
 	mother=452505
 	1317.1.2={
@@ -2419,7 +2419,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=450510
 	mother=450511
 	1242.1.2={
@@ -2440,11 +2440,11 @@
 	stewardship=10
 	religion="catholic"
 	culture="swedish"
-	trait="kind"
-	trait="humble"
-	trait="patient"
-	trait="brave"
-	trait="grey_eminence"
+	trait = "kind_hidden"
+	trait = "humble_hidden"
+	trait = "patient_hidden"
+	trait = "brave_hidden"
+	trait = "grey_eminence_hidden"
 	father=200540 # Magnus Minnisköld
 	mother=200607 # Ingrid Ylva
 	1205.1.1={
@@ -2472,9 +2472,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="temperate"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "temperate_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=200504 # Erik Knutsson, king of Sweden
 	mother=201506
 	1214.1.1={
@@ -2498,10 +2498,10 @@
 	learning=7
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="patient"
-	trait="brave"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "patient_hidden"
+	trait = "brave_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=200540 # Magnus Minnisköld
 	mother=200607 # Ingrid Ylva
 	1198.1.1={
@@ -2523,7 +2523,7 @@
 	learning=5
 	religion="catholic"
 	culture="swedish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=450512 # Bengt Magnusson
 	1221.1.1={
 		birth="1221.1.1"
@@ -2544,7 +2544,7 @@
 	learning=7
 	religion="catholic"
 	culture="swedish"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=450513 # Magnus Bengtsson
 	1241.1.1={
 		birth="1241.1.1"
@@ -2564,10 +2564,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="greedy"
-	trait="diligent"
-	trait="lustful"
-	trait="elusive_shadow"
+	trait = "greedy_hidden"
+	trait = "diligent_hidden"
+	trait = "lustful_hidden"
+	trait = "elusive_shadow_hidden"
 	father = 450760
 	1321.1.1={
 		birth="1321.1.1"
@@ -2587,7 +2587,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=450601
 	mother=450602
 	1294.1.2={
@@ -2611,9 +2611,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="proud"
-	trait="cynical"
-	trait="skilled_tactician"
+	trait = "proud_hidden"
+	trait = "cynical_hidden"
+	trait = "skilled_tactician_hidden"
 	father=450604
 	#mother=450605
 	1269.1.2={
@@ -2636,7 +2636,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1274.1.2={
 		birth="1274.1.2"
 	}
@@ -2656,8 +2656,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="arbitrary"
-	trait="scholarly_theologian"
+	trait = "arbitrary_hidden"
+	trait = "scholarly_theologian_hidden"
 	1304.1.2={
 		birth="1304.1.2"
 	}
@@ -2676,7 +2676,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1244.1.2={
 		birth="1244.1.2"
 	}
@@ -2694,8 +2694,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="thrifty_clerk"
+	trait = "humble_hidden"
+	trait = "thrifty_clerk_hidden"
 	1290.1.1={
 		birth="1290.1.1"
 	}
@@ -2715,8 +2715,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="stutter"
-	trait="thrifty_clerk"
+	trait = "stutter_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=450600
 	mother=450603
 	1329.1.2={
@@ -2737,9 +2737,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "chaste_hidden"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	father=450502 # Magnus Ladulås
 	mother=450503
 	1284.6.6={
@@ -2766,7 +2766,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=450611
 	mother=450612
 	1300.1.2={
@@ -2787,8 +2787,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="brave"
-	trait="flamboyant_schemer"
+	trait = "brave_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450604
 	#mother=450605
 	1265.1.2={
@@ -2811,7 +2811,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1269.1.2={
 		birth="1269.1.2"
 	}
@@ -2830,9 +2830,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="slothful"
-	trait="craven"
-	trait="thrifty_clerk"
+	trait = "slothful_hidden"
+	trait = "craven_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=450611
 	mother=450612
 	1292.1.2={
@@ -2857,8 +2857,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="zealous"
-	trait="flamboyant_schemer"
+	trait = "zealous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=161122
 	1295.1.1={
 		birth="1295.1.1"
@@ -2879,8 +2879,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450613
 	mother=450614
 	1316.1.2={
@@ -2901,8 +2901,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="slothful"
-	trait="amateurish_plotter"
+	trait = "slothful_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450611
 	mother=450612
 	1301.1.2={
@@ -2923,8 +2923,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="inbred"
-	trait="flamboyant_schemer"
+	trait = "inbred_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450631
 	mother=450632
 	1289.1.2={
@@ -2948,8 +2948,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="envious"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1250.1.2={
 		birth="1250.1.2"
 	}
@@ -2970,8 +2970,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1260.1.2={
 		birth="1260.1.2"
 	}
@@ -2991,9 +2991,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450634
 	mother=450635
 	1280.1.2={
@@ -3014,9 +3014,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="brave"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1245.1.2={
 		birth="1245.1.2"
 	}
@@ -3036,8 +3036,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="honest"
-	trait="fortune_builder"
+	trait = "honest_hidden"
+	trait = "fortune_builder_hidden"
 	1255.1.2={
 		birth="1255.1.2"
 	}
@@ -3057,9 +3057,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="deceitful"
-	trait="just"
-	trait="thrifty_clerk"
+	trait = "deceitful_hidden"
+	trait = "just_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=450630
 	mother=450633
 	1316.1.2={
@@ -3080,8 +3080,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="charismatic_negotiator"
+	trait = "patient_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1281.1.2={
 		birth="1281.1.2"
 	}
@@ -3104,8 +3104,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="kind"
-	trait="amateurish_plotter"
+	trait = "kind_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450647
 	mother=450659
 	1309.1.2={
@@ -3126,8 +3126,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="craven"
-	trait="tough_soldier"
+	trait = "craven_hidden"
+	trait = "tough_soldier_hidden"
 	father=450647
 	mother=450659
 	1313.1.2={
@@ -3148,7 +3148,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=450651
 	mother=450652
 	1272.1.2={
@@ -3172,9 +3172,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "patient_hidden"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	1212.1.2={
 		birth="1212.1.2"
 	}
@@ -3197,7 +3197,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=450654
 	mother=450655
 	1257.1.1={
@@ -3219,9 +3219,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="envious"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	father=450514 # Bengt Magnusson
 	1274.1.1={
 		birth="1274.1.1"
@@ -3242,7 +3242,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=200534 # Sune Folkesson
 	mother=200610 # Helena Sverkersdotter
 	1213.1.1={
@@ -3263,7 +3263,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=450650
 	mother=450653
 	1290.1.2={
@@ -3284,8 +3284,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="envious"
-	trait="amateurish_plotter"
+	trait = "envious_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450650
 	mother=450653
 	1291.1.2={
@@ -3306,7 +3306,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=450650
 	mother=450653
 	1294.1.2={
@@ -3328,7 +3328,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=450650
 	mother=450653
 	1294.1.2={
@@ -3349,11 +3349,11 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="diligent"
-	trait="wroth"
-	trait="arbitrary"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "wroth_hidden"
+	trait = "arbitrary_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=450681
 	mother=450652
 	1302.1.2={
@@ -3374,8 +3374,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	1268.1.2={
 		birth="1268.1.2"
 	}
@@ -3397,8 +3397,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="charitable"
-	trait="amateurish_plotter"
+	trait = "charitable_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450681
 	mother=450652
 	1307.1.2={
@@ -3443,7 +3443,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=450691
 	mother=450833
 	1298.1.2={
@@ -3467,8 +3467,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1266.1.1={
 		birth="1266.1.1"
 	}
@@ -3491,9 +3491,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="greedy"
-	trait="honest"
-	trait="martial_cleric"
+	trait = "greedy_hidden"
+	trait = "honest_hidden"
+	trait = "martial_cleric_hidden"
 	father=450693
 	mother=450717
 	1327.1.2={
@@ -3514,8 +3514,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450691
 	mother=450833
 	1295.1.1={
@@ -3560,7 +3560,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=450690
 	mother=450716
 	1327.1.2={
@@ -3582,8 +3582,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="temperate"
-	trait="thrifty_clerk"
+	trait = "temperate_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=450690
 	mother=450716
 	1329.1.2={
@@ -3605,8 +3605,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="martial_cleric"
+	trait = "patient_hidden"
+	trait = "martial_cleric_hidden"
 	father=450690
 	mother=450716
 	1331.1.2={
@@ -3667,9 +3667,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="brave"
-	trait="flamboyant_schemer"
+	trait = "humble_hidden"
+	trait = "brave_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450701
 	mother=450702
 	1295.1.2={
@@ -3693,10 +3693,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="lustful"
-	trait="kind"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "lustful_hidden"
+	trait = "kind_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	1257.1.2={
 		birth="1257.1.2"
 	}
@@ -3719,8 +3719,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="proud"
-	trait="scholarly_theologian"
+	trait = "proud_hidden"
+	trait = "scholarly_theologian_hidden"
 	1266.1.2={
 		birth="1266.1.2"
 	}
@@ -3740,7 +3740,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1300.1.2={
 		birth="1300.1.2"
 	}
@@ -3760,9 +3760,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="deceitful"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "deceitful_hidden"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	father=450700
 	mother=450703
 	1325.1.2={
@@ -3784,8 +3784,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=450701
 	mother=450702
 	1287.1.2={
@@ -3806,7 +3806,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=450711
 	mother=450712
 	1305.1.2={
@@ -3830,9 +3830,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="arbitrary"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "arbitrary_hidden"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1265.1.1={
 		birth="1265.1.1"
 	}
@@ -3855,7 +3855,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=450514 # Bengt Magnusson
 	1280.1.1={
 		birth="1280.1.1"
@@ -3876,9 +3876,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="deceitful"
-	trait="lisp"
-	trait="scholarly_theologian"
+	trait = "deceitful_hidden"
+	trait = "lisp_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=450718
 	mother=450705
 	1310.1.2={
@@ -3900,7 +3900,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=450710
 	mother=450713
 	1325.1.2={
@@ -3922,7 +3922,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=450710
 	mother=450713
 	1328.1.2={
@@ -3944,11 +3944,11 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="chaste"
-	trait="deceitful"
-	trait="proud"
-	trait="zealous"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "deceitful_hidden"
+	trait = "proud_hidden"
+	trait = "zealous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450711
 	mother=450712
 	1303.1.1={
@@ -3970,8 +3970,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="flamboyant_schemer"
+	trait = "patient_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=450711
 	mother=450712
 	1300.1.2={
@@ -3992,8 +3992,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="arbitrary"
-	trait="tough_soldier"
+	trait = "arbitrary_hidden"
+	trait = "tough_soldier_hidden"
 	1284.1.2={
 		birth="1284.1.2"
 	}
@@ -4015,8 +4015,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="martial_cleric"
+	trait = "patient_hidden"
+	trait = "martial_cleric_hidden"
 	father=450721
 	mother=450722
 	1278.1.2={
@@ -4040,7 +4040,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1240.1.2={
 		birth="1240.1.2"
 	}
@@ -4063,7 +4063,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=450830
 	mother=450832
 	1248.1.1={
@@ -4085,8 +4085,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=450724
 	mother=450725
 	1290.1.2={
@@ -4106,8 +4106,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	1265.1.2={
 		birth="1265.1.2"
 	}
@@ -4129,8 +4129,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="just"
-	trait="scholarly_theologian"
+	trait = "just_hidden"
+	trait = "scholarly_theologian_hidden"
 	1270.1.2={
 		birth="1270.1.2"
 	}
@@ -4150,7 +4150,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=450720
 	mother=450723
 	1315.1.2={
@@ -4171,7 +4171,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=450720
 	mother=450723
 	1320.1.2={
@@ -4193,7 +4193,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=450720
 	mother=450723
 	1327.1.2={
@@ -4214,7 +4214,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=450720
 	mother=450723
 	1329.1.2={
@@ -4234,8 +4234,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="envious"
-	trait="skilled_tactician"
+	trait = "envious_hidden"
+	trait = "skilled_tactician_hidden"
 	1290.1.1={
 		birth="1290.1.1"
 	}
@@ -4255,7 +4255,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=450690
 	mother=450716
 	1319.1.2={
@@ -4276,8 +4276,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="slothful"
-	trait="amateurish_plotter"
+	trait = "slothful_hidden"
+	trait = "amateurish_plotter_hidden"
 	father = 144670
 	1232.1.1={
 		birth="1232.1.1"
@@ -4296,8 +4296,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="humble"
-	trait="thrifty_clerk"
+	trait = "humble_hidden"
+	trait = "thrifty_clerk_hidden"
 	1253.1.2={
 		birth="1253.1.2"
 	}
@@ -4315,9 +4315,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="proud"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "proud_hidden"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	1230.1.2={
 		birth="1230.1.2"
 	}
@@ -4337,7 +4337,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=450830
 	mother=450831
 	1273.1.1={
@@ -4358,7 +4358,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="swedish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=450841
 	1330.1.2={
 		birth="1330.1.2"
@@ -4378,8 +4378,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="envious"
-	trait="amateurish_plotter"
+	trait = "envious_hidden"
+	trait = "amateurish_plotter_hidden"
 	1290.1.2={
 		birth="1290.1.2"
 	}
@@ -4398,8 +4398,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="swedish"
-	trait="patient"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "amateurish_plotter_hidden"
 	1275.1.2={
 		birth="1275.1.2"
 	}
@@ -4418,8 +4418,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="clubfooted"
-	trait="charismatic_negotiator"
+	trait = "clubfooted_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1270.1.2={
 		birth="1270.1.2"
 	}
@@ -4437,8 +4437,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="charitable"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "martial_cleric_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -4456,9 +4456,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="greedy"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -4476,10 +4476,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="brave"
-	trait="cynical"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "cynical_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -4524,8 +4524,8 @@
 	dynasty=155
 	religion="catholic"
 	culture="swedish"
-	trait="celibate"
-	trait="scholarly_theologian"
+	trait = "celibate_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=450510
 	mother=450511
 	1254.1.1={
@@ -4557,7 +4557,7 @@
 	dynasty=155
 	religion="catholic"
 	culture="swedish"
-	trait="legit_bastard"
+	trait = "legit_bastard_hidden"
 	father=450510
 	1240.1.1={
 		birth="1240.1.1"
@@ -4579,12 +4579,12 @@
 	intrigue=7
 	stewardship=5
 	learning=5
-	trait="brilliant_strategist"
-	trait="cruel"
-	trait="temperate"
-	trait="envious"
-	trait="deceitful"
-	trait="ambitious"
+	trait = "brilliant_strategist_hidden"
+	trait = "cruel_hidden"
+	trait = "temperate_hidden"
+	trait = "envious_hidden"
+	trait = "deceitful_hidden"
+	trait = "ambitious_hidden"
 	1030.1.1 = {
 		birth="1030.1.1"
 	}
@@ -4608,10 +4608,10 @@
 	intrigue=7
 	stewardship=3
 	learning=6
-	trait="elusive_shadow"
-	trait="deceitful"
-	trait="gluttonous"
-	trait="craven"
+	trait = "elusive_shadow_hidden"
+	trait = "deceitful_hidden"
+	trait = "gluttonous_hidden"
+	trait = "craven_hidden"
 	1022.1.1 = {
 		birth="1022.1.1"
 	}
@@ -4633,10 +4633,10 @@
 	stewardship=5
 	religion="norse_pagan"
 	culture="swedish"
-	trait="just"
-	trait="envious"
-	trait="patient"
-	trait="scholarly_theologian"
+	trait = "just_hidden"
+	trait = "envious_hidden"
+	trait = "patient_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=100502 #Olof
 	960.1.1={
 		birth="960.1.1"
@@ -4659,9 +4659,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="swedish"
-	trait="proud"
-	trait="deceitful"
-	trait="intricate_webweaver"
+	trait = "proud_hidden"
+	trait = "deceitful_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=100552 # Ragnvald
 	1105.1.1={
 		birth="1105.1.1"
@@ -4849,12 +4849,12 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1120.1.1={
 		birth="1120.1.1"
 	}
 	1150.1.1={
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1152.1.1={
 		add_spouse = 202043
@@ -4874,10 +4874,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="swedish"
-	trait="lustful"
-	trait="humble"
-	trait="arbitrary"
-	trait="amateurish_plotter"
+	trait = "lustful_hidden"
+	trait = "humble_hidden"
+	trait = "arbitrary_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=202044
 	mother=202043
 	1162.1.1={
@@ -5596,7 +5596,7 @@
 	dynasty=9518
 	religion="catholic"
 	culture="swedish"
-	trait="legit_bastard"
+	trait = "legit_bastard_hidden"
 	father=167332
 	1055.1.1 = {
 		birth="1055.1.1"
@@ -6088,7 +6088,7 @@
 	dynasty=9519
 	religion="catholic"
 	culture="swedish"
-	trait="legit_bastard"
+	trait = "legit_bastard_hidden"
 	father=167353
 	1150.1.1 = {
 		birth="1150.1.1"
@@ -6438,7 +6438,7 @@
 	dynasty=9520
 	religion="catholic"
 	culture="swedish"
-	trait="twin"
+	trait = "twin_hidden"
 	father=167372
 	mother=167377
 	1162.1.1 = {
@@ -6458,7 +6458,7 @@
 	dynasty=9520
 	religion="catholic"
 	culture="swedish"
-	trait="twin"
+	trait = "twin_hidden"
 	father=167372
 	mother=167377
 	1162.1.1 = {
@@ -6499,8 +6499,8 @@
 	stewardship=8
 	religion="norse_pagan"
 	culture="swedish"
-	trait="just"
-	trait="charismatic_negotiator"
+	trait = "just_hidden"
+	trait = "charismatic_negotiator_hidden"
     father=100521
     mother=102545
 	1001.1.2={
@@ -6516,7 +6516,7 @@
 	dynasty=496
 	religion="catholic"
 	culture="swedish"
-        trait="cruel"
+        trait = "cruel_hidden"
 	father=200600
 	mother=200601
 	1135.1.1={
@@ -6595,7 +6595,7 @@
 	dynasty=155
 	religion="catholic"
 	culture="swedish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=200534 # Sune Folkesson
 	mother=200610 # Helena Sverkersdotter
 	1212.1.1={
@@ -6641,8 +6641,8 @@
 	dynasty=155
 	religion="catholic"
 	culture="swedish"
-	trait="brave"
-	trait="scholarly_theologian"
+	trait = "brave_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=200540 # Magnus Minnisköld
 	mother=200607 # Ingrid Ylva
 	1196.1.1={
@@ -7197,8 +7197,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="swedish"
-	trait="legit_bastard"
-	trait="underhanded_rogue"
+	trait = "legit_bastard_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=100506
 	mother=100507
 	1009.1.2={

@@ -7,8 +7,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=101532
     mother=100554 #Ingrid Ragnvaldsdotter
 	1122.1.15={
@@ -28,10 +28,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="lustful"
-	trait="wroth"
-	trait="zealous"
-	trait="midas_touched"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "zealous_hidden"
+	trait = "midas_touched_hidden"
 	father=101535 # Ulf Torgilsson
 	mother=101509 # Estrid
 	1019.1.1={
@@ -65,9 +65,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="arbitrary"
-	trait="legit_bastard"
-	trait="thrifty_clerk"
+	trait = "arbitrary_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=101515 #Svend Estridsson
 	mother=102562 #Rannveig Tordsdatter
 	1052.1.1={
@@ -88,10 +88,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="kind"
-	trait="content"
-	trait="amateurish_plotter"
+	trait = "legit_bastard_hidden"
+	trait = "kind_hidden"
+	trait = "content_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=101515 #Svend Estridsson
 	1041.1.1={
 		birth="1041.1.1"
@@ -114,9 +114,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="chaste"
-	trait="greedy"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "greedy_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=101536 # Asbjørn Jarl Ulfson
 	1041.1.2={
 		birth="1041.1.2"
@@ -135,10 +135,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="ambitious"
-	trait="zealous"
-	trait="legit_bastard"
-	trait="tough_soldier"
+	trait = "ambitious_hidden"
+	trait = "zealous_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=101515 #Svend Estridsson
 	1043.1.1={
 		birth="1043.1.1"
@@ -163,9 +163,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="cynical"
-	trait="amateurish_plotter"
+	trait = "legit_bastard_hidden"
+	trait = "cynical_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=101515 # Svend Estridsson
 	1050.1.1={
 		birth="1050.1.1"
@@ -187,12 +187,12 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="gregarious"
-	trait="strong"
-	trait="just"
-	trait="charitable"
-	trait="legit_bastard"
-	trait="charismatic_negotiator"
+	trait = "gregarious_hidden"
+	trait = "strong_hidden"
+	trait = "just_hidden"
+	trait = "charitable_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=101515 #Svend Estridsson
 	mother=102562 #Rannveig Tordsdatter
 	1055.1.1={
@@ -219,8 +219,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="martial_cleric"
+	trait = "legit_bastard_hidden"
+	trait = "martial_cleric_hidden"
 	father=101515 #Svend Estridsson
 	1043.1.1={
 		birth="1043.1.1"
@@ -239,8 +239,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="flamboyant_schemer"
+	trait = "legit_bastard_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=101515 #Svend Estridsson
 	1049.1.1={
 		birth="1049.1.1"
@@ -260,8 +260,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="flamboyant_schemer"
+	trait = "legit_bastard_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=101515 #Svend Estridsson
 	1050.1.1={	
 		birth="1050.1.1"
@@ -281,7 +281,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
+	trait = "legit_bastard_hidden"
 	father=101515 #Svend Estridsson
 	1062.1.1={
 		birth="1062.1.1"
@@ -300,15 +300,15 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="patient"
-	trait="legit_bastard"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=101515 #Svend Estridsson
 	1056.1.2={
 		birth="1056.1.2"
 	}
 	1103.7.10={
-		trait="ill"
+		trait = "ill_hidden"
 	}
 	1103.7.10={
 		give_nickname=nick_the_usurper
@@ -328,9 +328,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="humble"
-	trait="charismatic_negotiator"
+	trait = "legit_bastard_hidden"
+	trait = "humble_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=101515 # Svend Estridsson
 	1048.9.1={
 		birth="1048.9.1"
@@ -350,9 +350,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="honest"
-	trait="legit_bastard"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=101515 # Svend Estridsson
 	1041.1.1={
 		birth="1041.1.1"
@@ -371,9 +371,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="clubfooted"
-	trait="legit_bastard"
-	trait="tough_soldier"
+	trait = "clubfooted_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=101515 #Svend Estridsson
 	1060.1.2={
 		birth="1060.1.2"
@@ -392,8 +392,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="thrifty_clerk"
+	trait = "legit_bastard_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=101515 #Svend Estridsson
 	1064.1.1={
 		birth="1064.1.1"
@@ -418,10 +418,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="strong"
-	trait="wroth"
-	trait="ambitious"
-	trait="misguided_warrior"
+	trait = "strong_hidden"
+	trait = "wroth_hidden"
+	trait = "ambitious_hidden"
+	trait = "misguided_warrior_hidden"
 	father=101530 # Niels Svendsson
 	mother=200494 # Margareta Ingesdotter
 	1107.1.1={
@@ -432,7 +432,7 @@
 		give_nickname=nick_the_strong
 	}
 	1131.1.7={
-		trait="kinslayer"
+		trait = "kinslayer_hidden"
 	}
 	1134.6.4={
 		death="1134.6.4"
@@ -449,10 +449,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="envious"
-	trait="wroth"
-	trait="maimed"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "wroth_hidden"
+	trait = "maimed_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=101526 # Svend 'Tronkræver'
 	1090.1.2={
 		birth="1090.1.2"
@@ -475,7 +475,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=101533 # Thorgil Sprakalegg
 	997.1.1={
 		birth="997.1.1"
@@ -501,8 +501,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="greedy"
-	trait="skilled_tactician"
+	trait = "greedy_hidden"
+	trait = "skilled_tactician_hidden"
 	father=101535 # Ulf
 	mother=101509 # Estrid
 	1025.1.1={
@@ -523,8 +523,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="temperate"
-	trait="thrifty_clerk"
+	trait = "temperate_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=101536 #Asbjørn Ulfsøn
 	1050.1.1={
 		birth="1050.1.1"
@@ -543,8 +543,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="greedy"
-	trait="martial_cleric"
+	trait = "greedy_hidden"
+	trait = "martial_cleric_hidden"
 	father=101538
 	1040.1.2={
 		birth="1040.1.2"
@@ -563,9 +563,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="honest"
-	trait="fair"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "fair_hidden"
+	trait = "tough_soldier_hidden"
 	father=101541 # Ulf
 	mother=102519 # Bodil
 	1033.1.1={
@@ -588,8 +588,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1026.1.2={
 		birth="1026.1.2"
 	}
@@ -607,7 +607,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=101546 # Ragnar
 	1055.1.2={
 		birth="1055.1.2"
@@ -627,9 +627,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="fair"
-	trait="kind"
-	trait="naive_appeaser"
+	trait = "fair_hidden"
+	trait = "kind_hidden"
+	trait = "naive_appeaser_hidden"
 	father=101542 # Thrugot Fagerskind Ulfssøn
 	mother=101545 # Thorgunna Vagnsdatter
 	1056.1.1={
@@ -651,7 +651,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=101519 	# Knud the Holy of Denmark
 	mother=369	# Adele of Flandres
 	1083.1.1={
@@ -669,7 +669,7 @@
 	dynasty=487
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=101519 	# Knud the Holy of Denmark
 	mother=369	# Adele of Flandres
 	1087.1.1={
@@ -710,7 +710,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=201516
     mother=167013
 	1106.1.1={
@@ -734,8 +734,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="gluttonous"
-	trait="amateurish_plotter"
+	trait = "gluttonous_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=201537 #Ebbe Sunesøn
 	mother=201544
 	1170.1.1={
@@ -757,8 +757,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="patient"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -776,10 +776,10 @@
 	stewardship=3
 	religion="catholic"
 	culture="danish"
-	trait="chaste"
-	trait="wroth"
-	trait="brave"
-	trait="fortune_builder"
+	trait = "chaste_hidden"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "fortune_builder_hidden"
 	father=201510 # Valdemar the Great
 	mother=222797
 	1163.1.1={
@@ -802,12 +802,12 @@
 	stewardship=11
 	religion="catholic"
 	culture="danish"
-	trait="lustful"
-	trait="diligent"
-	trait="charitable"
-	trait="wroth"
-	trait="cynical"
-	trait="skilled_tactician"
+	trait = "lustful_hidden"
+	trait = "diligent_hidden"
+	trait = "charitable_hidden"
+	trait = "wroth_hidden"
+	trait = "cynical_hidden"
+	trait = "skilled_tactician_hidden"
 	father=201510 # Valdemar the Great
 	mother=222797
 	1170.6.28={
@@ -837,7 +837,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=201510
 	mother=222797
 	1167.1.2={
@@ -858,7 +858,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=201510
 	mother=222797
 	1159.1.2={
@@ -879,7 +879,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=201510
 	mother=222797
 	1167.1.2={
@@ -900,7 +900,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=201510
 	mother=222797
 	1175.1.2={
@@ -921,7 +921,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=201510 # Valdemar the Great of Denmark
 	mother=222797
 	1180.1.2={
@@ -942,8 +942,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="wroth"
-	trait="thrifty_clerk"
+	trait = "wroth_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=201510
 	mother=222797
 	1180.1.1={
@@ -963,9 +963,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="chaste"
-	trait="brave"
-	trait="fortune_builder"
+	trait = "chaste_hidden"
+	trait = "brave_hidden"
+	trait = "fortune_builder_hidden"
 	father=101531 # Magnus den Starke
 	1125.1.1={
 		birth="1125.1.1"
@@ -987,10 +987,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="brave"
-	trait="proud"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "proud_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	father=201513 # Knud Lavard
 	mother=222593
 	1131.1.14={
@@ -1017,7 +1017,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=101521
 	1094.1.1={
 		birth="1094.1.1"
@@ -1037,7 +1037,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=201508
 	1157.1.1={
 		birth="1157.1.1"
@@ -1057,9 +1057,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="diligent"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	father=101521
 	1096.1.15={
 		birth="1096.1.15"
@@ -1082,8 +1082,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="slothful"
-	trait="underhanded_rogue"
+	trait = "slothful_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=167019
 	mother=201511 # Ragnhild, daughter of Erik Ejegod
 	1120.1.1={
@@ -1104,9 +1104,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "legit_bastard_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=101521
 	1080.1.15={
 		birth="1080.1.15"
@@ -1128,8 +1128,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="tough_soldier"
+	trait = "legit_bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=101521
 	1090.1.11={
 		birth="1090.1.11"
@@ -1151,8 +1151,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="tough_soldier"
+	trait = "legit_bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=201517 # Erik Emune
 	mother=222594
 	1131.1.14={
@@ -1176,9 +1176,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="lustful"
-	trait="temperate"
-	trait="charismatic_negotiator"
+	trait = "lustful_hidden"
+	trait = "temperate_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=201518
 	mother=212056
 	1157.1.15={
@@ -1198,19 +1198,19 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="just"
-	trait="genius"
-	trait="brave"
-	trait="zealous"
-	trait="celibate"
-	trait="mastermind_theologian"
+	trait = "just_hidden"
+	trait = "genius_hidden"
+	trait = "brave_hidden"
+	trait = "zealous_hidden"
+	trait = "celibate_hidden"
+	trait = "mastermind_theologian_hidden"
 	father=201523
 	mother=201524
 	1128.1.2={
 		birth="1128.1.2"
 	}
 	1160.1.1={
-		trait = "crusader"
+		trait = "crusader_hidden"
 	}
 	1201.3.21={
 		death="1201.3.21"
@@ -1226,11 +1226,11 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="zealous"
-	trait="hunchback"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "zealous_hidden"
+	trait = "hunchback_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=201523
 	mother=201524
 	1127.1.2={
@@ -1254,9 +1254,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="wroth"
-	trait="gluttonous"
-	trait="amateurish_plotter"
+	trait = "wroth_hidden"
+	trait = "gluttonous_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=201523
 	mother=201524
 	1132.1.2={
@@ -1276,11 +1276,11 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="chaste"
-	trait="charitable"
-	trait="honest"
-	trait="ill"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "charitable_hidden"
+	trait = "honest_hidden"
+	trait = "ill_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=201530
 	1107.1.2={
 		birth="1107.1.2"
@@ -1302,9 +1302,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="honest"
-	trait="temperate"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "temperate_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1109.1.2={
 		birth="1109.1.2"
 	}
@@ -1323,7 +1323,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=201521 # Esbern Snare
 	mother=202045 # Helena Guttormsdatter
 	1183.1.1={
@@ -1343,7 +1343,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=101538
 	1034.1.1={
 		birth="1034.1.1"
@@ -1365,9 +1365,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="proud"
-	trait="flamboyant_schemer"
+	trait = "charitable_hidden"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=201530 #Skjalm
 	1085.1.1={
 		birth="1085.1.1"
@@ -1386,9 +1386,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="lustful"
-	trait="thrifty_clerk"
+	trait = "charitable_hidden"
+	trait = "lustful_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=201532 #Ebbe Skjalmsen
 	1130.1.2={
 		birth="1130.1.2"
@@ -1411,11 +1411,11 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="lustful"
-	trait="humble"
-	trait="gluttonous"
-	trait="kind"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "humble_hidden"
+	trait = "gluttonous_hidden"
+	trait = "kind_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1132.1.2={
 		birth="1132.1.2"
 	}
@@ -1434,9 +1434,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="kind"
-	trait="patient"
-	trait="scholarly_theologian"
+	trait = "kind_hidden"
+	trait = "patient_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1157.1.2={
@@ -1456,12 +1456,12 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="proud"
-	trait="diligent"
-	trait="charitable"
-	trait="wroth"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "diligent_hidden"
+	trait = "charitable_hidden"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1153.1.2={
@@ -1484,10 +1484,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="honest"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "charitable_hidden"
+	trait = "honest_hidden"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535 #Cæcilie
 	1161.1.2={
@@ -1507,10 +1507,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="wroth"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "wroth_hidden"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1162.1.2={
@@ -1530,9 +1530,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1164.1.2={
@@ -1552,17 +1552,17 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="diligent"
-	trait="zealous"
-	trait="mastermind_theologian"
+	trait = "charitable_hidden"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "mastermind_theologian_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1167.1.1={
 		birth="1167.1.1"
 	}
 	1223.1.1={
-		trait="ill"
+		trait = "ill_hidden"
 	}
 	1228.1.1={
 		death="1228.1.1"
@@ -1578,9 +1578,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="gluttonous"
-	trait="lustful"
-	trait="charismatic_negotiator"
+	trait = "gluttonous_hidden"
+	trait = "lustful_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1170.1.2={
@@ -1600,10 +1600,10 @@
 	stewardship=3
 	religion="catholic"
 	culture="danish"
-	trait="gluttonous"
-	trait="just"
-	trait="zealous"
-	trait="naive_appeaser"
+	trait = "gluttonous_hidden"
+	trait = "just_hidden"
+	trait = "zealous_hidden"
+	trait = "naive_appeaser_hidden"
 	father=201534 #Sune Ebbesen
 	mother=201535
 	1171.1.2={
@@ -1623,9 +1623,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="chaste"
-	trait="zealous"
-	trait="naive_appeaser"
+	trait = "chaste_hidden"
+	trait = "zealous_hidden"
+	trait = "naive_appeaser_hidden"
 	1150.1.2={
 		birth="1150.1.2"
 	}
@@ -1643,8 +1643,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	father=201537 #Ebbe Sunesen
 	mother=201544
 	1169.1.2={
@@ -1664,8 +1664,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="gluttonous"
-	trait="thrifty_clerk"
+	trait = "gluttonous_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=201537 #Ebbe Sunesen
 	mother=201544
 	1174.1.2={
@@ -1687,8 +1687,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="zealous"
-	trait="thrifty_clerk"
+	trait = "zealous_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=201537 #Ebbe Sunesen
 	mother=201544
 	1180.1.2={
@@ -1706,7 +1706,7 @@
 	religion="catholic"
 	culture="danish"
 	
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	
 	father = 201508
 	
@@ -1716,11 +1716,11 @@
 	
 	#Excommunicated by Pope Innocent III
 	1208.1.1={
-	trait="excommunicated"
+	trait = "excommunicated_hidden"
 	}
 	
 	1220.1.1={
-	remove_trait="excommunicated"
+	remove_trait = "excommunicated_hidden"
 	}
 	1236.4.28={
 		death="1236.4.28"
@@ -1732,9 +1732,9 @@
 	dynasty=7112 #Grand
 	religion="catholic"
 	culture="danish"
-	trait="greedy"
-	trait="proud"
-	trait="scholarly_theologian"
+	trait = "greedy_hidden"
+	trait = "proud_hidden"
+	trait = "scholarly_theologian_hidden"
 	1240.1.1={
 		birth="1240.1.1"
 	}
@@ -1830,7 +1830,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1300.1.2={
 		birth="1300.1.2"
 	}
@@ -1848,8 +1848,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="diligent"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "martial_cleric_hidden"
 	father=451520 # Christoffer II
 	mother=451521
 	1320.1.1={
@@ -1871,10 +1871,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="cynical"
-	trait="clubfooted"
-	trait="harelip"
-	trait="scholarly_theologian"
+	trait = "cynical_hidden"
+	trait = "clubfooted_hidden"
+	trait = "harelip_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=451502
 	mother=451503
 	1315.1.2={
@@ -1895,7 +1895,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1290.1.2={
 		birth="1290.1.2"
 	}
@@ -1917,10 +1917,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="greedy"
-	trait="brave"
-	trait="inbred"
-	trait="charismatic_negotiator"
+	trait = "greedy_hidden"
+	trait = "brave_hidden"
+	trait = "inbred_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1295.1.2={
 		birth="1295.1.2"
 	}
@@ -1939,9 +1939,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="slothful"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=451502
 	mother=451503
 	1323.1.2={
@@ -1961,8 +1961,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="danish"
-	trait="brave"
-	trait="flamboyant_schemer"
+	trait = "brave_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=201501 # Valdemar Sejr
 	mother=91102
 	1216.1.1={
@@ -1986,7 +1986,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=451510
 	mother=161739
 	1240.1.1={
@@ -2006,8 +2006,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="envious"
-	trait="amateurish_plotter"
+	trait = "envious_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=201501
 	mother=91102
 	1219.1.1={
@@ -2030,8 +2030,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=451513 # Christoffer I
 	mother=451519
 	1249.1.1={
@@ -2054,21 +2054,21 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=451514
 	mother=451517
 	1274.1.2={
 		birth="1274.1.2"
 	}
 	1294.1.1={
-		trait="excommunicated"
+		trait = "excommunicated_hidden"
 	}
 	1296.6.1={
 		add_spouse=450505
 	}
 	1302.1.1={
-		remove_trait="excommunicated"
-		trait="humble"
+		remove_trait = "excommunicated_hidden"
+		trait = "humble_hidden"
 	}
 	1319.11.13={
 		death="1319.11.13"
@@ -2086,9 +2086,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="ambitious"
-	trait="gluttonous"
-	trait="thrifty_clerk"
+	trait = "ambitious_hidden"
+	trait = "gluttonous_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=451514
 	mother=451517
 	1278.1.30={
@@ -2096,8 +2096,8 @@
 	}
 	1330.1.1={
 		employer=451500
-		trait="celibate"
-		remove_trait="ambitious"
+		trait = "celibate_hidden"
+		remove_trait = "ambitious_hidden"
 	}
 	1341.3.2={
 		death="1341.3.2"
@@ -2114,8 +2114,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="hunchback"
-	trait="amateurish_plotter"
+	trait = "hunchback_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=451514
 	mother=451517
 	1275.1.1={
@@ -2135,9 +2135,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="zealous"
-	trait="clubfooted"
-	trait="skilled_tactician"
+	trait = "zealous_hidden"
+	trait = "clubfooted_hidden"
+	trait = "skilled_tactician_hidden"
 	father=451514
 	mother=451517
 	1276.9.29={
@@ -2161,9 +2161,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="lustful"
-	trait="brave"
-	trait="scholarly_theologian"
+	trait = "lustful_hidden"
+	trait = "brave_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=451520
 	mother=451521
 	1308.1.2={
@@ -2183,9 +2183,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="diligent"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=451520
 	mother=451521
 	1312.1.2={
@@ -2205,7 +2205,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=201501
 	mother=91102
 	1218.1.1={
@@ -2229,7 +2229,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=451524
 	1240.1.2={
 		birth="1240.1.2"
@@ -2248,7 +2248,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=451524
 	mother=31765
 	1240.1.1={
@@ -2271,7 +2271,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	add_claim = k_denmark
 	father=451527
 	mother=30495
@@ -2298,7 +2298,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	add_claim = k_denmark	
 	father=451528
 	mother=170012 #Elisabeth of Saxony
@@ -2322,10 +2322,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="brave"
-	trait="wroth"
-	trait="proud"
-	trait="misguided_warrior"
+	trait = "brave_hidden"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "misguided_warrior_hidden"
 	add_claim = k_denmark
 	father=451529
 	mother=451946
@@ -2350,10 +2350,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="arbitrary"
-	trait="lustful"
-	trait="thrifty_clerk"
+	trait = "charitable_hidden"
+	trait = "arbitrary_hidden"
+	trait = "lustful_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=451529
 	mother=451946
 	1323.1.2={
@@ -2373,7 +2373,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=151011 # Jens Nielsen
 	1300.1.2={
 		birth="1300.1.2"
@@ -2393,7 +2393,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=451801
 	mother=452505
 	1328.1.2={
@@ -2413,11 +2413,11 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="slothful"
-	trait="greedy"
-	trait="honest"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "greedy_hidden"
+	trait = "honest_hidden"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=451804
 	1295.1.2={
 		birth="1295.1.2"
@@ -2445,9 +2445,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="envious"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	father=451801
 	mother=452505
 	1329.1.2={
@@ -2468,9 +2468,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="temperate"
-	trait="inbred"
-	trait="tough_soldier"
+	trait = "temperate_hidden"
+	trait = "inbred_hidden"
+	trait = "tough_soldier_hidden"
 	father=451801
 	mother=452505
 	1330.1.2={
@@ -2491,7 +2491,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1279.1.2={
 		birth="1279.1.2"
 	}
@@ -2510,7 +2510,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=451510
 	mother=161739
 	1244.1.1={
@@ -2546,9 +2546,9 @@
 	stewardship=7
 	religion="orthodox"
 	culture="danish"
-	trait="thrifty_clerk"
-	trait="charitable"
-	trait="zealous"
+	trait = "thrifty_clerk_hidden"
+	trait = "charitable_hidden"
+	trait = "zealous_hidden"
 	1035.1.2={
 		birth="1035.1.2"
 	}
@@ -2689,10 +2689,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
-	trait="zealous"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "legit_bastard_hidden"
+	trait = "zealous_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=101515 #Svend Estridsson
 	1050.1.1={
 		birth="1050.1.1"
@@ -2701,7 +2701,7 @@
 		add_spouse=91008 #Florine de Bourgogne
 	}
 	1096.1.1={
-		trait="crusader"
+		trait = "crusader_hidden"
 		give_nickname=nick_the_crusader
 	}
 	1097.1.1={
@@ -2714,9 +2714,9 @@
 	dynasty=1025000
 	religion="catholic"
 	culture="danish"
-	trait="detached_priest"
-	trait="temperate"
-	trait="trusting"
+	trait = "detached_priest_hidden"
+	trait = "temperate_hidden"
+	trait = "trusting_hidden"
 	father=151000 # Svend Thrugotsøn
 	1066.1.1 = {
 		birth="1066.1.1" 
@@ -2731,10 +2731,10 @@
 	dynasty=1025000
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
-	trait="quick"
-	trait="celibate"
-	trait="content"
+	trait = "scholarly_theologian_hidden"
+	trait = "quick_hidden"
+	trait = "celibate_hidden"
+	trait = "content_hidden"
 	father=151002 # Christiern
 	1100.1.1 = {
 		birth="1100.1.1" 
@@ -2748,8 +2748,8 @@
 	name="Peder" #Saxesen
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
-	trait="just"
+	trait = "scholarly_theologian_hidden"
+	trait = "just_hidden"
 	1178.1.1 = {
 		birth="1178.1.1" 
 	}
@@ -2763,10 +2763,10 @@
 	dynasty=1025000
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
-	trait="celibate"
-	trait="ambitious"
-	trait="charitable"
+	trait = "martial_cleric_hidden"
+	trait = "celibate_hidden"
+	trait = "ambitious_hidden"
+	trait = "charitable_hidden"
 	1202.1.1 = {
 		birth="1202.1.1" 
 	}
@@ -2780,10 +2780,10 @@
 	dynasty=760
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
-	trait="just"
-	trait="ambitious"
-	trait="trusting"
+	trait = "martial_cleric_hidden"
+	trait = "just_hidden"
+	trait = "ambitious_hidden"
+	trait = "trusting_hidden"
 	father=151005 # Erland Galen
 	mother=151004 # Cæcilie Herlufsdatter
 	1212.10.1 = {
@@ -2799,7 +2799,7 @@
 	dynasty=1025001
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1225.1.1={
 		birth="1225.1.1"
 	}
@@ -2813,7 +2813,7 @@
 	#AKA Jens Dros
 	religion="catholic"
 	culture="danish"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	1245.1.1={
 		birth="1245.1.1"
 	}
@@ -2827,9 +2827,9 @@
 	dynasty=1025002 #Juul
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="deceitful"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "deceitful_hidden"
+	trait = "martial_cleric_hidden"
 	1270.1.1={
 		birth="1270.1.1"
 	}
@@ -2843,7 +2843,7 @@
 	dynasty=760 #Galen
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=151008 # Erik Jensen
 	1280.1.1={
 		birth="1280.1.1"
@@ -2999,7 +2999,7 @@
 	dynasty=1025000
 	religion="catholic"
 	culture="danish"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=101542 # Thrugot Fagerskind Ulfssøn
 	mother=101545 # Thorgunna Vagnsdatter
 	1050.1.1 = {
@@ -3015,8 +3015,8 @@
 	dynasty=1025000
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
-	trait="zealous"
+	trait = "martial_cleric_hidden"
+	trait = "zealous_hidden"
 	father=151000 # Svend Thrugotsøn
 	1076.1.1 = {
 		birth="1076.1.1" 
@@ -3031,8 +3031,8 @@
 	dynasty=1025000
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
-	trait="wroth"
+	trait = "tough_soldier_hidden"
+	trait = "wroth_hidden"
 	father=151000 # Svend Thrugotsøn
 	1070.1.1 = {
 		birth="1070.1.1" 
@@ -3079,7 +3079,7 @@
 	dynasty=760 #Galen
 	religion="catholic"
 	culture="danish"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=151005 # Erland Galen
 	mother=151004 # Cæcilie Herlufsdatter
 	1212.1.1 = {
@@ -3123,9 +3123,9 @@
 	dynasty=760 #Galen
 	religion="catholic"
 	culture="danish"
-	trait="fortune_builder"
-	trait="just"
-	trait="honest"
+	trait = "fortune_builder_hidden"
+	trait = "just_hidden"
+	trait = "honest_hidden"
 	father=151005 # Erland Galen
 	mother=151004 # Cæcilie Herlufsdatter
 	1220.1.1 = {
@@ -3160,7 +3160,7 @@
 	dynasty=760 #Galen
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=151009 # Niels Erlandsen
 	mother=151010 # Elisabeth Pedersdatter
 	1260.1.1 = {
@@ -3175,7 +3175,7 @@
 	name="Herlug"
 	religion="catholic"
 	culture="danish"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	1153.1.1 = {
 		birth="1153.1.1" 
 	}
@@ -3183,7 +3183,7 @@
 		add_spouse=201536 #Margarethe - this should be a matrilineal marrige
 	}
 	1176.10.25={
-		trait="kinslayer"
+		trait = "kinslayer_hidden"
 	}
 	1203.1.1 = {
 		death="1203.1.1"
@@ -3194,7 +3194,7 @@
 	name="Peder"
 	religion="catholic"
 	culture="danish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1084.1.1 = {
 		birth="1084.1.1" 
 	}
@@ -3207,8 +3207,8 @@
 	name="Rike"
 	religion="catholic"
 	culture="danish"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	1102.1.1 = {
 		birth="1102.1.1"
 	}
@@ -3221,14 +3221,14 @@
 	name="Asser"
 	religion="catholic"
 	culture="danish"
-	trait="zealous"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "zealous_hidden"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	1108.1.1 = {
 		birth="1108.1.1"
 	}
 	1147.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1158.4.18 = {
 		death="1158.4.18"
@@ -3240,8 +3240,8 @@
 	dynasty=482 #Hvide
 	religion="catholic"
 	culture="danish"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=201542 #Jacob Sunesen
 	1185.1.1 = {
 		birth="1185.1.1"
@@ -3256,7 +3256,7 @@
 	dynasty=482 #Hvide
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=201532 #Ebbe Skjalmsen
 	1108.1.1 = {
 		birth="1108.1.1"
@@ -3271,7 +3271,7 @@
 	dynasty=482 #Hvide
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=151019 #Toke Ebbesen
 	1128.1.1 = {
 		birth="1128.1.1"
@@ -3304,9 +3304,9 @@
 	dynasty=482 #Hvide
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="ambitious"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "ambitious_hidden"
+	trait = "martial_cleric_hidden"
 	father=151020 #Stig Tokesen
 	mother=151021 #Margrethe Knudsdatter
 	1151.1.1 = {
@@ -3322,8 +3322,8 @@
 	dynasty=482 #Hvide
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="fortune_builder"
+	trait = "charitable_hidden"
+	trait = "fortune_builder_hidden"
 	father=201530 #Skjalm Hvide
 	mother=101537 #Signe Asbjørnsdatter
 	1086.1.1 = {
@@ -3339,7 +3339,7 @@
 	dynasty=1025004 #Bang
 	religion="catholic"
 	culture="danish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=151023 #Toke Skjalmsen
 	1146.1.1 = {
 		birth="1146.1.1"
@@ -3354,8 +3354,8 @@
 	dynasty=1025004 #Bang
 	religion="catholic"
 	culture="danish"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	father=151024 #Skjalm Bang
 	1207.1.1 = {
 		birth="1207.1.1"
@@ -3369,7 +3369,7 @@
 	name="Stig" 
 	religion="catholic"
 	culture="danish"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	1247.1.1 = {
 		birth="1247.1.1"
 	}
@@ -3382,7 +3382,7 @@
 	name="Ingvar" 
 	religion="catholic"
 	culture="danish"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	1250.1.1 = {
 		birth="1250.1.1"
 	}
@@ -3396,8 +3396,8 @@
 	#AKA Jens/Johan Krag
 	religion="catholic"
 	culture="danish"
-	trait="charitable"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "martial_cleric_hidden"
 	1260.1.1 = {
 		birth="1260.1.1"
 	}
@@ -3410,7 +3410,7 @@
 	name="Oluf" 
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1270.1.1 = {
 		birth="1270.1.1"
 	}
@@ -3424,8 +3424,8 @@
 	#AKA Johan Hind
 	religion="catholic"
 	culture="danish"
-	trait="trusting"
-	trait="martial_cleric"
+	trait = "trusting_hidden"
+	trait = "martial_cleric_hidden"
 	1290.1.1 = {
 		birth="1290.1.1"
 	}
@@ -3439,8 +3439,8 @@
 	#AKA Jens Nyborg
 	religion="catholic"
 	culture="danish"
-	trait="kind"
-	trait="scholarly_theologian"
+	trait = "kind_hidden"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1 = {
 		birth="1300.1.1"
 	}
@@ -3459,7 +3459,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="danish"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=151020 #Stig Tokesen
 	mother=151021 #Margrethe Knudsdatter
 	1145.1.2={
@@ -3475,7 +3475,7 @@
 	dynasty=487
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
+	trait = "legit_bastard_hidden"
 	father=201501
 	mother=202045
 	1200.1.1={
@@ -3542,7 +3542,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="danish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=93533
 	mother=93534
 	1230.1.1={
@@ -3582,7 +3582,7 @@
 	dynasty=487
 	religion="catholic"
 	culture="danish"
-	trait="legit_bastard"
+	trait = "legit_bastard_hidden"
 	father=201501
 	1201.1.1={
 		birth="1201.1.1"

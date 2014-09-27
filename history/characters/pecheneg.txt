@@ -7,10 +7,10 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="proud"
-	trait="greedy"
-	trait="chaste"
-	trait="skilled_tactician"
+	trait = "proud_hidden"
+	trait = "greedy_hidden"
+	trait = "chaste_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -28,8 +28,8 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="brave"
-	trait="martial_cleric"
+	trait = "brave_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -47,10 +47,10 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="zealous"
-	trait="temperate"
-	trait="craven"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "temperate_hidden"
+	trait = "craven_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -68,9 +68,9 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="just"
-	trait="proud"
-	trait="fortune_builder"
+	trait = "just_hidden"
+	trait = "proud_hidden"
+	trait = "fortune_builder_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -88,8 +88,8 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="slothful"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -107,9 +107,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="charitable"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -128,7 +128,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -146,11 +146,11 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="lustful"
-	trait="zealous"
-	trait="wroth"
-	trait="brave"
-	trait="fortune_builder"
+	trait = "lustful_hidden"
+	trait = "zealous_hidden"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "fortune_builder_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -169,8 +169,8 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="proud"
-	trait="flamboyant_schemer"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -188,8 +188,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="gluttonous"
-	trait="charismatic_negotiator"
+	trait = "gluttonous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	932.1.1={
 		birth="932.1.1"
 	}
@@ -484,7 +484,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -506,7 +506,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -532,7 +532,7 @@
 	culture="pecheneg"
 	father=180174
 	mother=180232
-	trait="twin"
+	trait = "twin_hidden"
 	862.3.1={
 		birth=yes
 	}
@@ -548,7 +548,7 @@
 	culture="pecheneg"
 	father=180174
 	mother=180232
-	trait="twin"
+	trait = "twin_hidden"
 	862.3.1={
 		birth="862.3.1"
 	}
@@ -626,9 +626,9 @@
 	dynasty=1042053
 	religion="tengri_pagan"
 	culture="pecheneg"
-	trait="skilled_tactician"
-	trait="brave"
-	trait="strong"
+	trait = "skilled_tactician_hidden"
+	trait = "brave_hidden"
+	trait = "strong_hidden"
 	851.1.1={
 		birth="851.1.1"
 	}

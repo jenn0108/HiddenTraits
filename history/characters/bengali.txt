@@ -16,8 +16,8 @@
 	dynasty=1043013
 	religion="hindu"
 	culture="oriya"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	820.1.1={
 		birth="820.1.1"
 	}
@@ -44,8 +44,8 @@
 	dynasty=1043000
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	682.1.1={
 		birth=yes
 	}
@@ -59,8 +59,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190025
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	701.1.1={
 		birth=yes
 	}
@@ -75,8 +75,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190026
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	734.1.1={
 		birth=yes
 	}
@@ -90,8 +90,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190027
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	754.1.1={
 		birth=yes
 	}
@@ -105,8 +105,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190028
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	794.1.1={
 		birth=yes
 	}
@@ -120,8 +120,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190004
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	820.1.1={
 		birth=yes
 	}
@@ -135,8 +135,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190027
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	757.1.1={
 		birth=yes
 	}
@@ -150,8 +150,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190006
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	773.1.1={
 		birth=yes
 	}
@@ -165,8 +165,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190007
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	801.1.1={
 		birth=yes
 	}
@@ -180,8 +180,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190008
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	839.1.1={
 		birth=yes
 	}
@@ -195,8 +195,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190009
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	865.1.1={
 		birth=yes
 	}
@@ -210,8 +210,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190010
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	882.1.1={
 		birth=yes
 	}
@@ -225,8 +225,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190011
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	929.1.1={
 		birth=yes
 	}
@@ -240,8 +240,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190012
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	968.1.1={
 		birth=yes
 	}
@@ -255,8 +255,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190012
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	971.1.1={
 		birth=yes
 	}
@@ -270,8 +270,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190012
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	975.1.1={
 		birth=yes
 	}
@@ -286,8 +286,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190013
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1001.1.1={
 		birth=yes
 	}
@@ -301,8 +301,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190016
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1021.1.1={
 		birth=yes
 	}
@@ -316,8 +316,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190017
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1042.1.1={
 		birth=yes
 	}
@@ -331,8 +331,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190017
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1046.1.1={
 		birth=yes
 	}
@@ -346,8 +346,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190017
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1047.1.1={
 		birth=yes
 	}
@@ -361,8 +361,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190020
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1082.1.1={
 		birth=yes
 	}
@@ -376,8 +376,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190021
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1109.1.1={
 		birth=yes
 	}
@@ -391,8 +391,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190020
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1100.1.1={
 		birth=yes
 	}
@@ -406,8 +406,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190023
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1122.1.1={
 		birth=yes
 	}
@@ -420,8 +420,8 @@
 	dynasty=1044001
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaivist_hindu"#chosen randomly
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"#chosen randomly
 	1009.1.1={
 		birth=yes
 	}
@@ -435,8 +435,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190050
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	1031.1.1={
 		birth=yes
 	}
@@ -450,8 +450,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190050
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	1034.1.1={
 		birth=yes
 	}
@@ -465,8 +465,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190052
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	1056.1.1={
 		birth=yes
 	}
@@ -480,8 +480,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190114
-	trait="kshatriya"
-	trait="shaktist_hindu" #chosen randomly
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden" #chosen randomly
 	866.1.1={
 		birth=yes
 	}
@@ -499,8 +499,8 @@
 	culture="bengali"
 	father=190075
 	mother=190035 #Kula Devi
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	904.1.1={
 		birth=yes
 	}
@@ -518,8 +518,8 @@
 	culture="bengali"
 	father=190076
 	mother=190036 #Durlabha
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	925.1.1={
 		birth=yes
 	}
@@ -533,8 +533,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190077
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	947.1.1={
 		birth=yes
 	}
@@ -552,8 +552,8 @@
 	culture="bengali"
 	father=190078
 	mother=190037
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	969.1.1={
 		birth=yes
 	}
@@ -571,8 +571,8 @@
 	culture="bengali"
 	father=190079
 	mother=190038
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	994.1.1={
 		birth=yes
 	}
@@ -586,8 +586,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190080
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1016.1.1={
 		birth=yes
 	}
@@ -601,8 +601,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190081
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1052.1.1={
 		birth=yes
 	}
@@ -615,8 +615,8 @@
 	female=yes
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu" 
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden" 
 	886.1.1={
 		birth=yes
 	}
@@ -629,8 +629,8 @@
 	female=yes
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu" 
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden" 
 	902.1.1={
 		birth=yes
 	}
@@ -643,8 +643,8 @@
 	female=yes
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu" 
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden" 
 	948.1.1={
 		birth=yes
 	}
@@ -657,8 +657,8 @@
 	female=yes
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu" 
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden" 
 	974.1.1={
 		birth=yes
 	}
@@ -672,8 +672,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190082
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1075.1.1={
 		birth=yes
 	}
@@ -687,8 +687,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190029
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1097.1.1={
 		birth=yes
 	}
@@ -702,8 +702,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190030
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1117.1.1={
 		birth=yes
 	}
@@ -717,8 +717,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190031
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1138.1.1={
 		birth=yes
 	}
@@ -732,8 +732,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190032
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1138.1.1={
 		birth=yes
 	}
@@ -747,8 +747,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190033
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	1162.1.1={
 		birth=yes
 	}
@@ -761,8 +761,8 @@
 	dynasty=1043002
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	628.1.1={
 		birth=yes
 	}
@@ -776,8 +776,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190039
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	659.1.1={
 		birth=yes
 	}
@@ -791,8 +791,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190040
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	698.1.1={
 		birth=yes
 	}
@@ -806,8 +806,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190041
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	725.1.1={
 		birth=yes
 	}
@@ -821,8 +821,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190042
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	747.1.1={
 		birth=yes
 	}
@@ -836,8 +836,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190043
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	769.1.1={
 		birth=yes
 	}
@@ -851,8 +851,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190044
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	791.1.1={
 		birth=yes
 	}
@@ -866,8 +866,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190045
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	814.1.1={
 		birth=yes
 	}
@@ -881,8 +881,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190046
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	835.1.1={
 		birth=yes
 	}
@@ -896,8 +896,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190047
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	857.1.1={
 		birth=yes
 	}
@@ -910,8 +910,8 @@
 	dynasty=1044003
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	324.1.1={
 		birth=yes
 	}
@@ -925,8 +925,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190054
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	346.1.1={
 		birth=yes
 	}
@@ -940,8 +940,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190055
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	380.1.1={
 		birth=yes
 	}
@@ -955,8 +955,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190056
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	402.1.1={
 		birth=yes
 	}
@@ -970,8 +970,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190057
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	422.1.1={
 		birth=yes
 	}
@@ -985,8 +985,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190058
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	444.1.1={
 		birth=yes
 	}
@@ -1000,8 +1000,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190059
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	467.1.1={
 		birth=yes
 	}
@@ -1015,8 +1015,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190060
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	489.1.1={
 		birth=yes
 	}
@@ -1030,8 +1030,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190061
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	520.1.1={
 		birth=yes
 	}
@@ -1045,8 +1045,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190062
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	543.1.1={
 		birth=yes
 	}
@@ -1060,8 +1060,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190063
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	562.1.1={
 		birth=yes
 	}
@@ -1075,8 +1075,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190064
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	586.1.1={
 		birth=yes
 	}
@@ -1090,8 +1090,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190064
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	586.1.1={
 		birth=yes
 	}
@@ -1104,8 +1104,8 @@
 	dynasty=1044006
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="vajrayana_buddhist" #random
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden" #random
 	843.1.1={
 		birth=yes
 	}
@@ -1119,8 +1119,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190067
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	866.1.1={
 		birth=yes
 	}
@@ -1134,8 +1134,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190068
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	916.1.1={
 		birth=yes
 	}
@@ -1149,8 +1149,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190069
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	952.1.1={
 		birth=yes
 	}
@@ -1164,8 +1164,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190070
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	978.1.1={
 		birth=yes
 	}
@@ -1179,8 +1179,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190071
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	1007.1.1={
 		birth=yes
 	}
@@ -1193,8 +1193,8 @@
 	dynasty=1044007
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	1013.1.1={
 		birth=yes
 	}
@@ -1208,8 +1208,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190073
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	1031.1.1={
 		birth=yes
 	}
@@ -1223,8 +1223,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190074
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	1053.1.1={
 		birth=yes
 	}
@@ -1238,8 +1238,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190049
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	1097.1.1={
 		birth=yes
 	}
@@ -1252,8 +1252,8 @@
 	dynasty=1044008
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	703.1.1={
 		birth=yes
 	}
@@ -1267,8 +1267,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190084
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	743.1.1={
 		birth=yes
 	}
@@ -1282,8 +1282,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190085
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	786.1.1={
 		birth=yes
 	}
@@ -1297,8 +1297,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190086
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	823.1.1={
 		birth=yes
 	}
@@ -1311,8 +1311,8 @@
 	dynasty=1044009
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	847.1.1={
 		birth=yes
 	}
@@ -1325,8 +1325,8 @@
 	dynasty=1044010
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	934.1.1={
 		birth=yes
 	}
@@ -1340,8 +1340,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190089
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	965.1.1={
 		birth=yes
 	}
@@ -1355,8 +1355,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190090
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1001.1.1={
 		birth=yes
 	}
@@ -1370,8 +1370,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190090
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1027.1.1={
 		birth=yes
 	}
@@ -1385,8 +1385,8 @@
     dynasty=1026500
     religion="hindu"
     culture="bengali"
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1020.1.1={
         birth=yes
     }
@@ -1401,8 +1401,8 @@
     religion="hindu"
     culture="bengali"
     father=1534000
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1050.1.1={
         birth=yes
     }
@@ -1417,8 +1417,8 @@
     religion="hindu"
     culture="bengali"
     father=154001
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1080.1.1={
         birth=yes
     }
@@ -1436,8 +1436,8 @@
     female=yes
     religion="hindu"
     culture="bengali"
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1082.1.1={
         birth=yes
     }
@@ -1453,13 +1453,13 @@
     culture="bengali"
     father=154002
     mother=154003
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1100.1.1={
         birth=yes
     }
     1116.1.1={
-        add_trait="poet"
+        add_trait = "poet_hidden"
     }
     1179.1.1={
         death=yes
@@ -1472,8 +1472,8 @@
     religion="hindu"
     culture="bengali"
     father=154004
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1130.1.1={
         birth=yes
     }
@@ -1488,8 +1488,8 @@
     religion="hindu"
     culture="bengali"
     father=154005
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1160.1.1={
         birth=yes
     }
@@ -1504,8 +1504,8 @@
     religion="hindu"
     culture="bengali"
     father=154006
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1190.1.1={
         birth=yes
     }
@@ -1519,8 +1519,8 @@
 	dynasty=1044011
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	840.1.1={
 		birth=yes
 	}
@@ -1534,8 +1534,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190095
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	862.1.1={
 		birth=yes
 	}
@@ -1548,8 +1548,8 @@
 	dynasty=1044012
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	807.1.1={
 		birth=yes
 	}
@@ -1563,8 +1563,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190097
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	831.1.1={
 		birth=yes
 	}
@@ -1578,8 +1578,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190097
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	834.1.1={
 		birth=yes
 	}
@@ -1592,8 +1592,8 @@
 	dynasty=1044013
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	834.1.1={
 		birth=yes
 	}
@@ -1607,8 +1607,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190100
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	857.1.1={
 		birth=yes
 	}
@@ -1622,8 +1622,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190100
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	859.1.1={
 		birth=yes
 	}
@@ -1636,8 +1636,8 @@
 	dynasty=1044014
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="theravada_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	828.1.1={
 		birth=yes
 	}
@@ -1651,8 +1651,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190103
-	trait="kshatriya"
-	trait="theravada_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	847.1.1={
 		birth=yes
 	}
@@ -1666,8 +1666,8 @@
 	religion="buddhist"
 	culture="bengali"
 	father=190104
-	trait="kshatriya"
-	trait="theravada_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	866.1.1={
 		birth=yes
 	}
@@ -1680,8 +1680,8 @@
 	dynasty=1044015
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	834.1.1={
 		birth=yes
 	}
@@ -1694,8 +1694,8 @@
 	dynasty=1044016
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	840.1.1={
 		birth=yes
 	}
@@ -1709,8 +1709,8 @@
 	religion="hindu"
 	culture="bengali"
 	father=190107
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	865.1.1={
 		birth=yes
 	}
@@ -1723,8 +1723,8 @@
 	dynasty=1044017
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="vajrayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "vajrayana_buddhist_hidden"
 	824.1.1={
 		birth=yes
 	}
@@ -1737,8 +1737,8 @@
 	dynasty=1044000
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaktist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaktist_hindu_hidden"
 	842.1.1={
 		birth=yes
 	}
@@ -1751,8 +1751,8 @@
 	dynasty=1044020
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="smartist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "smartist_hindu_hidden"
 	837.1.1={
 		birth=yes
 	}
@@ -1766,8 +1766,8 @@
 	dynasty=1044024
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1032.1.1={
 		birth=yes
 	}
@@ -1780,8 +1780,8 @@
 	dynasty=1044025
 	religion="hindu"
 	culture="bengali"
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	1031.1.1={
 		birth=yes
 	}
@@ -1794,8 +1794,8 @@
 	dynasty=1044026
 	religion="buddhist"
 	culture="bengali"
-	trait="kshatriya"
-	trait="mahayana_buddhist"
+	trait = "kshatriya_hidden"
+	trait = "mahayana_buddhist_hidden"
 	1027.1.1={
 		birth=yes
 	}

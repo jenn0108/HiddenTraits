@@ -7,8 +7,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
-	trait="cynical"
+	trait = "tough_soldier_hidden"
+	trait = "cynical_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -27,10 +27,10 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="temperate"
-	trait="patient"
-	trait="diligent"
-	trait="charismatic_negotiator"
+	trait = "temperate_hidden"
+	trait = "patient_hidden"
+	trait = "diligent_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=223010
 	mother=223029
 	1150.1.1={
@@ -54,9 +54,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="just"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "just_hidden"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	father=223010
 	mother=223029
 	1146.1.1={
@@ -100,7 +100,7 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=223003
 	mother=223004
 	1185.1.1={
@@ -121,7 +121,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=223012
 	mother=223011
 	1105.1.1={
@@ -144,7 +144,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=232563
 	1088.1.1={
 		birth="1088.1.1"
@@ -166,7 +166,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=223012
 	mother=223011
 	1115.1.1={
@@ -195,7 +195,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=223014
 	mother=232567
 	1155.1.1={
@@ -215,8 +215,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=223030
 	1145.1.1={
 		birth="1145.1.1"
@@ -238,9 +238,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="lisp"
-	trait="humble"
-	trait="charismatic_negotiator"
+	trait = "lisp_hidden"
+	trait = "humble_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -258,8 +258,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	father=223026
 	mother=223027
 	1180.1.1={
@@ -283,9 +283,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="envious"
-	trait="intricate_webweaver"
+	trait = "cynical_hidden"
+	trait = "envious_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=223030
 	1128.1.1={
 		birth="1128.1.1"
@@ -304,8 +304,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=223031
 	1110.1.1={
 		birth="1110.1.1"
@@ -324,7 +324,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=41591
 	1089.1.1={
 		birth="1089.1.1"
@@ -343,8 +343,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=223031
 	1125.1.1={
 		birth="1125.1.1"
@@ -367,9 +367,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="greedy"
-	trait="just"
-	trait="amateurish_plotter"
+	trait = "greedy_hidden"
+	trait = "just_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=232587
 	1136.1.1={
 		birth="1136.1.1"
@@ -389,9 +389,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="zealous"
-	trait="chaste"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "chaste_hidden"
+	trait = "tough_soldier_hidden"
 	father=223032
 	mother=223033
 	1151.1.1={
@@ -414,9 +414,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="zealous"
-	trait="lustful"
-	trait="naive_appeaser"
+	trait = "zealous_hidden"
+	trait = "lustful_hidden"
+	trait = "naive_appeaser_hidden"
 	1160.1.1={
 		birth="1160.1.1"
 	}
@@ -434,9 +434,9 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="just"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=223034
 	mother=223035
 	1180.1.1={
@@ -461,9 +461,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="honest"
-	trait="gluttonous"
-	trait="thrifty_clerk"
+	trait = "honest_hidden"
+	trait = "gluttonous_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=223034
 	mother=223035
 	1185.1.1={
@@ -483,8 +483,8 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=159266
 	mother=159283
 	1020.1.1={
@@ -524,8 +524,8 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=232561
 	mother=232562
 	1039.1.1={
@@ -545,10 +545,10 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="diligent"
-	trait="brave"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	father=232563
 	1062.1.1={
 		birth="1062.1.1"
@@ -567,7 +567,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="ill"
+	trait = "ill_hidden"
 	father=232564
 	1102.1.1={
 		birth="1102.1.1"
@@ -644,8 +644,8 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="maimed"
-	trait="wroth"
+	trait = "maimed_hidden"
+	trait = "wroth_hidden"
 	father=223012
 	mother=223011
 	1107.1.1={
@@ -665,16 +665,16 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="envious"
-	trait="greedy"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "greedy_hidden"
+	trait = "martial_cleric_hidden"
 	father=223012
 	mother=223011
 	1120.1.1={
 		birth="1120.1.1"
 	}
 	1170.1.1={
-	trait="kinslayer"
+	trait = "kinslayer_hidden"
 	}
 	1175.1.16={
 		death="1175.1.16"
@@ -690,7 +690,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="maimed"
+	trait = "maimed_hidden"
 	father=223012
 	mother=223011
 	1122.1.1={
@@ -711,8 +711,8 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="bastard"
-	trait="tough_soldier"
+	trait = "bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=232571
 	1174.1.1={
 		birth="1174.1.1"
@@ -731,7 +731,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=223026
 	mother=223027
 	1181.1.1={
@@ -752,8 +752,8 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="chaste"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=223032
 	mother=223033
 	1154.1.1={
@@ -808,7 +808,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=232576
 	mother=232577
 	1100.1.1={
@@ -848,10 +848,10 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="celibate"
-	trait="chaste"
-	trait="kind"
-	trait="scholarly_theologian"
+	trait = "celibate_hidden"
+	trait = "chaste_hidden"
+	trait = "kind_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=232578
 	mother=232579
 	1136.1.1={
@@ -931,7 +931,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=232576
 	mother=232577
 	1104.1.1={
@@ -970,9 +970,9 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="proud"
-	trait="diligent"
-	trait="detached_priest"
+	trait = "proud_hidden"
+	trait = "diligent_hidden"
+	trait = "detached_priest_hidden"
 	father=232585
 	1130.1.1={
 		birth="1130.1.1"
@@ -1011,7 +1011,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	father=232587
 	1138.1.1={
 		birth="1138.1.1"
@@ -1030,8 +1030,8 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="thrifty_clerk"
+	trait = "cynical_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=232587
 	1141.1.1={
 		birth="1141.1.1"
@@ -1051,8 +1051,8 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="zealous"
-	trait="thrifty_clerk"
+	trait = "zealous_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=232589
 	1176.1.1={
 		birth="1176.1.1"
@@ -1091,9 +1091,9 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="slothful"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=232591
 	mother=232582
 	1155.1.1={
@@ -1113,9 +1113,9 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="stutter"
-	trait="honest"
-	trait="amateurish_plotter"
+	trait = "stutter_hidden"
+	trait = "honest_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=232591
 	mother=232582
 	1158.1.1={
@@ -1135,8 +1135,8 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="deceitful"
-	trait="underhanded_rogue"
+	trait = "deceitful_hidden"
+	trait = "underhanded_rogue_hidden"
 	1160.1.1={
 		birth="1160.1.1"
 	}
@@ -1154,7 +1154,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=232594
 	1177.1.1={
 		birth="1177.1.1"
@@ -1174,7 +1174,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=232594
 	1179.1.1={
 		birth="1179.1.1"
@@ -1193,10 +1193,10 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="chaste"
-	trait="diligent"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=223030
 	1142.1.1={
 		birth="1142.1.1"
@@ -1220,9 +1220,9 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="arbitrary"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "arbitrary_hidden"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=232587
 	1146.1.1={
 		birth="1146.1.1"
@@ -1241,9 +1241,9 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="content"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "content_hidden"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	father=159219
 	1137.1.2={
 		birth="1137.1.2"
@@ -1263,8 +1263,8 @@
 	religion="miaphysite"
 	culture="armenian"
 	father=232758
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	1160.1.1={
 		birth="1160.1.1"
 	}
@@ -1279,7 +1279,7 @@
 	religion="miaphysite"
 	culture="armenian"
 	father=232758
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1161.1.1={
 		birth="1161.1.1"
 	}
@@ -1318,10 +1318,10 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="craven"
-	trait="diligent"
-	trait="wroth"
-	trait="elusive_shadow"
+	trait = "craven_hidden"
+	trait = "diligent_hidden"
+	trait = "wroth_hidden"
+	trait = "elusive_shadow_hidden"
 	1159.1.1={
 		birth="1159.1.1"
 	}
@@ -1495,7 +1495,7 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=41513
 	mother=41334
 	1048.1.1={
@@ -1515,7 +1515,7 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=41513
 	mother=41334
 	1050.1.1={
@@ -1789,7 +1789,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=41512
 	1018.1.1={
 		birth="1018.1.1"
@@ -1832,7 +1832,7 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=41513
 	mother=41334
 	1052.1.1={
@@ -1853,7 +1853,7 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="elusive_shadow"
+	trait = "elusive_shadow_hidden"
 	father=41521
 	1027.1.1={
 		birth="1027.1.1"
@@ -1927,7 +1927,7 @@
 	stewardship=9
 	religion="miaphysite"
 	culture="armenian"
-	trait="indulgent_wastrel"
+	trait = "indulgent_wastrel_hidden"
 	father=41521
 	1025.1.1={
 		birth="1025.1.1"
@@ -1986,7 +1986,7 @@
 	stewardship=10
 	religion="miaphysite"
 	culture="armenian"
-	trait="indulgent_wastrel"
+	trait = "indulgent_wastrel_hidden"
 	father=41525
 	970.1.1={
 		birth="970.1.1"
@@ -2177,8 +2177,8 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="incapable"
-	trait="tough_soldier"
+	trait = "incapable_hidden"
+	trait = "tough_soldier_hidden"
 	father=41555
 	1021.1.1={
 		birth="1021.1.1"
@@ -2197,9 +2197,9 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="brave"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	father=41555
 	1025.1.1={
 		birth="1025.1.1"
@@ -2221,7 +2221,7 @@
 	stewardship=6
 	religion=miaphysite
 	culture=armenian
-	trait=tough_soldier
+	trait = "tough_soldier_hidden"
 	father=41557
 	mother=159240
 	1050.1.1={
@@ -2419,8 +2419,8 @@
 	stewardship=2
 	religion="miaphysite"
 	culture="armenian"
-	trait="ill"
-	trait="flamboyant_schemer"
+	trait = "ill_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=41567
 	1010.1.1={
 		birth="1010.1.1"
@@ -2440,7 +2440,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=41568
 	1047.1.1={
 		birth="1047.1.1"
@@ -2552,7 +2552,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	father=41574
 	1025.1.1={
 		birth="1025.1.1"
@@ -2593,7 +2593,7 @@
 	stewardship=10
 	religion="miaphysite"
 	culture="armenian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=41576
 	mother=159282
 	1000.1.1={
@@ -2614,7 +2614,7 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="indulgent_wastrel"
+	trait = "indulgent_wastrel_hidden"
 	father=41578
 	1030.1.1={
 		birth="1030.1.1"
@@ -2633,7 +2633,7 @@
 	stewardship=2
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=41576
 	mother=159282
 	1001.1.1={
@@ -2653,7 +2653,7 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=41576
 	mother=159282
 	1002.1.1={
@@ -2673,10 +2673,10 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="humble"
-	trait="just"
-	trait="chaste"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "just_hidden"
+	trait = "chaste_hidden"
+	trait = "tough_soldier_hidden"
 	father=90084
 	965.1.1={
 		birth="965.1.1"
@@ -2696,11 +2696,11 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="patient"
-	trait="just"
-	trait="zealous"
-	trait="kind"
-	trait="midas_touched"
+	trait = "patient_hidden"
+	trait = "just_hidden"
+	trait = "zealous_hidden"
+	trait = "kind_hidden"
+	trait = "midas_touched_hidden"
 	father=41583
 	990.1.1={
 		birth="990.1.1"
@@ -2720,10 +2720,10 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="zealous"
-	trait="patient"
-	trait="honest"
-	trait="naive_appeaser"
+	trait = "zealous_hidden"
+	trait = "patient_hidden"
+	trait = "honest_hidden"
+	trait = "naive_appeaser_hidden"
 	father=41584
 	1020.1.1={
 		birth="1020.1.1"
@@ -2742,9 +2742,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="gluttonous"
-	trait="wroth"
-	trait="thrifty_clerk"
+	trait = "gluttonous_hidden"
+	trait = "wroth_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=41585
 	1045.1.1={
 		birth="1045.1.1"
@@ -2763,10 +2763,10 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="proud"
-	trait="diligent"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=41585
 	1049.1.1={
 		birth="1049.1.1"
@@ -2785,8 +2785,8 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="thrifty_clerk"
+	trait = "cynical_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=41585
 	1053.1.1={
 		birth="1053.1.1"
@@ -2805,10 +2805,10 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="patient"
-	trait="honest"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "honest_hidden"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=70440
 	1006.1.1={
 		birth="1006.1.1"
@@ -2831,9 +2831,9 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="greedy"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=41589
 	mother=159289
 	1051.1.1={
@@ -2853,10 +2853,10 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="slothful"
-	trait="gluttonous"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "gluttonous_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=41589
 	mother=159289
 	1056.1.1={
@@ -2880,7 +2880,7 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1040.1.1={
 		birth="1040.1.1"
 	}
@@ -2899,8 +2899,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="humble"
-	trait="amateurish_plotter"
+	trait = "humble_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=31872
 	1296.1.1={
 		birth="1296.1.1"
@@ -2919,8 +2919,8 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="inbred"
-	trait="thrifty_clerk"
+	trait = "inbred_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=461800
 	mother=461798
 	1320.1.2={
@@ -2940,9 +2940,9 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="slothful"
-	trait="underhanded_rogue"
-	trait="kinslayer"
+	trait = "slothful_hidden"
+	trait = "underhanded_rogue_hidden"
+	trait = "kinslayer_hidden"
 	father=461803
 	mother=31877
 	1296.1.1={
@@ -2968,8 +2968,8 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=461802
 	mother=31851
 	1271.1.1={
@@ -2992,7 +2992,7 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="indulgent_wastrel"
+	trait = "indulgent_wastrel_hidden"
 	father=31830
 	mother=30998
 	1236.1.1={
@@ -3015,8 +3015,8 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=461802
 	mother=31851
 	1280.1.1={
@@ -3040,9 +3040,9 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="temperate"
-	trait="naive_appeaser"
+	trait = "cynical_hidden"
+	trait = "temperate_hidden"
+	trait = "naive_appeaser_hidden"
 	father=461803
 	1320.1.1={
 		birth="1320.1.1"
@@ -3062,7 +3062,7 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=461802
 	mother=31851
 	1272.1.1={
@@ -3084,9 +3084,9 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="patient"
-	trait="inbred"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "inbred_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=461802
 	mother=31851
 	1283.1.2={
@@ -3106,8 +3106,8 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="scholar"
-	trait="thrifty_clerk"
+	trait = "scholar_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=41583
 	
 	990.1.1={
@@ -3127,9 +3127,9 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="homosexual"
-	trait="envious"
-	trait="tough_soldier"
+	trait = "homosexual_hidden"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
 	father=41522
 	mother=41579
 	1054.1.1={
@@ -3149,9 +3149,9 @@
 	stewardship=3
 	religion="miaphysite"
 	culture="armenian"
-	trait="kind"
-	trait="temperate"
-	trait="indulgent_wastrel"
+	trait = "kind_hidden"
+	trait = "temperate_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=41522
 	mother=41579
 	1056.1.1={
@@ -3171,9 +3171,9 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="trusting"
-	trait="gregarious"
-	trait="tough_soldier"
+	trait = "trusting_hidden"
+	trait = "gregarious_hidden"
+	trait = "tough_soldier_hidden"
 	father=70448
 	660.1.1={
 		birth="660.1.1"
@@ -3192,9 +3192,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="shy"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "shy_hidden"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=159918
 	633.1.1={
 		birth="633.1.1"
@@ -3213,9 +3213,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="brave"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=159874
 	
 	710.1.1={
@@ -3235,9 +3235,9 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="craven"
-	trait="naive_appeaser"
+	trait = "cynical_hidden"
+	trait = "craven_hidden"
+	trait = "naive_appeaser_hidden"
 	father=159874
 	
 	705.1.1={
@@ -3257,9 +3257,9 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="humble"
-	trait="duelist"
-	trait="skilled_tactician"
+	trait = "humble_hidden"
+	trait = "duelist_hidden"
+	trait = "skilled_tactician_hidden"
 	father=70455
 	
 	600.1.1={
@@ -3279,9 +3279,9 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="greedy"
-	trait="trusting"
-	trait="fortune_builder"
+	trait = "greedy_hidden"
+	trait = "trusting_hidden"
+	trait = "fortune_builder_hidden"
 	father=70452
 	675.1.1={
 		birth="675.1.1"
@@ -3300,9 +3300,9 @@
 	stewardship=3
 	religion="miaphysite"
 	culture="armenian"
-	trait="cynical"
-	trait="arbitrary"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "arbitrary_hidden"
+	trait = "tough_soldier_hidden"
 	#father=159872 Wrong father...
 	
 	600.1.1={
@@ -3322,9 +3322,9 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="gregarious"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "gregarious_hidden"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=159865
 	mother=159917
 	545.1.1={
@@ -3348,11 +3348,11 @@
 	stewardship=5
 	religion="miaphysite"
 	culture="armenian"
-	trait="envious"
-	trait="gregarious"
-	trait="cynical"
-	trait="greedy"
-	trait="skilled_tactician"
+	trait = "envious_hidden"
+	trait = "gregarious_hidden"
+	trait = "cynical_hidden"
+	trait = "greedy_hidden"
+	trait = "skilled_tactician_hidden"
 	1035.1.1={
 		birth="1035.1.1"
 	}
@@ -3370,7 +3370,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=20562
 	1060.1.1={
 		birth="1060.1.1"
@@ -3390,7 +3390,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=20562
 	1062.1.1={
 		birth="1062.1.1"
@@ -3410,7 +3410,7 @@
 	stewardship=4
 	religion="miaphysite"
 	culture="armenian"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=20562
 	1066.1.1={
 		birth="1066.1.1"
@@ -3430,7 +3430,7 @@
 	religion="miaphysite"
 	culture="armenian"
 	father=159260
-	trait="indulgent_wastrel"
+	trait = "indulgent_wastrel_hidden"
 	946.1.1={
 		birth="946.1.1"
 	}
@@ -3449,8 +3449,8 @@
 	stewardship=6
 	religion="miaphysite"
 	culture="armenian"
-	trait="tough_soldier"
-	trait="honest"
+	trait = "tough_soldier_hidden"
+	trait = "honest_hidden"
 	father=85001
 	1060.1.1={
 		birth="1060.1.1"
@@ -3469,7 +3469,7 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="greedy"
+	trait = "greedy_hidden"
 	father=85001
 	1062.1.1={
 		birth="1062.1.1"
@@ -3489,7 +3489,7 @@
 	stewardship=7
 	religion="miaphysite"
 	culture="armenian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=41576
 	mother=159282
 	1004.1.1={
@@ -3510,8 +3510,8 @@
 	stewardship=10
 	religion="miaphysite"
 	culture="armenian"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=41522
 	mother=41579
 	1052.1.1={
@@ -3927,7 +3927,7 @@
 	}
 	#blinded by his brother Smbat
 	1299.1.1={
-		trait="blinded"
+		trait = "blinded_hidden"
 	}
 	#converted to catholicism
 	1299.3.4={
@@ -3964,7 +3964,7 @@
 		birth="1276.1.1"
 	}
 	1296.1.1={
-		trait="kinslayer"
+		trait = "kinslayer_hidden"
 	} 
 	1311.1.1={
 		death="1311.1.1"
@@ -4494,16 +4494,16 @@
 	dynasty=1022181
 	religion="miaphysite"
 	culture="armenian"
-	trait="proud"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
  
 	670.1.1={
 	birth="670.1.1"
 	}
 
 	713.6.3={
-	trait="blinded"
+	trait = "blinded_hidden"
 	}
 	714.1.20={
 	death="714.1.20"
@@ -5381,7 +5381,7 @@
 	dynasty=190
 	religion="miaphysite"
 	culture="armenian"
-	trait="honest"
+	trait = "honest_hidden"
 	father=159266
 	mother=159283
 	1015.1.1={
@@ -5486,9 +5486,9 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="armenian"
-	trait="brave"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=41589
 	mother=159289
 	1055.1.1={
@@ -6978,7 +6978,7 @@
 	religion="zoroastrian"
 	culture="armenian"
 	father=159885
-	trait="zealous"
+	trait = "zealous_hidden"
 	320.1.1={
 		birth="320.1.1"
 	}
@@ -8097,15 +8097,15 @@
 	dynasty=101199
 	religion="orthodox"
 	culture="armenian"
-	trait="envious"
-	trait="ambitious"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "ambitious_hidden"
+	trait = "tough_soldier_hidden"
 
 	685.1.1={
 		birth="685.1.1"
 	}
 	743.11.2={
-	trait="blinded"
+	trait = "blinded_hidden"
 	}
 	745.1.1={
 		death="745.1.1"

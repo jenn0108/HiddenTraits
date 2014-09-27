@@ -78,11 +78,11 @@
 	stewardship=4
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="lustful"
-	trait="arbitrary"
-	trait="proud"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "proud_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	1050.1.1={
 		birth=yes
 	}
@@ -99,9 +99,9 @@
 	stewardship=4
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="zealous"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "zealous_hidden"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -118,8 +118,8 @@
 	stewardship=5
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="envious"
-	trait="amateurish_plotter"
+	trait = "envious_hidden"
+	trait = "amateurish_plotter_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -136,8 +136,8 @@
 	stewardship=5
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="stutter"
-	trait="scholarly_theologian"
+	trait = "stutter_hidden"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -154,7 +154,7 @@
 	stewardship=5
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -171,9 +171,9 @@
 	stewardship=6
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="wroth"
-	trait="arbitrary"
-	trait="skilled_tactician"
+	trait = "wroth_hidden"
+	trait = "arbitrary_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -299,9 +299,9 @@
 	stewardship=4
 	religion="finnish_pagan"
 	culture=mordvin
-	trait="greedy"
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "greedy_hidden"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth=yes
 	}

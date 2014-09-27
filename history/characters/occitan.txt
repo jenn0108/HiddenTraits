@@ -166,8 +166,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="humble"
-	trait="amateurish_plotter"
+	trait = "humble_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=40801
 	980.1.1 = {
 		birth="980.1.1"
@@ -187,7 +187,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	980.1.1 = {
 		birth="980.1.1"
 	}
@@ -206,8 +206,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="underhanded_rogue"
+	trait = "diligent_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=40202
 	mother=40071
 	1020.1.1 = {
@@ -262,9 +262,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=402
 	mother=373
 	976.1.1 = {
@@ -386,7 +386,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=127005
 	mother=168146
 	818.1.1 = {
@@ -445,7 +445,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=334
 	mother=325
 	1051.1.1 = {
@@ -658,8 +658,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
-	trait="scholarly_theologian"
+	trait = "bastard_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=205733
 	mother=127031
 	1106.1.1 = {
@@ -681,7 +681,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205733
 	mother=127031
 	1108.1.1 = {
@@ -703,8 +703,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
-	trait="martial_cleric"
+	trait = "bastard_hidden"
+	trait = "martial_cleric_hidden"
 	father=205733
 	mother=127031
 	1110.1.1 = {
@@ -858,7 +858,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait=bastard
+	trait = "bastard_hidden"
 	father=223673
 	1145.1.1 = {
 		birth="1145.1.1"
@@ -877,7 +877,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait=bastard
+	trait = "bastard_hidden"
 	father=223673
 	1146.1.1 = {
 		birth="1146.1.1"
@@ -897,7 +897,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205530
 	1170.1.1 = {
 		birth="1170.1.1"
@@ -917,7 +917,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205530
 	1172.1.1 = {
 		birth="1172.1.1"
@@ -936,7 +936,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205532
 	1198.1.1 = {
 		birth="1198.1.1"
@@ -956,7 +956,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205532
 	1200.1.1 = {
 		birth="1200.1.1"
@@ -976,7 +976,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205532
 	1202.1.1 = {
 		birth="1202.1.1"
@@ -1021,8 +1021,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=223673
 	1134.1.1 = {
 		birth="1134.1.1"
@@ -1091,8 +1091,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="clubfooted"
-	trait="skilled_tactician"
+	trait = "clubfooted_hidden"
+	trait = "skilled_tactician_hidden"
 	father=205530
 	mother=205503
 	1165.1.1 = {
@@ -1114,8 +1114,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=205530
 	mother=205503
 	1160.1.1 = {
@@ -1133,7 +1133,7 @@
 	dynasty=727
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=223673
 	1133.1.1 = {
 		birth="1133.1.1"
@@ -1159,7 +1159,7 @@
 		add_spouse=205563 #Pétronille de Comminges
 	}
 	1213.1.15 = {
-		trait=excommunicated
+		trait = "excommunicated_hidden"
 	}
 	1214.1.1 = {
 		death="1214.1.1"
@@ -1224,8 +1224,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
-	trait="underhanded_rogue"
+	trait = "honest_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=205631
 	1137.1.2 = {
 		birth="1137.1.2"
@@ -1247,9 +1247,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="chaste"
-	trait="proud"
-	trait="underhanded_rogue"
+	trait = "chaste_hidden"
+	trait = "proud_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=40545
 	1107.1.2 = {
 		birth="1107.1.2"
@@ -1288,12 +1288,12 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="just"
-	trait="proud"
-	trait="patient"
-	trait="brave"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "proud_hidden"
+	trait = "patient_hidden"
+	trait = "brave_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=205731
 	mother=205732
 	1122.1.1 = {
@@ -1314,9 +1314,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="wroth"
-	trait="craven"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "craven_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=205733
 	mother=7625
 	1099.1.1 = {
@@ -1340,9 +1340,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="lustful"
-	trait="just"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=127030
 	mother=127031
 	1101.1.1 = {
@@ -1363,13 +1363,13 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="just"
-	trait="proud"
-	trait="patient"
-	trait="brave"
-	trait="poet"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "proud_hidden"
+	trait = "patient_hidden"
+	trait = "brave_hidden"
+	trait = "poet_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=240
 	mother=221
 	1071.10.22 = {
@@ -1402,7 +1402,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=210502
 	mother=205988
 	1198.1.1 = {
@@ -1425,8 +1425,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	father=338
 	mother=127013
 	1067.1.1 = {
@@ -1436,7 +1436,7 @@
 		add_spouse=127010
 	}
 	1108.7.1 = {
-		trait=crusader
+		trait = "crusader_hidden"
 	}
 	1112.4.21 = {
 		death="1112.4.21"
@@ -1453,14 +1453,14 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=338
 	mother=127011
 	1103.1.1 = {
 		birth="1103.1.1"
 	}
 	1147.6.1 = {
-		trait=crusader
+		trait = "crusader_hidden"
 	}
 	1148.4.16 = {
 		death="1148.4.16"
@@ -1476,9 +1476,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="bastard"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=205733
 	mother=127031
 	1104.1.1 = {
@@ -1501,7 +1501,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=234
 	mother=127017
 	1015.1.1 = {
@@ -1522,9 +1522,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="zealous"
-	trait="temperate"
-	trait="amateurish_plotter"
+	trait = "zealous_hidden"
+	trait = "temperate_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=90127
 	900.1.1 = {
 		birth="900.1.1"
@@ -1548,7 +1548,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=238
 	mother=6639
 	1058.1.2 = {
@@ -1569,8 +1569,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="envious"
-	trait="skilled_tactician"
+	trait = "envious_hidden"
+	trait = "skilled_tactician_hidden"
 	father=230
 	mother=243
 	937.1.1 = {
@@ -1595,8 +1595,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=230
 	mother=243
 	945.1.2 = {
@@ -1617,8 +1617,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="hunchback"
-	trait="amateurish_plotter"
+	trait = "hunchback_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=232
 	mother=385
 	969.1.1 = {
@@ -1649,7 +1649,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=240
 	mother=327
 	1059.1.1 = {
@@ -1670,8 +1670,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	father=234
 	mother=127018
 	1004.1.1 = {
@@ -1692,9 +1692,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="greedy"
-	trait="arbitrary"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "arbitrary_hidden"
+	trait = "tough_soldier_hidden"
 	father=234
 	mother=275
 	1024.1.1 = {
@@ -1719,9 +1719,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="chaste"
-	trait="just"
-	trait="charismatic_negotiator"
+	trait = "chaste_hidden"
+	trait = "just_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=238
 	mother=6639
 	1043.1.2 = {
@@ -1742,8 +1742,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="flamboyant_schemer"
-	trait="cynical"
+	trait = "flamboyant_schemer_hidden"
+	trait = "cynical_hidden"
 	father=234
 	mother=275
 	1023.1.1 = {
@@ -1769,7 +1769,7 @@
 30427 = {
 	name="Isarno" #bishop of Riga
 	dynasty=7152 #de Fontiès
-	trait="martial_cleric" 
+	trait = "martial_cleric_hidden" 
 	religion="catholic"
 	culture="occitan"
 	1250.1.1 = {
@@ -1808,9 +1808,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="patient"
-	trait="gluttonous"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "gluttonous_hidden"
+	trait = "skilled_tactician_hidden"
 	father=40234
 	900.1.1 = {
 		birth="900.1.1"
@@ -1847,7 +1847,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=127008
 	mother=127009
 	975.1.1 = {
@@ -1871,8 +1871,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="envious"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "martial_cleric_hidden"
 	father=402
 	mother=373
 	986.1.2 = {
@@ -1893,7 +1893,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=332
 	mother=401
 	996.1.1 = {
@@ -1920,8 +1920,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="envious"
-	trait="amateurish_plotter"
+	trait = "envious_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=332
 	mother=401
 	1000.1.1 = {
@@ -1938,7 +1938,7 @@
 	dynasty=727
 	religion="catholic"
 	culture="occitan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=334
 	mother=325
 	1047.1.1 = {
@@ -1957,9 +1957,9 @@
 	dynasty=727
 	religion="catholic"
 	culture="occitan"
-	trait="brave"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	father=334
 	mother=325
 	1049.1.1={
@@ -1975,10 +1975,10 @@
 		remove_spouse=127013
 	}
 	1076.1.1={
-		trait="excommunicated"
+		trait = "excommunicated_hidden"
 	}
 	1080.1.1={
-		remove_trait="excommunicated"
+		remove_trait = "excommunicated_hidden"
 	}
 	1080.1.1={
 		add_spouse=1133 #Mathilde de Hauteville
@@ -1990,10 +1990,10 @@
 		add_spouse=127011 #Elvire de Castille
 	}
 	1096.10.1={
-		trait=crusader
+		trait = "crusader_hidden"
 	}
 	1105.1.1 = {
-		trait="wounded"
+		trait = "wounded_hidden"
 	}
 	1105.2.28={
 		death="1105.2.28"
@@ -2024,7 +2024,7 @@
 	religion="catholic"
 	culture="occitan"
 	give_nickname = nick_the_lion
-	trait="brave"
+	trait = "brave_hidden"
 	father=40009 #Bernard I d'Armagnac
 	985.1.1 = {
 		birth="985.1.1"
@@ -2096,9 +2096,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="humble"
-	trait="temperate"
-	trait="amateurish_plotter"
+	trait = "humble_hidden"
+	trait = "temperate_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=40803
 	980.1.1 = {
 		birth="980.1.1"
@@ -2168,7 +2168,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=40800
 	mother=7922
 	957.1.2 = {
@@ -2295,7 +2295,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=402
 	mother=373
 	979.1.2 = {
@@ -2318,7 +2318,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1001.1.2 = {
 		birth="1001.1.2"
 	}
@@ -2337,8 +2337,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=40540
 	1027.1.2 = {
 		birth="1027.1.2"
@@ -2361,8 +2361,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=40540
 	1031.1.2 = {
 		birth="1031.1.2"
@@ -2384,8 +2384,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=40541
 	mother=40542
 	1049.1.2 = {
@@ -2406,7 +2406,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=40541
 	mother=40542
 	1055.1.2 = {
@@ -2427,9 +2427,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="wroth"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=40543
 	mother=40544
 	1056.1.2 = {
@@ -2450,7 +2450,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=404
 	mother=273
 	1005.1.2 = {
@@ -2474,8 +2474,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=408
 	mother=405
 	1054.1.2 = {
@@ -2496,10 +2496,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="gluttonous"
-	trait="craven"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "gluttonous_hidden"
+	trait = "craven_hidden"
+	trait = "skilled_tactician_hidden"
 	father=406
 	mother=335
 	1028.1.2 = {
@@ -2523,7 +2523,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=40803
 	970.1.2 = {
 		birth="970.1.2"
@@ -2543,7 +2543,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=404
 	mother=273
 	1000.1.2 = {
@@ -2581,9 +2581,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	father=40807
 	mother=71637
 	1140.1.1 = {
@@ -2660,7 +2660,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=420
 	mother=421
 	1063.1.2 = {
@@ -2702,7 +2702,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=210517
 	mother=213120
 	1234.1.1 = {
@@ -2765,7 +2765,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1265.1.2 = {
 		birth="1265.1.2"
 	}
@@ -2786,8 +2786,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="inbred"
-	trait="scholarly_theologian"
+	trait = "inbred_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=455630
 	mother=455605
 	1319.1.2 = {
@@ -2807,8 +2807,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="proud"
-	trait="thrifty_clerk"
+	trait = "proud_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=455630
 	mother=455645
 	1322.1.2 = {
@@ -2908,7 +2908,7 @@
 	female=yes
 	religion="catholic"
 	culture="occitan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=71618
 	mother=71614
 	1163.1.1 = {
@@ -3028,10 +3028,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="ambitious"
-	trait="arbitrary"
-	trait="scholar"
-	trait="naive_appeaser"
+	trait = "ambitious_hidden"
+	trait = "arbitrary_hidden"
+	trait = "scholar_hidden"
+	trait = "naive_appeaser_hidden"
 	
 	1195.11.23 = {
 		birth="1195.11.23"
@@ -3040,8 +3040,8 @@
 	give_nickname=nick_the_fat
 	}
 	1257.1.1 = {
-	remove_trait="naive_appeaser"
-	trait="detached_priest"
+	remove_trait = "naive_appeaser_hidden"
+	trait = "detached_priest_hidden"
 	}
 	1264.10.2 = {
 	name="Clement"
@@ -3062,10 +3062,10 @@
 	stewardship=3
 	religion="catholic"
 	culture="occitan"
-	trait="cynical"
-	trait="wroth"
-	trait="deceitful"
-	trait="scholarly_theologian"
+	trait = "cynical_hidden"
+	trait = "wroth_hidden"
+	trait = "deceitful_hidden"
+	trait = "scholarly_theologian_hidden"
 	father="138342" #Berraud Garcias de Got
 	1264.1.1 = {
 		birth="1264.1.1"
@@ -3109,7 +3109,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=336
 	mother=7624
 	1072.1.1 = {
@@ -3889,7 +3889,7 @@
 	name="Ghibbelin" 
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1045.1.1 = {
 		birth="1045.1.1"
 	}
@@ -3903,7 +3903,7 @@
 	name="Folquet" 
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1095.1.1 = {
 		birth="1095.1.1"
 	}
@@ -3934,7 +3934,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=40294 #Giraud I de Limoges
 	965.1.1 = {
 		birth="965.1.1"
@@ -3991,8 +3991,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="just"
-	trait="amateurish_plotter"
+	trait = "just_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=40310 #Aymeric II de Rochechouart
 	1020.1.1 = {
 		birth="1020.1.1"
@@ -4013,7 +4013,7 @@
 		birth="1070.1.1"
 	}
 	1096.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1141.1.1 = {
 		death="1141.1.1"
@@ -4030,7 +4030,7 @@
 		birth="1100.1.1"
 	}
 	1145.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1170.1.1 = {
 		death="1170.1.1"
@@ -4178,7 +4178,7 @@
 	culture="occitan"
 	#father= 40270 #Foucher I de Limoges or 
 	father=40244 #Ugues de Toulouse
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	910.1.1 = {
 		birth="910.1.1"
 	}
@@ -4203,7 +4203,7 @@
 	religion="catholic"
 	culture="occitan"
 	father= 138080 #Archambaud I de comborn
-	#trait="nick_rotten_leg"
+	#trait = "nick_rotten_leg_hidden"
 	953.1.1 = {
 		birth="953.1.1"
 	}
@@ -4296,7 +4296,7 @@
 		birth="1005.1.1"
 	}
 	1033.1.1 = {
-		trait="kinslayer"
+		trait = "kinslayer_hidden"
 	}	
 	1040.1.1 = {
 		add_spouse=40313 #Rothberge de Rochechouart
@@ -4317,8 +4317,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="cynical"
-	trait="naive_appeaser"
+	trait = "cynical_hidden"
+	trait = "naive_appeaser_hidden"
 	father=40284 #Archambaud III de Comborn
 	mother=40313 #Rothberge de Rochechouart
 	1045.1.1 = {
@@ -4339,8 +4339,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	father=40284 #Archambaud III de Comborn
 	mother=40313 #Rothberge de Rochechouart
 	1040.1.1 = {
@@ -4366,7 +4366,7 @@
 	}
 	#married 1107 Alix de Montluçon/Montpellier DID100220
 	1147.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1155.1.1 = {
 		death="1155.1.1"
@@ -4385,7 +4385,7 @@
 		birth="1108.1.1"
 	}
 	1147.1.1={
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1148.1.1={
 		add_spouse=205617 #Marguerite de Turenne
@@ -4451,7 +4451,7 @@
 		add_spouse= 138083 #married Humberge Brunissende de Limoges
 	}
 	1146.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1147.1.1 = {
 		death="1147.1.1"
@@ -4469,7 +4469,7 @@
 		birth="1125.1.1"
 	}
 	1147.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	#married Marquise de la marche
 	1148.1.1 = { 
@@ -4486,9 +4486,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="wroth"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "wroth_hidden"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=205626 #Archambaud IV de comborn
 	1100.1.1 = {
 		birth="1100.1.1" #1110?
@@ -4514,8 +4514,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="just"
-	trait="scholarly_theologian"
+	trait = "just_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=205621 #Ademar IV de Limoges
 	mother=205617 #Marguerite de Turenne
 	1135.1.1 = {
@@ -4560,9 +4560,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="arbitrary"
-	trait="hunchback"
-	trait="scholarly_theologian"
+	trait = "arbitrary_hidden"
+	trait = "hunchback_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=205620 #Adhémar V Boson de Limoges
 	mother=204525 #sarah de cornouailles
 	1161.1.1 = {
@@ -4584,9 +4584,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="envious"
-	trait="humble"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "humble_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=205620 #Adhémar V Boson de Limoges
 	mother=204525 #sarah de cornouailles
 	1162.1.1 = {
@@ -4625,9 +4625,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="kind"
-	trait="patient"
-	trait="martial_cleric"
+	trait = "kind_hidden"
+	trait = "patient_hidden"
+	trait = "martial_cleric_hidden"
 	father=205620 #Adhémar V Boson de Limoges
 	mother=204525 #sarah de Cornouailles
 	1161.1.1 = {
@@ -4665,11 +4665,11 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
-	trait="kind"
-	trait="wroth"
-	trait="brave"
-	trait="misguided_warrior"
+	trait = "honest_hidden"
+	trait = "kind_hidden"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "misguided_warrior_hidden"
 	father=205620 #Adhémar V Boson de Limoges
 	mother=204525 #sarah de cornouailles
 	1170.1.1 = {
@@ -4685,7 +4685,7 @@
 	dynasty=13100 #de Comborn
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
+	trait = "honest_hidden"
 	father=205620 #Adhémar V Boson de Limoges
 	mother=204525 #sarah de cornouailles
 	1180.1.1 = {
@@ -4705,8 +4705,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=205626 #Archambaud IV de Comborn
 	1115.1.1 = {
 		birth="1115.1.1"
@@ -5081,7 +5081,7 @@
 	culture="occitan"
 	father=205670 #Bernard IV d'Armagnac
 	give_nickname = nick_the_lion #Cut_lion
-	trait="brave"
+	trait = "brave_hidden"
 	1170.1.1 = {
 		birth="1170.1.1"
 	}
@@ -5562,7 +5562,7 @@
 	dynasty=325
 	religion="catholic"
 	culture="occitan"
-	trait="ill"
+	trait = "ill_hidden"
 	father=138140 #Othon de Fézensac
 	950.1.1 = {
 		birth="950.1.1" #unknown
@@ -5902,8 +5902,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=40182
 	997.1.1 = {
 		birth="997.1.1"
@@ -5939,7 +5939,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=1078
 	1020.1.2 = {
 		birth="1020.1.2"
@@ -5973,8 +5973,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="arbitrary"
-	trait="martial_cleric"
+	trait = "arbitrary_hidden"
+	trait = "martial_cleric_hidden"
 	father=1078
 	1025.1.2 = {
 		birth="1025.1.2"
@@ -5994,10 +5994,10 @@
 		birth="1060.1.1"
 	}
 	1098.11.27  = {
-		trait="excommunicated"
+		trait = "excommunicated_hidden"
 	}
 	1108.1.1 = {
-		remove_trait="excommunicated"
+		remove_trait = "excommunicated_hidden"
 	}
 	1124.1.1 = {
 		death="1124.1.1"
@@ -6094,7 +6094,7 @@
 	religion="catholic"
 	culture="occitan"
 	father=40194 #Roger II de Foix
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1100.1.1 = {
 		birth="1100.1.1"
 	}
@@ -6202,12 +6202,12 @@
 	culture="occitan"
 	father=205550 #Roger Bernard I de Foix
 	mother=205573 #Cécile de Trencavel
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1155.1.1 = {
 		birth="1155.1.1"
 	}
 	1191.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	#1185 married Philippa de Moncade
 	1223.2.27 = {
@@ -6245,10 +6245,10 @@
 	}
 	#1203.1.10 married Ermesinde de Castelbon
 	1227.3.1 = {
-		trait="excommunicated"
+		trait = "excommunicated_hidden"
 	}
 	1229.1.1 = {
-		remove_trait="excommunicated"
+		remove_trait = "excommunicated_hidden"
 	}
 	#1232.1.23 married Ermengarde de Narbonne
 	1241.5.20 = {
@@ -6314,8 +6314,8 @@
 	religion="catholic"
 	culture="occitan"
 	father=138154 #Roger IV de Foix
-	trait="poet"
-	trait="ambitious"
+	trait = "poet_hidden"
+	trait = "ambitious_hidden"
 	1235.1.1 = {
 		birth="1235.1.1"
 	}
@@ -6358,10 +6358,10 @@
 		add_spouse=455545 #Jeanne d'Artois
 	}
 	1303.1.1 = {
-		trait="excommunicated"
+		trait = "excommunicated_hidden"
 	}
 	1303.11.1 = {
-		remove_trait="excommunicated"
+		remove_trait = "excommunicated_hidden"
 	}
 	1315.12.13 = {
 		death="1315.12.13"
@@ -6376,7 +6376,7 @@
 	father=455544 #Gaston I de Foix
 	mother=455545 #Jeanne d'Artois
 	give_nickname = nick_the_fearless
-	trait="brave"
+	trait = "brave_hidden"
 	1308.1.1 = {
 		birth="1308.1.1"
 	}
@@ -6412,7 +6412,7 @@
 	culture="occitan"
 	father=455540 #Gaston II de Foix
 	mother=455551 #Aliénor de Comminges
-	trait="ambitious"
+	trait = "ambitious_hidden"
 	1331.4.30 = {
 		birth="1331.4.30"
 	}
@@ -6568,7 +6568,7 @@
 	}
 	#c1090 married Talesa Sanchez de Montamer/Aragon
 	1096.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 		give_nickname=nick_the_crusader
 	}
 	1131.5.24 = {
@@ -6733,8 +6733,8 @@
 	culture="occitan"
 	father=205543 #Guillaume Ramon I de Moncade
 	give_nickname = nick_the_quarreller #Froissard
-	trait="tough_soldier"
-	trait="wroth"
+	trait = "tough_soldier_hidden"
+	trait = "wroth_hidden"
 	1221.1.1 = {
 		birth="1221.1.1"
 	}
@@ -6742,7 +6742,7 @@
 		add_spouse=138187 #Mathe de Bigorre
 	}
 	1252.3.1 = {
-		trait=excommunicated
+		trait = "excommunicated_hidden"
 	}
 	1273.4.2 = {
 		add_spouse=70911 #Béatrix de Savoie
@@ -7328,7 +7328,7 @@
 		birth="1075.1.1"
 	}	
 	1099.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 		give_nickname=nick_the_crusader
 	}
 	1143.1.1 = {	
@@ -7711,7 +7711,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=205981
 	mother=205990
 	1132.1.1 = {
@@ -7734,9 +7734,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=205985
 	mother=72134
 	1110.1.1 = {
@@ -7760,8 +7760,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="arbitrary"
-	trait="flamboyant_schemer"
+	trait = "arbitrary_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=205980
 	mother=205995
 	1160.1.2 = {
@@ -7781,9 +7781,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="diligent"
-	trait="stutter"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "stutter_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=205981
 	mother=205990
 	1130.1.1 = {
@@ -7804,8 +7804,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="wroth"
-	trait="underhanded_rogue"
+	trait = "wroth_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=205981
 	mother=205990
 	1134.1.1 = {
@@ -7825,9 +7825,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=110550
 	mother=407
 	1080.1.1 = {
@@ -8056,7 +8056,7 @@
 	culture="occitan"
 	father=10034 #Bérenger II de Millau
 	mother=10035 #Adèle de Sabran?
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1056.1.1 = {
 		birth="1056.1.1"
 	}
@@ -8239,7 +8239,7 @@
 	dynasty=733
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=306 #Robert II d'Auvergne
 	mother=138261 #Judith de Melgueil
 	1069.1.1 = {
@@ -8249,7 +8249,7 @@
 		add_spouse=211533 #Emma de Sicile marriage d. unknown
 	}
 	1102.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1136.1.1 = {
 		death="1136.1.1"
@@ -8821,7 +8821,7 @@
 	dynasty=733
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=206034 #Guillaume VI d'Auvergne
 	mother=211533 #Emma de Sicile/Hauteville
 	give_nickname="nick_the_old"
@@ -8920,12 +8920,12 @@
 	religion="catholic"
 	culture="occitan"
 	father=138302 #Hugues II de Rodez
-	trait="bastard"
+	trait = "bastard_hidden"
 	1175.1.1 = {
 		birth="1175.1.1"
 	}
 	1217.11.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1222.1.1 = {
 		death="1222.1.1"
@@ -10015,7 +10015,7 @@
 	female=yes
 	religion="catholic"
 	culture="occitan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=207542
 	mother=72431
 	1216.1.1={
@@ -10125,7 +10125,7 @@
 	dynasty = 776
 	religion="catholic"
 	culture="occitan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72432
 	mother=72439
 	1236.1.1={
@@ -10289,7 +10289,7 @@
 	dynasty = 776
 	religion="catholic"
 	culture="occitan"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	father=72446
 	mother=72451
 	1308.1.1={
@@ -10428,9 +10428,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="kind"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "kind_hidden"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=207540
 	mother=206511
 	1175.1.1={
@@ -10462,8 +10462,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="temperate"
-	trait="tough_soldier"
+	trait = "temperate_hidden"
+	trait = "tough_soldier_hidden"
 	father=455621
 	1318.1.1 = {
 		birth="1318.1.1"
@@ -10482,7 +10482,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=72446
 	mother=72451
 	1302.1.1 = {
@@ -10548,7 +10548,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=406
 	mother=335
 	1030.1.2 = {
@@ -10568,7 +10568,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="intricate_webweaver"
+	trait = "intricate_webweaver_hidden"
 	father=400
 	915.1.2 = {
 		birth="915.1.2"
@@ -10590,7 +10590,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=40800
 	mother=7922
 	940.1.2 = {
@@ -10610,9 +10610,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="occitan"
-	trait="gluttonous"
-	trait="craven"
-	trait="flamboyant_schemer"
+	trait = "gluttonous_hidden"
+	trait = "craven_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=40801
 	970.1.2 = {
 		birth="970.1.2"
@@ -10649,11 +10649,11 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="patient"
-	trait="proud"
-	trait="cynical"
-	trait="temperate"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "proud_hidden"
+	trait = "cynical_hidden"
+	trait = "temperate_hidden"
+	trait = "skilled_tactician_hidden"
 	father=223660
 	mother=223661
 	1140.1.1 = {
@@ -10676,7 +10676,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=223670
 	mother=205513
 	1116.1.1 = {
@@ -10700,7 +10700,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="occitan"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=223660
 	mother=223661
 	1142.1.1 = {
@@ -10720,7 +10720,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="occitan"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=223671
 	1098.1.1 = {
 		birth="1098.1.1"
@@ -11080,7 +11080,7 @@
 	dynasty=13113 #was 733 Auvergne
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=40142 #Guillaume II de Thiern
 	mother=91148 #Adelais de Chalon
 	1035.1.1 = {
@@ -11518,9 +11518,9 @@
 	dynasty=733
 	religion="catholic"
 	culture="occitan"
-	trait="poet"
-	trait="lustful"
-	trait="gregarious"
+	trait = "poet_hidden"
+	trait = "lustful_hidden"
+	trait = "gregarious_hidden"
 	give_nickname=nick_the_troubadour
 	father=206040
 	mother=206039 #Marquise d'Albon
@@ -11632,7 +11632,7 @@
 	culture="occitan"
 	father=40462 #Guigues III d'Albon
 	give_nickname=nick_the_fat
- 	trait="gluttonous"
+ 	trait = "gluttonous_hidden"
 	1025.1.1 = {
 		birth="1025.1.1"
 	}
@@ -11693,7 +11693,7 @@
 	religion="catholic"
 	culture="occitan"
 	father=212803  #Guigues V d'Albon
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1095.1.1 = {
 		birth="1095.1.1"
 	}
@@ -11710,8 +11710,8 @@
 	dynasty=232
 	religion="catholic"
 	culture="occitan"
-	trait="hunchback"
-	trait="martial_cleric"
+	trait = "hunchback_hidden"
+	trait = "martial_cleric_hidden"
 	father=212802 #Guigues VI d'Albon
 	mother=7584 #Clémence de Macon
 	1125.1.1 = {
@@ -11840,7 +11840,7 @@
 		birth="1160.1.2"
 	}
 	1201.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1202.11.28 = {
 		death="1202.11.28"
@@ -12010,7 +12010,7 @@
 	dynasty=57
 	religion="catholic"
 	culture="occitan"
-	trait="charitable"
+	trait = "charitable_hidden"
 	father=138412  #Albert I de la Tour du Pin
 	1176.1.1 = {
 		birth="1176.1.1" #unknown
@@ -12019,7 +12019,7 @@
 		add_spouse=206035 # Marie d'Auvergne
 	}
 	1190.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1229.1.1 = {
 		death="1229.1.1"
@@ -12034,13 +12034,13 @@
 	culture="occitan"
 	father=138408  #Albert II de la Tour du Pin
 	mother=206035 #Marie d'Auvergne
-	trait="martial_cleric"
-	trait="zealous"
+	trait = "martial_cleric_hidden"
+	trait = "zealous_hidden"
 	1202.1.1 = {
 		birth="1202.1.1" #unknown
 	}
 	1248.1.1 = {
-		trait="crusader"	
+		trait = "crusader_hidden"	
 	}
 	1249.12.28 = {
 		death="1249.12.28"
@@ -12118,7 +12118,7 @@
 	dynasty=57 #de la Tour du Pin
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=462701 #Humbert I de Viennois
 	mother=7498
 	1296.1.1 = {
@@ -12314,7 +12314,7 @@
 	religion="catholic"
 	culture="occitan"
 	dynasty=13114
-	trait="zealous"
+	trait = "zealous_hidden"
 	1210.1.1 = {
 		birth="1210.1.1" #unknown
 	}
@@ -12328,7 +12328,7 @@
 	religion="catholic"
 	culture="occitan"
 	dynasty=13114 
-	trait="zealous"
+	trait = "zealous_hidden"
 	1250.1.1 = {
 		birth="1250.1.1" #unknown
 	}
@@ -12501,8 +12501,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="occitan"
-	trait="honest"
-	trait="amateurish_plotter"
+	trait = "honest_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=234
 	mother=275
 	1020.1.2 = {
@@ -13246,7 +13246,7 @@
 	name="Concordius" 
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	820.1.1 = {
 		birth="820.1.1"
 	}
@@ -13275,7 +13275,7 @@
 	dynasty=727
 	religion="catholic"
 	culture="occitan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=127006
 	840.1.1 = {
 		birth="840.1.1"
@@ -13290,7 +13290,7 @@
 	name="Bernoin" 
 	religion="catholic"
 	culture="occitan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	820.1.1 = {
 		birth="820.1.1"
 	}

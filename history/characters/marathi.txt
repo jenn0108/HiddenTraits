@@ -6,8 +6,8 @@
 	culture="marathi"
 	father=74480
 	mother=74488
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 
 	1052.1.1={
@@ -23,8 +23,8 @@
 	dynasty=12321
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	894.1.1={
 		birth=yes
@@ -40,8 +40,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74474
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	922.1.1={
 		birth=yes
@@ -57,8 +57,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74475
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	949.1.1={
 		birth=yes
@@ -74,8 +74,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74476
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	976.1.1={
 		birth=yes
@@ -91,8 +91,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74476
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	982.1.1={
 		birth=yes
@@ -108,8 +108,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74478
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1004.1.1={
 		birth=yes
@@ -125,8 +125,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74479
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1026.1.1={
 		birth=yes
@@ -146,8 +146,8 @@
 	culture="marathi"
 	father=74480
 	mother=74488
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1050.1.1={
 		birth=yes
@@ -164,8 +164,8 @@
 	culture="marathi"
 	father=74480
 	mother=74488
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1053.1.1={
 		birth=yes
@@ -182,8 +182,8 @@
 	culture="marathi"
 	father=74480
 	mother=74488
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1056.1.1={
 		birth=yes
@@ -200,8 +200,8 @@
 	culture="marathi"
 	father=74480
 	mother=74488
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1059.1.1={
 		birth=yes
@@ -221,8 +221,8 @@
 	culture="marathi"
 	father=74484
 	mother=74489
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1084.1.1={
 		birth=yes
@@ -242,8 +242,8 @@
 	culture="marathi"
 	father=74485
 	mother=74490
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1111.1.1={
 		birth=yes
@@ -263,8 +263,8 @@
 	culture="marathi"
 	father=74486
 	mother=74491
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1135.1.1={
 		birth=yes
@@ -279,8 +279,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1030.1.1={
 		birth=yes
@@ -295,8 +295,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1065.1.1={
 		birth=yes
@@ -311,8 +311,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1090.1.1={
 		birth=yes
@@ -327,8 +327,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=vaishnavist_hindu
+	trait = "kshatriya_hidden"
+	trait = "vaishnavist_hindu_hidden"
 
 	1115.1.1={
 		birth=yes
@@ -343,8 +343,8 @@
 	dynasty=12322
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	762.1.1={
 		birth=yes
@@ -360,8 +360,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74492
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	790.1.1={
 		birth=yes
@@ -377,8 +377,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74493
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	816.1.1={
 		birth=yes
@@ -398,8 +398,8 @@
 	culture="marathi"
 	father=74494
 	mother=74517
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	842.1.1={
 		birth=yes
@@ -419,8 +419,8 @@
 	culture="marathi"
 	father=74495
 	mother=74518
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	869.1.1={
 		birth=yes
@@ -437,8 +437,8 @@
 	culture="marathi"
 	father=74495
 	mother=74518
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	878.1.1={
 		birth=yes
@@ -454,8 +454,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74497
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	905.1.1={
 		birth=yes
@@ -471,8 +471,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74497
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	911.1.1={
 		birth=yes
@@ -488,8 +488,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74498
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	933.1.1={
 		birth=yes
@@ -505,8 +505,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74500
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	957.1.1={
 		birth=yes
@@ -523,8 +523,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74501
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1008.1.1={
 		birth=yes
@@ -540,8 +540,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74500
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	960.1.1={
 		birth=yes
@@ -557,8 +557,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74501
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	980.1.1={
 		birth=yes
@@ -574,8 +574,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74504
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1006.1.1={
 		birth=yes
@@ -591,8 +591,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74504
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1029.1.1={
 		birth=yes
@@ -612,8 +612,8 @@
 	culture="marathi"
 	father=74506
 	mother=74519
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1054.1.1={
 		birth=yes
@@ -633,8 +633,8 @@
 	culture="marathi"
 	father=74507
 	mother=74520
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1080.1.1={
 		birth=yes
@@ -654,8 +654,8 @@
 	culture="marathi"
 	father=74507
 	mother=74520
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1086.1.1={
 		birth=yes
@@ -672,8 +672,8 @@
 	culture="marathi"
 	father=74508
 	mother=74521
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1103.1.1={
 		birth=yes
@@ -693,8 +693,8 @@
 	culture="marathi"
 	father=74510
 	mother=74522
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1126.1.1={
 		birth=yes
@@ -711,8 +711,8 @@
 	culture="marathi"
 	father=74510
 	mother=74522
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1129.1.1={
 		birth=yes
@@ -732,8 +732,8 @@
 	culture="marathi"
 	father=74512
 	mother=74523
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1154.1.1={
 		birth=yes
@@ -753,8 +753,8 @@
 	culture="marathi"
 	father=74513
 	mother=74524
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1180.1.1={
 		birth=yes
@@ -774,8 +774,8 @@
 	culture="marathi"
 	father=74514
 	mother=74525
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1208.1.1={
 		birth=yes
@@ -792,8 +792,8 @@
 	culture="marathi"
 	father=74514
 	mother=74525
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1211.1.1={
 		birth=yes
@@ -808,8 +808,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	822.1.1={
 		birth=yes
@@ -824,8 +824,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	851.1.1={
 		birth=yes
@@ -840,8 +840,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1034.1.1={
 		birth=yes
@@ -856,8 +856,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1060.1.1={
 		birth=yes
@@ -872,8 +872,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1082.1.1={
 		birth=yes
@@ -888,8 +888,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1108.1.1={
 		birth=yes
@@ -904,8 +904,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1133.1.1={
 		birth=yes
@@ -920,8 +920,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1160.1.1={
 		birth=yes
@@ -936,8 +936,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1189.1.1={
 		birth=yes
@@ -952,8 +952,8 @@
 	dynasty=12323
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	733.1.1={
 		birth=yes
@@ -969,8 +969,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74526
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	756.1.1={
 		birth=yes
@@ -986,8 +986,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74527
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	780.1.1={
 		birth=yes
@@ -1003,8 +1003,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74528
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	804.1.1={
 		birth=yes
@@ -1024,8 +1024,8 @@
 	culture="marathi"
 	father=74529
 	mother=74536
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	827.1.1={
 		birth=yes
@@ -1045,8 +1045,8 @@
 	culture="marathi"
 	father=74530
 	mother=74537
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	851.1.1={
 		birth=yes
@@ -1062,8 +1062,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74531
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	876.1.1={
 		birth=yes
@@ -1079,8 +1079,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74532
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	904.1.1={
 		birth=yes
@@ -1096,8 +1096,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74533
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	930.1.1={
 		birth=yes
@@ -1113,8 +1113,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74534
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	953.1.1={
 		birth=yes
@@ -1129,8 +1129,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	808.1.1={
 		birth=yes
@@ -1145,8 +1145,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	829.1.1={
 		birth=yes
@@ -1161,8 +1161,8 @@
 	dynasty=12324
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	934.1.1={
 		birth=yes
@@ -1178,8 +1178,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74538
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	957.1.1={
 		birth=yes
@@ -1195,8 +1195,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74539
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	980.1.1={
 		birth=yes
@@ -1212,8 +1212,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74540
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1005.1.1={
 		birth=yes
@@ -1232,8 +1232,8 @@
 	religion="hindu"
 	culture="marathi"
 	father=74539
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	983.1.1={
 		birth=yes
@@ -1250,8 +1250,8 @@
 	culture="marathi"
 	father=74541
 	mother=74502
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1027.1.1={
 		birth=yes
@@ -1268,8 +1268,8 @@
 	culture="marathi"
 	father=74541
 	mother=74502
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1028.1.1={
 		birth=yes
@@ -1289,8 +1289,8 @@
 	culture="marathi"
 	father=74544
 	mother=74558
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1051.1.1={
 		birth=yes
@@ -1307,8 +1307,8 @@
 	culture="marathi"
 	father=74544
 	mother=74558
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1057.1.1={
 		birth=yes
@@ -1328,8 +1328,8 @@
 	culture="marathi"
 	father=74546
 	mother=74559
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1082.1.1={
 		birth=yes
@@ -1349,8 +1349,8 @@
 	culture="marathi"
 	father=74547
 	mother=74560
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1105.1.1={
 		birth=yes
@@ -1370,8 +1370,8 @@
 	culture="marathi"
 	father=74548
 	mother=74561
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1130.1.1={
 		birth=yes
@@ -1391,8 +1391,8 @@
 	culture="marathi"
 	father=74549
 	mother=74562
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1157.1.1={
 		birth=yes
@@ -1409,8 +1409,8 @@
 	culture="marathi"
 	father=74549
 	mother=74562
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1160.1.1={
 		birth=yes
@@ -1431,8 +1431,8 @@
 	culture="marathi"
 	father=74551
 	mother=74563
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1185.1.1={
 		birth=yes
@@ -1449,8 +1449,8 @@
 	culture="marathi"
 	father=74564
 	mother=74552
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1209.1.1={
 		birth=yes
@@ -1471,8 +1471,8 @@
 	culture="marathi"
 	father=74553
 	mother=74565
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1241.1.1={
 		birth=yes
@@ -1487,8 +1487,8 @@
 	dynasty=12333
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1240.1.1={
 		birth=yes
@@ -1508,8 +1508,8 @@
 	culture="marathi"
 	father=74555
 	mother=74554
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1260.1.1={
 		birth=yes
@@ -1529,8 +1529,8 @@
 	culture="marathi"
 	father=74556
 	mother=74566
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1291.1.1={
 		birth=yes
@@ -1548,8 +1548,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1030.1.1={
 		birth=yes
@@ -1564,8 +1564,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1067.1.1={
 		birth=yes
@@ -1580,8 +1580,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1086.1.1={
 		birth=yes
@@ -1596,8 +1596,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1111.1.1={
 		birth=yes
@@ -1612,8 +1612,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1138.1.1={
 		birth=yes
@@ -1628,8 +1628,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1165.1.1={
 		birth=yes
@@ -1643,8 +1643,8 @@
 	name="Bhillama"
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1190.1.1={
 		birth=yes
@@ -1662,8 +1662,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1221.1.1={
 		birth=yes
@@ -1678,8 +1678,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1270.1.1={
 		birth=yes
@@ -1694,8 +1694,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1300.1.1={
 		birth=yes
@@ -1713,8 +1713,8 @@
 	culture="marathi"
 	father=74544
 	mother=74558
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1060.1.1={
 		birth=yes
@@ -1729,8 +1729,8 @@
 	dynasty=12331
 	religion="jain"
 	culture="marathi"
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	789.1.1={
@@ -1747,8 +1747,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74633
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	818.1.1={
@@ -1769,8 +1769,8 @@
 	culture="marathi"
 	father=74634
 	mother=74663
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	842.1.1={
@@ -1791,8 +1791,8 @@
 	culture="marathi"
 	father=74635
 	mother=74664
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	867.1.1={
@@ -1809,8 +1809,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74636
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	890.1.1={
@@ -1827,8 +1827,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74637
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	913.1.1={
@@ -1845,8 +1845,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74637
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	916.1.1={
@@ -1863,8 +1863,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74639
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	938.1.1={
@@ -1881,8 +1881,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74640
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	963.1.1={
@@ -1899,8 +1899,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74641
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	986.1.1={
@@ -1917,8 +1917,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74642
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	1010.1.1={
@@ -1939,8 +1939,8 @@
 	culture="marathi"
 	father=74643
 	mother=74665
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	1035.1.1={
@@ -1957,8 +1957,8 @@
 	religion="jain"
 	culture="marathi"
 	father=74642
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	1016.1.1={
@@ -1979,8 +1979,8 @@
 	culture="marathi"
 	father=74645
 	mother=74666
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 
 	1040.1.1={
@@ -1988,9 +1988,9 @@
 	}
 	1061.1.1={
 		add_spouse=74667
-		remove_trait=digambara_jain
+		remove_trait = "digambara_jain_hidden"
 		religion=hindu
-		trait=shaivist_hindu
+		trait = "shaivist_hindu_hidden"
 	}
 	1115.1.1={
 		death=yes
@@ -2004,8 +2004,8 @@
 	culture="marathi"
 	father=74646
 	mother=74667
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1063.1.1={
@@ -2026,8 +2026,8 @@
 	culture="marathi"
 	father=74647
 	mother=74668
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1085.1.1={
@@ -2048,8 +2048,8 @@
 	culture="marathi"
 	father=74648
 	mother=74669
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1107.1.1={
@@ -2070,8 +2070,8 @@
 	culture="marathi"
 	father=74648
 	mother=74669
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1110.1.1={
@@ -2089,8 +2089,8 @@
 	culture="marathi"
 	father=74648
 	mother=74669
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1113.1.1={
@@ -2108,8 +2108,8 @@
 	culture="marathi"
 	father=74648
 	mother=74669
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1116.1.1={
@@ -2130,8 +2130,8 @@
 	culture="marathi"
 	father=74648
 	mother=74669
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1119.1.1={
@@ -2149,8 +2149,8 @@
 	culture="marathi"
 	father=74649
 	mother=74670
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1135.1.1={
@@ -2171,8 +2171,8 @@
 	culture="marathi"
 	father=74654
 	mother=74671
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1153.1.1={
@@ -2193,8 +2193,8 @@
 	culture="marathi"
 	father=74655
 	mother=74672
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1177.1.1={
@@ -2215,8 +2215,8 @@
 	culture="marathi"
 	father=74656
 	mother=74673
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1200.1.1={
@@ -2234,8 +2234,8 @@
 	culture="marathi"
 	father=74656
 	mother=74673
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1203.1.1={
@@ -2253,8 +2253,8 @@
 	culture="marathi"
 	father=74656
 	mother=74673
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1206.1.1={
@@ -2275,8 +2275,8 @@
 	culture="marathi"
 	father=74659
 	mother=74674
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1234.1.1={
@@ -2297,8 +2297,8 @@
 	culture="marathi"
 	father=74660
 	mother=74675
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1257.1.1={
@@ -2316,8 +2316,8 @@
 	culture="marathi"
 	father=74660
 	mother=74675
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 
 	1260.1.1={
@@ -2333,8 +2333,8 @@
 	female=yes
 	religion="jain"
 	culture="marathi"
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 	827.1.1={
 		birth=yes
@@ -2349,8 +2349,8 @@
 	female=yes
 	religion="jain"
 	culture="marathi"
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 	846.1.1={
 		birth=yes
@@ -2365,8 +2365,8 @@
 	female=yes
 	religion="jain"
 	culture="marathi"
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 	1016.1.1={
 		birth=yes
@@ -2381,8 +2381,8 @@
 	female=yes
 	religion="jain"
 	culture="marathi"
-	trait=kshatriya
-	trait=digambara_jain
+	trait = "kshatriya_hidden"
+	trait = "digambara_jain_hidden"
 
 	1018.1.1={
 		birth=yes
@@ -2397,8 +2397,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1042.1.1={
 		birth=yes
@@ -2413,8 +2413,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1065.1.1={
 		birth=yes
@@ -2429,8 +2429,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1086.1.1={
 		birth=yes
@@ -2445,8 +2445,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1114.1.1={
 		birth=yes
@@ -2461,8 +2461,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1133.1.1={
 		birth=yes
@@ -2477,8 +2477,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1157.1.1={
 		birth=yes
@@ -2493,8 +2493,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1180.1.1={
 		birth=yes
@@ -2509,8 +2509,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1213.1.1={
 		birth=yes
@@ -2525,8 +2525,8 @@
 	female=yes
 	religion="hindu"
 	culture="marathi"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1238.1.1={
 		birth=yes
@@ -2543,8 +2543,8 @@
 	culture="marathi"
 	father=74557
 	mother=74567
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 
 	1321.1.1={
 		birth=yes
@@ -2558,8 +2558,8 @@
 	dynasty=1041108
 	religion="hindu"
 	culture="marathi"
-	trait="kshatriya"
-	trait="shaivist_hindu"
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	841.1.1={
 		birth=yes
 	}

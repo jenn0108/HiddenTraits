@@ -3,8 +3,8 @@
     dynasty=1042068 #Capa
     religion="hindu"
     culture="gujurati"
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     700.1.1={
         birth=yes
     }
@@ -19,8 +19,8 @@
     religion="jain"
     culture="gujurati"
     father=188062
-    trait="kshatriya"
-    trait="svetambara_jain" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "svetambara_jain_hidden" # chosen randomly
     720.1.1={
         birth=yes
     }
@@ -35,8 +35,8 @@
     religion="hindu"
     culture="gujurati"
     father=188063
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     760.1.1={
         birth=yes
     }
@@ -53,8 +53,8 @@
     female=yes
     religion="hindu"
     culture="gujurati"
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     765.1.1={
         birth=yes
     }
@@ -70,8 +70,8 @@
     culture="gujurati"
     father=188064
     mother=188065
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     790.1.1={
         birth=yes
     }
@@ -87,8 +87,8 @@
     culture="gujurati"
     father=188064
     mother=188065
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     795.1.1={
         birth=yes
     }
@@ -104,8 +104,8 @@
     culture="gujurati"
     father=188064
     mother=188065
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     800.1.1={
         birth=yes
     }
@@ -122,8 +122,8 @@
     female=yes
     religion="hindu"
     culture="gujurati"
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     803.1.1={
         birth=yes
     }
@@ -139,8 +139,8 @@
     culture="gujurati"
     father=188068
     mother=188069
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     832.6.3={
         birth=yes
     }
@@ -157,8 +157,8 @@
     female=yes
     religion="hindu"
     culture="gujurati"
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     834.1.1={
         birth=yes
     }
@@ -174,8 +174,8 @@
     culture="gujurati"
     father=188070
     mother=188071
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     860.1.1={
         birth=yes
     }
@@ -190,8 +190,8 @@
     religion="hindu"
     culture="gujurati"
     father=188072
-    trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+    trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
     880.1.1={
         birth=yes
     }
@@ -205,8 +205,8 @@
     dynasty=1042073 # Bhil
     religion="hindu"
     culture="gujurati"
-    trait="kshatriya"
-    trait="shaivist_hindu"
+    trait = "kshatriya_hidden"
+    trait = "shaivist_hindu_hidden"
     1025.1.1={
         birth=yes
     }
@@ -221,8 +221,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188073
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	910.1.1={
 		birth=yes
 	}
@@ -237,8 +237,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188306
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	940.1.1={
 		birth=yes
 	}
@@ -253,8 +253,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188307
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	970.1.1={
 		birth=yes
 	}
@@ -269,8 +269,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188308
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1000.1.1={
 		birth=yes
 	}
@@ -285,8 +285,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188309
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1030.1.1={
 		birth=yes
 	}
@@ -301,8 +301,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188310
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1060.1.1={
 		birth=yes
 	}
@@ -317,8 +317,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188311
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1085.1.1={
 		birth=yes
 	}
@@ -333,8 +333,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188312
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1109.1.1={
 		birth=yes
 	}
@@ -348,8 +348,8 @@
     dynasty=1042089 #Kathi
 	religion="hindu"
 	culture="gujurati"
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1030.1.1={
 		birth=yes
 	}
@@ -364,8 +364,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188314
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1060.1.1={
 		birth=yes
 	}
@@ -380,8 +380,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188315
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1090.1.1={
 		birth=yes
 	}
@@ -396,8 +396,8 @@
 	religion="hindu"
 	culture="gujurati"
 	father=188316
-	trait="kshatriya"
-    trait="smartist_hindu" # chosen randomly
+	trait = "kshatriya_hidden"
+    trait = "smartist_hindu_hidden" # chosen randomly
 	1110.1.1={
 		birth=yes
 	}

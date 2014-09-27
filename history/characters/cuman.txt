@@ -122,7 +122,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -140,10 +140,10 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="kind"
-	trait="zealous"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "zealous_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -161,9 +161,9 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="honest"
-	trait="arbitrary"
-	trait="martial_cleric"
+	trait = "honest_hidden"
+	trait = "arbitrary_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -181,7 +181,7 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -199,7 +199,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -217,8 +217,8 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="greedy"
-	trait="amateurish_plotter"
+	trait = "greedy_hidden"
+	trait = "amateurish_plotter_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -237,8 +237,8 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -257,7 +257,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -275,7 +275,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -293,8 +293,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -357,7 +357,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1060.1.1={
 		birth="1060.1.1"
 	}
@@ -375,7 +375,7 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -393,10 +393,10 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="wroth"
-	trait="arbitrary"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "arbitrary_hidden"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -414,7 +414,7 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -432,7 +432,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -450,7 +450,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -468,9 +468,9 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="patient"
-	trait="envious"
-	trait="martial_cleric"
+	trait = "patient_hidden"
+	trait = "envious_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -488,7 +488,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -506,8 +506,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -525,9 +525,9 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="kind"
-	trait="craven"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "craven_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -545,8 +545,8 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -564,7 +564,7 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -583,8 +583,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="chaste"
-	trait="underhanded_rogue"
+	trait = "chaste_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -602,7 +602,7 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -620,8 +620,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -639,9 +639,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="kind"
-	trait="hunchback"
-	trait="flamboyant_schemer"
+	trait = "kind_hidden"
+	trait = "hunchback_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -659,11 +659,11 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="arbitrary"
-	trait="humble"
-	trait="zealous"
-	trait="wroth"
-	trait="thrifty_clerk"
+	trait = "arbitrary_hidden"
+	trait = "humble_hidden"
+	trait = "zealous_hidden"
+	trait = "wroth_hidden"
+	trait = "thrifty_clerk_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -681,8 +681,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="greedy"
-	trait="scholarly_theologian"
+	trait = "greedy_hidden"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -700,9 +700,9 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="proud"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "proud_hidden"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -720,10 +720,10 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="chaste"
-	trait="just"
-	trait="cynical"
-	trait="charismatic_negotiator"
+	trait = "chaste_hidden"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -741,7 +741,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -759,7 +759,7 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1070.1.1={
 		birth="1070.1.1"
 	}
@@ -777,9 +777,9 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="deceitful"
-	trait="arbitrary"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -797,7 +797,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -815,8 +815,8 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="honest"
-	trait="martial_cleric"
+	trait = "honest_hidden"
+	trait = "martial_cleric_hidden"
 	1060.1.1={
 		birth="1060.1.1"
 	}
@@ -834,9 +834,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="diligent"
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	1080.1.1={
 		birth="1080.1.1"
 	}
@@ -854,7 +854,7 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1070.1.1={
 		birth="1070.1.1"
 	}
@@ -872,7 +872,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -890,8 +890,8 @@
 	stewardship=8
 	religion="orthodox"
 	culture="cuman"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -925,8 +925,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="envious"
-	trait="fortune_builder"
+	trait = "envious_hidden"
+	trait = "fortune_builder_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -945,7 +945,7 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -963,7 +963,7 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -981,10 +981,10 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="lustful"
-	trait="just"
-	trait="humble"
-	trait="skilled_tactician"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "humble_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1002,10 +1002,10 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="honest"
-	trait="humble"
-	trait="brave"
-	trait="thrifty_clerk"
+	trait = "honest_hidden"
+	trait = "humble_hidden"
+	trait = "brave_hidden"
+	trait = "thrifty_clerk_hidden"
 	1090.1.1={
 		birth="1090.1.1"
 	}
@@ -1023,10 +1023,10 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="envious"
-	trait="wroth"
-	trait="temperate"
-	trait="thrifty_clerk"
+	trait = "envious_hidden"
+	trait = "wroth_hidden"
+	trait = "temperate_hidden"
+	trait = "thrifty_clerk_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1045,8 +1045,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1064,7 +1064,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1083,10 +1083,10 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="honest"
-	trait="brave"
-	trait="hunchback"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "hunchback_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1105,9 +1105,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="wroth"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1125,7 +1125,7 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1143,9 +1143,9 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="zealous"
-	trait="patient"
-	trait="scholarly_theologian"
+	trait = "zealous_hidden"
+	trait = "patient_hidden"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1163,8 +1163,8 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="honest"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1183,7 +1183,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1202,8 +1202,8 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1221,10 +1221,10 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="humble"
-	trait="wroth"
-	trait="cynical"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "wroth_hidden"
+	trait = "cynical_hidden"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1242,9 +1242,9 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="lustful"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1262,8 +1262,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="diligent"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1282,8 +1282,8 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1302,7 +1302,7 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1095.1.1={
 		birth="1095.1.1"
 	}
@@ -1321,7 +1321,7 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1340,9 +1340,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="chaste"
-	trait="wroth"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "wroth_hidden"
+	trait = "scholarly_theologian_hidden"
 	1080.1.1={
 		birth="1080.1.1"
 	}
@@ -1360,8 +1360,8 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="cynical"
-	trait="skilled_tactician"
+	trait = "cynical_hidden"
+	trait = "skilled_tactician_hidden"
 	1090.1.1={
 		birth="1090.1.1"
 	}
@@ -1379,9 +1379,9 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="deceitful"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "deceitful_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	father=70370
 	935.1.1={
 		birth="935.1.1"
@@ -1400,9 +1400,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="chaste"
-	trait="arbitrary"
-	trait="indulgent_wastrel"
+	trait = "chaste_hidden"
+	trait = "arbitrary_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70370
 	
 	937.1.1={
@@ -1422,9 +1422,9 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="celibate"
-	trait="temperate"
-	trait="misguided_warrior"
+	trait = "celibate_hidden"
+	trait = "temperate_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70372
 	
 	952.1.1={
@@ -1445,9 +1445,9 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="diligent"
-	trait="envious"
-	trait="underhanded_rogue"
+	trait = "diligent_hidden"
+	trait = "envious_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70371
 	954.1.1={
 		birth="954.1.1"
@@ -2229,7 +2229,7 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth=yes
 	}
@@ -2247,10 +2247,10 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="slothful"
-	trait="arbitrary"
-	trait="craven"
-	trait="skilled_tactician"
+	trait = "slothful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "craven_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth=yes
 	}
@@ -2269,7 +2269,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth=yes
 	}
@@ -2287,8 +2287,8 @@
 	stewardship=6
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="just"
-	trait="amateurish_plotter"
+	trait = "just_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth=yes
 	}
@@ -2306,8 +2306,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="envious"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth=yes
 	}
@@ -2325,8 +2325,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="diligent"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "amateurish_plotter_hidden"
 	1115.1.1={
 		birth=yes
 	}
@@ -2344,9 +2344,9 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="cuman"
-	trait="chaste"
-	trait="brave"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "brave_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1105.1.1={
 		birth=yes
 	}
@@ -2586,7 +2586,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -2608,7 +2608,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {

@@ -35,11 +35,11 @@
 	religion="catholic"
 	culture="hungarian"
 	
-	trait = "tough_soldier"
-	trait="wroth"
-	trait="cruel"
-	trait="ambitious"
-	trait="brave"
+	trait = "tough_soldier_hidden"
+	trait = "wroth_hidden"
+	trait = "cruel_hidden"
+	trait = "ambitious_hidden"
+	trait = "brave_hidden"
 	
 	1030.11.17={
 		birth="1030.11.17"
@@ -64,12 +64,12 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait = "midas_touched"
-	trait="deceitful"
-	trait="paranoid"
-	trait="zealous"
-	trait="cruel"
-	trait="greedy"
+	trait = "midas_touched_hidden"
+	trait = "deceitful_hidden"
+	trait = "paranoid_hidden"
+	trait = "zealous_hidden"
+	trait = "cruel_hidden"
+	trait = "greedy_hidden"
 	
 	1030.6.2={
 		birth="1030.6.2"
@@ -93,11 +93,11 @@
 	
 	religion="orthodox"
 	culture="russian"
-	trait = "tough_soldier"
-	trait = "strong"
-	trait = "lustful"
-	trait = "homosexual"
-	trait = "cruel"
+	trait = "tough_soldier_hidden"
+	trait = "strong_hidden"
+	trait = "lustful_hidden"
+	trait = "homosexual_hidden"
+	trait = "cruel_hidden"
 	
 	1033.10.4={
 		birth="1033.10.4"
@@ -121,11 +121,11 @@
 	
 	religion="catholic"
 	culture="swedish"
-	trait = "strong"
-	trait = "lustful"
-	trait = "wroth"
-	trait = "proud"
-	trait = "paranoid"
+	trait = "strong_hidden"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "paranoid_hidden"
 	
 	1046.5.3={
 		birth="1046.5.3"
@@ -150,11 +150,11 @@
 	
 	religion="catholic"
 	culture="saxon"
-	trait = "chaste"
-	trait = "celibate"
-	trait = "scholarly_theologian"
-	trait = "content"
-	trait = "cynical"
+	trait = "chaste_hidden"
+	trait = "celibate_hidden"
+	trait = "scholarly_theologian_hidden"
+	trait = "content_hidden"
+	trait = "cynical_hidden"
 	
 	985.5.3={
 		birth="985.5.3"
@@ -178,10 +178,10 @@
 	
 	religion="catholic"
 	culture="dutch"
-	trait = "drunkard"
-	trait = "hedonist"
-	trait = "indulgent_wastrel"
-	trait = "kind"
+	trait = "drunkard_hidden"
+	trait = "hedonist_hidden"
+	trait = "indulgent_wastrel_hidden"
+	trait = "kind_hidden"
 	
 	985.5.3={
 		birth="985.5.3"
@@ -229,10 +229,10 @@
 	
 	religion="catholic"
 	culture="saxon"
-	trait = "diligent"
-	trait = "patient"
-	trait = "humble"
-	trait = "honest"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "humble_hidden"
+	trait = "honest_hidden"
 	
 	1028.8.10={
 		birth="1028.8.10"
@@ -258,13 +258,13 @@
 	religion="norse_pagan"
 	culture="swedish"
 	
-	trait="grey_eminence"
-	trait="quick"
-	trait="envious"
-	trait="gregarious"
-	trait="charitable"
-	trait="just"
-	trait="ambitious"
+	trait = "grey_eminence_hidden"
+	trait = "quick_hidden"
+	trait = "envious_hidden"
+	trait = "gregarious_hidden"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
+	trait = "ambitious_hidden"
 	
 	1029.8.28={
 		birth="1029.8.28"
@@ -292,12 +292,12 @@
 	culture="swedish"
 	
 	
-	trait="thrifty_clerk"
-	trait="falconer"
-	trait="temperate"
-	trait="humble"
-	trait="gregarious"
-	trait="wroth"
+	trait = "thrifty_clerk_hidden"
+	trait = "falconer_hidden"
+	trait = "temperate_hidden"
+	trait = "humble_hidden"
+	trait = "gregarious_hidden"
+	trait = "wroth_hidden"
 	
 	1036.3.12={
 		birth="1036.3.12"
@@ -324,12 +324,12 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait="charismatic_negotiator"
-	trait="diligent"
-	trait="poet"
-	trait="envious"
-	trait="just"
-	trait="proud"
+	trait = "charismatic_negotiator_hidden"
+	trait = "diligent_hidden"
+	trait = "poet_hidden"
+	trait = "envious_hidden"
+	trait = "just_hidden"
+	trait = "proud_hidden"
 	
 	1041.10.29={
 		birth="1041.10.29"
@@ -354,7 +354,7 @@
 	religion="catholic"
 	culture="danish"
 	
-	trait = "mystic"
+	trait = "mystic_hidden"
 	
 	#rules b_falkenberg
 	
@@ -377,12 +377,12 @@
 	
 	religion="catholic"
 	culture="swedish"
-	trait = "martial_cleric"
-	trait = "zealous"
-	trait = "trusting"
-	trait = "kind"
-	trait = "just"
-	trait = "patient"
+	trait = "martial_cleric_hidden"
+	trait = "zealous_hidden"
+	trait = "trusting_hidden"
+	trait = "kind_hidden"
+	trait = "just_hidden"
+	trait = "patient_hidden"
 
 	#rules b_skara
 	
@@ -410,12 +410,12 @@
 	
 	religion="norse_pagan"
 	culture="swedish"
-	trait = "mastermind_theologian"
-	trait = "hedonist"
-	trait = "mystic"
-	trait = "lustful"
-	trait = "diligent"
-	trait = "cynical"
+	trait = "mastermind_theologian_hidden"
+	trait = "hedonist_hidden"
+	trait = "mystic_hidden"
+	trait = "lustful_hidden"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
 	
 	1050.6.29={
 		birth="1050.6.29"
@@ -439,9 +439,9 @@
 	
 	religion="catholic"
 	culture="swedish"
-	trait = "underhanded_rogue"
-	trait = "lunatic"
-	trait = "genius"
+	trait = "underhanded_rogue_hidden"
+	trait = "lunatic_hidden"
+	trait = "genius_hidden"
 	
 	1040.6.1={
 		birth="1040.6.1"
@@ -465,11 +465,11 @@
 	
 	religion="catholic"
 	culture="polish"
-	trait = "tough_soldier"
-	trait = "strong"
-	trait = "lustful"
-	trait = "homosexual"
-	trait = "kind"
+	trait = "tough_soldier_hidden"
+	trait = "strong_hidden"
+	trait = "lustful_hidden"
+	trait = "homosexual_hidden"
+	trait = "kind_hidden"
 	
 	1033.1.18={
 		birth="1033.1.18"
@@ -494,11 +494,11 @@
 	
 	religion="catholic"
 	culture="scottish"
-	trait = "skilled_tactician"
-	trait = "impaler"
-	trait = "proud"
-	trait = "wroth"
-	trait = "lustful"
+	trait = "skilled_tactician_hidden"
+	trait = "impaler_hidden"
+	trait = "proud_hidden"
+	trait = "wroth_hidden"
+	trait = "lustful_hidden"
 	
 	1043.11.1={
 		birth="1043.11.1"
@@ -522,13 +522,13 @@
 	
 	religion="norse_pagan"
 	culture="swedish"
-	trait = "skilled_tactician"
-	trait = "humble"
-	trait = "ill"
-	trait = "quick"
-	trait = "duelist"
-	trait = "diligent"
-	trait = "honest"
+	trait = "skilled_tactician_hidden"
+	trait = "humble_hidden"
+	trait = "ill_hidden"
+	trait = "quick_hidden"
+	trait = "duelist_hidden"
+	trait = "diligent_hidden"
+	trait = "honest_hidden"
 	
 	1036.3.4={
 		birth="1036.3.4"
@@ -555,12 +555,12 @@
 	
 	religion="norse_pagan"
 	culture="swedish"
-	trait = "gregarious"
-	trait = "drunkard"
-	trait = "charismatic_negotiator"
-	trait = "hunter"
-	trait = "slothful"
-	trait = "patient"
+	trait = "gregarious_hidden"
+	trait = "drunkard_hidden"
+	trait = "charismatic_negotiator_hidden"
+	trait = "hunter_hidden"
+	trait = "slothful_hidden"
+	trait = "patient_hidden"
 	
 	1036.3.21={
 		birth="1036.3.21"
@@ -580,13 +580,13 @@
 	
 	religion="norse_pagan"
 	culture="swedish"
-	trait = "naive_appeaser"
-	trait = "ugly"
-	trait = "leper"
-	trait = "slow"
-	trait = "gardener"
-	trait = "wroth"
-	trait = "slothful"
+	trait = "naive_appeaser_hidden"
+	trait = "ugly_hidden"
+	trait = "leper_hidden"
+	trait = "slow_hidden"
+	trait = "gardener_hidden"
+	trait = "wroth_hidden"
+	trait = "slothful_hidden"
 	
 	1037.11.18={
 		birth="1037.11.18"
@@ -613,13 +613,13 @@
 	
 	religion="shiite"
 	culture="swedish"
-	trait = "flamboyant_schemer"
-	trait = "impaler"
-	trait = "duelist"
-	trait = "slothful"
-	trait = "cynical"
-	trait = "proud"
-	trait = "stressed"
+	trait = "flamboyant_schemer_hidden"
+	trait = "impaler_hidden"
+	trait = "duelist_hidden"
+	trait = "slothful_hidden"
+	trait = "cynical_hidden"
+	trait = "proud_hidden"
+	trait = "stressed_hidden"
 
 	1034.9.15={
 		birth="1034.9.15"
@@ -640,16 +640,16 @@
 	
 	religion="catholic"
 	culture="dutch"
-	trait = "skilled_tactician"
-	trait = "flat_terrain_leader"
-	trait = "cynical"
-	trait = "content"
-	trait = "slothful"
-	trait = "scholar"
-	trait = "hunchback"
-	trait = "temperate"
-	trait = "patient"
-	trait = "quick"
+	trait = "skilled_tactician_hidden"
+	trait = "flat_terrain_leader_hidden"
+	trait = "cynical_hidden"
+	trait = "content_hidden"
+	trait = "slothful_hidden"
+	trait = "scholar_hidden"
+	trait = "hunchback_hidden"
+	trait = "temperate_hidden"
+	trait = "patient_hidden"
+	trait = "quick_hidden"
 	
 	1038.7.23={
 		birth="1038.7.23"
@@ -687,10 +687,10 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait = "midas_touched"
-	trait = "gregarious"
-	trait = "brave"
-	trait = "ambitious"
+	trait = "midas_touched_hidden"
+	trait = "gregarious_hidden"
+	trait = "brave_hidden"
+	trait = "ambitious_hidden"
 	
 	1046.7.20={
 		birth="1046.7.20"
@@ -728,13 +728,13 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait = "charismatic_negotiator"
-	trait = "lunatic"
-	trait = "genius"
-	trait = "hedonist"
-	trait = "charitable"
-	trait = "slothful"
-	trait = "falconer"
+	trait = "charismatic_negotiator_hidden"
+	trait = "lunatic_hidden"
+	trait = "genius_hidden"
+	trait = "hedonist_hidden"
+	trait = "charitable_hidden"
+	trait = "slothful_hidden"
+	trait = "falconer_hidden"
 	
 	1033.2.7={
 		birth="1033.2.7"
@@ -753,10 +753,10 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait = "mystic"
-	trait = "ambitious"
-	trait = "blinded"
-	trait = "grey_eminence"
+	trait = "mystic_hidden"
+	trait = "ambitious_hidden"
+	trait = "blinded_hidden"
+	trait = "grey_eminence_hidden"
 	
 	1033.2.7={
 		birth="1033.2.7"
@@ -775,8 +775,8 @@
 	religion="catholic"
 	culture="swedish"
 
-	trait = "kind"
-	trait = "gardener"
+	trait = "kind_hidden"
+	trait = "gardener_hidden"
 	
 	1033.2.7={
 		birth="1033.2.7"
@@ -796,10 +796,10 @@
 	culture="swedish"
 	father=157229
 	
-	trait = "lustful"
-	trait = "drunkard"
-	trait = "cruel"
-	trait = "zealous"
+	trait = "lustful_hidden"
+	trait = "drunkard_hidden"
+	trait = "cruel_hidden"
+	trait = "zealous_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -818,8 +818,8 @@
 	religion="slavic_pagan"
 	culture="russian"
 	
-	trait = "cynical"
-	trait = "possessed"
+	trait = "cynical_hidden"
+	trait = "possessed_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -838,10 +838,10 @@
 	religion="norse_pagan"
 	culture="swedish"
 	
-	trait = "poet"
-	trait = "lustful"
-	trait = "cynical"
-	trait = "ambitious"
+	trait = "poet_hidden"
+	trait = "lustful_hidden"
+	trait = "cynical_hidden"
+	trait = "ambitious_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -860,7 +860,7 @@
 	religion="norse_pagan"
 	culture="norse"
 	
-	trait = "mystic"
+	trait = "mystic_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -879,14 +879,14 @@
 	religion="catholic"
 	culture="italian"
 	
-	trait = "flamboyant_schemer"
-	trait = "kinslayer"
-	trait = "impaler"
-	trait = "deceitful"
-	trait = "arbitrary"
-	trait = "cruel"
-	trait = "bastard"
-	trait = "possessed"
+	trait = "flamboyant_schemer_hidden"
+	trait = "kinslayer_hidden"
+	trait = "impaler_hidden"
+	trait = "deceitful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "cruel_hidden"
+	trait = "bastard_hidden"
+	trait = "possessed_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -905,13 +905,13 @@
 	religion="jewish"
 	culture="swedish"
 	
-	trait = "kind"
-	trait = "content"
-	trait = "drunkard"
-	trait = "scholar"
-	trait = "fortune_builder"
-	trait = "lunatic"
-	trait = "gregarious"
+	trait = "kind_hidden"
+	trait = "content_hidden"
+	trait = "drunkard_hidden"
+	trait = "scholar_hidden"
+	trait = "fortune_builder_hidden"
+	trait = "lunatic_hidden"
+	trait = "gregarious_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -930,12 +930,12 @@
 	religion="finnish_pagan"
 	culture="finnish"
 	
-	trait = "temperate"
-	trait = "chaste"
-	trait = "misguided_warrior"
-	trait = "proud"
-	trait = "stutter"
-	trait = "patient"
+	trait = "temperate_hidden"
+	trait = "chaste_hidden"
+	trait = "misguided_warrior_hidden"
+	trait = "proud_hidden"
+	trait = "stutter_hidden"
+	trait = "patient_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -954,15 +954,15 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait = "stressed"
-	trait = "depressed"
-	trait = "lunatic"
-	trait = "genius"
-	trait = "paranoid"
-	trait = "berserker"
-	trait = "viking"
-	trait = "wroth"
-	trait = "craven"
+	trait = "stressed_hidden"
+	trait = "depressed_hidden"
+	trait = "lunatic_hidden"
+	trait = "genius_hidden"
+	trait = "paranoid_hidden"
+	trait = "berserker_hidden"
+	trait = "viking_hidden"
+	trait = "wroth_hidden"
+	trait = "craven_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -982,10 +982,10 @@
 	religion="catholic"
 	culture="swedish"
 	
-	trait = "poet"
-	trait = "quick"
-	trait = "experimenter"
-	trait = "sympathy_pagans"
+	trait = "poet_hidden"
+	trait = "quick_hidden"
+	trait = "experimenter_hidden"
+	trait = "sympathy_pagans_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -1021,14 +1021,14 @@
 	religion="catholic"
 	culture="german"
 	
-	trait = "thrifty_clerk"
-	trait = "honest"
-	trait = "diligent"
-	trait = "patient"
-	trait = "greedy"
-	trait = "cruel"
-	trait = "organizer"
-	trait = "twin"
+	trait = "thrifty_clerk_hidden"
+	trait = "honest_hidden"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "greedy_hidden"
+	trait = "cruel_hidden"
+	trait = "organizer_hidden"
+	trait = "twin_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -1048,13 +1048,13 @@
 	religion="jewish"
 	culture="ethiopian"
 	
-	trait = "grey_eminence"
-	trait = "proud"
-	trait = "paranoid"
-	trait = "wroth"
-	trait = "charitable"
-	trait = "slothful"
-	trait = "trickster"
+	trait = "grey_eminence_hidden"
+	trait = "proud_hidden"
+	trait = "paranoid_hidden"
+	trait = "wroth_hidden"
+	trait = "charitable_hidden"
+	trait = "slothful_hidden"
+	trait = "trickster_hidden"
 
 	1033.2.7={
 		birth="1033.2.7"
@@ -1078,12 +1078,12 @@
 	
 	religion="catholic"
 	culture="irish"
-	trait = "genius"
-	trait = "midas_touched"
-	trait = "ambitious"
-	trait = "cynical"
-	trait = "honest"
-	trait = "temperate"
+	trait = "genius_hidden"
+	trait = "midas_touched_hidden"
+	trait = "ambitious_hidden"
+	trait = "cynical_hidden"
+	trait = "honest_hidden"
+	trait = "temperate_hidden"
 	
 	1050.8.28={
 		birth="1050.8.28"
@@ -1103,10 +1103,10 @@
 	
 	religion="catholic"
 	culture="norman"
-	trait = "midas_touched"
-	trait = "just"
-	trait = "kind"
-	trait = "gregarious"
+	trait = "midas_touched_hidden"
+	trait = "just_hidden"
+	trait = "kind_hidden"
+	trait = "gregarious_hidden"
 	
 	1040.2.14={
 		birth="1040.2.14"
@@ -1127,10 +1127,10 @@
 	religion="catholic"
 	culture="norman"
 	father=157301
-	trait = "midas_touched"
-	trait = "just"
-	trait = "kind"
-	trait = "gregarious"
+	trait = "midas_touched_hidden"
+	trait = "just_hidden"
+	trait = "kind_hidden"
+	trait = "gregarious_hidden"
 	
 	1066.8.14={
 		birth="1066.8.14"
@@ -1149,15 +1149,15 @@
 	
 	religion="catholic"
 	culture="german"
-	trait = "tough_soldier"
-	trait = "strong"
-	trait = "hedonist"
-	trait = "lustful"
-	trait = "slothful"
-	trait = "wroth"
-	trait = "honest"
-	trait = "content"
-	trait = "cynical"
+	trait = "tough_soldier_hidden"
+	trait = "strong_hidden"
+	trait = "hedonist_hidden"
+	trait = "lustful_hidden"
+	trait = "slothful_hidden"
+	trait = "wroth_hidden"
+	trait = "honest_hidden"
+	trait = "content_hidden"
+	trait = "cynical_hidden"
 	
 	1039.9.23={
 		birth="1039.9.23"
@@ -1176,10 +1176,10 @@
 	
 	religion="catholic"
 	culture="scottish"
-	trait = "scholar"
-	trait = "poet"
-	trait = "diligent"
-	trait = "cynical"
+	trait = "scholar_hidden"
+	trait = "poet_hidden"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
 	
 	1035.2.12={
 		birth="1035.2.12"
@@ -1198,16 +1198,16 @@
 	
 	religion="catholic"
 	culture="saxon"
-	trait = "midas_touched"
-	trait = "legit_bastard"
-	trait = "lunatic"
-	trait = "lustful"
-	trait = "honest"
-	trait = "cruel"
-	trait = "just"
-	trait = "patient"
-	trait = "quick"
-	trait = "greedy"
+	trait = "midas_touched_hidden"
+	trait = "legit_bastard_hidden"
+	trait = "lunatic_hidden"
+	trait = "lustful_hidden"
+	trait = "honest_hidden"
+	trait = "cruel_hidden"
+	trait = "just_hidden"
+	trait = "patient_hidden"
+	trait = "quick_hidden"
+	trait = "greedy_hidden"
 	
 	1049.6.17={
 		birth="1049.6.17"
@@ -1228,13 +1228,13 @@
 	
 	religion="catholic"
 	culture="castillan"
-	trait = "quick"
-	trait = "grey_eminence"
-	trait = "patient"
-	trait = "diligent"
-	trait = "shy"
-	trait = "ambitious"
-	trait = "cynical"
+	trait = "quick_hidden"
+	trait = "grey_eminence_hidden"
+	trait = "patient_hidden"
+	trait = "diligent_hidden"
+	trait = "shy_hidden"
+	trait = "ambitious_hidden"
+	trait = "cynical_hidden"
 	
 	1048.7.2={
 		birth="1048.7.2"

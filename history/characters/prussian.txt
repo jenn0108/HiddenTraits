@@ -142,9 +142,9 @@
 	stewardship=5
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="diligent"
-	trait="brave"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 	birth="1150.1.1"
 	}
@@ -162,9 +162,9 @@
 	stewardship=6
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="honest"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=144671
 	1150.1.1={
 	birth="1150.1.1"
@@ -183,11 +183,11 @@
 	stewardship=6
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="lustful"
-	trait="envious"
-	trait="proud"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "envious_hidden"
+	trait = "proud_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 	birth="1150.1.1"
 	}
@@ -205,8 +205,8 @@
 	stewardship=8
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="ill"
-	trait="flamboyant_schemer"
+	trait = "ill_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father = 144672
 	1150.1.1={
 	birth="1150.1.1"
@@ -225,9 +225,9 @@
 	stewardship=5
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="diligent"
-	trait="brave"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "amateurish_plotter_hidden"
 	1050.1.1={
 	birth="1050.1.1"
 	}
@@ -245,9 +245,9 @@
 	stewardship=6
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="honest"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 	birth="1039.1.1"
 	}
@@ -265,8 +265,8 @@
 	stewardship=8
 	religion="baltic_pagan"
 	culture="prussian"
-	trait="ill"
-	trait="flamboyant_schemer"
+	trait = "ill_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1050.1.1={
 	birth="1050.1.1"
 	}

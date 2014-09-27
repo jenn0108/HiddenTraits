@@ -3,7 +3,7 @@
 	dynasty=1043006
 	religion=hindu
 	culture=afghan
-	trait=brahmin # Well documented as a Brahmin
+	trait = "brahmin_hidden" # Well documented as a Brahmin
 	841.1.1={
 		birth=yes
 	}

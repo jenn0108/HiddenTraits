@@ -8,9 +8,9 @@
 	stewardship=6
 	religion="orthodox"
 	culture="roman"
-	trait="zealous"
-	trait="greedy"
-	trait="indulgent_wastrel"
+	trait = "zealous_hidden"
+	trait = "greedy_hidden"
+	trait = "indulgent_wastrel_hidden"
 	391.1.1={
 		birth="391.1.1"
 	}
@@ -32,9 +32,9 @@
 	stewardship=4
 	religion="orthodox"
 	culture="roman"
-	trait="humble"
-	trait="shy"
-	trait="indulgent_wastrel"
+	trait = "humble_hidden"
+	trait = "shy_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70534
 	
 	377.12.1={
@@ -55,9 +55,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="roman"
-	trait="envious"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "envious_hidden"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=70523
 	
 	316.2.1={
@@ -78,9 +78,9 @@
 	stewardship=7
 	religion="orthodox"
 	culture="roman"
-	trait="honest"
-	trait="patient"
-	trait="fortune_builder"
+	trait = "honest_hidden"
+	trait = "patient_hidden"
+	trait = "fortune_builder_hidden"
 	father=70523
 	
 	317.8.7={
@@ -101,9 +101,9 @@
 	stewardship=5
 	religion="orthodox"
 	culture="roman"
-	trait="homosexual"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "homosexual_hidden"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=70523
 	
 	322.1.1={
@@ -124,9 +124,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="roman"
-	trait="zealous"
-	trait="genius"
-	trait="elusive_shadow"
+	trait = "zealous_hidden"
+	trait = "genius_hidden"
+	trait = "elusive_shadow_hidden"
 	father=70524
 	
 	272.2.27={
@@ -147,9 +147,9 @@
 	stewardship=7
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="trusting"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "trusting_hidden"
+	trait = "tough_soldier_hidden"
 	
 	250.3.31={
 		birth="250.3.31"
@@ -185,9 +185,9 @@
 	stewardship=5
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="hedonist"
-	trait="ambitious"
-	trait="flamboyant_schemer"
+	trait = "hedonist_hidden"
+	trait = "ambitious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	
 	204.1.1={
 		birth="204.1.1"
@@ -208,10 +208,10 @@
 	stewardship=6
 	religion="orthodox"
 	culture="roman"
-	trait="celibate"
-	trait="slothful"
-	trait="proud"
-	trait="intricate_webweaver"
+	trait = "celibate_hidden"
+	trait = "slothful_hidden"
+	trait = "proud_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=70519
 	399.1.19={
 		birth="399.1.19"
@@ -231,9 +231,9 @@
 	stewardship=6
 	religion="orthodox"
 	culture="roman"
-	trait="honest"
-	trait="gregarious"
-	trait="indulgent_wastrel"
+	trait = "honest_hidden"
+	trait = "gregarious_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70519
 	
 	401.4.10={
@@ -254,10 +254,10 @@
 	stewardship=7
 	religion="orthodox"
 	culture="roman"
-	trait="mystic"
-	trait="arbitrary"
-	trait="gregarious"
-	trait="skilled_tactician"
+	trait = "mystic_hidden"
+	trait = "arbitrary_hidden"
+	trait = "gregarious_hidden"
+	trait = "skilled_tactician_hidden"
 	347.1.11={
 		birth="347.1.11"
 	}
@@ -272,12 +272,12 @@
 	dynasty=1022232
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="cruel"
-	trait="lustful"
-	trait="proud"
-	trait="brave"
-	trait="just"
-	trait="skilled_tactician"
+	trait = "cruel_hidden"
+	trait = "lustful_hidden"
+	trait = "proud_hidden"
+	trait = "brave_hidden"
+	trait = "just_hidden"
+	trait = "skilled_tactician_hidden"
 
 	2.11.16={
 		birth="2.11.16"
@@ -293,9 +293,9 @@
 	dynasty=1022191
 	religion="catholic"
 	culture="roman"
-	trait="arbitrary"
-	trait="slothful"
-	trait="indulgent_wastrel"
+	trait = "arbitrary_hidden"
+	trait = "slothful_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70534
 	384.9.9={
 		birth="384.9.9"
@@ -311,9 +311,9 @@
 	dynasty=1022192
 	religion="catholic"
 	culture="roman"
-	trait="honest"
-	trait="humble"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "humble_hidden"
+	trait = "skilled_tactician_hidden"
 	375.1.1={
 		birth="375.1.1"
 	}
@@ -328,9 +328,9 @@
 	dynasty=1022192
 	religion="catholic"
 	culture="roman"
-	trait="slothful"
-	trait="craven"
-	trait="indulgent_wastrel"
+	trait = "slothful_hidden"
+	trait = "craven_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=145228
 	419.7.2={
 		birth="419.7.2"
@@ -346,7 +346,7 @@
 	dynasty=1022193
 	religion="catholic"
 	culture="roman"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	285.1.1={
 		birth="285.1.1"
 	}
@@ -361,9 +361,9 @@
 	dynasty=1022193
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=145230
 	321.1.1={
 		birth="321.1.1"
@@ -379,8 +379,8 @@
 	dynasty=1022193
 	religion="orthodox" # Arian
 	culture="roman"
-	trait="paranoid"
-	trait="misguided_warrior"
+	trait = "paranoid_hidden"
+	trait = "misguided_warrior_hidden"
 	father=145230
 	328.1.1={
 		birth="328.1.1"
@@ -396,7 +396,7 @@
 	dynasty=1022193
 	religion="catholic"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=145231
 	359.4.18={
 		birth="359.4.18"
@@ -412,8 +412,8 @@
 	dynasty=1022193
 	religion="catholic" # Arian
 	culture="roman"
-	trait="trusting"
-	trait="indulgent_wastrel"
+	trait = "trusting_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=145231
 	371.7.2={
 		birth="371.7.2"
@@ -429,7 +429,7 @@
 	dynasty=1022194
 	religion="catholic"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	331.1.1={
 		birth="331.1.1"
 	}
@@ -444,7 +444,7 @@
 	dynasty=1022195
 	religion="catholic"
 	culture="roman"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=70524
 	295.1.1={
 		birth="295.1.1"
@@ -460,10 +460,10 @@
 	dynasty=1022195
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="mystic"
-	trait="scholar"
-	trait="quick"
-	trait="skilled_tactician"
+	trait = "mystic_hidden"
+	trait = "scholar_hidden"
+	trait = "quick_hidden"
+	trait = "skilled_tactician_hidden"
 	father=145236
 	332.5.1={
 		birth="332.5.1"
@@ -479,11 +479,11 @@
 	dynasty=1022196
 	religion="hellenic_pagan"
 	culture="roman"
-	add_trait="just"
-	add_trait="diligent"
-	add_trait="cynical"
-	add_trait="envious"
-	add_trait="charismatic_negotiator"
+	add_trait = "just_hidden"
+	add_trait = "diligent_hidden"
+	add_trait = "cynical_hidden"
+	add_trait = "envious_hidden"
+	add_trait = "charismatic_negotiator_hidden"
 	263.1.1={
 		birth="263.1.1"
 	}
@@ -498,9 +498,9 @@
 	dynasty=1022197
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="drunkard"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "drunkard_hidden"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	270.11.20={
 		birth="270.11.20"
 	}
@@ -515,8 +515,8 @@
 	dynasty=1022198
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	260.1.1={
 		birth="260.1.1"
 	}
@@ -531,13 +531,13 @@
 	dynasty=1022199
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="brave"
-	trait="diligent"
-	trait="proud"
-	trait="just"
-	trait="zealous"
-	trait="gregarious"
-	trait="midas_touched"
+	trait = "brave_hidden"
+	trait = "diligent_hidden"
+	trait = "proud_hidden"
+	trait = "just_hidden"
+	trait = "zealous_hidden"
+	trait = "gregarious_hidden"
+	trait = "midas_touched_hidden"
 	244.12.22={
 		birth="244.12.22"
 	}
@@ -552,7 +552,7 @@
 	dynasty=1022200
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	224.1.1={
 		birth="224.1.1"
 	}
@@ -567,7 +567,7 @@
 	dynasty=1022200
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=145242
 	255.1.1={
 		birth="255.1.1"
@@ -583,8 +583,8 @@
 	dynasty=1022200
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="lustful"
-	trait="naive_appeaser"
+	trait = "lustful_hidden"
+	trait = "naive_appeaser_hidden"
 	father=145242
 	250.1.1={
 		birth="250.1.1"
@@ -600,7 +600,7 @@
 	dynasty=1022201
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="naive_appeaser"
+	trait = "naive_appeaser_hidden"
 	232.8.19={
 		birth="232.8.19"
 	}
@@ -614,7 +614,7 @@
 	dynasty=1022202
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	232.8.19={
 		birth="232.8.19"
 	}
@@ -629,7 +629,7 @@
 	dynasty=1022202
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=145246
 	210.1.1={
 		birth="210.1.1"
@@ -645,7 +645,7 @@
 	dynasty=1022202
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=145246
 	215.1.1={
 		birth="215.1.1"
@@ -662,7 +662,7 @@
 	female=yes
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	235.1.2={
 		birth="235.1.2"
 	}
@@ -677,9 +677,9 @@
 	dynasty=1022204
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="quick"
-	trait="diligent"
-	trait="skilled_tactician"
+	trait = "quick_hidden"
+	trait = "diligent_hidden"
+	trait = "skilled_tactician_hidden"
 	214.9.9={
 		birth="214.9.9"
 	}
@@ -696,7 +696,7 @@
 	dynasty=1022205
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	190.1.1={
 		birth="190.1.1"
 	}
@@ -711,7 +711,7 @@
 	dynasty=1022205
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father = 145251
 	213.5.10={
 		birth="213.5.10"
@@ -727,7 +727,7 @@
 	dynasty=1022205
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father = 145251
 	215.1.1={
 		birth="215.1.1"
@@ -743,7 +743,7 @@
 	dynasty=1022206
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	198.1.1={
 		birth="198.1.1"
 	}
@@ -758,7 +758,7 @@
 	dynasty=1022206
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father = 145254
 	218.1.1={
 		birth="218.1.1"
@@ -774,7 +774,7 @@
 	dynasty=1022207
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	218.1.1={
 		birth="218.1.1"
 	}
@@ -789,8 +789,8 @@
 	dynasty=1022208
 	religion="hellenic_pagan"
 	culture="roman"
-	add_trait="strong"
-	add_trait="tough_soldier"
+	add_trait = "strong_hidden"
+	add_trait = "tough_soldier_hidden"
 	206.1.1={
 		birth="206.1.1"
 	}
@@ -805,8 +805,8 @@
 	dynasty=1022209
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	201.1.1={
 		birth="201.1.1"
 	}
@@ -821,7 +821,7 @@
 	dynasty=1022211
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	159.1.1={
 		birth="159.1.1"
 	}
@@ -836,7 +836,7 @@
 	dynasty=1022211
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father = 145259
 	192.1.1={
 		birth="192.1.1"
@@ -853,7 +853,7 @@
 	female=yes
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="intricate_webweaver"
+	trait = "intricate_webweaver_hidden"
 	father = 145259
 	201.1.1={
 		birth="201.1.1"
@@ -869,8 +869,8 @@
 	dynasty=1022211
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="kind"
-	trait="thrifty_clerk"
+	trait = "kind_hidden"
+	trait = "thrifty_clerk_hidden"
 	mother = 145261
 	225.1.20={
 		birth="225.1.20"
@@ -886,7 +886,7 @@
 	dynasty=1022212
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	165.1.1={
 		birth="165.1.1"
 	}
@@ -901,7 +901,7 @@
 	dynasty=1022213
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	170.1.1={
 		birth="170.1.1"
 	}
@@ -916,10 +916,10 @@
 	dynasty=1022214
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="strong"
-	trait="cruel"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "strong_hidden"
+	trait = "cruel_hidden"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	170.1.1={
 		birth="170.1.1"
 	}
@@ -934,10 +934,10 @@
 	dynasty=1022215
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="humble"
-	trait="kind"
-	trait="fortune_builder"
+	trait = "honest_hidden"
+	trait = "humble_hidden"
+	trait = "kind_hidden"
+	trait = "fortune_builder_hidden"
 	208.10.1={
 		birth="208.10.1"
 	}
@@ -952,13 +952,13 @@
 	dynasty=1022216
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="homosexual"
-	trait="hedonist"
-	trait="lustful"
-	trait="drunkard"
-	trait="slothful"
-	trait="zealous"
-	trait="detached_priest"
+	trait = "homosexual_hidden"
+	trait = "hedonist_hidden"
+	trait = "lustful_hidden"
+	trait = "drunkard_hidden"
+	trait = "slothful_hidden"
+	trait = "zealous_hidden"
+	trait = "detached_priest_hidden"
 	203.1.1={
 		birth="203.1.1"
 	}
@@ -973,8 +973,8 @@
 	dynasty=1022217
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="underhanded_rogue"
+	trait = "honest_hidden"
+	trait = "underhanded_rogue_hidden"
 	165.1.1={
 		birth="165.1.1"
 	}
@@ -989,10 +989,10 @@
 	dynasty=1022218
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="charitable"
-	trait="diligent"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "charitable_hidden"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	145.4.11={
 		birth="145.4.11"
 	}
@@ -1007,17 +1007,17 @@
 	dynasty=1022218
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="diligent"
-	trait="cruel"
-	trait="envious"
-	trait="paranoid"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "cruel_hidden"
+	trait = "envious_hidden"
+	trait = "paranoid_hidden"
+	trait = "tough_soldier_hidden"
 	father = 145269
 	188.4.4={
 		birth="188.4.4"
 	}
 	211.12.19={
-		 trait="kinslayer"
+		 trait = "kinslayer_hidden"
 	 }
 	217.4.8={
 		death="217.4.8"
@@ -1030,8 +1030,8 @@
 	dynasty=1022218
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="trusting"
-	trait="underhanded_rogue"
+	trait = "trusting_hidden"
+	trait = "underhanded_rogue_hidden"
 	father = 145269
 	189.3.7={
 		birth="189.3.7"
@@ -1047,10 +1047,10 @@
 	dynasty=1022219
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="envious"
-	trait="ambitious"
-	trait="deceitful"
-	trait="intricate_webweaver"
+	trait = "envious_hidden"
+	trait = "ambitious_hidden"
+	trait = "deceitful_hidden"
+	trait = "intricate_webweaver_hidden"
 	133.1.30={
 		birth="133.1.30"
 	}
@@ -1065,9 +1065,9 @@
 	dynasty=1022220
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="temperate"
-	trait="fortune_builder"
+	trait = "honest_hidden"
+	trait = "temperate_hidden"
+	trait = "fortune_builder_hidden"
 	126.8.1={
 		birth="126.8.1"
 	}
@@ -1082,13 +1082,13 @@
 	dynasty=1022221
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="scholar"
-	trait="honest"
-	trait="temperate"
-	trait="charitable"
-	trait="diligent"
-	trait="zealous"
-	trait="grey_eminence"
+	trait = "scholar_hidden"
+	trait = "honest_hidden"
+	trait = "temperate_hidden"
+	trait = "charitable_hidden"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "grey_eminence_hidden"
 	121.4.26={
 		birth="121.4.26"
 	}
@@ -1103,13 +1103,13 @@
 	dynasty=1022221
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="attractive"
-	trait="lustful"
-	trait="craven"
-	trait="arbitrary"
-	trait="cruel"
-	trait="impaler"
-	trait="flamboyant_schemer"
+	trait = "attractive_hidden"
+	trait = "lustful_hidden"
+	trait = "craven_hidden"
+	trait = "arbitrary_hidden"
+	trait = "cruel_hidden"
+	trait = "impaler_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=145274
 	161.8.31={
 		birth="161.8.31"
@@ -1125,12 +1125,12 @@
 	dynasty=1022222
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="scholar"
-	trait="poet"
-	trait="diligent"
-	trait="gregarious"
-	trait="lustful"
-	trait="midas_touched"
+	trait = "scholar_hidden"
+	trait = "poet_hidden"
+	trait = "diligent_hidden"
+	trait = "gregarious_hidden"
+	trait = "lustful_hidden"
+	trait = "midas_touched_hidden"
 	130.12.15={
 		birth="130.12.15"
 	}
@@ -1145,13 +1145,13 @@
 	dynasty=1022223
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="kind"
-	trait="temperate"
-	trait="gregarious"
-	trait="charitable"
-	trait="diligent"
-	trait="quick"
-	trait="grey_eminence"
+	trait = "kind_hidden"
+	trait = "temperate_hidden"
+	trait = "gregarious_hidden"
+	trait = "charitable_hidden"
+	trait = "diligent_hidden"
+	trait = "quick_hidden"
+	trait = "grey_eminence_hidden"
 	86.9.19={
 		birth="86.9.19"
 	}
@@ -1166,14 +1166,14 @@
 	dynasty=1022224
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="scholar"
-	trait="poet"
-	trait="honest"
-	trait="gregarious"
-	trait="charitable"
-	trait="content"
-	trait="diligent"
-	trait="skilled_tactician"
+	trait = "scholar_hidden"
+	trait = "poet_hidden"
+	trait = "honest_hidden"
+	trait = "gregarious_hidden"
+	trait = "charitable_hidden"
+	trait = "content_hidden"
+	trait = "diligent_hidden"
+	trait = "skilled_tactician_hidden"
 	76.1.24={
 		birth="76.1.24"
 	}
@@ -1188,14 +1188,14 @@
 	dynasty=1022225
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="brave"
-	trait="temperate"
-	trait="charitable"
-	trait="just"
-	trait="diligent"
-	trait="genius"
-	trait="brilliant_strategist"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "temperate_hidden"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
+	trait = "diligent_hidden"
+	trait = "genius_hidden"
+	trait = "brilliant_strategist_hidden"
 	53.9.18={
 		birth="53.9.18"
 	}
@@ -1210,11 +1210,11 @@
 	dynasty=1022226
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="temperate"
-	trait="charitable"
-	trait="just"
-	trait="fortune_builder"
+	trait = "honest_hidden"
+	trait = "temperate_hidden"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
+	trait = "fortune_builder_hidden"
 	30.11.8={
 		birth="30.11.8"
 	}
@@ -1229,11 +1229,11 @@
 	dynasty=1022227
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="honest"
-	trait="charitable"
-	trait="just"
-	trait="kind"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
+	trait = "kind_hidden"
+	trait = "skilled_tactician_hidden"
 	9.11.17={
 		birth="9.11.17"
 	}
@@ -1248,11 +1248,11 @@
 	dynasty=1022227
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="charitable"
-	trait="lustful"
-	trait="just"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "charitable_hidden"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	father = 145281
 	39.12.30={
 		birth="39.12.30"
@@ -1268,12 +1268,12 @@
 	dynasty=1022227
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="lustful"
-	trait="cruel"
-	trait="zealous"
-	trait="deceitful"
-	trait="diligent"
-	trait="intricate_webweaver"
+	trait = "lustful_hidden"
+	trait = "cruel_hidden"
+	trait = "zealous_hidden"
+	trait = "deceitful_hidden"
+	trait = "diligent_hidden"
+	trait = "intricate_webweaver_hidden"
 	father = 145281
 	51.10.24={
 		birth="51.10.24"
@@ -1289,12 +1289,12 @@
 	dynasty=1022228
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="lustful"
-	trait="gluttonous"
-	trait="slothful"
-	trait="charitable"
-	trait="kind"
-	trait="thrifty_clerk"
+	trait = "lustful_hidden"
+	trait = "gluttonous_hidden"
+	trait = "slothful_hidden"
+	trait = "charitable_hidden"
+	trait = "kind_hidden"
+	trait = "thrifty_clerk_hidden"
 	15.9.24={
 		birth="15.9.24"
 	}
@@ -1309,12 +1309,12 @@
 	dynasty=1022229
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="homosexual"
-	trait="craven"
-	trait="charitable"
-	trait="deceitful"
-	trait="ambitious"
-	trait="indulgent_wastrel"
+	trait = "homosexual_hidden"
+	trait = "craven_hidden"
+	trait = "charitable_hidden"
+	trait = "deceitful_hidden"
+	trait = "ambitious_hidden"
+	trait = "indulgent_wastrel_hidden"
 	32.4.28={
 		birth="32.4.28"
 	}
@@ -1329,12 +1329,12 @@
 	dynasty=1022230
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="greedy"
-	trait="honest"
-	trait="temperate"
-	trait="arbitrary"
-	trait="cruel"
-	trait="fortune_builder"
+	trait = "greedy_hidden"
+	trait = "honest_hidden"
+	trait = "temperate_hidden"
+	trait = "arbitrary_hidden"
+	trait = "cruel_hidden"
+	trait = "fortune_builder_hidden"
 	3.12.24={
 		birth="3.12.24"
 	}
@@ -1349,19 +1349,19 @@
 	dynasty=1022232
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="homosexual"
-	trait="poet"
-	trait="cruel"
-	trait="arbitrary"
-	trait="zealous"
-	trait="impaler"
-	trait="indulgent_wastrel"
+	trait = "homosexual_hidden"
+	trait = "poet_hidden"
+	trait = "cruel_hidden"
+	trait = "arbitrary_hidden"
+	trait = "zealous_hidden"
+	trait = "impaler_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father = 145288
 	37.12.15={
 		birth="37.12.15"
 	}
 	59.3.23={
-		 trait="kinslayer"
+		 trait = "kinslayer_hidden"
 	}
 	68.6.9={
 		death="68.6.9"
@@ -1374,12 +1374,12 @@
 	dynasty=1022232
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="scholar"
-	trait="clubfooted"
-	trait="stutter"
-	trait="wroth"
-	trait="diligent"
-	trait="naive_appeaser"
+	trait = "scholar_hidden"
+	trait = "clubfooted_hidden"
+	trait = "stutter_hidden"
+	trait = "wroth_hidden"
+	trait = "diligent_hidden"
+	trait = "naive_appeaser_hidden"
 	3.8.1={
 		birth="3.8.1"
 	}
@@ -1394,13 +1394,13 @@
 	dynasty=1022232
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="hedonist"
-	trait="lustful"
-	trait="drunkard"
-	trait="cruel"
-	trait="impaler"
-	trait="lunatic"
-	trait="indulgent_wastrel"
+	trait = "hedonist_hidden"
+	trait = "lustful_hidden"
+	trait = "drunkard_hidden"
+	trait = "cruel_hidden"
+	trait = "impaler_hidden"
+	trait = "lunatic_hidden"
+	trait = "indulgent_wastrel_hidden"
 	12.8.31={
 		birth="12.8.31"
 	}
@@ -1416,14 +1416,14 @@
 	dynasty=8648
 	religion="hellenic_pagan"
 	culture="roman"
-	trait="just"
-	trait="brave"
-	trait="ambitious"
-	trait="gregarious"
-	trait="diligent"
-	trait="genius"
-	trait="augustus"
-	trait="grey_eminence"
+	trait = "just_hidden"
+	trait = "brave_hidden"
+	trait = "ambitious_hidden"
+	trait = "gregarious_hidden"
+	trait = "diligent_hidden"
+	trait = "genius_hidden"
+	trait = "augustus_hidden"
+	trait = "grey_eminence_hidden"
 	3.1.1={
 		birth="3.1.1"
 	}
@@ -1436,10 +1436,10 @@
 	name="Pontianus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	170.1.1 = {
 		birth="170.1.1"
 	}
@@ -1456,10 +1456,10 @@
 	name="Severus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	170.1.1 = {
 		birth="170.1.1"
 	}
@@ -1476,10 +1476,10 @@
 	name="Callistus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	160.1.1 = {
 		birth="160.1.1"
 	}
@@ -1496,10 +1496,10 @@
 	name="Logos"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	150.1.1 = {
 		birth="150.1.1"
 	}
@@ -1516,10 +1516,10 @@
 	name="Jerome"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	140.1.1 = {
 		birth="140.1.1"
 	}
@@ -1536,10 +1536,10 @@
 	name="Gordianus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	480.1.1 = {
 		birth="480.1.1"
 	}
@@ -1556,10 +1556,10 @@
 	name="Mercurius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	470.1.1 = {
 		birth="470.1.1"
 	}
@@ -1576,10 +1576,10 @@
 	name="Castorius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	470.1.1 = {
 		birth="470.1.1"
 	}
@@ -1596,10 +1596,10 @@
 	name="Castorius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	470.1.1 = {
 		birth="470.1.1"
 	}
@@ -1617,10 +1617,10 @@
 	# AKA: Gordainus
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=7765
 	500.1.1 = {
 		birth="500.1.1"
@@ -1638,10 +1638,10 @@
 	name="Johannes"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	450.1.1 = {
 		birth="450.1.1"
 	}
@@ -1658,10 +1658,10 @@
 	name="Fortunatus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	450.1.1 = {
 		birth="450.1.1"
 	}
@@ -1678,10 +1678,10 @@
 	name="Acacius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	450.1.1 = {
 		birth="450.1.1"
 	}
@@ -1698,10 +1698,10 @@
 	name="Acacius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	420.1.1 = {
 		birth="420.1.1"
 	}
@@ -1718,10 +1718,10 @@
 	name="Acacius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	420.1.1 = {
 		birth="420.1.1"
 	}
@@ -1738,10 +1738,10 @@
 	name="Castinus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	420.1.1 = {
 		birth="420.1.1"
 	}
@@ -1758,10 +1758,10 @@
 	name="Hilary"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	400.1.1 = {
 		birth="400.1.1"
 	}
@@ -1778,10 +1778,10 @@
 	name="Hilary"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	400.1.1 = {
 		birth="400.1.1"
 	}
@@ -1798,10 +1798,10 @@
 	name="Hilary"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	380.1.1 = {
 		birth="380.1.1"
 	}
@@ -1818,10 +1818,10 @@
 	name="Priscus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	380.1.1 = {
 		birth="380.1.1"
 	}
@@ -1838,10 +1838,10 @@
 	name="Eulalius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	360.1.1 = {
 		birth="360.1.1"
 	}
@@ -1858,10 +1858,10 @@
 	name="Eulalius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	360.1.1 = {
 		birth="360.1.1"
 	}
@@ -1878,10 +1878,10 @@
 	name="Maximus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=7778
 	360.1.1 = {
 		birth="360.1.1"
@@ -1899,10 +1899,10 @@
 	name="Maximus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	330.1.1 = {
 		birth="330.1.1"
 	}
@@ -1919,10 +1919,10 @@
 	name="Maximus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	330.1.1 = {
 		birth="330.1.1"
 	}
@@ -1939,10 +1939,10 @@
 	name="Maximus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	305.1.1 = {
 		birth="305.1.1"
 	}
@@ -1959,10 +1959,10 @@
 	name="Maximus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	305.1.1 = {
 		birth="305.1.1"
 	}
@@ -1979,10 +1979,10 @@
 	name="Maximus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	280.1.1 = {
 		birth="280.1.1"
 	}
@@ -1999,10 +1999,10 @@
 	name="Marcus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	280.1.1 = {
 		birth="280.1.1"
 	}
@@ -2019,10 +2019,10 @@
 	name="Marcus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	270.1.1 = {
 		birth="270.1.1"
 	}
@@ -2039,10 +2039,10 @@
 	name="Marcus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	250.1.1 = {
 		birth="250.1.1"
 	}
@@ -2059,10 +2059,10 @@
 	name="Marcus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	250.1.1 = {
 		birth="250.1.1"
 	}
@@ -2079,10 +2079,10 @@
 	name="Marcus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	240.1.1 = {
 		birth="240.1.1"
 	}
@@ -2099,10 +2099,10 @@
 	name="Gaius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	240.1.1 = {
 		birth="240.1.1"
 	}
@@ -2119,10 +2119,10 @@
 	name="Gaius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	220.1.1 = {
 		birth="220.1.1"
 	}
@@ -2139,10 +2139,10 @@
 	name="Gaius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	220.1.1 = {
 		birth="220.1.1"
 	}
@@ -2159,10 +2159,10 @@
 	name="Stephanus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	210.1.1 = {
 		birth="210.1.1"
 	}
@@ -2179,10 +2179,10 @@
 	name="Porphyrianus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	210.1.1 = {
 		birth="210.1.1"
 	}
@@ -2199,10 +2199,10 @@
 	name="Decius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	210.1.1 = {
 		birth="210.1.1"
 	}
@@ -2219,10 +2219,10 @@
 	name="Fabianus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	200.1.1 = {
 		birth="200.1.1"
 	}
@@ -2239,10 +2239,10 @@
 	name="Zacharias"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	669.1.1 = {
 		birth="669.1.1"
 	}
@@ -2259,10 +2259,10 @@
 	name="Plato"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	635.1.1 = {
 		birth="635.1.1"
 	}
@@ -2279,10 +2279,10 @@
 	name="Paulus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	611.1.1 = {
 		birth="611.1.1"
 	}
@@ -2299,10 +2299,10 @@
 	name="Mauricius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	577.1.1 = {
 		birth="577.1.1"
 	}
@@ -2319,10 +2319,10 @@
 	name="Anastasius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	577.1.1 = {
 		birth="577.1.1"
 	}
@@ -2339,10 +2339,10 @@
 	name="Rufinianus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	577.1.1 = {
 		birth="577.1.1"
 	}
@@ -2359,10 +2359,10 @@
 	name="Rufinianus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	577.1.1 = {
 		birth="577.1.1"
 	}
@@ -2379,10 +2379,10 @@
 	name="Venantius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	577.1.1 = {
 		birth="577.1.1"
 	}
@@ -2399,10 +2399,10 @@
 	name="Avienus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	577.1.1 = {
 		birth="577.1.1"
 	}
@@ -2419,10 +2419,10 @@
 	name="Petronius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	560.1.1 = {
 		birth="560.1.1"
 	}
@@ -2439,10 +2439,10 @@
 	name="Petronius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	560.1.1 = {
 		birth="560.1.1"
 	}
@@ -2459,10 +2459,10 @@
 	name="Deodatus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	550.1.1 = {
 		birth="550.1.1"
 	}
@@ -2479,10 +2479,10 @@
 	name="Johannes"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	550.1.1 = {
 		birth="550.1.1"
 	}
@@ -2499,10 +2499,10 @@
 	name="John"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	530.1.1 = {
 		birth="530.1.1"
 	}
@@ -2519,10 +2519,10 @@
 	name="Gordanius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	540.1.1 = {
 		birth="540.1.1"
 	}
@@ -2539,10 +2539,10 @@
 	name="Gordanius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	520.1.1 = {
 		birth="520.1.1"
 	}
@@ -2559,10 +2559,10 @@
 	name="Bonifacius"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	520.1.1 = {
 		birth="520.1.1"
 	}
@@ -2579,10 +2579,10 @@
 	name="Catelinus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	520.1.1 = {
 		birth="520.1.1"
 	}
@@ -2599,10 +2599,10 @@
 	name="Benedictus"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	510.1.1 = {
 		birth="510.1.1"
 	}
@@ -2619,10 +2619,10 @@
 	name="Johannes"
 	religion="catholic"
 	culture="roman"
-	trait="diligent"
-	trait="patient"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	500.1.1 = {
 		birth="500.1.1"
 	}
@@ -2641,7 +2641,7 @@
 	dynasty=1022233
 	religion="hellenic_pagan"
 	culture="roman"
-	add_trait="skilled_tactician"
+	add_trait = "skilled_tactician_hidden"
 	250.1.1={
 		birth="250.1.1"
 	}
@@ -2656,8 +2656,8 @@
 	dynasty=1022233
 	religion="hellenic_pagan"
 	culture="roman"
-	add_trait="arbitrary"
-	add_trait="flamboyant_schemer"
+	add_trait = "arbitrary_hidden"
+	add_trait = "flamboyant_schemer_hidden"
 	father=145293
 	278.1.1={
 		birth="278.1.1"
@@ -2677,10 +2677,10 @@
 	stewardship=9
 	religion="orthodox"
 	culture="roman"
-	add_trait="just"
-	add_trait="mystic"
-	add_trait="genius"
-	add_trait="midas_touched"
+	add_trait = "just_hidden"
+	add_trait = "mystic_hidden"
+	add_trait = "genius_hidden"
+	add_trait = "midas_touched_hidden"
 	mother=70528
  	482.5.11={
 		birth="482.5.11"
@@ -2700,9 +2700,9 @@
 	stewardship=5
 	religion="orthodox"
 	culture="roman"
-	add_trait="quick"
-	add_trait="ambitious"
-	add_trait="tough_soldier"
+	add_trait = "quick_hidden"
+	add_trait = "ambitious_hidden"
+	add_trait = "tough_soldier_hidden"
 	father=70529
  	452.1.1={
 		birth="452.1.1"
@@ -2722,9 +2722,9 @@
 	stewardship=6
 	religion="orthodox"
 	culture="roman"
-	add_trait="ambitious"
-	add_trait="scholar"
-	add_trait="intricate_webweaver"
+	add_trait = "ambitious_hidden"
+	add_trait = "scholar_hidden"
+	add_trait = "intricate_webweaver_hidden"
 	mother=70528
 	485.1.1={
 		birth="485.1.1"
@@ -2744,9 +2744,9 @@
 	stewardship=6
 	religion="orthodox"
 	culture="roman"
-	add_trait="temperate"
-	add_trait="honest"
-	add_trait="naive_appeaser"
+	add_trait = "temperate_hidden"
+	add_trait = "honest_hidden"
+	add_trait = "naive_appeaser_hidden"
 	father=70529
  	460.1.1={
 		birth="460.1.1"
@@ -2765,9 +2765,9 @@
 	stewardship=3
 	religion="orthodox"
 	culture="roman"
-	add_trait="proud"
-	add_trait="brave"
-	add_trait="tough_soldier"
+	add_trait = "proud_hidden"
+	add_trait = "brave_hidden"
+	add_trait = "tough_soldier_hidden"
 	430.1.1={
 		birth="430.1.1"
 	}

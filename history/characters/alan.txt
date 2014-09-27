@@ -22,9 +22,9 @@
 	learning=6
 	religion="orthodox"
 	culture="alan"
-	trait="chaste"
-	trait="arbitrary"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "arbitrary_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=41592
 	992.1.1={
 		birth="992.1.1"
@@ -44,8 +44,8 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="alan"
-	trait="chaste"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "thrifty_clerk_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -64,8 +64,8 @@
 	stewardship=8
 	religion="orthodox"
 	culture="alan"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	1045.1.1={
 		birth="1045.1.1"
 	}
@@ -84,7 +84,7 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -103,7 +103,7 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=93035
 	1126.1.1={
 		birth="1126.1.1"
@@ -150,8 +150,8 @@
 	stewardship=5
 	religion="orthodox"
 	culture="alan"
-	trait="humble"
-	trait="skilled_tactician"
+	trait = "humble_hidden"
+	trait = "skilled_tactician_hidden"
 	father=93035
 	1128.1.1={
 	birth="1128.1.1"
@@ -170,7 +170,7 @@
 	stewardship=8
 	religion="orthodox"
 	culture="alan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=93042
 	1140.1.1={
 	birth="1140.1.1"
@@ -191,7 +191,7 @@
 	stewardship=5
 	religion="orthodox"
 	culture="alan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=20665
 	1070.1.1={
 	birth="1070.1.1"
@@ -211,7 +211,7 @@
 	stewardship=6
 	religion="orthodox"
 	culture="alan"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=20666
 	1090.1.1={
 		birth="1090.1.1"
@@ -230,8 +230,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="alan"
-	trait="ill"
-	trait="flamboyant_schemer"
+	trait = "ill_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -250,8 +250,8 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture="alan"
-	trait="just"
-	trait="martial_cleric"
+	trait = "just_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -269,7 +269,7 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	960.1.1={
 		birth="960.1.1"
 	}
@@ -288,7 +288,7 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=20662
 	1035.1.1={
 		birth="1035.1.1"
@@ -307,7 +307,7 @@
 	stewardship=5
 	religion="orthodox"
 	culture="alan"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=20662
 	1034.1.1={
 	birth="1034.1.1"
@@ -326,8 +326,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="alan"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	father=93046
 	1295.1.1={
 		birth="1295.1.1"
@@ -347,8 +347,8 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="honest"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "skilled_tactician_hidden"
 	father=228064 
 	1100.1.1={
 		birth="1100.1.1"
@@ -368,8 +368,8 @@
 	stewardship=5
 	religion="orthodox"
 	culture="alan"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=228065
 	1140.1.1={
 		birth="1140.1.1"
@@ -389,10 +389,10 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="charitable"
-	trait="zealous"
-	trait="hunchback"
-	trait="skilled_tactician"
+	trait = "charitable_hidden"
+	trait = "zealous_hidden"
+	trait = "hunchback_hidden"
+	trait = "skilled_tactician_hidden"
 	father=480170
 	1135.1.1={
 		birth="1135.1.1"
@@ -412,9 +412,9 @@
 	stewardship=7
 	religion="orthodox"
 	culture="alan"
-	trait="kind"
-	trait="charitable"
-	trait="indulgent_wastrel"
+	trait = "kind_hidden"
+	trait = "charitable_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=41592
 	1025.1.1={
 		birth="1025.1.1"
@@ -434,8 +434,8 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="temperate"
-	trait="flamboyant_schemer"
+	trait = "temperate_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=20662
 	1010.1.1={
 	birth="1010.1.1"
@@ -675,11 +675,11 @@
 	stewardship=8
 	religion="orthodox"
 	culture="alan"
-	trait="lustful"
-	trait="brave"
-	trait="humble"
-	trait="diligent"
-	trait="brilliant_strategist"
+	trait = "lustful_hidden"
+	trait = "brave_hidden"
+	trait = "humble_hidden"
+	trait = "diligent_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=216524
 	1160.1.1={
 		birth="1160.1.1"
@@ -723,9 +723,9 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="honest"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=9957
 	1044.1.1={
 		birth="1044.1.1"
@@ -744,9 +744,9 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="proud"
-	trait="wroth"
-	trait="brilliant_strategist"
+	trait = "proud_hidden"
+	trait = "wroth_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=9950
 	mother=9956
 	1026.1.1={
@@ -767,9 +767,9 @@
 	stewardship=4
 	religion="orthodox"
 	culture="alan"
-	trait="lustful"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=9957
 	1042.1.1={
 		birth="1042.1.1"
@@ -881,7 +881,7 @@
 
 	religion="orthodox"
 	culture="alan"
-	trait="leper"
+	trait = "leper_hidden"
 	825.1.1={
 		birth="825.1.1"
 	}
@@ -1207,7 +1207,7 @@
 
 	religion="tengri_pagan"
 	culture="alan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	849.1.1={
 		birth="849.1.1"
 	}

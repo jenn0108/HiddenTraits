@@ -35,8 +35,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="lisp"
-	trait="tough_soldier"
+	trait = "lisp_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -54,7 +54,7 @@
 	stewardship=5
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -72,7 +72,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -90,8 +90,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -110,8 +110,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="honest"
-	trait="underhanded_rogue"
+	trait = "honest_hidden"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -129,7 +129,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -147,8 +147,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="kind"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -166,7 +166,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -184,9 +184,9 @@
 	stewardship=8
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="diligent"
-	trait="envious"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "envious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -204,8 +204,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="envious"
-	trait="underhanded_rogue"
+	trait = "envious_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -223,10 +223,10 @@
 	stewardship=8
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="humble"
-	trait="cynical"
-	trait="lisp"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "cynical_hidden"
+	trait = "lisp_hidden"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -244,8 +244,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -263,7 +263,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -282,9 +282,9 @@
 	stewardship=4
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="diligent"
-	trait="charitable"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "charitable_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -302,10 +302,10 @@
 	stewardship=4
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="deceitful"
-	trait="cynical"
-	trait="brave"
-	trait="charismatic_negotiator"
+	trait = "deceitful_hidden"
+	trait = "cynical_hidden"
+	trait = "brave_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -323,7 +323,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -341,10 +341,10 @@
 	stewardship=6
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="wroth"
-	trait="humble"
-	trait="tough_soldier"
-	trait="sayyid"
+	trait = "wroth_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
+	trait = "sayyid_hidden"
 	father=32903
 	955.1.1={
 		birth="955.1.1"
@@ -363,12 +363,12 @@
 	stewardship=6
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="chaste"
-	trait="envious"
-	trait="zealous"
-	trait="lunatic"
-	trait="skilled_tactician"
-	trait="sayyid"
+	trait = "chaste_hidden"
+	trait = "envious_hidden"
+	trait = "zealous_hidden"
+	trait = "lunatic_hidden"
+	trait = "skilled_tactician_hidden"
+	trait = "sayyid_hidden"
 	father=3090
 	985.1.1={
 		birth="985.1.1"
@@ -388,8 +388,8 @@
 	stewardship=6
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="skilled_tactician"
-	trait="sayyid"
+	trait = "skilled_tactician_hidden"
+	trait = "sayyid_hidden"
 	father=3092
 	1005.6.20={
 		birth="1005.6.20"
@@ -408,9 +408,9 @@
 	stewardship=6
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="proud"
-	trait="flamboyant_schemer"
-	trait="sayyid"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
+	trait = "sayyid_hidden"
 	father=3096
 	1047.1.1={
 		birth="1047.1.1"
@@ -430,10 +430,10 @@
 	stewardship=6
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="craven"
-	trait="lisp"
-	trait="flamboyant_schemer"
-	trait="sayyid"
+	trait = "craven_hidden"
+	trait = "lisp_hidden"
+	trait = "flamboyant_schemer_hidden"
+	trait = "sayyid_hidden"
 	father=3096
 	1050.1.1={
 		birth="1050.1.1"
@@ -453,10 +453,10 @@
 	stewardship=4
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="zealous"
-	trait="wroth"
-	trait="martial_cleric"
-	trait="sayyid"
+	trait = "zealous_hidden"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
+	trait = "sayyid_hidden"
 	father=3096
 	1045.1.1={
 		birth="1045.1.1"
@@ -475,8 +475,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -494,8 +494,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="slothful"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -710,7 +710,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=33920
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	870.1.1={
 		birth="870.1.1"
 	}
@@ -724,7 +724,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32900
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	893.1.1={
 		birth="893.1.1"
 	}
@@ -738,7 +738,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32901
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	913.1.1={
 		birth="913.1.1"
 	}
@@ -753,7 +753,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32902
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	932.1.1={
 		birth="932.1.1"
 	}
@@ -769,7 +769,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=3090
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	970.1.1={
 		birth="970.1.1"
 	}
@@ -784,7 +784,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=3100
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	1096.1.1={
 		birth="1096.1.1"
 	}
@@ -799,7 +799,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32905
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	1126.1.1={
 		birth="1126.1.1"
 	}
@@ -814,7 +814,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=3098
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	1090.1.1={
 		birth="1090.1.1"
 	}
@@ -829,7 +829,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32907
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	1120.1.1={
 		birth="1120.1.1"
 	}
@@ -844,7 +844,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32908
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	1149.1.1={
 		birth="1149.1.1"
 	}
@@ -859,7 +859,7 @@
 	religion="shiite"
 	culture="egyptian_arabic"
 	father=32908
-	trait="sayyid"
+	trait = "sayyid_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -878,9 +878,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="slothful"
-	trait="arbitrary"
-	trait="martial_cleric"
+	trait = "slothful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "martial_cleric_hidden"
 	father=485000
 	1321.1.1={
 		birth="1321.1.1"
@@ -899,8 +899,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=32936
 	1285.1.1={
 		birth="1285.1.1"
@@ -919,12 +919,12 @@
 	stewardship=1
 	religion="shiite"
 	culture="egyptian_arabic"
-	trait="naive_appeaser"
-	trait="sayyid"
-	trait="slothful"
-	trait="arbitrary"
-	trait="trusting"
-	trait="shy"
+	trait = "naive_appeaser_hidden"
+	trait = "sayyid_hidden"
+	trait = "slothful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "trusting_hidden"
+	trait = "shy_hidden"
 	father=3094
 	1029.7.5={
 		birth="1029.7.5"
@@ -943,10 +943,10 @@
 	dynasty=7267
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="brilliant_strategist"
-	trait="strong" 
-	trait="ambitious" 
-	trait="deceitful" 
+	trait = "brilliant_strategist_hidden"
+	trait = "strong_hidden" 
+	trait = "ambitious_hidden" 
+	trait = "deceitful_hidden" 
 	1223.7.19={
 		birth="1223.7.19"
 	}
@@ -1002,9 +1002,9 @@
 	dynasty=762
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="skilled_tactician" 
-	trait="brave" 
-	trait="cynical"
+	trait = "skilled_tactician_hidden" 
+	trait = "brave_hidden" 
+	trait = "cynical_hidden"
 	1240.1.1={
 		birth="1240.1.1"
 	}
@@ -1732,8 +1732,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="honest"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=485000
 	1334.1.1 = {
 		birth="1334.1.1"
@@ -1752,8 +1752,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="harelip"
-	trait="flamboyant_schemer"
+	trait = "harelip_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=485000
 	1326.1.1 = {
 		birth="1326.1.1"
@@ -1772,7 +1772,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=485000
 	1325.1.1 = {
 		birth="1325.1.1"
@@ -1791,8 +1791,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	father=485000
 	1327.1.1 = {
 		birth="1327.1.1"
@@ -1811,9 +1811,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="charitable"
-	trait="honest"
-	trait="amateurish_plotter"
+	trait = "charitable_hidden"
+	trait = "honest_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=485000
 	1328.1.1 = {
 		birth="1328.1.1"
@@ -1832,7 +1832,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=485000
 	1329.1.1 = {
 		birth="1329.1.1"
@@ -1851,8 +1851,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="egyptian_arabic"
-	trait="gluttonous"
-	trait="underhanded_rogue"
+	trait = "gluttonous_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=485000
 	1330.1.1 = {
 		birth="1330.1.1"

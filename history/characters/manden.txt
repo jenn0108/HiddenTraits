@@ -294,7 +294,7 @@
 	dynasty=1030002
 	religion="sunni"
 	culture="manden"
-	trait="cruel"
+	trait = "cruel_hidden"
 	father=161018
 	mother=161019
 	1177.1.1={
@@ -312,8 +312,8 @@
 	dynasty=1030004
 	religion="sunni"
 	culture="manden"
-	trait="hunchback"
-	trait="ugly"
+	trait = "hunchback_hidden"
+	trait = "ugly_hidden"
 	1190.1.1={
 		birth="1190.1.1"
 	}
@@ -327,9 +327,9 @@
 	dynasty=1030002
 	religion="sunni"
 	culture="manden"
-	trait="clubfooted"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "clubfooted_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=161018
 	mother=161021
 	1217.1.1={
@@ -403,7 +403,7 @@
 	dynasty=1030002
 	religion="sunni"
 	culture="manden"
-	trait="legit_bastard" #adopted son
+	trait = "legit_bastard_hidden" #adopted son
 	father=161022
 	1240.1.1={
 		birth="1240.1.1"
@@ -418,7 +418,7 @@
 	dynasty=1030002
 	religion="sunni"
 	culture="manden"
-	trait="legit_bastard" #adopted son
+	trait = "legit_bastard_hidden" #adopted son
 	father=161022
 	1241.1.1={
 		birth="1241.1.1"

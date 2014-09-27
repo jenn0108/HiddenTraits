@@ -8,7 +8,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=110560
 	mother=110653
 	1051.1.1={
@@ -29,9 +29,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="deceitful"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=110530
 	mother=107661
 	1023.1.1={
@@ -60,7 +60,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=110520
 	mother=110631
 	1045.1.1={
@@ -81,9 +81,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=110520
 	mother=325
 	1054.1.1={
@@ -107,9 +107,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="stutter"
-	trait="naive_appeaser"
+	trait = "wroth_hidden"
+	trait = "stutter_hidden"
+	trait = "naive_appeaser_hidden"
 	father=110520
 	mother=325
 	1059.1.1={
@@ -130,10 +130,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="kind"
-	trait="proud"
-	trait="harelip"
-	trait="intricate_webweaver"
+	trait = "kind_hidden"
+	trait = "proud_hidden"
+	trait = "harelip_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=110520
 	mother=325
 	1054.1.1={
@@ -154,9 +154,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="hunchback"
-	trait="stutter"
-	trait="flamboyant_schemer"
+	trait = "hunchback_hidden"
+	trait = "stutter_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=110540
 	mother=110634
 	1005.1.1={
@@ -183,7 +183,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=110530
 	mother=110633
 	1033.1.1={
@@ -247,9 +247,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="craven"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "craven_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=110538
 	mother=110539
 	972.5.26={
@@ -273,7 +273,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=110540
 	mother=110634
 	1010.1.1={
@@ -293,9 +293,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="proud"
-	trait="clubfooted"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "clubfooted_hidden"
+	trait = "tough_soldier_hidden"
 	father=110560
 	mother=110653
 	1050.1.1={
@@ -321,7 +321,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=110570
 	1033.1.1={
 		birth="1033.1.1"
@@ -349,9 +349,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="envious"
-	trait="thrifty_clerk"
+	trait = "wroth_hidden"
+	trait = "envious_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=110560
 	mother=110636
 	1056.1.1={
@@ -374,7 +374,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=110560
 	mother=110636
 	1058.1.1={
@@ -397,7 +397,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=110560
 	mother=110636
 	1060.1.1={
@@ -421,9 +421,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="arbitrary"
-	trait="cynical"
-	trait="thrifty_clerk"
+	trait = "arbitrary_hidden"
+	trait = "cynical_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=110560
 	mother=110636
 	1062.1.1={
@@ -446,7 +446,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=110571
 	mother=110572
 	1009.1.1={
@@ -491,7 +491,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=110590
 	mother=110591
 	1000.1.1={
@@ -514,8 +514,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="arbitrary"
-	trait="misguided_warrior"
+	trait = "arbitrary_hidden"
+	trait = "misguided_warrior_hidden"
 	father=110580
 	mother=110663
 	1034.1.1={
@@ -538,7 +538,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=110580
 	mother=110663
 	1036.1.1={
@@ -562,8 +562,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="cynical"
-	trait="charismatic_negotiator"
+	trait = "cynical_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1038.1.1={
 		birth="1038.1.1"
 	}
@@ -581,7 +581,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=110582
 	mother=110583
 	1058.1.1={
@@ -601,8 +601,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="envious"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "martial_cleric_hidden"
 	father=110582
 	mother=110583
 	1060.1.1={
@@ -622,7 +622,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=110580
 	mother=110663
 	
@@ -643,9 +643,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="cynical"
-	trait="harelip"
-	trait="martial_cleric"
+	trait = "cynical_hidden"
+	trait = "harelip_hidden"
+	trait = "martial_cleric_hidden"
 	father=110580
 	mother=110663
 	1040.1.1={
@@ -666,7 +666,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=110580
 	mother=110663
 	1042.1.1={
@@ -687,8 +687,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="amateurish_plotter"
+	trait = "charitable_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=110580
 	mother=110663
 	1044.1.1={
@@ -708,10 +708,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="deceitful"
-	trait="patient"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "deceitful_hidden"
+	trait = "patient_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=110600
 	mother=331
 	960.1.1={
@@ -734,7 +734,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=110590
 	mother=110591
 	1003.1.1={
@@ -758,9 +758,9 @@
 	religion="catholic"
 	culture="catalan"
 	father=74103
-	trait="just"
-	trait="craven"
-	trait="skilled_tactician"
+	trait = "just_hidden"
+	trait = "craven_hidden"
+	trait = "skilled_tactician_hidden"
 	913.1.1={
 		birth="913.1.1"
 	}
@@ -781,7 +781,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=110620
 	mother=110621
 	1005.1.1={
@@ -805,8 +805,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="indulgent_wastrel"
+	trait = "charitable_hidden"
+	trait = "indulgent_wastrel_hidden"
 	1012.1.1={
 		birth="1012.1.1"
 	}
@@ -824,9 +824,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="ill"
-	trait="misguided_warrior"
-	trait="diligent"
+	trait = "ill_hidden"
+	trait = "misguided_warrior_hidden"
+	trait = "diligent_hidden"
 	father=110610
 	mother=110611
 	1031.1.1={
@@ -850,8 +850,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="deceitful"
-	trait="flamboyant_schemer"
+	trait = "deceitful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1036.1.1={
 		birth="1036.1.1"
 	}
@@ -869,7 +869,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=110612
 	mother=110613
 	1053.1.1={
@@ -893,9 +893,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "honest_hidden"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=110610
 	mother=110611
 	1036.1.1={
@@ -915,8 +915,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="gluttonous"
-	trait="thrifty_clerk"
+	trait = "gluttonous_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=110615
 	1058.1.1={
 		birth="1058.1.1"
@@ -935,7 +935,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=110600
 	mother=331
 	962.1.1={
@@ -959,7 +959,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	986.1.1={
 		birth="986.1.1"
 	}
@@ -978,9 +978,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="lustful"
-	trait="ambitious"
-	trait="intricate_webweaver"
+	trait = "lustful_hidden"
+	trait = "ambitious_hidden"
+	trait = "intricate_webweaver_hidden"
 	1011.1.1={
 		birth="1011.1.1"
 	}
@@ -998,7 +998,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=110650
 	mother=110651
 	1024.1.1={
@@ -1024,8 +1024,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=110640
 	mother=110641
 	1066.1.1={
@@ -1046,8 +1046,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="flamboyant_schemer"
+	trait = "charitable_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=110640
 	mother=110641
 	1070.1.1={
@@ -1067,8 +1067,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	father=110660
 	mother=110661
 	993.1.1={
@@ -1092,7 +1092,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1003.1.1={
 		birth="1003.1.1"
 	}
@@ -1110,7 +1110,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=110650
 	mother=110651
 	1028.1.1={
@@ -1137,11 +1137,11 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="slothful"
-	trait="deceitful"
-	trait="stutter"
-	trait="harelip"
-	trait="amateurish_plotter"
+	trait = "slothful_hidden"
+	trait = "deceitful_hidden"
+	trait = "stutter_hidden"
+	trait = "harelip_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=110650
 	mother=110651
 	1030.1.1={
@@ -1161,9 +1161,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="humble"
-	trait="lisp"
-	trait="indulgent_wastrel"
+	trait = "humble_hidden"
+	trait = "lisp_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70156
 	mother=70157
 	963.1.1={
@@ -1186,8 +1186,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="just"
-	trait="scholarly_theologian"
+	trait = "just_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=110660
 	mother=110661
 	996.1.1={
@@ -1208,8 +1208,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="cynical"
-	trait="amateurish_plotter"
+	trait = "cynical_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=110660
 	mother=110661
 	1005.1.1={
@@ -1230,8 +1230,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="patient"
-	trait="charismatic_negotiator"
+	trait = "patient_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=110660
 	mother=110661
 	1006.1.1={
@@ -1264,9 +1264,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="chaste"
-	trait="patient"
-	trait="elusive_shadow"
+	trait = "chaste_hidden"
+	trait = "patient_hidden"
+	trait = "elusive_shadow_hidden"
 	father=210506
 	mother=210507
 	1157.3.25={
@@ -1304,8 +1304,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=210500
 	mother=207504
 	1174.1.1={
@@ -1328,7 +1328,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=210500
 	mother=207504
 	1180.1.1={
@@ -1352,7 +1352,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=210500
 	mother=207504
 	
@@ -1374,7 +1374,7 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=210500
 	mother=207504
 	1182.1.1={
@@ -1415,9 +1415,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	father=210508
 	mother=40806
 	1113.1.1={
@@ -1442,9 +1442,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="humble"
-	trait="gluttonous"
-	trait="charismatic_negotiator"
+	trait = "humble_hidden"
+	trait = "gluttonous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=110522
 	mother=1121
 	1082.11.11={
@@ -1472,10 +1472,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="proud"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "proud_hidden"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=210508
 	1116.1.1={
 		birth="1116.1.1"
@@ -1495,7 +1495,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=210508 #Ramon Berenguer
 	mother=40806
 	1117.1.1={
@@ -1516,8 +1516,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="craven"
-	trait="thrifty_clerk"
+	trait = "craven_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=210506
 	mother=210507
 	1160.1.1={
@@ -1537,8 +1537,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=210506
 	mother=210507
 	1161.1.1={
@@ -1589,7 +1589,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1137.1.2={
 		birth="1137.1.2"
 	}
@@ -1609,7 +1609,7 @@
 	culture="catalan"
 	father=72086
 	mother=72087
-	trait="cynical"
+	trait = "cynical_hidden"
 	1138.1.1={
 		birth="1138.1.1"
 	}
@@ -1677,7 +1677,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=210576
 	mother=107646
 	1096.1.1={
@@ -1704,7 +1704,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=210572
 	mother=210574
 	1143.1.1={
@@ -1724,7 +1724,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=110550
 	mother=70189
 	1071.1.1={
@@ -1761,8 +1761,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="humble"
-	trait="amateurish_plotter"
+	trait = "humble_hidden"
+	trait = "amateurish_plotter_hidden"
 	1030.1.2={
 		birth="1030.1.2"
 	}
@@ -1780,9 +1780,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	father=210508
 	mother=40806
 	1113.12.1={
@@ -1806,7 +1806,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=460600
 	mother=98030
 	1243.1.1={
@@ -1827,9 +1827,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="lustful"
-	trait="diligent"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "diligent_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70234
 	mother=71702
 	1305.1.1={
@@ -1849,10 +1849,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="bastard"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "bastard_hidden"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	father=460600
 	mother=71697
 	1255.1.1={
@@ -1862,7 +1862,7 @@
 		add_spouse=71575
 	}
 	1276.7.27={
-	remove_trait="bastard"
+	remove_trait = "bastard_hidden"
 	}
 	1299.1.1={
 		death="1299.1.1"
@@ -1878,9 +1878,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="temperate"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "temperate_hidden"
+	trait = "tough_soldier_hidden"
 	father=70234
 	mother=71702
 	1302.1.1={
@@ -1923,9 +1923,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="deceitful"
-	trait="brilliant_strategist"
+	trait = "wroth_hidden"
+	trait = "deceitful_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=72320
 	1280.1.1={
 		birth="1280.1.1"
@@ -1948,9 +1948,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="arbitrary"
-	trait="lunatic"
-	trait="midas_touched"
+	trait = "arbitrary_hidden"
+	trait = "lunatic_hidden"
+	trait = "midas_touched_hidden"
 	1282.1.1={
 		birth="1282.1.1"
 	}
@@ -1968,9 +1968,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=460020
 	mother=460021
 	1299.1.1={
@@ -1991,9 +1991,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="proud"
-	trait="cynical"
-	trait="intricate_webweaver"
+	trait = "proud_hidden"
+	trait = "cynical_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=460020
 	mother=460021
 	1301.1.1={
@@ -2013,9 +2013,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="lustful"
-	trait="just"
-	trait="brilliant_strategist"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=460020
 	mother=460021
 	1295.1.1={
@@ -2038,9 +2038,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="gluttonous"
-	trait="slothful"
-	trait="thrifty_clerk"
+	trait = "gluttonous_hidden"
+	trait = "slothful_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=460020
 	mother=460021
 	1307.1.1={
@@ -2060,9 +2060,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="kind"
-	trait="humble"
-	trait="misguided_warrior"
+	trait = "kind_hidden"
+	trait = "humble_hidden"
+	trait = "misguided_warrior_hidden"
 	father=460020
 	mother=460021
 	1309.1.1={
@@ -2082,9 +2082,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="craven"
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "craven_hidden"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=460020
 	mother=460021
 	1311.1.1={
@@ -2104,9 +2104,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="lustful"
-	trait="arbitrary"
-	trait="charismatic_negotiator"
+	trait = "lustful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1295.1.1={
 		birth="1295.1.1"
 	}
@@ -2124,8 +2124,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=460024
 	mother=460030
 	1323.1.1={
@@ -2145,8 +2145,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="proud"
-	trait="thrifty_clerk"
+	trait = "proud_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=460024
 	mother=460030
 	1324.1.1={
@@ -2166,8 +2166,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "martial_cleric_hidden"
 	father=460024
 	mother=460030
 	1326.1.1={
@@ -2187,8 +2187,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=460024
 	mother=460030
 	1328.1.1={
@@ -2209,8 +2209,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="just"
-	trait="thrifty_clerk"
+	trait = "just_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=460024
 	mother=460030
 	1311.1.1={
@@ -2250,8 +2250,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="patient"
-	trait="flamboyant_schemer"
+	trait = "patient_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=460510
 	mother=460511
 	1319.9.5={
@@ -2272,9 +2272,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="hunchback"
-	trait="amateurish_plotter"
+	trait = "greedy_hidden"
+	trait = "hunchback_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=460560
 	mother=461727
 	1299.2.1={
@@ -2325,9 +2325,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="lustful"
-	trait="zealous"
-	trait="charismatic_negotiator"
+	trait = "lustful_hidden"
+	trait = "zealous_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=460510
 	mother=460511
 	1321.1.1={
@@ -2350,9 +2350,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=460510
 	mother=457521
 	
@@ -2373,8 +2373,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	father=460510
 	mother=457521
 	1334.1.1={
@@ -2395,9 +2395,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="cynical"
-	trait="temperate"
-	trait="naive_appeaser"
+	trait = "cynical_hidden"
+	trait = "temperate_hidden"
+	trait = "naive_appeaser_hidden"
 	father=460510
 	mother=460511
 	1318.1.1={
@@ -2418,11 +2418,11 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="chaste"
-	trait="greedy"
-	trait="honest"
-	trait="stutter"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "greedy_hidden"
+	trait = "honest_hidden"
+	trait = "stutter_hidden"
+	trait = "tough_soldier_hidden"
 	father=460590
 	mother=462515
 	1267.8.10={
@@ -2452,9 +2452,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="patient"
-	trait="martial_cleric"
+	trait = "greedy_hidden"
+	trait = "patient_hidden"
+	trait = "martial_cleric_hidden"
 	1300.1.2={
 		birth="1300.1.2"
 	}
@@ -2472,9 +2472,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="envious"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=460560
 	mother=461727
 	1296.1.1={
@@ -2487,8 +2487,8 @@
 		remove_spouse=457521
 	}
 	1324.1.1={
-		remove_trait="tough_soldier"
-		trait="martial_cleric"
+		remove_trait = "tough_soldier_hidden"
+		trait = "martial_cleric_hidden"
 	}
 	1334.5.20={
 		death="1334.5.20"
@@ -2505,9 +2505,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="gluttonous"
-	trait="honest"
-	trait="flamboyant_schemer"
+	trait = "gluttonous_hidden"
+	trait = "honest_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=460560
 	mother=461727
 	1299.1.1={
@@ -2528,8 +2528,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="naive_appeaser"
+	trait = "diligent_hidden"
+	trait = "naive_appeaser_hidden"
 	father=460560
 	mother=461727
 	1300.4.1={
@@ -2550,8 +2550,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="amateurish_plotter"
+	trait = "charitable_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=460560
 	mother=461727
 	1300.4.1={
@@ -2572,9 +2572,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="patient"
-	trait="gluttonous"
-	trait="scholarly_theologian"
+	trait = "patient_hidden"
+	trait = "gluttonous_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=460560
 	mother=461727
 	1307.1.1={
@@ -2595,11 +2595,11 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="chaste"
-	trait="just"
-	trait="envious"
-	trait="honest"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "just_hidden"
+	trait = "envious_hidden"
+	trait = "honest_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=460560
 	mother=461727
 	1310.10.1={
@@ -2619,7 +2619,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="intricate_webweaver"
+	trait = "intricate_webweaver_hidden"
 	father=460560
 	mother=461727
 	1305.1.1={
@@ -2642,7 +2642,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=460570
 	mother=71761
 	1332.2.1={
@@ -2701,9 +2701,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="kind"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "kind_hidden"
+	trait = "tough_soldier_hidden"
 	father=460560
 	mother=461727
 	1308.1.1={
@@ -2726,9 +2726,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="just"
-	trait="ambitious"
-	trait="brilliant_strategist"
+	trait = "just_hidden"
+	trait = "ambitious_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=460600
 	mother=98030
 	1239.1.1={
@@ -2755,8 +2755,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="arbitrary"
-	trait="naive_appeaser"
+	trait = "arbitrary_hidden"
+	trait = "naive_appeaser_hidden"
 	father=460590
 	mother=462515
 	
@@ -2778,10 +2778,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="deceitful"
-	trait="brave"
-	trait="inbred"
-	trait="flamboyant_schemer"
+	trait = "deceitful_hidden"
+	trait = "brave_hidden"
+	trait = "inbred_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=460590
 	mother=462515
 	
@@ -2802,7 +2802,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="brilliant_strategist"
+	trait = "brilliant_strategist_hidden"
 	father=210501
 	mother=205582
 	1208.2.1={
@@ -2838,11 +2838,11 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="envious"
-	trait="proud"
-	trait="craven"
-	trait="harelip"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "proud_hidden"
+	trait = "craven_hidden"
+	trait = "harelip_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.2={
 		birth="1300.1.2"
 	}
@@ -2860,7 +2860,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=460600
 	mother=98030
 	
@@ -2881,7 +2881,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="just"
+	trait = "just_hidden"
 	father=460602
 	1274.1.1={
 		birth="1274.1.1"
@@ -2900,9 +2900,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="slothful"
-	trait="just"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "just_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=460602
 	1276.1.1={
 		birth="1276.1.1"
@@ -2921,7 +2921,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=460602
 	1278.1.1={
 		birth="1278.1.1"
@@ -2944,8 +2944,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="brave"
-	trait="martial_cleric"
+	trait = "brave_hidden"
+	trait = "martial_cleric_hidden"
 	1297.1.2={
 		birth="1297.1.2"
 	}
@@ -2963,7 +2963,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
+	trait = "wroth_hidden"
 	father=460605
 	1317.5.5={
 		birth="1317.5.5"
@@ -2982,7 +2982,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=460602
 	1288.1.1={
 		birth="1288.1.1"
@@ -3002,8 +3002,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="charismatic_negotiator"
+	trait = "honest_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=460602
 	1280.1.1={
 		birth="1280.1.1"
@@ -3023,8 +3023,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="patient"
-	trait="flamboyant_schemer"
+	trait = "patient_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=460602
 	1285.1.1={
 		birth="1285.1.1"
@@ -3064,8 +3064,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="zealous"
+	trait = "honest_hidden"
+	trait = "zealous_hidden"
 	father=460600
 	mother=98030
 	1240.1.1={
@@ -3085,8 +3085,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=460605
 	mother=460606
 	1315.4.15={
@@ -3109,14 +3109,14 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=460620
 	mother=460550
 	1336.8.24={
 		birth="1336.8.24"
 	}
 	1336.9.24={
-		remove_trait="bastard"
+		remove_trait = "bastard_hidden"
 	}
 	1375.2.1={
 		death="1375.2.1"
@@ -3133,8 +3133,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="thrifty_clerk"
+	trait = "honest_hidden"
+	trait = "thrifty_clerk_hidden"
 	1274.1.2={
 		birth="1274.1.2"
 	}
@@ -3153,7 +3153,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=70234
 	mother=71702
 	1310.1.1={
@@ -3173,8 +3173,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70234
 	mother=71702
 	1298.1.1={
@@ -3195,9 +3195,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="gluttonous"
-	trait="hunchback"
-	trait="charismatic_negotiator"
+	trait = "gluttonous_hidden"
+	trait = "hunchback_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=461522
 	1317.1.2={
 		birth="1317.1.2"
@@ -3216,8 +3216,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
-	trait="flamboyant_schemer"
+	trait = "bastard_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=461500
 	mother=461501
 	1290.1.1={
@@ -3255,9 +3255,9 @@
 	religion="catholic"
 	culture="catalan"
 	father=73785
-	trait="quick"
-	trait="just"
-	trait="intricate_webweaver"
+	trait = "quick_hidden"
+	trait = "just_hidden"
+	trait = "intricate_webweaver_hidden"
 	840.1.1={
 		birth="840.1.1"
 	}
@@ -3278,9 +3278,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="gardener"
-	trait="arbitrary"
-	trait="underhanded_rogue"
+	trait = "gardener_hidden"
+	trait = "arbitrary_hidden"
+	trait = "underhanded_rogue_hidden"
 	860.1.1={
 		birth="860.1.1"
 	}
@@ -3298,9 +3298,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="humble"
-	trait="kind"
-	trait="underhanded_rogue"
+	trait = "humble_hidden"
+	trait = "kind_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70150
 	mother=70151
 	880.1.1={
@@ -3324,9 +3324,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="mystic"
-	trait="charitable"
-	trait="indulgent_wastrel"
+	trait = "mystic_hidden"
+	trait = "charitable_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70150
 	mother=70151
 	899.1.1={
@@ -3346,9 +3346,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="envious"
-	trait="naive_appeaser"
+	trait = "greedy_hidden"
+	trait = "envious_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70150
 	mother=70151
 	898.1.1={
@@ -3372,9 +3372,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="chaste"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	884.1.1={
 		birth="884.1.1"
 	}
@@ -3392,9 +3392,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="hunter"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "hunter_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=70154
 	mother=70155
 	914.1.1={
@@ -3418,9 +3418,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="ambitious"
-	trait="indulgent_wastrel"
+	trait = "honest_hidden"
+	trait = "ambitious_hidden"
+	trait = "indulgent_wastrel_hidden"
 	947.1.1={
 		birth="947.1.1"
 	}
@@ -3438,9 +3438,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="craven"
-	trait="content"
-	trait="thrifty_clerk"
+	trait = "craven_hidden"
+	trait = "content_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=110640
 	mother=110641
 	1068.1.1={
@@ -3460,9 +3460,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="duelist"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "duelist_hidden"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	father=110652
 	mother=70287
 	1064.1.1={
@@ -3482,9 +3482,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="content"
-	trait="just"
-	trait="tough_soldier"
+	trait = "content_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=70156
 	mother=70157
 	965.1.1={
@@ -3511,9 +3511,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="lustful"
-	trait="thrifty_clerk"
+	trait = "greedy_hidden"
+	trait = "lustful_hidden"
+	trait = "thrifty_clerk_hidden"
 	970.1.1={
 		birth="970.1.1"
 	}
@@ -3532,9 +3532,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="scholar"
-	trait="temperate"
-	trait="underhanded_rogue"
+	trait = "scholar_hidden"
+	trait = "temperate_hidden"
+	trait = "underhanded_rogue_hidden"
 	
 	996.1.1={
 		birth="996.1.1"
@@ -3553,9 +3553,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="cynical"
-	trait="deceitful"
-	trait="flamboyant_schemer"
+	trait = "cynical_hidden"
+	trait = "deceitful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70160
 	mother=70161
 	992.1.1={
@@ -3579,9 +3579,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="clubfooted"
-	trait="mystic"
-	trait="charismatic_negotiator"
+	trait = "clubfooted_hidden"
+	trait = "mystic_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1036.1.1={
 		birth="1036.1.1"
 	}
@@ -3599,9 +3599,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=70163
 	mother=70164
 	1052.1.1={
@@ -3627,9 +3627,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="ill"
-	trait="drunkard"
-	trait="naive_appeaser"
+	trait = "ill_hidden"
+	trait = "drunkard_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70163
 	mother=70164
 	1049.1.1={
@@ -3649,9 +3649,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="scholar"
-	trait="temperate"
-	trait="scholarly_theologian"
+	trait = "scholar_hidden"
+	trait = "temperate_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=70160
 	mother=70161
 	994.1.1={
@@ -3671,9 +3671,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="hedonist"
-	trait="homosexual"
-	trait="naive_appeaser"
+	trait = "hedonist_hidden"
+	trait = "homosexual_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70160
 	mother=70161
 	998.1.1={
@@ -3693,9 +3693,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="celibate"
-	trait="wroth"
-	trait="misguided_warrior"
+	trait = "celibate_hidden"
+	trait = "wroth_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70160
 	mother=70162
 	1016.1.1={
@@ -3716,9 +3716,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="temperate"
-	trait="kind"
-	trait="amateurish_plotter"
+	trait = "temperate_hidden"
+	trait = "kind_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=110538
 	mother=110539
 	980.1.1={
@@ -3737,9 +3737,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="mystic"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "mystic_hidden"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	975.1.1={
 		birth="975.1.1"
 	}
@@ -3760,9 +3760,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="proud"
-	trait="hunter"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "hunter_hidden"
+	trait = "tough_soldier_hidden"
 	father=70171
 	mother=70170
 	1002.1.1={
@@ -3782,9 +3782,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="duelist"
-	trait="greedy"
-	trait="skilled_tactician"
+	trait = "duelist_hidden"
+	trait = "greedy_hidden"
+	trait = "skilled_tactician_hidden"
 	father=70172
 	1028.1.1={
 		birth="1028.1.1"
@@ -3809,9 +3809,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="gregarious"
-	trait="proud"
-	trait="thrifty_clerk"
+	trait = "gregarious_hidden"
+	trait = "proud_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=70173
 	mother=110633
 	1043.1.1={
@@ -3831,9 +3831,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="scholar"
-	trait="charitable"
-	trait="flamboyant_schemer"
+	trait = "scholar_hidden"
+	trait = "charitable_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70173
 	mother=110633
 	1042.1.1={
@@ -3853,9 +3853,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="diligent"
-	trait="poet"
-	trait="detached_priest"
+	trait = "diligent_hidden"
+	trait = "poet_hidden"
+	trait = "detached_priest_hidden"
 	father=70173
 	mother=110633
 	1044.1.1={
@@ -3875,9 +3875,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="impaler"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "impaler_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	father=70173
 	mother=110633
 	1046.1.1={
@@ -3898,9 +3898,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="cynical"
-	trait="brave"
-	trait="indulgent_wastrel"
+	trait = "cynical_hidden"
+	trait = "brave_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70173
 	mother=110633
 	1048.1.1={
@@ -3920,9 +3920,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="hedonist"
-	trait="hunter"
-	trait="tough_soldier"
+	trait = "hedonist_hidden"
+	trait = "hunter_hidden"
+	trait = "tough_soldier_hidden"
 	father=70172
 	1030.1.1={
 		birth="1030.1.1"
@@ -3942,9 +3942,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
-	trait="mystic"
-	trait="amateurish_plotter"
+	trait = "bastard_hidden"
+	trait = "mystic_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=70180
 	1060.1.1={
 		birth="1060.1.1"
@@ -3967,9 +3967,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="celibate"
-	trait="temperate"
-	trait="indulgent_wastrel"
+	trait = "celibate_hidden"
+	trait = "temperate_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=110571
 	mother=110572
 	
@@ -3990,9 +3990,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="stressed"
-	trait="slothful"
-	trait="underhanded_rogue"
+	trait = "stressed_hidden"
+	trait = "slothful_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70280
 	1000.1.1={
 		birth="1000.1.1"
@@ -4014,9 +4014,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="charitable"
-	trait="falconer"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "falconer_hidden"
+	trait = "tough_soldier_hidden"
 	father=70183
 	mother=70182
 	1023.1.1={
@@ -4042,9 +4042,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="proud"
-	trait="just"
-	trait="misguided_warrior"
+	trait = "proud_hidden"
+	trait = "just_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70184
 	mother=54002
 	1059.1.1={
@@ -4067,9 +4067,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="content"
-	trait="ill"
-	trait="thrifty_clerk"
+	trait = "content_hidden"
+	trait = "ill_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=70184
 	mother=54002
 	1061.1.1={
@@ -4089,9 +4089,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="mystic"
-	trait="gardener"
-	trait="scholarly_theologian"
+	trait = "mystic_hidden"
+	trait = "gardener_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=70184
 	mother=54002
 	1063.1.1={
@@ -4111,9 +4111,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="arbitrary"
-	trait="gluttonous"
-	trait="indulgent_wastrel"
+	trait = "arbitrary_hidden"
+	trait = "gluttonous_hidden"
+	trait = "indulgent_wastrel_hidden"
 	1014.1.1={
 		birth="1014.1.1"
 	}
@@ -4131,9 +4131,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="harelip"
-	trait="ill"
-	trait="thrifty_clerk"
+	trait = "harelip_hidden"
+	trait = "ill_hidden"
+	trait = "thrifty_clerk_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -4154,9 +4154,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="wroth"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	father=110520
 	mother=325
 	1055.1.1={
@@ -4176,9 +4176,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="shy"
-	trait="brave"
-	trait="misguided_warrior"
+	trait = "shy_hidden"
+	trait = "brave_hidden"
+	trait = "misguided_warrior_hidden"
 	1040.1.1={
 		birth="1040.1.1"
 	}
@@ -4202,9 +4202,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="fair"
-	trait="kind"
-	trait="charismatic_negotiator"
+	trait = "fair_hidden"
+	trait = "kind_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=70200
 	mother=110589
 	1066.1.1={
@@ -4224,7 +4224,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=460010
 	mother=71575
 	1276.1.1={
@@ -4247,9 +4247,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="catalan"
-	trait="mystic"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "mystic_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=70272
 	910.1.1={
 		birth="910.1.1"
@@ -4272,9 +4272,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="chaste"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	920.1.1={
 		birth="920.1.1"
 	}
@@ -4292,9 +4292,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="humble"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=70278
 	mother=70279
 	950.1.1={
@@ -4317,9 +4317,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="catalan"
-	trait="shy"
-	trait="kind"
-	trait="underhanded_rogue"
+	trait = "shy_hidden"
+	trait = "kind_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70280
 	995.1.1={
 		birth="995.1.1"
@@ -4347,8 +4347,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="deceitful"
-	trait="flamboyant_schemer"
+	trait = "deceitful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1020.1.1={
 		birth="1020.1.1"
 	}
@@ -4369,9 +4369,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="hunter"
-	trait="greedy"
-	trait="tough_soldier"
+	trait = "hunter_hidden"
+	trait = "greedy_hidden"
+	trait = "tough_soldier_hidden"
 	father=70281
 	mother=70282
 	1040.1.1={
@@ -4394,9 +4394,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="hedonist"
-	trait="arbitrary"
-	trait="indulgent_wastrel"
+	trait = "hedonist_hidden"
+	trait = "arbitrary_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70281
 	mother=70282
 	1045.1.1={
@@ -4417,9 +4417,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="envious"
-	trait="just"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "just_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1045.1.1={
 		birth="1045.1.1"
 	}
@@ -4438,9 +4438,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="patient"
-	trait="craven"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "craven_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=110580
 	mother=110663
 	1046.1.1={
@@ -4503,7 +4503,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=70165
-	trait="bastard"
+	trait = "bastard_hidden"
 	1074.1.1={
 		birth="1074.1.1"
 	}
@@ -4584,7 +4584,7 @@
 	dynasty=10029
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=71597
 	mother=71596
 	1112.1.1={
@@ -4701,7 +4701,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=71597
-	trait="bastard"
+	trait = "bastard_hidden"
 	1130.1.1={
 		birth="1130.1.1"
 	}
@@ -5078,8 +5078,8 @@
 	dynasty=100204
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
-	trait="detached_priest"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	father=210506
 	1140.1.1={
 		birth="1140.1.1"
@@ -5109,7 +5109,7 @@
 	dynasty=100204
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=210500
 	mother=207504
 	1190.1.1={
@@ -5126,7 +5126,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=210500
 	mother=207504
 	1192.1.1={
@@ -5158,8 +5158,8 @@
 	dynasty=100204
 	religion="catholic"
 	culture="catalan"
-	add_trait="bastard"
-	add_trait="detached_priest"
+	add_trait = "bastard_hidden"
+	add_trait = "detached_priest_hidden"
 	father=210501
 	1196.1.1={
 		birth="1196.1.1"
@@ -5176,7 +5176,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=210501
-	trait="bastard"
+	trait = "bastard_hidden"
 	1200.1.1={
 		birth="1200.1.1"
 	}
@@ -5192,7 +5192,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=210501
-	trait="bastard"
+	trait = "bastard_hidden"
 	1204.1.1={
 		birth="1204.1.1"
 	}
@@ -5476,7 +5476,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460604
-	trait="bastard"
+	trait = "bastard_hidden"
 	1315.1.1={
 		birth="1315.1.1"
 	}
@@ -5492,7 +5492,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460604
-	trait="bastard"
+	trait = "bastard_hidden"
 	1317.1.1={
 		birth="1317.1.1"
 	}
@@ -5508,7 +5508,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460602
-	trait="bastard"
+	trait = "bastard_hidden"
 	1294.1.1={
 		birth="1294.1.1"
 	}
@@ -5650,7 +5650,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460605
-	trait="bastard"
+	trait = "bastard_hidden"
 	1295.1.1={
 		birth="1295.1.1"
 	}
@@ -5668,7 +5668,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460605
-	trait="bastard"
+	trait = "bastard_hidden"
 	1298.1.1={
 		birth="1298.1.1"
 	}
@@ -5683,7 +5683,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460605
-	trait="bastard"
+	trait = "bastard_hidden"
 	1301.1.1={
 		birth="1301.1.1"
 	}
@@ -5698,8 +5698,8 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
-	trait="detached_priest"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	father=460605
 	1304.1.1={
 		birth="1304.1.1"
@@ -5760,7 +5760,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460620
-	trait="bastard"
+	trait = "bastard_hidden"
 	1335.1.1={
 		birth="1335.1.1"
 	}
@@ -5776,7 +5776,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460620
-	trait="bastard"
+	trait = "bastard_hidden"
 	1337.1.1={
 		birth="1337.1.1"
 	}
@@ -5822,7 +5822,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=460600
 	mother=98030
 	1248.1.1={
@@ -5838,7 +5838,7 @@
 	dynasty=100204
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=460600
 	mother=98030
 	1250.1.1={
@@ -5905,7 +5905,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=71698
-	trait="bastard"
+	trait = "bastard_hidden"
 	1330.1.1={
 		birth="1330.1.1"
 	}
@@ -6030,12 +6030,12 @@
 	culture="catalan"
 	father=460600
 	mother=71697
-	trait="bastard"
+	trait = "bastard_hidden"
 	1259.1.1={
 		birth="1259.1.1"
 	}
 	1276.7.27={
-		remove_trait="bastard"
+		remove_trait = "bastard_hidden"
 	}
 	1318.1.1={
 		death="1318.1.1"
@@ -6159,7 +6159,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460600
-	trait="bastard"
+	trait = "bastard_hidden"
 	1241.1.1={
 		birth="1241.1.1"
 	}
@@ -6274,7 +6274,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460600
-	trait="bastard"
+	trait = "bastard_hidden"
 	1245.1.1={
 		birth="1245.1.1"
 	}
@@ -6370,8 +6370,8 @@
 	religion="catholic"
 	culture="catalan"
 	father=460600
-	add_trait="bastard"
-	add_trait="detached_priest"
+	add_trait = "bastard_hidden"
+	add_trait = "detached_priest_hidden"
 	1250.1.1={
 		birth="1250.1.1"
 	}
@@ -6386,8 +6386,8 @@
 	religion="catholic"
 	culture="catalan"
 	father=460600
-	trait="bastard"
-	trait="detached_priest"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	1254.1.1={
 		birth="1254.1.1"
 	}
@@ -6405,9 +6405,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="catalan"
-	trait="greedy"
-	trait="trusting"
-	trait="brilliant_strategist"
+	trait = "greedy_hidden"
+	trait = "trusting_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=460590
 	mother=462515
 	1265.1.1={
@@ -6442,7 +6442,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1265.1.1={
 		birth="1265.1.1"
 	}
@@ -6472,7 +6472,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1270.1.1={
 		birth="1270.1.1"
 	}
@@ -6487,7 +6487,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1272.1.1={
 		birth="1272.1.1"
 	}
@@ -6559,9 +6559,9 @@
 	dynasty=100204
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1274.1.1={
 		birth="1274.1.1"
 	}
@@ -6577,7 +6577,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1276.1.1={
 		birth="1276.1.1"
 	}
@@ -6591,7 +6591,7 @@
 	dynasty=100204
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=460560
 	mother=461727
 	1304.1.1={
@@ -6640,7 +6640,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460560
-	trait="bastard"
+	trait = "bastard_hidden"
 	1289.1.1={
 		birth="1289.1.1"
 	}
@@ -6655,7 +6655,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460560
-	trait="bastard"
+	trait = "bastard_hidden"
 	1291.1.1={
 		birth="1291.1.1"
 	}
@@ -6670,7 +6670,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460560
-	trait="bastard"
+	trait = "bastard_hidden"
 	1288.1.1={
 		birth="1288.1.1"
 	}
@@ -6788,7 +6788,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1267.1.1={
 		birth="1267.1.1"
 	}
@@ -6804,7 +6804,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=460590
-	trait="bastard"
+	trait = "bastard_hidden"
 	1267.1.1={
 		birth="1267.1.1"
 	}
@@ -6823,9 +6823,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="catalan"
-	trait="lustful"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=460590
 	mother=462515
 	1272.1.1={
@@ -7724,7 +7724,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=72108
-	trait="bastard"
+	trait = "bastard_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -7890,7 +7890,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=72120
-	trait=bastard
+	trait = "bastard_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -8153,7 +8153,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=210572
-	trait=bastard
+	trait = "bastard_hidden"
 	1118.1.1={
 		birth="1118.1.1"
 	}
@@ -8168,7 +8168,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=210572
-	trait=bastard
+	trait = "bastard_hidden"
 	1120.1.1={
 		birth="1120.1.1"
 	}
@@ -8184,7 +8184,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=210572
-	trait=bastard
+	trait = "bastard_hidden"
 	1140.1.1={
 		birth="1140.1.1"
 	}
@@ -8290,7 +8290,7 @@
 	dynasty=101701
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72153
 	mother=72155
 	1072.1.1={
@@ -8306,7 +8306,7 @@
 	dynasty=101701
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72153
 	mother=72155
 	1074.1.1={
@@ -9255,7 +9255,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=110585
 	mother=72236
 	1091.1.1={
@@ -9365,7 +9365,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait=detached_priest
+	trait = "detached_priest_hidden"
 	father=72245
 	mother=72247
 	1136.1.1={
@@ -9412,7 +9412,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72245
 	mother=72247
 	1164.1.1={
@@ -9504,7 +9504,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait=detached_priest
+	trait = "detached_priest_hidden"
 	father=72251
 	mother=72253
 	1226.1.1={
@@ -9634,7 +9634,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72261
 	mother=72264
 	1257.1.1={
@@ -9849,7 +9849,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72261
 	mother=72279
 	1277.1.1={
@@ -9866,7 +9866,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72261
 	mother=72279
 	1279.1.1={
@@ -9882,7 +9882,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72261
 	mother=72279
 	1281.1.1={
@@ -9898,7 +9898,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=72261
 	mother=72279
 	1283.1.1={
@@ -9932,7 +9932,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72265
 	mother=72234
 	1283.1.1={
@@ -9949,7 +9949,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72265
 	mother=72234
 	1285.1.1={
@@ -9966,7 +9966,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72265
 	mother=72234
 	1287.1.1={
@@ -9998,7 +9998,7 @@
 	dynasty=392
 	religion="catholic"
 	culture="catalan"
-	trait="martial_cleric" #Knight of Saint John of Jerusalem
+	trait = "martial_cleric_hidden" #Knight of Saint John of Jerusalem
 	father=72265
 	mother=72234
 	1291.1.1={
@@ -10496,7 +10496,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=71604
-	trait=bastard
+	trait = "bastard_hidden"
 	1220.1.1={
 		birth="1220.1.1"
 	}
@@ -10511,7 +10511,7 @@
 	religion="catholic"
 	culture="catalan"
 	father=71604
-	trait=bastard
+	trait = "bastard_hidden"
 	1222.1.1={
 		birth="1222.1.1"
 	}
@@ -10860,7 +10860,7 @@
 	dynasty=12139
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1309.1.1={
@@ -10876,7 +10876,7 @@
 	dynasty=12139
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1310.1.1={
@@ -10893,7 +10893,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1311.1.1={
@@ -10909,7 +10909,7 @@
 	dynasty=12139
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1312.1.1={
@@ -10926,7 +10926,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1313.1.1={
@@ -10943,7 +10943,7 @@
 	female=yes
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1314.1.1={
@@ -10959,7 +10959,7 @@
 	dynasty=12139
 	religion="catholic"
 	culture="catalan"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=72332
 	mother=72345
 	1315.1.1={
@@ -11008,9 +11008,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="catalan"
-	trait="honest"
-	trait="just"
-	trait="flamboyant_schemer"
+	trait = "honest_hidden"
+	trait = "just_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=40188
 	1037.1.2={
 		birth="1037.1.2"
@@ -11032,7 +11032,7 @@
 	culture="catalan"
 	father=72156
 	mother=72160
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1102.1.1={
 		birth="1102.1.1"
 	}
@@ -11392,7 +11392,7 @@
 
 	father=73785
 
-	trait=detached_priest
+	trait = "detached_priest_hidden"
 
 	848.1.1={
 		birth="848.1.1"

@@ -3,7 +3,7 @@
 	dynasty=829
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait=content
+	trait = "content_hidden"
 	837.1.1={
 		birth=yes
 	}
@@ -35,7 +35,7 @@
 	stewardship=6
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -67,8 +67,8 @@
 	stewardship=4
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -180,8 +180,8 @@
 	stewardship=4
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -199,8 +199,8 @@
 	stewardship=6
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="clubfooted"
-	trait="flamboyant_schemer"
+	trait = "clubfooted_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -218,9 +218,9 @@
 	stewardship=6
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="diligent"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -252,9 +252,9 @@
 	stewardship=6
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="diligent"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	father = 144631
 	1150.1.1={
 		birth="1150.1.1"
@@ -273,8 +273,8 @@
 	stewardship=6
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="clubfooted"
-	trait="flamboyant_schemer"
+	trait = "clubfooted_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -306,7 +306,7 @@
 	stewardship=5
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=144638
 	1150.1.1={
 		birth="1150.1.1"
@@ -325,7 +325,7 @@
 	stewardship=5
 	religion="finnish_pagan"
 	culture="ugricbaltic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}

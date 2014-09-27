@@ -8,7 +8,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=4409
 	1027.1.1 = {
 		birth=yes
@@ -54,8 +54,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	1020.1.1 = {
 		birth="1020.1.1"
 	}
@@ -77,8 +77,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1012.1.1 = {
 		birth="1012.1.1"
 	}
@@ -100,7 +100,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=20357
 	1005.1.1 = {
 		birth="1005.1.1"
@@ -119,9 +119,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="deceitful"
-	trait="grey_eminence"
+	trait = "wroth_hidden"
+	trait = "deceitful_hidden"
+	trait = "grey_eminence_hidden"
 	father=20357
 	1010.1.1 = {
 		birth="1010.1.1"
@@ -143,8 +143,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="kind"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "tough_soldier_hidden"
 	father=4379
 	1024.1.1 = {
 		birth="1024.1.1"
@@ -167,9 +167,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="clubfooted"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "clubfooted_hidden"
+	trait = "scholarly_theologian_hidden"
 	1023.1.1 = {
 		birth="1023.1.1"
 	}
@@ -190,8 +190,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="flamboyant_schemer"
+	trait = "temperate_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=20371
 	mother=499
 	1017.1.1 = {
@@ -214,8 +214,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="underhanded_rogue"
+	trait = "diligent_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=4399
 	1047.1.1 = {
 		birth="1047.1.1"
@@ -234,8 +234,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="underhanded_rogue"
+	trait = "humble_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=470
 	mother=763
 	1051.1.1 = {
@@ -255,8 +255,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="stutter"
-	trait="tough_soldier"
+	trait = "stutter_hidden"
+	trait = "tough_soldier_hidden"
 	father=4429
 	1055.1.1 = {
 		birth="1055.1.1"
@@ -277,9 +277,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="craven"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "craven_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=472
 	mother=479
 	1064.1.1 = {
@@ -300,9 +300,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="greedy"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "greedy_hidden"
+	trait = "tough_soldier_hidden"
 	990.1.2 = {
 		birth="990.1.2"
 	}
@@ -323,7 +323,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1024.1.1 = {
 		birth="1024.1.1"
 	}
@@ -345,8 +345,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1039.1.1 = {
 		birth="1039.1.1"
 	}
@@ -370,8 +370,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	1031.1.1 = {
 		birth="1031.1.1"
 	}
@@ -393,8 +393,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="detached_priest"
+	trait = "chaste_hidden"
+	trait = "detached_priest_hidden"
 	1025.1.1 = {
 		birth="1025.1.1"
 	}
@@ -413,9 +413,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=20366
 	mother=20375
 	1042.1.1 = {
@@ -436,9 +436,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="honest"
-	trait="diligent"
-	trait="martial_cleric"
+	trait = "honest_hidden"
+	trait = "diligent_hidden"
+	trait = "martial_cleric_hidden"
 	father=20366
 	mother=20375
 	1045.1.1 = {
@@ -458,9 +458,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="cynical"
-	trait="misguided_warrior"
+	trait = "lustful_hidden"
+	trait = "cynical_hidden"
+	trait = "misguided_warrior_hidden"
 	father=20363
 	mother=491
 	1034.1.1 = {
@@ -484,8 +484,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=20363
 	mother=491
 	1036.1.1 = {
@@ -505,8 +505,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1 = {
 		birth=yes
 	}
@@ -524,9 +524,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -545,8 +545,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="scholarly_theologian"
+	trait = "temperate_hidden"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -565,7 +565,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=93654
 	1150.1.1 = {
 		birth="1150.1.1"
@@ -585,9 +585,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "just_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -606,8 +606,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="amateurish_plotter"
+	trait = "chaste_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -626,8 +626,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -646,9 +646,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="cynical"
-	trait="temperate"
-	trait="amateurish_plotter"
+	trait = "cynical_hidden"
+	trait = "temperate_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -667,7 +667,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -686,10 +686,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="proud"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "deceitful_hidden"
+	trait = "proud_hidden"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -708,7 +708,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -727,7 +727,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -745,8 +745,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="greedy"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -765,9 +765,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -786,7 +786,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -805,8 +805,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -825,7 +825,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -843,10 +843,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="humble"
-	trait="cynical"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "humble_hidden"
+	trait = "cynical_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -865,7 +865,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -883,8 +883,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="fortune_builder"
+	trait = "wroth_hidden"
+	trait = "fortune_builder_hidden"
 	father=93638
 	1150.1.1 = {
 		birth="1150.1.1"
@@ -903,9 +903,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -924,9 +924,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="slothful"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -944,10 +944,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="greedy"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "lustful_hidden"
+	trait = "greedy_hidden"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -965,7 +965,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=219510
 	mother=222573
 	1148.1.1 = {
@@ -1005,7 +1005,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=219500
 	mother=223593
 	1174.1.2 = {
@@ -1029,9 +1029,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=219500
 	mother=223593
 	1176.1.2 = {
@@ -1061,8 +1061,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="cynical"
-	trait="martial_cleric"
+	trait = "cynical_hidden"
+	trait = "martial_cleric_hidden"
 	father=219500
 	mother=223593
 	1180.1.2 = {
@@ -1083,7 +1083,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=219500
 	mother=223593
 	1178.1.2 = {
@@ -1104,9 +1104,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="temperate"
-	trait="flamboyant_schemer"
+	trait = "patient_hidden"
+	trait = "temperate_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=219530
 	mother=218511
 	1128.1.2 = {
@@ -1127,9 +1127,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="kind"
-	trait="brave"
-	trait="underhanded_rogue"
+	trait = "kind_hidden"
+	trait = "brave_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=219530
 	mother=218511
 	1130.1.2 = {
@@ -1156,8 +1156,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="craven"
-	trait="martial_cleric"
+	trait = "craven_hidden"
+	trait = "martial_cleric_hidden"
 	father=219510
 	mother=222573
 	1147.7.2 = {
@@ -1187,9 +1187,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="deceitful"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "deceitful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=219510
 	mother=222573
 	1144.1.2 = {
@@ -1210,9 +1210,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="arbitrary"
-	trait="harelip"
-	trait="martial_cleric"
+	trait = "arbitrary_hidden"
+	trait = "harelip_hidden"
+	trait = "martial_cleric_hidden"
 	father=219500
 	mother=223593
 	1175.1.2 = {
@@ -1232,8 +1232,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="inbred"
-	trait="flamboyant_schemer"
+	trait = "inbred_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=219510
 	mother=222573
 	1150.1.2 = {
@@ -1254,8 +1254,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	father=219510
 	mother=222573
 	1158.1.2 = {
@@ -1276,9 +1276,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="gluttonous"
-	trait="cynical"
-	trait="scholarly_theologian"
+	trait = "gluttonous_hidden"
+	trait = "cynical_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=219510
 	mother=222573
 	1162.1.2 = {
@@ -1299,9 +1299,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "deceitful_hidden"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=480
 	mother=98008
 	1094.1.2 = {
@@ -1322,10 +1322,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="cynical"
-	trait="maimed"
-	trait="scholarly_theologian"
+	trait = "deceitful_hidden"
+	trait = "cynical_hidden"
+	trait = "maimed_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=219531
 	mother=219532
 	1109.1.2 = {
@@ -1351,9 +1351,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "envious_hidden"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=472
 	mother=479
 	1074.1.2 = {
@@ -1377,7 +1377,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=219531
 	mother=219532
 	1105.1.2 = {
@@ -1397,8 +1397,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	1154.1.2 = {
 		birth="1154.1.2"
 	}
@@ -1417,9 +1417,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="humble"
-	trait="scholarly_theologian"
+	trait = "zealous_hidden"
+	trait = "humble_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=474
 	mother=1399
 	1088.1.2 = {
@@ -1440,10 +1440,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="just"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	father=480
 	mother=98008
 	1101.1.2 = {
@@ -1470,10 +1470,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="bastard"
-	trait="gregarious"
-	trait="greedy"
-	trait="misguided_warrior"
+	trait = "bastard_hidden"
+	trait = "gregarious_hidden"
+	trait = "greedy_hidden"
+	trait = "misguided_warrior_hidden"
 	father=480
 	mother=98018
 	1113.1.2 = {
@@ -1498,8 +1498,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470
 	mother=763
 	1050.1.1 = {
@@ -1523,7 +1523,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=470
 	mother=763
 	1045.1.1 = {
@@ -1544,9 +1544,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="just"
-	trait="fortune_builder"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "fortune_builder_hidden"
 	father=20372
 	mother=4444
 	1049.1.1 = {
@@ -1568,7 +1568,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="elusive_shadow"
+	trait = "elusive_shadow_hidden"
 	1039.1.1 = {
 		birth="1039.1.1"
 	}
@@ -1587,7 +1587,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1040.1.1 = {
 		birth="1040.1.1"
 	}
@@ -1606,7 +1606,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1025.1.1 = {
 		birth="1025.1.1"
 	}
@@ -1626,8 +1626,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="thrifty_clerk"
+	trait = "temperate_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=20365
 	mother=4365
 	1049.1.1 = {
@@ -1648,8 +1648,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=20371
 	mother=499
 	1022.1.1 = {
@@ -1673,7 +1673,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=4371
 	mother=4443
 	1051.1.1 = {
@@ -1693,8 +1693,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="ambitious"
-	trait="mastermind_theologian"
+	trait = "ambitious_hidden"
+	trait = "mastermind_theologian_hidden"
 	1021.1.1 = {
 		birth="1021.1.1"
 	}
@@ -1717,7 +1717,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=20378
 	mother=4363
 	1059.1.1 = {
@@ -1738,7 +1738,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=20378
 	mother=4363
 	1062.1.1 = {
@@ -1758,7 +1758,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=20378
 	mother=4363
 	1064.1.1 = {
@@ -1778,9 +1778,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="gluttonous"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "gluttonous_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	959.1.1 = {
 		birth="959.1.1"
 	}
@@ -1798,9 +1798,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="chaste"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "chaste_hidden"
+	trait = "skilled_tactician_hidden"
 	father=4378
 	988.1.1 = {
 		birth="988.1.1"
@@ -1819,8 +1819,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="cynical"
-	trait="scholarly_theologian"
+	trait = "cynical_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=4379
 	1019.1.1 = {
 		birth="1019.1.1"
@@ -1839,8 +1839,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="amateurish_plotter"
+	trait = "chaste_hidden"
+	trait = "amateurish_plotter_hidden"
 	1031.1.1 = {
 		birth="1031.1.1"
 	}
@@ -1858,8 +1858,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="slothful"
-	trait="indulgent_wastrel"
+	trait = "slothful_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=4383
 	1042.1.1 = {
 		birth="1042.1.1"
@@ -1878,7 +1878,7 @@
 	stewardship=2
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=20364
 	mother=4384
 	1055.1.1 = {
@@ -1898,7 +1898,7 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=20364
 	mother=4384
 	1056.1.1 = {
@@ -1919,9 +1919,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="humble"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "humble_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=20363
 	mother=491
 	1037.1.1 = {
@@ -1942,8 +1942,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1017.1.1 = {
 		birth="1017.1.1"
 	}
@@ -1961,8 +1961,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="kind"
-	trait="naive_appeaser"
+	trait = "kind_hidden"
+	trait = "naive_appeaser_hidden"
 	father=20360
 	mother=4389
 	1048.1.1 = {
@@ -1983,8 +1983,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="thrifty_clerk"
+	trait = "charitable_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=20360
 	mother=4389
 	1048.1.1 = {
@@ -2004,8 +2004,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	father=4399
 	1045.1.1 = {
 		birth="1045.1.1"
@@ -2024,8 +2024,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=20362
 	1033.1.1 = {
 		birth="1033.1.1"
@@ -2048,8 +2048,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="arbitrary"
-	trait="martial_cleric"
+	trait = "arbitrary_hidden"
+	trait = "martial_cleric_hidden"
 	father=20362
 	1035.1.1 = {
 		birth="1035.1.1"
@@ -2068,7 +2068,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="grey_eminence"
+	trait = "grey_eminence_hidden"
 	1036.1.1 = {
 		birth="1036.1.1"
 	}
@@ -2088,7 +2088,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=4406
 	mother=4362
 	1059.1.1 = {
@@ -2109,9 +2109,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="arbitrary"
-	trait="fortune_builder"
+	trait = "envious_hidden"
+	trait = "arbitrary_hidden"
+	trait = "fortune_builder_hidden"
 	father=20362
 	1039.1.1 = {
 		birth="1039.1.1"
@@ -2133,8 +2133,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=4408
 	1001.1.1 = {
 		birth="1001.1.1"
@@ -2154,8 +2154,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
-	trait="proud"
+	trait = "flamboyant_schemer_hidden"
+	trait = "proud_hidden"
 	father=4409
 	1034.1.1 = {
 		birth="1034.1.1"
@@ -2178,8 +2178,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="underhanded_rogue"
+	trait = "chaste_hidden"
+	trait = "underhanded_rogue_hidden"
 	1028.1.1 = {
 		birth="1028.1.1"
 	}
@@ -2198,8 +2198,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=1621
 	mother=4411
 	1046.1.1 = {
@@ -2220,8 +2220,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="charismatic_negotiator"
+	trait = "patient_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=1621
 	mother=4411
 	1048.1.1 = {
@@ -2242,8 +2242,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="slothful"
-	trait="indulgent_wastrel"
+	trait = "slothful_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=1621
 	mother=4411
 	1050.1.1 = {
@@ -2264,7 +2264,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=4410
 	mother=4415
 	1060.1.1 = {
@@ -2284,9 +2284,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "charitable_hidden"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	1033.1.1 = {
 		birth="1033.1.1"
 	}
@@ -2309,8 +2309,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="fortune_builder"
+	trait = "patient_hidden"
+	trait = "fortune_builder_hidden"
 	father=20356
 	mother=4434
 	1046.1.1 = {
@@ -2330,9 +2330,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="envious"
-	trait="underhanded_rogue"
+	trait = "diligent_hidden"
+	trait = "envious_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=20356
 	mother=4434
 	1048.1.1 = {
@@ -2352,8 +2352,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="cynical"
-	trait="martial_cleric"
+	trait = "cynical_hidden"
+	trait = "martial_cleric_hidden"
 	1024.1.1 = {
 		birth="1024.1.1"
 	}
@@ -2371,9 +2371,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="greedy"
-	trait="misguided_warrior"
+	trait = "chaste_hidden"
+	trait = "greedy_hidden"
+	trait = "misguided_warrior_hidden"
 	father=4437
 	1042.1.1 = {
 		birth="1042.1.1"
@@ -2396,8 +2396,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="honest"
-	trait="naive_appeaser"
+	trait = "honest_hidden"
+	trait = "naive_appeaser_hidden"
 	father=20356
 	mother=4434
 	1047.1.1 = {
@@ -2417,7 +2417,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1018.1.1 = {
 		birth="1018.1.1"
 	}
@@ -2435,8 +2435,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=4437
 	1049.1.1 = {
 		birth="1049.1.1"
@@ -2459,8 +2459,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="flamboyant_schemer"
+	trait = "deceitful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1050.1.1 = {
 		birth="1050.1.1"
 	}
@@ -2478,7 +2478,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=4435
 	mother=4436
 	1066.1.1 = {
@@ -2500,9 +2500,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="arbitrary"
-	trait="temperate"
-	trait="thrifty_clerk"
+	trait = "arbitrary_hidden"
+	trait = "temperate_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=20365
 	mother=4365
 	1042.1.1 = {
@@ -2523,8 +2523,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="detached_priest"
+	trait = "patient_hidden"
+	trait = "detached_priest_hidden"
 	father=20365
 	mother=4365
 	1044.1.1 = {
@@ -2545,9 +2545,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="zealous"
-	trait="thrifty_clerk"
+	trait = "humble_hidden"
+	trait = "zealous_hidden"
+	trait = "thrifty_clerk_hidden"
 	1031.1.1 = {
 		birth="1031.1.1"
 	}
@@ -2566,9 +2566,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="greedy"
-	trait="cynical"
-	trait="amateurish_plotter"
+	trait = "greedy_hidden"
+	trait = "cynical_hidden"
+	trait = "amateurish_plotter_hidden"
 	1031.1.1 = {
 		birth="1031.1.1"
 	}
@@ -2586,8 +2586,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="hungarian"
-	trait="proud"
-	trait="underhanded_rogue"
+	trait = "proud_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=159135
 	931.1.1 = {
 		birth="931.1.1"
@@ -2610,8 +2610,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=98004
 	mother=98042
 	1257.1.2 = {
@@ -2632,8 +2632,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="hungarian"
-	trait="envious"
-	trait="skilled_tactician"
+	trait = "envious_hidden"
+	trait = "skilled_tactician_hidden"
 	father=460
 	mother=483
 	948.1.1 = {
@@ -2657,8 +2657,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=464
 	mother=753
 	969.1.1 = {
@@ -2679,9 +2679,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=460
 	mother=483
 	945.1.1 = {
@@ -2711,8 +2711,8 @@
 	stewardship=8
 	religion="tengri_pagan"
 	culture="hungarian"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=462
 	mother=759
 	976.1.1 = {
@@ -2733,9 +2733,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="patient"
-	trait="charismatic_negotiator"
+	trait = "lustful_hidden"
+	trait = "patient_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=466
 	mother=484
 	1014.1.1 = {
@@ -2758,7 +2758,7 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	trait="bastard"
+	trait = "bastard_hidden"
 	religion="catholic"
 	culture="hungarian"
 	father=470
@@ -2783,10 +2783,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="diligent"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "proud_hidden"
+	trait = "diligent_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=466
 	mother=484
 	1016.1.1 = {
@@ -2810,9 +2810,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=470031
 	1310.1.1 = {
 		birth="1310.1.1"
@@ -2835,8 +2835,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	1260.1.1 = {
 		birth="1260.1.1"
 	}
@@ -2854,9 +2854,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="humble"
-	trait="naive_appeaser"
+	trait = "charitable_hidden"
+	trait = "humble_hidden"
+	trait = "naive_appeaser_hidden"
 	1315.1.1 = {
 		birth="1315.1.1"
 	}
@@ -2874,9 +2874,9 @@
 	stewardship=9
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=470049
 	1285.1.2 = {
 		birth="1285.1.2"
@@ -2902,7 +2902,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1299.1.2 = {
 		birth="1299.1.2"
 	}
@@ -2921,9 +2921,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=470040
 	mother=470041
 	1318.1.2 = {
@@ -2944,9 +2944,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="zealous"
-	trait="mastermind_theologian"
+	trait = "chaste_hidden"
+	trait = "zealous_hidden"
+	trait = "mastermind_theologian_hidden"
 	father=470040
 	mother=470041
 	1319.1.2 = {
@@ -2967,8 +2967,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=470040
 	mother=470041
 	1321.1.2 = {
@@ -2989,7 +2989,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470040
 	mother=470042
 	1329.1.2 = {
@@ -3010,7 +3010,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=470040
 	mother=470042
 	1332.1.2 = {
@@ -3050,9 +3050,9 @@
 	stewardship=10
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="charitable"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "charitable_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1257.1.2 = {
 		birth="1257.1.2"
 	}
@@ -3070,9 +3070,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=470049
 	1292.1.2 = {
 		birth="1292.1.2"
@@ -3092,9 +3092,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="proud"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "proud_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470050
 	1316.1.2 = {
 		birth="1316.1.2"
@@ -3113,8 +3113,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=470050
 	1318.1.2 = {
 		birth="1318.1.2"
@@ -3133,9 +3133,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "temperate_hidden"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	father=470050
 	1320.1.2 = {
 		birth="1320.1.2"
@@ -3155,9 +3155,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	1260.1.2 = {
 		birth="1260.1.2"
 	}
@@ -3179,9 +3179,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="charitable"
-	trait="flamboyant_schemer"
+	trait = "humble_hidden"
+	trait = "charitable_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1270.1.2 = {
 		birth="1270.1.2"
 	}
@@ -3200,9 +3200,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=470060
 	mother=470061
 	1308.1.2 = {
@@ -3225,9 +3225,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="harelip"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "harelip_hidden"
+	trait = "thrifty_clerk_hidden"
 	1311.1.2 = {
 		birth="1311.1.2"
 	}
@@ -3285,9 +3285,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="just"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=470071
 	mother=470073
 	1299.1.2 = {
@@ -3310,9 +3310,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="just"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=93755
 	1258.1.1 = {
 		birth="1258.1.1"
@@ -3338,8 +3338,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	1272.1.2 = {
 		birth="1272.1.2"
 	}
@@ -3358,9 +3358,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="arbitrary"
-	trait="charitable"
-	trait="naive_appeaser"
+	trait = "arbitrary_hidden"
+	trait = "charitable_hidden"
+	trait = "naive_appeaser_hidden"
 	1280.1.2 = {
 		birth="1280.1.2"
 	}
@@ -3379,9 +3379,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="lustful"
-	trait="flamboyant_schemer"
+	trait = "just_hidden"
+	trait = "lustful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1302.1.2 = {
 		birth="1302.1.2"
 	}
@@ -3400,8 +3400,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="martial_cleric"
+	trait = "chaste_hidden"
+	trait = "martial_cleric_hidden"
 	father=470070
 	mother=470074
 	1323.1.2 = {
@@ -3422,9 +3422,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="slothful"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "slothful_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470071
 	mother=470072
 	1295.1.2 = {
@@ -3448,9 +3448,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="patient"
-	trait="elusive_shadow"
+	trait = "humble_hidden"
+	trait = "patient_hidden"
+	trait = "elusive_shadow_hidden"
 	father=470071
 	mother=470073
 	1300.1.2 = {
@@ -3471,9 +3471,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="gluttonous"
-	trait="midas_touched"
+	trait = "just_hidden"
+	trait = "gluttonous_hidden"
+	trait = "midas_touched_hidden"
 	1300.1.2 = {
 		birth="1300.1.2"
 	}
@@ -3492,7 +3492,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470076
 	mother=470078
 	1332.1.2 = {
@@ -3532,7 +3532,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1180.1.1 = {
 		birth="1180.1.1"
 	}
@@ -3550,7 +3550,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=470090
 	1210.1.2 = {
 		birth="1210.1.2"
@@ -3569,7 +3569,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=470090
 	1211.1.1 = {
 		birth="1211.1.1"
@@ -3589,7 +3589,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470090
 	1213.1.2 = {
 		birth="1213.1.2"
@@ -3609,7 +3609,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="intricate_webweaver"
+	trait = "intricate_webweaver_hidden"
 	father=93651
 	1230.1.1 = {
 		birth="1230.1.1"
@@ -3628,7 +3628,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="intricate_webweaver"
+	trait = "intricate_webweaver_hidden"
 	father=470094
 	1254.1.1 = {
 		birth="1254.1.1"
@@ -3647,7 +3647,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=470094
 	1257.1.1 = {
 		birth="1257.1.1"
@@ -3666,7 +3666,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=470094
 	1260.1.1 = {
 		birth="1260.1.1"
@@ -3685,10 +3685,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="stutter"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "stutter_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470094
 	1266.1.1 = {
 		birth="1266.1.1"
@@ -3707,7 +3707,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470095
 	1284.1.1 = {
 		birth="1284.1.1"
@@ -3727,9 +3727,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="harelip"
-	trait="arbitrary"
-	trait="detached_priest"
+	trait = "harelip_hidden"
+	trait = "arbitrary_hidden"
+	trait = "detached_priest_hidden"
 	father=470099
 	1304.1.1 = {
 		birth="1304.1.1"
@@ -3748,9 +3748,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	father=470099
 	1306.1.1 = {
 		birth="1306.1.1"
@@ -3770,9 +3770,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "proud_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=470099
 	1315.1.1 = {
 		birth="1315.1.1"
@@ -3791,8 +3791,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="craven"
-	trait="flamboyant_schemer"
+	trait = "craven_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=470096
 	1305.1.2 = {
 		birth="1305.1.2"
@@ -3812,9 +3812,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="lustful"
-	trait="naive_appeaser"
+	trait = "humble_hidden"
+	trait = "lustful_hidden"
+	trait = "naive_appeaser_hidden"
 	father=470096
 	1309.1.2 = {
 		birth="1309.1.2"
@@ -3833,9 +3833,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="brave"
-	trait="misguided_warrior"
+	trait = "proud_hidden"
+	trait = "brave_hidden"
+	trait = "misguided_warrior_hidden"
 	father=470097
 	1305.1.1 = {
 		birth="1305.1.1"
@@ -3855,9 +3855,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=470098
 	1306.1.2 = {
 		birth="1306.1.2"
@@ -3876,7 +3876,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470106
 	1325.1.2 = {
 		birth="1325.1.2"
@@ -3895,7 +3895,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470092
 	1241.1.2 = {
 		birth="1241.1.2"
@@ -3918,7 +3918,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	1261.1.2 = {
 		birth="1261.1.2"
 	}
@@ -3936,9 +3936,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="bastard"
-	trait="detached_priest"
+	trait = "chaste_hidden"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	father=470108
 	1288.1.2 = {
 		birth="1288.1.2"
@@ -3958,9 +3958,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "proud_hidden"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470108
 	mother=470109
 	1290.1.2 = {
@@ -3981,9 +3981,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="ill"
-	trait="temperate"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "temperate_hidden"
+	trait = "tough_soldier_hidden"
 	father=470108
 	mother=470109
 	1291.1.2 = {
@@ -4006,9 +4006,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="just"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=470108
 	mother=470109
 	1285.1.2 = {
@@ -4029,9 +4029,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470113
 	1320.1.2 = {
 		birth="1320.1.2"
@@ -4051,7 +4051,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470113
 	1329.1.2 = {
 		birth="1329.1.2"
@@ -4089,7 +4089,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=470093
 	1238.1.2 = {
 		birth="1238.1.2"
@@ -4109,8 +4109,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470117
 	1270.1.2 = {
 		birth="1270.1.2"
@@ -4133,8 +4133,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470117
 	1298.1.2 = {
 		birth="1298.1.2"
@@ -4153,9 +4153,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=470117
 	1301.1.2 = {
 		birth="1301.1.2"
@@ -4175,9 +4175,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="gluttonous"
-	trait="naive_appeaser"
+	trait = "patient_hidden"
+	trait = "gluttonous_hidden"
+	trait = "naive_appeaser_hidden"
 	1295.1.2 = {
 		birth="1295.1.2"
 	}
@@ -4196,9 +4196,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="just"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=470118
 	mother=470121
 	1310.1.2 = {
@@ -4219,9 +4219,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="just"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=470118
 	mother=470121
 	1312.1.2 = {
@@ -4242,9 +4242,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="just"
-	trait="detached_priest"
+	trait = "zealous_hidden"
+	trait = "just_hidden"
+	trait = "detached_priest_hidden"
 	father=470118
 	mother=470121
 	1315.1.2 = {
@@ -4265,9 +4265,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	father=470118
 	mother=470121
 	1317.1.2 = {
@@ -4287,9 +4287,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="arbitrary"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "arbitrary_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470118
 	mother=470121
 	1320.1.2 = {
@@ -4310,7 +4310,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470120
 	1331.1.2 = {
 		birth="1331.1.2"
@@ -4329,9 +4329,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "charitable_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1307.1.2 = {
 		birth="1307.1.2"
 	}
@@ -4349,9 +4349,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="temperate"
-	trait="naive_appeaser"
+	trait = "lustful_hidden"
+	trait = "temperate_hidden"
+	trait = "naive_appeaser_hidden"
 	1309.1.2 = {
 		birth="1309.1.2"
 	}
@@ -4369,7 +4369,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=93662
 	1240.1.1 = {
 		birth="1240.1.1"
@@ -4388,7 +4388,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470130
 	1280.1.2 = {
 		birth="1280.1.2"
@@ -4407,8 +4407,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=470130
 	1289.1.2 = {
 		birth="1289.1.2"
@@ -4427,9 +4427,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="temperate"
-	trait="mastermind_theologian"
+	trait = "zealous_hidden"
+	trait = "temperate_hidden"
+	trait = "mastermind_theologian_hidden"
 	father=470130
 	1293.1.2 = {
 		birth="1293.1.2"
@@ -4448,8 +4448,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=470130
 	1295.1.2 = {
 		birth="1295.1.2"
@@ -4468,9 +4468,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="slothful"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "slothful_hidden"
+	trait = "tough_soldier_hidden"
 	father=470131
 	1305.1.2 = {
 		birth="1305.1.2"
@@ -4489,9 +4489,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="wroth"
-	trait="proud"
-	trait="charismatic_negotiator"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=470131
 	1309.1.2 = {
 		birth="1309.1.2"
@@ -4510,8 +4510,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="detached_priest"
+	trait = "proud_hidden"
+	trait = "detached_priest_hidden"
 	father=470132
 	1315.1.2 = {
 		birth="1315.1.2"
@@ -4530,9 +4530,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="ill"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=470132
 	1318.1.2 = {
 		birth="1318.1.2"
@@ -4551,9 +4551,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="diligent"
-	trait="flamboyant_schemer"
+	trait = "humble_hidden"
+	trait = "diligent_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=470132
 	1320.1.2 = {
 		birth="1320.1.2"
@@ -4572,9 +4572,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "lustful_hidden"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470132
 	1322.1.2 = {
 		birth="1322.1.2"
@@ -4593,8 +4593,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="martial_cleric"
+	trait = "zealous_hidden"
+	trait = "martial_cleric_hidden"
 	father=470134
 	1318.1.2 = {
 		birth="1318.1.2"
@@ -4613,8 +4613,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="honest"
-	trait="thrifty_clerk"
+	trait = "honest_hidden"
+	trait = "thrifty_clerk_hidden"
 	1309.1.2 = {
 		birth="1309.1.2"
 	}
@@ -4632,8 +4632,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "tough_soldier_hidden"
 	father=93768
 	1270.1.1 = {
 		birth="1270.1.1"
@@ -4652,9 +4652,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=470150
 	1300.1.1 = {
 		birth="1300.1.1"
@@ -4677,9 +4677,9 @@
 	stewardship=2
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="envious"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "envious_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=32645
 	1310.1.1 = {
 		birth="1310.1.1"
@@ -4699,10 +4699,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="brave"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "brave_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=470161
 	mother=470162
 	1301.1.2 = {
@@ -4726,8 +4726,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="thrifty_clerk"
+	trait = "humble_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470163
 	1275.1.2 = {
 		birth="1275.1.2"
@@ -4746,8 +4746,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
 	father=93683
 	1236.1.1 = {
 		birth="1236.1.1"
@@ -4766,9 +4766,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "zealous_hidden"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1309.1.2 = {
 		birth="1309.1.2"
 	}
@@ -4786,9 +4786,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="envious"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
 	father=93718
 	1237.1.1 = {
 		birth="1237.1.1"
@@ -4807,10 +4807,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="patient"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=470180
 	1275.1.1 = {
 		birth="1275.1.1"
@@ -4833,9 +4833,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="charitable"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "charitable_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1280.1.2 = {
 		birth="1280.1.2"
 	}
@@ -4854,9 +4854,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="chaste"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "chaste_hidden"
+	trait = "tough_soldier_hidden"
 	father=470181
 	mother=470182
 	1307.1.2 = {
@@ -4877,8 +4877,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="brave"
-	trait="misguided_warrior"
+	trait = "brave_hidden"
+	trait = "misguided_warrior_hidden"
 	father=470181
 	mother=470182
 	1310.1.2 = {
@@ -4899,8 +4899,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="chaste"
-	trait="scholarly_theologian"
+	trait = "chaste_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=470181
 	mother=470182
 	1311.1.2 = {
@@ -4921,9 +4921,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=470181
 	mother=470182
 	1313.1.2 = {
@@ -4945,9 +4945,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="lustful"
-	trait="naive_appeaser"
+	trait = "humble_hidden"
+	trait = "lustful_hidden"
+	trait = "naive_appeaser_hidden"
 	father=470181
 	mother=470182
 	1311.1.2 = {
@@ -4968,9 +4968,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=93635
 	1246.1.1 = {
 		birth="1246.1.1"
@@ -4989,9 +4989,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="craven"
-	trait="temperate"
-	trait="elusive_shadow"
+	trait = "craven_hidden"
+	trait = "temperate_hidden"
+	trait = "elusive_shadow_hidden"
 	father=470190
 	1280.1.1 = {
 		birth="1280.1.1"
@@ -5013,9 +5013,9 @@
 	stewardship=2
 	religion="catholic"
 	culture="hungarian"
-	trait="charitable"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=470190
 	1290.1.1 = {
 		birth="1290.1.1"
@@ -5056,9 +5056,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="honest"
-	trait="naive_appeaser"
+	trait = "humble_hidden"
+	trait = "honest_hidden"
+	trait = "naive_appeaser_hidden"
 	1306.1.2 = {
 		birth="1306.1.2"
 	}
@@ -5076,7 +5076,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=93642
 	1260.1.1 = {
 		birth="1260.1.1"
@@ -5096,8 +5096,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="scholarly_theologian"
+	trait = "patient_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=470200
 	1295.1.2 = {
 		birth="1295.1.2"
@@ -5117,10 +5117,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="deceitful"
-	trait="lustful"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "lustful_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470200
 	1301.1.2 = {
 		birth="1301.1.2"
@@ -5140,9 +5140,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=470200
 	1303.1.2 = {
 		birth="1303.1.2"
@@ -5162,9 +5162,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="humble"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=470200
 	1305.1.2 = {
 		birth="1305.1.2"
@@ -5183,9 +5183,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=470203
 	1322.1.2 = {
 		birth="1322.1.2"
@@ -5204,7 +5204,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=470203
 	1325.1.2 = {
 		birth="1325.1.2"
@@ -5223,9 +5223,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	1279.1.2 = {
 		birth="1279.1.2"
 	}
@@ -5243,9 +5243,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470210
 	1299.1.2 = {
 		birth="1299.1.2"
@@ -5265,10 +5265,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="cynical"
-	trait="slothful"
-	trait="pneumonic"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "slothful_hidden"
+	trait = "pneumonic_hidden"
+	trait = "tough_soldier_hidden"
 	father=470210
 	1300.1.2 = {
 		birth="1300.1.2"
@@ -5287,9 +5287,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="greedy"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=470210
 	1302.1.2 = {
 		birth="1302.1.2"
@@ -5309,9 +5309,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="arbitrary"
-	trait="misguided_warrior"
+	trait = "proud_hidden"
+	trait = "arbitrary_hidden"
+	trait = "misguided_warrior_hidden"
 	father=470210
 	1308.1.2 = {
 		birth="1308.1.2"
@@ -5331,10 +5331,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="proud"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "proud_hidden"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=470210
 	1313.1.2 = {
 		birth="1313.1.2"
@@ -5354,9 +5354,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="slothful"
-	trait="proud"
-	trait="scholarly_theologian"
+	trait = "slothful_hidden"
+	trait = "proud_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=470210
 	1319.1.2 = {
 		birth="1319.1.2"
@@ -5377,9 +5377,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="proud"
-	trait="charitable"
-	trait="thrifty_clerk"
+	trait = "proud_hidden"
+	trait = "charitable_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470210
 	1310.1.2 = {
 		birth="1310.1.2"
@@ -5400,8 +5400,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="diligent"
+	trait = "patient_hidden"
+	trait = "diligent_hidden"
 	father=470
 	mother=763
 	1046.1.1 = {
@@ -5422,10 +5422,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="kind"
-	trait="chaste"
-	trait="honest"
-	trait="charismatic_negotiator"
+	trait = "kind_hidden"
+	trait = "chaste_hidden"
+	trait = "honest_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=470
 	mother=763
 	1044.1.1 = {
@@ -5450,8 +5450,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="honest"
-	trait="thrifty_clerk"
+	trait = "honest_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=470
 	mother=763
 	1049.1.1 = {
@@ -5475,12 +5475,12 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="diligent"
-	trait="just"
-	trait="proud"
-	trait="gluttonous"
-	trait="honest"
-	trait="brilliant_strategist"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "proud_hidden"
+	trait = "gluttonous_hidden"
+	trait = "honest_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=470
 	mother=763
 	1047.1.1 = {
@@ -5504,8 +5504,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="gluttonous"
-	trait="elusive_shadow"
+	trait = "gluttonous_hidden"
+	trait = "elusive_shadow_hidden"
 	father=470
 	mother=763
 	1048.1.1 = {
@@ -5525,8 +5525,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=468
 	mother=637
 	1053.1.1 = {
@@ -5550,8 +5550,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="gluttonous"
-	trait="scholarly_theologian"
+	trait = "gluttonous_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=468
 	mother=637
 	1040.1.1 = {
@@ -5572,8 +5572,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="arbitrary"
-	trait="tough_soldier"
+	trait = "arbitrary_hidden"
+	trait = "tough_soldier_hidden"
 	father=468
 	mother=637
 	1054.1.1 = {
@@ -5597,8 +5597,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="hunchback"
-	trait="scholarly_theologian"
+	trait = "hunchback_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=472
 	mother=479
 	1065.1.1 = {
@@ -5631,10 +5631,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="just"
-	trait="patient"
-	trait="diligent"
-	trait="martial_cleric"
+	trait = "just_hidden"
+	trait = "patient_hidden"
+	trait = "diligent_hidden"
+	trait = "martial_cleric_hidden"
 	father=464
 	mother=753
 	975.1.1 = {
@@ -5659,8 +5659,8 @@
 	stewardship=5
 	religion="tengri_pagan"
 	culture="hungarian"
-	trait="honest"
-	trait="fortune_builder"
+	trait = "honest_hidden"
+	trait = "fortune_builder_hidden"
 	995.1.1 = {
 		birth="995.1.1"
 	}
@@ -5678,9 +5678,9 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="hungarian"
-	trait="charitable"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=466
 	mother=484
 	1018.1.1 = {
@@ -5700,9 +5700,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="bastard"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "bastard_hidden"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=468
 	1037.1.1 = {
 		birth="1037.1.1"
@@ -5725,8 +5725,8 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="hungarian"
-	trait="wroth"
-	trait="misguided_warrior"
+	trait = "wroth_hidden"
+	trait = "misguided_warrior_hidden"
 	father=462
 	mother=759
 	975.1.1 = {
@@ -5747,7 +5747,7 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=482
 	mother=1297
 	1002.1.1 = {
@@ -5767,9 +5767,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="honest"
-	trait="kind"
-	trait="martial_cleric"
+	trait = "honest_hidden"
+	trait = "kind_hidden"
+	trait = "martial_cleric_hidden"
 	father=482
 	mother=1297
 	1007.1.1 = {
@@ -5790,8 +5790,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="arbitrary"
-	trait="naive_appeaser"
+	trait = "arbitrary_hidden"
+	trait = "naive_appeaser_hidden"
 	father=464
 	mother=753
 	971.1.1 = {
@@ -5813,9 +5813,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="kind"
-	trait="wroth"
-	trait="amateurish_plotter"
+	trait = "kind_hidden"
+	trait = "wroth_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=4427
 	1016.1.1 = {
 		birth="1016.1.1"
@@ -5838,9 +5838,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="ill"
-	trait="diligent"
-	trait="scholarly_theologian"
+	trait = "ill_hidden"
+	trait = "diligent_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=464
 	mother=753
 	973.1.1 = {
@@ -5862,8 +5862,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=464
 	mother=759
 	989.1.1 = {
@@ -5884,10 +5884,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="envious"
-	trait="craven"
-	trait="underhanded_rogue"
+	trait = "lustful_hidden"
+	trait = "envious_hidden"
+	trait = "craven_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=496
 	mother=495
 	1011.1.1 = {
@@ -5914,8 +5914,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="intricate_webweaver"
+	trait = "temperate_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=464
 	mother=759
 	987.1.1 = {
@@ -5950,10 +5950,10 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="envious"
-	trait="impaler"
-	trait="proud"
-	trait="intricate_webweaver"
+	trait = "envious_hidden"
+	trait = "impaler_hidden"
+	trait = "proud_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=219530
 	mother=218511
 	1131.1.2 = {
@@ -5980,9 +5980,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="slothful"
-	trait="proud"
-	trait="naive_appeaser"
+	trait = "slothful_hidden"
+	trait = "proud_hidden"
+	trait = "naive_appeaser_hidden"
 	father=219530
 	mother=218511
 	1133.1.2 = {
@@ -6006,8 +6006,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="ill"
-	trait="amateurish_plotter"
+	trait = "ill_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=219501
 	mother=210503
 	1199.1.2 = {
@@ -6030,9 +6030,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="hungarian"
-	trait="temperate"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "temperate_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	father=219502
 	mother=212946
 	1206.11.29 = {
@@ -6055,10 +6055,10 @@
 	stewardship=2
 	religion="catholic"
 	culture="hungarian"
-	trait="greedy"
-	trait="envious"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "envious_hidden"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	father=98003
 	mother=98033
 	1239.11.1 = {
@@ -6082,9 +6082,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="lustful"
-	trait="hedonist"
-	trait="indulgent_wastrel"
+	trait = "lustful_hidden"
+	trait = "hedonist_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=98004
 	1262.8.5 = {
 	birth="1262.8.5"
@@ -6107,9 +6107,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="duelist"
-	trait="gregarious"
-	trait="intricate_webweaver"
+	trait = "duelist_hidden"
+	trait = "gregarious_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=219502
 	mother=98025
 	1236.1.1 = {
@@ -6133,9 +6133,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="slow"
-	trait="craven"
-	trait="underhanded_rogue"
+	trait = "slow_hidden"
+	trait = "craven_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=98006
 	mother=182018 #Tomasini Morosini
 	1265.1.2 = {
@@ -6156,9 +6156,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="trusting"
-	trait="zealous"
-	trait="grey_eminence"
+	trait = "trusting_hidden"
+	trait = "zealous_hidden"
+	trait = "grey_eminence_hidden"
 	father=98003
 	mother=98033
 	1236.1.1 = {
@@ -6179,9 +6179,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="content"
-	trait="gregarious"
-	trait="underhanded_rogue"
+	trait = "content_hidden"
+	trait = "gregarious_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=98003
 	mother=98033
 	1227.1.1 = {
@@ -6429,7 +6429,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="hungarian"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=219517
 	1190.1.2 = {
 		birth="1190.1.2"
@@ -6448,7 +6448,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="hungarian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=219517
 	1192.1.2 = {
 		birth="1192.1.2"
@@ -6468,8 +6468,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="zealous"
-	trait="mastermind_theologian"
+	trait = "zealous_hidden"
+	trait = "mastermind_theologian_hidden"
 	father=98003
 	mother=98033
 	1224.1.1 = {
@@ -6490,7 +6490,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="hungarian"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=98003
 	mother=98033
 	1221.1.1 = {
@@ -6511,7 +6511,7 @@
 	stewardship=3
 	religion="catholic"
 	culture="hungarian"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=98003
 	mother=98033
 	1229.1.1 = {
@@ -6532,7 +6532,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=98003
 	mother=98033
 	1237.1.1 = {
@@ -6573,7 +6573,7 @@
 	stewardship=1
 	religion="catholic"
 	culture="hungarian"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	father=98003
 	mother=98033
 	1242.5.1 = {
@@ -6593,7 +6593,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="hungarian"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	father=98003
 	mother=98033
 	1243.1.1 = {
@@ -9449,12 +9449,12 @@
 	culture="hungarian"
 	father=159137
 	martial=8
-	trait=ambitious
-	trait=strong
-	trait=just
-	trait=diligent
-	trait=brilliant_strategist
-	trait=flanker
+	trait = "ambitious_hidden"
+	trait = "strong_hidden"
+	trait = "just_hidden"
+	trait = "diligent_hidden"
+	trait = "brilliant_strategist_hidden"
+	trait = "flanker_hidden"
 	845.1.1={
 		birth=yes
 	}
@@ -9472,12 +9472,12 @@
 	mother=159139
 	martial=8
 	diplomacy=7
-	trait=ambitious
-	trait=gregarious
-	trait=just
-	trait=patient
-	trait=brilliant_strategist
-	trait=inspiring_leader
+	trait = "ambitious_hidden"
+	trait = "gregarious_hidden"
+	trait = "just_hidden"
+	trait = "patient_hidden"
+	trait = "brilliant_strategist_hidden"
+	trait = "inspiring_leader_hidden"
 	
 	810.1.1 = {
 		birth = yes
@@ -9504,7 +9504,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -9526,7 +9526,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {

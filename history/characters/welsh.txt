@@ -7,8 +7,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="mastermind_theologian"
-	trait="just"
+	trait = "mastermind_theologian_hidden"
+	trait = "just_hidden"
 	1020.1.2={
 		birth="1020.1.2"
 	}
@@ -27,7 +27,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=184125 #Cuhelyn
 	950.1.1={
 		birth="950.1.1"
@@ -42,7 +42,7 @@
 	dynasty=200067 #Maelienydd
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=8187 #Idnerth ap Madog
 	1050.1.1={
 		birth="1050.1.1"
@@ -80,8 +80,8 @@
 	culture="welsh"
 	father=159312
 	mother=159374
-	trait="cynical"
-	trait="underhanded_rogue"
+	trait = "cynical_hidden"
+	trait = "underhanded_rogue_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}
@@ -112,7 +112,7 @@
 	dynasty=101919 #Dinefrw
 	religion="catholic"
 	culture="welsh"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=81816 #Rhys ap Tewdr
 	1085.1.1={
 		birth="1085.1.1"
@@ -131,7 +131,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=205831
 	mother=205840
 	1150.1.2={
@@ -154,7 +154,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1118.1.2={
 		birth="1118.1.2"
 	}
@@ -172,7 +172,7 @@
 	dynasty=101920 #Aberffraw
 	religion="catholic"
 	culture="welsh"
-	trait="kinslayer"
+	trait = "kinslayer_hidden"
 	father=214710 #Owain ap Gruffydd
 	mother=214808 #Crisiant ferch Gronw
 	1134.1.1={
@@ -196,9 +196,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="deceitful"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=214700
 	mother=204499
 	1174.1.2={
@@ -220,8 +220,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="welsh"
-	trait="craven"
-	trait="thrifty_clerk"
+	trait = "craven_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=214700
 	mother=204499
 	1175.1.2={
@@ -243,9 +243,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="chaste"
-	trait="arbitrary"
-	trait="thrifty_clerk"
+	trait = "chaste_hidden"
+	trait = "arbitrary_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=214700
 	mother=204499
 	1176.1.2={
@@ -266,8 +266,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=214700
 	mother=204499
 	1177.1.2={
@@ -286,7 +286,7 @@
 	culture="welsh"
 	father=81031 #Gruffyd ap Cynan
 	mother=214814 #Angharad ferch Owain
-	trait="lustful"
+	trait = "lustful_hidden"
 	1100.1.1={
 		birth="1100.1.1"
 	}
@@ -329,7 +329,7 @@
 	culture="welsh"
 	father=214710 #Owain ap Gruffydd
 	mother=214711 #Gwladys Aberffraw
-	trait="ugly"
+	trait = "ugly_hidden"
 	1132.1.1={
 		birth="1132.1.1"
 	}
@@ -357,7 +357,7 @@
 		add_spouse=138451 # Joan of England
 	}
 	1237.1.1={
-		trait="incapable"
+		trait = "incapable_hidden"
 	}
 	1240.4.11={
 		death="1240.4.11"
@@ -374,10 +374,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="brave"
-	trait="diligent"
-	trait="just"
-	trait="patient"
+	trait = "brave_hidden"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "patient_hidden"
 	father=214710
 	mother=214713
 	1130.1.2={
@@ -396,7 +396,7 @@
 	culture="welsh"
 	father=214710 #Owain ap Gruffydd
 	mother=214713
-	trait="bastard"
+	trait = "bastard_hidden"
 	1131.1.1={
 		birth="1131.1.1"
 	}
@@ -468,7 +468,7 @@
 	religion="catholic"
 	culture="welsh"
 	father=214710 # Owain ap Gruffydd
-	trait="bastard"
+	trait = "bastard_hidden"
 	1140.1.1={
 		birth="1140.1.1" #unknown
 	}
@@ -623,7 +623,7 @@
 	dynasty=101919 #Dinefwr
 	religion="catholic"
 	culture="welsh"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=214800 #Rhys ap Gruffydd
 	1172.1.1={
 		birth="1172.1.1"
@@ -747,7 +747,7 @@
 		birth="1044.1.1"
 	}
 	1100.1.1={
-		trait="pneumonic"
+		trait = "pneumonic_hidden"
 	}
 	1102.1.1={
 		death="1102.1.1"
@@ -760,7 +760,7 @@
 	dynasty=101920 #Aberffraw
 	religion="catholic"
 	culture="welsh"
-	trait="kinslayer"
+	trait = "kinslayer_hidden"
 	father=214710 #Owain ap Gruffydd
 	mother=214808 #Crisiant ferch Gronw
 	1136.1.1={
@@ -917,7 +917,7 @@
 	culture="welsh"
 	father=40503 #Cynfyn ap Gwerstan
 	mother=40501 #Angharad of Gwynedd
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1025.1.1={
 		birth="1025.1.1"
 	}
@@ -1003,7 +1003,7 @@
 	religion="catholic"
 	culture="welsh"
 	father=159107
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	950.1.2={
 		birth="950.1.2"
 	}
@@ -1021,7 +1021,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=40510
 	968.1.2={
 		birth="968.1.2"
@@ -1040,7 +1040,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=40510
 	969.1.2={
 		birth="969.1.2"
@@ -1074,7 +1074,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=40510
 	970.1.2={
 		birth="970.1.2"
@@ -1107,7 +1107,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="naive_appeaser"
+	trait = "naive_appeaser_hidden"
 	1045.1.2={
 		birth="1045.1.2"
 	}
@@ -1125,7 +1125,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=6376
 	mother=40516
 	1061.1.2={
@@ -1224,7 +1224,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=40515
 	1047.1.2={
 		birth="1047.1.2"
@@ -1244,7 +1244,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="naive_appeaser"
+	trait = "naive_appeaser_hidden"
 	father=40515
 	1049.1.2={
 		birth="1049.1.2"
@@ -1260,7 +1260,7 @@
 	religion="catholic"
 	culture="welsh"
 	father=214714 #Llywelyn ab Iorwerth
-	trait="bastard"
+	trait = "bastard_hidden"
 	1204.1.1={
 		birth="1204.1.1"
 	}
@@ -1453,8 +1453,8 @@
 	culture="welsh"
 	father=40503 #Cynfyn ap Gwerstan
 	mother=40501 #Angharad of Gwynedd
-	trait="kind"
-	trait="lustful"
+	trait = "kind_hidden"
+	trait = "lustful_hidden"
 	1025.1.1={
 		birth="1025.1.1"
 	}
@@ -1486,7 +1486,7 @@
 	culture="welsh"
 	father=6358 #Bleddyn ap Cynfyn
 	mother=40507 #Haer Efionydd
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1047.1.1={
 		birth="1047.1.1"
 	}
@@ -1524,10 +1524,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="slothful"
-	trait="greedy"
-	trait="patient"
-	trait="charismatic_negotiator"
+	trait = "slothful_hidden"
+	trait = "greedy_hidden"
+	trait = "patient_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=8189
 	1036.1.2={
 		birth="1036.1.2"
@@ -1561,8 +1561,8 @@
 	culture="welsh"
 	father=6358 #Bleddyn ap Cynfyn
 	mother=81849 #Brandwen Nwrcelyn
-	trait="skilled_tactician"
-	trait="lustful"
+	trait = "skilled_tactician_hidden"
+	trait = "lustful_hidden"
 	1041.1.1={
 		birth="1041.1.1"
 	}
@@ -1587,9 +1587,9 @@
 	religion="catholic"
 	culture="welsh"
 	father=40513 #Meurig ap Hywel
-	trait="diligent"
-	trait="zealous"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "martial_cleric_hidden"
 	1053.1.2={
 		birth="1053.1.2"
 	}
@@ -1607,7 +1607,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	997.1.1={
 		birth="997.1.1"
 	}
@@ -1663,9 +1663,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="mastermind_theologian"
-	trait="scholar"
-	trait="just"
+	trait = "mastermind_theologian_hidden"
+	trait = "scholar_hidden"
+	trait = "just_hidden"
 	1020.1.2={
 		birth="1020.1.2"
 	}
@@ -1683,10 +1683,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="diligent"
-	trait="patient"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=81811
 	1045.1.2={
 		birth="1045.1.2"
@@ -1705,9 +1705,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="diligent"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "diligent_hidden"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=81811
 	1050.1.2={
 		birth="1050.1.2"
@@ -1750,7 +1750,7 @@
 	dynasty=101919 #Dinefrw
 	religion="catholic"
 	culture="welsh"
-	trait="charitable"
+	trait = "charitable_hidden"
 	father=138488 #Tewdwr ap Cadell
 	997.1.1={
 		birth="997.1.1" #unknown
@@ -1857,7 +1857,7 @@
 	dynasty=101919 #Dinefrw
 	religion="catholic"
 	culture="welsh"
-	trait="just"
+	trait = "just_hidden"
 	give_nickname=nick_the_good
 	father=81824 #Cadell ap Rhodri
 	880.1.1={
@@ -1968,7 +1968,7 @@
 	culture="welsh"
 	father=81831 #Rhodri Mawr
 	mother=159802
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	850.1.1={
 		birth="850.1.1"	#unknown
 	}
@@ -2008,8 +2008,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="cynical"
-	trait="thrifty_clerk"
+	trait = "cynical_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=40502
 	mother=123
 	1053.1.2={
@@ -2029,7 +2029,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=40502
 	mother=123
 	1054.1.2={
@@ -2050,8 +2050,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="patient"
-	trait="martial_cleric"
+	trait = "patient_hidden"
+	trait = "martial_cleric_hidden"
 	father=40502
 	mother=123
 	1055.1.2={
@@ -2268,7 +2268,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=81846
 	1066.1.2={
 		birth="1066.1.2"
@@ -2287,7 +2287,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="humble"
+	trait = "humble_hidden"
 	father=81863
 	1030.1.2={
 		birth="1030.1.2"
@@ -2306,7 +2306,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="humble"
+	trait = "humble_hidden"
 	father = 159003
 	1003.1.1={
 		birth="1003.1.1"
@@ -2344,8 +2344,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="welsh"
-	trait="patient"
-	trait="temperate"
+	trait = "patient_hidden"
+	trait = "temperate_hidden"
 	father=81863
 	1022.1.2={
 		birth="1022.1.2"
@@ -2364,8 +2364,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="arbitrary"
-	trait="flamboyant_schemer"
+	trait = "arbitrary_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=81863
 	1023.1.2={
 		birth="1023.1.2"
@@ -2384,7 +2384,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=81866
 	1055.1.2={
 		birth="1055.1.2"
@@ -2403,8 +2403,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="welsh"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=81863
 	1024.1.2={
 		birth="1024.1.2"
@@ -2423,8 +2423,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="welsh"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=81868
 	1044.1.2={
 		birth="1044.1.2"
@@ -2457,7 +2457,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}
@@ -2494,7 +2494,7 @@
 	dynasty=14278 #Seisyll
 	religion="catholic"
 	culture="welsh"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=81820 #Seisyll of Gwynedd
 	985.1.1={
 		birth="985.1.1"
@@ -2526,8 +2526,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="welsh"
-	trait="patient"
-	trait="scholarly_theologian"
+	trait = "patient_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=81911
 	1045.1.2={
 		birth="1045.1.2"
@@ -2546,8 +2546,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="welsh"
-	trait="diligent"
-	trait="scholarly_theologian"
+	trait = "diligent_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=81911
 	1050.1.2={
 		birth="1050.1.2"
@@ -2615,11 +2615,11 @@
 		birth="1075.1.1"
 	}
 	1111.1.1={
-		trait="kinslayer" #killed Iorwerth & Cadwgan ap Bleddyn
+		trait = "kinslayer_hidden" #killed Iorwerth & Cadwgan ap Bleddyn
 	}
 	1113.1.1={
 		give_nickname=nick_the_blind
-		trait="blinded"
+		trait = "blinded_hidden"
 	}
 	1114.1.1={
 		death="1114.1.1"
@@ -2677,10 +2677,10 @@
 	religion="catholic"
 	culture="welsh"
 	father=6378 #Cadwgan ap Bleddyn
-	trait="ambitious"
-	trait="grey_eminence"
-	trait="cruel"
-	trait="tough_soldier"
+	trait = "ambitious_hidden"
+	trait = "grey_eminence_hidden"
+	trait = "cruel_hidden"
+	trait = "tough_soldier_hidden"
 	1076.1.1={
 		birth="1076.1.1"
 	}
@@ -2746,8 +2746,8 @@
 		birth="1106.1.1"
 	}
 	1122.1.1={
-		trait="kinslayer"
-		trait="crusader"
+		trait = "kinslayer_hidden"
+		trait = "crusader_hidden"
 	}
 	1125.12.1={
 		death="1125.12.1"
@@ -2796,7 +2796,7 @@
 	religion="catholic"
 	culture="welsh"
 	father=81831 #Rhodri Mawr
-	trait="bastard"
+	trait = "bastard_hidden"
 	865.1.1={
 		birth="865.1.1"
 	}
@@ -2811,7 +2811,7 @@
 	religion="catholic"
 	culture="welsh"
 	father=81031 #Gruffydd ap Cynan
-	trait="bastard"
+	trait = "bastard_hidden"
 	1095.1.1={
 		birth="1095.1.1"
 	}
@@ -3044,7 +3044,7 @@
 	religion="catholic"
 	culture="welsh"
 	father=214810 #Gruffydd ap Rhys
-	trait="bastard"
+	trait = "bastard_hidden"
 	1110.1.1={
 		birth="1110.1.1" #unknown	
 	}
@@ -3060,13 +3060,13 @@
 	religion="catholic"
 	culture="welsh"
 	father=214810 #Gruffydd ap Rhys
-	trait="bastard"
+	trait = "bastard_hidden"
 	1112.1.1={
 		birth="1112.1.1" #unknown	
 	}
 	#1153 abdicated
 	1174.1.1={
-		trait="ill"
+		trait = "ill_hidden"
 	}
 	1175.1.1={
 		death="1175.1.1"
@@ -4702,7 +4702,7 @@
 	dynasty=101920 #Aberffraw
 	religion="catholic"
 	culture="welsh"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=214714 #Llywelyn ab Iorwerth
 	1210.1.1={
 		birth="1210.1.1"
@@ -4718,7 +4718,7 @@
 	female=yes
 	religion="catholic"
 	culture="welsh"
-	trait="charitable"
+	trait = "charitable_hidden"
 	father=138488 #Tewdwr ap Cadell
 	1014.1.1={
 		birth="1014.1.1" #unknown
@@ -4737,7 +4737,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=159291
 	mother=159290
 	1030.1.1={
@@ -4760,7 +4760,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=159292
 	mother=159520
 	1066.1.1={
@@ -4780,7 +4780,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=159293
 	1090.1.1={
 		birth="1090.1.1"
@@ -4799,7 +4799,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=159293
 	1094.1.1={
 		birth="1094.1.1"
@@ -4818,7 +4818,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=159293
 	1095.1.1={
 		birth="1095.1.1"
@@ -5177,7 +5177,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=166444
 	804.1.1={
 		birth="804.1.1"
@@ -5802,8 +5802,8 @@
 	culture="welsh"
 	father=159312
 	mother=159374
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	1035.1.2={
 		birth="1035.1.2"
 	}
@@ -8029,7 +8029,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="welsh"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=166464
 	400.1.1={
 		birth="400.1.1"
@@ -8202,7 +8202,7 @@
 		birth="1153.1.1"
 	}
 	1188.1.1={
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1234.1.1={
 		death="1234.1.1"
@@ -8239,7 +8239,7 @@
 	dynasty=1029032 #1st Brycheiniog
 	religion="catholic"
 	culture="welsh"
-	trait=bastard
+	trait = "bastard_hidden"
 	father=159328 #Idwallon
 	580.1.1={
 		birth="580.1.1"
@@ -8415,7 +8415,7 @@
 	culture="welsh"
 	father=214718 #Madog ap Maredudd
 	#mother Susann of Gwynedd
-	trait=bastard
+	trait = "bastard_hidden"
 	1155.1.1={
 		birth="1155.1.1"
 	}
@@ -8501,10 +8501,10 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="quick"
-	trait="diligent"
-	trait="poet"
-	trait="midas_touched"
+	trait = "quick_hidden"
+	trait = "diligent_hidden"
+	trait = "poet_hidden"
+	trait = "midas_touched_hidden"
 	1170.1.1 = {
 		birth="1170.1.1"
 	}
@@ -8518,7 +8518,7 @@
 		}
 	}
 	1235.1.1 = {
-		trait="crusader"
+		trait = "crusader_hidden"
 	}
 	1240.4.11 = {
 		employer=138486 #Dafydd ab Llywelyn
@@ -8537,9 +8537,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="kind"
-	trait="just"
-	trait="charismatic_negotiator"
+	trait = "kind_hidden"
+	trait = "just_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=183161
 	mother=214802
 	1200.1.1 = {
@@ -8562,9 +8562,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="strong"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "strong_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=183162
 	1245.1.1 = {
 		birth="1245.1.1"
@@ -8580,9 +8580,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="honest"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=183163
 	1280.1.1 = {
 		birth="1280.1.1"
@@ -8598,9 +8598,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="shy"
-	trait="trusting"
-	trait="detached_priest"
+	trait = "shy_hidden"
+	trait = "trusting_hidden"
+	trait = "detached_priest_hidden"
 	father=183164
 	1305.1.1 = {
 		birth="1305.1.1"
@@ -8616,9 +8616,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="wroth"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=183164
 	1310.1.1 = {
 		birth="1310.1.1"
@@ -8634,9 +8634,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="cynical"
-	trait="envious"
-	trait="underhanded_rogue"
+	trait = "cynical_hidden"
+	trait = "envious_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=183161
 	mother=214802
 	1195.1.1 = {
@@ -8654,9 +8654,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="fair"
-	trait="twin"
-	trait="naive_appeaser"
+	trait = "fair_hidden"
+	trait = "twin_hidden"
+	trait = "naive_appeaser_hidden"
 	father=183161
 	mother=214802
 	1208.1.1 = {
@@ -8674,9 +8674,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="fair"
-	trait="twin"
-	trait="amateurish_plotter"
+	trait = "fair_hidden"
+	trait = "twin_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=183161
 	mother=214802
 	1208.1.1 = {
@@ -8693,9 +8693,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="envious"
-	trait="bastard"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "bastard_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=183161
 	1240.1.1 = {
 		birth="1240.1.1"
@@ -8711,8 +8711,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="leper"
-	trait="detached_priest"
+	trait = "leper_hidden"
+	trait = "detached_priest_hidden"
 	father=183161
 	1213.1.1 = {
 		birth="1213.1.1"
@@ -8728,8 +8728,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="craven"
-	trait="misguided_warrior"
+	trait = "craven_hidden"
+	trait = "misguided_warrior_hidden"
 	father=183161
 	1211.1.1 = {
 		birth="1211.1.1"
@@ -8745,8 +8745,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="diligent"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=183161
 	1206.1.1 = {
 		birth="1206.1.1"
@@ -8762,8 +8762,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=183161
 	1198.1.1 = {
 		birth="1198.1.1"
@@ -8779,8 +8779,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="brave"
-	trait="misguided_warrior"
+	trait = "brave_hidden"
+	trait = "misguided_warrior_hidden"
 	father=183161
 	1207.1.1 = {
 		birth="1207.1.1"
@@ -8796,8 +8796,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="quick"
-	trait="charismatic_negotiator"
+	trait = "quick_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=183161
 	1204.1.1 = {
 		birth="1204.1.1"
@@ -8813,8 +8813,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=183162
 	1251.1.1 = {
 		birth="1251.1.1"
@@ -8830,8 +8830,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="just"
-	trait="thrifty_clerk"
+	trait = "just_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=183162
 	1255.1.1 = {
 		birth="1255.1.1"
@@ -8847,8 +8847,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="cynical"
-	trait="indulgent_wastrel"
+	trait = "cynical_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=183162
 	1257.1.1 = {
 		birth="1257.1.1"
@@ -8865,8 +8865,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="kind"
-	trait="misguided_warrior"
+	trait = "kind_hidden"
+	trait = "misguided_warrior_hidden"
 	father=183162
 	1261.1.1 = {
 		birth="1261.1.1"
@@ -8882,9 +8882,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="cruel"
-	trait="greedy"
-	trait="naive_appeaser"
+	trait = "cruel_hidden"
+	trait = "greedy_hidden"
+	trait = "naive_appeaser_hidden"
 	father=183164
 	1312.1.1 = {
 		birth="1312.1.1"
@@ -8901,8 +8901,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="ill"
-	trait="indulgent_wastrel"
+	trait = "ill_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=183164
 	1314.1.1 = {
 		birth="1314.1.1"
@@ -8919,8 +8919,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="ugly"
-	trait="naive_appeaser"
+	trait = "ugly_hidden"
+	trait = "naive_appeaser_hidden"
 	father=183164
 	1319.1.1 = {
 		birth="1319.1.1"
@@ -8937,8 +8937,8 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="craven"
-	trait="amateurish_plotter"
+	trait = "craven_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=183164
 	1323.1.1 = {
 		birth="1323.1.1"
@@ -8954,9 +8954,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="cruel"
-	trait="strong"
-	trait="tough_soldier"
+	trait = "cruel_hidden"
+	trait = "strong_hidden"
+	trait = "tough_soldier_hidden"
 	father=183163
 	1282.1.1 = {
 		birth="1282.1.1"
@@ -8972,9 +8972,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="wroth"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	father=183163
 	1286.1.1 = {
 		birth="1286.1.1"
@@ -8991,9 +8991,9 @@
 	dynasty=14259
 	religion="catholic"
 	culture="welsh"
-	trait="lisp"
-	trait="shy"
-	trait="detached_priest"
+	trait = "lisp_hidden"
+	trait = "shy_hidden"
+	trait = "detached_priest_hidden"
 	father=183163
 	1289.1.1 = {
 		birth="1289.1.1"

@@ -8,9 +8,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="gluttonous"
-	trait="lustful"
-	trait="flamboyant_schemer"
+	trait = "gluttonous_hidden"
+	trait = "lustful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=10042
 	mother=10043
 	1010.1.2={
@@ -31,7 +31,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=159678
 	992.1.2={
 		birth="992.1.2"
@@ -55,7 +55,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=10056
 	mother=1357
 	998.1.1={
@@ -76,8 +76,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
-	trait="thrifty_clerk"
+	trait = "bastard_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=348
 	1057.1.2={
 		birth="1057.1.2"
@@ -97,8 +97,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
-	trait="flamboyant_schemer"
+	trait = "bastard_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=344
 	1025.1.2={
 		birth="1025.1.2"
@@ -114,10 +114,10 @@
 	dynasty=317 #House of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
-	trait="envious"
-	trait="tough_soldier"
-	trait="wroth"
+	trait = "bastard_hidden"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
+	trait = "wroth_hidden"
 	father=346 #Éon I de Penthièvre
 	#a mistress or mother=10041
 	1044.1.1={
@@ -133,9 +133,9 @@
 	dynasty=317 #House of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="temperate"
-	trait="tough_soldier"
-	trait="bastard"
+	trait = "temperate_hidden"
+	trait = "tough_soldier_hidden"
+	trait = "bastard_hidden"
 	father=346 #Éon I de Penthièvre
 	#a mistress or mother=10041
 	1039.1.1={
@@ -157,9 +157,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="patient"
-	trait="charitable"
-	trait="indulgent_wastrel"
+	trait = "patient_hidden"
+	trait = "charitable_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=10042
 	mother=10043
 	1035.1.2={
@@ -180,9 +180,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="temperate"
-	trait="arbitrary"
-	trait="martial_cleric"
+	trait = "temperate_hidden"
+	trait = "arbitrary_hidden"
+	trait = "martial_cleric_hidden"
 	father=10042
 	mother=10043
 	1031.1.2={
@@ -203,9 +203,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="lisp"
-	trait="just"
-	trait="martial_cleric"
+	trait = "lisp_hidden"
+	trait = "just_hidden"
+	trait = "martial_cleric_hidden"
 	father=10042
 	mother=10043
 	1040.1.2={
@@ -226,8 +226,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	father=10042
 	mother=10043
 	1025.1.2={
@@ -248,7 +248,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=50004
 	960.1.1={
 		birth=yes
@@ -270,8 +270,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=10056
 	mother=1357
 	1000.1.1={
@@ -337,7 +337,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="breton"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=10042
 	mother=10043
 	1030.1.2={
@@ -410,7 +410,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="breton"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=205802
 	mother=205750
 	1165.1.10={
@@ -431,7 +431,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="breton"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=205802
 	mother=205750
 	1165.1.10={
@@ -451,9 +451,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="chaste"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=205803
 	mother=205804
 	1135.1.2={
@@ -476,9 +476,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="patient"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	father = 144156
 	1110.1.2={
 		birth="1110.1.2"
@@ -498,7 +498,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="breton"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1105.1.2={
 		birth="1105.1.2"
 	}
@@ -531,7 +531,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=340
 	mother=379
 	982.1.1={
@@ -552,8 +552,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="breton"
-	trait="hunchback"
-	trait="martial_cleric"
+	trait = "hunchback_hidden"
+	trait = "martial_cleric_hidden"
 	father=342
 	mother=257
 	997.1.1={
@@ -577,7 +577,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=342
 	mother=257
 	998.1.2={
@@ -616,8 +616,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="wroth"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=344
 	mother=393
 	1033.1.2={
@@ -649,7 +649,7 @@
 	dynasty=317 #House of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=346
 	#a mistress
 	1024.1.2={
@@ -705,7 +705,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=50007 # Malhuedoc, count of Poher
 	mother=50006 # Hodierne
 	900.1.1={
@@ -744,8 +744,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
-	trait="tough_soldier"
+	trait = "bastard_hidden"
+	trait = "tough_soldier_hidden"
 	father=50002
 	930.1.1={
 		birth=yes
@@ -765,8 +765,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
-	trait="martial_cleric"
+	trait = "bastard_hidden"
+	trait = "martial_cleric_hidden"
 	father=50002
 	940.1.2={
 		birth="940.1.2"
@@ -781,7 +781,7 @@
 	dynasty=311 #House of Cornouaille
 	religion="catholic"
 	culture="breton"
-	trait="gluttonous"
+	trait = "gluttonous_hidden"
 	father=180 #Alan IV de Bretagne
 	mother=127016 #Ermengarde d'Anjou
 	1095.1.1={
@@ -900,7 +900,7 @@
 		birth="1113.1.1"
 	}
 	1148.9.17={
-		trait="bastard"
+		trait = "bastard_hidden"
 		add_claim = d_brittany
 	} #disinherited by his father
 	1156.1.1={
@@ -930,8 +930,8 @@
 	dynasty=317 #House of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="gluttonous"
-	trait="scholarly_theologian"
+	trait = "gluttonous_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=205741 #Konan IV le Petit
 	mother=203510 #Marguerite de Huntinton
 	1161.6.12={
@@ -947,7 +947,7 @@
 	dynasty=317 #House of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="dwarf"
+	trait = "dwarf_hidden"
 	father=205751 #Alan de Penthièvre
 	mother=205825 #Berthe de Bretagne
 	1138.1.1={
@@ -1025,7 +1025,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="breton"
-	trait="brilliant_strategist"
+	trait = "brilliant_strategist_hidden"
 	father=91255
 	970.1.2={
 		birth="970.1.2"
@@ -1044,9 +1044,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="breton"
-	trait="envious"
-	trait="just"
-	trait="charismatic_negotiator"
+	trait = "envious_hidden"
+	trait = "just_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=40907
 	1010.1.2={
 		birth="1010.1.2"
@@ -1065,9 +1065,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="gluttonous"
-	trait="proud"
-	trait="flamboyant_schemer"
+	trait = "gluttonous_hidden"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=40908
 	1045.1.2={
 		birth="1045.1.2"
@@ -1086,9 +1086,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="breton"
-	trait="gluttonous"
-	trait="slothful"
-	trait="detached_priest"
+	trait = "gluttonous_hidden"
+	trait = "slothful_hidden"
+	trait = "detached_priest_hidden"
 	father=40908
 	1047.1.2 = {
 		birth="1047.1.2"
@@ -1142,9 +1142,9 @@
 	learning=5
 	religion="catholic"
 	culture="breton"
-	trait="patient"
-	trait="brave"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "brave_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=91159 #Konan III le Gros, duke of Britanny
 	mother=31399 #Maude d'Angleterre
 	1114.1.1={
@@ -1166,8 +1166,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="craven"
-	trait="tough_soldier"
+	trait = "craven_hidden"
+	trait = "tough_soldier_hidden"
 	1011.1.1 = {
 		birth="1011.1.1"
 	}
@@ -1186,9 +1186,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="breton"
-	trait="deceitful"
-	trait="just"
-	trait="skilled_tactician"
+	trait = "deceitful_hidden"
+	trait = "just_hidden"
+	trait = "skilled_tactician_hidden"
 	father=5650
 	1040.1.2 = {
 		birth="1040.1.2"
@@ -1262,7 +1262,7 @@
 	dynasty=20017 #La Marck
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=10060 #Guimarc'h II
 	1085.1.1={
 		birth="1085.1.1"
@@ -1526,7 +1526,7 @@
 	dynasty=22006 #Rennes
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=340 #Konan le Tort
 	990.1.1={
 		birth="990.1.1"
@@ -1541,7 +1541,7 @@
 	dynasty=22006 #Rennes
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=340 #Conan le Tort
 	951.1.1={
 		birth="951.1.1"
@@ -1556,7 +1556,7 @@
 	dynasty=22006 #Rennes
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=340 #Konan le Tort
 	991.1.1={
 		birth="991.1.1"
@@ -1571,7 +1571,7 @@
 	dynasty=22006 #Rennes
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=340 #Konan le Tort
 	992.1.1={
 		birth="992.1.1"
@@ -1646,7 +1646,7 @@
 	dynasty=317#Rennes house of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=346 #Eudes de Bretagne
 	1040.1.1={
 		birth="1040.1.1"
@@ -1661,7 +1661,7 @@
 	dynasty = 317 #Rennes house of Penthièvre-Middleham
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=346 #Eudes de Bretagne
 	1041.1.1={
 		birth="1041.1.1"
@@ -1676,7 +1676,7 @@
 	dynasty=317 #Rennes house of Penthièvre-Ravensworth
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=346 #Eudes de Bretagne
 	1042.1.1={
 		birth="1042.1.1"
@@ -1691,7 +1691,7 @@
 	dynasty=317 #Rennes house of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=346 #Eudes de Bretagne
 	1043.1.1={
 		birth="1043.1.1"
@@ -1707,7 +1707,7 @@
 	dynasty=317 #Rennes house of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=346 #Eudes de Bretagne
 	1044.1.1={
 		birth="1044.1.1"
@@ -1930,7 +1930,7 @@
 	dynasty=317 #Rennes house of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=205751 #Alan le Noir
 	1145.1.1={
 		birth="1145.1.1"
@@ -2088,7 +2088,7 @@
 	dynasty=317 #Rennes house of Penthièvre
 	religion="catholic"
 	culture="breton"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=455581 #Harry III d'Avaugour
 	#Marie de Beaumont-Brienne, d. of Louis of Brienne & Oanez of Beaumont.
 	1275.1.1 = {
@@ -2857,7 +2857,7 @@
 	diplomacy=7
 	intrigue=6
 	stewardship=7
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1070.1.1={
 		birth=yes
 	}
@@ -3124,8 +3124,8 @@
 	martial=6
 	intrigue=8
 	culture=breton
-	trait=ambitious
-	trait=intricate_webweaver
+	trait = "ambitious_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=159649
 	810.1.1={
 		birth=yes
@@ -4719,11 +4719,11 @@
 	diplomacy=6
 	intrigue=6
 	stewardship=6
-	trait="ambitious"
-	trait="diligent"
-	trait="patient"
-	trait="humble"
-	trait="skilled_tactician"
+	trait = "ambitious_hidden"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "humble_hidden"
+	trait = "skilled_tactician_hidden"
 	849.1.1={
 		birth="849.1.1"
 	}

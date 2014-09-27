@@ -6,11 +6,11 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="wroth"
-	trait="greedy"
-	trait="deceitful"
-	trait="temperate"
-	trait="scholarly_theologian"
+	trait = "wroth_hidden"
+	trait = "greedy_hidden"
+	trait = "deceitful_hidden"
+	trait = "temperate_hidden"
+	trait = "scholarly_theologian_hidden"
 	1030.11.26={
 		birth="1030.11.26"
 	}
@@ -28,10 +28,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="deceitful"
-	trait="kind"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "deceitful_hidden"
+	trait = "kind_hidden"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -48,9 +48,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="humble"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	1021.1.1={
 		birth="1021.1.1"
 	}
@@ -68,8 +68,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="arbitrary"
-	trait="flamboyant_schemer"
+	trait = "arbitrary_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1035.1.1={
 		birth="1035.1.1"
 	}
@@ -87,7 +87,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1034.1.1={
 		birth="1034.1.1"
 	}
@@ -105,10 +105,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="deceitful"
-	trait="kind"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "deceitful_hidden"
+	trait = "kind_hidden"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -205,7 +205,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="ambitious"
+	trait = "ambitious_hidden"
 	father=764
 	mother=212881
 	1086.8.20={
@@ -240,7 +240,7 @@
 		add_spouse = 221521
 	}
 	1177.1.1 = {
-		trait="just"
+		trait = "just_hidden"
 		give_nickname="nick_the_just"
 	}
 	1194.5.5={
@@ -368,7 +368,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=221530
 	mother=125068
 	1143.1.2={
@@ -733,7 +733,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	father=221760
 	mother=221761
 	1150.1.1={
@@ -753,8 +753,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="harelip"
-	trait="martial_cleric"
+	trait = "harelip_hidden"
+	trait = "martial_cleric_hidden"
 	father=221750
 	1185.1.1={
 		birth="1185.1.1"
@@ -773,10 +773,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="greedy"
-	trait="humble"
-	trait="inbred"
-	trait="martial_cleric"
+	trait = "greedy_hidden"
+	trait = "humble_hidden"
+	trait = "inbred_hidden"
+	trait = "martial_cleric_hidden"
 	father=221760
 	mother=221761
 	1160.1.1={
@@ -799,10 +799,10 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="patient"
-	trait="deceitful"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "patient_hidden"
+	trait = "deceitful_hidden"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1130.1.2={
 		birth="1130.1.2"
 	}
@@ -824,8 +824,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="polish"
-	trait="just"
-	trait="underhanded_rogue"
+	trait = "just_hidden"
+	trait = "underhanded_rogue_hidden"
 	1132.1.1={
 		birth="1132.1.1"
 	}
@@ -1184,8 +1184,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="charitable"
-	trait="amateurish_plotter"
+	trait = "charitable_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=30453
 	mother=30470
 	
@@ -1207,9 +1207,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="proud"
-	trait="temperate"
-	trait="naive_appeaser"
+	trait = "proud_hidden"
+	trait = "temperate_hidden"
+	trait = "naive_appeaser_hidden"
 	1301.1.2={
 		birth="1301.1.2"
 	}
@@ -1227,8 +1227,8 @@
 	stewardship=9
 	religion="catholic"
 	culture="polish"
-	trait="genius"
-	trait="midas_touched"
+	trait = "genius_hidden"
+	trait = "midas_touched_hidden"
 	give_nickname="nick_the_great"
 	father=471510
 	mother=471555
@@ -1316,8 +1316,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="ambitious"
-	trait="charismatic_negotiator"
+	trait = "ambitious_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=471520
 	mother=471540
 	1261.1.2={
@@ -1358,8 +1358,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="chaste"
-	trait="skilled_tactician"
+	trait = "chaste_hidden"
+	trait = "skilled_tactician_hidden"
 	father=471515
 	mother=471516
 	1319.1.2={
@@ -1514,8 +1514,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="proud"
-	trait="thrifty_clerk"
+	trait = "proud_hidden"
+	trait = "thrifty_clerk_hidden"
 	1319.1.2={
 		birth="1319.1.2"
 	}
@@ -1597,7 +1597,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="polish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=471570
 	1290.1.2={
 		birth="1290.1.2"
@@ -1619,9 +1619,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="chaste"
-	trait="patient"
-	trait="amateurish_plotter"
+	trait = "chaste_hidden"
+	trait = "patient_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=471560
 	mother=471605
 	1320.1.2={
@@ -1641,8 +1641,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	1262.1.2={
 		birth="1262.1.2"
 	}
@@ -1660,10 +1660,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="polish"
-	trait="diligent"
-	trait="arbitrary"
-	trait="kind"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "arbitrary_hidden"
+	trait = "kind_hidden"
+	trait = "tough_soldier_hidden"
 	father=471590
 	1290.1.2={
 		birth="1290.1.2"
@@ -1682,7 +1682,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1261.1.2={
 		birth="1261.1.2"
 	}
@@ -1700,9 +1700,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="honest"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "honest_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	1221.1.2={
 		birth="1221.1.2"
 	}
@@ -1720,9 +1720,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="envious"
-	trait="craven"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "craven_hidden"
+	trait = "tough_soldier_hidden"
 	father=471600
 	1278.1.2={
 		birth="1278.1.2"
@@ -1741,8 +1741,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="diligent"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "skilled_tactician_hidden"
 	father=471600
 	1276.1.2={
 		birth="1276.1.2"
@@ -1762,9 +1762,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="proud"
-	trait="cynical"
-	trait="scholarly_theologian"
+	trait = "proud_hidden"
+	trait = "cynical_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=471600
 	1287.1.2={
 		birth="1287.1.2"
@@ -1804,10 +1804,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="lustful"
-	trait="proud"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "proud_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	1313.1.2={
 		birth="1313.1.2"
 	}
@@ -1821,7 +1821,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=471710
 	mother=471502
 	1314.1.2={
@@ -1983,7 +1983,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="charitable"
+	trait = "charitable_hidden"
 	father=471732
 	mother=471733
 	1291.9.23={
@@ -2011,7 +2011,7 @@
 		birth="1248.1.24"
 	}
 	1264.1.24={
-		trait="gluttonous"
+		trait = "gluttonous_hidden"
 		give_nickname="nick_the_fat"
 	}
 	1279.1.2={
@@ -2064,9 +2064,9 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="just"
-	trait="envious"
-	trait="flamboyant_schemer"
+	trait = "just_hidden"
+	trait = "envious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=471734
 	mother=125997
 	1252.1.24={
@@ -2121,7 +2121,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="just"
+	trait = "just_hidden"
 	father=471730
 	mother=96061
 	1321.1.24={
@@ -2258,8 +2258,8 @@
 	religion="slavic_pagan"
 	culture="polish"
 	father=82236
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	900.1.2={
 		birth="900.1.2"
 	}
@@ -2276,7 +2276,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="polish"
-	trait="quick"
+	trait = "quick_hidden"
 	father=752
 	922.1.1={
 		birth="922.1.1"
@@ -2302,9 +2302,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="polish"
-	trait="envious"
-	trait="proud"
-	trait="underhanded_rogue"
+	trait = "envious_hidden"
+	trait = "proud_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=754
 	mother=509
 	970.1.2={
@@ -2324,8 +2324,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	give_nickname="nick_the_brave"
 	father=754
 	mother=509
@@ -2355,8 +2355,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="patient"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "amateurish_plotter_hidden"
 	971.1.2={
 		birth="971.1.2"
 	}
@@ -2374,7 +2374,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="scholar"
+	trait = "scholar_hidden"
 	#give_nickname="nick_the_lazy"
 	father=756
 	mother=757
@@ -2449,12 +2449,12 @@
 	learning=7
 	religion="catholic"
 	culture="polish"
-	trait="strong"
-	trait="diligent"
-	trait="wroth"
-	trait="charitable"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "strong_hidden"
+	trait = "diligent_hidden"
+	trait = "wroth_hidden"
+	trait = "charitable_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	give_nickname="nick_the_bold"
 	father=760
 	mother=13501
@@ -2497,12 +2497,12 @@
 	stewardship=6
 	religion="catholic"
 	culture="polish"
-	trait="infirm"
-	trait="greedy"
-	trait="gluttonous"
-	trait="deceitful"
-	trait="arbitrary"
-	trait="amateurish_plotter"
+	trait = "infirm_hidden"
+	trait = "greedy_hidden"
+	trait = "gluttonous_hidden"
+	trait = "deceitful_hidden"
+	trait = "arbitrary_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=760
 	mother=13501
 	1043.1.2={
@@ -2559,7 +2559,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="polish"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1044.1.2={
 		birth="1044.1.2"
 	}
@@ -2625,7 +2625,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1020.1.2={
 		birth="1020.1.2"
 	}
@@ -2788,7 +2788,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="honest"
+	trait = "honest_hidden"
 	father=471652
 	mother=125996
 	1258.1.1={
@@ -2887,7 +2887,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=125913
 	mother=33746
 	1316.1.1={
@@ -3055,7 +3055,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=125910
 	mother=125979
 	1252.1.1={
@@ -3118,7 +3118,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=125905
 	mother=96042
 	1237.1.1={
@@ -3166,8 +3166,8 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="charitable"
-	trait="just"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
 	father=471732
 	mother=471733
 	1294.3.18={
@@ -3381,7 +3381,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="gluttonous"
+	trait = "gluttonous_hidden"
 	give_nickname="nick_the_fat"
 	father=221555
 	1220.1.2={
@@ -3414,7 +3414,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	father=125946
 	mother=125995
 	1308.1.2={
@@ -3494,7 +3494,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-    trait="fair"
+    trait = "fair_hidden"
 	father=471741
 	1291.1.2={
 		birth="1291.1.2"
@@ -3969,7 +3969,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="chaste"
+	trait = "chaste_hidden"
 	give_nickname="nick_the_chaste"
 	father=221524
 	mother=125134
@@ -4230,7 +4230,7 @@
 	name="Hipolit"
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	965.1.1={
 		birth="965.1.1"
 	}
@@ -4365,7 +4365,7 @@
 	name="Marcin"
 	religion="catholic"
 	culture="polish"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1225.1.1={
 		birth="1225.1.1"
 	}
@@ -4378,7 +4378,7 @@
 	name="Jakub"
 	religion="catholic"
 	culture="polish"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	1247.1.1={
 		birth="1247.1.1"
 	}
@@ -4416,7 +4416,7 @@
 	dynasty=21010
 	religion="catholic"
 	culture="polish"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1049.1.1={
 		birth="1049.1.1"
 	}
@@ -4484,7 +4484,7 @@
 	dynasty=10111
 	religion="catholic"
 	culture="polish"
-	trait="charitable"
+	trait = "charitable_hidden"
 	father=96093
 	1080.1.1={
 		birth="1080.1.1"
@@ -4603,7 +4603,7 @@
 	name="Wincenty"
 	religion="catholic"
 	culture="polish"
-	trait="mastermind_theologian"
+	trait = "mastermind_theologian_hidden"
 	1160.1.1={
 		birth="1160.1.1"
 	}
@@ -4617,7 +4617,7 @@
 	dynasty=21021
 	religion="catholic"
 	culture="polish"
-	trait="humble"
+	trait = "humble_hidden"
 	1163.1.1={
 		birth="1163.1.1"
 	}
@@ -4764,12 +4764,12 @@
 	dynasty=9120
 	religion="slavic_pagan"
 	culture="polish"
-	trait="cruel"
-	trait="lustful"
-	trait="drunkard"
-	trait="hedonist"
-	trait="gluttonous"
-	trait="deceitful"
+	trait = "cruel_hidden"
+	trait = "lustful_hidden"
+	trait = "drunkard_hidden"
+	trait = "hedonist_hidden"
+	trait = "gluttonous_hidden"
+	trait = "deceitful_hidden"
 	800.1.1={
 		birth="800.1.1"
 	}
@@ -6219,7 +6219,7 @@
 	dynasty=699
 	religion="catholic"
 	culture="polish"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=764
 	1073.1.2={
 		birth="1073.1.2"

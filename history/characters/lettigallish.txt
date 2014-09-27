@@ -36,7 +36,7 @@
 	stewardship=7
 	religion="baltic_pagan"
 	culture="lettigallish"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -54,7 +54,7 @@
 	stewardship=7
 	religion="baltic_pagan"
 	culture="lettigallish"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father = 144629
 	1150.1.1={
 		birth="1150.1.1"
@@ -73,10 +73,10 @@
 	stewardship=5
 	religion="baltic_pagan"
 	culture="lettigallish"
-	trait="slothful"
-	trait="honest"
-	trait="clubfooted"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "honest_hidden"
+	trait = "clubfooted_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father = 144628
 	1150.1.1={
 		birth="1150.1.1"
@@ -108,7 +108,7 @@
 	stewardship=5
 	religion="baltic_pagan"
 	culture="lettigallish"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -140,10 +140,10 @@
 	stewardship=5
 	religion="baltic_pagan"
 	culture="lettigallish"
-	trait="slothful"
-	trait="honest"
-	trait="clubfooted"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "honest_hidden"
+	trait = "clubfooted_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -161,8 +161,8 @@
 	stewardship=7
 	religion="baltic_pagan"
 	culture="lettigallish"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}

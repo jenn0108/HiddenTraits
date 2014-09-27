@@ -7,7 +7,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="romanian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -25,7 +25,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="romanian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -43,7 +43,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="romanian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -61,7 +61,7 @@
 	stewardship=7
 	religion="orthodox"
 	culture="romanian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1200.1.1={
 		birth="1200.1.1"
 	}
@@ -79,8 +79,8 @@
 	stewardship=4
 	religion="orthodox"
 	culture="romanian"
-	trait="lisp"
-	trait="flamboyant_schemer"
+	trait = "lisp_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -98,7 +98,7 @@
 	stewardship=7
 	religion="orthodox"
 	culture="romanian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -116,7 +116,7 @@
 	stewardship=6
 	religion="orthodox"
 	culture="romanian"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -134,8 +134,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="romanian"
-	trait="humble"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -153,8 +153,8 @@
 	stewardship=4
 	religion="orthodox"
 	culture="romanian"
-	trait="arbitrary"
-	trait="skilled_tactician"
+	trait = "arbitrary_hidden"
+	trait = "skilled_tactician_hidden"
 	father=475560
 	1282.1.1={
 		birth="1282.1.1"
@@ -180,8 +180,8 @@
 	stewardship=6
 	religion="orthodox"
 	culture="romanian"
-	trait="envious"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=475550
 	mother=475551
 	1304.1.1={
@@ -202,9 +202,9 @@
 	stewardship=6
 	religion="orthodox"
 	culture="romanian"
-	trait="diligent"
-	trait="craven"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "craven_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=475550
 	mother=475551
 	1306.1.1={
@@ -227,9 +227,9 @@
 	stewardship=4
 	religion="orthodox"
 	culture="romanian"
-	trait="temperate"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "temperate_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=475553
 	mother=475554
 	1326.1.1={
@@ -249,8 +249,8 @@
 	stewardship=7
 	religion="orthodox"
 	culture="romanian"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	father=475553
 	mother=475554
 	1327.1.1={
@@ -270,9 +270,9 @@
 	stewardship=5
 	religion="orthodox"
 	culture="romanian"
-	trait="wroth"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1260.1.1={
 		birth="1260.1.1"
 	}
@@ -318,7 +318,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="romanian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1308.1.1 = {
 		birth="1308.1.1"
 	}

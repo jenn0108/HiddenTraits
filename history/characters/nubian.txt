@@ -415,9 +415,9 @@
 	stewardship=8
 	religion="miaphysite"
 	culture="nubian"
-	trait="arbitrary"
-	trait="humble"
-	trait="tough_soldier"
+	trait = "arbitrary_hidden"
+	trait = "humble_hidden"
+	trait = "tough_soldier_hidden"
 	father=31725
 	1039.1.1=	{
 		birth="1039.1.1"

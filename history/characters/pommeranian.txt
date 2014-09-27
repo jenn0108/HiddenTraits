@@ -8,7 +8,7 @@
 	stewardship=4
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	980.1.2={
 		birth="980.1.2"
 	}
@@ -27,7 +27,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="pommeranian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	993.1.2={
 		birth="993.1.2"
 	}
@@ -45,10 +45,10 @@
 	stewardship=6
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="proud"
-	trait="diligent"
-	trait="envious"
-	trait="brilliant_strategist"
+	trait = "proud_hidden"
+	trait = "diligent_hidden"
+	trait = "envious_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=20586
 	1035.1.1={
 		birth="1035.1.1"
@@ -72,9 +72,9 @@
 	stewardship=6
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="proud"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=30483
 	999.1.1={
 		birth="999.1.1"
@@ -93,7 +93,7 @@
 	stewardship=7
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -111,8 +111,8 @@
 	stewardship=5
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -131,9 +131,9 @@
 	stewardship=4
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="slothful"
-	trait="hunchback"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "hunchback_hidden"
+	trait = "tough_soldier_hidden"
 	father=221703 #Swietopelk
 	1102.1.1={
 		birth="1102.1.1"
@@ -161,7 +161,7 @@
 	stewardship=8
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1108.1.1={
 		birth="1108.1.1"
 	}
@@ -183,9 +183,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="pommeranian"
-	trait="zealous"
-	trait="lustful"
-	trait="charismatic_negotiator"
+	trait = "zealous_hidden"
+	trait = "lustful_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=221700
 	mother=221701
 	1133.1.1={
@@ -206,7 +206,7 @@
 	stewardship=4
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1087.1.1={
 		birth="1087.1.1"
 	}
@@ -224,7 +224,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=221700
 	mother=221701
 	1130.1.1={
@@ -265,8 +265,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="pommeranian"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	father=221710
 	mother=221568
 	1178.1.1={
@@ -290,7 +290,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=221710
 	mother=221568
 	1180.1.1={
@@ -326,7 +326,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="pommeranian"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=221700
 	mother=221701
 	1132.1.1={
@@ -346,11 +346,11 @@
 	stewardship=6
 	religion="catholic"
 	culture="pommeranian"
-	trait="lustful"
-	trait="honest"
-	trait="just"
-	trait="cynical"
-	trait="scholarly_theologian"
+	trait = "lustful_hidden"
+	trait = "honest_hidden"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=221710
 	mother=221711
 	1161.1.1={
@@ -370,7 +370,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=221710
 	mother=221711
 	1160.1.1={
@@ -393,7 +393,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=221703
 	1103.1.1={
 		birth="1103.1.1"
@@ -418,8 +418,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="lustful"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "tough_soldier_hidden"
 	father=221718
 	mother=222546
 	1138.1.1={
@@ -439,8 +439,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="slothful"
-	trait="martial_cleric"
+	trait = "slothful_hidden"
+	trait = "martial_cleric_hidden"
 	father=221719
 	1162.1.1={
 		birth="1162.1.1"
@@ -459,9 +459,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="just"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=221719
 	1163.1.1={
 		birth="1163.1.1"
@@ -482,8 +482,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="cynical"
-	trait="thrifty_clerk"
+	trait = "cynical_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=221719
 	1180.1.1={
 		birth="1180.1.1"
@@ -503,8 +503,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="chaste"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "tough_soldier_hidden"
 	father=221718
 	mother=222546
 	1137.1.1={
@@ -524,8 +524,8 @@
 	stewardship=5
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="deceitful"
-	trait="skilled_tactician"
+	trait = "deceitful_hidden"
+	trait = "skilled_tactician_hidden"
 	father=221734
 	1138.1.2={
 		birth="1138.1.2"
@@ -569,7 +569,7 @@
 	stewardship=5
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=30482 #Rostislav
 	1122.1.1={
 		birth="1122.1.1"
@@ -588,10 +588,10 @@
 	stewardship=5
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="honest"
-	trait="kind"
-	trait="patient"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "kind_hidden"
+	trait = "patient_hidden"
+	trait = "tough_soldier_hidden"
 	father=221734 #Wizlaw
 	
 	1147.1.1={
@@ -666,11 +666,11 @@
 	stewardship=6
 	religion="catholic"
 	culture="pommeranian"
-	trait="chaste"
-	trait="diligent"
-	trait="arbitrary"
-	trait="stutter"
-	trait="charismatic_negotiator"
+	trait = "chaste_hidden"
+	trait = "diligent_hidden"
+	trait = "arbitrary_hidden"
+	trait = "stutter_hidden"
+	trait = "charismatic_negotiator_hidden"
 	979.1.2={
 		birth="979.1.2"
 	}
@@ -1053,7 +1053,7 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=30497
 	mother=30506 #Agnes Welf
 	1268.1.1={
@@ -1069,7 +1069,7 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=30497
 	mother=30506 #Agnes Welf
 	1273.1.1={
@@ -1087,7 +1087,7 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=30497
 	mother=30506 #Agnes Welf
 	1270.1.1={
@@ -1105,7 +1105,7 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=30497
 	mother=30506 #Agnes Welf
 	1271.1.1={
@@ -1122,7 +1122,7 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=30497
 	mother=30506 #Agnes Welf
 	1281.1.1={
@@ -1763,7 +1763,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=471660
 	mother=30502
 	1287.1.1={
@@ -1784,9 +1784,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="pommeranian"
-	trait="greedy"
-	trait="craven"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "craven_hidden"
+	trait = "tough_soldier_hidden"
 	father=451953
 	mother=33739
 	1278.1.1={
@@ -1840,7 +1840,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=221712
 	mother=30456
 	1219.1.1={
@@ -1870,10 +1870,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="pommeranian"
-	trait="lustful"
-	trait="humble"
-	trait="zealous"
-	trait="tough_soldier"
+	trait = "lustful_hidden"
+	trait = "humble_hidden"
+	trait = "zealous_hidden"
+	trait = "tough_soldier_hidden"
 	father=452004
 	mother=221702
 	1150.1.1={
@@ -1896,7 +1896,7 @@
 	stewardship=5
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=452005
 	1120.1.1={
 		birth="1120.1.1"
@@ -1921,7 +1921,7 @@
 	stewardship=7
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1105.1.1={
 		birth="1105.1.1"
 	}
@@ -1941,10 +1941,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="pommeranian"
-	trait="chaste"
-	trait="slothful"
-	trait="humble"
-	trait="martial_cleric"
+	trait = "chaste_hidden"
+	trait = "slothful_hidden"
+	trait = "humble_hidden"
+	trait = "martial_cleric_hidden"
 	father=30497 #Wizlaw II
 	mother=30506 #Agnes Welf
 	1282.1.1={
@@ -1965,7 +1965,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="pommeranian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=471650
 	mother=471651
 	1326.11.1={
@@ -1986,7 +1986,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=471660
 	mother=30502
 	1291.1.1={
@@ -2009,7 +2009,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=471650
 	mother=471651
 	1317.7.17={
@@ -2030,9 +2030,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="patient"
-	trait="greedy"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "greedy_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=471650
 	mother=471651
 	1316.1.1={
@@ -2053,10 +2053,10 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="patient"
-	trait="kind"
-	trait="pneumonic"
-	trait="amateurish_plotter"
+	trait = "patient_hidden"
+	trait = "kind_hidden"
+	trait = "pneumonic_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=471660
 	mother=30502
 	1288.1.1={
@@ -2077,9 +2077,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="envious"
-	trait="temperate"
-	trait="naive_appeaser"
+	trait = "envious_hidden"
+	trait = "temperate_hidden"
+	trait = "naive_appeaser_hidden"
 	father=471660
 	mother=30502
 	1290.1.1={
@@ -2099,7 +2099,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="pommeranian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	father=451953
 	mother=30584
 	1255.1.1={
@@ -2123,8 +2123,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="pommeranian"
-	trait="humble"
-	trait="underhanded_rogue"
+	trait = "humble_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=451953
 	mother=30546
 	1245.1.1={
@@ -2146,10 +2146,10 @@
 	religion="slavic_pagan"
 	culture="pommeranian"
 	father=184006
-	trait="diligent"
-	trait="cynical"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	890.1.1={
 		birth="890.1.1"
 	}
@@ -2170,9 +2170,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="pommeranian"
-	trait="wroth"
-	trait="proud"
-	trait="martial_cleric"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "martial_cleric_hidden"
 	father=8410
 	1039.1.15={
 		birth="1039.1.15"
@@ -2191,8 +2191,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="pommeranian"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=8410
 	mother=101527
 	1062.1.15={
@@ -2217,10 +2217,10 @@
 	stewardship=7
 	religion="catholic"
 	culture="pommeranian"
-	trait="zealous"
-	trait="charitable"
-	trait="diligent"
-	trait="martial_cleric"
+	trait = "zealous_hidden"
+	trait = "charitable_hidden"
+	trait = "diligent_hidden"
+	trait = "martial_cleric_hidden"
 	father=8411
 	1005.1.15={
 		birth="1005.1.15"
@@ -2242,7 +2242,7 @@
 	stewardship=7
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=161119
 	970.1.1={
 		birth="970.1.1"
@@ -2264,9 +2264,9 @@
 	stewardship=7
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="zealous"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	1030.1.15={
 		birth="1030.1.15"
 	}
@@ -2281,7 +2281,7 @@
 	dynasty=101890
 	religion="catholic"
 	culture="pommeranian"
-	trait="ill" 
+	trait = "ill_hidden" 
 	father=30498
 	mother=33279 
 	1306.1.1={
@@ -2357,8 +2357,8 @@
 	stewardship=4
 	religion="slavic_pagan"
 	culture="pommeranian"
-	trait="proud"
-	trait="martial_cleric"
+	trait = "proud_hidden"
+	trait = "martial_cleric_hidden"
 	father=161119
 	948.1.1={
 		birth="948.1.1"

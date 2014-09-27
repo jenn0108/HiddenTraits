@@ -7,9 +7,9 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="wroth"
-	trait="honest"
-	trait="naive_appeaser"
+	trait = "wroth_hidden"
+	trait = "honest_hidden"
+	trait = "naive_appeaser_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -27,7 +27,7 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -48,9 +48,9 @@
 	stewardship=4
 	religion="jewish"
 	culture="sephardi"
-	trait="diligent"
-	trait="patient"
-	trait="thrifty_clerk"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "thrifty_clerk_hidden"
 	1061.1.1={
 		birth="1061.1.1"
 	}
@@ -71,7 +71,7 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1020.1.1={
 		birth="1020.1.1"
 	}
@@ -92,10 +92,10 @@
 	stewardship=4
 	religion="jewish"
 	culture="sephardi"
-	trait="patient"
-	trait="kind"
-	trait="just"
-	trait="charismatic_negotiator"
+	trait = "patient_hidden"
+	trait = "kind_hidden"
+	trait = "just_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1010.1.1={
 		birth="1010.1.1"
 	}
@@ -116,7 +116,7 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1021.1.1 = {
 		birth="1021.1.1"
 	}
@@ -134,7 +134,7 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1021.1.1 = {
 		birth="1021.1.1"
 	}
@@ -152,10 +152,10 @@
 	stewardship=4
 	religion="jewish"
 	culture="sephardi"
-	trait="patient"
-	trait="kind"
-	trait="just"
-	trait="thrifty_clerk"
+	trait = "patient_hidden"
+	trait = "kind_hidden"
+	trait = "just_hidden"
+	trait = "thrifty_clerk_hidden"
 	1031.1.1 = {
 		birth="1031.1.1"
 	}
@@ -173,11 +173,11 @@
 	stewardship=4
 	religion="jewish"
 	culture="sephardi"
-	trait="fortune_builder"
-	trait="kind"
-	trait="mastermind_theologian"
-	trait="humble"
-	trait="grey_eminence"
+	trait = "fortune_builder_hidden"
+	trait = "kind_hidden"
+	trait = "mastermind_theologian_hidden"
+	trait = "humble_hidden"
+	trait = "grey_eminence_hidden"
 	993.1.2={
 		birth="993.1.2"
 	}
@@ -195,11 +195,11 @@
 	stewardship=7
 	religion="jewish"
 	culture="sephardi"
-	trait="proud"
-	trait="kind"
-	trait="thrifty_clerk"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "proud_hidden"
+	trait = "kind_hidden"
+	trait = "thrifty_clerk_hidden"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=3220
 	1025.1.2={
 		birth="1025.1.2"
@@ -219,7 +219,7 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1051.1.1={
 		birth="1051.1.1"
 	}
@@ -237,7 +237,7 @@
 	stewardship=5
 	religion="jewish"
 	culture="sephardi"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1051.1.1={
 		birth="1051.1.1"
 	}
@@ -255,8 +255,8 @@
 	stewardship=4
 	religion="jewish"
 	culture="sephardi"
-	trait="cynical"
-	trait="grey_eminence"
+	trait = "cynical_hidden"
+	trait = "grey_eminence_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}
@@ -274,7 +274,7 @@
 	stewardship=7
 	religion="jewish"
 	culture="sephardi"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}
@@ -292,7 +292,7 @@
 	stewardship=4
 	religion="jewish"
 	culture="sephardi"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}
@@ -310,7 +310,7 @@
 	stewardship=6
 	religion="jewish"
 	culture="sephardi"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1040.1.2={
 		birth="1040.1.2"
 	}

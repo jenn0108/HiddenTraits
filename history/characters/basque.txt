@@ -7,7 +7,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=106010
 	mother=1079
 	1039.1.1={
@@ -30,9 +30,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="diligent"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	father=106030
 	mother=107650
 	1013.1.1={
@@ -55,10 +55,10 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="zealous"
-	trait="stutter"
-	trait="lisp"
-	trait="underhanded_rogue"
+	trait = "zealous_hidden"
+	trait = "stutter_hidden"
+	trait = "lisp_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=106010
 	mother=1079
 	1043.1.1 = {
@@ -81,9 +81,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="chaste"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=106010
 	mother=1079
 	1044.1.1 = {
@@ -107,7 +107,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=106010
 	mother=1079
 	1041.1.1 = {
@@ -131,9 +131,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="diligent"
-	trait="patient"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=106010
 	mother=1079
 	1046.1.1 = {
@@ -154,8 +154,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=106010
 	mother=1079
 	
@@ -180,9 +180,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="lustful"
-	trait="gluttonous"
-	trait="detached_priest"
+	trait = "lustful_hidden"
+	trait = "gluttonous_hidden"
+	trait = "detached_priest_hidden"
 	father=106010
 	mother=1079
 	1045.1.1 = {
@@ -205,9 +205,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="lustful"
-	trait="bastard"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "bastard_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=106010
 	1035.1.1 = {
 		birth="1035.1.1"
@@ -236,9 +236,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="gluttonous"
-	trait="brave"
-	trait="amateurish_plotter"
+	trait = "gluttonous_hidden"
+	trait = "brave_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=70136
 	mother=1079
 	1036.1.1 = {
@@ -258,8 +258,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	father=106018
 	mother=106019
 	1057.1.1 = {
@@ -282,9 +282,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="diligent"
-	trait="bastard"
-	trait="misguided_warrior"
+	trait = "diligent_hidden"
+	trait = "bastard_hidden"
+	trait = "misguided_warrior_hidden"
 	father=106018
 	mother=106020
 	1070.1.1 = {
@@ -305,8 +305,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="indulgent_wastrel"
+	trait = "bastard_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=106010
 	1030.1.1 = {
 		birth="1030.1.1"
@@ -328,9 +328,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="chaste"
-	trait="humble"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "humble_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=106040
 	mother=106041
 	992.1.1={
@@ -356,7 +356,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=70124
 	mother=107682
 	964.1.1={
@@ -380,7 +380,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	
 	966.1.1 = {
 		birth="966.1.1"
@@ -400,9 +400,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="lustful"
-	trait="slothful"
-	trait="fortune_builder"
+	trait = "lustful_hidden"
+	trait = "slothful_hidden"
+	trait = "fortune_builder_hidden"
 	father=106040
 	mother=106041
 	993.1.1 = {
@@ -422,10 +422,10 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="just"
-	trait="lisp"
-	trait="stutter"
-	trait="amateurish_plotter"
+	trait = "just_hidden"
+	trait = "lisp_hidden"
+	trait = "stutter_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=107530
 	1035.1.1 = {
 		birth="1035.1.1"
@@ -448,7 +448,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1040.1.1 = {
 		birth="1040.1.1"
 	}
@@ -466,7 +466,7 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=107520
 	mother=107521
 	1060.1.1 = {
@@ -489,7 +489,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1000.1.1 = {
 		birth="1000.1.1"
 	}
@@ -507,8 +507,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="lustful"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70220
 	1065.1.1 = {
 		birth="1065.1.1"
@@ -527,9 +527,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="humble"
-	trait="patient"
-	trait="intricate_webweaver"
+	trait = "humble_hidden"
+	trait = "patient_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=206510
 	mother=206509
 	1132.1.1={
@@ -555,8 +555,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="diligent"
-	trait="tough_soldier"
+	trait = "diligent_hidden"
+	trait = "tough_soldier_hidden"
 	father=206500
 	mother=207502
 	1170.1.1={
@@ -585,8 +585,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="craven"
-	trait="skilled_tactician"
+	trait = "craven_hidden"
+	trait = "skilled_tactician_hidden"
 	father=106021
 	mother=71542
 	1105.1.1={
@@ -633,8 +633,8 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="craven"
-	trait="underhanded_rogue"
+	trait = "craven_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=206510
 	mother=206509
 	1139.1.1 = {
@@ -655,8 +655,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="just"
-	trait="charismatic_negotiator"
+	trait = "just_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=206510
 	mother=206509
 	
@@ -699,8 +699,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="stutter"
-	trait="thrifty_clerk"
+	trait = "stutter_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=457611
 	mother=459524
 	1320.1.1 = {
@@ -720,7 +720,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=457561
 	mother=71506
 	1293.1.1 = {
@@ -743,7 +743,7 @@
 	stewardship=7
 	religion="orthodox"
 	culture="basque"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1284.1.2 = {
 		birth="1284.1.2"
 	}
@@ -761,9 +761,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="stressed"
-	trait="thrifty_clerk"
+	trait = "wroth_hidden"
+	trait = "stressed_hidden"
+	trait = "thrifty_clerk_hidden"
 	746.1.1 = {
 		birth="746.1.1"
 	}
@@ -782,9 +782,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="poet"
-	trait="temperate"
-	trait="flamboyant_schemer"
+	trait = "poet_hidden"
+	trait = "temperate_hidden"
+	trait = "flamboyant_schemer_hidden"
 	
 	1040.1.1 = {
 		birth="1040.1.1"
@@ -803,9 +803,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="envious"
-	trait="gregarious"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "gregarious_hidden"
+	trait = "tough_soldier_hidden"
 	father=71923
 	1040.1.1 = {
 		birth="1040.1.1"
@@ -827,9 +827,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="scholar"
-	trait="diligent"
-	trait="misguided_warrior"
+	trait = "scholar_hidden"
+	trait = "diligent_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70069
 	mother=106062
 	1061.1.1 = {
@@ -852,9 +852,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="falconer"
-	trait="homosexual"
-	trait="underhanded_rogue"
+	trait = "falconer_hidden"
+	trait = "homosexual_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70069
 	mother=106062
 	
@@ -875,9 +875,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="basque"
-	trait="gluttonous"
-	trait="hunter"
-	trait="flamboyant_schemer"
+	trait = "gluttonous_hidden"
+	trait = "hunter_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70069
 	mother=106062
 	
@@ -898,9 +898,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="zealous"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "zealous_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	1040.1.1 = {
 		birth="1040.1.1"
 	}
@@ -921,9 +921,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="shy"
-	trait="mystic"
-	trait="amateurish_plotter"
+	trait = "shy_hidden"
+	trait = "mystic_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=70073
 	mother=106064
 	1063.1.1 = {
@@ -943,9 +943,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="brave"
-	trait="gregarious"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "gregarious_hidden"
+	trait = "tough_soldier_hidden"
 	791.1.1 = {
 		birth="791.1.1"
 	}
@@ -963,9 +963,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="falconer"
-	trait="envious"
-	trait="tough_soldier"
+	trait = "falconer_hidden"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
 	father=70120
 	837.1.1 = {
 		birth="837.1.1"
@@ -984,9 +984,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="brave"
-	trait="brilliant_strategist"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=70121
 	880.1.1 = {
 		birth="880.1.1"
@@ -1008,9 +1008,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="slow"
-	trait="content"
-	trait="naive_appeaser"
+	trait = "slow_hidden"
+	trait = "content_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70122
 	mother=70297
 	919.1.1 = {
@@ -1036,9 +1036,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="quick"
-	trait="patient"
-	trait="underhanded_rogue"
+	trait = "quick_hidden"
+	trait = "patient_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70123
 	mother=70275
 	935.1.1 = {
@@ -1062,9 +1062,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="mystic"
-	trait="naive_appeaser"
+	trait = "bastard_hidden"
+	trait = "mystic_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70124
 	965.1.1 = {
 		birth="965.1.1"
@@ -1084,9 +1084,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="gregarious"
-	trait="proud"
-	trait="flamboyant_schemer"
+	trait = "gregarious_hidden"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70122
 	911.1.1 = {
 		birth="911.1.1"
@@ -1106,9 +1106,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="gardener"
-	trait="kind"
-	trait="underhanded_rogue"
+	trait = "gardener_hidden"
+	trait = "kind_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70122
 	913.1.1 = {
 		birth="913.1.1"
@@ -1127,9 +1127,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="envious"
-	trait="greedy"
-	trait="misguided_warrior"
+	trait = "envious_hidden"
+	trait = "greedy_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70121
 	882.1.1 = {
 		birth="882.1.1"
@@ -1151,9 +1151,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="ambitious"
-	trait="lustful"
-	trait="misguided_warrior"
+	trait = "ambitious_hidden"
+	trait = "lustful_hidden"
+	trait = "misguided_warrior_hidden"
 	1005.1.1 = {
 		birth="1005.1.1"
 	}
@@ -1174,9 +1174,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="brave"
-	trait="hunter"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "hunter_hidden"
+	trait = "tough_soldier_hidden"
 	father=70129
 	mother=106023
 	1045.1.1 = {
@@ -1196,9 +1196,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="falconer"
-	trait="patient"
-	trait="flamboyant_schemer"
+	trait = "falconer_hidden"
+	trait = "patient_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70129
 	mother=106023
 	
@@ -1219,9 +1219,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="humble"
-	trait="brave"
-	trait="amateurish_plotter"
+	trait = "humble_hidden"
+	trait = "brave_hidden"
+	trait = "amateurish_plotter_hidden"
 	father=70129
 	mother=106023
 	
@@ -1242,8 +1242,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="ugly"
-	trait="thrifty_clerk"
+	trait = "ugly_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=70129
 	mother=106023
 	1051.1.1 = {
@@ -1263,9 +1263,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="shy"
-	trait="infirm"
-	trait="grey_eminence"
+	trait = "shy_hidden"
+	trait = "infirm_hidden"
+	trait = "grey_eminence_hidden"
 	father=70129
 	mother=106023
 	1053.1.1 = {
@@ -1286,9 +1286,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="kind"
-	trait="shy"
-	trait="thrifty_clerk"
+	trait = "kind_hidden"
+	trait = "shy_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=106018
 	mother=106019
 	1053.1.1 = {
@@ -1308,9 +1308,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="cynical"
-	trait="ugly"
-	trait="thrifty_clerk"
+	trait = "cynical_hidden"
+	trait = "ugly_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=107530
 	1037.1.1 = {
 		birth="1037.1.1"
@@ -1332,9 +1332,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="greedy"
-	trait="proud"
-	trait="misguided_warrior"
+	trait = "greedy_hidden"
+	trait = "proud_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70220
 	1061.1.1 = {
 		birth="1061.1.1"
@@ -1353,8 +1353,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="patient"
-	trait="indulgent_wastrel"
+	trait = "patient_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70220
 	1063.1.1 = {
 		birth="1063.1.1"
@@ -1373,9 +1373,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="chaste"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "chaste_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=107530
 	1040.1.1 = {
 		birth="1040.1.1"
@@ -1397,9 +1397,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="drunkard"
-	trait="gluttonous"
-	trait="underhanded_rogue"
+	trait = "drunkard_hidden"
+	trait = "gluttonous_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=107530
 	1042.1.1 = {
 		birth="1042.1.1"
@@ -1421,9 +1421,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="stressed"
-	trait="flamboyant_schemer"
+	trait = "wroth_hidden"
+	trait = "stressed_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=107530
 	1044.1.1 = {
 		birth="1044.1.1"
@@ -1446,9 +1446,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="patient"
-	trait="quick"
-	trait="fortune_builder"
+	trait = "patient_hidden"
+	trait = "quick_hidden"
+	trait = "fortune_builder_hidden"
 	father=107530
 	1046.1.1 = {
 		birth="1046.1.1"
@@ -1470,9 +1470,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="ill"
-	trait="ugly"
-	trait="tough_soldier"
+	trait = "ill_hidden"
+	trait = "ugly_hidden"
+	trait = "tough_soldier_hidden"
 	father=107520
 	mother=107521
 	1062.1.1 = {
@@ -1492,9 +1492,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="ill"
-	trait="temperate"
-	trait="midas_touched"
+	trait = "ill_hidden"
+	trait = "temperate_hidden"
+	trait = "midas_touched_hidden"
 	father=107520
 	mother=107521
 	
@@ -1515,9 +1515,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="incapable"
-	trait="gardener"
-	trait="intricate_webweaver"
+	trait = "incapable_hidden"
+	trait = "gardener_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=107520
 	mother=107521
 	1066.1.1 = {
@@ -1537,9 +1537,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="duelist"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "duelist_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=168105
 	765.1.1 = {
 		birth="765.1.1"
@@ -1561,9 +1561,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="honest"
-	trait="diligent"
-	trait="intricate_webweaver"
+	trait = "honest_hidden"
+	trait = "diligent_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=70290
 	mother=73811
 	788.1.1 = {
@@ -1583,9 +1583,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="temperate"
-	trait="deceitful"
-	trait="misguided_warrior"
+	trait = "temperate_hidden"
+	trait = "deceitful_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70291
 	810.1.1 = {
 		birth="810.1.1"
@@ -1607,9 +1607,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="maimed"
-	trait="mystic"
-	trait="thrifty_clerk"
+	trait = "maimed_hidden"
+	trait = "mystic_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=70292
 	830.1.1 = {
 		birth="830.1.1"
@@ -1632,9 +1632,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="proud"
-	trait="gardener"
-	trait="underhanded_rogue"
+	trait = "proud_hidden"
+	trait = "gardener_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70293
 	mother=73783
 	850.1.1 = {
@@ -1654,9 +1654,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	father=70292
 	832.1.1 = {
 		birth="832.1.1"
@@ -1675,9 +1675,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="ambitious"
-	trait="arbitrary"
-	trait="fortune_builder"
+	trait = "ambitious_hidden"
+	trait = "arbitrary_hidden"
+	trait = "fortune_builder_hidden"
 	father=70295
 	861.1.1 = {
 		birth="861.1.1"
@@ -1700,9 +1700,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="patient"
-	trait="gregarious"
-	trait="grey_eminence"
+	trait = "patient_hidden"
+	trait = "gregarious_hidden"
+	trait = "grey_eminence_hidden"
 	father=70296
 	mother=70294
 	885.1.1 = {
@@ -1723,9 +1723,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="just"
-	trait="content"
-	trait="naive_appeaser"
+	trait = "just_hidden"
+	trait = "content_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70296
 	mother=70294
 	887.1.1 = {
@@ -1746,9 +1746,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="cynical"
-	trait="envious"
-	trait="underhanded_rogue"
+	trait = "cynical_hidden"
+	trait = "envious_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=70292
 	844.1.1 = {
 		birth="844.1.1"
@@ -1811,7 +1811,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1073.1.1 = {
 		birth="1073.1.1"
 	}
@@ -2180,7 +2180,7 @@
 	religion="catholic"
 	culture="basque"
 	father=106000
-	trait=bastard
+	trait = "bastard_hidden"
 	1059.1.1 = {
 		birth="1059.1.1"
 	}
@@ -2195,7 +2195,7 @@
 	religion="catholic"
 	culture="basque"
 	father=106000
-	trait=bastard
+	trait = "bastard_hidden"
 	1060.1.1 = {
 		birth="1060.1.1"
 	}
@@ -2210,7 +2210,7 @@
 	religion="catholic"
 	culture="basque"
 	father=106000
-	trait="bastard"
+	trait = "bastard_hidden"
 	1061.1.1 = {
 		birth="1061.1.1"
 	}
@@ -2225,8 +2225,8 @@
 	female=yes
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="detached_priest"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	father=106000
 	1063.1.1 = {
 		birth="1063.1.1"
@@ -2306,7 +2306,7 @@
 	religion="catholic"
 	culture="basque"
 	father=206510
-	trait="bastard"
+	trait = "bastard_hidden"
 	1140.1.1 = {
 		birth="1140.1.1"
 	}
@@ -2324,7 +2324,7 @@
 	religion="catholic"
 	culture="basque"
 	father=206502
-	trait="bastard"
+	trait = "bastard_hidden"
 	1198.1.1 = {
 		birth="1198.1.1"
 	}
@@ -2339,7 +2339,7 @@
 	religion="catholic"
 	culture="basque"
 	father=206502
-	trait="bastard"
+	trait = "bastard_hidden"
 	1200.1.1 = {
 		birth="1200.1.1"
 	}
@@ -2353,8 +2353,8 @@
 	dynasty=277
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="scholarly_theologian"
+	trait = "bastard_hidden"
+	trait = "scholarly_theologian_hidden"
 	father=206502
 	1202.1.1 = {
 		birth="1202.1.1"
@@ -2370,7 +2370,7 @@
 	religion="catholic"
 	culture="basque"
 	father=205968
-	trait="bastard"
+	trait = "bastard_hidden"
 	1272.1.1 = {
 		birth="1272.1.1"
 	}
@@ -2428,7 +2428,7 @@
 	religion="catholic"
 	culture="basque"
 	father=205967
-	trait="bastard"
+	trait = "bastard_hidden"
 	1260.1.1 = {
 		birth="1260.1.1"
 	}
@@ -2444,7 +2444,7 @@
 	religion="catholic"
 	culture="basque"
 	father=205964
-	trait="bastard"
+	trait = "bastard_hidden"
 	1221.1.1 = {
 		birth="1221.1.1"
 	}
@@ -2460,7 +2460,7 @@
 	religion="catholic"
 	culture="basque"
 	father=205964
-	trait="bastard"
+	trait = "bastard_hidden"
 	1223.1.1 = {
 		birth="1223.1.1"
 	}
@@ -2474,8 +2474,8 @@
 	dynasty=721
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="detached_priest"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	father=205964
 	1225.1.1 = {
 		birth="1225.1.1"
@@ -2491,8 +2491,8 @@
 	female=yes
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="detached_priest"
+	trait = "bastard_hidden"
+	trait = "detached_priest_hidden"
 	father=205964
 	1227.1.1 = {
 		birth="1227.1.1"
@@ -2587,7 +2587,7 @@
 	female=yes
 	religion="catholic"
 	culture="basque"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	1220.1.1 = {
 		birth="1220.1.1"
 	}
@@ -2861,7 +2861,7 @@
 	dynasty=778
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=207600
 	1123.1.1 = {
 		birth="1123.1.1"
@@ -2877,7 +2877,7 @@
 	female=yes
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=207600
 	1124.1.1={
 		birth="1124.1.1"
@@ -3047,7 +3047,7 @@
 	dynasty=778
 	religion="catholic"
 	culture="basque"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=207570
 	mother=207571
 	1165.1.1 = {
@@ -3063,8 +3063,8 @@
 	dynasty=778
 	religion="catholic"
 	culture="basque"
-	trait="detached_priest"
-	trait="bastard"
+	trait = "detached_priest_hidden"
+	trait = "bastard_hidden"
 	father=207570
 	1146.1.1 = {
 		birth="1146.1.1"
@@ -3080,7 +3080,7 @@
 	religion="catholic"
 	culture="basque"
 	father=207570
-	trait="bastard"
+	trait = "bastard_hidden"
 	1148.1.1 = {
 		birth="1148.1.1"
 	}
@@ -3095,7 +3095,7 @@
 	religion="catholic"
 	culture="basque"
 	father=207570
-	trait="bastard"
+	trait = "bastard_hidden"
 	1150.1.1 = {
 		birth="1150.1.1"
 	}
@@ -3113,9 +3113,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="deceitful"
-	trait="trusting"
-	trait="skilled_tactician"
+	trait = "deceitful_hidden"
+	trait = "trusting_hidden"
+	trait = "skilled_tactician_hidden"
 	father=207560
 	mother=207657
 	1192.1.1 = {
@@ -3217,9 +3217,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="proud"
-	trait="naive_appeaser"
+	trait = "wroth_hidden"
+	trait = "proud_hidden"
+	trait = "naive_appeaser_hidden"
 	father=71963
 	mother=71441
 	1220.1.1 = {
@@ -3903,7 +3903,7 @@
 	female=yes
 	religion="catholic"
 	culture="basque"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	father=72006
 	mother=72007
 	1251.1.1 = {
@@ -3949,8 +3949,8 @@
 	dynasty=778
 	religion="catholic"
 	culture="basque"
-	trait="bastard"
-	trait="martial_cleric"
+	trait = "bastard_hidden"
+	trait = "martial_cleric_hidden"
 	father=71963
 
 	1225.1.1 = {
@@ -3967,7 +3967,7 @@
 	religion="catholic"
 	culture="basque"
 	father=71963
-	trait=bastard
+	trait = "bastard_hidden"
 	1227.1.1 = {
 		birth="1227.1.1"
 	}
@@ -4001,7 +4001,7 @@
 	religion="catholic"
 	culture="basque"
 	father=71963
-	trait=bastard
+	trait = "bastard_hidden"
 	1230.1.1 = {
 		birth="1230.1.1"
 	}
@@ -4047,9 +4047,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="ambitious"
-	trait="greedy"
-	trait="intricate_webweaver"
+	trait = "ambitious_hidden"
+	trait = "greedy_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=71969
 	#mother=Constance de Bearn
 	1245.1.1 = {
@@ -4072,9 +4072,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="slothful"
-	trait="zealous"
-	trait="misguided_warrior"
+	trait = "slothful_hidden"
+	trait = "zealous_hidden"
+	trait = "misguided_warrior_hidden"
 	father=72027
 	mother=71431
 	1271.1.1 = {
@@ -4094,9 +4094,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="brave"
-	trait="proud"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "proud_hidden"
+	trait = "skilled_tactician_hidden"
 	father=71969
 	#mother=Constance de Bearn
 	1250.1.1 = {
@@ -4448,9 +4448,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="just"
-	trait="zealous"
-	trait="wroth"
+	trait = "just_hidden"
+	trait = "zealous_hidden"
+	trait = "wroth_hidden"
 	father=207570
 	mother=207571
 	1152.1.1 = {
@@ -4479,7 +4479,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="envious"
+	trait = "envious_hidden"
 	father=207570
 	mother=207571
 	1153.1.1 = {
@@ -4503,7 +4503,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="cynical"
+	trait = "cynical_hidden"
 	father=207570
 	mother=207571
 	1159.1.1 = {
@@ -4523,8 +4523,8 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	father=107523
 	mother=71925
 	1080.1.1 = {
@@ -4601,7 +4601,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=207600
 	mother=207610
 	1120.1.2 = {
@@ -4650,7 +4650,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1103.1.1={
 		birth="1103.1.1"
 	}
@@ -4665,7 +4665,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1104.1.1={
 		birth="1104.1.1"
 	}
@@ -4680,7 +4680,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1106.1.1={
 		birth="1106.1.1"
 	}
@@ -4696,7 +4696,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1107.1.1={
 		birth="1107.1.1"
 	}
@@ -4712,7 +4712,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1109.1.1={
 		birth="1109.1.1"
 	}
@@ -4728,7 +4728,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1110.1.1={
 		birth="1110.1.1"
 	}
@@ -4774,9 +4774,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="basque"
-	trait="impaler"
-	trait="slothful"
-	trait="indulgent_wastrel"
+	trait = "impaler_hidden"
+	trait = "slothful_hidden"
+	trait = "indulgent_wastrel_hidden"
 	1010.1.1={
 		birth="1010.1.1"
 	}
@@ -4842,7 +4842,7 @@
 	religion="catholic"
 	culture="basque"
 	father=70073
-	trait="bastard"
+	trait = "bastard_hidden"
 	1075.1.1={
 		birth="1075.1.1"
 	}
@@ -4861,8 +4861,8 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="temperate"
-	trait="thrifty_clerk"
+	trait = "temperate_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=70122
 	915.1.1={
 		birth="915.1.1"
@@ -4882,7 +4882,7 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=70123
 	923.1.1={
 		birth="923.1.1"
@@ -4902,8 +4902,8 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="brave"
-	trait="underhanded_rogue"
+	trait = "brave_hidden"
+	trait = "underhanded_rogue_hidden"
 	father=206500
 	mother=207502
 	1165.1.1={
@@ -4924,7 +4924,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="naive_appeaser"
+	trait = "naive_appeaser_hidden"
 	father=206500
 	mother=207502
 	1175.1.1={
@@ -4944,8 +4944,8 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	father=206500
 	mother=207502
 	1177.1.1={
@@ -4966,9 +4966,9 @@
 	stewardship=8
 	religion="catholic"
 	culture="basque"
-	trait="lustful"
-	trait="cynical"
-	trait="thrifty_clerk"
+	trait = "lustful_hidden"
+	trait = "cynical_hidden"
+	trait = "thrifty_clerk_hidden"
 	father=206500
 	mother=207502
 	1176.1.1={
@@ -4988,8 +4988,8 @@
 	stewardship=3
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="naive_appeaser"
+	trait = "wroth_hidden"
+	trait = "naive_appeaser_hidden"
 	father=106030
 	mother=107650
 	1020.1.1={
@@ -5254,9 +5254,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="charitable"
-	trait="just"
-	trait="flamboyant_schemer"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=70274
 	mother=54001
 	
@@ -5277,9 +5277,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="ambitious"
-	trait="diligent"
-	trait="intricate_webweaver"
+	trait = "ambitious_hidden"
+	trait = "diligent_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=70276
 	mother=70299
 	
@@ -5307,9 +5307,9 @@
 	stewardship=3
 	religion="catholic"
 	culture="basque"
-	trait="gardener"
-	trait="content"
-	trait="naive_appeaser"
+	trait = "gardener_hidden"
+	trait = "content_hidden"
+	trait = "naive_appeaser_hidden"
 	father=70274
 	mother=54001
 	
@@ -5330,9 +5330,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="brave"
-	trait="misguided_warrior"
+	trait = "wroth_hidden"
+	trait = "brave_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70277
 	
 	838.1.1 = {
@@ -5355,9 +5355,9 @@
 	stewardship=4
 	religion="catholic"
 	culture="basque"
-	trait="craven"
-	trait="content"
-	trait="indulgent_wastrel"
+	trait = "craven_hidden"
+	trait = "content_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70300
 	807.1.1 = {
 		birth="807.1.1"
@@ -5376,9 +5376,9 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="poet"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "poet_hidden"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	father=168106
 	785.1.1 = {
 		birth="785.1.1"
@@ -5398,9 +5398,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="mystic"
-	trait="depressed"
-	trait="indulgent_wastrel"
+	trait = "mystic_hidden"
+	trait = "depressed_hidden"
+	trait = "indulgent_wastrel_hidden"
 	father=70300
 	
 	802.1.1 = {
@@ -5420,9 +5420,9 @@
 	stewardship=5
 	religion="catholic"
 	culture="basque"
-	trait="wroth"
-	trait="deceitful"
-	trait="elusive_shadow"
+	trait = "wroth_hidden"
+	trait = "deceitful_hidden"
+	trait = "elusive_shadow_hidden"
 	790.1.1 = {
 		birth="790.1.1"
 	}
@@ -5449,9 +5449,9 @@
 	stewardship=7
 	religion="catholic"
 	culture="basque"
-	trait="kind"
-	trait="ill"
-	trait="misguided_warrior"
+	trait = "kind_hidden"
+	trait = "ill_hidden"
+	trait = "misguided_warrior_hidden"
 	father=70302
 	mother=70301
 	
@@ -6053,7 +6053,7 @@
 	stewardship=6
 	religion="catholic"
 	culture="basque"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	father=106010
 	mother=1079
 	1042.1.1 = {
@@ -6070,7 +6070,7 @@
 	religion="catholic"
 	culture="basque"
 	father=106000
-	trait="bastard"
+	trait = "bastard_hidden"
 	1062.1.1 = {
 		birth="1062.1.1"
 	}

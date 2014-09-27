@@ -7,9 +7,9 @@
 	stewardship=8
 	religion="finnish_pagan"
 	culture=samoyed
-	trait="lustful"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth=yes
 	}
@@ -23,9 +23,9 @@
 	dynasty=1029142
 	religion="finnish_pagan"
 	culture=samoyed
-	trait="lustful"
-	trait="wroth"
-	trait="martial_cleric"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth=yes
 	}

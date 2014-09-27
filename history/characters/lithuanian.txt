@@ -327,7 +327,7 @@
 	stewardship=4
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=228017
 	1200.1.1={
 		birth="1200.1.1"
@@ -346,7 +346,7 @@
 	stewardship=7
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -360,7 +360,7 @@
 	dynasty=11
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="bastard"
+	trait = "bastard_hidden"
 	father=82198 
 	1150.1.1={
 		birth="1150.1.1"
@@ -379,8 +379,8 @@
 	stewardship=8
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="lisp"
-	trait="martial_cleric"
+	trait = "lisp_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -398,7 +398,7 @@
 	stewardship=4
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	father=144673
 	1150.1.1={
 		birth="1150.1.1"
@@ -417,8 +417,8 @@
 	stewardship=6
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -436,8 +436,8 @@
 	stewardship=6
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="patient"
-	trait="martial_cleric"
+	trait = "patient_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -455,7 +455,7 @@
 	stewardship=4
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="amateurish_plotter"
+	trait = "amateurish_plotter_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -473,9 +473,9 @@
 	stewardship=4
 	religion="baltic_pagan"
 	culture="lithuanian"
-	trait="diligent"
-	trait="cynical"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "cynical_hidden"
+	trait = "amateurish_plotter_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}

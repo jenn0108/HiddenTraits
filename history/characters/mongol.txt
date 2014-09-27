@@ -26,13 +26,13 @@
 	stewardship=9
 	religion="tengri_pagan"
 	culture="mongol"
-	trait="brave"
-	trait="ambitious"
-	trait="diligent"
-	trait="cruel"
-	trait="hunter"
-	trait="cavalry_leader"
-	trait="brilliant_strategist"
+	trait = "brave_hidden"
+	trait = "ambitious_hidden"
+	trait = "diligent_hidden"
+	trait = "cruel_hidden"
+	trait = "hunter_hidden"
+	trait = "cavalry_leader_hidden"
+	trait = "brilliant_strategist_hidden"
 	father=93055
 	mother=172003
 	1162.1.1={
@@ -214,10 +214,10 @@
 	culture="mongol"
 	father=125501
 	mother=172004
-	trait="skilled_tactician"
-	trait="hunter"
-	trait="kind"
-	trait="patient"
+	trait = "skilled_tactician_hidden"
+	trait = "hunter_hidden"
+	trait = "kind_hidden"
+	trait = "patient_hidden"
 	1181.1.1={
 		birth="1181.1.1"
 	}
@@ -250,7 +250,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			
 			new_character = {
@@ -277,7 +277,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -302,7 +302,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -327,7 +327,7 @@
 				attributes = {
 					martial = 11
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -352,7 +352,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -377,7 +377,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -735,8 +735,8 @@
 	religion="tengri_pagan"
 	culture="mongol"
 	father=478008
-	trait="drunkard"
-	trait="lustful"
+	trait = "drunkard_hidden"
+	trait = "lustful_hidden"
 	1271.1.2={
 		birth="1271.1.2"
 	}
@@ -932,9 +932,9 @@
 	stewardship=6
 	religion="shiite"
 	culture="mongol"
-	trait="amateurish_plotter"
-	trait="deceitful"
-	trait="proud"
+	trait = "amateurish_plotter_hidden"
+	trait = "deceitful_hidden"
+	trait = "proud_hidden"
 	father=478002
 	1302.1.1={
 		birth="1302.1.1"
@@ -954,9 +954,9 @@
 	stewardship=8
 	religion="shiite"
 	culture="mongol"
-	trait="skilled_tactician"
-	trait="brave"
-	trait="lustful"
+	trait = "skilled_tactician_hidden"
+	trait = "brave_hidden"
+	trait = "lustful_hidden"
 	father=34430
 	1274.1.1={
 		birth="1274.1.1"
@@ -979,8 +979,8 @@
 	stewardship=6
 	religion="shiite"
 	culture="mongol"
-	trait="thrifty_clerk"
-	trait="lustful"
+	trait = "thrifty_clerk_hidden"
+	trait = "lustful_hidden"
 	father=478002
 	1304.1.1={
 		birth="1304.1.1"
@@ -999,8 +999,8 @@
 	stewardship=5
 	religion="shiite"
 	culture="mongol"
-	trait="indulgent_wastrel"
-	trait="honest"
+	trait = "indulgent_wastrel_hidden"
+	trait = "honest_hidden"
 	father=478002
 	1307.1.1={
 		birth="1307.1.1"
@@ -1020,7 +1020,7 @@
 	stewardship=6
 	religion="shiite"
 	culture="mongol"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=478002
 	1300.1.1={
 		birth="1300.1.1"
@@ -1126,10 +1126,10 @@
 	martial=10
 	religion="tengri_pagan"
 	culture="mongol"
-	trait="skilled_tactician"
-	trait="cruel"
-	trait="zealous"
-	trait="ambitious"
+	trait = "skilled_tactician_hidden"
+	trait = "cruel_hidden"
+	trait = "zealous_hidden"
+	trait = "ambitious_hidden"
 	father=125520
 	mother=172010
 	1217.1.1={
@@ -1149,7 +1149,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -1174,7 +1174,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -1199,7 +1199,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -1224,7 +1224,7 @@
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -1249,7 +1249,7 @@
 				attributes = {
 					martial = 11
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -1274,7 +1274,7 @@
 				attributes = {
 					martial = 11
 				}
-				trait = brilliant_strategist
+				trait = "brilliant_strategist_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -1307,8 +1307,8 @@
 	stewardship=9
 	religion="shiite"
 	culture="mongol"
-	trait="thrifty_clerk"
-	trait="proud"
+	trait = "thrifty_clerk_hidden"
+	trait = "proud_hidden"
 	1284.1.1={
 		birth="1284.1.1"
 	}
@@ -1329,8 +1329,8 @@
 	stewardship=7
 	religion="shiite"
 	culture="mongol"
-	trait="misguided_warrior"
-	trait="wroth"
+	trait = "misguided_warrior_hidden"
+	trait = "wroth_hidden"
 	father=478012
 	mother=478014
 	1314.1.1={
@@ -1351,8 +1351,8 @@
 	stewardship=7
 	religion="shiite"
 	culture="mongol"
-	trait="amateurish_plotter"
-	trait="honest"
+	trait = "amateurish_plotter_hidden"
+	trait = "honest_hidden"
 	1294.1.1={
 		birth="1294.1.1"
 	}
@@ -1371,9 +1371,9 @@
 	stewardship=8
 	religion="shiite"
 	culture="mongol"
-	trait="ambitious"
-	trait="fortune_builder"
-	trait="diligent"
+	trait = "ambitious_hidden"
+	trait = "fortune_builder_hidden"
+	trait = "diligent_hidden"
 	father=478012
 	mother=478014
 	1310.1.1={
@@ -1394,10 +1394,10 @@
 	stewardship=6
 	religion="shiite"
 	culture="mongol"
-	trait="fortune_builder"
-	trait="wroth"
-	trait="cynical"
-	trait="charitable"
+	trait = "fortune_builder_hidden"
+	trait = "wroth_hidden"
+	trait = "cynical_hidden"
+	trait = "charitable_hidden"
 	father=478012
 	mother=478014
 	1316.1.1={
@@ -1417,8 +1417,8 @@
 	stewardship=6
 	religion="shiite"
 	culture="mongol"
-	trait="underhanded_rogue"
-	trait="gluttonous"
+	trait = "underhanded_rogue_hidden"
+	trait = "gluttonous_hidden"
 	father=478012
 	mother=478014
 	1313.1.1={
@@ -1452,10 +1452,10 @@
 	stewardship=5
 	religion="shiite"
 	culture="mongol"
-	trait="ambitious"
-	trait="amateurish_plotter"
-	trait="cynical"
-	trait="wroth"
+	trait = "ambitious_hidden"
+	trait = "amateurish_plotter_hidden"
+	trait = "cynical_hidden"
+	trait = "wroth_hidden"
 	father=478002
 	mother=478032
 	1320.1.1={
@@ -1491,11 +1491,11 @@
 	stewardship=7
 	religion="sunni"
 	culture="mongol"
-	trait="ambitious"
-	trait="intricate_webweaver"
-	trait="deceitful"
-	trait="patient"
-	trait="dwarf" #known as the Little
+	trait = "ambitious_hidden"
+	trait = "intricate_webweaver_hidden"
+	trait = "deceitful_hidden"
+	trait = "patient_hidden"
+	trait = "dwarf_hidden" #known as the Little
 	father=478001
 	1319.1.1={
 		birth="1319.1.1"
@@ -1515,10 +1515,10 @@
 	stewardship=4
 	religion="shiite"
 	culture="mongol"
-	trait="tough_soldier"
-	trait="envious"
-	trait="arbitrary"
-	trait="greedy"
+	trait = "tough_soldier_hidden"
+	trait = "envious_hidden"
+	trait = "arbitrary_hidden"
+	trait = "greedy_hidden"
 	father=478001
 	1321.1.1={
 		birth="1321.1.1"
@@ -1538,8 +1538,8 @@
 	stewardship=5
 	religion="shiite"
 	culture="mongol"
-	trait="flamboyant_schemer"
-	trait="deceitful"
+	trait = "flamboyant_schemer_hidden"
+	trait = "deceitful_hidden"
 	father=478002
 	1308.1.1={
 		birth="1308.1.1"
@@ -1559,9 +1559,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="mongol"
-	trait="tough_soldier"
-	trait="just"
-	trait="cynical"
+	trait = "tough_soldier_hidden"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
 	father=478004
 	1323.1.1={
 		birth="1323.1.1"
@@ -1581,7 +1581,7 @@
 	stewardship=5
 	religion="shiite"
 	culture="mongol"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=478005
 	1325.1.1={
 		birth="1325.1.1"
@@ -1601,9 +1601,9 @@
 	stewardship=4
 	religion="shiite"
 	culture="mongol"
-	trait="indulgent_wastrel"
-	trait="lustful"
-	trait="envious"
+	trait = "indulgent_wastrel_hidden"
+	trait = "lustful_hidden"
+	trait = "envious_hidden"
 	1321.1.1={
 		birth="1321.1.1"
 	}
@@ -1621,12 +1621,12 @@
 	stewardship=6
 	religion="shiite"
 	culture="mongol"
-	trait="patient"
-	trait="humble"
-	trait="cynical"
-	trait="diligent"
-	trait="content"
-	trait="intricate_webweaver"
+	trait = "patient_hidden"
+	trait = "humble_hidden"
+	trait = "cynical_hidden"
+	trait = "diligent_hidden"
+	trait = "content_hidden"
+	trait = "intricate_webweaver_hidden"
 	father=93307
 	mother=93308
 	1305.1.1={
@@ -1657,8 +1657,8 @@
 	stewardship=7
 	religion="shiite"
 	culture="mongol"
-	trait="naive_appeaser"
-	trait="stressed"
+	trait = "naive_appeaser_hidden"
+	trait = "stressed_hidden"
 	father=478003
 	1319.1.1={
 		birth="1319.1.1"
@@ -1963,12 +1963,12 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=6
-	trait="brave"
-	trait="strong"
-	trait="quick"
-	trait="diligent"
-	trait="brilliant_strategist"
-	trait="trickster"
+	trait = "brave_hidden"
+	trait = "strong_hidden"
+	trait = "quick_hidden"
+	trait = "diligent_hidden"
+	trait = "brilliant_strategist_hidden"
+	trait = "trickster_hidden"
 	1175.1.1={
 		birth="1175.1.1"
 	}
@@ -1991,9 +1991,9 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=5
-	trait="brave"
-	trait="cruel"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "cruel_hidden"
+	trait = "skilled_tactician_hidden"
 	1200.1.1={
 		birth="1200.1.1"
 	}
@@ -2012,8 +2012,8 @@
 	diplomacy=5
 	intrigue=5
 	stewardship=4
-	trait="skilled_tactician"
-	trait="brave"
+	trait = "skilled_tactician_hidden"
+	trait = "brave_hidden"
 	1160.1.1={
 		birth="1160.1.1"
 	}
@@ -3042,10 +3042,10 @@
 	culture="mongol"
 	father=125501
 	mother=172004
-	trait="skilled_tactician"
-	trait="wroth"
-	trait="just"
-	trait="drunkard"
+	trait = "skilled_tactician_hidden"
+	trait = "wroth_hidden"
+	trait = "just_hidden"
+	trait = "drunkard_hidden"
 	1183.1.1={
 		birth="1183.1.1"
 	}
@@ -3662,9 +3662,9 @@
 	dynasty=7371
 	religion="nestorian"
 	culture="mongol"
-	trait="skilled_tactician"
-	trait="brave"
-	trait="zealous"
+	trait = "skilled_tactician_hidden"
+	trait = "brave_hidden"
+	trait = "zealous_hidden"
 	1215.1.1={
 		birth="1215.1.1"
 	}
@@ -3683,8 +3683,8 @@
 	diplomacy=4
 	intrigue=6
 	stewardship=6
-	trait="skilled_tactician"
-	trait="cavalry_leader"
+	trait = "skilled_tactician_hidden"
+	trait = "cavalry_leader_hidden"
 	1160.1.1={
 		birth="1160.1.1"
 	}
@@ -3755,9 +3755,9 @@
 	culture="mongol"
 	father=125501
 	mother=172004
-	trait="skilled_tactician"
-	trait="gregarious"
-	trait="just"
+	trait = "skilled_tactician_hidden"
+	trait = "gregarious_hidden"
+	trait = "just_hidden"
 	1186.1.1={
 		birth="1186.1.1"
 	}
@@ -3833,7 +3833,7 @@
 	religion="nestorian"
 	culture="mongol"
 	female=yes
-	trait="ambitious"
+	trait = "ambitious_hidden"
 	1198.1.1={
 		birth="1198.1.1"
 	}

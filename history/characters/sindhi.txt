@@ -158,7 +158,7 @@
 	religion="sunni"
 	culture="sindhi"
 	father=188352
-	trait="grey_eminence"
+	trait = "grey_eminence_hidden"
 	1063.1.1={
 		birth=yes
 	}

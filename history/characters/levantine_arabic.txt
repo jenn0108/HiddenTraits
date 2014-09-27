@@ -31,7 +31,7 @@
 	dynasty=101685
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father = 20743
 	1053.1.1={
 		birth="1053.1.1"
@@ -49,7 +49,7 @@
 	dynasty=101685
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father = 20743
 	1055.1.1={
 		birth="1055.1.1"
@@ -283,10 +283,10 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="arbitrary"
-	trait="gluttonous"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "arbitrary_hidden"
+	trait = "gluttonous_hidden"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -304,8 +304,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -323,9 +323,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="lustful"
-	trait="honest"
-	trait="amateurish_plotter"
+	trait = "lustful_hidden"
+	trait = "honest_hidden"
+	trait = "amateurish_plotter_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -343,7 +343,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -361,9 +361,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="arbitrary"
-	trait="proud"
-	trait="flamboyant_schemer"
+	trait = "arbitrary_hidden"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -382,7 +382,7 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -401,7 +401,7 @@
 	stewardship=7
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	father=159271
 	1033.1.1={
 		birth="1033.1.1"
@@ -424,9 +424,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="proud"
-	trait="honest"
-	trait="scholarly_theologian"
+	trait = "proud_hidden"
+	trait = "honest_hidden"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -444,9 +444,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="chaste"
-	trait="cynical"
-	trait="martial_cleric"
+	trait = "chaste_hidden"
+	trait = "cynical_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -464,9 +464,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="slothful"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -484,8 +484,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="ill"
-	trait="flamboyant_schemer"
+	trait = "ill_hidden"
+	trait = "flamboyant_schemer_hidden"
 	father=20836
 	1037.1.1={
 		birth="1037.1.1"
@@ -504,9 +504,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charitable"
-	trait="hunchback"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "hunchback_hidden"
+	trait = "martial_cleric_hidden"
 	father=20796
 	1040.1.1={
 		birth="1040.1.1"
@@ -526,8 +526,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="greedy"
-	trait="skilled_tactician"
+	trait = "greedy_hidden"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -545,7 +545,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -563,8 +563,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -582,8 +582,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="humble"
-	trait="flamboyant_schemer"
+	trait = "humble_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -602,8 +602,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charitable"
-	trait="scholarly_theologian"
+	trait = "charitable_hidden"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -622,8 +622,8 @@
 	stewardship=4
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1032.1.1={
 		birth="1032.1.1"
 	}
@@ -641,8 +641,8 @@
 	stewardship=7
 	religion="druze"
 	culture="levantine_arabic"
-	trait="kind"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "tough_soldier_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -660,8 +660,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="temperate"
-	trait="amateurish_plotter"
+	trait = "temperate_hidden"
+	trait = "amateurish_plotter_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -679,8 +679,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="gluttonous"
-	trait="martial_cleric"
+	trait = "gluttonous_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -698,9 +698,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="cynical"
-	trait="stutter"
-	trait="underhanded_rogue"
+	trait = "cynical_hidden"
+	trait = "stutter_hidden"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -718,7 +718,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -737,8 +737,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -756,7 +756,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -775,9 +775,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="slothful"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "slothful_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -795,9 +795,9 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="lustful"
-	trait="wroth"
-	trait="underhanded_rogue"
+	trait = "lustful_hidden"
+	trait = "wroth_hidden"
+	trait = "underhanded_rogue_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -815,7 +815,7 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -833,7 +833,7 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -851,9 +851,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="arbitrary"
-	trait="envious"
-	trait="flamboyant_schemer"
+	trait = "arbitrary_hidden"
+	trait = "envious_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -871,7 +871,7 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -889,8 +889,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="envious"
-	trait="scholarly_theologian"
+	trait = "envious_hidden"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -908,8 +908,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="lustful"
-	trait="flamboyant_schemer"
+	trait = "lustful_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -927,8 +927,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="gluttonous"
-	trait="tough_soldier"
+	trait = "gluttonous_hidden"
+	trait = "tough_soldier_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -946,7 +946,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="flamboyant_schemer"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -964,8 +964,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="just"
-	trait="flamboyant_schemer"
+	trait = "just_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -983,7 +983,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=20836
 	1039.1.1={
 		birth="1039.1.1"
@@ -1002,7 +1002,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -1021,8 +1021,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="patient"
-	trait="scholarly_theologian"
+	trait = "patient_hidden"
+	trait = "scholarly_theologian_hidden"
 	1000.1.1={
 		birth="1000.1.1"
 	}
@@ -1040,8 +1040,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	1000.1.1={
 		birth="1000.1.1"
 	}
@@ -1059,7 +1059,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1077,7 +1077,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1123,8 +1123,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1142,7 +1142,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1160,8 +1160,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="cynical"
-	trait="skilled_tactician"
+	trait = "cynical_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1180,10 +1180,10 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="envious"
-	trait="wroth"
-	trait="hunchback"
-	trait="flamboyant_schemer"
+	trait = "envious_hidden"
+	trait = "wroth_hidden"
+	trait = "hunchback_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1201,8 +1201,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="arbitrary"
-	trait="underhanded_rogue"
+	trait = "arbitrary_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1220,8 +1220,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="lisp"
-	trait="martial_cleric"
+	trait = "lisp_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1239,7 +1239,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1257,7 +1257,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1275,8 +1275,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="hunchback"
-	trait="charismatic_negotiator"
+	trait = "hunchback_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1294,8 +1294,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="zealous"
-	trait="underhanded_rogue"
+	trait = "zealous_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1313,10 +1313,10 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="wroth"
-	trait="ill"
-	trait="harelip"
-	trait="underhanded_rogue"
+	trait = "wroth_hidden"
+	trait = "ill_hidden"
+	trait = "harelip_hidden"
+	trait = "underhanded_rogue_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1334,10 +1334,10 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="kind"
-	trait="harelip"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "kind_hidden"
+	trait = "harelip_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1355,9 +1355,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="envious"
-	trait="temperate"
-	trait="martial_cleric"
+	trait = "envious_hidden"
+	trait = "temperate_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1375,7 +1375,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1394,9 +1394,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="greedy"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "greedy_hidden"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1414,8 +1414,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1433,7 +1433,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1451,7 +1451,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1469,8 +1469,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1488,8 +1488,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="fortune_builder"
+	trait = "diligent_hidden"
+	trait = "fortune_builder_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1507,9 +1507,9 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="slothful"
-	trait="proud"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "proud_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1527,8 +1527,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="envious"
-	trait="tough_soldier"
+	trait = "envious_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1546,9 +1546,9 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="slothful"
-	trait="gluttonous"
-	trait="amateurish_plotter"
+	trait = "slothful_hidden"
+	trait = "gluttonous_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1567,7 +1567,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1585,8 +1585,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1604,7 +1604,7 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1622,8 +1622,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="just"
-	trait="martial_cleric"
+	trait = "just_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1641,8 +1641,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="inbred"
-	trait="skilled_tactician"
+	trait = "inbred_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1660,9 +1660,9 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="chaste"
-	trait="arbitrary"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "arbitrary_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1680,9 +1680,9 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="just"
-	trait="amateurish_plotter"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "amateurish_plotter_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1701,8 +1701,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="wroth"
-	trait="fortune_builder"
+	trait = "wroth_hidden"
+	trait = "fortune_builder_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1720,7 +1720,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1738,9 +1738,9 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="kind"
-	trait="temperate"
-	trait="skilled_tactician"
+	trait = "kind_hidden"
+	trait = "temperate_hidden"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1758,7 +1758,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1776,8 +1776,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="just"
-	trait="tough_soldier"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1795,7 +1795,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1813,8 +1813,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="gluttonous"
-	trait="martial_cleric"
+	trait = "gluttonous_hidden"
+	trait = "martial_cleric_hidden"
 	1150.1.1={
 		birth="1150.1.1"
 	}
@@ -1833,8 +1833,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="deceitful"
-	trait="martial_cleric"
+	trait = "deceitful_hidden"
+	trait = "martial_cleric_hidden"
 	father=3812
 	1031.1.2={
 		birth="1031.1.2"
@@ -1854,9 +1854,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charitable"
-	trait="skilled_tactician"
-	trait="ambitious"
+	trait = "charitable_hidden"
+	trait = "skilled_tactician_hidden"
+	trait = "ambitious_hidden"
 	father=3820
 	1029.1.2={
 		birth="1029.1.2"
@@ -1875,9 +1875,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="ambitious"
-	trait="thrifty_clerk"
-	trait="honest"
+	trait = "ambitious_hidden"
+	trait = "thrifty_clerk_hidden"
+	trait = "honest_hidden"
 	1313.1.1={
 		birth="1313.1.1"
 	}
@@ -1895,8 +1895,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="brave"
-	trait="skilled_tactician"
+	trait = "brave_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1914,8 +1914,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="humble"
-	trait="scholarly_theologian"
+	trait = "humble_hidden"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1934,7 +1934,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1952,9 +1952,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="deceitful"
-	trait="inbred"
-	trait="amateurish_plotter"
+	trait = "deceitful_hidden"
+	trait = "inbred_hidden"
+	trait = "amateurish_plotter_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1972,7 +1972,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -1990,8 +1990,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="proud"
-	trait="tough_soldier"
+	trait = "proud_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2010,8 +2010,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charitable"
-	trait="skilled_tactician"
+	trait = "charitable_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2029,9 +2029,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="just"
-	trait="cynical"
-	trait="flamboyant_schemer"
+	trait = "just_hidden"
+	trait = "cynical_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2049,9 +2049,9 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="gluttonous"
-	trait="cynical"
-	trait="skilled_tactician"
+	trait = "gluttonous_hidden"
+	trait = "cynical_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2069,9 +2069,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="proud"
-	trait="hunchback"
-	trait="charismatic_negotiator"
+	trait = "proud_hidden"
+	trait = "hunchback_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2089,7 +2089,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2107,9 +2107,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="patient"
-	trait="ill"
-	trait="tough_soldier"
+	trait = "patient_hidden"
+	trait = "ill_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2127,10 +2127,10 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="chaste"
-	trait="envious"
-	trait="inbred"
-	trait="flamboyant_schemer"
+	trait = "chaste_hidden"
+	trait = "envious_hidden"
+	trait = "inbred_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2148,8 +2148,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="honest"
-	trait="martial_cleric"
+	trait = "honest_hidden"
+	trait = "martial_cleric_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2167,9 +2167,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="kind"
-	trait="cynical"
-	trait="tough_soldier"
+	trait = "kind_hidden"
+	trait = "cynical_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2187,8 +2187,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="deceitful"
-	trait="tough_soldier"
+	trait = "deceitful_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2206,8 +2206,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="greedy"
-	trait="martial_cleric"
+	trait = "greedy_hidden"
+	trait = "martial_cleric_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2226,8 +2226,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="deceitful"
-	trait="charismatic_negotiator"
+	trait = "deceitful_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2246,8 +2246,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charitable"
-	trait="tough_soldier"
+	trait = "charitable_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2265,8 +2265,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="wroth"
-	trait="skilled_tactician"
+	trait = "wroth_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2284,8 +2284,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="flamboyant_schemer"
+	trait = "diligent_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2304,10 +2304,10 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="greedy"
-	trait="proud"
-	trait="temperate"
-	trait="skilled_tactician"
+	trait = "greedy_hidden"
+	trait = "proud_hidden"
+	trait = "temperate_hidden"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2325,7 +2325,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2343,8 +2343,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="humble"
-	trait="flamboyant_schemer"
+	trait = "humble_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2362,9 +2362,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="greedy"
-	trait="martial_cleric"
+	trait = "diligent_hidden"
+	trait = "greedy_hidden"
+	trait = "martial_cleric_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2382,9 +2382,9 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="honest"
-	trait="brave"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "brave_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2402,8 +2402,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="kind"
-	trait="flamboyant_schemer"
+	trait = "kind_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2421,9 +2421,9 @@
 	stewardship=5
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="patient"
-	trait="cynical"
-	trait="fortune_builder"
+	trait = "patient_hidden"
+	trait = "cynical_hidden"
+	trait = "fortune_builder_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2441,8 +2441,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="hunchback"
-	trait="tough_soldier"
+	trait = "hunchback_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2460,8 +2460,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="craven"
-	trait="thrifty_clerk"
+	trait = "craven_hidden"
+	trait = "thrifty_clerk_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2479,7 +2479,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2497,8 +2497,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="honest"
-	trait="underhanded_rogue"
+	trait = "honest_hidden"
+	trait = "underhanded_rogue_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2516,8 +2516,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="zealous"
-	trait="scholarly_theologian"
+	trait = "zealous_hidden"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2535,7 +2535,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2569,8 +2569,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="honest"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2588,8 +2588,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="wroth"
-	trait="tough_soldier"
+	trait = "wroth_hidden"
+	trait = "tough_soldier_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2607,7 +2607,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2626,7 +2626,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2644,7 +2644,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="fortune_builder"
+	trait = "fortune_builder_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2662,10 +2662,10 @@
 	stewardship=7
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="slothful"
-	trait="charitable"
-	trait="gluttonous"
-	trait="flamboyant_schemer"
+	trait = "slothful_hidden"
+	trait = "charitable_hidden"
+	trait = "gluttonous_hidden"
+	trait = "flamboyant_schemer_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -2684,11 +2684,11 @@
 	stewardship=10
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="diligent"
-	trait="patient"
-	trait="charitable"
-	trait="just"
-	trait="grey_eminence"
+	trait = "diligent_hidden"
+	trait = "patient_hidden"
+	trait = "charitable_hidden"
+	trait = "just_hidden"
+	trait = "grey_eminence_hidden"
 	father=226053
 	1138.1.1={
 		birth="1138.1.1"
@@ -2707,7 +2707,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="misguided_warrior"
+	trait = "misguided_warrior_hidden"
 	father=226000
 	1172.1.1={
 		birth="1172.1.1"
@@ -2727,7 +2727,7 @@
 	stewardship=3
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=226000
 	1170.1.1={
 		birth="1170.1.1"
@@ -2747,7 +2747,7 @@
 	stewardship=6
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=226053
 	1145.6.1={
 		birth="1145.6.1"
@@ -3561,7 +3561,7 @@
 	stewardship=7
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -3580,7 +3580,7 @@
 	stewardship=8
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	father=20822
 	1039.1.1={
 		birth="1039.1.1"
@@ -3600,8 +3600,8 @@
 	stewardship=7
 	religion="shiite"
 	culture="levantine_arabic"
-	trait="skilled_tactician"
-	trait="clubfooted"
+	trait = "skilled_tactician_hidden"
+	trait = "clubfooted_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -3619,7 +3619,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="levantine_arabic"
-	trait="charismatic_negotiator"
+	trait = "charismatic_negotiator_hidden"
 	father=20796
 	1039.1.1={
 		birth="1039.1.1"
@@ -5592,8 +5592,8 @@
 	religion="shiite"
 	culture="levantine_arabic"
 	father=159270
-	trait="martial_cleric"
-	trait="zealous"
+	trait = "martial_cleric_hidden"
+	trait = "zealous_hidden"
 	1010.1.1={
 		birth="1010.1.1"
 	}
@@ -5622,8 +5622,8 @@
 	religion="shiite"
 	culture="levantine_arabic"
 	father=159275
-	trait="martial_cleric"
-	trait="zealous"
+	trait = "martial_cleric_hidden"
+	trait = "zealous_hidden"
 	1015.1.1={
 		birth="1015.1.1"
 	}
@@ -5955,12 +5955,12 @@
 	stewardship=5
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="twin"
-	trait="diligent"
-	trait="honest"
-	trait="zealous"
-	trait="brave"
-	trait="mastermind_theologian"
+	trait = "twin_hidden"
+	trait = "diligent_hidden"
+	trait = "honest_hidden"
+	trait = "zealous_hidden"
+	trait = "brave_hidden"
+	trait = "mastermind_theologian_hidden"
 	10.1.1={
 		birth="10.1.1"
 	}
@@ -5979,10 +5979,10 @@
 	stewardship=6
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="kind"
-	trait="humble"
-	trait="zealous"
-	trait="mastermind_theologian"
+	trait = "kind_hidden"
+	trait = "humble_hidden"
+	trait = "zealous_hidden"
+	trait = "mastermind_theologian_hidden"
 	12.1.1={
 		birth="12.1.1"
 	}
@@ -6001,10 +6001,10 @@
 	stewardship=7
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="just"
-	trait="zealous"
-	trait="patient"
-	trait="mastermind_theologian"
+	trait = "just_hidden"
+	trait = "zealous_hidden"
+	trait = "patient_hidden"
+	trait = "mastermind_theologian_hidden"
 	12.1.1={
 		birth="12.1.1"
 	}
@@ -6019,7 +6019,7 @@
 	name="Aggai"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	17.1.1={
 		birth="17.1.1"
 	}
@@ -6032,7 +6032,7 @@
 	name="Mari"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	52.1.1={
 		birth="52.1.1"
 	}
@@ -6046,7 +6046,7 @@
 	name="Abris"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	66.1.1={
 		birth="66.1.1"
 	}
@@ -6059,7 +6059,7 @@
 	name="Abraham"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	108.1.1={
 		birth="108.1.1"
 	}
@@ -6072,7 +6072,7 @@
 	name="Ya'qob"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	140.1.1={
 		birth="140.1.1"
 	}
@@ -6085,7 +6085,7 @@
 	name="Ahadabui"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	147.1.1={
 		birth="147.1.1"
 	}
@@ -6098,7 +6098,7 @@
 	name="Shahlufa"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	153.1.1={
 		birth="153.1.1"
 	}
@@ -6111,7 +6111,7 @@
 	name="Papa"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	243.1.1={
 		birth="243.1.1"
 	}
@@ -6125,7 +6125,7 @@
 	name="Shem'on"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	243.1.1={
 		birth="243.1.1"
 	}
@@ -6139,7 +6139,7 @@
 	name="Shahdost"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	286.1.1={
 		birth="286.1.1"
 	}
@@ -6153,7 +6153,7 @@
 	name="Barba'shmin"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	301.1.1={
 		birth="301.1.1"
 	}
@@ -6167,7 +6167,7 @@
 	name="Tomarsa"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	307.1.1={
 		birth="307.1.1"
 	}
@@ -6181,7 +6181,7 @@
 	name="Qayyoma"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	323.1.1={
 		birth="323.1.1"
 	}
@@ -6194,7 +6194,7 @@
 	name="Isaac"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	350.1.1={
 		birth="350.1.1"
 	}
@@ -6207,7 +6207,7 @@
 	name="Ahha"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	360.1.1={
 		birth="360.1.1"
 	}
@@ -6220,7 +6220,7 @@
 	name="Yahballaha"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	369.1.1={
 		birth="369.1.1"
 	}
@@ -6233,7 +6233,7 @@
 	name="Ma'na"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	382.1.1={
 		birth="382.1.1"
 	}
@@ -6247,9 +6247,9 @@
 	name="Farbokht"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="greedy"
-	trait="deceitful"
-	trait="craven"
+	trait = "greedy_hidden"
+	trait = "deceitful_hidden"
+	trait = "craven_hidden"
 	390.1.1={
 		birth="390.1.1"
 	}
@@ -6262,7 +6262,7 @@
 	name="Dadisho'"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	388.1.1={
 		birth="388.1.1"
 	}
@@ -6276,7 +6276,7 @@
 	name="Babowai"
 	religion="zoroastrian"
 	culture="persian"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	407.1.1={
 		birth="407.1.1"
 	}
@@ -6293,7 +6293,7 @@
 	name="Barsauma"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	418.1.1={
 		birth="418.1.1"
 	}
@@ -6306,7 +6306,7 @@
 	name="Acacius"
 	religion="orthodox"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	425.1.1={
 		birth="425.1.1"
 	}
@@ -6322,7 +6322,7 @@
 	name="Babai"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="lustful" #Was married and abolished clerical celibacy
+	trait = "lustful_hidden" #Was married and abolished clerical celibacy
 	446.1.1={
 		birth="446.1.1"
 	}
@@ -6335,10 +6335,10 @@
 	name="Shila"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="lustful" #Was married with children
-	trait="proud"
-	trait="greedy"
-	trait="slothful"
+	trait = "lustful_hidden" #Was married with children
+	trait = "proud_hidden"
+	trait = "greedy_hidden"
+	trait = "slothful_hidden"
 	465.1.1={
 		birth="465.1.1"
 	}
@@ -6352,7 +6352,7 @@
 	#son-in-law to the above Shila
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="lustful" #Was married with children
+	trait = "lustful_hidden" #Was married with children
 	486.1.1={
 		birth="486.1.1"
 	}
@@ -6365,7 +6365,7 @@
 	name="Narsai"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	469.1.1={
 		birth="469.1.1"
 	}
@@ -6379,7 +6379,7 @@
 	name="Paul"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	475.1.1={
 		birth="475.1.1"
 	}
@@ -6392,7 +6392,7 @@
 	name="Aba"
 	religion="zoroastrian"
 	culture="persian"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	484.1.1={
 		birth="484.1.1"
 	}
@@ -6409,8 +6409,8 @@
 	name="Yousef"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="proud"
-	trait="lustful"
+	trait = "proud_hidden"
+	trait = "lustful_hidden"
 	503.1.1={
 		birth="503.1.1"
 	}
@@ -6423,7 +6423,7 @@
 	name="Ezekiel"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	519.1.1={
 		birth="519.1.1"
 	}
@@ -6436,7 +6436,7 @@
 	name="Isho'yahb"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	533.1.1={
 		birth="533.1.1"
 	}
@@ -6449,8 +6449,8 @@
 	name="Sabrisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="celibate" #a monastic hermit
+	trait = "scholarly_theologian_hidden"
+	trait = "celibate_hidden" #a monastic hermit
 	546.1.1={
 		birth="546.1.1"
 	}
@@ -6463,7 +6463,7 @@
 	name="Grwgari"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="lustful"
+	trait = "lustful_hidden"
 	553.1.1={
 		birth="553.1.1"
 	}
@@ -6476,7 +6476,7 @@
 	name="Gabriel"
 	religion="monophysite"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	542.1.1={
 		birth="542.1.1"
 	}
@@ -6489,7 +6489,7 @@
 	name="Babai"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	551.1.1={
 		birth="551.1.1"
 	}
@@ -6503,7 +6503,7 @@
 	name="Aba"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	560.1.1={
 		birth="560.1.1"
 	}
@@ -6517,7 +6517,7 @@
 	name="Isho'yahb"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	567.1.1={
 		birth="567.1.1"
 	}
@@ -6530,7 +6530,7 @@
 	name="Maremmeh"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	583.1.1={
 		birth="583.1.1"
 	}
@@ -6543,7 +6543,7 @@
 	name="Isho'yahb"
 	religion="nestorian"
 	culture="persian"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	590.1.1={
 		birth="590.1.1"
 	}
@@ -6556,7 +6556,7 @@
 	name="Giwargis"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	611.1.1={
 		birth="611.1.1"
 	}
@@ -6569,7 +6569,7 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	620.1.1={
 		birth="620.1.1"
 	}
@@ -6582,7 +6582,7 @@
 	name="Hnanisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	634.1.1={
 		birth="634.1.1"
 	}
@@ -6596,7 +6596,7 @@
 	name="Yohannan Garba"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	646.1.1={
 		birth="646.1.1"
 	}
@@ -6609,7 +6609,7 @@
 	name="Sliba-zkha"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	663.1.1={
 		birth="663.1.1"
 	}
@@ -6622,8 +6622,8 @@
 	name="Pethion"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="chaste"
+	trait = "scholarly_theologian_hidden"
+	trait = "chaste_hidden"
 	692.1.1={
 		birth="692.1.1"
 	}
@@ -6637,7 +6637,7 @@
 	name="Aba"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	648.1.1={
 		birth="648.1.1"
 	}
@@ -6650,7 +6650,7 @@
 	name="Surin"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	703.1.1={
 		birth="703.1.1"
 	}
@@ -6663,7 +6663,7 @@
 	name="Ya'qob"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	706.1.1={
 		birth="706.1.1"
 	}
@@ -6676,7 +6676,7 @@
 	name="Hnanisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	711.1.1={
 		birth="711.1.1"
 	}
@@ -6690,9 +6690,9 @@
 	name="Timai"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="greedy"
-	trait="flamboyant_schemer"
+	trait = "scholarly_theologian_hidden"
+	trait = "greedy_hidden"
+	trait = "flamboyant_schemer_hidden"
 	742.1.1={
 		birth="742.1.1"
 	}
@@ -6705,7 +6705,7 @@
 	name="Isho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	753.1.1={
 		birth="753.1.1"
 	}
@@ -6718,7 +6718,7 @@
 	name="Giwargis"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	727.1.1={
 		birth="727.1.1"
 	}
@@ -6731,7 +6731,7 @@
 	name="Sabrisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	766.1.1={
 		birth="766.1.1"
 	}
@@ -6744,7 +6744,7 @@
 	name="Abraham"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="chaste"
+	trait = "chaste_hidden"
 	781.1.1={
 		birth="781.1.1"
 	}
@@ -6757,7 +6757,7 @@
 	name="Theodosius"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	784.1.1={
 		birth="784.1.1"
 	}
@@ -6770,7 +6770,7 @@
 	name="Sargis"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	798.1.1={
 		birth="798.1.1"
 	}
@@ -6783,7 +6783,7 @@
 	name="Israel"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	813.1.1={
 		birth="813.1.1"
 	}
@@ -6797,7 +6797,7 @@
 	name="Enosh"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	824.1.1={
 		birth="824.1.1"
 	}
@@ -6810,7 +6810,7 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	832.1.1={
 		birth="832.1.1"
 	}
@@ -6823,9 +6823,9 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="mastermind_theologian"
-	trait="fair"
-	trait="gluttonous"
+	trait = "mastermind_theologian_hidden"
+	trait = "fair_hidden"
+	trait = "gluttonous_hidden"
 	848.1.1={
 		birth="848.1.1"
 	}
@@ -6838,7 +6838,7 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	829.1.1={
 		birth="829.1.1"
 	}
@@ -6851,7 +6851,7 @@
 	name="Abraham"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	854.1.1={
 		birth="854.1.1"
 	}
@@ -6864,10 +6864,10 @@
 	name="Emmanuel"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="chaste"
-	trait="proud"
-	trait="lustful"
+	trait = "scholarly_theologian_hidden"
+	trait = "chaste_hidden"
+	trait = "proud_hidden"
+	trait = "lustful_hidden"
 	888.1.1={
 		birth="888.1.1"
 	}
@@ -6880,8 +6880,8 @@
 	name="Israel"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="chaste"
+	trait = "scholarly_theologian_hidden"
+	trait = "chaste_hidden"
 	872.1.1={
 		birth="872.1.1"
 	}
@@ -6894,7 +6894,7 @@
 	name="'Abdisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	928.1.1={
 		birth="928.1.1"
 	}
@@ -6907,9 +6907,9 @@
 	name="Mari"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="ill"
-	trait="charitable"
+	trait = "scholarly_theologian_hidden"
+	trait = "ill_hidden"
+	trait = "charitable_hidden"
 	915.1.1={
 		birth="915.1.1"
 	}
@@ -6922,7 +6922,7 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	939.1.1={
 		birth="939.1.1"
 	}
@@ -6935,7 +6935,7 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	945.1.1={
 		birth="945.1.1"
 	}
@@ -6948,7 +6948,7 @@
 	name="Isho'yahb"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	947.1.1={
 		birth="947.1.1"
 	}
@@ -6961,8 +6961,8 @@
 	name="Eliya"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="infirm"
+	trait = "scholarly_theologian_hidden"
+	trait = "infirm_hidden"
 	966.1.1={
 		birth="966.1.1"
 	}
@@ -6975,7 +6975,7 @@
 	name="Yohannan"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	981.1.1={
 		birth="981.1.1"
 	}
@@ -6988,12 +6988,12 @@
 	name="Sabrisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1010.1.1={
 		birth="1010.1.1"
 	}
 	1010.1.1={
-		trait="maimed"
+		trait = "maimed_hidden"
 	}
 	1072.4.3={
 		death="1072.4.3"
@@ -7005,7 +7005,7 @@
 	name="'Abdisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1025.1.1={
 		birth="1025.1.1"
 	}
@@ -7019,9 +7019,9 @@
 	name="Makkikha"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="chaste"
-	trait="just"
+	trait = "scholarly_theologian_hidden"
+	trait = "chaste_hidden"
+	trait = "just_hidden"
 	1045.1.1={
 		birth="1045.1.1"
 	}
@@ -7035,7 +7035,7 @@
 	name="Eliya"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1067.1.1={
 		birth="1067.1.1"
 	}
@@ -7048,7 +7048,7 @@
 	name="Bar Sawma"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1070.1.1={
 		birth="1070.1.1"
 	}
@@ -7061,7 +7061,7 @@
 	name="'Abdisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1072.1.1={
 		birth="1072.1.1"
 	}
@@ -7074,8 +7074,8 @@
 	name="Isho'yahb"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="chaste"
+	trait = "scholarly_theologian_hidden"
+	trait = "chaste_hidden"
 	1092.1.1={
 		birth="1092.1.1"
 	}
@@ -7088,8 +7088,8 @@
 	name="Eliya"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="fair"
+	trait = "scholarly_theologian_hidden"
+	trait = "fair_hidden"
 	1142.1.1={
 		birth="1142.1.1"
 	}
@@ -7102,8 +7102,8 @@
 	name="Yahballaha"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
-	trait="greedy"
+	trait = "scholarly_theologian_hidden"
+	trait = "greedy_hidden"
 	1146.1.1={
 		birth="1146.1.1"
 	}
@@ -7116,7 +7116,7 @@
 	name="Sabrisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1166.1.1={
 		birth="1166.1.1"
 	}
@@ -7129,7 +7129,7 @@
 	name="Sabrisho'"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1166.1.1={
 		birth="1166.1.1"
 	}
@@ -7142,7 +7142,7 @@
 	name="Makkikha"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1196.1.1={
 		birth="1196.1.1"
 	}
@@ -7155,7 +7155,7 @@
 	name="Denha"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1216.1.1={
 		birth="1216.1.1"
 	}
@@ -7168,7 +7168,7 @@
 	name="Rabban Marcos"
 	religion="nestorian"
 	culture="mongol" #Either Öngüd or Turkic Uyghur descent
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1245.1.1={
 		birth="1245.1.1"
 	}
@@ -7185,7 +7185,7 @@
 	name="Timai"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1269.1.1={
 		birth="1269.1.1"
 	}
@@ -7198,7 +7198,7 @@
 	name="Denha"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1301.1.1={
 		birth="1301.1.1"
 	}
@@ -7212,7 +7212,7 @@
 	name="Shem'on"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1325.1.1={
 		birth="1325.1.1"
 	}
@@ -7225,7 +7225,7 @@
 	name="Shem'on"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1336.1.1={
 		birth="1336.1.1"
 	}
@@ -7238,7 +7238,7 @@
 	name="Eliya"
 	religion="nestorian"
 	culture="levantine_arabic"
-	trait="scholarly_theologian"
+	trait = "scholarly_theologian_hidden"
 	1363.1.1={
 		birth="1363.1.1"
 	}

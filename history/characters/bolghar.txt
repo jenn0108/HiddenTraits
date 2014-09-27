@@ -119,7 +119,7 @@
 	stewardship=7
 	religion="tengri_pagan"
 	culture=bolghar
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -334,9 +334,9 @@
 	stewardship=4
 	religion="tengri_pagan"
 	culture="bolghar"
-	trait="honest"
-	trait="just"
-	trait="tough_soldier"
+	trait = "honest_hidden"
+	trait = "just_hidden"
+	trait = "tough_soldier_hidden"
 	father=159141
 	910.1.1={
 		birth="910.1.1"
@@ -522,7 +522,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -544,7 +544,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {

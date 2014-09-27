@@ -4,8 +4,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189011
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	830.1.1={
 		birth=yes
 	}
@@ -19,8 +19,8 @@
 	dynasty=1043001
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	650.1.1={
 		birth="650.1.1"
 	}
@@ -35,8 +35,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189000
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	670.1.1={
 		birth="670.1.1"
 	}
@@ -51,8 +51,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189000
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	675.1.1={
 		birth="675.1.1"
 	}
@@ -67,8 +67,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189000
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	680.1.1={
 		birth="680.1.1"
 	}
@@ -83,8 +83,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189003
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	710.1.1={
 		birth="710.1.1"
 	}
@@ -99,8 +99,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189002
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	705.1.1={
 		birth="705.1.1"
 	}
@@ -115,8 +115,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189005
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	730.1.1={
 		birth="730.1.1"
 	}
@@ -131,8 +131,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189006
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	750.1.1={
 		birth="750.1.1"
 	}
@@ -147,8 +147,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189007
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	770.1.1={
 		birth="770.1.1"
 	}
@@ -163,8 +163,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189007
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	775.1.1={
 		birth="775.1.1"
 	}
@@ -179,8 +179,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189007
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	780.1.1={
 		birth="780.1.1"
 	}
@@ -195,8 +195,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189007
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	790.1.1={
 		birth="790.1.1"
 	}
@@ -211,8 +211,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189010
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	800.1.1={
 		birth="800.1.1"
 	}
@@ -227,8 +227,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189010
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	805.1.1={
 		birth="805.1.1"
 	}
@@ -243,8 +243,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189011
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	835.1.1={
 		birth="835.1.1"
 	}
@@ -258,8 +258,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=175010
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	850.1.1={
 		birth="850.1.1"
 	}
@@ -274,8 +274,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189014
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	880.1.1={
 		birth="880.1.1"
 	}
@@ -289,8 +289,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189014
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	885.1.1={
 		birth="885.1.1"
 	}
@@ -304,8 +304,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189014
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	890.1.1={
 		birth="890.1.1"
 	}
@@ -319,8 +319,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189015
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	866.1.1={
 		birth="866.1.1"
 	}
@@ -335,8 +335,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189019
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	885.1.1={
 		birth="885.1.1"
 	}
@@ -351,8 +351,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189019
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	890.1.1={
 		birth="890.1.1"
 	}
@@ -367,8 +367,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189019
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	900.1.1={
 		birth="900.1.1"
 	}
@@ -383,8 +383,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189019
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	910.1.1={
 		birth="910.1.1"
 	}
@@ -399,8 +399,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189023
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	940.1.1={
 		birth="940.1.1"
 	}
@@ -415,8 +415,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189023
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	950.1.1={
 		birth="950.1.1"
 	}
@@ -431,8 +431,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189025
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	980.1.1={
 		birth="980.1.1"
 	}
@@ -448,8 +448,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189026
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	1000.1.1={
 		birth="1000.1.1"
 	}
@@ -464,8 +464,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189026
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	1005.1.1={
 		birth="1005.1.1"
 	}
@@ -481,16 +481,16 @@
 	culture="sinhala"
 	father=189027
 	#mother=daughter of Jagatipala
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	1030.1.1={
 		birth="1030.1.1"
 	}
 	1056.1.1={
 		name="Vijayabahu"
-		trait="brilliant_strategist" 
-		trait="just" 
-		trait="zealous" 
+		trait = "brilliant_strategist_hidden" 
+		trait = "just_hidden" 
+		trait = "zealous_hidden" 
 	}
 	1111.1.1={
 		death="1111.1.1"
@@ -503,8 +503,8 @@
 	religion="buddhist"
 	culture="sinhala"
 	father=189029
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -520,8 +520,8 @@
 	culture="sinhala"
 	father=189027
 	#mother=daughter of Jagatipala
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	1035.1.1={
 		birth="1035.1.1"
 	}
@@ -535,8 +535,8 @@
 	dynasty=1043008
 	religion="hindu"
 	culture="tamil"
-	trait=kshatriya
-	trait=shaivist_hindu
+	trait = "kshatriya_hidden"
+	trait = "shaivist_hindu_hidden"
 	father=175080
 	850.1.1={
 		birth=yes
@@ -554,8 +554,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189156
 	830.1.1={
 		birth="830.1.1"
@@ -569,8 +569,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189151
 	mother=175105
 	850.1.1={
@@ -585,8 +585,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189151
 	mother=175105
 	851.1.1={
@@ -601,8 +601,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189151
 	mother=175105
 	852.1.1={
@@ -617,8 +617,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189151
 	mother=175105
 	853.1.1={
@@ -633,8 +633,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	760.1.1={
 		birth="760.1.1"
 	}
@@ -647,8 +647,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189154
 	780.1.1={
 		birth="780.1.1"
@@ -662,8 +662,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189155
 	800.1.1={
 		birth="800.1.1"
@@ -677,8 +677,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189153
 	900.1.1={
 		birth="900.1.1"
@@ -692,8 +692,8 @@
 	dynasty=1029192
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189157
 	940.1.1={
 		birth="940.1.1"
@@ -708,8 +708,8 @@
 	female=yes
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189158
 	964.1.1={
 		birth="964.1.1"
@@ -728,8 +728,8 @@
 	female=yes
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	834.1.1={
 		birth="834.1.1"
 	}
@@ -743,8 +743,8 @@
 	dynasty=1029191
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	#father=Kalinga descent; Eastern Ganga dynasty?
 	960.1.1={
 		birth="960.1.1"
@@ -761,8 +761,8 @@
 	dynasty=1029191
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189160
 	mother=189159
 	990.1.1={
@@ -777,8 +777,8 @@
 	dynasty=1029191
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189161
 	1020.1.1={
 		birth="1020.1.1"
@@ -792,8 +792,8 @@
 	dynasty=1029191
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189162
 	1050.1.1={
 		birth="1050.1.1"
@@ -807,8 +807,8 @@
 	dynasty=1029191
 	religion="buddhist"
 	culture="sinhala"
-	trait=kshatriya
-	trait=theravada_buddhist
+	trait = "kshatriya_hidden"
+	trait = "theravada_buddhist_hidden"
 	father=189163
 	1085.1.1={
 		birth="1085.1.1"

@@ -318,9 +318,9 @@
 	stewardship=7
 	religion="sunni"
 	culture="persian"
-	trait="charitable"
-	trait="kind"
-	trait="martial_cleric"
+	trait = "charitable_hidden"
+	trait = "kind_hidden"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -339,8 +339,8 @@
 	stewardship=7
 	religion="shiite"
 	culture="persian"
-	trait="thrifty_clerk"
-	trait="scholar"
+	trait = "thrifty_clerk_hidden"
+	trait = "scholar_hidden"
 	1021.1.1={
 		birth="1021.1.1"
 	}
@@ -358,7 +358,7 @@
 	stewardship=7
 	religion="shiite"
 	culture="persian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1031.1.1={
 		birth="1031.1.1"
 	}
@@ -376,7 +376,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="persian"
-	trait="martial_cleric"
+	trait = "martial_cleric_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -394,8 +394,8 @@
 	stewardship=4
 	religion="sunni"
 	culture="persian"
-	trait="deceitful"
-	trait="amateurish_plotter"
+	trait = "deceitful_hidden"
+	trait = "amateurish_plotter_hidden"
 	1039.1.1={
 		birth="1039.1.1"
 	}
@@ -413,8 +413,8 @@
 	stewardship=6
 	religion="sunni"
 	culture="persian"
-	trait="patient"
-	trait="skilled_tactician"
+	trait = "patient_hidden"
+	trait = "skilled_tactician_hidden"
 	1040.1.1={
 		birth="1040.1.1"
 	}
@@ -432,7 +432,7 @@
 	stewardship=4
 	religion="sunni"
 	culture="persian"
-	trait="underhanded_rogue"
+	trait = "underhanded_rogue_hidden"
 	1050.1.1={
 		birth="1050.1.1"
 	}
@@ -449,9 +449,9 @@
 	stewardship=8
 	religion="shiite"
 	culture="persian"
-	trait="diligent"
-	trait="zealous"
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "zealous_hidden"
+	trait = "skilled_tactician_hidden"
 	1129.1.1={
 		birth="1129.1.1"
 	}
@@ -469,12 +469,12 @@
 	stewardship=9
 	religion="sunni"
 	culture="persian"
-	trait="patient"
-	trait="genius"
-	trait="scholar"
-	trait="ambitious"
-	trait="just"
-	trait="grey_eminence"
+	trait = "patient_hidden"
+	trait = "genius_hidden"
+	trait = "scholar_hidden"
+	trait = "ambitious_hidden"
+	trait = "just_hidden"
+	trait = "grey_eminence_hidden"
 	1018.4.10={
 		birth="1018.4.10"
 	}
@@ -499,7 +499,7 @@
 	stewardship=4
 	religion="shiite"
 	culture="persian"
-	trait="thrifty_clerk"
+	trait = "thrifty_clerk_hidden"
 	father=20704
 	1057.1.1={
 		birth="1057.1.1"
@@ -518,7 +518,7 @@
 	stewardship=7
 	religion="sunni"
 	culture="persian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	1028.1.1={
 		birth="1028.1.1"
 	}
@@ -536,7 +536,7 @@
 	stewardship=8
 	religion="sunni"
 	culture="persian"
-	trait="tough_soldier"
+	trait = "tough_soldier_hidden"
 	father=41607
 	1060.1.1={
 		birth="1060.1.1"
@@ -555,8 +555,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="persian"
-	trait="zealous"
-	trait="elusive_shadow"
+	trait = "zealous_hidden"
+	trait = "elusive_shadow_hidden"
 	1035.1.2={
 		birth="1035.1.2"
 	}
@@ -574,8 +574,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="persian"
-	trait="lustful"
-	trait="charismatic_negotiator"
+	trait = "lustful_hidden"
+	trait = "charismatic_negotiator_hidden"
 	1048.1.2={
 		birth="1048.1.2"
 	}
@@ -593,9 +593,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="persian"
-	trait="ambitious"
-	trait="charismatic_negotiator"
-	trait="charitable"
+	trait = "ambitious_hidden"
+	trait = "charismatic_negotiator_hidden"
+	trait = "charitable_hidden"
 	1315.1.1={
 		birth="1315.1.1"
 	}
@@ -613,10 +613,10 @@
 	stewardship=5
 	religion="sunni"
 	culture="persian"
-	trait="ambitious"
-	trait="tough_soldier"
-	trait="kind"
-	trait="just"
+	trait = "ambitious_hidden"
+	trait = "tough_soldier_hidden"
+	trait = "kind_hidden"
+	trait = "just_hidden"
 	1296.1.1={
 		birth="1296.1.1"
 	}
@@ -634,9 +634,9 @@
 	stewardship=6
 	religion="sunni"
 	culture="persian"
-	trait="ambitious"
-	trait="skilled_tactician"
-	trait="envious"
+	trait = "ambitious_hidden"
+	trait = "skilled_tactician_hidden"
+	trait = "envious_hidden"
 	father=93268
 	1295.1.1={
 		birth="1295.1.1"
@@ -655,8 +655,8 @@
 	stewardship=5
 	religion="sunni"
 	culture="persian"
-	trait="tough_soldier"
-	trait="proud"
+	trait = "tough_soldier_hidden"
+	trait = "proud_hidden"
 	father=478022
 	1315.1.1={
 		birth="1315.1.1"
@@ -676,8 +676,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="persian"
-	trait="underhanded_rogue"
-	trait="wroth"
+	trait = "underhanded_rogue_hidden"
+	trait = "wroth_hidden"
 	father=478022
 	1317.1.1={
 		birth="1317.1.1"
@@ -696,8 +696,8 @@
 	stewardship=8
 	religion="sunni"
 	culture="persian"
-	trait="thrifty_clerk"
-	trait="greedy"
+	trait = "thrifty_clerk_hidden"
+	trait = "greedy_hidden"
 	1300.1.1={
 		birth="1300.1.1"
 	}
@@ -715,8 +715,8 @@
 	stewardship=7
 	religion="sunni"
 	culture="persian"
-	trait="misguided_warrior"
-	trait="wroth"
+	trait = "misguided_warrior_hidden"
+	trait = "wroth_hidden"
 	1305.1.1={
 		birth="1305.1.1"
 	}
@@ -735,10 +735,10 @@
 	stewardship=8
 	religion="shiite"
 	culture="persian"
-	trait="just"
-	trait="wroth"
-	trait="stressed"
-	trait="skilled_tactician"
+	trait = "just_hidden"
+	trait = "wroth_hidden"
+	trait = "stressed_hidden"
+	trait = "skilled_tactician_hidden"
 	father=45102
 	1300.1.1={
 		birth="1300.1.1"
@@ -758,10 +758,10 @@
 	stewardship=6
 	religion="shiite"
 	culture="persian"
-	trait="craven"
-	trait="content"
-	trait="wroth"
-	trait="charismatic_negotiator"
+	trait = "craven_hidden"
+	trait = "content_hidden"
+	trait = "wroth_hidden"
+	trait = "charismatic_negotiator_hidden"
 	father=45102
 	1301.1.1={
 		birth="1301.1.1"
@@ -780,7 +780,7 @@
 	stewardship=6
 	religion="shiite"
 	culture="persian"
-	trait="detached_priest"
+	trait = "detached_priest_hidden"
 	1275.1.1={
 		birth="1275.1.1"
 	}
@@ -798,9 +798,9 @@
 	stewardship=6
 	religion="zoroastrian"
 	culture="persian"
-	trait=diligent
-	trait=just
-	trait="skilled_tactician"
+	trait = "diligent_hidden"
+	trait = "just_hidden"
+	trait = "skilled_tactician_hidden"
 	845.1.1={
 		birth="845.1.1"
 	}
@@ -818,7 +818,7 @@
 	stewardship=7
 	religion="zoroastrian"
 	culture="persian"
-	trait=tough_soldier
+	trait = "tough_soldier_hidden"
 	849.1.1={
 		birth=yes
 	}
@@ -836,7 +836,7 @@
 	stewardship=4
 	religion=zoroastrian
 	culture=persian
-	trait=tough_soldier
+	trait = "tough_soldier_hidden"
 	father = 45110
 	830.1.1={
 		birth=yes
@@ -863,7 +863,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -885,7 +885,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -926,7 +926,7 @@
 	martial=7
 	religion="zoroastrian"
 	culture="persian"
-	trait="skilled_tactician"
+	trait = "skilled_tactician_hidden"
 	800.1.1={
 		birth="800.1.1"
 	}
@@ -2824,7 +2824,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -2846,7 +2846,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -2887,11 +2887,11 @@
 	religion="sunni"
 	culture="persian"
 	father = 163163
-	trait = brave
-	trait = wroth
-	trait = charitable
-	trait = ambitious
-	trait = brilliant_strategist
+	trait = "brave_hidden"
+	trait = "wroth_hidden"
+	trait = "charitable_hidden"
+	trait = "ambitious_hidden"
+	trait = "brilliant_strategist_hidden"
 	840.1.1={
 		birth=yes
 	}
@@ -2919,7 +2919,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -2941,7 +2941,7 @@
 				attributes = {
 					martial = 6
 				}
-				trait = skilled_tactician
+				trait = "skilled_tactician_hidden"
 			}
 			new_character = {
 				spawn_unit = {
@@ -3846,7 +3846,7 @@
 	dynasty=1042083 # Hunas
 	religion="hindu"
 	culture="persian"
-	trait="shaivist_hindu" 
+	trait = "shaivist_hindu_hidden" 
 	825.1.1={
 		birth=yes
 	}
