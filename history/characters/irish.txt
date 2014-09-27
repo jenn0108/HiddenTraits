@@ -4547,7 +4547,7 @@
 922 = {
 	name="Diarmait"
 	dynasty=9208
-	martial=30
+	martial=4
 	diplomacy=8
 	intrigue=8
 	stewardship=6
