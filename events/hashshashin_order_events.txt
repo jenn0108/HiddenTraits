@@ -71,12 +71,12 @@ narrative_event = {
 			}
 			health = 6
 			fertility = 0.8
-			trait = elusive_shadow
-			trait = patient
-			trait = zealous
-			trait = scholar
-			trait = chaste
-			trait = temperate
+			trait = elusive_shadow_hidden
+			trait = patient_hidden
+			trait = zealous_hidden
+			trait = scholar_hidden
+			trait = chaste_hidden
+			trait = temperate_hidden
 		}
 		new_character = {
 			set_character_flag = hassan_the_assassin

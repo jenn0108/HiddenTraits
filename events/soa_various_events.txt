@@ -1803,15 +1803,15 @@ character_event = {
 						stewardship = 4
 						learning = 10
 					}
-					trait = ambitious
-					trait = cruel
-					trait = envious
-					trait = cynical
-					trait = deceitful
-					trait = fair
-					trait = mystic
-					trait = brilliant_strategist
-					trait = flanker
+					trait = ambitious_hidden
+					trait = cruel_hidden
+					trait = envious_hidden
+					trait = cynical_hidden
+					trait = deceitful_hidden
+					trait = fair_hidden
+					trait = mystic_hidden
+					trait = brilliant_strategist_hidden
+					trait = flanker_hidden
 				}
 				new_character = {
 					spawn_unit = {
@@ -1854,15 +1854,15 @@ character_event = {
 						stewardship = 3
 						learning = 8
 					}
-					trait = ambitious
-					trait = cruel
-					trait = envious
-					trait = lustful
-					trait = deceitful
-					trait = fair
-					trait = hedonist
-					trait = grey_eminence
-					trait = inspiring_leader
+					trait = ambitious_hidden
+					trait = cruel_hidden
+					trait = envious_hidden
+					trait = lustful_hidden
+					trait = deceitful_hidden
+					trait = fair_hidden
+					trait = hedonist_hidden
+					trait = grey_eminence_hidden
+					trait = inspiring_leader_hidden
 				}
 				new_character = {
 					spawn_unit = {
@@ -1905,16 +1905,16 @@ character_event = {
 						stewardship = 8
 						learning = 12
 					}
-					trait = ambitious
-					trait = cruel
-					trait = lustful
-					trait = envious
-					trait = genius
-					trait = deceitful
-					trait = fair
-					trait = mystic
-					trait = elusive_shadow
-					trait = defensive_leader
+					trait = ambitious_hidden
+					trait = cruel_hidden
+					trait = lustful_hidden
+					trait = envious_hidden
+					trait = genius_hidden
+					trait = deceitful_hidden
+					trait = fair_hidden
+					trait = mystic_hidden
+					trait = elusive_shadow_hidden
+					trait = defensive_leader_hidden
 				}
 				new_character = {
 					spawn_unit = {
@@ -2019,13 +2019,13 @@ character_event = {
 				stewardship = 6
 				learning = 10
 			}
-			trait = cruel
-			trait = envious
-			trait = quick
-			trait = diligent
-			trait = patient
-			trait = scholar
-			trait = mastermind_theologian
+			trait = cruel_hidden
+			trait = envious_hidden
+			trait = quick_hidden
+			trait = diligent_hidden
+			trait = patient_hidden
+			trait = scholar_hidden
+			trait = mastermind_theologian_hidden
 		}
 		
 		hidden_tooltip = {
@@ -2086,13 +2086,13 @@ character_event = {
 				stewardship = 6
 				learning = 10
 			}
-			trait = cruel
-			trait = envious
-			trait = quick
-			trait = diligent
-			trait = patient
-			trait = scholar
-			trait = mastermind_theologian
+			trait = cruel_hidden
+			trait = envious_hidden
+			trait = quick_hidden
+			trait = diligent_hidden
+			trait = patient_hidden
+			trait = scholar_hidden
+			trait = mastermind_theologian_hidden
 		}
 		
 		hidden_tooltip = {

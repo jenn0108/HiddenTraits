@@ -231,7 +231,7 @@ character_event = {
 			religion = jewish
 			female = no
 			age = 30
-			trait = charismatic_negotiator
+			trait = charismatic_negotiator_hidden
 			attributes = {
 				diplomacy = 10
 			}
@@ -286,7 +286,7 @@ character_event = {
 			religion = jewish
 			female = no
 			age = 30
-			trait = fortune_builder
+			trait = fortune_builder_hidden
 			attributes = {
 				stewardship = 10
 			}
@@ -341,7 +341,7 @@ character_event = {
 			religion = jewish
 			female = no
 			age = 30
-			trait = intricate_webweaver
+			trait = intricate_webweaver_hidden
 			attributes = {
 				intrigue = 10
 			}
@@ -396,7 +396,7 @@ character_event = {
 			religion = jewish
 			female = no
 			age = 30
-			trait = charismatic_negotiator
+			trait = charismatic_negotiator_hidden
 			attributes = {
 				diplomacy = 10
 			}
@@ -451,7 +451,7 @@ character_event = {
 			religion = jewish
 			female = no
 			age = 30
-			trait = fortune_builder
+			trait = fortune_builder_hidden
 			attributes = {
 				stewardship = 10
 			}
@@ -506,7 +506,7 @@ character_event = {
 			religion = jewish
 			female = no
 			age = 30
-			trait = intricate_webweaver
+			trait = intricate_webweaver_hidden
 			attributes = {
 				intrigue = 10
 			}

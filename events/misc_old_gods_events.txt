@@ -297,10 +297,10 @@ character_event = {
 				attributes = {
 					martial = 8
 				}
-				trait = brave
-				trait = zealous
-				trait = brilliant_strategist
-				trait = holy_warrior
+				trait = brave_hidden
+				trait = zealous_hidden
+				trait = brilliant_strategist_hidden
+				trait = holy_warrior_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -986,7 +986,7 @@ narrative_event = {
 					culture = PREV
 					female = no
 					age = 25
-					trait = peasant_leader
+					trait = peasant_leader_hidden
 				}
 				new_character = {
 					usurp_title_plus_barony_if_unlanded = PREV

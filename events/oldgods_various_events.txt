@@ -2639,8 +2639,8 @@ character_event = {
 			age = 35
 			religion = ROOT
 			culture = ROOT
-			trait = mystic
-			trait = scholarly_theologian
+			trait = mystic_hidden
+			trait = scholarly_theologian_hidden
 		}
 		new_character = {
 			give_minor_title = title_volva
@@ -2692,9 +2692,9 @@ character_event = {
 			age = 22
 			religion = ROOT
 			culture = ROOT
-			trait = mystic
-			trait = scholarly_theologian
-			trait = fair
+			trait = mystic_hidden
+			trait = scholarly_theologian_hidden
+			trait = fair_hidden
 		}
 		new_character = {
 			give_minor_title = title_volva
@@ -2746,9 +2746,9 @@ character_event = {
 			age = 53
 			religion = ROOT
 			culture = ROOT
-			trait = mystic
-			trait = scholarly_theologian
-			trait = ugly
+			trait = mystic_hidden
+			trait = scholarly_theologian_hidden
+			trait = ugly_hidden
 		}
 		new_character = {
 			give_minor_title = title_volva

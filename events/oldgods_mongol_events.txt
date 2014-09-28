@@ -1196,10 +1196,10 @@ character_event = {
 			age = 26
 			religion = ROOT
 			culture = mongol
-			trait = diligent
-			trait = quick
-			trait = brave
-			trait = brilliant_strategist
+			trait = diligent_hidden
+			trait = quick_hidden
+			trait = brave_hidden
+			trait = brilliant_strategist_hidden
 			attributes = {
 				martial = 10
 			}

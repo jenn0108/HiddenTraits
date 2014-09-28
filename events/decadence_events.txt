@@ -62,7 +62,7 @@ character_event = {
 					attributes = {
 						martial = 7
 					}
-					trait = skilled_tactician
+					trait = skilled_tactician_hidden
 				}
 				
 				new_character = {
@@ -107,7 +107,7 @@ character_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						set_father = PREV
@@ -132,7 +132,7 @@ character_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						set_father = PREV
@@ -157,7 +157,7 @@ character_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -180,7 +180,7 @@ character_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -203,7 +203,7 @@ character_event = {
 						attributes = {
 							martial = 7
 						}
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {

@@ -52,11 +52,11 @@ narrative_event = {
 			}
 			health = 6
 			fertility = 0.7
-			trait = brilliant_strategist
-			trait = wroth
-			trait = cruel
-			trait = proud
-			trait = zealous
+			trait = brilliant_strategist_hidden
+			trait = wroth_hidden
+			trait = cruel_hidden
+			trait = proud_hidden
+			trait = zealous_hidden
 		}
 		new_character = {
 			e_il-khanate = {
@@ -82,11 +82,11 @@ narrative_event = {
 			}
 			health = 6
 			fertility = 0.7
-			trait = brilliant_strategist
-			trait = diligent
-			trait = humble
-			trait = gregarious
-			trait = just
+			trait = brilliant_strategist_hidden
+			trait = diligent_hidden
+			trait = humble_hidden
+			trait = gregarious_hidden
+			trait = just_hidden
 		}
 		new_character = {
 			e_golden_horde = {
@@ -153,7 +153,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -178,7 +178,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -203,7 +203,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -229,7 +229,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -254,7 +254,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -279,7 +279,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -304,7 +304,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -329,7 +329,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -354,7 +354,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -380,7 +380,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -405,7 +405,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -430,7 +430,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -456,7 +456,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -481,7 +481,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -506,7 +506,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -532,7 +532,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -557,7 +557,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -582,7 +582,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -611,7 +611,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -636,7 +636,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -661,7 +661,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -689,7 +689,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -714,7 +714,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -739,7 +739,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1084,7 +1084,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1109,7 +1109,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1134,7 +1134,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1160,7 +1160,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1185,7 +1185,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1210,7 +1210,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1236,7 +1236,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1261,7 +1261,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1286,7 +1286,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1312,7 +1312,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1337,7 +1337,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1362,7 +1362,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1387,7 +1387,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1412,7 +1412,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1437,7 +1437,7 @@ narrative_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1464,7 +1464,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1489,7 +1489,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1514,7 +1514,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1542,7 +1542,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1567,7 +1567,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1592,7 +1592,7 @@ narrative_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1776,7 +1776,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1801,7 +1801,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1826,7 +1826,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1854,7 +1854,7 @@ character_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1879,7 +1879,7 @@ character_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1904,7 +1904,7 @@ character_event = {
 				attributes = {
 					martial = 12
 				}
-				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1968,7 +1968,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -1993,7 +1993,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -2018,7 +2018,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		new_character = {
 			spawn_unit = {
@@ -5047,12 +5047,12 @@ character_event = {
 			}
 			health = 7
 			fertility = 0.8
-			trait = brilliant_strategist
-			trait = wroth
-			trait = cruel
-			trait = proud
-			trait = zealous
-			trait = ambitious
+			trait = brilliant_strategist_hidden
+			trait = wroth_hidden
+			trait = cruel_hidden
+			trait = proud_hidden
+			trait = zealous_hidden
+			trait = ambitious_hidden
 		}
 		new_character = {
 			character_event = {
@@ -5087,12 +5087,12 @@ character_event = {
 				}
 				health = 7
 				fertility = 0.8
-				trait = brilliant_strategist
-				trait = wroth
-				trait = cruel
-				trait = proud
-				trait = zealous
-				trait = ambitious
+				trait = brilliant_strategist_hidden
+				trait = wroth_hidden
+				trait = cruel_hidden
+				trait = proud_hidden
+				trait = zealous_hidden
+				trait = ambitious_hidden
 			}
 		}
 	}
@@ -6039,12 +6039,12 @@ character_event = {
 			}
 			health = 6
 			fertility = 0.8
-			trait = brilliant_strategist
-			trait = diligent
-			trait = ambitious
-			trait = proud
-			trait = quick
-			trait = clubfooted
+			trait = brilliant_strategist_hidden
+			trait = diligent_hidden
+			trait = ambitious_hidden
+			trait = proud_hidden
+			trait = quick_hidden
+			trait = clubfooted_hidden
 		}
 		
 		new_character = {
@@ -6081,12 +6081,12 @@ character_event = {
 				}
 				health = 6
 				fertility = 0.8
-				trait = brilliant_strategist
-				trait = diligent
-				trait = ambitious
-				trait = proud
-				trait = quick
-				trait = clubfooted
+				trait = brilliant_strategist_hidden
+				trait = diligent_hidden
+				trait = ambitious_hidden
+				trait = proud_hidden
+				trait = quick_hidden
+				trait = clubfooted_hidden
 			}
 		}
 	}
@@ -6449,7 +6449,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6461,7 +6461,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6473,7 +6473,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6485,7 +6485,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6497,7 +6497,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6669,7 +6669,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6681,7 +6681,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6693,7 +6693,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6705,7 +6705,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -6717,7 +6717,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		
 		create_character = {
@@ -7338,11 +7338,11 @@ character_event = {
 			}
 			health = 6
 			fertility = 0.8
-			trait = brilliant_strategist
-			trait = diligent
-			trait = ambitious
-			trait = proud
-			trait = quick
+			trait = brilliant_strategist_hidden
+			trait = diligent_hidden
+			trait = ambitious_hidden
+			trait = proud_hidden
+			trait = quick_hidden
 		}
 		
 		new_character = {
@@ -7379,11 +7379,11 @@ character_event = {
 				}
 				health = 6
 				fertility = 0.8
-				trait = brilliant_strategist
-				trait = diligent
-				trait = ambitious
-				trait = proud
-				trait = quick
+				trait = brilliant_strategist_hidden
+				trait = diligent_hidden
+				trait = ambitious_hidden
+				trait = proud_hidden
+				trait = quick_hidden
 			}
 		}
 	}
@@ -7720,7 +7720,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7732,7 +7732,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7744,7 +7744,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7756,7 +7756,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7768,7 +7768,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7940,7 +7940,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7952,7 +7952,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7964,7 +7964,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7976,7 +7976,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		create_character = {
 			random_traits = yes
@@ -7988,7 +7988,7 @@ character_event = {
 			attributes = {
 				martial = 12
 			}
-			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
 		}
 		
 		create_character = {

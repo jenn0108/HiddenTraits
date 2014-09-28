@@ -201,7 +201,7 @@ character_event = {
 			}
 			create_character = {
 				age = 0
-				trait = bastard
+				trait = bastard_hidden
 			}
 			new_character = {
 				set_mother = PREV
@@ -376,7 +376,7 @@ character_event = {
 				}
 				create_character = {
 					age = 0
-					trait = bastard
+					trait = bastard_hidden
 				}
 				opinion = {
 					modifier = opinion_saved_me_and_child
@@ -443,7 +443,7 @@ character_event = {
 			}
 			create_character = {
 				age = 0
-				trait = bastard
+				trait = bastard_hidden
 			}
 		}
 	}

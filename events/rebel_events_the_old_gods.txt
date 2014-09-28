@@ -104,8 +104,8 @@ province_event = {
 			attributes = {
 				martial = 5
 			}
-			trait = peasant_leader
-			trait = tough_soldier
+			trait = peasant_leader_hidden
+			trait = tough_soldier_hidden
 		}
 		
 		new_character = {
@@ -141,8 +141,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -166,8 +166,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 31
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -206,8 +206,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -231,8 +231,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 31
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -271,8 +271,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -296,8 +296,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 31
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -336,8 +336,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -361,8 +361,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 31
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -400,8 +400,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -424,8 +424,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 31
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -462,8 +462,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -486,8 +486,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 31
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -640,8 +640,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -664,8 +664,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -689,8 +689,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 31
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -716,8 +716,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -740,8 +740,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -765,8 +765,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 31
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -792,8 +792,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -816,8 +816,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -841,8 +841,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 31
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -868,8 +868,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -892,8 +892,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -917,8 +917,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 31
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -944,8 +944,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -967,8 +967,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -991,8 +991,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 31
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1017,8 +1017,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1040,8 +1040,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1064,8 +1064,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 31
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1174,10 +1174,10 @@ province_event = {
 				martial = 7
 				learning = 7
 			}
-			trait = heresiarch
-			trait = zealous
-			trait = scholar
-			trait = skilled_tactician
+			trait = heresiarch_hidden
+			trait = zealous_hidden
+			trait = scholar_hidden
+			trait = skilled_tactician_hidden
 		}
 		
 		new_character = {
@@ -1215,8 +1215,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -1240,8 +1240,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -1280,8 +1280,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -1305,8 +1305,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -1344,8 +1344,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -1368,8 +1368,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -1535,8 +1535,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1559,8 +1559,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1584,8 +1584,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 23
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1611,8 +1611,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1635,8 +1635,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1660,8 +1660,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 23
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1687,8 +1687,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1710,8 +1710,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1734,8 +1734,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 23
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -1864,12 +1864,12 @@ province_event = {
 				martial = 8
 				diplomacy = 9
 			}
-			trait = just
-			trait = brave
-			trait = gregarious
-			trait = ambitious
-			trait = brilliant_strategist
-			trait = inspiring_leader
+			trait = just_hidden
+			trait = brave_hidden
+			trait = gregarious_hidden
+			trait = ambitious_hidden
+			trait = brilliant_strategist_hidden
+			trait = inspiring_leader_hidden
 		}
 		
 		new_character = {
@@ -1911,7 +1911,7 @@ province_event = {
 				attributes = {
 					martial = 7
 				}
-				trait = skilled_tactician
+				trait = skilled_tactician_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -1940,7 +1940,7 @@ province_event = {
 				attributes = {
 					martial = 7
 				}
-				trait = skilled_tactician
+				trait = skilled_tactician_hidden
 			}
 			new_character = {
 				spawn_unit = {
@@ -2116,7 +2116,7 @@ province_event = {
 							attributes = {
 								martial = 7
 							}
-							trait = skilled_tactician
+							trait = skilled_tactician_hidden
 						}
 						new_character = {
 							spawn_unit = {
@@ -2144,7 +2144,7 @@ province_event = {
 							attributes = {
 								martial = 7
 							}
-							trait = skilled_tactician
+							trait = skilled_tactician_hidden
 						}
 						new_character = {
 							spawn_unit = {
@@ -2172,7 +2172,7 @@ province_event = {
 							attributes = {
 								martial = 7
 							}
-							trait = skilled_tactician
+							trait = skilled_tactician_hidden
 						}
 						new_character = {
 							spawn_unit = {
@@ -2284,9 +2284,9 @@ province_event = {
 				martial = 7
 				learning = 7
 			}
-			trait = zealous
-			trait = scholar
-			trait = skilled_tactician
+			trait = zealous_hidden
+			trait = scholar_hidden
+			trait = skilled_tactician_hidden
 		}
 		
 		new_character = {
@@ -2324,8 +2324,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -2349,8 +2349,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -2389,8 +2389,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -2414,8 +2414,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -2453,8 +2453,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -2477,8 +2477,8 @@ province_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = peasant_leader
-						trait = tough_soldier
+						trait = peasant_leader_hidden
+						trait = tough_soldier_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -2659,8 +2659,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2683,8 +2683,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2708,8 +2708,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 23
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2735,8 +2735,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2759,8 +2759,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2784,8 +2784,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 23
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2811,8 +2811,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 25
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2834,8 +2834,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 30
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {
@@ -2858,8 +2858,8 @@ province_event = {
 									culture = THIS
 									female = no
 									age = 23
-									trait = peasant_leader
-									trait = tough_soldier
+									trait = peasant_leader_hidden
+									trait = tough_soldier_hidden
 								}
 								new_character = {
 									spawn_unit = {

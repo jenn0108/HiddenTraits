@@ -1793,14 +1793,14 @@ narrative_event = {
 			}
 			health = 6
 			fertility = 0.5
-			trait = brilliant_strategist
-			trait = sayyid
-			trait = hajjaj
-			trait = hafiz
-			trait = patient
-			trait = zealous
-			trait = scholar
-			trait = temperate
+			trait = brilliant_strategist_hidden
+			trait = sayyid_hidden
+			trait = hajjaj_hidden
+			trait = hafiz_hidden
+			trait = patient_hidden
+			trait = zealous_hidden
+			trait = scholar_hidden
+			trait = temperate_hidden
 		}
 		new_character = {
 			wealth = 500

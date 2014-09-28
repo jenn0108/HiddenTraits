@@ -4649,9 +4649,9 @@ narrative_event = {
 					age = 3
 					health = 6.5
 					fertility = 0.6
-					trait = sayyid
-					trait = quick
-					trait = fair
+					trait = sayyid_hidden
+					trait = quick_hidden
+					trait = fair_hidden
 					attributes = {
 						learning = 1
 						diplomacy = 2
@@ -4678,7 +4678,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 30
-						trait = brilliant_strategist
+						trait = brilliant_strategist_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4699,7 +4699,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 27
-						trait = brilliant_strategist
+						trait = brilliant_strategist_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4720,7 +4720,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 25
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4741,7 +4741,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 23
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4762,7 +4762,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 27
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4783,7 +4783,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 24
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4804,7 +4804,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 32
-						trait = brilliant_strategist
+						trait = brilliant_strategist_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4826,7 +4826,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 25
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {
@@ -4848,7 +4848,7 @@ narrative_event = {
 						culture = THIS
 						female = no
 						age = 28
-						trait = skilled_tactician
+						trait = skilled_tactician_hidden
 					}
 					new_character = {
 						spawn_unit = {

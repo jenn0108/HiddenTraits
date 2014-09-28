@@ -10093,7 +10093,7 @@ At <mod>\events\roi_feast_events.txt [letter_event\option\FROM\letter_event\tool
 "EVTTOOLTIP1_RoI_1001" is not a valid LocalizationKey.
 
 At <mod>\events\roi_guru_events.txt [character_event\immediate\random_list\5\create_character\trait] (Line 194, column 6):
-"dutiful_cleric" is not a valid Trait.
+"dutiful_cleric_hidden" is not a valid Trait.
 
 At <mod>\events\roi_various_events.txt [character_event\option\name] (Line 3788, column 3):
 "EVTOPTA_SoA_400" is not a valid LocalizationKey.

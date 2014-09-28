@@ -842,7 +842,7 @@ character_event = {
 			}	
 			create_character = {
 				age = 0
-				trait = bastard
+				trait = bastard_hidden
 			}
 			new_character = {
 				set_father = prev

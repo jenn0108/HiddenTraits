@@ -183,13 +183,13 @@ character_event = {
 					dynasty = none
 					female = no
 					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
+					trait = tough_soldier_hidden
+					trait = brave_hidden
+					trait = strong_hidden
+					trait = zealous_hidden
+					trait = hunter_hidden
+					trait = wroth_hidden
+					trait = berserker_hidden
 				}
 				new_character = {
 					character_event = { id = TOG.4000 }
@@ -388,13 +388,13 @@ character_event = {
 					dynasty = none
 					female = no
 					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
+					trait = tough_soldier_hidden
+					trait = brave_hidden
+					trait = strong_hidden
+					trait = zealous_hidden
+					trait = hunter_hidden
+					trait = wroth_hidden
+					trait = berserker_hidden
 				}
 				new_character = {
 					character_event = { id = TOG.4005 }
@@ -593,13 +593,13 @@ character_event = {
 					dynasty = none
 					female = no
 					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
+					trait = tough_soldier_hidden
+					trait = brave_hidden
+					trait = strong_hidden
+					trait = zealous_hidden
+					trait = hunter_hidden
+					trait = wroth_hidden
+					trait = berserker_hidden
 				}
 				new_character = {
 					character_event = { id = TOG.4015 }
@@ -798,13 +798,13 @@ character_event = {
 					dynasty = none
 					female = no
 					age = 28
-					trait = tough_soldier
-					trait = brave
-					trait = strong
-					trait = zealous
-					trait = hunter
-					trait = wroth
-					trait = berserker
+					trait = tough_soldier_hidden
+					trait = brave_hidden
+					trait = strong_hidden
+					trait = zealous_hidden
+					trait = hunter_hidden
+					trait = wroth_hidden
+					trait = berserker_hidden
 				}
 				new_character = {
 					character_event = { id = TOG.4025 }

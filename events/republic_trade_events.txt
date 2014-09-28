@@ -2995,7 +2995,7 @@ character_event = {
 				age = 24
 				religion = FROM
 				culture = FROM
-				trait = fair
+				trait = fair_hidden
 			}
 			new_character = {
 				add_spouse = PREV
@@ -3022,7 +3022,7 @@ character_event = {
 				age = 28
 				religion = FROM
 				culture = FROM
-				trait = ugly
+				trait = ugly_hidden
 			}
 			new_character = {
 				add_spouse = PREV

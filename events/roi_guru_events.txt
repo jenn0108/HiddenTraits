@@ -55,10 +55,10 @@ character_event = {
 						intrigue = 11
 						learning = 14
 					}
-					trait = genius
-					trait = scholar
-					trait = patient
-					trait = mastermind_theologian
+					trait = genius_hidden
+					trait = scholar_hidden
+					trait = patient_hidden
+					trait = mastermind_theologian_hidden
 				}
 				new_character = {
 					set_character_flag = guru
@@ -135,10 +135,10 @@ character_event = {
 						intrigue = 9
 						learning = 12
 					}
-					trait = quick
-					trait = scholar
-					trait = patient
-					trait = mastermind_theologian
+					trait = quick_hidden
+					trait = scholar_hidden
+					trait = patient_hidden
+					trait = mastermind_theologian_hidden
 				}
 				new_character = {
 					set_character_flag = guru
@@ -190,9 +190,9 @@ character_event = {
 						intrigue = 16
 						learning = 10
 					}
-					trait = quick
-					trait = dutiful_cleric
-					trait = weak
+					trait = quick_hidden
+					trait = dutiful_cleric_hidden
+					trait = weak_hidden
 				}
 				new_character = {
 					set_character_flag = guru
