@@ -668,8 +668,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_succ_seniority
 							power = 0.5
 						}
@@ -765,8 +764,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 1.5
 					}
@@ -775,8 +773,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 1.0
 					}
@@ -785,8 +782,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 2.0
 					}
@@ -795,8 +791,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 3.0
 					}
@@ -805,8 +800,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 4.0
 					}
@@ -897,8 +891,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_succ_primogeniture
 							power = 0.5
 						}
@@ -993,8 +986,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 1.5
 					}
@@ -1003,8 +995,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 1.0
 					}
@@ -1013,8 +1004,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 2.0
 					}
@@ -1023,8 +1013,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 3.0
 					}
@@ -1033,8 +1022,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 4.0
 					}
@@ -1125,8 +1113,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_succ_feudal_elective
 							power = 0.5
 						}
@@ -1222,8 +1209,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 1.5
 					}
@@ -1232,8 +1218,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 1.0
 					}
@@ -1242,8 +1227,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 2.0
 					}
@@ -1252,8 +1236,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 3.0
 					}
@@ -1262,8 +1245,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 4.0
 					}
@@ -1355,8 +1337,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_succ_gavelkind
 							power = 0.5
 						}
@@ -1453,8 +1434,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 1.5
 					}
@@ -1463,8 +1443,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 1.0
 					}
@@ -1473,8 +1452,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 2.0
 					}
@@ -1483,8 +1461,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 3.0
 					}
@@ -1493,8 +1470,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 4.0
 					}
@@ -1585,8 +1561,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_lower_crown_authority
 							power = 1.0
 						}
@@ -1710,8 +1685,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 1.5
 					}
@@ -1720,8 +1694,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 1.0
 					}
@@ -1730,8 +1703,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 2.0
 					}
@@ -1740,8 +1712,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 3.0
 					}
@@ -1750,8 +1721,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 4.0
 					}
@@ -2002,8 +1972,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_independence
 							power = 1.0
 						}
@@ -2042,8 +2011,7 @@ letter_event = {
 				factor = 0.001
 				FROM = {
 					NOT = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_independence
 							power = 0.25
 						}
@@ -2122,8 +2090,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 1.5
 					}
@@ -2132,8 +2099,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 1.0
 					}
@@ -2142,8 +2108,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 2.0
 					}
@@ -2152,8 +2117,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 3.0
 					}
@@ -2162,8 +2126,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 4.0
 					}
@@ -2256,8 +2219,7 @@ letter_event = {
 				factor = 0			
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_claimant
 							power = 1.0
 						}
@@ -2352,8 +2314,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 1.5
 					}
@@ -2362,8 +2323,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 1.0
 					}
@@ -2372,8 +2332,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 2.0
 					}
@@ -2382,8 +2341,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 3.0
 					}
@@ -2392,8 +2350,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 4.0
 					}
@@ -3344,8 +3301,7 @@ character_event = {
 			NOT = { trait = incapable }
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -3356,80 +3312,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -3567,8 +3513,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -3587,8 +3532,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -3603,8 +3547,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -3619,8 +3562,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -3635,8 +3577,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -3651,8 +3592,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -3667,8 +3607,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -3683,8 +3622,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -3699,8 +3637,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -3715,8 +3652,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -4513,8 +4449,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -4525,80 +4460,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -4737,8 +4662,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -4757,8 +4681,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -4773,8 +4696,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -4789,8 +4711,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -4805,8 +4726,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -4821,8 +4741,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -4837,8 +4756,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -4853,8 +4771,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -4869,8 +4786,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -4885,8 +4801,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -6187,8 +6102,7 @@ character_event = {
 			prisoner = no
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -6199,80 +6113,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -6411,8 +6315,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -6431,8 +6334,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -6447,8 +6349,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -6463,8 +6364,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -6479,8 +6379,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -6495,8 +6394,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -6511,8 +6409,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -6527,8 +6424,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -6543,8 +6439,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -6559,8 +6454,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -7353,8 +7247,7 @@ character_event = {
 			prisoner = no
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -7365,80 +7258,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -7576,8 +7459,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -7596,8 +7478,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -7612,8 +7493,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -7628,8 +7508,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -7644,8 +7523,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -7660,8 +7538,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -7676,8 +7553,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -7692,8 +7568,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -7708,8 +7583,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -7724,8 +7598,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -8516,8 +8389,7 @@ character_event = {
 			NOT = { age = 5 }
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -8528,80 +8400,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -8737,8 +8599,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -8757,8 +8618,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -8773,8 +8633,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -8789,8 +8648,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -8805,8 +8663,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -8821,8 +8678,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -8837,8 +8693,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -8853,8 +8708,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -8869,8 +8723,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -8885,8 +8738,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -9679,8 +9531,7 @@ character_event = {
 			prisoner = yes
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -9691,80 +9542,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -9901,8 +9742,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -9921,8 +9761,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -9937,8 +9776,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -9953,8 +9791,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -9969,8 +9806,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -9985,8 +9821,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -10001,8 +9836,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -10017,8 +9851,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -10033,8 +9866,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -10049,8 +9881,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -10843,8 +10674,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -10855,80 +10685,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -11066,8 +10886,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -11086,8 +10905,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -11102,8 +10920,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -11118,8 +10935,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -11134,8 +10950,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -11150,8 +10965,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -11166,8 +10980,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -11182,8 +10995,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -11198,8 +11010,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -11214,8 +11025,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -12009,8 +11819,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -12021,80 +11830,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -12233,8 +12032,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -12253,8 +12051,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -12269,8 +12066,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -12285,8 +12081,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -12301,8 +12096,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -12317,8 +12111,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -12333,8 +12126,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -12349,8 +12141,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -12365,8 +12156,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -12381,8 +12171,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -13144,8 +12933,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -13156,80 +12944,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -13367,8 +13145,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -13387,8 +13164,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -13403,8 +13179,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -13419,8 +13194,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -13435,8 +13209,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -13451,8 +13224,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -13467,8 +13239,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -13483,8 +13254,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -13499,8 +13269,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -13515,8 +13284,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -14309,8 +14077,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -14321,80 +14088,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -14532,8 +14289,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -14552,8 +14308,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -14568,8 +14323,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -14584,8 +14338,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -14600,8 +14353,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -14616,8 +14368,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -14632,8 +14383,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -14648,8 +14398,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -14664,8 +14413,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -14680,8 +14428,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -15475,8 +15222,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -15487,80 +15233,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -15699,8 +15435,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -15719,8 +15454,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -15735,8 +15469,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -15751,8 +15484,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -15767,8 +15499,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -15783,8 +15514,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -15799,8 +15529,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -15815,8 +15544,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -15831,8 +15559,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -15847,8 +15574,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -16642,8 +16368,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -16654,80 +16379,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -16865,8 +16580,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -16885,8 +16599,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -16901,8 +16614,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -16917,8 +16629,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -16933,8 +16644,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -16949,8 +16659,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -16965,8 +16674,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -16981,8 +16689,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -16997,8 +16704,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -17013,8 +16719,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -17808,8 +17513,7 @@ character_event = {
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
-		plot_power_contribution = 
-		{
+		plot_power_contribution = {
 			plotter = ROOT
 			power = 0.025
 		}
@@ -17820,80 +17524,70 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.10
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.20
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.30
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.40
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.50
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.60
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.70
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.80
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 0.90
 			}
 		}
 		modifier = {
 			factor = 0.7
-			plot_power_contribution = 
-			{
+			plot_power_contribution = {
 				plotter = ROOT
 				power = 1.5
 			}
@@ -18031,8 +17725,7 @@ character_event = {
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
-				plot_power_contribution = 
-				{
+				plot_power_contribution = {
 					plotter = PREV
 					power = 0.025
 				}
@@ -18051,8 +17744,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.10
 					}
@@ -18067,8 +17759,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.20
 					}
@@ -18083,8 +17774,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.30
 					}
@@ -18099,8 +17789,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.40
 					}
@@ -18115,8 +17804,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.50
 					}
@@ -18131,8 +17819,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.60
 					}
@@ -18147,8 +17834,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.70
 					}
@@ -18163,8 +17849,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.80
 					}
@@ -18179,8 +17864,7 @@ character_event = {
 					has_plot = plot_kill_spouse
 				}
 				ROOT = {
-					plot_power_contribution = 
-					{
+					plot_power_contribution = {
 						plotter = PREV
 						power = 0.90
 					}
@@ -18981,8 +18665,7 @@ letter_event = {
 				factor = 0
 				NOT = {
 					FROM = {
-						faction_power = 
-						{
+						faction_power = {
 							faction = faction_antiking
 							power = 1.0
 						}
@@ -19124,8 +18807,7 @@ letter_event = {
 			modifier = {
 				factor = 0.75
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_antiking
 						power = 1.5
 					}
@@ -19134,8 +18816,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_antiking
 						power = 1.0
 					}
@@ -19144,8 +18825,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_antiking
 						power = 2.0
 					}
@@ -19154,8 +18834,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_antiking
 						power = 3.0
 					}
@@ -19164,8 +18843,7 @@ letter_event = {
 			modifier = {
 				factor = 0.5
 				FROM = {
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_antiking
 						power = 4.0
 					}

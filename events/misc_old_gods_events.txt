@@ -562,8 +562,7 @@ character_event = {
 					province = PREV
 					owner = ROOT
 					earmark = prepared_invasion
-					troops =
-					{
+					troops ={
 						galleys = { 20 20 }
 					}
 				}
@@ -641,8 +640,7 @@ character_event = {
 					province = PREV
 					owner = ROOT
 					earmark = prepared_invasion
-					troops =
-					{
+					troops ={
 						galleys = { 10 10 }
 					}
 				}
@@ -720,8 +718,7 @@ character_event = {
 					province = PREV
 					owner = ROOT
 					earmark = prepared_invasion
-					troops =
-					{
+					troops ={
 						galleys = { 10 10 }
 					}
 				}
