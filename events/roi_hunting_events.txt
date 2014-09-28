@@ -26,7 +26,12 @@ character_event = {
 				prisoner = no
 				war = no
 				in_command = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				age = 16
 				NOT = { has_character_flag = do_not_disturb }
 			}
@@ -298,8 +303,14 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			trait = temperate
-			trait = shy
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = { num_of_friends = 5 }
 		any_realm_character = {
@@ -358,14 +369,34 @@ character_event = {
 	trigger = {
 		NOT = { num_of_rivals = 5 }
 		OR = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 			AND = {
-				NOT = { trait = temperate }
+				NOT = {
+					 OR = {
+						trait = temperate
+						trait = temperate_hidden
+					} 
+				}
 				OR = {
-					trait = wroth
-					trait = paranoid
-					trait = envious
-					trait = zealous
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 		}
@@ -432,14 +463,25 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						trait = imbecile
-						trait = inbred
+						OR = {
+							trait = imbecile
+							trait = imbecile_hidden
+						}
+						OR = {
+							trait = inbred
+							trait = inbred_hidden
+						}
 					}
 				}
 				character_event = { id = RoI.2105 } # Always loses
 			}
 			if = {
-				limit = { trait = slow }
+				limit = {
+					 OR = {
+						trait = slow
+						trait = slow_hidden
+					} 
+				}
 				random_list = {
 					50 = { character_event = { id = RoI.2105 } } # Loses
 					50 = { character_event = { id = RoI.2106 } } # Breaks even
@@ -447,11 +489,36 @@ character_event = {
 			}
 			if= {
 				limit = {
-					NOT = { trait = imbecile }
-					NOT = { trait = inbred }
-					NOT = { trait = slow }
-					NOT = { trait = quick }
-					NOT = { trait = genius }
+					NOT = {
+						 OR = {
+							trait = imbecile
+							trait = imbecile_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = inbred
+							trait = inbred_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = slow
+							trait = slow_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = quick
+							trait = quick_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = genius
+							trait = genius_hidden
+						} 
+					}
 				}
 				random_list = {
 					33 = { character_event = { id = RoI.2105 } } # Loses
@@ -460,7 +527,12 @@ character_event = {
 				}
 			}
 			if = {
-				limit = { trait = quick }
+				limit = {
+					 OR = {
+						trait = quick
+						trait = quick_hidden
+					} 
+				}
 				random_list = {
 					10 = { character_event = { id = RoI.2105 } } # Loses
 					30 = { character_event = { id = RoI.2106 } } # Breaks even
@@ -468,7 +540,12 @@ character_event = {
 				}
 			}
 			if = {
-				limit = { trait = genius }
+				limit = {
+					 OR = {
+						trait = genius
+						trait = genius_hidden
+					} 
+				}
 				random_list = {
 					20 = { character_event = { id = RoI.2106 } } # Breaks even
 					80 = { character_event = { id = RoI.2107 } } # Wins
@@ -483,14 +560,25 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						trait = imbecile
-						trait = inbred
+						OR = {
+							trait = imbecile
+							trait = imbecile_hidden
+						}
+						OR = {
+							trait = inbred
+							trait = inbred_hidden
+						}
 					}
 				}
 				character_event = { id = RoI.2105 } # Always loses
 			}
 			if = {
-				limit = { trait = slow }
+				limit = {
+					 OR = {
+						trait = slow
+						trait = slow_hidden
+					} 
+				}
 				random_list = {
 					50 = { character_event = { id = RoI.2105 } } # Loses
 					50 = { character_event = { id = RoI.2106 } } # Breaks even
@@ -498,11 +586,36 @@ character_event = {
 			}
 			if= {
 				limit = {
-					NOT = { trait = imbecile }
-					NOT = { trait = inbred }
-					NOT = { trait = slow }
-					NOT = { trait = quick }
-					NOT = { trait = genius }
+					NOT = {
+						 OR = {
+							trait = imbecile
+							trait = imbecile_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = inbred
+							trait = inbred_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = slow
+							trait = slow_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = quick
+							trait = quick_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = genius
+							trait = genius_hidden
+						} 
+					}
 				}
 				random_list = {
 					33 = { character_event = { id = RoI.2105 } } # Loses
@@ -511,7 +624,12 @@ character_event = {
 				}
 			}
 			if = {
-				limit = { trait = quick }
+				limit = {
+					 OR = {
+						trait = quick
+						trait = quick_hidden
+					} 
+				}
 				random_list = {
 					10 = { character_event = { id = RoI.2105 } } # Loses
 					30 = { character_event = { id = RoI.2106 } } # Breaks even
@@ -519,7 +637,12 @@ character_event = {
 				}
 			}
 			if = {
-				limit = { trait = genius }
+				limit = {
+					 OR = {
+						trait = genius
+						trait = genius_hidden
+					} 
+				}
 				random_list = {
 					20 = { character_event = { id = RoI.2106 } } # Breaks even
 					80 = { character_event = { id = RoI.2107 } } # Wins
@@ -595,7 +718,12 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { trait = hunter }
+		NOT = {
+			 OR = {
+				trait = hunter
+				trait = hunter_hidden
+			} 
+		}
 	}
 	
 	immediate = {
@@ -679,21 +807,61 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_2120 # Kill it myself
 		trigger = {
-			NOT = { trait = wounded }
-			NOT = { trait = maimed }
-			NOT = { trait = craven }
+			NOT = {
+				 OR = {
+					trait = wounded
+					trait = wounded_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = maimed
+					trait = maimed_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		hidden_tooltip = {
 			if = {
 				limit = {
-					NOT = { trait = wounded }
-					NOT = { trait = maimed }
+					NOT = {
+						 OR = {
+							trait = wounded
+							trait = wounded_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = maimed
+							trait = maimed_hidden
+						} 
+					}
 					OR = {
-						trait = hunter
-						trait = duelist
-						trait = strong
-						trait = varangian
-						trait = berserker
+						OR = {
+							trait = hunter
+							trait = hunter_hidden
+						}
+						OR = {
+							trait = duelist
+							trait = duelist_hidden
+						}
+						OR = {
+							trait = strong
+							trait = strong_hidden
+						}
+						OR = {
+							trait = varangian
+							trait = varangian_hidden
+						}
+						OR = {
+							trait = berserker
+							trait = berserker_hidden
+						}
 						has_character_modifier = killed_an_old_one
 					}
 				}
@@ -705,11 +873,36 @@ character_event = {
 			}
 			if = {
 				limit = {
-					NOT = { trait = hunter }
-					NOT = { trait = duelist }
-					NOT = { trait = strong }
-					NOT = { trait = varangian }
-					NOT = { trait = berserker }
+					NOT = {
+						 OR = {
+							trait = hunter
+							trait = hunter_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = duelist
+							trait = duelist_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = strong
+							trait = strong_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = varangian
+							trait = varangian_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = berserker
+							trait = berserker_hidden
+						} 
+					}
 					NOT = { has_character_modifier = killed_an_old_one }
 				}
 				random_list = {

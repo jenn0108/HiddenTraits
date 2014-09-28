@@ -115,10 +115,16 @@ character_event = {
 		name = EVTOPTB78000
 		trigger = {
 			NOT = {
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			NOT = {
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		random = {
@@ -136,7 +142,10 @@ character_event = {
 		name = EVTOPTC78000
 		trigger = {
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		random_ward = {
@@ -186,7 +195,10 @@ character_event = {
 		name = EVTOPTD78000
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		random_ward = {
 			limit = {
@@ -339,13 +351,34 @@ character_event = {
 				age = 16
 			}
 			OR = {
-				trait = lustful
-				trait = gluttonous
-				trait = greedy
-				trait = slothful
-				trait = envious
-				trait = wroth
-				trait = proud
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 		}
 		any_ward = {
@@ -650,10 +683,22 @@ character_event = {
 				age = 16
 			}
 			OR = {
-				trait = shy
-				trait = craven
-				trait = kind
-				trait = trusting
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		any_child = {
@@ -664,10 +709,22 @@ character_event = {
 				age = 16
 			}
 			OR = {
-				trait = wroth
-				trait = cruel
-				trait = deceitful
-				trait = envious
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 		}
 	}
@@ -686,10 +743,22 @@ character_event = {
 					age = 16
 				}
 				OR = {
-					trait = shy
-					trait = craven
-					trait = kind
-					trait = trusting
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 				}
 			}
 			random = {
@@ -719,19 +788,37 @@ character_event = {
 					age = 16
 				}
 				OR = {
-					trait = shy
-					trait = craven
-					trait = kind
-					trait = trusting
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 				}
 			}
 			if = {
 				limit = {
 					NOT = {
-						trait = craven
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 					}
 					NOT = {
-						trait = shy
+						OR = {
+							trait = shy
+							trait = shy_hidden
+						}
 					}
 				}
 				random = {
@@ -742,7 +829,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 				random = {
 					chance = 25
@@ -757,7 +847,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 				random = {
 					chance = 25
@@ -789,10 +882,22 @@ character_event = {
 					age = 16
 				}
 				OR = {
-					trait = wroth
-					trait = cruel
-					trait = deceitful
-					trait = envious
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
 				}
 			}
 			opinion = {

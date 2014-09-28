@@ -396,13 +396,33 @@ character_event = {
 			any_vassal = {
 				has_landed_title = d_varangian_guard
 			}
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 		}
 		is_married = no
-		NOT = { trait = celibate }
-		NOT = { trait = chaste }
-		NOT = { trait = homosexual }
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = chaste
+				trait = chaste_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -410,7 +430,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -1385,8 +1408,18 @@ character_event = {
 				prisoner = no
 				age = 16
 				NOT = { age = 50 }
-				NOT = { trait = infirm }
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = infirm
+						trait = infirm_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			liege = {
 				has_landed_title = e_byzantium
@@ -1400,8 +1433,18 @@ character_event = {
 					prisoner = no
 					age = 16
 					NOT = { age = 50 }
-					NOT = { trait = infirm }
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = infirm
+							trait = infirm_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 				}
 			}
 		}
@@ -1462,7 +1505,12 @@ character_event = {
 				FROM = { set_character_flag = tzykanion }
 				if = {
 					limit = {
-						NOT = { trait = wroth }
+						NOT = {
+							 OR = {
+								trait = wroth
+								trait = wroth_hidden
+							} 
+						}
 					}
 					random_list = {
 						50 = {
@@ -1474,7 +1522,12 @@ character_event = {
 					}
 				}
 				if = {
-					limit = { trait = wroth }
+					limit = {
+						 OR = {
+							trait = wroth
+							trait = wroth_hidden
+						} 
+					}
 					character_event = { id = LoR.904 }
 				}
 			}

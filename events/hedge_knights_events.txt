@@ -34,7 +34,10 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -54,79 +57,136 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 0.4
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}
 				
 	}	
@@ -137,38 +197,63 @@ character_event = {
 			factor = 10
 			modifier = {
 				factor = 2
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 		}
 		set_character_flag = hedge_knights_visiting
 		prestige = 10
 		if = {
 			limit = {
-				not = { trait = gregarious }
+				not = {
+					 OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					} 
+				}
 			}
 			add_trait = gregarious
 		}
 		if = {
 			limit = {
-				NOT = { trait = greedy }
+				NOT = {
+					 OR = {
+						trait = greedy
+						trait = greedy_hidden
+					} 
+				}
 			}
 			scaled_wealth = -0.2
 		}
 		if = {
 			limit = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			scaled_wealth = -0.4
 			remove_trait = greedy
@@ -182,10 +267,22 @@ character_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					trait = gregarious
-					trait = proud
-					trait = ambitious
-					trait = charitable
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 			}
 			
@@ -200,7 +297,12 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { trait = greedy }
+				NOT = {
+					 OR = {
+						trait = greedy
+						trait = greedy_hidden
+					} 
+				}
 			}
 		}
 		prestige = -5
@@ -278,7 +380,10 @@ character_event = {
 		days = 100
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}	
 	
@@ -321,11 +426,26 @@ character_event = {
 	 		age = 16
 	 		is_female = no
 	 		OR = {
-	 			trait = cruel
-	 			trait = proud
-	 			trait = wroth
-	 			trait = zealous
-	 			trait = envious
+	 			OR = {
+		trait = cruel
+		trait = cruel_hidden
+	}
+	 			OR = {
+		trait = proud
+		trait = proud_hidden
+	}
+	 			OR = {
+		trait = wroth
+		trait = wroth_hidden
+	}
+	 			OR = {
+		trait = zealous
+		trait = zealous_hidden
+	}
+	 			OR = {
+		trait = envious
+		trait = envious_hidden
+	}
 	 			prestige = 100
 	 		}
 	 	}
@@ -335,7 +455,10 @@ character_event = {
 		days = 30
 		modifier = {
 			factor = 0.9
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		
 		modifier = {
@@ -363,11 +486,26 @@ character_event = {
 	 			age = 16
 	 			is_female = no
 	 			OR = {
-		 			trait = cruel
-		 			trait = proud
-		 			trait = wroth
-		 			trait = zealous
-		 			trait = envious
+		 			OR = {
+			trait = cruel
+			trait = cruel_hidden
+		}
+		 			OR = {
+			trait = proud
+			trait = proud_hidden
+		}
+		 			OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
+		 			OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
+		 			OR = {
+			trait = envious
+			trait = envious_hidden
+		}
 		 			prestige = 100
 		 		}
 		 	}
@@ -454,8 +592,14 @@ character_event = {
 			modifier = {
 				factor = 100
 				OR = {
-					trait = cruel
-					trait = zealous
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				 }
 			}
 		}

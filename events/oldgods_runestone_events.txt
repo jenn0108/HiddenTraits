@@ -273,27 +273,90 @@ character_event = {
 		name = EVTOPTA_TOG_501
 		trigger = {
 			NOT = {
-				trait = lunatic
-				trait = drunkard
-				trait = fair
-				trait = dwarf
-				trait = genius
-				trait = imbecile
-				trait = strong
-				trait = scholar
-				trait = impaler
-				trait = poet
-				trait = lustful
-				trait = gluttonous
-				trait = charitable
-				trait = kind
-				trait = proud
-				trait = humble
-				trait = brave
-				trait = just
-				trait = zealous
-				trait = cruel
-				trait = possessed
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
+				OR = {
+					trait = fair
+					trait = fair_hidden
+				}
+				OR = {
+					trait = dwarf
+					trait = dwarf_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
+				OR = {
+					trait = scholar
+					trait = scholar_hidden
+				}
+				OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				OR = {
+					trait = poet
+					trait = poet_hidden
+				}
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 		}
 		
@@ -306,7 +369,10 @@ character_event = {
 		name = EVTOPTB_TOG_501
 		tooltip_info = lunatic
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		
 		custom_tooltip = {
@@ -318,11 +384,23 @@ character_event = {
 		name = EVTOPTC_TOG_501
 		tooltip_info = drunkard
 		trigger = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -335,11 +413,23 @@ character_event = {
 		name = EVTOPTD_TOG_501
 		tooltip_info = fair
 		trigger = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -352,11 +442,23 @@ character_event = {
 		name = EVTOPTE_TOG_501
 		tooltip_info = dwarf
 		trigger = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -369,11 +471,23 @@ character_event = {
 		name = EVTOPTF_TOG_501
 		tooltip_info = genius
 		trigger = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -386,7 +500,10 @@ character_event = {
 		name = EVTOPTI_TOG_501
 		tooltip_info = imbecile
 		trigger = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 		
 		custom_tooltip = { 
@@ -398,11 +515,23 @@ character_event = {
 		name = EVTOPTJ_TOG_501
 		tooltip_info = strong
 		trigger = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -415,11 +544,23 @@ character_event = {
 		name = EVTOPTK_TOG_501
 		tooltip_info = scholar
 		trigger = {
-			trait = scholar
+			OR = {
+				trait = scholar
+				trait = scholar_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -432,11 +573,23 @@ character_event = {
 		name = EVTOPTL_TOG_501
 		tooltip_info = impaler
 		trigger = {
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -449,11 +602,23 @@ character_event = {
 		name = EVTOPTM_TOG_501
 		tooltip_info = poet
 		trigger = {
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -466,11 +631,23 @@ character_event = {
 		name = EVTOPTN_TOG_501
 		tooltip_info = lustful
 		trigger = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -483,11 +660,23 @@ character_event = {
 		name = EVTOPTO_TOG_501
 		tooltip_info = gluttonous
 		trigger = {
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -500,11 +689,23 @@ character_event = {
 		name = EVTOPTP_TOG_501
 		tooltip_info = charitable
 		trigger = {
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -517,11 +718,23 @@ character_event = {
 		name = EVTOPTQ_TOG_501
 		tooltip_info = kind
 		trigger = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -534,11 +747,23 @@ character_event = {
 		name = EVTOPTR_TOG_501
 		tooltip_info = proud
 		trigger = {
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -551,11 +776,23 @@ character_event = {
 		name = EVTOPTS_TOG_501
 		tooltip_info = humble
 		trigger = {
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -568,11 +805,23 @@ character_event = {
 		name = EVTOPTT_TOG_501
 		tooltip_info = brave
 		trigger = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -585,11 +834,23 @@ character_event = {
 		name = EVTOPTU_TOG_501
 		tooltip_info = just
 		trigger = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		
@@ -602,15 +863,27 @@ character_event = {
 		name = EVTOPTV_TOG_501
 		tooltip_info = zealous
 		trigger = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 			OR = {
 				religion = norse_pagan
 				religion = norse_pagan_reformed
 			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 
@@ -623,11 +896,23 @@ character_event = {
 		name = EVTOPTX_TOG_501
 		tooltip_info = cruel
 		trigger = {
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		custom_tooltip = { 
@@ -639,7 +924,10 @@ character_event = {
 		name = EVTOPTY_TOG_501
 		tooltip_info = possessed
 		trigger = {
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 
 		custom_tooltip = { 
@@ -651,12 +939,24 @@ character_event = {
 		name = EVTOPTZ_TOG_501
 		tooltip_info = zealous
 		trigger = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 			religion = christian
 			NOT = {
-				trait = lunatic
-				trait = possessed
-				trait = imbecile
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 		}
 		

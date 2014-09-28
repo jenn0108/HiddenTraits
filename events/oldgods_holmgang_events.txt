@@ -29,10 +29,22 @@ character_event = {
 		NOT = { 
 			has_character_flag = holmgang_target
 			has_character_flag = holmgang_challenger
-			trait = incapable 
-			trait = wounded
-			trait = maimed
-			trait = ill
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		liege = {
 			age = 16
@@ -41,10 +53,22 @@ character_event = {
 			is_female = no
 			prisoner = no
 			NOT = { 
-				trait = incapable 
-				trait = wounded
-				trait = maimed
-				trait = ill
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
 			}
 			NOT = { character = ROOT }
 			NOT = { opinion = { who = ROOT value =  -40 } }
@@ -64,15 +88,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = duelist
+			OR = {
+				trait = duelist
+				trait = duelist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = berserker
+			OR = {
+				trait = berserker
+				trait = berserker_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
@@ -80,19 +113,31 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.6
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = viking
+			OR = {
+				trait = viking
+				trait = viking_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -100,15 +145,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -149,10 +203,22 @@ character_event = {
 		NOT = { 
 			has_character_flag = holmgang_target
 			has_character_flag = holmgang_challenger
-			trait = incapable 
-			trait = wounded
-			trait = maimed
-			trait = ill
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		liege = {
 			any_vassal = {
@@ -162,10 +228,22 @@ character_event = {
 				is_female = no
 				prisoner = no
 				NOT = { 
-					trait = incapable 
-					trait = wounded
-					trait = maimed
-					trait = ill
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				NOT = { 
 					character = ROOT
@@ -189,15 +267,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = duelist
+			OR = {
+				trait = duelist
+				trait = duelist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = berserker
+			OR = {
+				trait = berserker
+				trait = berserker_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
@@ -205,19 +292,31 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.6
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = viking
+			OR = {
+				trait = viking
+				trait = viking_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -225,15 +324,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -247,10 +355,22 @@ character_event = {
 					is_female = no
 					prisoner = no
 					NOT = { 
-						trait = incapable 
-						trait = wounded
-						trait = maimed
-						trait = ill
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+						OR = {
+							trait = wounded
+							trait = wounded_hidden
+						}
+						OR = {
+							trait = maimed
+							trait = maimed_hidden
+						}
+						OR = {
+							trait = ill
+							trait = ill_hidden
+						}
 					}
 					NOT = { 
 						character = ROOT
@@ -302,10 +422,22 @@ character_event = {
 		NOT = { 
 			has_character_flag = holmgang_target
 			has_character_flag = holmgang_challenger
-			trait = incapable 
-			trait = wounded
-			trait = maimed
-			trait = ill
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		any_vassal = {
 			is_ruler = yes
@@ -314,10 +446,22 @@ character_event = {
 			is_female = no
 			prisoner = no
 			NOT = { 
-				trait = incapable 
-				trait = wounded
-				trait = maimed
-				trait = ill
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
 			}
 			NOT = { character = ROOT }
 			NOT = { opinion = { who = ROOT value =  -40 } }
@@ -337,15 +481,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = duelist
+			OR = {
+				trait = duelist
+				trait = duelist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = berserker
+			OR = {
+				trait = berserker
+				trait = berserker_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
@@ -353,19 +506,31 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.6
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = viking
+			OR = {
+				trait = viking
+				trait = viking_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -373,15 +538,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -394,10 +568,22 @@ character_event = {
 				is_female = no
 				prisoner = no
 				NOT = { 
-					trait = incapable 
-					trait = wounded
-					trait = maimed
-					trait = ill
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				NOT = { character = ROOT }
 				NOT = { opinion = { who = ROOT value =  -40 } }
@@ -440,19 +626,31 @@ character_event = {
 			factor = 50
 			modifier = {
 				factor = 10
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = berserker
+				OR = {
+					trait = berserker
+					trait = berserker_hidden
+				}
 			}
 			modifier = {
 				factor = 30
-				trait = duelist
+				OR = {
+					trait = duelist
+					trait = duelist_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		FROM = {
@@ -465,19 +663,31 @@ character_event = {
 			factor = 50
 			modifier = {
 				factor = 30
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 		}
 		custom_tooltip = { text = no_holmgang }
@@ -505,19 +715,31 @@ character_event = {
 			factor = 50
 			modifier = {
 				factor = 10
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = berserker
+				OR = {
+					trait = berserker
+					trait = berserker_hidden
+				}
 			}
 			modifier = {
 				factor = 30
-				trait = duelist
+				OR = {
+					trait = duelist
+					trait = duelist_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		FROM = {
@@ -530,19 +752,31 @@ character_event = {
 			factor = 50
 			modifier = {
 				factor = 30
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 		}
 		FROM = {
@@ -550,7 +784,12 @@ character_event = {
 		}
 		prestige = -100
 		if = {
-			limit = { trait = brave }
+			limit = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				} 
+			}
 			random = {
 				chance = 33
 				remove_trait = brave
@@ -558,8 +797,18 @@ character_event = {
 		}
 		if = {
 			limit = { 
-				NOT = { trait = brave }
-				NOT = { trait = craven }
+				NOT = {
+					 OR = {
+						trait = brave
+						trait = brave_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = craven
+						trait = craven_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 33
@@ -603,13 +852,23 @@ character_event = {
 					15 = { character_event = { id = TOG.5014 days = 10} }
 					20 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					50 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}
@@ -641,13 +900,23 @@ character_event = {
 					20 = { character_event = { id = TOG.5014 days = 10} }
 					25 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					40 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}
@@ -679,13 +948,23 @@ character_event = {
 					25 = { character_event = { id = TOG.5014 days = 10} }
 					30 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					35 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}
@@ -719,13 +998,23 @@ character_event = {
 					40 = { character_event = { id = TOG.5014 days = 10} }
 					40 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					40 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}
@@ -761,13 +1050,23 @@ character_event = {
 					40 = { character_event = { id = TOG.5014 days = 10} }
 					35 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					30 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}
@@ -803,13 +1102,23 @@ character_event = {
 					50 = { character_event = { id = TOG.5014 days = 10} }
 					40 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					25 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}
@@ -836,13 +1145,23 @@ character_event = {
 					60 = { character_event = { id = TOG.5014 days = 10} }
 					50 = {
 						if = {
-							limit = { trait = craven }
+							limit = {
+								 OR = {
+									trait = craven
+									trait = craven_hidden
+								} 
+							}
 							character_event = { id = TOG.5011 days = 10 }
 						}
 					}
 					20 = {
 						if = {
-							limit = { FROM = { trait = craven } }
+							limit = {
+								 FROM = { OR = {
+									trait = craven
+									trait = craven_hidden
+								} } 
+							}
 							character_event = { id = TOG.5009 days = 10 }
 						}
 					}

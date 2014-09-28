@@ -21,20 +21,37 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		OR = {
-			NOT = { trait = chaste }
+			NOT = {
+				 OR = {
+					trait = chaste
+					trait = chaste_hidden
+				} 
+			}
 			spouse = { 
 				is_alive = yes
 				is_abroad = no
-				trait = syphilitic 
+				OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				} 
 			}
 		}
 	}
@@ -45,7 +62,10 @@ character_event = {
 		modifier = {
 			factor = 0.1
 			spouse = { 
-				trait = syphilitic 
+				OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				} 
 			}
 		}
 		modifier = {
@@ -54,16 +74,25 @@ character_event = {
 		}		
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.6
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 5.0
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 	
@@ -81,7 +110,10 @@ character_event = {
 	
 	trigger = {
 		health = 6
-		trait = syphilitic
+		OR = {
+			trait = syphilitic
+			trait = syphilitic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -113,7 +145,10 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		NOT = { health = 5 }
 	}
@@ -151,7 +186,10 @@ character_event = {
 	trigger = {
 		health = 4
 		treasury = 25
-		trait = leper
+		OR = {
+			trait = leper
+			trait = leper_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -175,11 +213,20 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = depressed
-			trait = stressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		NOT = {
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 	}
 	
@@ -188,23 +235,38 @@ character_event = {
 		
 		modifier = {
 			factor = 0.2
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 	}
 	
@@ -226,8 +288,16 @@ character_event = {
 	
 	trigger = {
 		health = 4
-		trait = lunatic
-		NOT = { trait = syphilitic }
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
+		NOT = {
+			 OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			} 
+		}
 		NOT = {
 			religion_group = muslim
 		}
@@ -257,8 +327,16 @@ character_event = {
 	
 	trigger = {
 		health = 4
-		trait = lunatic
-		NOT = { trait = syphilitic }
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
+		NOT = {
+			 OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			} 
+		}
 		religion_group = muslim
 	}
 	
@@ -289,7 +367,10 @@ character_event = {
 			religion_group = muslim
 		}
 		NOT = {
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 	}
 	
@@ -312,7 +393,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.9
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -333,7 +417,10 @@ character_event = {
 	trigger = {
 		religion_group = christian
 		health = 4
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -370,7 +457,10 @@ character_event = {
 	trigger = {
 		religion_group = muslim
 		NOT = {
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 	}
 	
@@ -393,7 +483,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.9
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -414,7 +507,10 @@ character_event = {
 	trigger = {
 		health = 4
 		religion_group = muslim
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -451,9 +547,24 @@ character_event = {
 			is_councillor = yes
 			has_minor_title = title_regent
 		}
-		NOT = { trait = stressed }
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = stressed
+				trait = stressed_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -478,7 +589,10 @@ character_event = {
 		
 		modifier = {
 			factor = 10.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -497,7 +611,10 @@ character_event = {
 	min_age = 16
 	
 	trigger = {
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -543,10 +660,30 @@ character_event = {
 	min_age = 10
 	
 	trigger = {
-		NOT = { trait = depressed }
-		NOT = { trait = zealous }
-		NOT = { trait = incapable }
-		NOT = { trait = content }
+		NOT = {
+			 OR = {
+				trait = depressed
+				trait = depressed_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -565,27 +702,45 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
@@ -593,7 +748,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 	}
 	
@@ -612,7 +770,10 @@ character_event = {
 	min_age = 10
 	
 	trigger = {
-		trait = depressed
+		OR = {
+			trait = depressed
+			trait = depressed_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -620,39 +781,66 @@ character_event = {
 		
 		modifier = {
 			factor = 0.1
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.1
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 		}
 		modifier = {
 			factor = 1.3
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.3
@@ -674,14 +862,54 @@ character_event = {
 	
 	trigger = {
 		health = 3.0
-		NOT = { trait = ill }
-		NOT = { trait = pneumonic }
-		NOT = { trait = has_tuberculosis }
-		NOT = { trait = has_typhoid_fever }
-		NOT = { trait = has_typhus }
-		NOT = { trait = has_bubonic_plague }
-		NOT = { trait = has_measles }
-		NOT = { trait = has_small_pox }
+		NOT = {
+			 OR = {
+				trait = ill
+				trait = ill_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -689,11 +917,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -733,7 +967,10 @@ character_event = {
 	
 	trigger = {
 		base_health = 3
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -741,11 +978,17 @@ character_event = {
 		
 		modifier = {
 			factor = 2.0
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.3
@@ -776,7 +1019,10 @@ character_event = {
 	max_age = 7
 	
 	trigger = {
-		trait = sickly
+		OR = {
+			trait = sickly
+			trait = sickly_hidden
+		}
 		age = 2
 	}
 	
@@ -811,10 +1057,21 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = ill
-			trait = has_measles
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}
-		NOT = { trait = pneumonic }
+		NOT = {
+			 OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -829,11 +1086,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -868,7 +1131,10 @@ character_event = {
 	
 	trigger = {
 		base_health = 4
-		trait = pneumonic
+		OR = {
+			trait = pneumonic
+			trait = pneumonic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -883,11 +1149,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -917,13 +1189,25 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 			in_command = yes
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		NOT = {
-			trait = wounded
-			trait = maimed
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}		
 	}
 	
@@ -932,7 +1216,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.9
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		
 		modifier = {
@@ -947,12 +1234,18 @@ character_event = {
 		
 		modifier = {
 			factor = 0.6
-			trait = misguided_warrior
+			OR = {
+				trait = misguided_warrior
+				trait = misguided_warrior_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.1
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 	}
 	
@@ -970,7 +1263,10 @@ character_event = {
 	
 	trigger = {
 		base_health = 4
-		trait = wounded
+		OR = {
+			trait = wounded
+			trait = wounded_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1002,9 +1298,17 @@ character_event = {
 	picture = GFX_evt_illness
 	
 	trigger = {
-		trait = wounded
+		OR = {
+			trait = wounded
+			trait = wounded_hidden
+		}
 		NOT = { base_health = 8 }
-		NOT = { trait = ill }
+		NOT = {
+			 OR = {
+				trait = ill
+				trait = ill_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1045,8 +1349,18 @@ character_event = {
 	min_age = 45
 	
 	trigger = {
-		NOT = { trait = infirm }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1100,10 +1414,21 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = infirm
-			trait = inbred
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1119,7 +1444,12 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { trait = infirm }
+			NOT = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -1145,7 +1475,10 @@ character_event = {
 	picture = GFX_evt_recovery
 	
 	trigger = {
-		trait = has_tuberculosis
+		OR = {
+			trait = has_tuberculosis
+			trait = has_tuberculosis_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1193,15 +1526,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1218,7 +1560,10 @@ character_event = {
 	picture = GFX_evt_recovery
 	
 	trigger = {
-		trait = has_typhoid_fever
+		OR = {
+			trait = has_typhoid_fever
+			trait = has_typhoid_fever_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1266,15 +1611,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1291,7 +1645,10 @@ character_event = {
 	picture = GFX_evt_recovery
 	
 	trigger = {
-		trait = has_typhus
+		OR = {
+			trait = has_typhus
+			trait = has_typhus_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1339,15 +1696,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1364,7 +1730,10 @@ character_event = {
 	picture = GFX_evt_plague_doctor
 	
 	trigger = {
-		trait = has_bubonic_plague
+		OR = {
+			trait = has_bubonic_plague
+			trait = has_bubonic_plague_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1411,15 +1780,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1436,7 +1814,10 @@ character_event = {
 	picture = GFX_evt_recovery
 	
 	trigger = {
-		trait = has_measles
+		OR = {
+			trait = has_measles
+			trait = has_measles_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1484,15 +1865,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1509,7 +1899,10 @@ character_event = {
 	picture = GFX_evt_recovery
 	
 	trigger = {
-		trait = has_small_pox
+		OR = {
+			trait = has_small_pox
+			trait = has_small_pox_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1557,15 +1950,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1583,7 +1985,10 @@ character_event = {
 	min_age = 10
 	
 	trigger = {
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		religion_group = christian
 		NOT = { has_character_modifier = voice_of_jesus }
 		NOT = { has_character_modifier = voice_of_satan }
@@ -1623,37 +2028,58 @@ character_event = {
 
 		modifier = {
 			factor = 0.9
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 
 		modifier = {
 			factor = 1.2
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			trait = crusader
+			OR = {
+				trait = crusader
+				trait = crusader_hidden
+			}
 		}
 
 		modifier = {
 			factor = 1.2
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.9
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 
 		modifier = {
 			factor = 1.2
-			trait = hedonist 
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			} 
 		}
 
 		modifier = {
 			factor = 0.5
-			trait = mystic
+			OR = {
+				trait = mystic
+				trait = mystic_hidden
+			}
 		}
 		
 	}
@@ -1749,7 +2175,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1772,8 +2201,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {	
-			trait = lustful
-			trait = chaste
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 
@@ -1796,7 +2231,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1819,8 +2257,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {	
-			trait = gluttonous
-			trait = temperate
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 
@@ -1843,7 +2287,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = greedy
+		OR = {
+			trait = greedy
+			trait = greedy_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1866,8 +2313,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {	
-			trait = greedy
-			trait = charitable
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 
@@ -1890,7 +2343,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = slothful
+		OR = {
+			trait = slothful
+			trait = slothful_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1912,8 +2368,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {	
-			trait = slothful
-			trait = diligent
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 	}
 
@@ -1936,7 +2398,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = envious
+		OR = {
+			trait = envious
+			trait = envious_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -1958,8 +2423,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {	
-			trait = envious
-			trait = kind
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 
@@ -1982,7 +2453,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = wroth
+		OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -2005,8 +2479,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {
-			trait = wroth
-			trait = patient
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
 		}
 	}
 
@@ -2029,7 +2509,10 @@ character_event = {
 
 	trigger = {
 		has_character_modifier = voice_of_jesus
-		trait = proud
+		OR = {
+			trait = proud
+			trait = proud_hidden
+		}
 	}
 
 	mean_time_to_happen = {
@@ -2052,8 +2535,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_jesus
 		NOT = {
-			trait = proud
-			trait = humble
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 	}
 
@@ -2194,7 +2683,10 @@ character_event = {
 	min_age = 10
 	
 	trigger = {
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		OR = {
 			religion = catholic
 			religion = orthodox
@@ -2221,37 +2713,58 @@ character_event = {
 		
 		modifier = {
 			factor = 1.2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 
 		modifier = {
 			factor = 1.2
-			trait = crusader
+			OR = {
+				trait = crusader
+				trait = crusader_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.2
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.9
-			trait = hedonist 
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			} 
 		}
 
 		modifier = {
 			factor = 0.5
-			trait = mystic
+			OR = {
+				trait = mystic
+				trait = mystic_hidden
+			}
 		}
 		
 	}
@@ -2311,7 +2824,10 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -2359,7 +2875,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = chaste
+		OR = {
+			trait = chaste
+			trait = chaste_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2381,8 +2900,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = chaste
-			trait = lustful
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -2404,7 +2929,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = patient
+		OR = {
+			trait = patient
+			trait = patient_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2426,8 +2954,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = patient
-			trait = wroth
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 	}
 	
@@ -2449,7 +2983,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = humble
+		OR = {
+			trait = humble
+			trait = humble_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2471,8 +3008,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = humble
-			trait = proud
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 	}
 	
@@ -2494,7 +3037,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = temperate
+		OR = {
+			trait = temperate
+			trait = temperate_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2516,8 +3062,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = temperate
-			trait = gluttonous
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 	}
 	
@@ -2539,7 +3091,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = charitable
+		OR = {
+			trait = charitable
+			trait = charitable_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2561,8 +3116,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = charitable
-			trait = greedy
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 	}
 	
@@ -2584,7 +3145,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = kind
+		OR = {
+			trait = kind
+			trait = kind_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2606,8 +3170,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = kind
-			trait = envious
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 	}
 	
@@ -2629,7 +3199,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = voice_of_satan
-		trait = diligent
+		OR = {
+			trait = diligent
+			trait = diligent_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2651,8 +3224,14 @@ character_event = {
 	trigger = {
 		has_character_modifier = voice_of_satan
 		NOT = {
-			trait = diligent
-			trait = slothful
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -2680,7 +3259,10 @@ character_event = {
 	
 	trigger = {
 		independent = yes
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2890,7 +3472,10 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2915,7 +3500,10 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2939,7 +3527,10 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 		any_courtier = {
 			has_job_title = job_chancellor
 		}
@@ -3015,14 +3606,24 @@ character_event = {
 		months = 1000
 		modifier = {
 			factor = 100
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}
 	
 	option = {
 		name = EVTOPTA6350
 		if = {
-			limit = { NOT = { trait = lunatic } }
+			limit = {
+				 NOT = { OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} } 
+			}
 			add_trait = lunatic
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
@@ -3030,7 +3631,12 @@ character_event = {
 	option = {
 		name = EVTOPTB6350
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}
 }
@@ -3067,14 +3673,24 @@ character_event = {
 		months = 1000
 		modifier = {
 			factor = 100
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}
 	
 	option = {
 		name = EVTOPTA6351
 		if = {
-			limit = { NOT = { trait = lunatic } }
+			limit = {
+				 NOT = { OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} } 
+			}
 			add_trait = lunatic
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
@@ -3082,7 +3698,12 @@ character_event = {
 	option = {
 		name = EVTOPTB6351
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}	
 }
@@ -3119,14 +3740,24 @@ character_event = {
 		months = 1000
 		modifier = {
 			factor = 100
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}
 	
 	option = {
 		name = EVTOPTA6352
 		if = {
-			limit = { NOT = { trait = lunatic } }
+			limit = {
+				 NOT = { OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} } 
+			}
 			add_trait = lunatic
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
@@ -3134,7 +3765,12 @@ character_event = {
 	option = {
 		name = EVTOPTB6352
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}	
 }
@@ -3171,14 +3807,24 @@ character_event = {
 		months = 1000
 		modifier = {
 			factor = 100
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}
 	
 	option = {
 		name = EVTOPTA6353
 		if = {
-			limit = { NOT = { trait = lunatic } }
+			limit = {
+				 NOT = { OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} } 
+			}
 			add_trait = lunatic
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
@@ -3186,7 +3832,12 @@ character_event = {
 	option = {
 		name = EVTOPTB6353
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 	}	
 }

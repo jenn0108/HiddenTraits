@@ -26,7 +26,10 @@ character_event = {
 	trigger = {
 		war = yes
 		in_command = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		NOT = {
 			has_character_modifier = stressed_commander
 			has_character_modifier = misplaced_food
@@ -64,7 +67,10 @@ character_event = {
 	
 	trigger = {
 		is_ruler = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		diplomacy = 2
 		NOT = {
 			diplomacy = 10
@@ -131,7 +137,10 @@ character_event = {
 	
 	trigger = {
 		is_ruler = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		in_command = no
 		martial = 2
 		NOT = {
@@ -199,7 +208,10 @@ character_event = {
 	
 	trigger = {
 		is_ruler = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		intrigue = 2
 		NOT = {
 			intrigue = 10
@@ -266,7 +278,10 @@ character_event = {
 	
 	trigger = {
 		is_ruler = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		stewardship = 2
 		NOT = {
 			stewardship = 10
@@ -336,7 +351,10 @@ character_event = {
 		NOT = {	religion = buddhist	}
 		NOT = {	religion = jain	}
 		is_ruler = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		learning = 2
 		NOT = {
 			learning = 10
@@ -402,9 +420,15 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		NOT = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		OR = {
 			spouse = {
@@ -412,7 +436,10 @@ character_event = {
 				prisoner = no
 				is_alive = yes
 				NOT = {
-					trait = stressed
+					OR = {
+						trait = stressed
+						trait = stressed_hidden
+					}
 				}
 			}
 			any_child = {
@@ -438,11 +465,17 @@ character_event = {
 	
 		modifier = {
 			factor = 2
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 	
@@ -550,14 +583,23 @@ character_event = {
 			guardian = {
 				character = ROOT
 			}
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			age = 9
 			NOT = {
 				age = 16
 			}
 			NOT = {
-				trait = brave
-				trait = maimed
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
 			}
 		}
 	}
@@ -578,14 +620,23 @@ character_event = {
 				guardian = {
 					character = ROOT
 				}
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 				age = 9
 				NOT = {
 					age = 15
 				}
 				NOT = {
-					trait = brave
-					trait = maimed
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
 				}
 			}
 			opinion = {
@@ -613,14 +664,23 @@ character_event = {
 				guardian = {
 					character = ROOT
 				}
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 				age = 9
 				NOT = {
 					age = 15
 				}
 				NOT = {
-					trait = brave
-					trait = maimed
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
 				}
 			}
 			opinion = {
@@ -658,7 +718,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = cruel
+		OR = {
+			trait = cruel
+			trait = cruel_hidden
+		}
 		any_courtier = {
 			prisoner = yes
 			host = {
@@ -727,18 +790,30 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = lunatic
-		trait = cruel
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
+		OR = {
+			trait = cruel
+			trait = cruel_hidden
+		}
 		in_command = no
 		any_courtier = {
 			NOT = {
-				trait = wounded
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
 			}
 		}
 		any_courtier = {
 			age = 20
 			NOT = {
-				trait = maimed
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
 			}
 		}
 	}
@@ -757,7 +832,10 @@ character_event = {
 		random_courtier = {
 			limit = {
 				NOT = {
-					trait = wounded
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
 				}
 			}
 			add_trait = wounded
@@ -780,7 +858,10 @@ character_event = {
 			limit = {
 				age = 20
 				NOT = {
-					trait = maimed
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
 				}
 			}
 			random_list = {
@@ -817,10 +898,16 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = cruel
+		OR = {
+			trait = cruel
+			trait = cruel_hidden
+		}
 		in_command = no
 		any_courtier = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 			age = 20
 		}
 	}
@@ -833,7 +920,10 @@ character_event = {
 		name = EVTOPTA65023 #Pretend to push them off the walls
 		random_courtier = {
 			limit = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				age = 20
 			}
 			random = {
@@ -857,7 +947,10 @@ character_event = {
 		name = EVTOPTB65023 #Scare them in the night
 		random_courtier = {
 			limit = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				age = 20
 			}
 			random = {
@@ -889,8 +982,14 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		trait = depressed
-		trait = zealous
+		OR = {
+			trait = depressed
+			trait = depressed_hidden
+		}
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -940,8 +1039,14 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		trait = ill
-		trait = zealous
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -999,10 +1104,19 @@ character_event = {
 	trigger = {
 		in_command = no
 		OR = {
-			trait = ill
-			trait = pneumonic
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -1017,13 +1131,19 @@ character_event = {
 			chance = 10
 			if = {
 				limit = {
-					trait = pneumonic
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 				remove_trait = pneumonic
 			}
 			if = {
 				limit = {
-					trait = ill
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				remove_trait = ill
 			}
@@ -1059,8 +1179,14 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		trait = leper
-		trait = zealous
+		OR = {
+			trait = leper
+			trait = leper_hidden
+		}
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -1089,15 +1215,39 @@ character_event = {
 	trigger = {
 		in_command = no
 		OR = {
-			trait = lustful
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -1131,8 +1281,14 @@ character_event = {
 	
 	trigger = {
 		in_command = no
-		trait = scholar
-		trait = zealous
+		OR = {
+			trait = scholar
+			trait = scholar_hidden
+		}
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -1204,24 +1360,69 @@ character_event = {
 	trigger = {
 		in_command = no
 		NOT = {
-			trait = lustful
-			trait = gluttonous
-			trait = slothful
-			trait = greedy
-			trait = envious
-			trait = wroth
-			trait = proud
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		OR = {
-			trait = chaste
-			trait = temperate
-			trait = charitable
-			trait = diligent
-			trait = kind
-			trait = patient
-			trait = humble
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -1235,14 +1436,38 @@ character_event = {
 		random_courtier = {
 			limit = {
 				OR = {
-					trait = lustful
-					trait = gluttonous
-					trait = slothful
-					trait = greedy
-					trait = envious
-					trait = wroth
-					trait = chaste
-					trait = proud
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
+					OR = {
+						trait = gluttonous
+						trait = gluttonous_hidden
+					}
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			opinion = {
@@ -1286,19 +1511,37 @@ character_event = {
 	trigger = {
 		in_command = no
 		NOT = {
-			trait = celibate
-			trait = lustful
-			trait = hedonist
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		religion_group = christian
 		OR = {
 			any_courtier = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 				prisoner = no
 			}
 			any_vassal = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 				prisoner = no
 			}
 		}
@@ -1312,13 +1555,19 @@ character_event = {
 		name = EVTOPTA65037 #ask him/her for advice...
 		trigger = {
 			any_courtier = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 				prisoner = no
 			}
 		}
 		random_courtier = {
 			limit = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 				prisoner = no
 			}
 			opinion = {
@@ -1337,13 +1586,19 @@ character_event = {
 		name = EVTOPTB65037 #try to emulate him/her
 		trigger = {
 			any_vassal = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 				prisoner = no
 			}
 		}
 		random_vassal = {
 			limit = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 				prisoner = no
 			}
 			opinion = {
@@ -1385,14 +1640,25 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { trait = drunkard }
+		NOT = {
+			 OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			} 
+		}
 		war = no
 		age = 16
 		in_command = no
 		religion_group = christian
 		OR = {
-			trait = gluttonous
-			trait = slothful 
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			} 
 		}
 	}
 	
@@ -1400,7 +1666,10 @@ character_event = {
 		factor = 1
 		modifier = {
 			factor = 5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 	}
 	
@@ -1412,11 +1681,21 @@ character_event = {
 	option = {
 		name = EVTOPTB65040
 		if = {
-			limit = { trait = gluttonous }
+			limit = {
+				 OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} 
+			}
 			add_trait = ill
 		}
 		if = {
-			limit = { NOT = { trait = gluttonous } }
+			limit = {
+				 NOT = { OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} } 
+			}
 			add_trait = gluttonous
 		}
 	}
@@ -1435,9 +1714,17 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { trait = drunkard }
+		NOT = {
+			 OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			} 
+		}
 		religion_group = christian
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		in_command = yes
 		age = 16
 	}
@@ -1453,7 +1740,12 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB65041	#find solace in god.		
-		trigger= { NOT = {trait=zealous } }
+		trigger = {
+			 NOT = {OR = {
+				trait=zealous
+				trait=zealous_hidden
+			} } 
+		}
 		add_trait = zealous
 		piety = 5
 		remove_trait = stressed
@@ -1461,7 +1753,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC65041	#find solace in the camp followers
-		trigger= { NOT = {trait=lustful } }
+		trigger = {
+			 NOT = {OR = {
+				trait=lustful
+				trait=lustful_hidden
+			} } 
+		}
 		add_trait = lustful
 		remove_trait = stressed
 	}
@@ -1481,8 +1778,16 @@ character_event = {
 
 	trigger = {
 		age = 16
-		NOT = { trait = drunkard }
-		trait = hedonist
+		NOT = {
+			 OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			} 
+		}
+		OR = {
+			trait = hedonist
+			trait = hedonist_hidden
+		}
 		religion_group = christian
 		in_command = no
 	}
@@ -1509,7 +1814,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		in_command = no
 		is_ruler = yes
 		religion_group = christian
@@ -1545,11 +1853,19 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		in_command = no
 		any_child = {
 			age = 5
-			NOT = { trait = drunkard }
+			NOT = {
+				 OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} 
+			}
 			is_abroad = no
 			NOT = { has_opinion_modifier = { who = ROOT modifier = despise_drunkard } }
 
@@ -1565,7 +1881,12 @@ character_event = {
 		any_child = {
 			limit = {
 				age = 5
-				NOT = { trait = drunkard }
+				NOT = {
+					 OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					} 
+				}
 				is_abroad = no
 				NOT = { has_opinion_modifier = { who = ROOT modifier = despise_drunkard } }
 			}
@@ -1591,7 +1912,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		in_command = no
 		is_married = yes
 		religion_group = christian
@@ -1600,7 +1924,10 @@ character_event = {
 			prisoner = no
 			is_alive = yes
 			NOT = {
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 			}
 			NOT = {
 				has_opinion_modifier = { who = ROOT modifier = despise_drunkard } 
@@ -1698,7 +2025,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		in_command = yes
 		is_ruler = yes
 		in_battle = no
@@ -1716,7 +2046,12 @@ character_event = {
 			any_vassal = {
 				in_command = yes
 				at_location = root
-				NOT = { trait = drunkard }
+				NOT = {
+					 OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					} 
+				}
 				NOT = { has_opinion_modifier = { who = ROOT  modifier= despise_drunkard } }
 			}
 		}
@@ -1725,7 +2060,12 @@ character_event = {
 			limit = {
 				in_command = yes
 				at_location = root
-				NOT = { trait = drunkard }
+				NOT = {
+					 OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					} 
+				}
 				NOT = { has_opinion_modifier = { who = ROOT modifier = despise_drunkard } }
 			}
 			opinion = {
@@ -1757,9 +2097,22 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
-		NOT = { trait = content	}
-		NOT = { trait = stressed }
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			}	
+		}
+		NOT = {
+			 OR = {
+				trait = stressed
+				trait = stressed_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
@@ -1767,15 +2120,27 @@ character_event = {
 		modifier = {
 			factor = 0.01
 			OR = {
-				trait = gluttonous
-				trait = slothful
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 		}
 		modifier = {
 			factor = 5
 			OR = {
-				trait = ambitious
-				trait = diligent
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 			}
 		}
 		modifier = {
@@ -1829,20 +2194,34 @@ character_event = {
 		NOT = {
 			religion_group = muslim
 		}
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		health = 0
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		factor = 1
 		modifier = {
 			factor = 2
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}		
 	}
 	
@@ -1885,10 +2264,18 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		in_command = no
 		NOT = { health = 3 }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
@@ -1917,7 +2304,10 @@ character_event = {
 	trigger = {
 		war = yes
 		in_command = yes
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -1925,11 +2315,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.3
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -1956,19 +2352,46 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 		religion_group = christian
 		OR = {
-			trait = lustful
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		NOT = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 	
@@ -1977,7 +2400,10 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -2031,7 +2457,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 		has_guardian = yes
 		religion_group = christian
 		guardian = {
@@ -2091,25 +2520,46 @@ character_event = {
 			limit = {
 				FROM = {
 					NOT = {
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					NOT = {
-						trait = gluttonous
+						OR = {
+							trait = gluttonous
+							trait = gluttonous_hidden
+						}
 					}
 					NOT = {
-						trait = greedy
+						OR = {
+							trait = greedy
+							trait = greedy_hidden
+						}
 					}
 					NOT = {
-						trait = slothful
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
 					}
 					NOT = {
-						trait = envious
+						OR = {
+							trait = envious
+							trait = envious_hidden
+						}
 					}
 					NOT = {
-						trait = wroth
+						OR = {
+							trait = wroth
+							trait = wroth_hidden
+						}
 					}
 					NOT = {
-						trait = proud
+						OR = {
+							trait = proud
+							trait = proud_hidden
+						}
 					}
 				}
 			}
@@ -2126,13 +2576,34 @@ character_event = {
 			limit = {
 				FROM = {
 					OR = {
-						trait = lustful
-						trait = gluttonous
-						trait = greedy
-						trait = slothful
-						trait = envious
-						trait = wroth
-						trait = proud
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
+						OR = {
+							trait = gluttonous
+							trait = gluttonous_hidden
+						}
+						OR = {
+							trait = greedy
+							trait = greedy_hidden
+						}
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
+						OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						OR = {
+							trait = wroth
+							trait = wroth_hidden
+						}
+						OR = {
+							trait = proud
+							trait = proud_hidden
+						}
 					}
 				}
 			}
@@ -2153,19 +2624,33 @@ character_event = {
 			
 			modifier = {
 				factor = 10
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 10
-				NOT = { trait = cruel }
+				NOT = {
+					 OR = {
+						trait = cruel
+						trait = cruel_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 10
@@ -2236,11 +2721,17 @@ character_event = {
 			
 			modifier = {
 				factor = 100
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 100
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		FROM = {
@@ -2313,7 +2804,10 @@ character_event = {
 	capable_only = yes
 	
 	trigger = {
-		trait = pneumonic
+		OR = {
+			trait = pneumonic
+			trait = pneumonic_hidden
+		}
 		month = 2
 		NOT = {
 			month = 3
@@ -2350,7 +2844,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = dwarf
+		OR = {
+			trait = dwarf
+			trait = dwarf_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -2426,7 +2923,10 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = dwarf
+		OR = {
+			trait = dwarf
+			trait = dwarf_hidden
+		}
 		NOT = {
 			any_vassal = {
 				has_opinion_modifier = { who = ROOT modifier = opinion_laughing_at_you }
@@ -2480,18 +2980,33 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = strong
-		NOT = {
-			trait = dwarf
+		OR = {
+			trait = strong
+			trait = strong_hidden
 		}
 		NOT = {
-			trait = kind
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 		}
 		NOT = {
-			trait = charitable
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		any_courtier = {
 			war = no
@@ -2506,7 +3021,10 @@ character_event = {
 					character = ROOT
 				}
 			}
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 		}
 	}
 	
@@ -2515,7 +3033,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 	
@@ -2530,7 +3051,10 @@ character_event = {
 				NOT = {
 					age = 60
 				}
-				trait = dwarf
+				OR = {
+					trait = dwarf
+					trait = dwarf_hidden
+				}
 			}
 			opinion = {
 				modifier = opinion_tossed_me
@@ -2590,9 +3114,15 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = clubfooted
+		OR = {
+			trait = clubfooted
+			trait = clubfooted_hidden
+		}
 		NOT = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 	}
 	
@@ -2620,7 +3150,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = clubfooted
+		OR = {
+			trait = clubfooted
+			trait = clubfooted_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -2697,10 +3230,19 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = clubfooted
 		OR = {
-			trait = brave
-			trait = hunter
+			trait = clubfooted
+			trait = clubfooted_hidden
+		}
+		OR = {
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 	}
 	
@@ -2785,16 +3327,28 @@ character_event = {
 		any_courtier = {
 			limit = {
 				NOT = {
-					trait = clubfooted
+					OR = {
+						trait = clubfooted
+						trait = clubfooted_hidden
+					}
 				}
 				NOT = {
-					trait = kind
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
-					trait = dwarf
+					OR = {
+						trait = dwarf
+						trait = dwarf_hidden
+					}
 				}
 			}
 			opinion = {
@@ -2824,13 +3378,19 @@ character_event = {
 		in_command = no
 		is_married = no
 		is_betrothed = no
-		trait = clubfooted
+		OR = {
+			trait = clubfooted
+			trait = clubfooted_hidden
+		}
 		NOT = {
 			has_ambition = obj_get_married
 		}
 		has_ambition = no
 		NOT = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 		}
 		fertility = 0.6
 	}
@@ -2905,7 +3465,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = harelip
+		OR = {
+			trait = harelip
+			trait = harelip_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -2981,25 +3544,43 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = harelip
-		NOT = {
-			trait = stutter
+		OR = {
+			trait = harelip
+			trait = harelip_hidden
 		}
 		NOT = {
-			trait = lisp
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 		}
 		any_vassal = {
 			war = no
 			in_command = no
 			prisoner = no
 			NOT = {
-				trait = harelip
+				OR = {
+					trait = harelip
+					trait = harelip_hidden
+				}
 			}
 			NOT = {
-				trait = stutter
+				OR = {
+					trait = stutter
+					trait = stutter_hidden
+				}
 			}
 			NOT = {
-				trait = lisp
+				OR = {
+					trait = lisp
+					trait = lisp_hidden
+				}
 			}
 		}
 	}
@@ -3014,13 +3595,22 @@ character_event = {
 		random_vassal = {
 			limit = {
 				NOT = {
-					trait = harelip
+					OR = {
+						trait = harelip
+						trait = harelip_hidden
+					}
 				}
 				NOT = {
-					trait = stutter
+					OR = {
+						trait = stutter
+						trait = stutter_hidden
+					}
 				}
 				NOT = {
-					trait = lisp
+					OR = {
+						trait = lisp
+						trait = lisp_hidden
+					}
 				}
 			}
 			opinion = {
@@ -3036,13 +3626,22 @@ character_event = {
 		random_vassal = {
 			limit = {
 				NOT = {
-					trait = harelip
+					OR = {
+						trait = harelip
+						trait = harelip_hidden
+					}
 				}
 				NOT = {
-					trait = stutter
+					OR = {
+						trait = stutter
+						trait = stutter_hidden
+					}
 				}
 				NOT = {
-					trait = lisp
+					OR = {
+						trait = lisp
+						trait = lisp_hidden
+					}
 				}
 			}
 			opinion = {
@@ -3092,7 +3691,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = hunchback
+		OR = {
+			trait = hunchback
+			trait = hunchback_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -3169,7 +3771,10 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = hunchback
+		OR = {
+			trait = hunchback
+			trait = hunchback_hidden
+		}
 		is_married = no
 		tier = count
 		OR = {
@@ -3178,19 +3783,34 @@ character_event = {
 			can_marry = yes
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		NOT = {
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		NOT = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 	
@@ -3199,11 +3819,17 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 	}
 	
@@ -3263,17 +3889,26 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			remove_trait = shy
 		}
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 			add_trait = gregarious
@@ -3321,16 +3956,25 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			add_trait = wroth
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			add_trait = cruel
@@ -3407,18 +4051,42 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = hunchback
+		OR = {
+			trait = hunchback
+			trait = hunchback_hidden
+		}
 		NOT = {
 			prestige = 50
 		}
 		OR = {
-			trait = lustful
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 	}
 	
@@ -3438,10 +4106,16 @@ character_event = {
 							character = ROOT
 						}
 						NOT = {
-							trait = wroth
+							OR = {
+								trait = wroth
+								trait = wroth_hidden
+							}
 						}
 						NOT = {
-							trait = cruel
+							OR = {
+								trait = cruel
+								trait = cruel_hidden
+							}
 						}
 					}
 					opinion = {
@@ -3525,7 +4199,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = lisp
+		OR = {
+			trait = lisp
+			trait = lisp_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -3601,25 +4278,43 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = lisp
-		NOT = {
-			trait = stutter
+		OR = {
+			trait = lisp
+			trait = lisp_hidden
 		}
 		NOT = {
-			trait = harelip
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 		}
 		any_vassal = {
 			war = no
 			in_command = no
 			prisoner = no
 			NOT = {
-				trait = harelip
+				OR = {
+					trait = harelip
+					trait = harelip_hidden
+				}
 			}
 			NOT = {
-				trait = stutter
+				OR = {
+					trait = stutter
+					trait = stutter_hidden
+				}
 			}
 			NOT = {
-				trait = lisp
+				OR = {
+					trait = lisp
+					trait = lisp_hidden
+				}
 			}
 		}
 	}
@@ -3634,13 +4329,22 @@ character_event = {
 		random_vassal = {
 			limit = {
 				NOT = {
-					trait = harelip
+					OR = {
+						trait = harelip
+						trait = harelip_hidden
+					}
 				}
 				NOT = {
-					trait = stutter
+					OR = {
+						trait = stutter
+						trait = stutter_hidden
+					}
 				}
 				NOT = {
-					trait = lisp
+					OR = {
+						trait = lisp
+						trait = lisp_hidden
+					}
 				}
 			}
 			opinion = {
@@ -3656,13 +4360,22 @@ character_event = {
 		random_vassal = {
 			limit = {
 				NOT = {
-					trait = harelip
+					OR = {
+						trait = harelip
+						trait = harelip_hidden
+					}
 				}
 				NOT = {
-					trait = stutter
+					OR = {
+						trait = stutter
+						trait = stutter_hidden
+					}
 				}
 				NOT = {
-					trait = lisp
+					OR = {
+						trait = lisp
+						trait = lisp_hidden
+					}
 				}
 			}
 			opinion = {
@@ -3712,15 +4425,27 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = lisp
-		NOT = {
-			trait = shy
+		OR = {
+			trait = lisp
+			trait = lisp_hidden
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = {
-			trait = stutter
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 		}
 	}
 	
@@ -3786,7 +4511,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			add_trait = zealous
@@ -3808,7 +4536,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = stutter
+		OR = {
+			trait = stutter
+			trait = stutter_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -3883,15 +4614,27 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = stutter
-		NOT = {
-			trait = shy
+		OR = {
+			trait = stutter
+			trait = stutter_hidden
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = {
-			trait = lisp
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 		}
 	}
 	
@@ -3957,7 +4700,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			add_trait = zealous
@@ -3980,12 +4726,21 @@ character_event = {
 	trigger = {
 		war = no
 		in_command = no
-		trait = stutter
-		NOT = {
-			trait = harelip
+		OR = {
+			trait = stutter
+			trait = stutter_hidden
 		}
 		NOT = {
-			trait = lisp
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 		}
 		any_vassal = {
 			war = no
@@ -3993,13 +4748,22 @@ character_event = {
 			in_command = no
 			prisoner = no
 			NOT = {
-				trait = harelip
+				OR = {
+					trait = harelip
+					trait = harelip_hidden
+				}
 			}
 			NOT = {
-				trait = stutter
+				OR = {
+					trait = stutter
+					trait = stutter_hidden
+				}
 			}
 			NOT = {
-				trait = lisp
+				OR = {
+					trait = lisp
+					trait = lisp_hidden
+				}
 			}
 		}
 	}
@@ -4018,13 +4782,22 @@ character_event = {
 				in_command = no
 				prisoner = no
 				NOT = {
-					trait = harelip
+					OR = {
+						trait = harelip
+						trait = harelip_hidden
+					}
 				}
 				NOT = {
-					trait = stutter
+					OR = {
+						trait = stutter
+						trait = stutter_hidden
+					}
 				}
 				NOT = {
-					trait = lisp
+					OR = {
+						trait = lisp
+						trait = lisp_hidden
+					}
 				}
 			}
 			opinion = {
@@ -4044,13 +4817,22 @@ character_event = {
 				in_command = no
 				prisoner = no
 				NOT = {
-					trait = harelip
+					OR = {
+						trait = harelip
+						trait = harelip_hidden
+					}
 				}
 				NOT = {
-					trait = stutter
+					OR = {
+						trait = stutter
+						trait = stutter_hidden
+					}
 				}
 				NOT = {
-					trait = lisp
+					OR = {
+						trait = lisp
+						trait = lisp_hidden
+					}
 				}
 			}
 			opinion = {
@@ -4100,7 +4882,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = inbred
+		OR = {
+			trait = inbred
+			trait = inbred_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -4177,7 +4962,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = imbecile
+		OR = {
+			trait = imbecile
+			trait = imbecile_hidden
+		}
 		war = no
 		in_command = no
 		any_courtier = {
@@ -4246,7 +5034,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = imbecile
+		OR = {
+			trait = imbecile
+			trait = imbecile_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4280,7 +5071,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = imbecile
+		OR = {
+			trait = imbecile
+			trait = imbecile_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4336,7 +5130,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = imbecile
+		OR = {
+			trait = imbecile
+			trait = imbecile_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4373,7 +5170,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = ugly
+		OR = {
+			trait = ugly
+			trait = ugly_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4436,7 +5236,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = ugly
+		OR = {
+			trait = ugly
+			trait = ugly_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4491,7 +5294,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = ugly
+		OR = {
+			trait = ugly
+			trait = ugly_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4546,7 +5352,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = ugly
+		OR = {
+			trait = ugly
+			trait = ugly_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4603,7 +5412,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4684,7 +5496,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4789,8 +5604,14 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = slow
-		trait = trusting
+		OR = {
+			trait = slow
+			trait = slow_hidden
+		}
+		OR = {
+			trait = trusting
+			trait = trusting_hidden
+		}
 		war = no
 		in_command = no
 	}
@@ -4819,7 +5640,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		in_command = no
 		is_ruler = yes
 		religion_group = muslim
@@ -4858,7 +5682,10 @@ character_event = {
 	trigger = {
 		religion_group = muslim
 		is_ruler = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		learning = 2
 		NOT = {
 			learning = 10

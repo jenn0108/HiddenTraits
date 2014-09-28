@@ -25,11 +25,22 @@ character_event = {
 		culture_group = north_germanic
 		is_alive = yes
 		is_female = no
-		NOT = { trait = berserker }
+		NOT = {
+			 OR = {
+				trait = berserker
+				trait = berserker_hidden
+			} 
+		}
 		NOT = { year = 1150 }
 		OR = {
-			trait = wroth
-			trait = aggressive_leader
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = aggressive_leader
+				trait = aggressive_leader_hidden
+			}
 		}
 	}
 	
@@ -37,55 +48,94 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.2
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 1.2
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
 			factor = 0.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.8
 		}		
 		modifier = {
 			factor = 0.7
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 	}
 	
@@ -106,8 +156,16 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		trait = berserker
-		NOT = { trait = maimed }
+		OR = {
+			trait = berserker
+			trait = berserker_hidden
+		}
+		NOT = {
+			 OR = {
+				trait = maimed
+				trait = maimed_hidden
+			} 
+		}
 		is_alive = yes
 	}
 	
@@ -120,133 +178,229 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.25
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.9
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 2.0
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 3.0
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 3.0
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.5
 		}		
 
 		modifier = {
 			factor = 1.25
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 1.15
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 1.1
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}		
 	}
 	
@@ -267,9 +421,22 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		trait = berserker
-		NOT = { trait = wounded }
-		NOT = { trait = maimed }
+		OR = {
+			trait = berserker
+			trait = berserker_hidden
+		}
+		NOT = {
+			 OR = {
+				trait = wounded
+				trait = wounded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = maimed
+				trait = maimed_hidden
+			} 
+		}
 		is_alive = yes
 	}
 	
@@ -282,133 +449,229 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.25
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.9
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 2.0
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 3.0
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 3.0
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.5
 		}		
 		
 		modifier = {
 			factor = 1.25
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 1.1
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}			
 	}
 	
@@ -429,143 +692,245 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		trait = berserker
+		OR = {
+			trait = berserker
+			trait = berserker_hidden
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.25
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.9
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 2.0
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 3.0
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 3.0
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.5
 		}		
 		modifier = {
 			factor = 1.25
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 1.15
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 1.1
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}		
 	}
 	
@@ -605,123 +970,210 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		trait = berserker
+		OR = {
+			trait = berserker
+			trait = berserker_hidden
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.1
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.9
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.2
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.2
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.8
 		}			
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 0.4
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}
 	}
 	
@@ -741,7 +1193,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		trait = berserker
+		OR = {
+			trait = berserker
+			trait = berserker_hidden
+		}
 		age = 50
 	}
 	
@@ -833,13 +1288,24 @@ character_event = {
 		host = { 
 			character = liege
 			prisoner = no
-			trait = berserker
+			OR = {
+				trait = berserker
+				trait = berserker_hidden
+			}
 			NOT = { 
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 				opinion = { who = ROOT value = 10 }
 			}
 		}
-		NOT = { trait = berserker }
+		NOT = {
+			 OR = {
+				trait = berserker
+				trait = berserker_hidden
+			} 
+		}
 		is_primary_heir = no
 		is_pretender = no
 	}
@@ -915,7 +1381,12 @@ character_event = {
 	
 	trigger = {
 		has_landed_title = d_varangian_guard
-		NOT = { trait = varangian }
+		NOT = {
+			 OR = {
+				trait = varangian
+				trait = varangian_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -971,7 +1442,10 @@ character_event = {
 		has_global_flag = varangian_guard_founded
 		culture_group = north_germanic
 		NOT = { 
-			trait = varangian 
+			OR = {
+				trait = varangian
+				trait = varangian_hidden
+			} 
 			has_character_flag = wants_varangian
 			has_character_flag = denied_varangian
 		}
@@ -981,7 +1455,12 @@ character_event = {
 			is_ruler = yes
 			is_liege_of = ROOT
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			ROOT = { host = { character = PREVPREV } }
 		}
 	}
@@ -991,31 +1470,52 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = berserker
+			OR = {
+				trait = berserker
+				trait = berserker_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
@@ -1023,7 +1523,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -1107,15 +1610,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -1196,7 +1708,12 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		has_character_flag = serving_varangian
-		NOT = { trait = scarred }
+		NOT = {
+			 OR = {
+				trait = scarred
+				trait = scarred_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1204,11 +1721,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -1250,7 +1773,12 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		has_character_flag = serving_varangian
-		NOT = { trait = homosexual }
+		NOT = {
+			 OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1258,15 +1786,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 	
@@ -1308,8 +1845,14 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = serving_varangian
 		NOT = {
-			trait = eunuch
-			trait = blinded
+			OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			}
+			OR = {
+				trait = blinded
+				trait = blinded_hidden
+			}
 		}
 	}
 	
@@ -1356,11 +1899,25 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		has_character_flag = serving_varangian
-		NOT = { trait = brilliant_strategist }
+		NOT = {
+			 OR = {
+				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
+			} 
+		}
 		OR = {
-			trait = misguided_warrior
-			trait = tough_soldier
-			trait = skilled_tactician
+			OR = {
+				trait = misguided_warrior
+				trait = misguided_warrior_hidden
+			}
+			OR = {
+				trait = tough_soldier
+				trait = tough_soldier_hidden
+			}
+			OR = {
+				trait = skilled_tactician
+				trait = skilled_tactician_hidden
+			}
 		}
 	}
 	
@@ -1369,23 +1926,38 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 	}
 	
@@ -1413,7 +1985,10 @@ character_event = {
 		if = {
 			limit = {
 				FROM = {
-					trait = skilled_tactician
+					OR = {
+						trait = skilled_tactician
+						trait = skilled_tactician_hidden
+					}
 				}
 			}
 			FROM = {
@@ -1425,8 +2000,14 @@ character_event = {
 			limit = {
 				FROM = {
 					OR = {
-						trait = misguided_warrior
-						trait = tough_soldier
+						OR = {
+							trait = misguided_warrior
+							trait = misguided_warrior_hidden
+						}
+						OR = {
+							trait = tough_soldier
+							trait = tough_soldier_hidden
+						}
 					}	
 				}
 			}
@@ -1454,7 +2035,12 @@ character_event = {
 	trigger = {
 		has_dlc = "The Old Gods"
 		has_character_flag = serving_varangian
-		NOT = { trait = depressed }
+		NOT = {
+			 OR = {
+				trait = depressed
+				trait = depressed_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1462,15 +2048,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -1526,7 +2121,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -1587,7 +2185,12 @@ character_event = {
 				religion = norse_pagan_reformed
 			}
 		}
-		NOT = { trait = zealous }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
 		e_byzantium = {
 			holder_scope = {
 				religion = orthodox
@@ -1600,7 +2203,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 	
@@ -1649,31 +2255,52 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 	}
 	
@@ -1722,59 +2349,101 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = berserker
+			OR = {
+				trait = berserker
+				trait = berserker_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.75
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -1818,7 +2487,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -3188,7 +3860,12 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "The Old Gods"
-		NOT = { trait = viking }
+		NOT = {
+			 OR = {
+				trait = viking
+				trait = viking_hidden
+			} 
+		}
 		OR = {
 			religion = norse_pagan
 			religion = norse_pagan_reformed
@@ -3235,11 +3912,26 @@ character_event = {
 			NOT = { has_character_flag = buffalo_woman }
 		}
 		OR = {
-			trait = ugly
-			trait = hunchback
-			trait = harelip
-			trait = clubfooted
-			trait = dwarf
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 		}
 		num_of_children = 0
 		has_lover = no
@@ -3353,7 +4045,10 @@ character_event = {
 		name = EVTOPTC_TOG_3401
 		tooltip_info = greedy
 		trigger = {
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		prestige = -25
 		wealth = 50
@@ -3362,7 +4057,10 @@ character_event = {
 		name = EVTOPTD_TOG_3401
 		tooltip_info = zealous
 		trigger = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		prestige = 100
 		piety = 50
@@ -3419,11 +4117,21 @@ character_event = {
 		name = EVTOPTC_TOG_3402
 		prestige = -50
 		if = {
-			limit = { trait = zealous }
+			limit = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			remove_trait = zealous
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			add_trait = cynical
 		}
 		custom_tooltip = { text = odin_option_c }

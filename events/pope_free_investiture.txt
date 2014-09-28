@@ -41,7 +41,10 @@ character_event = {
 		months = 50
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 
@@ -89,11 +92,17 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		
@@ -153,11 +162,17 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 3
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		wealth = -200
@@ -287,7 +302,10 @@ character_event = {
 		months = 50
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 
@@ -446,7 +464,10 @@ character_event = {
 		months = 50
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 	}	
 	option = {

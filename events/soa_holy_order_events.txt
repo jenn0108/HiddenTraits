@@ -41,7 +41,12 @@ character_event = {
 			is_adult = yes
 			is_ruler = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			ROOT = {
 				NOT = { 
 					current_heir = { 
@@ -64,7 +69,12 @@ character_event = {
 				is_adult = yes
 				is_ruler = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				ROOT = {
 					NOT = { 
 						current_heir = { 
@@ -489,23 +499,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -513,23 +538,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -1047,23 +1087,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -1071,23 +1126,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -1504,7 +1574,12 @@ character_event = {
 			is_adult = yes
 			is_ruler = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			ROOT = {
 				NOT = { 
 					current_heir = { 
@@ -1527,7 +1602,12 @@ character_event = {
 				is_adult = yes
 				is_ruler = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				ROOT = {
 					NOT = { 
 						current_heir = { 
@@ -2084,23 +2164,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -2108,23 +2203,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -2501,23 +2611,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -2525,23 +2650,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -2946,7 +3086,12 @@ character_event = {
 			is_adult = yes
 			is_ruler = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			ROOT = {
 				NOT = { 
 					current_heir = { 
@@ -2976,7 +3121,12 @@ character_event = {
 				is_adult = yes
 				is_ruler = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				ROOT = {
 					NOT = { 
 						current_heir = { 
@@ -3347,23 +3497,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -3371,23 +3536,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -3824,23 +4004,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -3848,23 +4043,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -4547,23 +4757,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -4571,23 +4796,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -5225,23 +5465,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -5249,23 +5504,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -5866,23 +6136,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -5890,23 +6175,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -6503,23 +6803,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -6527,23 +6842,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -7140,23 +7470,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -7164,23 +7509,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -7776,23 +8136,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -7800,23 +8175,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -8412,23 +8802,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -8436,23 +8841,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -9048,23 +9468,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -9072,23 +9507,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -9682,23 +10132,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -9706,23 +10171,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -10316,23 +10796,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -10340,23 +10835,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -10986,23 +11496,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -11010,23 +11535,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -11672,23 +12212,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -11696,23 +12251,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -12357,23 +12927,38 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -12381,23 +12966,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0

@@ -343,22 +343,36 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA72003" #Spend lavishly on food
-		trigger = { NOT = { trait = temperate } }
+		trigger = {
+			 NOT = { OR = {
+				trait = temperate
+				trait = temperate_hidden
+			} } 
+		}
 		ai_chance = {
 
 			factor = 30
 
 			modifier = {
 				factor = 0.5
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 3
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 			modifier = {
 				factor = 0.1
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 			modifier = {
 				factor = 2
@@ -383,11 +397,21 @@ character_event = {
 
 			modifier = {
 				factor = 0.5
-				NOT = { trait = greedy }
+				NOT = {
+					 OR = {
+						trait = greedy
+						trait = greedy_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
-				NOT = { trait = gluttonous }
+				NOT = {
+					 OR = {
+						trait = gluttonous
+						trait = gluttonous_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
@@ -407,17 +431,28 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTC72003" #Spend low on food
-		trigger = { NOT = { trait = gluttonous } }
+		trigger = {
+			 NOT = { OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			} } 
+		}
 		ai_chance = {
 			factor = 30
 
 			modifier = {
 				factor = 2.5
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.1
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 			modifier = {
 				factor = 2
@@ -761,7 +796,10 @@ character_event = {
 		days = 80
 		modifier = {
 			factor = 0.5
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 	}
 
@@ -842,7 +880,12 @@ character_event = {
 		trigger = {
 			is_female = no
 			NOT = { health_traits = 1 }
-			NOT = { trait = craven }
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		prestige = 10
 		random_list = {
@@ -1001,7 +1044,12 @@ character_event = {
 		any_vassal = {
 			limit = {
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				NOT = { has_character_modifier = holding_large_feast }
 				war = no
 				is_adult = yes
@@ -1187,7 +1235,12 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			liege = { trait = gluttonous }
+			liege = {
+				 OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2
@@ -1234,14 +1287,22 @@ character_event = {
 	option = {
 		name = "EVTOPTA72020" #Approve publicly
 		trigger = {
-			NOT = { trait = temperate }
+			NOT = {
+				 OR = {
+					trait = temperate
+					trait = temperate_hidden
+				} 
+			}
 		}
 		ai_chance = {
 			factor = 40
 
 			modifier = {
 				factor = 5
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 		}
 		any_liege = {
@@ -1266,14 +1327,22 @@ character_event = {
 	option = {
 		name = "EVTOPTB72020" #Disapprove
 		trigger = {
-			NOT = { trait = gluttonous }
+			NOT = {
+				 OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} 
+			}
 		}
 		ai_chance = {
 			factor = 20
 
 			modifier = {
 				factor = 5
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 		}
 		any_liege = {
@@ -1464,7 +1533,12 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			liege = { trait = temperate }
+			liege = {
+				 OR = {
+					trait = temperate
+					trait = temperate_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2
@@ -1511,14 +1585,22 @@ character_event = {
 	option = {
 		name = "EVTOPTA72022" #Approve publicly
 		trigger = {
-			NOT = { trait = gluttonous }
+			NOT = {
+				 OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} 
+			}
 		}
 		ai_chance = {
 			factor = 20
 
 			modifier = {
 				factor = 5
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 		}
 		any_liege = {
@@ -1543,14 +1625,22 @@ character_event = {
 	option = {
 		name = "EVTOPTB72022" #Disapprove
 		trigger = {
-			NOT = { trait = temperate }
+			NOT = {
+				 OR = {
+					trait = temperate
+					trait = temperate_hidden
+				} 
+			}
 		}
 		ai_chance = {
 			factor = 40
 
 			modifier = {
 				factor = 5
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 		}
 		any_liege = {
@@ -1681,19 +1771,31 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 	}
 
@@ -1829,19 +1931,31 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 	}
 
@@ -1931,20 +2045,41 @@ character_event = {
 		war = no
 		has_character_flag = guest_feast_started
 		NOT = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		NOT = {
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		martial = 9
 		OR = {
-			trait = duelist
-			trait = brave
-			trait = wroth
-			trait = cruel
+			OR = {
+				trait = duelist
+				trait = duelist_hidden
+			}
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		any_liege = {
 			NOT = {
@@ -1973,10 +2108,16 @@ character_event = {
 					opinion = { who = ROOT value = -50 }
 				}
 				NOT = {
-					trait = wounded
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
 				}
 				NOT = {
-					trait = maimed
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
 				}
 			}
 		}
@@ -1987,7 +2128,10 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 
 		modifier = {
@@ -2055,10 +2199,16 @@ character_event = {
 						opinion = { who = ROOT value = -50 }
 					}
 					NOT = {
-						trait = wounded
+						OR = {
+							trait = wounded
+							trait = wounded_hidden
+						}
 					}
 					NOT = {
-						trait = maimed
+						OR = {
+							trait = maimed
+							trait = maimed_hidden
+						}
 					}
 				}
 				character_event = {
@@ -2496,9 +2646,17 @@ character_event = {
 				is_alive = yes
 				is_abroad = no
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
-				NOT = { trait = eunuch }
+				NOT = {
+					 OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					} 
+				}
 				NOT = {
 					age = 30
 				}
@@ -2530,15 +2688,24 @@ character_event = {
 
 		modifier = {
 			factor = 0.25
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 10
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 
 		modifier = {
@@ -2606,9 +2773,17 @@ character_event = {
 					is_alive = yes
 					is_abroad = no
 					NOT = {
-						trait = celibate
+						OR = {
+							trait = celibate
+							trait = celibate_hidden
+						}
 					}
-					NOT = { trait = eunuch }
+					NOT = {
+						 OR = {
+							trait = eunuch
+							trait = eunuch_hidden
+						} 
+					}
 					NOT = {
 						age = 30
 					}
@@ -2725,7 +2900,10 @@ character_event = {
 		war = no
 		has_character_flag = guest_feast_started
 		NOT = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		any_liege = {
 			NOT = {
@@ -2865,7 +3043,10 @@ character_event = {
 	trigger = {
 		war = no
 		has_character_flag = guest_feast_started
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		any_liege = {
 			NOT = {
 				had_character_flag = {
@@ -2882,7 +3063,10 @@ character_event = {
 			any_courtier = {
 				has_job_title = job_treasurer
 				NOT = {
-					trait = drunkard
+					OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					}
 				}
 			}
 		}
@@ -2909,7 +3093,10 @@ character_event = {
 				limit = {
 					has_job_title = job_treasurer
 					NOT = {
-						trait = drunkard
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
 					}
 				}
 				opinion = {
@@ -2952,7 +3139,10 @@ character_event = {
 	trigger = {
 		war = no
 		has_character_flag = guest_feast_started
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		any_liege = {
 			NOT = {
 				had_character_flag = {
@@ -3174,16 +3364,28 @@ character_event = {
 		war = no
 		has_character_flag = guest_feast_started
 		OR = {
-			trait = wroth
-			trait = cruel
-			trait = impaler
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
 		}
 		OR = {
 			tier = BARON
 			tier = COUNT
 		}
 		NOT = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		any_liege = {
 			NOT = {
@@ -3289,7 +3491,12 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = just }
+				NOT = {
+					 OR = {
+						trait = just
+						trait = just_hidden
+					} 
+				}
 			}
 			add_trait = just
 		}
@@ -3302,7 +3509,12 @@ character_event = {
 		name = "EVTOPTB72056"
 		if = {
 			limit = {
-				NOT = { trait = arbitrary }
+				NOT = {
+					 OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					} 
+				}
 			}
 			add_trait = arbitrary
 		}
@@ -3382,9 +3594,15 @@ character_event = {
 		name = "EVTOPTA72060"
 		if = {
 			limit = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			random = {
@@ -3395,9 +3613,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3516,7 +3740,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3531,7 +3758,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3609,7 +3839,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3624,7 +3857,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3703,7 +3939,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3718,7 +3957,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3797,7 +4039,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3812,7 +4057,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3891,7 +4139,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3906,7 +4157,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
 					num_of_traits = 5
@@ -3988,11 +4242,22 @@ character_event = {
 					age = 40
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
-				NOT = { trait = eunuch }
 				NOT = {
-					trait = chaste
+					 OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					} 
+				}
+				NOT = {
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				opinion = { who = ROOT value = 20 }
 			}
@@ -4004,15 +4269,24 @@ character_event = {
 
 		modifier = {
 			factor = 0.25
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 10
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 
@@ -4025,9 +4299,24 @@ character_event = {
 				is_married = yes
 				is_female = yes
 				is_pregnant = no
-				NOT = {	trait = celibate }
-				NOT = {	trait = chaste	}
-				NOT = { trait = eunuch }
+				NOT = {
+						OR = {
+						trait = celibate
+						trait = celibate_hidden
+					} 
+				}
+				NOT = {
+						OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}	
+				}
+				NOT = {
+					 OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					} 
+				}
 				NOT = { is_close_relative = root }
 			}
 			set_character_flag = passionated_guest
@@ -4058,12 +4347,23 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = celibate
+						OR = {
+							trait = celibate
+							trait = celibate_hidden
+						}
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
-					NOT = { trait = eunuch }
+					NOT = {
+						 OR = {
+							trait = eunuch
+							trait = eunuch_hidden
+						} 
+					}
 					opinion = { who = ROOT value = 20 }
 				}
 			}
@@ -4084,12 +4384,23 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = celibate
+						OR = {
+							trait = celibate
+							trait = celibate_hidden
+						}
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
-					NOT = { trait = eunuch }
+					NOT = {
+						 OR = {
+							trait = eunuch
+							trait = eunuch_hidden
+						} 
+					}
 					opinion = { who = ROOT value = 20 }
 				}
 			}
@@ -4211,19 +4522,31 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 	}
 
@@ -4480,14 +4803,24 @@ character_event = {
 				is_betrothed = no
 				is_married = no
 			}
-			NOT = { trait = chaste }
+			NOT = {
+				 OR = {
+					trait = chaste
+					trait = chaste_hidden
+				} 
+			}
 		}
 		OR = {
 			religion_group = christian
 			religion_group = jewish_group
 		}
 		has_lover = no
-		NOT = { trait = shy }
+		NOT = {
+			 OR = {
+				trait = shy
+				trait = shy_hidden
+			} 
+		}
 		fertility = 0.4
 		OR = {
 			AND = {
@@ -4566,16 +4899,25 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.85
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		modifier = {
 			factor = 10
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 	}
 

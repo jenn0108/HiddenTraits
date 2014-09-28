@@ -22,14 +22,24 @@ character_event = {
 	trigger = {
 		in_command = yes
 		independent = no
-		NOT = { trait = shy }
+		NOT = {
+			 OR = {
+				trait = shy
+				trait = shy_hidden
+			} 
+		}
 		liege = {
 			any_vassal = {
 				NOT = { character = ROOT }
 				in_command = yes
 				at_location = ROOT
 				NOT = { war_with = ROOT }
-				NOT = { trait = shy }
+				NOT = {
+					 OR = {
+						trait = shy
+						trait = shy_hidden
+					} 
+				}
 				opinion = { who = ROOT value = -30 }
 				NOT = {	opinion = { who = ROOT value = 30 } }
 			}
@@ -40,11 +50,17 @@ character_event = {
 		months = 2400
 		modifier = {
 			factor = 0.8
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 	}
 	
@@ -56,7 +72,12 @@ character_event = {
 					in_command = yes
 					at_location = ROOT
 					NOT = { war_with = ROOT }
-					NOT = { trait = shy }
+					NOT = {
+						 OR = {
+							trait = shy
+							trait = shy_hidden
+						} 
+					}
 					opinion = { who = ROOT value = -30 }
 					NOT = {	opinion = { who = ROOT value = 30 } }
 				}
@@ -121,7 +142,12 @@ character_event = {
 		in_command = yes
 		in_battle = yes
 		independent = no
-		NOT = { trait = craven }
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		NOT = { health_traits = 1 }
 		liege = {
 			any_vassal = {
@@ -142,7 +168,10 @@ character_event = {
 		months = 2400
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		
 	}
@@ -236,11 +265,17 @@ character_event = {
 		months = 2400
 		modifier = {
 			factor = 0.8
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		
 	}

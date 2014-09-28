@@ -32,7 +32,12 @@ character_event = {
 			}
 		}
 		religion = catholic
-		NOT = { trait = crusader }
+		NOT = {
+			 OR = {
+				trait = crusader
+				trait = crusader_hidden
+			} 
+		}
 		crusade_target = {
 			is_located_in = ROOT
 		}
@@ -73,7 +78,12 @@ character_event = {
 			}
 		}
 		religion_group = muslim
-		NOT = { trait = mujahid }
+		NOT = {
+			 OR = {
+				trait = mujahid
+				trait = mujahid_hidden
+			} 
+		}
 		crusade_target = {
 			is_located_in = ROOT
 		}
@@ -233,8 +243,18 @@ character_event = {
 	
 	trigger = {
 		religion = catholic
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		
 		has_called_crusade = yes
 		OR = {
@@ -271,8 +291,18 @@ character_event = {
 	
 	trigger = {
 		religion = catholic
-		NOT = { trait = cynical }
-		NOT = { trait = zealous }
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
 		
 		has_called_crusade = yes
 		OR = {
@@ -718,7 +748,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -869,7 +902,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -1023,51 +1059,87 @@ character_event = {
 		
 		modifier = {
 			factor = 0.90
-			trait = detached_priest
+			OR = {
+				trait = detached_priest
+				trait = detached_priest_hidden
+			}
 		}
 		modifier = {
 			factor = 0.85
-			trait = martial_cleric
+			OR = {
+				trait = martial_cleric
+				trait = martial_cleric_hidden
+			}
 		}
 		modifier = {
 			factor = 0.80
-			trait = scholarly_theologian
+			OR = {
+				trait = scholarly_theologian
+				trait = scholarly_theologian_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = mastermind_theologian
+			OR = {
+				trait = mastermind_theologian
+				trait = mastermind_theologian_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = crusader
+			OR = {
+				trait = crusader
+				trait = crusader_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 	
@@ -1237,51 +1309,87 @@ character_event = {
 		
 		modifier = {
 			factor = 0.90
-			trait = misguided_warrior
+			OR = {
+				trait = misguided_warrior
+				trait = misguided_warrior_hidden
+			}
 		}
 		modifier = {
 			factor = 0.85
-			trait = tough_soldier
+			OR = {
+				trait = tough_soldier
+				trait = tough_soldier_hidden
+			}
 		}
 		modifier = {
 			factor = 0.80
-			trait = skilled_tactician
+			OR = {
+				trait = skilled_tactician
+				trait = skilled_tactician_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = brilliant_strategist
+			OR = {
+				trait = brilliant_strategist
+				trait = brilliant_strategist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = crusader
+			OR = {
+				trait = crusader
+				trait = crusader_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25 
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 	

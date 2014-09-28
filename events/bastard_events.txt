@@ -26,13 +26,22 @@ character_event = {
 	trigger = {
 		is_married = no
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		fertility = 0.6
 		NOT = {
@@ -45,16 +54,25 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 	}
 	
@@ -64,7 +82,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -117,13 +138,22 @@ character_event = {
 			is_married = no
 			fertility = 0.6
 			NOT = {
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			NOT = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 			}
 			NOT = {
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 			}
 		}
 		any_courtier = {
@@ -151,13 +181,22 @@ character_event = {
 				is_married = no
 				fertility = 0.4
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 			create_character = {
@@ -185,13 +224,22 @@ character_event = {
 				is_married = no
 				fertility = 0.4
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 			opinion = {
@@ -308,13 +356,22 @@ character_event = {
 					is_married = no
 					fertility = 0.6
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					NOT = {
-						trait = celibate
+						OR = {
+							trait = celibate
+							trait = celibate_hidden
+						}
 					}
 					NOT = {
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 					}
 				}
 				create_character = {
@@ -366,13 +423,22 @@ character_event = {
 				is_married = no
 				fertility = 0.6
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 			create_character = {
@@ -411,11 +477,17 @@ character_event = {
 	trigger = {
 		job_spymaster = {
 			NOT = {
-				trait = bastard
+				OR = {
+					trait = bastard
+					trait = bastard_hidden
+				}
 			}
 		}
 		any_child = {
-			trait = bastard
+			OR = {
+				trait = bastard
+				trait = bastard_hidden
+			}
 			age = 0
 			NOT = {
 				age = 16
@@ -443,7 +515,10 @@ character_event = {
 		}
 		random_child = {
 			limit = {
-				trait = bastard
+				OR = {
+					trait = bastard
+					trait = bastard_hidden
+				}
 				age = 0
 				NOT = {
 					age = 16
@@ -479,7 +554,10 @@ character_event = {
 		war = no
 		in_command = no
 		any_child = {
-			trait = bastard
+			OR = {
+				trait = bastard
+				trait = bastard_hidden
+			}
 			is_female = no
 			is_ruler = no
 			age = 16
@@ -495,7 +573,10 @@ character_event = {
 		name = "EVTOPTA76015"
 		random_child = {
 			limit = {
-				trait = bastard
+				OR = {
+					trait = bastard
+					trait = bastard_hidden
+				}
 				is_female = no
 				is_ruler = no
 				age = 16
@@ -522,7 +603,10 @@ character_event = {
 		name = "EVTOPTB76015"
 		random_child = {
 			limit = {
-				trait = bastard
+				OR = {
+					trait = bastard
+					trait = bastard_hidden
+				}
 				is_female = no
 				is_ruler = no
 				age = 16
@@ -544,7 +628,10 @@ character_event = {
 		name = "EVTOPTC76015"
 		random_child = {
 			limit = {
-				trait = bastard
+				OR = {
+					trait = bastard
+					trait = bastard_hidden
+				}
 				is_female = no
 				is_ruler = no
 				age = 16
@@ -567,30 +654,57 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = bastard
-		NOT = {
-			trait = lustful
+		OR = {
+			trait = bastard
+			trait = bastard_hidden
 		}
 		NOT = {
-			trait = gluttonous
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = greedy
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		NOT = {
-			trait = slothful
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		NOT = {
-			trait = envious
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		NOT = {
-			trait = wroth
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		NOT = {
-			trait = proud
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		NOT = {
-			trait = content
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+		}
+		NOT = {
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		father = {
 			war = no
@@ -733,7 +847,10 @@ character_event = {
 			NOT = {
 				age = 16
 			}
-			trait = bastard
+			OR = {
+				trait = bastard
+				trait = bastard_hidden
+			}
 			father = {
 				is_abroad = yes
 			}
@@ -782,7 +899,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			remove_trait = kind
 			prestige = -20
@@ -794,7 +914,10 @@ character_event = {
 		FROM = {
 			random_child = {
 				limit = {
-					trait = bastard
+					OR = {
+						trait = bastard
+						trait = bastard_hidden
+					}
 				}
 				prestige = -10
 				opinion = {
@@ -811,7 +934,10 @@ character_event = {
 		FROM = {
 			random_child = {
 				limit = {
-					trait = bastard
+					OR = {
+						trait = bastard
+						trait = bastard_hidden
+					}
 				}
 				father = {
 					opinion = {
@@ -913,9 +1039,15 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = bastard
+		OR = {
+			trait = bastard
+			trait = bastard_hidden
+		}
 		NOT = {
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		OR = {
 			diplomacy = 6
@@ -948,7 +1080,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = bastard
+		OR = {
+			trait = bastard
+			trait = bastard_hidden
+		}
 		father = {
 			is_ruler = yes
 			is_liege_of = ROOT
@@ -958,7 +1093,10 @@ character_event = {
 					age = 16
 				}
 				NOT = {
-					trait = bastard
+					OR = {
+						trait = bastard
+						trait = bastard_hidden
+					}
 				}
 			}
 		}
@@ -1105,7 +1243,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = bastard
+		OR = {
+			trait = bastard
+			trait = bastard_hidden
+		}
 		has_guardian = yes
 		NOT = {
 			has_character_flag = asked_about_bastard

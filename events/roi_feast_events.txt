@@ -37,7 +37,12 @@ character_event = {
 					prisoner = no
 					war = no
 					in_command = no
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					age = 16
 					NOT = { has_character_flag = do_not_disturb }
 				}
@@ -56,7 +61,12 @@ character_event = {
 					prisoner = no
 					war = no
 					in_command = no
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					age = 16
 					NOT = { has_character_flag = do_not_disturb }
 				}
@@ -252,7 +262,12 @@ character_event = {
 	option = {
 		name = EVTOPTC_RoI_1005
 		trigger = {
-			NOT = { trait = kind }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 			spouse = { is_female = yes }
 		}
 		set_character_flag = diwali_no_gift_to_spouse
@@ -290,7 +305,12 @@ character_event = {
 	option = {
 		name = EVTOPTG_RoI_1005
 		trigger = {
-			NOT = { trait = kind }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 			spouse = { is_female = no }
 		}
 		set_character_flag = diwali_no_gift_to_spouse
@@ -339,7 +359,12 @@ character_event = {
 		name = EVTOPTC_RoI_1006
 		trigger = {
 			is_married = no
-			NOT = { trait = kind }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 			any_lover = { is_female = yes }
 		}
 		set_character_flag = diwali_no_gift_to_lover
@@ -367,7 +392,12 @@ character_event = {
 		name = EVTOPTF_RoI_1006
 		trigger = {
 			is_married = no
-			NOT = { trait = kind }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 			any_lover = { is_female = no }
 		}
 		set_character_flag = diwali_no_gift_to_lover
@@ -671,7 +701,12 @@ character_event = {
 			limit = {
 				is_adult = yes
 				is_ruler = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			set_character_flag = attending_diwali_feast
 			hidden_tooltip = { character_event = { id = RoI.1990 days = 31 } } # Clearing all flags and modifiers after feast
@@ -908,8 +943,18 @@ character_event = {
 		name = EVTOPTA_RoI_1053
 		if = {
 			limit = {
-				NOT = { trait = stressed }
-				NOT = { trait = craven }
+				NOT = {
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = craven
+						trait = craven_hidden
+					} 
+				}
 			}
 			add_trait = stressed
 			set_character_flag = bad_diwali
@@ -917,8 +962,14 @@ character_event = {
 		if = {
 			limit = {
 				OR = {
-					trait = stressed
-					trait = craven
+					OR = {
+						trait = stressed
+						trait = stressed_hidden
+					}
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			hidden_tooltip = {
@@ -1116,14 +1167,32 @@ character_event = {
 		name = EVTOPTB_RoI_1153 # Angry - I think you are cheating!
 		tooltip_info = wroth
 		trigger = {
-			NOT = { trait = genius } 
-			NOT = { trait = quick } 
-			trait = wroth
+			NOT = { 
+				 OR = {
+					trait = genius
+					trait = genius_hidden
+				} 
+			}
+			NOT = { 
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				} 
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		prestige = 15
 		if = {
 			limit = {
-				NOT = { trait = cynical }
+				NOT = {
+					 OR = {
+						trait = cynical
+						trait = cynical_hidden
+					} 
+				}
 			}
 			add_trait = cynical
 		}
@@ -1132,8 +1201,16 @@ character_event = {
 		name = EVTOPTC_RoI_1153 # I saw you cheating!
 		tooltip_info = genius
 		trigger = {
-			trait = genius
-			NOT = { trait = quick }
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				} 
+			}
 		}
 		prestige = 30
 	}
@@ -1141,8 +1218,16 @@ character_event = {
 		name = EVTOPTC_RoI_1153 # I saw you cheating!
 		tooltip_info = quick
 		trigger = {
-			trait = quick
-			NOT = { trait = genius }
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = genius
+					trait = genius_hidden
+				} 
+			}
 		}
 		prestige = 30
 	}
@@ -1168,8 +1253,16 @@ narrative_event = {
 		name = EVTOPTB_RoI_1154 # They cheat, I can see the hidden wire
 		tooltip_info = quick
 		trigger = {
-			trait = quick
-			NOT = { trait = genius }
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = genius
+					trait = genius_hidden
+				} 
+			}
 		}
 		prestige = 30
 	}
@@ -1177,8 +1270,16 @@ narrative_event = {
 		name = EVTOPTB_RoI_1154 # They cheat, I can see the hidden wire
 		tooltip_info = genius
 		trigger = {
-			trait = genius
-			NOT = { trait = quick }
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				} 
+			}
 		}
 		prestige = 30
 	}
@@ -1210,12 +1311,42 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_1160 # Oh my!
 		trigger = {
-			NOT = { trait = stressed }
-			NOT = { trait = depressed }
-			NOT = { trait = shy }
-			NOT = { trait = wroth }
-			NOT = { trait = craven }
-			NOT = { trait = paranoid }
+			NOT = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = depressed
+					trait = depressed_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = shy
+					trait = shy_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = wroth
+					trait = wroth_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} 
+			}
 		}
 		set_character_flag = bad_diwali
 		prestige = -10
@@ -1223,7 +1354,10 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_1160 # Hunter shoots monkey with bow
 		trigger = {
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 		tooltip_info = hunter
 		prestige = 30
@@ -1233,8 +1367,16 @@ character_event = {
 		name = EVTOPTC_RoI_1160 # Cruel or impaler catches monkey and tortures it
 		tooltip_info = impaler
 		trigger = {
-			trait = impaler
-			NOT = { trait = cruel }
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}
 		add_character_modifier = {
 			name = entertaining_entertainment
@@ -1246,8 +1388,16 @@ character_event = {
 		name = EVTOPTC_RoI_1160 # Cruel or impaler catches monkey and tortures it
 		tooltip_info = cruel
 		trigger = {
-			trait = cruel
-			NOT = { trait = impaler }
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				} 
+			}
 		}
 		add_character_modifier = {
 			name = entertaining_entertainment
@@ -1259,8 +1409,16 @@ character_event = {
 		name = EVTOPTD_RoI_1160 # Inbred is friend of monkeys
 		tooltip_info = inbred
 		trigger = {
-			trait = inbred
-			NOT = { trait = imbecile }
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				} 
+			}
 		}
 		add_character_modifier = {
 			name = good_times
@@ -1272,8 +1430,16 @@ character_event = {
 		name = EVTOPTD_RoI_1160 # Imbecile is friend of monkeys
 		tooltip_info = imbecile
 		trigger = {
-			trait = imbecile
-			NOT = { trait = inbred }
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				} 
+			}
 		}
 		add_character_modifier = {
 			name = good_times
@@ -1284,7 +1450,10 @@ character_event = {
 	option = {
 		name = EVTOPTE_RoI_1160 # Lunatic "marries" monkey
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		tooltip_info = lunatic
 		add_character_modifier = {
@@ -1301,16 +1470,32 @@ character_event = {
 		name = EVTOPTF_RoI_1160 # Good laugh cures stressed or depressed person
 		trigger = {
 			OR = {
-				trait = stressed
-				trait = depressed
+				OR = {
+					trait = stressed
+					trait = stressed_hidden
+				}
+				OR = {
+					trait = depressed
+					trait = depressed_hidden
+				}
 			}
 		}
 		if = {
-			limit = { trait = stressed }
+			limit = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 			remove_trait = stressed
 		}
 		if = {
-			limit = { trait = depressed }
+			limit = {
+				 OR = {
+					trait = depressed
+					trait = depressed_hidden
+				} 
+			}
 			remove_trait = depressed
 		}
 		add_character_modifier = {
@@ -1323,10 +1508,22 @@ character_event = {
 		name = EVTOPTG_RoI_1160 # Some people are upset by this sort of thing...
 		trigger = {
 			OR = {
-				trait = shy
-				trait = wroth
-				trait = craven
-				trait = paranoid
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 		}
 		add_trait = stressed
@@ -1511,14 +1708,29 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_1177 # Really go for it - bloody madness
 		trigger = {
-			NOT = { trait = kind }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 		}
 		if = {
-			limit = { NOT = { trait = cruel } }
+			limit = {
+				 NOT = { OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} } 
+			}
 			add_trait = cruel
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = zealous

@@ -121,7 +121,10 @@ character_event = {
 		name = EVTOPTA94003
 		tooltip_info = wroth
 		trigger = { 
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		ambition_succeeds = yes
 		change_martial = 1
@@ -219,7 +222,10 @@ character_event = {
 		name = EVTOPTA94006
 		tooltip_info = cruel
 		trigger = {
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		change_martial = 1
 		piety = -10
@@ -369,7 +375,10 @@ character_event = {
 		name = EVTOPTA94014
 		tooltip_info = wroth
 		trigger = { 
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		clr_character_flag = warrior_mentor
 		prestige = -15
@@ -399,7 +408,10 @@ character_event = {
 		change_martial = 2
 		if = {
 			limit = {
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			remove_trait = weak
 		}
@@ -1831,7 +1843,10 @@ character_event = {
 		name = EVTOPTC94111
 		tooltip_info = inbred
 		trigger = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 		}
 		character_event = { id = 94114 tooltip = EVTTOOLTIP94112 }
 	}
@@ -2463,8 +2478,14 @@ character_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					trait = deceitful
-					trait = honest
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -2478,7 +2499,12 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { trait = honest }
+			limit = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				} 
+			}
 			remove_trait = honest
 		}
 		hidden_tooltip = {
@@ -2645,8 +2671,14 @@ character_event = {
 		if = {
 			limit = { 
 				NOT = { 
-					trait = deceitful
-					trait = honest
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -2660,7 +2692,12 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { trait = honest }
+			limit = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				} 
+			}
 			remove_trait = honest
 		}
 		hidden_tooltip = {
@@ -3097,7 +3134,12 @@ character_event = {
 	option = {
 		name = EVTOPTB94176
 		tooltip_info = craven
-		trigger = { trait = craven }
+		trigger = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		custom_tooltip = { text = lower_decadence_quit }
 	}
 }
@@ -3116,7 +3158,12 @@ character_event = {
 	option = {
 		name = EVTOPTA94177
 		tooltip_info = craven
-		trigger = { trait = craven }
+		trigger = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		random = {
 			chance = 20
@@ -3126,7 +3173,12 @@ character_event = {
 	option = {
 		name = EVTOPTB94177
 		tooltip_info = impaler
-		trigger = { trait = impaler }
+		trigger = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			} 
+		}
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		random = {
 			chance = 5
@@ -3138,8 +3190,14 @@ character_event = {
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		trigger = { 
 			NOT = {
-				trait = impaler
-				trait = craven
+				OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 		}
 		random = {
@@ -3163,14 +3221,24 @@ character_event = {
 	option = {
 		name = EVTOPTA94178
 		trigger = {
-			NOT = { trait = impaler }
+			NOT = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				} 
+			}
 		}
 		decadence = -5
 	}
 	option = {
 		name = EVTOPTB94178
 		tooltip_info = impaler
-		trigger = { trait = impaler }
+		trigger = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			} 
+		}
 		decadence = -5
 	}
 }

@@ -44,15 +44,27 @@ character_event = {
 				NOT = {
 					martial = 2
 				}
-				trait = craven
-				trait = poet
-				trait = gardener
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				OR = {
+					trait = poet
+					trait = poet_hidden
+				}
+				OR = {
+					trait = gardener
+					trait = gardener_hidden
+				}
 			}
 			NOT = {
 				num_of_children = 1
 			}
 			NOT = {
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 			}
 		}
 	}
@@ -62,7 +74,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -92,15 +107,27 @@ character_event = {
 					NOT = {
 						martial = 2
 					}
-					trait = craven
-					trait = poet
-					trait = gardener
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
+					OR = {
+						trait = gardener
+						trait = gardener_hidden
+					}
 				}
 				NOT = {
 					num_of_children = 1
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					reverse_opinion = { who = ROOT value = 50 }
@@ -128,15 +155,27 @@ character_event = {
 					NOT = {
 						martial = 2
 					}
-					trait = craven
-					trait = poet
-					trait = gardener
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
+					OR = {
+						trait = gardener
+						trait = gardener_hidden
+					}
 				}
 				NOT = {
 					num_of_children = 1
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					reverse_opinion = { who = ROOT value = 50 }
@@ -165,15 +204,27 @@ character_event = {
 					NOT = {
 						martial = 2
 					}
-					trait = craven
-					trait = poet
-					trait = gardener
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
+					OR = {
+						trait = gardener
+						trait = gardener_hidden
+					}
 				}
 				NOT = {
 					num_of_children = 1
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					reverse_opinion = { who = ROOT value = 50 }
@@ -262,7 +313,10 @@ character_event = {
 			limit = {
 				prisoner = no
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					character = ROOT
@@ -309,15 +363,27 @@ character_event = {
 				NOT = {
 					martial = 2
 				}
-				trait = craven
-				trait = poet
-				trait = gardener
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				OR = {
+					trait = poet
+					trait = poet_hidden
+				}
+				OR = {
+					trait = gardener
+					trait = gardener_hidden
+				}
 			}
 			NOT = {
 				num_of_children = 1
 			}
 			NOT = {
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 			}
 		}
 	}
@@ -327,7 +393,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -357,15 +426,27 @@ character_event = {
 					NOT = {
 						martial = 2
 					}
-					trait = craven
-					trait = poet
-					trait = gardener
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
+					OR = {
+						trait = gardener
+						trait = gardener_hidden
+					}
 				}
 				NOT = {
 					num_of_children = 1
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					reverse_opinion = { who = ROOT value = 50 }
@@ -393,15 +474,27 @@ character_event = {
 					NOT = {
 						martial = 2
 					}
-					trait = craven
-					trait = poet
-					trait = gardener
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
+					OR = {
+						trait = gardener
+						trait = gardener_hidden
+					}
 				}
 				NOT = {
 					num_of_children = 1
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					reverse_opinion = { who = ROOT value = 50 }
@@ -459,15 +552,27 @@ character_event = {
 			NOT = {
 				martial = 2
 			}
-			trait = craven
-			trait = poet
-			trait = gardener
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
+			OR = {
+				trait = gardener
+				trait = gardener_hidden
+			}
 		}
 		NOT = {
 			num_of_children = 1
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
 			has_character_modifier = whoremaster
@@ -510,15 +615,27 @@ character_event = {
 			NOT = {
 				martial = 2
 			}
-			trait = craven
-			trait = poet
-			trait = gardener
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
+			OR = {
+				trait = gardener
+				trait = gardener_hidden
+			}
 		}
 		NOT = {
 			num_of_children = 1
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -553,15 +670,27 @@ character_event = {
 			NOT = {
 				martial = 2
 			}
-			trait = craven
-			trait = poet
-			trait = gardener
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
+			OR = {
+				trait = gardener
+				trait = gardener_hidden
+			}
 		}
 		NOT = {
 			num_of_children = 1
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -593,15 +722,27 @@ character_event = {
 			NOT = {
 				martial = 2
 			}
-			trait = craven
-			trait = poet
-			trait = gardener
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
+			OR = {
+				trait = gardener
+				trait = gardener_hidden
+			}
 		}
 		NOT = {
 			num_of_children = 1
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -655,7 +796,10 @@ character_event = {
 				has_character_flag = suspected_of_incest
 			}
 			NOT = {
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			NOT = {
 				age = 40
@@ -668,7 +812,10 @@ character_event = {
 					age = 40
 				}
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				reverse_opinion = { who = PREV value = 75 }
 				opinion = { who = PREV value = 75 }
@@ -693,7 +840,10 @@ character_event = {
 				age = 16
 				at_location = ROOT
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
 					age = 40
@@ -709,7 +859,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = PREV value = 75 }
 					opinion = { who = PREV value = 75 }
@@ -731,7 +884,10 @@ character_event = {
 				age = 16
 				at_location = ROOT
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
 					age = 40
@@ -747,7 +903,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = PREV value = 75 }
 					opinion = { who = PREV value = 75 }
@@ -770,7 +929,10 @@ character_event = {
 				age = 16
 				at_location = ROOT
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
 					age = 40
@@ -786,7 +948,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = PREV value = 75 }
 					opinion = { who = PREV value = 75 }
@@ -831,10 +996,16 @@ character_event = {
 					age = 50
 				}
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 			}
 			character_event = {
@@ -989,7 +1160,10 @@ character_event = {
 				has_character_flag = suspected_of_incest
 			}
 			NOT = {
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			NOT = {
 				age = 40
@@ -1003,7 +1177,10 @@ character_event = {
 					age = 40
 				}
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				reverse_opinion = { who = ROOT value = 75 }
 				opinion = { who = ROOT value = 75 }
@@ -1031,7 +1208,10 @@ character_event = {
 				age = 16
 				at_location = ROOT
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
 					age = 40
@@ -1047,7 +1227,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = ROOT value = 75 }
 					opinion = { who = ROOT value = 75 }
@@ -1068,7 +1251,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = ROOT value = 75 }
 					opinion = { who = ROOT value = 75 }
@@ -1089,7 +1275,10 @@ character_event = {
 				age = 16
 				at_location = ROOT
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
 					age = 40
@@ -1105,7 +1294,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = ROOT value = 75 }
 					opinion = { who = ROOT value = 75 }
@@ -1121,7 +1313,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = chaste
+						OR = {
+							trait = chaste
+							trait = chaste_hidden
+						}
 					}
 					reverse_opinion = { who = ROOT value = 75 }
 					opinion = { who = ROOT value = 75 }
@@ -1227,7 +1422,10 @@ character_event = {
 				age = 15
 			}
 			NOT = {
-				trait = maimed
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
 			}
 		}
 	}
@@ -1256,7 +1454,10 @@ character_event = {
 					age = 15
 				}
 				NOT = {
-					trait = maimed
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
 				}
 			}
 			add_trait = maimed
@@ -1369,7 +1570,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -1630,7 +1834,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -1780,7 +1987,10 @@ character_event = {
 					age = 40
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
 					family = PREV
@@ -1804,7 +2014,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -1843,7 +2056,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = celibate
+						OR = {
+							trait = celibate
+							trait = celibate_hidden
+						}
 					}
 					NOT = {
 						family = PREV
@@ -1888,7 +2104,10 @@ character_event = {
 						age = 40
 					}
 					NOT = {
-						trait = celibate
+						OR = {
+							trait = celibate
+							trait = celibate_hidden
+						}
 					}
 					NOT = {
 						family = PREV
@@ -1974,7 +2193,10 @@ character_event = {
 					age = 40
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
 					family = ROOT
@@ -2220,7 +2442,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -2445,7 +2670,10 @@ character_event = {
 				piety = 50
 			}
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			NOT = {
 				has_character_flag = suspected_occultist
@@ -2458,11 +2686,17 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -2497,7 +2731,10 @@ character_event = {
 					piety = 50
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 				NOT = {
 					has_character_flag = suspected_occultist
@@ -2530,7 +2767,10 @@ character_event = {
 					piety = 50
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 				NOT = {
 					has_character_flag = suspected_occultist
@@ -2564,7 +2804,10 @@ character_event = {
 					piety = 50
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 				NOT = {
 					has_character_flag = suspected_occultist
@@ -2697,7 +2940,10 @@ character_event = {
 				piety = 50
 			}
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			NOT = {
 				has_character_flag = suspected_occultist
@@ -2710,7 +2956,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -2745,7 +2994,10 @@ character_event = {
 					piety = 50
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 				NOT = {
 					has_character_flag = suspected_occultist
@@ -2778,7 +3030,10 @@ character_event = {
 					piety = 50
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 				NOT = {
 					has_character_flag = suspected_occultist
@@ -2954,10 +3209,16 @@ character_event = {
 			has_character_modifier = dabble_dark_arts_timer
 		}
 		NOT = {
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		NOT = {
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 	}
 	
@@ -2979,7 +3240,10 @@ character_event = {
 		name = EVTOPTA69047
 		trigger = {
 			NOT = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 		}
 		random_list = {
@@ -3021,7 +3285,10 @@ character_event = {
 	option = {
 		name = EVTOPTC69047
 		trigger = {
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 			religion_group = christian
 		}
 		tooltip_info = paranoid
@@ -3071,7 +3338,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3184,7 +3454,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3302,7 +3575,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3417,7 +3693,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3538,7 +3817,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3660,7 +3942,10 @@ character_event = {
 				learning = 8
 			}
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 	}
@@ -3674,7 +3959,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3709,7 +3997,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			character_event = {
@@ -3743,7 +4034,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			set_character_flag = flag_unchristian
@@ -3778,7 +4072,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			character_event = {
@@ -3909,7 +4206,10 @@ character_event = {
 				learning = 8
 			}
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 	}
@@ -3919,7 +4219,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3958,7 +4261,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			character_event = {
@@ -3991,7 +4297,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			set_character_flag = flag_unchristian
@@ -4201,13 +4510,19 @@ character_event = {
 				has_character_modifier = suspected_coward
 			}
 			OR = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
 					martial = 8
 				}
 			}
 			NOT = {
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 		}
 	}
@@ -4217,7 +4532,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -4256,13 +4574,19 @@ character_event = {
 				is_female = no
 				age = 16
 				OR = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					NOT = {
 						martial = 8
 					}
 				}
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			character_event = {
@@ -4296,13 +4620,19 @@ character_event = {
 				is_female = no
 				age = 16
 				OR = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					NOT = {
 						martial = 8
 					}
 				}
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			set_character_flag = flag_suspected_coward
@@ -4337,13 +4667,19 @@ character_event = {
 				is_female = no
 				age = 16
 				OR = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					NOT = {
 						martial = 8
 					}
 				}
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			character_event = {
@@ -4479,13 +4815,19 @@ character_event = {
 				has_character_modifier = suspected_coward
 			}
 			OR = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
 					martial = 8
 				}
 			}
 			NOT = {
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 		}
 	}
@@ -4495,7 +4837,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -4534,13 +4879,19 @@ character_event = {
 				is_female = no
 				age = 16
 				OR = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					NOT = {
 						martial = 8
 					}
 				}
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			character_event = {
@@ -4574,13 +4925,19 @@ character_event = {
 				is_female = no
 				age = 16
 				OR = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					NOT = {
 						martial = 8
 					}
 				}
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			set_character_flag = flag_suspected_coward
@@ -4604,7 +4961,10 @@ character_event = {
 	
 	trigger = {
 		has_character_modifier = proving_bravery
-		trait = craven
+		OR = {
+			trait = craven
+			trait = craven_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -4644,7 +5004,10 @@ character_event = {
 		has_character_modifier = suspected_coward
 		has_character_flag = flag_suspected_coward
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -4683,7 +5046,10 @@ character_event = {
 			has_character_modifier = suspected_coward
 			has_character_modifier = proving_bravery
 		}
-		trait = brave
+		OR = {
+			trait = brave
+			trait = brave_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -4711,7 +5077,10 @@ character_event = {
 			limit = {
 				prisoner = no
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 			opinion = {
@@ -4995,7 +5364,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -5116,7 +5488,10 @@ character_event = {
 				learning = 8
 			}
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 	}
@@ -5130,7 +5505,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -5165,7 +5543,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			character_event = {
@@ -5200,7 +5581,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			set_character_flag = flag_nomuslim
@@ -5235,7 +5619,10 @@ character_event = {
 					learning = 8
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			character_event = {

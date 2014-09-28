@@ -27,16 +27,28 @@ character_event = {
 			religion_group = muslim
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -45,19 +57,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 
@@ -65,9 +89,15 @@ character_event = {
 		name = "EVTOPTA1000"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -83,9 +113,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -102,10 +138,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -121,8 +163,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
-				trait = slothful
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -140,9 +188,15 @@ character_event = {
 		name = "EVTOPTB1000"
 		if = {
 			limit = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -158,9 +212,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -177,10 +237,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -196,8 +262,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
-				trait = arbitrary
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -228,10 +300,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		NOT = {
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 	
@@ -240,15 +318,24 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -256,9 +343,15 @@ character_event = {
 		name = "EVTOPTA1001"
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 			}
 			random = {
@@ -274,9 +367,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -293,10 +392,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -312,8 +417,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = chaste
-				trait = lustful
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -331,9 +442,15 @@ character_event = {
 		name = "EVTOPTB1001"
 		if = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				NOT = {
-					trait = greedy
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
 				}
 			}
 			random = {
@@ -349,9 +466,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			random = {
@@ -368,10 +491,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = greedy
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			random = {
@@ -387,8 +516,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = greedy
-				trait = zealous
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -419,10 +554,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		NOT = {
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 	
@@ -431,15 +572,24 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -447,9 +597,15 @@ character_event = {
 		name = "EVTOPTA1001"
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 			}
 			random = {
@@ -465,9 +621,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -484,10 +646,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -503,8 +671,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = chaste
-				trait = lustful
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -522,9 +696,15 @@ character_event = {
 		name = "EVTOPTB1001"
 		if = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				NOT = {
-					trait = greedy
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
 				}
 			}
 			random = {
@@ -540,9 +720,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			random = {
@@ -559,10 +745,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = greedy
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
 				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			random = {
@@ -578,8 +770,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = greedy
-				trait = zealous
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -610,10 +808,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		NOT = {
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -622,7 +826,10 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -630,9 +837,15 @@ character_event = {
 		name = "EVTOPTA1003"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = envious
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
 				}
 			}
 			random = {
@@ -648,9 +861,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -667,10 +886,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = envious
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
 				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -686,8 +911,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = envious
-				trait = honest
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -705,9 +936,15 @@ character_event = {
 		name = "EVTOPTB1003"
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			random = {
@@ -723,9 +960,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -742,10 +985,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -761,8 +1010,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = content
-				trait = proud
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -793,10 +1048,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		NOT = {
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -805,15 +1066,24 @@ character_event = {
 
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 	}
 	
@@ -821,9 +1091,15 @@ character_event = {
 		name = "EVTOPTA1004"
 		if = {
 			limit = {
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -839,9 +1115,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			random = {
@@ -858,10 +1140,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			random = {
@@ -877,8 +1165,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = ambitious
-				trait = cruel
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -896,9 +1190,15 @@ character_event = {
 		name = "EVTOPTB1004"
 		if = {
 			limit = {
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 			}
 			random = {
@@ -914,9 +1214,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 			}
 			random = {
@@ -933,10 +1239,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 			}
 			random = {
@@ -952,8 +1264,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cynical
-				trait = patient
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -985,13 +1303,22 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		NOT = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -1000,19 +1327,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 	}
 	
@@ -1020,9 +1359,15 @@ character_event = {
 		name = "EVTOPTA1005"
 		if = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			random = {
@@ -1038,9 +1383,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1057,10 +1408,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1076,8 +1433,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
-				trait = gregarious
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1095,9 +1458,15 @@ character_event = {
 		name = "EVTOPTB1005"
 		if = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			random = {
@@ -1113,9 +1482,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1132,10 +1507,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1151,8 +1532,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
-				trait = gregarious
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1184,10 +1571,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		NOT = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -1196,19 +1589,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 	}
 	
@@ -1216,9 +1621,15 @@ character_event = {
 		name = "EVTOPTA1006"
 		if = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			random = {
@@ -1234,9 +1645,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1253,10 +1670,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1272,8 +1695,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
-				trait = gregarious
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1291,9 +1720,15 @@ character_event = {
 		name = "EVTOPTB1006"
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 				NOT = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 				}
 			}
 			random = {
@@ -1309,9 +1744,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -1328,10 +1769,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -1347,8 +1794,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = trusting
-				trait = lustful
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1379,10 +1832,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		NOT = {
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
 		}
 	}
 	
@@ -1391,23 +1850,38 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 	
@@ -1415,9 +1889,15 @@ character_event = {
 		name = "EVTOPTA1007"
 		if = {
 			limit = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 				NOT = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 				}
 			}
 			random = {
@@ -1433,9 +1913,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -1452,10 +1938,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -1471,8 +1963,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = trusting
-				trait = paranoid
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1490,9 +1988,15 @@ character_event = {
 		name = "EVTOPTB1007"
 		if = {
 			limit = {
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			random = {
@@ -1508,9 +2012,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
-					trait = temperate
+					OR = {
+						trait = temperate
+						trait = temperate_hidden
+					}
 				}
 			}
 			random = {
@@ -1527,10 +2037,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = temperate
+					OR = {
+						trait = temperate
+						trait = temperate_hidden
+					}
 				}
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			random = {
@@ -1546,8 +2062,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = temperate
-				trait = craven
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1578,10 +2100,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		NOT = {
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 	}
 	
@@ -1590,11 +2118,17 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1602,9 +2136,15 @@ character_event = {
 		name = "EVTOPTA1008"
 		if = {
 			limit = {
-				trait = fair
+				OR = {
+					trait = fair
+					trait = fair_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -1621,10 +2161,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = fair
+					OR = {
+						trait = fair
+						trait = fair_hidden
+					}
 				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -1640,8 +2186,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = fair
-				trait = honest
+				OR = {
+					trait = fair
+					trait = fair_hidden
+				}
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1659,9 +2211,15 @@ character_event = {
 		name = "EVTOPTB1008"
 		if = {
 			limit = {
-				trait = ugly
+				OR = {
+					trait = ugly
+					trait = ugly_hidden
+				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -1677,9 +2235,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = ugly
+				OR = {
+					trait = ugly
+					trait = ugly_hidden
+				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -1696,10 +2260,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = ugly
+					OR = {
+						trait = ugly
+						trait = ugly_hidden
+					}
 				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -1715,8 +2285,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = ugly
-				trait = ambitious
+				OR = {
+					trait = ugly
+					trait = ugly_hidden
+				}
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1747,10 +2323,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		NOT = {
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 	}
 	
@@ -1759,23 +2341,38 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -1783,9 +2380,15 @@ character_event = {
 		name = "EVTOPTA1009"
 		if = {
 			limit = {
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1801,9 +2404,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				NOT = {
-					trait = kind
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 			}
 			random = {
@@ -1820,10 +2429,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = kind
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -1839,8 +2454,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = kind
-				trait = gregarious
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1858,9 +2479,15 @@ character_event = {
 		name = "EVTOPTB1009"
 		if = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 			}
 			random = {
@@ -1876,9 +2503,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			random = {
@@ -1895,10 +2528,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 			}
 			random = {
@@ -1914,8 +2553,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = zealous
-				trait = cynical
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -1946,10 +2591,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		NOT = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 	}
 	
@@ -1961,9 +2612,15 @@ character_event = {
 		name = "EVTOPTA1010"
 		if = {
 			limit = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			random = {
@@ -1979,9 +2636,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -1998,10 +2661,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			random = {
@@ -2017,8 +2686,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = paranoid
-				trait = cruel
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2036,9 +2711,15 @@ character_event = {
 		name = "EVTOPTB1010"
 		if = {
 			limit = {
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -2054,9 +2735,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -2073,10 +2760,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -2092,8 +2785,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = ambitious
-				trait = slothful
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2124,10 +2823,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 	
@@ -2136,19 +2841,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 	}
 	
@@ -2156,9 +2873,15 @@ character_event = {
 		name = "EVTOPTA1011"
 		if = {
 			limit = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 			}
 			random = {
@@ -2174,9 +2897,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			random = {
@@ -2193,10 +2922,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 			}
 			random = {
@@ -2212,8 +2947,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = craven
-				trait = cynical
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2231,9 +2972,15 @@ character_event = {
 		name = "EVTOPTB1011"
 		if = {
 			limit = {
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -2249,9 +2996,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			random = {
@@ -2268,10 +3021,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -2287,8 +3046,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = brave
-				trait = paranoid
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2319,10 +3084,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		NOT = {
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -2331,11 +3102,17 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 	}
 	
@@ -2343,9 +3120,15 @@ character_event = {
 		name = "EVTOPTA1012"
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 			random = {
@@ -2361,9 +3144,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -2380,10 +3169,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 			random = {
@@ -2399,8 +3194,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
-				trait = shy
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2418,9 +3219,15 @@ character_event = {
 		name = "EVTOPTB1012"
 		if = {
 			limit = {
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -2436,9 +3243,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 			}
 			random = {
@@ -2455,10 +3268,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			random = {
@@ -2474,8 +3293,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = patient
-				trait = lustful
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2506,10 +3331,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		NOT = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -2518,15 +3349,24 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 	}
 	
@@ -2534,9 +3374,15 @@ character_event = {
 		name = "EVTOPTA1013"
 		if = {
 			limit = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 			random = {
@@ -2552,9 +3398,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 				NOT = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 				}
 			}
 			random = {
@@ -2571,10 +3423,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 			random = {
@@ -2590,8 +3448,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = diligent
-				trait = shy
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2609,9 +3473,15 @@ character_event = {
 		name = "EVTOPTB1013"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			random = {
@@ -2627,9 +3497,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -2646,10 +3522,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			random = {
@@ -2665,8 +3547,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
-				trait = content
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2698,10 +3586,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		NOT = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 
@@ -2710,31 +3604,52 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = detached_priest
+			OR = {
+				trait = detached_priest
+				trait = detached_priest_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = mastermind_theologian
+			OR = {
+				trait = mastermind_theologian
+				trait = mastermind_theologian_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = scholarly_theologian
+			OR = {
+				trait = scholarly_theologian
+				trait = scholarly_theologian_hidden
+			}
 		}
 	}
 	
@@ -2742,9 +3657,15 @@ character_event = {
 		name = "EVTOPTA1014"
 		if = {
 			limit = {
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -2760,9 +3681,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 			}
 			random = {
@@ -2779,10 +3706,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 				NOT = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 			random = {
@@ -2798,8 +3731,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = patient
-				trait = paranoid
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2817,9 +3756,15 @@ character_event = {
 		name = "EVTOPTB1014"
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -2835,9 +3780,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			random = {
@@ -2854,10 +3805,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -2873,8 +3830,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
-				trait = slothful
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -2909,16 +3872,28 @@ character_event = {
 			religion_group = muslim
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -2927,19 +3902,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 
@@ -2947,9 +3934,15 @@ character_event = {
 		name = "EVTOPTA1015"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -2965,9 +3958,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -2984,10 +3983,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -3003,8 +4008,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
-				trait = slothful
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3022,9 +4033,15 @@ character_event = {
 		name = "EVTOPTB1015"
 		if = {
 			limit = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -3040,9 +4057,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3059,10 +4082,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3078,8 +4107,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
-				trait = arbitrary
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3110,10 +4145,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		NOT = {
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 	}
 	
@@ -3122,19 +4163,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 
@@ -3142,9 +4195,15 @@ character_event = {
 		name = "EVTOPTA1016"
 		if = {
 			limit = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 			}
 			random = {
@@ -3160,9 +4219,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 			}
 			random = {
@@ -3179,10 +4244,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 			}
 			random = {
@@ -3198,8 +4269,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = cynical
-				trait = charitable
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3217,9 +4294,15 @@ character_event = {
 		name = "EVTOPTB1016"
 		if = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				NOT = {
-					trait = deceitful
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			random = {
@@ -3235,9 +4318,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -3254,10 +4343,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 				NOT = {
-					trait = deceitful
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			random = {
@@ -3273,8 +4368,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = gregarious
-				trait = deceitful
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3305,10 +4406,16 @@ character_event = {
 			personality_traits = 5
 		}
 		NOT = {
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		NOT = {
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 	}
 	
@@ -3317,19 +4424,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 
@@ -3337,9 +4456,15 @@ character_event = {
 		name = "EVTOPTA1017"
 		if = {
 			limit = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -3355,9 +4480,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3374,10 +4505,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -3393,8 +4530,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = arbitrary
-				trait = honest
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3412,9 +4555,15 @@ character_event = {
 		name = "EVTOPTB1017"
 		if = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			random = {
@@ -3430,9 +4579,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -3449,10 +4604,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 				NOT = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 				}
 			}
 			random = {
@@ -3468,8 +4629,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = wroth
-				trait = gregarious
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3504,19 +4671,34 @@ character_event = {
 			religion_group = muslim
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		any_courtier = {
 			is_female = yes
 			age = 16
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -3525,19 +4707,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 
@@ -3545,9 +4739,15 @@ character_event = {
 		name = "EVTOPTA1018"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -3563,9 +4763,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -3582,10 +4788,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -3601,8 +4813,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
-				trait = slothful
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3620,9 +4838,15 @@ character_event = {
 		name = "EVTOPTB1018"
 		if = {
 			limit = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -3638,9 +4862,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3657,10 +4887,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3676,8 +4912,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
-				trait = arbitrary
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3712,19 +4954,34 @@ character_event = {
 			religion_group = muslim
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		any_courtier = {
 			is_female = no
 			age = 16
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -3733,19 +4990,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 
@@ -3753,9 +5022,15 @@ character_event = {
 		name = "EVTOPTA1019"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -3771,9 +5046,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -3790,10 +5071,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -3809,8 +5096,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
-				trait = slothful
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3828,9 +5121,15 @@ character_event = {
 		name = "EVTOPTB1019"
 		if = {
 			limit = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			random = {
@@ -3846,9 +5145,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3865,10 +5170,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = proud
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 				NOT = {
-					trait = arbitrary
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
 				}
 			}
 			random = {
@@ -3884,8 +5195,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = proud
-				trait = arbitrary
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -3915,7 +5232,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		personality_traits = 6
 	}
 	
@@ -3945,7 +5265,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = chaste
+		OR = {
+			trait = chaste
+			trait = chaste_hidden
+		}
 		personality_traits = 6
 	}
 	
@@ -3975,7 +5298,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = temperate
+		OR = {
+			trait = temperate
+			trait = temperate_hidden
+		}
 		personality_traits = 6
 	}
 	
@@ -4009,7 +5335,10 @@ character_event = {
 			personality_traits = 6
 			has_ambition = obj_buddhist_temperance_food
 		}
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4043,7 +5372,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = charitable
+		OR = {
+			trait = charitable
+			trait = charitable_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4076,7 +5408,10 @@ character_event = {
 			personality_traits = 6
 			has_ambition = obj_buddhist_reject_greed
 		}
-		trait = greedy
+		OR = {
+			trait = greedy
+			trait = greedy_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4110,7 +5445,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = diligent
+		OR = {
+			trait = diligent
+			trait = diligent_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4140,7 +5478,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = slothful
+		OR = {
+			trait = slothful
+			trait = slothful_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4170,7 +5511,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = kind
+		OR = {
+			trait = kind
+			trait = kind_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4203,7 +5547,10 @@ character_event = {
 			personality_traits = 6
 			has_ambition = obj_buddhist_reject_envy
 		}
-		trait = envious
+		OR = {
+			trait = envious
+			trait = envious_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4237,7 +5584,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = patient
+		OR = {
+			trait = patient
+			trait = patient_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4270,7 +5620,10 @@ character_event = {
 			personality_traits = 6
 			has_ambition = obj_buddhist_reject_hate
 		}
-		trait = wroth
+		OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4304,7 +5657,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = humble
+		OR = {
+			trait = humble
+			trait = humble_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4338,7 +5694,10 @@ character_event = {
 			has_ambition = obj_buddhist_reject_pride
 		}
 		personality_traits = 6
-		trait = proud
+		OR = {
+			trait = proud
+			trait = proud_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4372,7 +5731,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		personality_traits = 6
 	}
 	
@@ -4403,7 +5765,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = honest
+		OR = {
+			trait = honest
+			trait = honest_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4433,7 +5798,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = deceitful
+		OR = {
+			trait = deceitful
+			trait = deceitful_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4463,7 +5831,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = brave
+		OR = {
+			trait = brave
+			trait = brave_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4496,7 +5867,10 @@ character_event = {
 			personality_traits = 6
 			has_ambition = obj_buddhist_defeat_fear
 		}
-		trait = craven
+		OR = {
+			trait = craven
+			trait = craven_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4530,7 +5904,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = gregarious
+		OR = {
+			trait = gregarious
+			trait = gregarious_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4560,7 +5937,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = shy
+		OR = {
+			trait = shy
+			trait = shy_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4590,7 +5970,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = content
+		OR = {
+			trait = content
+			trait = content_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4620,7 +6003,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = ambitious
+		OR = {
+			trait = ambitious
+			trait = ambitious_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4650,7 +6036,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = just
+		OR = {
+			trait = just
+			trait = just_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4680,7 +6069,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = arbitrary
+		OR = {
+			trait = arbitrary
+			trait = arbitrary_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4710,7 +6102,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 	}
 
 	weight_multiplier = {
@@ -4740,7 +6135,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = cynical
+		OR = {
+			trait = cynical
+			trait = cynical_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4773,7 +6171,10 @@ character_event = {
 			personality_traits = 6
 			has_ambition = obj_buddhist_defeat_fear
 		}
-		trait = paranoid
+		OR = {
+			trait = paranoid
+			trait = paranoid_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4807,7 +6208,10 @@ character_event = {
 	
 	trigger = {
 		personality_traits = 6
-		trait = trusting
+		OR = {
+			trait = trusting
+			trait = trusting_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -4841,10 +6245,16 @@ character_event = {
 		}
 		religion_group = muslim
 		NOT = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -4853,19 +6263,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 
@@ -4873,9 +6295,15 @@ character_event = {
 		name = "EVTOPTA1060"
 		if = {
 			limit = {
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -4891,9 +6319,15 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			random = {
@@ -4910,10 +6344,16 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -4929,8 +6369,14 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = honest
-				trait = slothful
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			random = {
 				chance = 45
@@ -4969,16 +6415,28 @@ character_event = {
 		}
 		religion_group = muslim
 		NOT = {
-			trait = hafiz
+			OR = {
+				trait = hafiz
+				trait = hafiz_hidden
+			}
 		}
 		NOT = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 		}
 		NOT = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		NOT = {
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 	}
 	
@@ -4987,23 +6445,38 @@ character_event = {
 		
 		modifier = {
 			factor = 1.7
-			trait = scholar
+			OR = {
+				trait = scholar
+				trait = scholar_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 
@@ -5020,7 +6493,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -5035,7 +6511,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			piety = -10
 		}
@@ -5056,7 +6535,10 @@ character_event = {
 	trigger = {
 		religion_group = muslim
 		NOT = {
-			trait = hafiz
+			OR = {
+				trait = hafiz
+				trait = hafiz_hidden
+			}
 		}
 		has_character_modifier = aspiring_hafiz
 		had_character_flag = {
@@ -5070,23 +6552,38 @@ character_event = {
 		
 		modifier = {
 			factor = 0.7
-			trait = scholar
+			OR = {
+				trait = scholar
+				trait = scholar_hidden
+			}
 		}
 		modifier = {
 			factor = 0.7
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 

@@ -155,7 +155,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		
 		modifier = {
@@ -285,7 +288,10 @@ character_event = {
 		months = 1
 		modifier = {
 			factor = 2.5
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -414,7 +420,10 @@ character_event = {
 		months = 1
 		modifier = {
 			factor = 0.75
-			trait  = cruel
+			OR = {
+				trait  = cruel
+				trait  = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -422,7 +431,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -512,7 +524,10 @@ character_event = {
 		months = 1
 		modifier = {
 			factor = 0.75
-			trait  = elusive_shadow 
+			OR = {
+				trait  = elusive_shadow
+				trait  = elusive_shadow_hidden
+			} 
 		}
 		modifier = {
 			factor = 0.75
@@ -520,7 +535,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = amateurish_plotter
+			OR = {
+				trait = amateurish_plotter
+				trait = amateurish_plotter_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -810,7 +828,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = grey_eminence
+			OR = {
+				trait = grey_eminence
+				trait = grey_eminence_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -818,7 +839,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
 		}
 	}
 	
@@ -1116,7 +1140,10 @@ narrative_event = {
 		months = 1
 		modifier = {
 			factor = 0.75
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -1124,7 +1151,10 @@ narrative_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -1192,7 +1222,7 @@ narrative_event = { # Other side gets event
 	
 	option = {
 		name = EVTOPTA62041
-		custom_tooltip =  { text = siege_miracle }
+		custom_tooltip = { text = siege_miracle }
 	}
 }
 
@@ -1221,7 +1251,10 @@ narrative_event = {
 		months = 1
 		modifier = {
 			factor = 0.75
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -1229,7 +1262,10 @@ narrative_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -1327,7 +1363,10 @@ narrative_event = {
 		months = 1
 		modifier = {
 			factor = 0.75
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -1335,7 +1374,10 @@ narrative_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
@@ -1423,10 +1465,30 @@ character_event = {
 		siege = {
 			is_attacker = yes
 		}
-		NOT = {	trait = craven }
-		NOT = {	trait = cynical	}
-		NOT = {	trait = maimed	}
-		NOT = {	trait = wounded	}
+		NOT = {
+				OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
+		NOT = {
+				OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}	
+		}
+		NOT = {
+				OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}	
+		}
+		NOT = {
+				OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}	
+		}
 		religion_group = christian 
 		enemy = {
 			NOT = { religion_group = christian }
@@ -1437,11 +1499,17 @@ character_event = {
 		months = 1
 		modifier = {
 			factor = 2.0
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 	}
 	
@@ -1524,13 +1592,28 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = ill
-			trait = pneumonic
-			trait = leper
-			trait = syphilitic
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	

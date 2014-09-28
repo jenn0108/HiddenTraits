@@ -70,7 +70,10 @@ character_event = {
 			factor = 0.95
 			liege = {
 				any_plot_backer = {
-					trait = imbecile
+					OR = {
+						trait = imbecile
+						trait = imbecile_hidden
+					}
 				}
 			}
 		}
@@ -78,7 +81,10 @@ character_event = {
 			factor = 0.95
 			liege = {
 				any_plot_backer = {
-					trait = lunatic
+					OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					}
 				}
 			}
 		}
@@ -262,27 +268,45 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 		}
 	}
 	
@@ -381,27 +405,45 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 		}
 	}
 	
@@ -539,31 +581,52 @@ letter_event = {
 			}				
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}		
 		}
 		hidden_tooltip = {
@@ -586,31 +649,52 @@ letter_event = {
 			factor = 90
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -677,31 +761,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		
@@ -735,31 +840,52 @@ letter_event = {
 			factor = 80
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -900,31 +1026,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		hidden_tooltip = {
@@ -957,31 +1104,52 @@ letter_event = {
 			factor = 80
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -1122,31 +1290,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		
@@ -1180,31 +1369,52 @@ letter_event = {
 			factor = 80
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}		
 			modifier = {
 				factor = 0.75
@@ -1346,31 +1556,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		
@@ -1405,31 +1636,52 @@ letter_event = {
 			factor = 80
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -1574,31 +1826,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		
@@ -1656,31 +1929,52 @@ letter_event = {
 			factor = 90
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -1800,31 +2094,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		hidden_tooltip = {
@@ -1847,31 +2162,52 @@ letter_event = {
 			factor = 90
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -1981,31 +2317,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 0.001
@@ -2061,31 +2418,52 @@ letter_event = {
 			factor = 95
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -2232,31 +2610,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		
@@ -2285,31 +2684,52 @@ letter_event = {
 			factor = 95
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -3298,7 +3718,12 @@ character_event = {
 			age = 16
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		NOT = { has_character_flag = murder_in_motion }
 		plot_power_contribution = {
@@ -3509,7 +3934,12 @@ character_event = {
 			plot_target_char = {
 				age = 16
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
@@ -3917,21 +4347,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = temperate
+						OR = {
+							trait = temperate
+							trait = temperate_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = gluttonous
+						OR = {
+							trait = gluttonous
+							trait = gluttonous_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = temperate }
-						NOT = { trait = gluttonous }
-						NOT = { trait = paranoid }
+						NOT = {
+							 OR = {
+								trait = temperate
+								trait = temperate_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = gluttonous
+								trait = gluttonous_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -3961,21 +4415,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = temperate
+					OR = {
+						trait = temperate
+						trait = temperate_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = gluttonous
+					OR = {
+						trait = gluttonous
+						trait = gluttonous_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = temperate }
-					NOT = { trait = gluttonous }
-					NOT = { trait = paranoid }
+					NOT = {
+						 OR = {
+							trait = temperate
+							trait = temperate_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = gluttonous
+							trait = gluttonous_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -4179,7 +4657,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -4445,7 +4928,12 @@ character_event = {
 			age = 5
 			NOT = { age = 16 }
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
 		NOT = { has_character_flag = murder_in_motion }
@@ -4658,7 +5146,12 @@ character_event = {
 				age = 5
 				NOT = { age = 16 }
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
@@ -5066,16 +5559,32 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = paranoid }
-						NOT = { trait = trusting }
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -5105,16 +5614,32 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = trusting }
-					NOT = { trait = paranoid }
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -5253,8 +5778,18 @@ character_event = {
 		name = "EVTOPTA8179"
 		if = {
 			limit = {
-				NOT = { trait = paranoid }
-				NOT = { trait = trusting }
+				NOT = {
+					 OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = trusting
+						trait = trusting_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 25
@@ -5263,7 +5798,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 			random = {
 				chance = 50
@@ -5339,7 +5877,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -6098,7 +6641,12 @@ character_event = {
 			age = 16
 			is_ruler = yes
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 		}
 		NOT = { has_character_flag = murder_in_motion }
@@ -6310,7 +6858,12 @@ character_event = {
 			plot_target_char = {
 				age = 16
 				is_ruler = yes
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -6717,21 +7270,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = craven
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = craven }
-						NOT = { trait = trusting }
-						NOT = { trait = paranoid }
+						NOT = {
+							 OR = {
+								trait = craven
+								trait = craven_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -6761,21 +7338,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = craven }
-					NOT = { trait = trusting }
-					NOT = { trait = paranoid }
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -6981,7 +7582,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -7243,7 +7849,12 @@ character_event = {
 		plot_target_char = {
 			age = 16
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 		}
 		NOT = { has_character_flag = murder_in_motion }
@@ -7455,7 +8066,12 @@ character_event = {
 			plot_target_char = {
 				age = 16
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			NOT = { has_character_flag = murder_in_motion }
 			ROOT = {
@@ -7861,21 +8477,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = diligent }
-						NOT = { trait = trusting }
-						NOT = { trait = paranoid }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -7905,21 +8545,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = diligent }
-					NOT = { trait = trusting }
-					NOT = { trait = paranoid }
+					NOT = {
+						 OR = {
+							trait = diligent
+							trait = diligent_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -8125,7 +8789,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -9001,21 +9670,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = brave
+						OR = {
+							trait = brave
+							trait = brave_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = gregarious
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = brave }
-						NOT = { trait = trusting }
-						NOT = { trait = gregarious }
+						NOT = {
+							 OR = {
+								trait = brave
+								trait = brave_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = gregarious
+								trait = gregarious_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -9045,21 +9738,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = brave
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = gregarious }
-					NOT = { trait = trusting }
-					NOT = { trait = brave }
+					NOT = {
+						 OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = brave
+							trait = brave_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -9265,7 +9982,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -10144,21 +10866,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = craven
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = craven }
-						NOT = { trait = trusting }
-						NOT = { trait = paranoid }
+						NOT = {
+							 OR = {
+								trait = craven
+								trait = craven_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -10188,21 +10934,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = craven }
-					NOT = { trait = trusting }
-					NOT = { trait = paranoid }
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -10408,7 +11178,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -10669,7 +11444,10 @@ character_event = {
 		}
 		plot_target_char = {
 			age = 5
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -10881,7 +11659,10 @@ character_event = {
 			plot_power = 0.5
 			plot_target_char = {
 				age = 5
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -11288,21 +12069,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = strong
+						OR = {
+							trait = strong
+							trait = strong_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = weak
+						OR = {
+							trait = weak
+							trait = weak_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = diligent }
-						NOT = { trait = weak }
-						NOT = { trait = strong }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = weak
+								trait = weak_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = strong
+								trait = strong_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -11332,21 +12137,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = strong
+					OR = {
+						trait = strong
+						trait = strong_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = weak
+					OR = {
+						trait = weak
+						trait = weak_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = diligent }
-					NOT = { trait = weak }
-					NOT = { trait = strong }
+					NOT = {
+						 OR = {
+							trait = diligent
+							trait = diligent_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = weak
+							trait = weak_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = strong
+							trait = strong_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -11552,7 +12381,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -11814,7 +12648,12 @@ character_event = {
 		plot_target_char = {
 			age = 5
 			NOT = { age = 16 }
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -12027,7 +12866,12 @@ character_event = {
 			plot_target_char = {
 				age = 5
 				NOT = { age = 16 }
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -12403,21 +13247,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = diligent }
-						NOT = { trait = trusting }
-						NOT = { trait = paranoid }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -12447,21 +13315,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = strong
+					OR = {
+						trait = strong
+						trait = strong_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = weak
+					OR = {
+						trait = weak
+						trait = weak_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = diligent }
-					NOT = { trait = weak }
-					NOT = { trait = strong }
+					NOT = {
+						 OR = {
+							trait = diligent
+							trait = diligent_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = weak
+							trait = weak_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = strong
+							trait = strong_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -12667,7 +13559,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -12928,7 +13825,12 @@ character_event = {
 		}
 		plot_target_char = {
 			age = 16
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -13140,7 +14042,12 @@ character_event = {
 			plot_power = 0.5
 			plot_target_char = {
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -13547,21 +14454,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = craven
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = slothful
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = craven }
-						NOT = { trait = paranoid }
-						NOT = { trait = slothful }
+						NOT = {
+							 OR = {
+								trait = craven
+								trait = craven_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = slothful
+								trait = slothful_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -13591,21 +14522,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = craven }
-					NOT = { trait = paranoid }
-					NOT = { trait = slothful }
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = slothful
+							trait = slothful_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -13811,7 +14766,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -14072,7 +15032,12 @@ character_event = {
 		}
 		plot_target_char = {
 			age = 16
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -14284,7 +15249,12 @@ character_event = {
 			plot_power = 0.5
 			plot_target_char = {
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -14691,21 +15661,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = paranoid }
-						NOT = { trait = diligent }
-						NOT = { trait = trusting }
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -14735,21 +15729,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = diligent }
-					NOT = { trait = paranoid }
-					NOT = { trait = trusting }
+					NOT = {
+						 OR = {
+							trait = diligent
+							trait = diligent_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -14955,7 +15973,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -15217,7 +16240,12 @@ character_event = {
 		plot_target_char = {
 			age = 5
 			NOT = { age = 16 }
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -15430,7 +16458,12 @@ character_event = {
 			plot_target_char = {
 				age = 5
 				NOT = { age = 16 }
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -15837,21 +16870,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = gregarious
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = paranoid }
-						NOT = { trait = gregarious }
-						NOT = { trait = trusting }
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = gregarious
+								trait = gregarious_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -15881,21 +16938,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = paranoid }
-					NOT = { trait = gregarious }
-					NOT = { trait = trusting }
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -16101,7 +17182,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -16363,7 +17449,12 @@ character_event = {
 		}
 		plot_target_char = {
 			age = 16
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -16575,7 +17666,12 @@ character_event = {
 			plot_power = 0.5
 			plot_target_char = {
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -16982,21 +18078,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = paranoid }
-						NOT = { trait = diligent }
-						NOT = { trait = trusting }
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -17026,21 +18146,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = diligent }
-					NOT = { trait = paranoid }
-					NOT = { trait = trusting }
+					NOT = {
+						 OR = {
+							trait = diligent
+							trait = diligent_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -17246,7 +18390,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -17508,7 +18657,12 @@ character_event = {
 		}
 		plot_target_char = {
 			age = 16
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			at_location = ROOT # The Plot Head needs to be at the target's location to get a chance
 		}
@@ -17720,7 +18874,12 @@ character_event = {
 			plot_power = 0.5
 			plot_target_char = {
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				prisoner = no
 			}
 			NOT = { has_character_flag = murder_in_motion }
@@ -18127,21 +19286,45 @@ character_event = {
 			NOT = {
 				OR = {
 					AND = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 						random = 33
 					}
 					AND = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 						random = 50
 					}
 					AND = {
-						trait = trusting
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
 						random = 90
 					}
 					AND = {
-						NOT = { trait = diligent }
-						NOT = { trait = paranoid }
-						NOT = { trait = trusting }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = trusting
+								trait = trusting_hidden
+							} 
+						}
 						random = 75
 					}
 				}
@@ -18171,21 +19354,45 @@ character_event = {
 		trigger = {
 			OR = {
 				AND = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 					random = 33
 				}
 				AND = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 					random = 50
 				}
 				AND = {
-					trait = trusting
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
 					random = 90
 				}
 				AND = {
-					NOT = { trait = diligent }
-					NOT = { trait = paranoid }
-					NOT = { trait = trusting }
+					NOT = {
+						 OR = {
+							trait = diligent
+							trait = diligent_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = trusting
+							trait = trusting_hidden
+						} 
+					}
 					random = 75
 				}
 			}
@@ -18391,7 +19598,12 @@ character_event = {
 		if = {
 			limit = { 
 				dynasty = FROM 
-				NOT = { trait = kinslayer }
+				NOT = {
+					 OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+				}
 			}
 			add_trait = kinslayer
 		}
@@ -18674,31 +19886,52 @@ letter_event = {
 			}
 			modifier = {
 				factor = 1.25
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = patient
+				OR = {
+					trait = patient
+					trait = patient_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		
@@ -18778,31 +20011,52 @@ letter_event = {
 			factor = 90
 			modifier = {
 				factor = 1.25
-				trait = strong
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 1.25
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75

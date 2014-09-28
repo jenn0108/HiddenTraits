@@ -16,11 +16,17 @@ character_event = {
 		religion_group = muslim
 		is_female = yes
 		is_married = yes
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		spouse = {
 			any_spouse = {
 				NOT = { character = ROOT }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_alive = yes
 				at_location = ROOT
 			}
@@ -41,7 +47,10 @@ character_event = {
 		spouse = {
 			any_spouse = {
 				limit = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					NOT = { character = ROOT }
 				}
 				set_character_flag = louise
@@ -161,27 +170,45 @@ character_event = {
 	months = 420
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -190,9 +217,18 @@ character_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = cruel
-				trait = deceitful
-				trait = lunatic
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 		}
 		set_character_flag = plotting_second_wife
@@ -236,8 +272,14 @@ character_event = {
 				if = {
 					limit = {
 						NOT = {
-							trait = content
-							trait = ambitious
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
+							OR = {
+								trait = ambitious
+								trait = ambitious_hidden
+							}
 						}
 					}
 					add_trait = content
@@ -494,19 +536,31 @@ character_event = {
 		months = 320
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 		
@@ -653,19 +707,31 @@ character_event = {
 		months = 420
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -909,38 +975,64 @@ character_event = {
 				at_location = ROOT
 			}
 		}
-		NOT = { trait = kind }
+		NOT = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
 		months = 820
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	

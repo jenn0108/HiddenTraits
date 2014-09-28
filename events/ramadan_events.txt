@@ -139,7 +139,10 @@ character_event = {
 		has_character_flag = ramadan
 		OR = {
 			age = 50
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 		}
 		NOT = { has_character_flag = ramadan_ill }
 	}
@@ -173,7 +176,10 @@ character_event = {
 	trigger = {
 		has_character_flag = ramadan
 		has_character_flag = ramadan_ill
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -198,8 +204,14 @@ character_event = {
 	trigger = {
 		has_character_flag = ramadan
 		NOT = { 
-			trait = gluttonous
-			trait = temperate
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 	
@@ -226,8 +238,14 @@ character_event = {
 	trigger = {
 		has_character_flag = ramadan
 		NOT = { 
-			trait = greedy
-			trait = charitable
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -283,7 +301,10 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 		has_character_flag = ramadan
 		NOT = { has_character_flag = ramadan_ill }
 	}
@@ -543,7 +564,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = ramadan
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 		NOT = { has_character_flag = ramadan_gluttonous }
 	}
 	
@@ -570,8 +594,14 @@ character_event = {
 	trigger = {
 		has_character_flag = ramadan
 		OR = {
-			trait = lustful
-			trait = hedonist
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		NOT = { has_character_flag = ramadan_lustful_hedonist }
 	}
@@ -598,7 +628,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = ramadan
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		NOT = { has_character_flag = ramadan_drunkard }
 	}
 	
@@ -624,10 +657,16 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = ramadan
-		trait = greedy
+		OR = {
+			trait = greedy
+			trait = greedy_hidden
+		}
 		NOT = { 
 			has_character_flag = ramadan_greedy 
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -653,7 +692,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = ramadan
-		trait = cynical
+		OR = {
+			trait = cynical
+			trait = cynical_hidden
+		}
 		NOT = { has_character_flag = ramadan_cynical }
 	}
 	

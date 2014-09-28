@@ -23,35 +23,63 @@ character_event = {
 		has_minor_title = title_regent
 		independent = no
 		liege = { wealth = 20 }
-		NOT = { trait = charitable }
-		NOT = { trait = honest }
+		NOT = {
+			 OR = {
+				trait = charitable
+				trait = charitable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = honest
+				trait = honest_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
 		months = 280
 		modifier = {
 			factor = 0.25
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -163,11 +191,19 @@ character_event = {
 		has_minor_title = title_regent
 		is_feudal = yes
 		independent = no
-		NOT = { trait = honest }
+		NOT = {
+			 OR = {
+				trait = honest
+				trait = honest_hidden
+			} 
+		}
 		liege = { 
 			demesne_size = 5
 			age = 16
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -175,27 +211,45 @@ character_event = {
 		months = 380
 		modifier = {
 			factor = 0.25
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -268,7 +322,10 @@ character_event = {
 		liege = { 
 			wealth = 50
 			age = 16
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -276,23 +333,38 @@ character_event = {
 		months = 280
 		modifier = {
 			factor = 0.25
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 	}
 		
@@ -344,18 +416,27 @@ character_event = {
 		stewardship = 13
 		}
 		NOT = { stewardship = 6 }
-		trait = incapable
+		OR = {
+			trait = incapable
+			trait = incapable_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
 		months = 180
 		modifier = {
 			factor = 0.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 	}
 	
@@ -386,7 +467,10 @@ character_event = {
 		}
 		liege = { 
 			age = 16
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -394,27 +478,45 @@ character_event = {
 		months = 280
 		modifier = {
 			factor = 0.25
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -463,13 +565,19 @@ character_event = {
 			limit = {
 				any_courtier = {
 					NOT = { has_character_flag = mean_regent }
-					trait = just
+					OR = {
+						trait = just
+						trait = just_hidden
+					}
 					opinion = { who = liege value = 10 	}
 				}
 			}
 			random_courtier = {
 				limit = {
-					trait = just
+					OR = {
+						trait = just
+						trait = just_hidden
+					}
 					NOT = { has_character_flag = mean_regent }
 					opinion = { who = liege value = 10 	}
 				}
@@ -487,13 +595,19 @@ character_event = {
 			limit = {
 				any_courtier = {
 					NOT = { has_character_flag = mean_regent }
-					trait = just
+					OR = {
+						trait = just
+						trait = just_hidden
+					}
 					opinion = { who = liege value = 10 	}
 				}
 			}
 			random_courtier = {
 				limit = {
-					trait = just
+					OR = {
+						trait = just
+						trait = just_hidden
+					}
 					NOT = { has_character_flag = mean_regent }
 					opinion = { who = liege value = 10 	}
 				}
@@ -757,23 +871,38 @@ character_event = {
 		months = 280
 		modifier = {
 			factor = 0.25
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -833,7 +962,10 @@ character_event = {
 		liege = {
 			age = 5
 			NOT = { 
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 				age = 16 
 			}
 		}
@@ -847,27 +979,45 @@ character_event = {
 		months = 340
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -916,13 +1066,19 @@ character_event = {
 		has_minor_title = title_regent
 		independent = no
 		NOT = { 
-			trait = lunatic 
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			} 
 			has_character_flag = declared_ruler_insane
 		}
 		liege = {
 			age = 5
 			NOT = { age = 16 }
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 	}
 	
@@ -930,23 +1086,38 @@ character_event = {
 		months = 240
 		modifier = {
 			factor = 0.25
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 	}
 	
@@ -1045,7 +1216,12 @@ character_event = {
 		name = EVTOPTA61146
 		trigger = {
 			liege = {
-				NOT = { trait = lunatic }
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 		}
 		liege = {
@@ -1059,7 +1235,12 @@ character_event = {
 	option = {
 		name = EVTOPTB61146
 		trigger = {
-			liege = { trait = lunatic }
+			liege = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 		liege = {
 			opinion = {
@@ -1086,7 +1267,12 @@ character_event = {
 	option = {
 		name = EVTOPTB61150
 		tooltip_info = lunatic
-		trigger = { trait = lunatic }
+		trigger = {
+			 OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			} 
+		}
 		prestige = 30
 	}
 }
@@ -1107,7 +1293,12 @@ character_event = {
 	option = {
 		name = EVTOPTB61151
 		tooltip_info = lunatic
-		trigger = { trait = lunatic }
+		trigger = {
+			 OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			} 
+		}
 		set_character_flag = imprisoned_by_regent
 		prestige = -30
 	}
@@ -1144,7 +1335,12 @@ character_event = {
 	option = {
 		name = EVTOPTB61152
 		tooltip_info = lunatic
-		trigger = { trait = lunatic }
+		trigger = {
+			 OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			} 
+		}
 		remove_trait = incapable
 		remove_character_modifier = house_arrest
 		clr_character_flag = imprisoned_by_regent
@@ -1283,35 +1479,59 @@ character_event = {
 		months = 180
 		modifier = {
 			factor = 0.15
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 	}
 	
@@ -1331,7 +1551,12 @@ character_event = {
 	option = {
 		name = EVTOPTB61165
 		tooltip_info = lunatic
-		trigger = { trait = lunatic }
+		trigger = {
+			 OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			} 
+		}
 		character_event = {	id = 61166 tooltip = EVTTOOLTIP61166 }
 	}
 }
@@ -1401,23 +1626,38 @@ character_event = {
 		months = 160
 		modifier = {
 			factor = 0.25
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -1832,7 +2072,12 @@ character_event = {
 				age = 1
 				NOT = { age = 14 }
 			}
-			liege = { trait = incapable }
+			liege = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		
 		in_command = no
@@ -1845,34 +2090,57 @@ character_event = {
 		months = 480
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = duelist
+			OR = {
+				trait = duelist
+				trait = duelist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
 	option = { # Challenge to duel
 		name = EVTOPTA61215
 		tooltip_info = duelist
-		trigger = { trait = duelist }
+		trigger = {
+			 OR = {
+				trait = duelist
+				trait = duelist_hidden
+			} 
+		}
 		ai_chance = { factor = 60 }
 		liege = {
 			random_courtier = {
@@ -1922,7 +2190,12 @@ character_event = {
 	option = {
 		name = EVTOPTA61216
 		tooltip_info = duelist
-		trigger = { trait = duelist }
+		trigger = {
+			 OR = {
+				trait = duelist
+				trait = duelist_hidden
+			} 
+		}
 		ai_chance = {
 			factor = 80
 		}
@@ -2905,7 +3178,10 @@ character_event = {
 		spouse = {
 			OR = {
 				NOT = { age = 15 }
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 		}
 	}
@@ -2914,19 +3190,31 @@ character_event = {
 		months = 240
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -2958,7 +3246,10 @@ character_event = {
 		liege = {
 			OR = {
 				NOT = { age = 15 }
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 		}
 	}
@@ -2967,19 +3258,31 @@ character_event = {
 		months = 240
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -3034,7 +3337,12 @@ character_event = {
 	trigger = {
 		is_landed = yes
 		has_minor_title = title_regent
-		NOT = { trait = content }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
 		liege = {
 			higher_tier_than = DUKE
 			NOT = { has_character_flag = regent_lowered_CA }
@@ -3061,23 +3369,38 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -3163,7 +3486,12 @@ character_event = {
 	trigger = {
 		is_landed = yes
 		has_minor_title = title_regent
-		NOT = { trait = content }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
 		liege = {
 			higher_tier_than = DUKE
 			NOT = { has_character_flag = regent_lowered_CA }
@@ -3190,23 +3518,38 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	

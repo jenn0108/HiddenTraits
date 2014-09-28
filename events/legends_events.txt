@@ -51,22 +51,34 @@ narrative_event = {
 		
 		modifier = {
 			factor = 1.2
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.2
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.3
-			trait = charismatic_negotiator
+			OR = {
+				trait = charismatic_negotiator
+				trait = charismatic_negotiator_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.3
-			trait = midas_touched
+			OR = {
+				trait = midas_touched
+				trait = midas_touched_hidden
+			}
 		}
 	}
 	
@@ -96,7 +108,10 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 				}
 			}
 			random = {
@@ -112,9 +127,15 @@ narrative_event = {
 		}
 		if = {
 			limit = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 				NOT = {
-					trait = deceitful
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			random = {
@@ -145,7 +166,10 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			random = {
@@ -182,7 +206,10 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 				}
 			}
 			random = {
@@ -198,9 +225,15 @@ narrative_event = {
 		}
 		if = {
 			limit = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -238,7 +271,10 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = diligent
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
 				}
 			}
 			random = {
@@ -254,9 +290,15 @@ narrative_event = {
 		}
 		if = {
 			limit = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 				NOT = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 			}
 			random = {
@@ -312,16 +354,25 @@ narrative_event = {
 		if = {
 			limit = {	
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			add_trait = craven
 		}
 		if = {
 			limit = {	
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			add_trait = craven
@@ -351,16 +402,25 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = deceitful
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			add_trait = deceitful
 		}
 		if = {
 			limit = {
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 				NOT = {
-					trait = patient
+					OR = {
+						trait = patient
+						trait = patient_hidden
+					}
 				}
 			}
 			add_trait = patient
@@ -423,16 +483,25 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			add_trait = wroth
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			add_trait = cruel
@@ -440,10 +509,16 @@ narrative_event = {
 		any_courtier = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
-					trait = kind
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 			}
 			opinion = {
@@ -542,9 +617,18 @@ narrative_event = {
 		any_courtier = {
 			limit = {
 				OR = {
-					trait = brave
-					trait = honest
-					trait = proud
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			opinion = {
@@ -616,14 +700,20 @@ narrative_event = {
 		clr_character_flag = robin_hood
 		if = {
 			limit = {
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 			remove_trait = deceitful
 		}
 		if = {
 			limit = {
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -774,16 +864,25 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			add_trait = craven
 		}
 		if = {
 			limit = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
-					trait = deceitful
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			add_trait = deceitful
@@ -924,7 +1023,10 @@ narrative_event = {
 		any_courtier = {
 			limit = {
 				NOT = {
-					trait = honest
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			opinion = {
@@ -1125,16 +1227,25 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			add_trait = wroth
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			add_trait = cruel
@@ -1142,10 +1253,16 @@ narrative_event = {
 		any_courtier = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
-					trait = kind
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 			}
 			opinion = {
@@ -1250,16 +1367,25 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = wroth
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			add_trait = wroth
 		}
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 				NOT = {
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 			}
 			add_trait = cruel
@@ -1267,10 +1393,16 @@ narrative_event = {
 		any_courtier = {
 			limit = {
 				NOT = {
-					trait = charitable
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 				NOT = {
-					trait = kind
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 			}
 			opinion = {
@@ -1402,12 +1534,18 @@ narrative_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 	
@@ -1420,7 +1558,10 @@ narrative_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = slothful
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 			random = {
@@ -1436,9 +1577,15 @@ narrative_event = {
 		}
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			random = {
@@ -1493,12 +1640,18 @@ narrative_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -1557,12 +1710,18 @@ narrative_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -1636,7 +1795,10 @@ narrative_event = {
 		trigger = {
 			treasury = 50
 			NOT = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		set_character_flag = choose_solution_gh

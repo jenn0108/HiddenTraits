@@ -58,8 +58,18 @@ character_event = {
 		diplomacy = 7
 		
 		health = 4
-		NOT = { trait = content }
-		NOT = { trait = craven }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		
 		NOT = { has_character_modifier = planning_claimant_adventure }
 	}
@@ -72,7 +82,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.2
@@ -80,7 +93,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -88,31 +104,52 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = born_in_the_purple
+			OR = {
+				trait = born_in_the_purple
+				trait = born_in_the_purple_hidden
+			}
 		}
 		modifier = {
 			factor = 0.85
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 0.85
-			trait = sayyid
+			OR = {
+				trait = sayyid
+				trait = sayyid_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -125,7 +162,12 @@ character_event = {
 					OR = {
 						# Don't target a liege unless I am ambitious
 						NOT = { is_vassal_or_below = ROOT }
-						ROOT = { trait = ambitious }
+						ROOT = {
+							 OR = {
+								trait = ambitious
+								trait = ambitious_hidden
+							} 
+						}
 					}
 					OR = {
 						is_merchant_republic = no
@@ -201,7 +243,12 @@ character_event = {
 	trigger = {
 		is_ruler = no
 		prisoner = no
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 		
 		any_claim = {
 			has_holder = yes
@@ -210,7 +257,12 @@ character_event = {
 				OR = {
 					# Don't target a liege unless I am ambitious
 					NOT = { is_vassal_or_below = ROOT }
-					ROOT = { trait = ambitious }
+					ROOT = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						} 
+					}
 				}
 				OR = {
 					is_merchant_republic = no
@@ -648,8 +700,18 @@ character_event = {
 		martial = 9
 		health = 4
 		
-		NOT = { trait = content }
-		NOT = { trait = craven }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		
 		OR = { # Only these for now
 			culture_group = north_germanic
@@ -725,7 +787,10 @@ character_event = {
 		years = 100
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -758,23 +823,38 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.85
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
@@ -933,7 +1013,12 @@ character_event = {
 		
 		is_ruler = no
 		prisoner = no
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 		
 		NOT = {
 			any_heir_title = {

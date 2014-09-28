@@ -472,15 +472,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 	}
 
@@ -523,7 +532,10 @@ character_event = {
 	trigger = {
 		has_character_flag = attending_tournament
 		NOT = {
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		NOT = {
 			has_character_flag = tournament_has_ended
@@ -620,15 +632,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 	}
 
@@ -674,10 +695,16 @@ character_event = {
 			has_character_flag = tournament_has_ended
 		}
 		NOT = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		NOT = {
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		top_liege = {
 			has_character_flag = tournament_begins
@@ -771,11 +798,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 2
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 	}
 
@@ -820,7 +853,10 @@ character_event = {
 			has_character_flag = tournament_has_ended
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		top_liege = {
 			has_character_flag = tournament_begins
@@ -943,7 +979,10 @@ character_event = {
 			has_character_flag = tournament_has_ended
 		}
 		NOT = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		top_liege = {
 			has_character_flag = tournament_begins
@@ -1065,7 +1104,10 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		trait = misguided_warrior
+		OR = {
+			trait = misguided_warrior
+			trait = misguided_warrior_hidden
+		}
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {
@@ -1107,7 +1149,10 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		trait = tough_soldier
+		OR = {
+			trait = tough_soldier
+			trait = tough_soldier_hidden
+		}
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {
@@ -1149,7 +1194,10 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		trait = skilled_tactician
+		OR = {
+			trait = skilled_tactician
+			trait = skilled_tactician_hidden
+		}
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {
@@ -1191,7 +1239,10 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		trait = brilliant_strategist
+		OR = {
+			trait = brilliant_strategist
+			trait = brilliant_strategist_hidden
+		}
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {
@@ -1233,7 +1284,10 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		trait = skilled_tactician
+		OR = {
+			trait = skilled_tactician
+			trait = skilled_tactician_hidden
+		}
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {
@@ -1275,7 +1329,10 @@ character_event = {
 		NOT = {
 			has_character_flag = tournament_has_ended
 		}
-		trait = tough_soldier
+		OR = {
+			trait = tough_soldier
+			trait = tough_soldier_hidden
+		}
 		top_liege = {
 			has_character_flag = tournament_begins
 			NOT = {
@@ -1883,37 +1940,66 @@ character_event = {
 		}
 		NOT = { has_character_flag = attending_tournament_event }
 		NOT = {
-			trait = homosexual
-			trait = celibate
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
-		NOT = { trait = eunuch }
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
 	}
 
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
 			factor = 0.9
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 
@@ -1946,37 +2032,66 @@ character_event = {
 		}
 		NOT = { has_character_flag = attending_tournament_event }
 		NOT = {
-			trait = syphilitic
-			trait = celibate
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
-		NOT = { trait = eunuch }
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
 	}
 
 	mean_time_to_happen = {
 		months = 800
 		modifier = {
 			factor = 0.9
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 
@@ -2009,7 +2124,10 @@ character_event = {
 		}
 		NOT = { has_character_flag = attending_tournament_event }
 		NOT = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 	}
 
@@ -2017,19 +2135,31 @@ character_event = {
 		months = 500
 		modifier = {
 			factor = 0.75
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 
@@ -2063,10 +2193,22 @@ character_event = {
 		NOT = { has_character_flag = attending_tournament_event }
 		martial = 5
 		NOT = {
-			trait = content
-			trait = kind
-			trait = craven
-			trait = weak
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			lifestyle_traits = 1
 		}
 	}
@@ -2075,19 +2217,31 @@ character_event = {
 		months = 500
 		modifier = {
 			factor = 0.75
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -2137,38 +2291,68 @@ character_event = {
 		months = 250
 		modifier = {
 			factor = 0.8
-			trait = elusive_shadow
+			OR = {
+				trait = elusive_shadow
+				trait = elusive_shadow_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = intricate_webweaver
+			OR = {
+				trait = intricate_webweaver
+				trait = intricate_webweaver_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = flamboyant_schemer
+			OR = {
+				trait = flamboyant_schemer
+				trait = flamboyant_schemer_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = amateurish_plotter
+			OR = {
+				trait = amateurish_plotter
+				trait = amateurish_plotter_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
 			NOT = {
 				OR = {
-					trait = elusive_shadow
-					trait = intricate_webweaver
-					trait = flamboyant_schemer
-					trait = amateurish_plotter
+					OR = {
+						trait = elusive_shadow
+						trait = elusive_shadow_hidden
+					}
+					OR = {
+						trait = intricate_webweaver
+						trait = intricate_webweaver_hidden
+					}
+					OR = {
+						trait = flamboyant_schemer
+						trait = flamboyant_schemer_hidden
+					}
+					OR = {
+						trait = amateurish_plotter
+						trait = amateurish_plotter_hidden
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 4
@@ -2216,38 +2400,68 @@ character_event = {
 		months = 250
 		modifier = {
 			factor = 1.5
-			trait = elusive_shadow
+			OR = {
+				trait = elusive_shadow
+				trait = elusive_shadow_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = intricate_webweaver
+			OR = {
+				trait = intricate_webweaver
+				trait = intricate_webweaver_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = flamboyant_schemer
+			OR = {
+				trait = flamboyant_schemer
+				trait = flamboyant_schemer_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = amateurish_plotter
+			OR = {
+				trait = amateurish_plotter
+				trait = amateurish_plotter_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
 			NOT = {
 				OR = {
-					trait = elusive_shadow
-					trait = intricate_webweaver
-					trait = flamboyant_schemer
-					trait = amateurish_plotter
+					OR = {
+						trait = elusive_shadow
+						trait = elusive_shadow_hidden
+					}
+					OR = {
+						trait = intricate_webweaver
+						trait = intricate_webweaver_hidden
+					}
+					OR = {
+						trait = flamboyant_schemer
+						trait = flamboyant_schemer_hidden
+					}
+					OR = {
+						trait = amateurish_plotter
+						trait = amateurish_plotter_hidden
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 4
@@ -2295,38 +2509,68 @@ character_event = {
 		months = 250
 		modifier = {
 			factor = 0.8
-			trait = midas_touched
+			OR = {
+				trait = midas_touched
+				trait = midas_touched_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = fortune_builder
+			OR = {
+				trait = fortune_builder
+				trait = fortune_builder_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = thrifty_clerk
+			OR = {
+				trait = thrifty_clerk
+				trait = thrifty_clerk_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = indulgent_wastrel
+			OR = {
+				trait = indulgent_wastrel
+				trait = indulgent_wastrel_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
 			NOT = {
 				OR = {
-					trait = midas_touched
-					trait = fortune_builder
-					trait = thrifty_clerk
-					trait = indulgent_wastrel
+					OR = {
+						trait = midas_touched
+						trait = midas_touched_hidden
+					}
+					OR = {
+						trait = fortune_builder
+						trait = fortune_builder_hidden
+					}
+					OR = {
+						trait = thrifty_clerk
+						trait = thrifty_clerk_hidden
+					}
+					OR = {
+						trait = indulgent_wastrel
+						trait = indulgent_wastrel_hidden
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 4
@@ -2374,38 +2618,68 @@ character_event = {
 		months = 250
 		modifier = {
 			factor = 1.5
-			trait = midas_touched
+			OR = {
+				trait = midas_touched
+				trait = midas_touched_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = fortune_builder
+			OR = {
+				trait = fortune_builder
+				trait = fortune_builder_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = thrifty_clerk
+			OR = {
+				trait = thrifty_clerk
+				trait = thrifty_clerk_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = indulgent_wastrel
+			OR = {
+				trait = indulgent_wastrel
+				trait = indulgent_wastrel_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
 			NOT = {
 				OR = {
-					trait = midas_touched
-					trait = fortune_builder
-					trait = thrifty_clerk
-					trait = indulgent_wastrel
+					OR = {
+						trait = midas_touched
+						trait = midas_touched_hidden
+					}
+					OR = {
+						trait = fortune_builder
+						trait = fortune_builder_hidden
+					}
+					OR = {
+						trait = thrifty_clerk
+						trait = thrifty_clerk_hidden
+					}
+					OR = {
+						trait = indulgent_wastrel
+						trait = indulgent_wastrel_hidden
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 4
@@ -2453,38 +2727,68 @@ character_event = {
 		months = 250
 		modifier = {
 			factor = 0.8
-			trait = grey_eminence
+			OR = {
+				trait = grey_eminence
+				trait = grey_eminence_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = charismatic_negotiator
+			OR = {
+				trait = charismatic_negotiator
+				trait = charismatic_negotiator_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = underhanded_rogue
+			OR = {
+				trait = underhanded_rogue
+				trait = underhanded_rogue_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
 			NOT = {
 				OR = {
-					trait = grey_eminence
-					trait = charismatic_negotiator
-					trait = underhanded_rogue
-					trait = naive_appeaser
+					OR = {
+						trait = grey_eminence
+						trait = grey_eminence_hidden
+					}
+					OR = {
+						trait = charismatic_negotiator
+						trait = charismatic_negotiator_hidden
+					}
+					OR = {
+						trait = underhanded_rogue
+						trait = underhanded_rogue_hidden
+					}
+					OR = {
+						trait = naive_appeaser
+						trait = naive_appeaser_hidden
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 4
@@ -2532,38 +2836,68 @@ character_event = {
 		months = 250
 		modifier = {
 			factor = 1.5
-			trait = grey_eminence
+			OR = {
+				trait = grey_eminence
+				trait = grey_eminence_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = charismatic_negotiator
+			OR = {
+				trait = charismatic_negotiator
+				trait = charismatic_negotiator_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = underhanded_rogue
+			OR = {
+				trait = underhanded_rogue
+				trait = underhanded_rogue_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
 			NOT = {
 				OR = {
-					trait = grey_eminence
-					trait = charismatic_negotiator
-					trait = underhanded_rogue
-					trait = naive_appeaser
+					OR = {
+						trait = grey_eminence
+						trait = grey_eminence_hidden
+					}
+					OR = {
+						trait = charismatic_negotiator
+						trait = charismatic_negotiator_hidden
+					}
+					OR = {
+						trait = underhanded_rogue
+						trait = underhanded_rogue_hidden
+					}
+					OR = {
+						trait = naive_appeaser
+						trait = naive_appeaser_hidden
+					}
 				}
 			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		modifier = {
 			factor = 4

@@ -134,7 +134,12 @@ character_event = {
 		any_child = {
 			NOT = { age = 3 }
 			is_ill = no
-			NOT = { trait = inbred }
+			NOT = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				} 
+			}
 		}
 		NOT = { has_global_flag = demon_child_born }
 	}
@@ -143,19 +148,31 @@ character_event = {
 		years = 500
 		modifier = {
 			factor = 0.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
 		}
 	}
 	
@@ -164,7 +181,12 @@ character_event = {
 			limit = {
 				NOT = { age = 3 }
 				is_ill = no
-				NOT = { trait = inbred }
+				NOT = {
+					 OR = {
+						trait = inbred
+						trait = inbred_hidden
+					} 
+				}
 			}
 			character_event = { id = SoA.3001 }
 		}
@@ -277,27 +299,39 @@ character_event = {
 			factor = 100
 			modifier = {
 				factor = 0
-				trait = zealous
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					is_female = yes
-					trait = kind 
-				}
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					is_female = yes
-					trait = chaste
-				}
-			}
-			modifier = {
-				factor = 2
-				FROM = {
-					is_female = yes
+				OR = {
 					trait = zealous
+					trait = zealous_hidden
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					is_female = yes
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					} 
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					is_female = yes
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					is_female = yes
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			modifier = {
@@ -324,39 +358,78 @@ character_event = {
 			factor = 100
 			modifier = {
 				factor = 0
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				FROM = { trait = possessed }
+				FROM = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROM = { trait = lunatic }
+				FROM = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROM = { trait = cruel }
+				FROM = {
+					 OR = {
+						trait = cruel
+						trait = cruel_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 4
-				FROM = { trait = impaler }
+				FROM = {
+					 OR = {
+						trait = impaler
+						trait = impaler_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROM = { trait = mystic }
+				FROM = {
+					 OR = {
+						trait = mystic
+						trait = mystic_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROM = { trait = lustful }
+				FROM = {
+					 OR = {
+						trait = lustful
+						trait = lustful_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 2
@@ -408,35 +481,71 @@ character_event = {
 			factor = 100
 			modifier = {
 				factor = 0
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				FROMFROM = { mother = { trait = possessed } }
+				FROMFROM = {
+					 mother = { OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} } 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROMFROM = { mother = { trait = lunatic } }
+				FROMFROM = {
+					 mother = { OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} } 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROMFROM = { mother = { trait = cruel } }
+				FROMFROM = {
+					 mother = { OR = {
+						trait = cruel
+						trait = cruel_hidden
+					} } 
+				}
 			}
 			modifier = {
 				factor = 4
-				FROMFROM = { mother = { trait = impaler } }
+				FROMFROM = {
+					 mother = { OR = {
+						trait = impaler
+						trait = impaler_hidden
+					} } 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROMFROM = { mother = { trait = mystic } }
+				FROMFROM = {
+					 mother = { OR = {
+						trait = mystic
+						trait = mystic_hidden
+					} } 
+				}
 			}
 			modifier = {
 				factor = 2
-				FROMFROM = { mother = { trait = lustful } }
+				FROMFROM = {
+					 mother = { OR = {
+						trait = lustful
+						trait = lustful_hidden
+					} } 
+				}
 			}
 			modifier = {
 				factor = 5
@@ -1001,11 +1110,22 @@ character_event = {
 			OR = {
 				is_older_than = ROOT
 				AND = {
-					trait = born_in_the_purple
-					ROOT = { NOT = { trait = born_in_the_purple } }
+					OR = {
+						trait = born_in_the_purple
+						trait = born_in_the_purple_hidden
+					}
+					ROOT = {
+						 NOT = { OR = {
+							trait = born_in_the_purple
+							trait = born_in_the_purple_hidden
+						} } 
+					}
 				}
 				ROOT = {
-					trait = bastard
+					OR = {
+						trait = bastard
+						trait = bastard_hidden
+					}
 				}
 				AND = {
 					is_female = no
@@ -1031,11 +1151,22 @@ character_event = {
 				OR = {
 					is_older_than = ROOT
 					AND = {
-						trait = born_in_the_purple
-						ROOT = { NOT = { trait = born_in_the_purple } }
+						OR = {
+							trait = born_in_the_purple
+							trait = born_in_the_purple_hidden
+						}
+						ROOT = {
+							 NOT = { OR = {
+								trait = born_in_the_purple
+								trait = born_in_the_purple_hidden
+							} } 
+						}
 					}
 					ROOT = {
-						trait = bastard
+						OR = {
+							trait = bastard
+							trait = bastard_hidden
+						}
 					}
 					AND = {
 						is_female = no
@@ -1255,8 +1386,14 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
-		trait = maimed
-		trait = possessed
+		OR = {
+			trait = maimed
+			trait = maimed_hidden
+		}
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		OR = {
 			has_character_modifier = voice_of_satan
@@ -1286,8 +1423,14 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
-		trait = blinded
-		trait = possessed
+		OR = {
+			trait = blinded
+			trait = blinded_hidden
+		}
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		OR = {
 			has_character_modifier = voice_of_satan
@@ -1317,8 +1460,14 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
-		trait = eunuch
-		trait = possessed
+		OR = {
+			trait = eunuch
+			trait = eunuch_hidden
+		}
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		OR = {
 			has_character_modifier = voice_of_satan
@@ -1351,10 +1500,19 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = incapable
-			trait = infirm
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		OR = {
 			has_character_modifier = voice_of_satan
@@ -1374,13 +1532,19 @@ character_event = {
 		name = EVTOPTA_SOA_3053
 		if = {
 			limit = {
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 			remove_trait = incapable
 		}
 		if = {
 			limit = {
-				trait = infirm
+				OR = {
+					trait = infirm
+					trait = infirm_hidden
+				}
 			}
 			remove_trait = infirm
 		}
@@ -1395,18 +1559,48 @@ character_event = {
 	border = GFX_event_normal_frame_religion
 	
 	trigger = {
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		OR = {
-			trait = syphilitic
-			trait = leper
-			trait = has_tuberculosis
-			trait = has_typhoid_fever
-			trait = has_typhus
-			trait = has_bubonic_plague
-			trait = has_measles
-			trait = has_small_pox
-			trait = has_aztec_disease
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
+			OR = {
+				trait = has_aztec_disease
+				trait = has_aztec_disease_hidden
+			}
 		}
 		OR = {
 			has_character_modifier = voice_of_satan
@@ -1426,55 +1620,82 @@ character_event = {
 		name = EVTOPTA_SOA_3054
 		if = {
 			limit = {
-				trait = syphilitic
+				OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				}
 			}
 			remove_trait = syphilitic
 		}
 		if = {
 			limit = {
-				trait = leper
+				OR = {
+					trait = leper
+					trait = leper_hidden
+				}
 			}
 			remove_trait = leper
 		}
 		if = {
 			limit = {
-				trait = has_tuberculosis
+				OR = {
+					trait = has_tuberculosis
+					trait = has_tuberculosis_hidden
+				}
 			}
 			remove_trait = has_tuberculosis
 		}
 		if = {
 			limit = {
-				trait = has_typhoid_fever
+				OR = {
+					trait = has_typhoid_fever
+					trait = has_typhoid_fever_hidden
+				}
 			}
 			remove_trait = has_typhoid_fever
 		}
 		if = {
 			limit = {
-				trait = has_typhus
+				OR = {
+					trait = has_typhus
+					trait = has_typhus_hidden
+				}
 			}
 			remove_trait = has_typhus
 		}
 		if = {
 			limit = {
-				trait = has_bubonic_plague
+				OR = {
+					trait = has_bubonic_plague
+					trait = has_bubonic_plague_hidden
+				}
 			}
 			remove_trait = has_bubonic_plague
 		}
 		if = {
 			limit = {
-				trait = has_measles
+				OR = {
+					trait = has_measles
+					trait = has_measles_hidden
+				}
 			}
 			remove_trait = has_measles
 		}
 		if = {
 			limit = {
-				trait = has_small_pox
+				OR = {
+					trait = has_small_pox
+					trait = has_small_pox_hidden
+				}
 			}
 			remove_trait = has_small_pox
 		}
 		if = {
 			limit = {
-				trait = has_aztec_disease
+				OR = {
+					trait = has_aztec_disease
+					trait = has_aztec_disease_hidden
+				}
 			}
 			remove_trait = has_aztec_disease
 		}
@@ -1491,7 +1712,10 @@ character_event = {
 	prisoner = yes
 	
 	trigger = {
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		OR = {
 			has_character_modifier = voice_of_satan
@@ -1543,7 +1767,10 @@ character_event = {
 	
 	trigger = {
 		war = yes
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		has_dlc = "Sons of Abraham"
 		has_character_flag = demon_child_non_pagan
 		OR = {
@@ -2001,7 +2228,12 @@ character_event = {
 		any_courtier = {
 			is_female = yes
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			has_character_flag = witch_nanny
 		}
 	}
@@ -2015,7 +2247,12 @@ character_event = {
 			limit = {
 				is_female = yes
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				has_character_flag = witch_nanny
 			}
 			character_event = { id = SoA.3076 }

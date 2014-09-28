@@ -37,34 +37,80 @@ character_event = {
 		has_lover = no
 		is_pregnant = no
 		is_consort = no
-		NOT = { trait = homosexual }
-		NOT = { trait = infirm }
-		NOT = { trait = incapable }
-		NOT = { trait = celibate }
+		NOT = {
+			 OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			} 
+		}
 		liege = {
 			NOT = { character = ROOT }
 			demesne_size = 1
 			NOT = { is_close_relative = ROOT }
 			OR = {
 				AND = {
-					NOT = { trait = homosexual }
-					ROOT = { NOT = { trait = homosexual } }
+					NOT = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
+					ROOT = {
+						 NOT = { OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} } 
+					}
 					is_female = no
 					ROOT = { is_female = yes }
 				}
 				AND = {
-					NOT = { trait = homosexual }
-					ROOT = { NOT = { trait = homosexual } }
+					NOT = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
+					ROOT = {
+						 NOT = { OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} } 
+					}
 					is_female = yes
 					ROOT = { is_female = no }
 				}
 				AND = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = yes
 					ROOT = { is_female = yes }
 				}
 				AND = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = no
 					ROOT = { is_female = no }
 				}
@@ -83,26 +129,71 @@ character_event = {
 			NOT = {
 				is_former_lover = ROOT
 			}
-			NOT = { trait = infirm }
-			NOT = { trait = incapable }
-			NOT = { trait = celibate }
-			NOT = { trait = eunuch }
+			NOT = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = celibate
+					trait = celibate_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = eunuch
+					trait = eunuch_hidden
+				} 
+			}
 			NOT = { any_spouse = { character = ROOT } }
 			NOT = { any_consort = { character = ROOT } }
 			opinion = { who = ROOT value = 0 }
 			reverse_opinion = { who = ROOT value = 0 }
 			OR = {
 				is_married = no
-				NOT = { trait = chaste }
+				NOT = {
+					 OR = {
+						trait = chaste
+						trait = chaste_hidden
+					} 
+				}
 			}
 		}
 		has_lover = no
 		is_pregnant = no
 		prisoner = no
-		NOT = { trait = infirm }
-		NOT = { trait = incapable }
-		NOT = { trait = celibate }
-		NOT = { trait = eunuch }
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
 	}
 
 
@@ -113,14 +204,34 @@ character_event = {
 			factor = 10.0 #make it possible (but unlikely) for a courtier to 'come out of the closet' to make a pass at the liege
 			OR = {
 				AND = {
-					NOT = { trait = homosexual }
-					liege = { trait = homosexual }
+					NOT = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
+					liege = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 					is_female = yes
 					ROOT = { is_female = yes }
 				}
 				AND = {
-					NOT = { trait = homosexual }
-					liege = { trait = homosexual }
+					NOT = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
+					liege = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 					is_female = no
 					ROOT = { is_female = no }
 				}
@@ -160,7 +271,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.33
-			trait = homosexual #to balance for fewer potential lovers
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} #to balance for fewer potential lovers
 		}
 		modifier = {
 			factor = 0.2
@@ -198,35 +312,67 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			liege = { trait = hedonist }
+			liege = {
+				 OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			liege = { trait = lustful }
+			liege = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			liege = { trait = fair }
+			liege = {
+				 OR = {
+					trait = fair
+					trait = fair_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			liege = { trait = ugly }
+			liege = {
+				 OR = {
+					trait = ugly
+					trait = ugly_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -262,15 +408,28 @@ character_event = {
 		}
 		modifier = {
 			factor = 10.0
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			liege = { trait = chaste }
+			liege = {
+				 OR = {
+					trait = chaste
+					trait = chaste_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			liege = { any_child = { trait = bastard } }
+			liege = {
+				 any_child = { OR = {
+					trait = bastard
+					trait = bastard_hidden
+				} } 
+			}
 		}
 	}
 
@@ -280,14 +439,34 @@ character_event = {
 			limit = {
 				OR = {
 					AND = {
-						NOT = { trait = homosexual }
-						liege = { trait = homosexual }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						liege = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 						is_female = yes
 						ROOT = { is_female = yes }
 					}
 					AND = {
-						NOT = { trait = homosexual }
-						liege = { trait = homosexual }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						liege = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 						is_female = no
 						ROOT = { is_female = no }
 					}
@@ -329,22 +508,41 @@ character_event = {
 	option = {
 		name = EVTOPTB451
 		trigger = {
-			NOT = { trait = lustful }
-			NOT = { trait = hedonist }
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				} 
+			}
 		}
 		ai_chance = {
 			factor = 10
 			modifier = {
 				factor = 10
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		if = {
@@ -365,8 +563,14 @@ character_event = {
 		trigger = {
 			ai = no
 			OR = {
-				trait = lustful
-				trait = hedonist
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
+				OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				}
 			}
 		}
 		prestige = -5
@@ -455,7 +659,10 @@ character_event = {
 			factor = 5
 			modifier = {
 				factor = 10
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			modifier = {
 				factor = 2
@@ -464,16 +671,32 @@ character_event = {
 			}
 			modifier = {
 				factor = 2
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		trigger = {
-			NOT = { trait = lustful }
-			NOT = { trait = hedonist }
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				} 
+			}
 		}
 		FROM = { character_event = { id = 454 tooltip = EVTTOOLTIP454 } }
 	}
@@ -483,22 +706,41 @@ character_event = {
 		trigger = {
 			FROM = { is_female = no }
 			is_female = yes
-			NOT = { trait = lustful }
-			NOT = { trait = hedonist }
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				} 
+			}
 		}
 		ai_chance = {
 			factor = 5
 			modifier = {
 				factor = 10
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		FROM = { character_event = { id = 455 tooltip = EVTTOOLTIP455 } }
@@ -582,26 +824,62 @@ character_event = {
 				NOT = { is_close_relative = ROOT }
 				OR = {
 					AND = {
-						NOT = { trait = homosexual }
-						ROOT = { NOT = { trait = homosexual } }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						ROOT = {
+							 NOT = { OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} } 
+						}
 						is_female = no
 						ROOT = { is_female = yes }
 					}
 					AND = {
-						NOT = { trait = homosexual }
-						ROOT = { NOT = { trait = homosexual } }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						ROOT = {
+							 NOT = { OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} } 
+						}
 						is_female = yes
 						ROOT = { is_female = no }
 					}
 					AND = {
-						trait = homosexual
-						ROOT = { trait = homosexual }
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
+						ROOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 						is_female = yes
 						ROOT = { is_female = yes }
 					}
 					AND = {
-						trait = homosexual
-						ROOT = { trait = homosexual }
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
+						ROOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 						is_female = no
 						ROOT = { is_female = no }
 					}
@@ -617,11 +895,36 @@ character_event = {
 				NOT = {
 					has_character_modifier = lustful_affair_timer
 				}
-				NOT = { trait = infirm }
-				NOT = { trait = incapable }
-				NOT = { trait = celibate }
-				NOT = { trait = eunuch }
-				NOT = { trait = chaste }
+				NOT = {
+					 OR = {
+						trait = infirm
+						trait = infirm_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = celibate
+						trait = celibate_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = chaste
+						trait = chaste_hidden
+					} 
+				}
 				NOT = { spouse = { character = ROOT } }
 				opinion = { who = ROOT value = 0 }
 				reverse_opinion = { who = ROOT value = 0 }
@@ -633,11 +936,36 @@ character_event = {
 		has_lover = no
 		is_pregnant = no
 		prisoner = no
-		NOT = { trait = chaste }
-		NOT = { trait = infirm }
-		NOT = { trait = incapable }
-		NOT = { trait = celibate }
-		NOT = { trait = eunuch }
+		NOT = {
+			 OR = {
+				trait = chaste
+				trait = chaste_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
 	}
 
 
@@ -659,7 +987,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.33
-			trait = homosexual #to balance for fewer potential lovers
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} #to balance for fewer potential lovers
 		}
 		modifier = {
 			factor = 0.75
@@ -671,11 +1002,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 
@@ -688,26 +1025,62 @@ character_event = {
 					NOT = { is_close_relative = ROOT }
 					OR = {
 						AND = {
-							NOT = { trait = homosexual }
-							ROOT = { NOT = { trait = homosexual } }
+							NOT = {
+								 OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								} 
+							}
+							ROOT = {
+								 NOT = { OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								} } 
+							}
 							is_female = no
 							ROOT = { is_female = yes }
 						}
 						AND = {
-							NOT = { trait = homosexual }
-							ROOT = { NOT = { trait = homosexual } }
+							NOT = {
+								 OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								} 
+							}
+							ROOT = {
+								 NOT = { OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								} } 
+							}
 							is_female = yes
 							ROOT = { is_female = no }
 						}
 						AND = {
-							trait = homosexual
-							ROOT = { trait = homosexual }
+							OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							}
+							ROOT = {
+								 OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								} 
+							}
 							is_female = yes
 							ROOT = { is_female = yes }
 						}
 						AND = {
-							trait = homosexual
-							ROOT = { trait = homosexual }
+							OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							}
+							ROOT = {
+								 OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								} 
+							}
 							is_female = no
 							ROOT = { is_female = no }
 						}
@@ -719,11 +1092,36 @@ character_event = {
 					NOT = {
 						has_character_modifier = lustful_affair_timer
 					}
-					NOT = { trait = infirm }
-					NOT = { trait = incapable }
-					NOT = { trait = celibate }
-					NOT = { trait = eunuch }
-					NOT = { trait = chaste }
+					NOT = {
+						 OR = {
+							trait = infirm
+							trait = infirm_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = celibate
+							trait = celibate_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = eunuch
+							trait = eunuch_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = chaste
+							trait = chaste_hidden
+						} 
+					}
 					NOT = { spouse = { character = ROOT } }
 					opinion = { who = ROOT value = 0 }
 					reverse_opinion = { who = ROOT value = 0 }
@@ -755,7 +1153,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = pregnant }
+		NOT = {
+			 OR = {
+				trait = pregnant
+				trait = pregnant_hidden
+			} 
+		}
 		father_of_unborn = {
 			any_spouse = {
 				character = ROOT
@@ -788,7 +1191,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = pregnant }
+		NOT = {
+			 OR = {
+				trait = pregnant
+				trait = pregnant_hidden
+			} 
+		}
 		is_married = no
 		is_consort = no
 		father_of_unborn = {
@@ -817,7 +1225,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = pregnant }
+		NOT = {
+			 OR = {
+				trait = pregnant
+				trait = pregnant_hidden
+			} 
+		}
 		is_married = yes
 		father_of_unborn = {
 			NOT = {
@@ -885,7 +1298,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = pregnant }
+		NOT = {
+			 OR = {
+				trait = pregnant
+				trait = pregnant_hidden
+			} 
+		}
 		father_of_unborn = {
 			is_consort = ROOT
 		}
@@ -916,7 +1334,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = pregnant }
+		NOT = {
+			 OR = {
+				trait = pregnant
+				trait = pregnant_hidden
+			} 
+		}
 		is_consort = yes
 		father_of_unborn = {
 			NOT = {
@@ -1024,7 +1447,12 @@ character_event = {
 			limit = {
 				NOT = { character = FROM }
 				dynasty = ROOT
-				NOT = { trait = bastard }
+				NOT = {
+					 OR = {
+						trait = bastard
+						trait = bastard_hidden
+					} 
+				}
 			}
 			opinion = {
 				who = ROOT
@@ -1056,15 +1484,30 @@ character_event = {
 		FROM = {
 			character_event = { id = 309 tooltip = EVTTOOLTIP309 } #  The child founds a new bastard dynasty
 			if = {
-				limit = { trait = born_in_the_purple }
+				limit = {
+					 OR = {
+						trait = born_in_the_purple
+						trait = born_in_the_purple_hidden
+					} 
+				}
 				remove_trait = born_in_the_purple
 			}
 			if = {
-				limit = { trait = saoshyant_descendant }
+				limit = {
+					 OR = {
+						trait = saoshyant_descendant
+						trait = saoshyant_descendant_hidden
+					} 
+				}
 				remove_trait = saoshyant_descendant
 			}
 			if = {
-				limit = { trait = sayyid }
+				limit = {
+					 OR = {
+						trait = sayyid
+						trait = sayyid_hidden
+					} 
+				}
 				remove_trait = sayyid
 			}
 			mother = {
@@ -1409,7 +1852,10 @@ character_event = {
 			modifier = {
 				factor = 0
 				mother = {
-					trait = pneumonic
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 			}
 			modifier = {
@@ -1429,13 +1875,21 @@ character_event = {
 		mother = {
 			if = {
 				limit = {
-					trait = ill
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				character_event = { id = 316 }
 			}
 			if = {
 				limit = {
-					NOT = { trait = ill }
+					NOT = {
+						 OR = {
+							trait = ill
+							trait = ill_hidden
+						} 
+					}
 				}
 				character_event = { id = 315 }
 			}
@@ -1470,7 +1924,10 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						trait = pneumonic 
+						OR = {
+							trait = pneumonic
+							trait = pneumonic_hidden
+						} 
 						has_epidemic = yes
 					}
 				}
@@ -1482,7 +1939,10 @@ character_event = {
 				limit = {
 					NOT = {
 						OR = {
-							trait = pneumonic 
+							OR = {
+								trait = pneumonic
+								trait = pneumonic_hidden
+							} 
 							has_epidemic = yes
 						}
 					}
@@ -1571,7 +2031,10 @@ character_event = {
 			factor = 22
 			modifier = {
 				factor = 0
-				trait = pneumonic
+				OR = {
+					trait = pneumonic
+					trait = pneumonic_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
@@ -1585,13 +2048,21 @@ character_event = {
 		
 		if = {
 			limit = {
-				trait = ill
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
 			}
 			character_event = { id = 315 }
 		}
 		if = {
 			limit = {
-				NOT = { trait = ill }
+				NOT = {
+					 OR = {
+						trait = ill
+						trait = ill_hidden
+					} 
+				}
 			}
 			character_event = { id = 314 }
 		}
@@ -1618,7 +2089,10 @@ character_event = {
 		if = {
 			limit = {
 				OR = {
-					trait = pneumonic 
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					} 
 					has_epidemic = yes
 				}
 			}
@@ -1630,7 +2104,10 @@ character_event = {
 			limit = {
 				NOT = {
 					OR = {
-						trait = pneumonic 
+						OR = {
+							trait = pneumonic
+							trait = pneumonic_hidden
+						} 
 						has_epidemic = yes
 					}
 				}

@@ -56,11 +56,17 @@ character_event = {
 		
 		modifier = {
 			factor = 1.5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
@@ -68,7 +74,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -76,7 +85,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 1.25
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 
 	}
@@ -85,7 +97,10 @@ character_event = {
 		name = "EVTOPTA36000"
 		trigger = {
 			NOT = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 		}
 		prestige = 5
@@ -95,18 +110,46 @@ character_event = {
 		name = "EVTOPTB36000"
 		tooltip_info = craven
 		trigger = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		prestige = -10
 	}
 	option = {
 		name = "EVTOPTC36000"
 		trigger = {
-			NOT = { trait = greedy }
-			NOT = { trait = arbitrary }
-			NOT = { trait = envious }
-			NOT = { trait = craven }
-			NOT = { trait = cruel }
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}
 		add_trait = kind
 	}
@@ -114,16 +157,36 @@ character_event = {
 	option = {
 		name = "EVTOPTD36000"
 		trigger = {
-			NOT = { trait = craven }
-			NOT = { trait = humble }
-			NOT = { trait = content }
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 		random_list = {
 			50 = { }
 			10 = { 
 				if = {
 					limit = {
-						NOT = { trait = diligent }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
 					}
 					add_trait = diligent
 					hidden_tooltip = {
@@ -134,7 +197,10 @@ character_event = {
 				}
 				if = {
 					limit = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 					}
 					prestige = 10
 				}						
@@ -169,7 +235,10 @@ character_event = {
 	trigger = {
 		has_character_modifier = holding_grand_hunt
 		NOT = { has_character_flag = hunt_paranoia }
-		trait = paranoid
+		OR = {
+			trait = paranoid
+			trait = paranoid_hidden
+		}
 		NOT = {	health_traits = 1 }
 		any_courtier = {
 			has_plot = plot_kill_character
@@ -251,7 +320,10 @@ character_event = {
 	option = {
 		name = "EVTOPTB36001"
 		trigger = {
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
 		}
 		random_list = {
 			85 = {}
@@ -405,27 +477,45 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 
 		modifier = {
@@ -437,12 +527,25 @@ character_event = {
 	option = {
 		name = "EVTOPTA36010"
 		trigger = {
-			NOT = { trait = greedy }
-			NOT = { trait = cruel }
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}
 		random_courtier = {
 			limit = {
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 				war = no
 				prisoner = no
 				is_adult = yes
@@ -465,7 +568,10 @@ character_event = {
 				is_female = no
 				OR = {
 					martial = 10
-					trait = hunter
+					OR = {
+						trait = hunter
+						trait = hunter_hidden
+					}
 					has_job_title = job_marshal
 				}
 			}
@@ -475,7 +581,10 @@ character_event = {
 				is_female = no
 				OR = {
 					martial = 10
-					trait = hunter
+					OR = {
+						trait = hunter
+						trait = hunter_hidden
+					}
 					has_job_title = job_marshal
 				}
 			}
@@ -491,14 +600,24 @@ character_event = {
 	option = {
 		name = "EVTOPTC36010"
 		trigger = {
-			NOT = {	trait = craven }
+			NOT = {
+					OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		random_list = {
 			65 = {}
 			10 = { 
 				if = {
 					limit = {
-						NOT = { trait = diligent }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
 					}
 					add_trait = diligent
 					hidden_tooltip = {
@@ -509,7 +628,10 @@ character_event = {
 				}
 				if = {
 					limit = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 					}
 					prestige = 10
 				}					
@@ -575,27 +697,45 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 
 
@@ -614,9 +754,18 @@ character_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					trait = brave
-					trait = ambitious
-					trait = proud
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
 				}
 			}
 			modifier = {
@@ -635,14 +784,24 @@ character_event = {
 	option = {
 		name = "EVTOPTB36015"
 		trigger = {
-			NOT = { trait = craven }
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		random_list = {
 			65 = {}
 			10 = { 
 				if = {
 					limit = {
-						NOT = { trait = diligent }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
 					}
 					add_trait = diligent
 					hidden_tooltip = {
@@ -653,7 +812,10 @@ character_event = {
 				}
 				if = {
 					limit = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 					}
 					prestige = 10
 				}						
@@ -722,27 +884,45 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
@@ -754,7 +934,12 @@ character_event = {
 	option = {
 		name = "EVTOPTA36020"
 		trigger = {
-			NOT = {	trait = craven }
+			NOT = {
+					OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		prestige = 5
 	}
@@ -762,14 +947,24 @@ character_event = {
 	option = {
 		name = "EVTOPTB36020"
 		trigger = {
-			NOT = {	trait = craven }
+			NOT = {
+					OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		random_list = {
 			65 = {}
 			10 = { 
 				if = {
 					limit = {
-						NOT = { trait = diligent }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
 					}
 					add_trait = diligent
 					hidden_tooltip = {
@@ -780,7 +975,10 @@ character_event = {
 				}
 				if = {
 					limit = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 					}
 					prestige = 10
 				}					
@@ -804,7 +1002,10 @@ character_event = {
 		name = "EVTOPTC36020"
 		tooltip_info = craven
 		trigger = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		any_courtier = {
 			limit = {
@@ -834,8 +1035,18 @@ character_event = {
 	trigger = {
 		has_character_modifier = holding_grand_hunt
 		NOT = { has_character_flag = hunt_good_hounds }
-		NOT = { trait = craven }
-		NOT = { trait = content }
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
 		OR = {
 			NOT = { has_character_flag = hunt_event_happened }
 			had_character_flag = {
@@ -868,23 +1079,38 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 
@@ -980,15 +1206,24 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -1000,7 +1235,12 @@ character_event = {
 	option = {
 		name = "EVTOPTA36030"
 		trigger = {
-			NOT = { trait = slothful }
+			NOT = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
 		}
 		piety = 10
 	}
@@ -1009,7 +1249,10 @@ character_event = {
 		name = "EVTOPTB36030"
 		tooltip_info = slothful
 		trigger = {
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		piety = -10
 	}
@@ -1058,23 +1301,38 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 
@@ -1098,7 +1356,12 @@ character_event = {
 	trigger = {
 		has_character_modifier = holding_grand_hunt
 		NOT = { martial = 8 }
-		NOT = { trait = hunter }
+		NOT = {
+			 OR = {
+				trait = hunter
+				trait = hunter_hidden
+			} 
+		}
 		NOT = { has_character_flag = hunt_killed_something }
 		OR = {
 			NOT = { has_character_flag = hunt_event_happened }
@@ -1132,19 +1395,31 @@ character_event = {
 
 		modifier = {
 			factor = 0.8
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
@@ -1233,19 +1508,31 @@ character_event = {
 
 		modifier = {
 			factor = 0.8
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 
 	}
@@ -1262,7 +1549,12 @@ character_event = {
 			10 = { 
 				if = {
 					limit = {
-						NOT = { trait = diligent }
+						NOT = {
+							 OR = {
+								trait = diligent
+								trait = diligent_hidden
+							} 
+						}
 					}
 					add_trait = diligent
 					hidden_tooltip = {
@@ -1273,7 +1565,10 @@ character_event = {
 				}
 				if = {
 					limit = {
-						trait = diligent
+						OR = {
+							trait = diligent
+							trait = diligent_hidden
+						}
 					}
 					prestige = 10
 				}						
@@ -1312,7 +1607,10 @@ character_event = {
 
 	trigger = {
 		is_adult = yes
-		trait = hunter
+		OR = {
+			trait = hunter
+			trait = hunter_hidden
+		}
 		liege = { has_character_modifier = holding_grand_hunt }
 		in_command = no
 		independent = no
@@ -1351,19 +1649,31 @@ character_event = {
 
 		modifier = {
 			factor = 0.8
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
 		}
 
 	}
@@ -1374,11 +1684,17 @@ character_event = {
 			factor = 20
 			modifier = {
 				factor = 0
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 		}
 		prestige = 5
@@ -1393,11 +1709,17 @@ character_event = {
 			factor = 20
 			modifier = {
 				factor = 0
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 		}
 		liege = { character_event = { id = 36052 } }
@@ -1537,10 +1859,16 @@ character_event = {
 		NOT = { has_character_flag = hunt_killed_something }
 		job_treasurer = {
 			NOT = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			NOT = {
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 		}
 		OR = {
@@ -1575,12 +1903,18 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 2
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 
@@ -1588,8 +1922,14 @@ character_event = {
 		name = "EVTOPTA4075"
 		trigger = {
 			NOT = {
-				trait = greedy
-				trait = content
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		random_vassal = {
@@ -1605,8 +1945,14 @@ character_event = {
 		name = "EVTOPTB4075"
 		trigger = {
 			NOT = {
-				trait = greedy
-				trait = content
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		treasury = -10
@@ -1623,8 +1969,14 @@ character_event = {
 		name = "EVTOPTC4075"
 		trigger = {
 			OR = {
-				trait = greedy
-				trait = content
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		random_vassal = {
@@ -1633,10 +1985,19 @@ character_event = {
 				prisoner = no
 				is_adult = yes
 				OR = {
-					trait = diligent
-					trait = ambitious
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 					NOT = {
-						trait = slothful
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
 					}
 				}
 			}

@@ -94,7 +94,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5201
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = cynical
@@ -146,9 +151,18 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		OR = {
-			trait = imbecile
-			trait = slow
-			trait = slothful
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		has_character_modifier = owns_relic
 	}
@@ -213,7 +227,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5205
 		trigger = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		random = {
 			chance = 30
@@ -240,7 +259,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 		has_character_modifier = owns_relic
 	}
 	
@@ -251,7 +273,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5206
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 		random = {
 			chance = 20
@@ -259,7 +286,10 @@ character_event = {
 			if = {
 				limit = {
 					NOT = {
-						trait = zealous
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				add_trait = zealous
@@ -269,7 +299,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5206
 		trigger = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		random = {
 			chance = 20
@@ -277,7 +312,10 @@ character_event = {
 			if = {
 				limit = {
 					NOT = {
-						trait = cynical
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
 					}
 				}
 				add_trait = cynical
@@ -318,7 +356,10 @@ character_event = {
 			if = {
 				limit = {
 					NOT = {
-						trait = cynical
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
 					}
 				}
 				add_trait = cynical
@@ -370,7 +411,12 @@ character_event = {
 	option = {
 		name = EVTOPTC_SoA_5208
 		trigger = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		scaled_wealth = 0.2
 		add_character_modifier = {
@@ -378,11 +424,21 @@ character_event = {
 			duration = 24
 		}
 		if = {
-			limit = { NOT = { trait = greedy } }
+			limit = {
+				 NOT = { OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} } 
+			}
 			add_trait = greedy
 		}
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = cynical
@@ -414,7 +470,12 @@ character_event = {
 		remove_character_modifier = owns_relic
 		piety = 30
 			if = {
-				limit = { NOT = { trait = humble } }
+				limit = {
+					 NOT = { OR = {
+						trait = humble
+						trait = humble_hidden
+					} } 
+				}
 				add_trait = humble
 			}
 	}
@@ -520,7 +581,12 @@ character_event = {
 			change_learning = 1
 		}
 		if = {
-			limit = { NOT = { trait = drunkard } }
+			limit = {
+				 NOT = { OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = drunkard
@@ -530,7 +596,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5210
 		if = {
-			limit = { NOT = { trait = temperate } }
+			limit = {
+				 NOT = { OR = {
+					trait = temperate
+					trait = temperate_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = temperate
@@ -573,7 +644,12 @@ character_event = {
 			change_learning = 1
 		}
 		if = {
-			limit = { NOT = { trait = drunkard } }
+			limit = {
+				 NOT = { OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = drunkard
@@ -583,7 +659,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5211
 		if = {
-			limit = { NOT = { trait = temperate } }
+			limit = {
+				 NOT = { OR = {
+					trait = temperate
+					trait = temperate_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = temperate
@@ -604,7 +685,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		religion_group = christian
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 		piety = 1
 	}
 	
@@ -622,7 +706,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5212
 		if = {
-			limit = { NOT = { trait = paranoid } }
+			limit = {
+				 NOT = { OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} } 
+			}
 			add_trait = paranoid
 		}
 	}
@@ -721,7 +810,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5215
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			add_trait = cynical
 		}
 	}
@@ -742,9 +836,24 @@ character_event = {
 			is_ruler = no
 			age = 13
 			NOT = { age = 16 }
-			NOT = { trait = cynical }
-			NOT = { trait = monk }
-			NOT = { trait = nun }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = monk
+					trait = monk_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = nun
+					trait = nun_hidden
+				} 
+			}
 			religion_group = christian
 		}
 	}
@@ -759,9 +868,24 @@ character_event = {
 				is_ruler = no
 				age = 13
 				NOT = { age = 16 }
-				NOT = { trait = cynical }
-				NOT = { trait = monk }
-				NOT = { trait = nun }
+				NOT = {
+					 OR = {
+						trait = cynical
+						trait = cynical_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = monk
+						trait = monk_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = nun
+						trait = nun_hidden
+					} 
+				}
 			}
 			character_event = { id = SoA.5217 }
 		}
@@ -892,7 +1016,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5240
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			add_trait = zealous
 		}
 		piety = 10
@@ -900,14 +1029,24 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5240
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 50
 				add_trait = cynical
 			}
 		}
 		if = {
-			limit = { NOT = { trait = stressed } }
+			limit = {
+				 NOT = { OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = stressed
@@ -938,11 +1077,19 @@ character_event = {
 		name = EVTOPTA_SoA_5241
 		trigger = {
 			NOT = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 				add_trait = zealous
 		}
 		piety = 30
@@ -951,11 +1098,19 @@ character_event = {
 		name = EVTOPTB_SoA_5241
 		trigger = {
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = cynical
@@ -982,17 +1137,32 @@ character_event = {
 		is_pregnant = no
 		is_married = yes
 		spouse = {
-			trait = chaste
-			trait = celibate
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 	}
 	
@@ -1000,18 +1170,29 @@ character_event = {
 		months = 1000
 			modifier = {
 				factor = 0.5
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 		}
 			modifier = {
 				factor = 0.8
-				trait = hedonist
+				OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				}
 		}
 	}
 
 	option = {
 		name = EVTOPTA_SoA_5242
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			add_trait = zealous
 		}
 		hidden_tooltip = { spouse = { character_event = { id = SoA.5243 } } }
@@ -1019,7 +1200,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5242
 		if = {
-			limit = { NOT = { trait = deceitful } }
+			limit = {
+				 NOT = { OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				} } 
+			}
 				add_trait = deceitful
 		}
 		hidden_tooltip = { spouse = { character_event = { id = SoA.5243 } } }
@@ -1042,7 +1228,12 @@ character_event = {
 			add_trait = pregnant
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			add_trait = zealous
 		}
 	}
@@ -1081,7 +1272,10 @@ character_event = {
 
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = possessed
+		OR = {
+			trait = possessed
+			trait = possessed_hidden
+		}
 		religion_group = christian
 	}
 	
@@ -1095,7 +1289,12 @@ character_event = {
 			chance = 40
 			remove_trait = possessed
 			if = {
-				limit = { NOT = { trait = zealous } }
+				limit = {
+					 NOT = { OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} } 
+				}
 				add_trait = zealous
 			}
 		}
@@ -1111,7 +1310,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5244
 		if = {
-			limit = { NOT = { trait = paranoid } }
+			limit = {
+				 NOT = { OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} } 
+			}
 			add_trait = paranoid
 		}
 	}
@@ -1144,21 +1348,67 @@ character_event = {
 		NOT = { diplomacy = 3 }
 		is_priest = yes
 		religion_group = christian
-		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_christian }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = bad_priest_christian
+				trait = bad_priest_christian_hidden
+			} 
+		}
 		OR = {
-			trait = cynical
-			trait = lustful
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
-			trait = lunatic
-			trait = possessed
-			trait = homosexual
-			trait = hedonist
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 	}
 
@@ -1172,8 +1422,18 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 			give_nickname = nick_the_wicked
 		}
@@ -1181,7 +1441,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = possessed
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 			give_nickname = nick_the_bewitched
 		}
@@ -1189,7 +1452,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 			give_nickname = nick_the_mad
 		}
@@ -1218,20 +1484,63 @@ character_event = {
 		}
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
-		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_muslim }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = bad_priest_muslim
+				trait = bad_priest_muslim_hidden
+			} 
+		}
 		OR = {
-			trait = cynical
-			trait = lustful
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
-			trait = lunatic
-			trait = possessed
-			trait = hedonist
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 	}
 
@@ -1246,8 +1555,18 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 			give_nickname = nick_the_wicked
 		}
@@ -1255,7 +1574,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = possessed
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 			give_nickname = nick_the_bewitched
 		}
@@ -1263,7 +1585,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 			give_nickname = nick_the_mad
 		}
@@ -1291,20 +1616,63 @@ character_event = {
 		}
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
-		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_norse }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = bad_priest_norse
+				trait = bad_priest_norse_hidden
+			} 
+		}
 		OR = {
-			trait = cynical
-			trait = gluttonous
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = craven
-			trait = lunatic
-			trait = possessed
-			trait = hedonist
-			trait = arbitrary
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 	}
 
@@ -1319,8 +1687,18 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 			give_nickname = nick_the_unready
 		}
@@ -1328,7 +1706,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = possessed
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 			give_nickname = nick_the_bewitched
 		}
@@ -1336,7 +1717,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 			give_nickname = nick_the_mad
 		}
@@ -1361,19 +1745,59 @@ character_event = {
 		}
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
-		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_tengri }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = bad_priest_tengri
+				trait = bad_priest_tengri_hidden
+			} 
+		}
 		OR = {
-			trait = cynical
-			trait = lunatic
-			trait = arbitrary
-			trait = paranoid
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = lunatic
-			trait = cruel
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 
@@ -1387,8 +1811,18 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 			give_nickname = nick_the_wicked
 		}
@@ -1396,7 +1830,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = possessed
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 			give_nickname = nick_the_bewitched
 		}
@@ -1404,7 +1841,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 			give_nickname = nick_the_mad
 		}
@@ -1426,19 +1866,59 @@ character_event = {
 		}
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
-		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_zoroastrian }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = bad_priest_zoroastrian
+				trait = bad_priest_zoroastrian_hidden
+			} 
+		}
 		OR = {
-			trait = cynical
-			trait = arbitrary
-			trait = greedy
-			trait = slothful
-			trait = envious
-			trait = wroth
-			trait = proud
-			trait = lunatic
-			trait = possessed
-			trait = cruel
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 
@@ -1452,8 +1932,18 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 			}
 			give_nickname = nick_the_wicked
 		}
@@ -1461,7 +1951,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = possessed
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 			give_nickname = nick_the_bewitched
 		}
@@ -1469,7 +1962,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 			give_nickname = nick_the_mad
 		}
@@ -1491,19 +1987,59 @@ character_event = {
 		is_priest = yes
 		NOT = { intrigue = 3 }
 		NOT = { diplomacy = 3 }
-		NOT = { trait = incapable }
-		NOT = { trait = bad_priest_aztec }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = bad_priest_aztec
+				trait = bad_priest_aztec_hidden
+			} 
+		}
 		OR = {
-			trait = cynical
-			trait = craven
-			trait = kind
-			trait = slothful
-			trait = gluttonous
-			trait = lustful
-			trait = hedonist
-			trait = lunatic
-			trait = possessed
-			trait = arbitrary
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 	}
 
@@ -1517,10 +2053,30 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				NOT = { trait = possessed }
-				NOT = { trait = lunatic }
-				NOT = { trait = craven }
-				NOT = { trait = kind }
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = craven
+						trait = craven_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = kind
+						trait = kind_hidden
+					} 
+				}
 			}
 			give_nickname = nick_the_unready
 		}
@@ -1528,7 +2084,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = possessed
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 			give_nickname = nick_the_bewitched
 		}
@@ -1536,7 +2095,10 @@ character_event = {
 			limit = {
 				is_ruler = yes
 				has_nickname = no
-				trait = lunatic
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 			give_nickname = nick_the_mad
 		}
@@ -1545,8 +2107,14 @@ character_event = {
 				is_ruler = yes
 				has_nickname = no
 				OR = {
-					trait = craven
-					trait = kind
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 			}
 			give_nickname = nick_the_kind
@@ -1565,7 +2133,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_landed_title = k_papal_state
-		trait = bad_priest_christian
+		OR = {
+			trait = bad_priest_christian
+			trait = bad_priest_christian_hidden
+		}
 		NOT = { year = 1049 }
 	}
 
@@ -1614,7 +2185,10 @@ character_event = {
 			has_landed_title = d_fraticelli
 			has_landed_title = d_iconoclast
 		}
-		trait = bad_priest_christian
+		OR = {
+			trait = bad_priest_christian
+			trait = bad_priest_christian_hidden
+		}
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -1671,7 +2245,10 @@ character_event = {
 			has_landed_title = d_ibadi
 			has_landed_title = d_hurufi
 		}
-		trait = bad_priest_muslim
+		OR = {
+			trait = bad_priest_muslim
+			trait = bad_priest_muslim_hidden
+		}
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -1720,7 +2297,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_landed_title = d_norse_pagan_reformed
-		trait = bad_priest_norse
+		OR = {
+			trait = bad_priest_norse
+			trait = bad_priest_norse_hidden
+		}
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -1769,7 +2349,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_landed_title = d_tengri_pagan_reformed
-		trait = bad_priest_tengri
+		OR = {
+			trait = bad_priest_tengri
+			trait = bad_priest_tengri_hidden
+		}
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -1818,7 +2401,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_landed_title = d_zoroastrian
-		trait = bad_priest_zoroastrian
+		OR = {
+			trait = bad_priest_zoroastrian
+			trait = bad_priest_zoroastrian_hidden
+		}
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -1867,7 +2453,10 @@ character_event = {
 	trigger = {
 		has_dlc = "Sons of Abraham"
 		has_landed_title = d_aztec_reformed
-		trait = bad_priest_aztec
+		OR = {
+			trait = bad_priest_aztec
+			trait = bad_priest_aztec_hidden
+		}
 		NOT = { has_character_modifier = bad_rel_head }
 	}
 
@@ -2501,9 +3090,24 @@ narrative_event = {
 				limit = {
 					is_priest = no
 					is_republic = no
-					NOT = { trait = charitable }
-					NOT = { trait = kind }
-					NOT = { trait = humble }
+					NOT = {
+						 OR = {
+							trait = charitable
+							trait = charitable_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = kind
+							trait = kind_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = humble
+							trait = humble_hidden
+						} 
+					}
 				}
 				hidden_tooltip = {
 					opinion = {
@@ -2593,8 +3197,14 @@ narrative_event = {
 		tooltip_info = cynical
 		tooltip_info = intrigue
 		trigger = {
-			trait = lustful
-			trait = cynical
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 			intrigue = 10
 			is_female = no
 		}
@@ -2775,9 +3385,24 @@ narrative_event = {
 			limit = {
 				is_priest = no
 				is_republic = no
-				NOT = { trait = brilliant_strategist }
-				NOT = { trait = skilled_tactician }
-				NOT = { trait = humble }
+				NOT = {
+					 OR = {
+						trait = brilliant_strategist
+						trait = brilliant_strategist_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = skilled_tactician
+						trait = skilled_tactician_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = humble
+						trait = humble_hidden
+					} 
+				}
 			}
 			hidden_tooltip = {
 				opinion = {
@@ -2845,9 +3470,24 @@ narrative_event = {
 			any_realm_lord = {
 				limit = {
 					is_priest = yes
-					NOT = { trait = charitable }
-					NOT = { trait = kind }
-					NOT = { trait = humble }
+					NOT = {
+						 OR = {
+							trait = charitable
+							trait = charitable_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = kind
+							trait = kind_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = humble
+							trait = humble_hidden
+						} 
+					}
 				}
 				hidden_tooltip = {
 					opinion = {
@@ -2917,7 +3557,12 @@ narrative_event = {
 		name = EVTOPTA_SoA_5370
 		piety = 30
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = zealous
@@ -2931,7 +3576,12 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_SoA_5370
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = cynical
@@ -2988,9 +3638,24 @@ narrative_event = {
 				limit = {
 					is_priest = no
 					is_republic = no
-					NOT = { trait = charitable }
-					NOT = { trait = kind }
-					NOT = { trait = humble }
+					NOT = {
+						 OR = {
+							trait = charitable
+							trait = charitable_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = kind
+							trait = kind_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = humble
+							trait = humble_hidden
+						} 
+					}
 				}
 				hidden_tooltip = {
 					opinion = {
@@ -3418,7 +4083,12 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_SoA_5400
 		if = {
-			limit = { NOT = { trait = cruel } }
+			limit = {
+				 NOT = { OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} } 
+			}
 			add_trait = cruel
 		}
 		wealth = 30
@@ -3456,7 +4126,12 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_SoA_5400
 		if = {
-			limit = { NOT = { trait = kind } }
+			limit = {
+				 NOT = { OR = {
+					trait = kind
+					trait = kind_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = kind
@@ -3718,7 +4393,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = sympathy_christendom
+		OR = {
+			trait = sympathy_christendom
+			trait = sympathy_christendom_hidden
+		}
 		any_realm_character = {
 			religion_group = christian
 			NOT = { is_friend = ROOT }
@@ -3753,7 +4431,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = sympathy_islam
+		OR = {
+			trait = sympathy_islam
+			trait = sympathy_islam_hidden
+		}
 		any_realm_character = {
 			religion_group = muslim
 			NOT = { is_friend = ROOT }
@@ -3788,7 +4469,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = sympathy_pagans
+		OR = {
+			trait = sympathy_pagans
+			trait = sympathy_pagans_hidden
+		}
 		any_realm_character = {
 			religion_group = pagan_group
 			NOT = { is_friend = ROOT	}
@@ -3823,7 +4507,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = sympathy_zoroastrianism
+		OR = {
+			trait = sympathy_zoroastrianism
+			trait = sympathy_zoroastrianism_hidden
+		}
 		any_realm_character = {
 			religion_group = zoroastrian_group
 			NOT = { is_friend = ROOT	}
@@ -3858,7 +4545,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = sympathy_judaism
+		OR = {
+			trait = sympathy_judaism
+			trait = sympathy_judaism_hidden
+		}
 		any_realm_character = {
 			religion_group = jewish_group
 			NOT = { is_friend = ROOT	}
@@ -3893,8 +4583,14 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = zealous
-		trait = wroth
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
+		OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
 		NOT = { diplomacy = 5 }
 		any_realm_character = {
 			NOT = { religion_group = ROOT }
@@ -3934,7 +4630,12 @@ character_event = {
 
 	trigger = {
 		religion_group = muslim
-		NOT = { trait = zealous }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -3944,11 +4645,21 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5425
 		if = {
-			limit = { NOT = { trait = sympathy_judaism } }
+			limit = {
+				 NOT = { OR = {
+					trait = sympathy_judaism
+					trait = sympathy_judaism_hidden
+				} } 
+			}
 				add_trait = sympathy_judaism
 		}
 		if = {
-			limit = { NOT = { trait = sympathy_christendom } }
+			limit = {
+				 NOT = { OR = {
+					trait = sympathy_christendom
+					trait = sympathy_christendom_hidden
+				} } 
+			}
 				add_trait = sympathy_christendom
 		}
 	}

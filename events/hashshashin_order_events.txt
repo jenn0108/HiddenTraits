@@ -860,27 +860,45 @@ character_event = {
 		months = 5500
 		modifier = {
 			factor = 0.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0

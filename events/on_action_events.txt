@@ -244,8 +244,18 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = wounded }
-		NOT = { trait = maimed }
+		NOT = {
+			 OR = {
+				trait = wounded
+				trait = wounded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = maimed
+				trait = maimed_hidden
+			} 
+		}
 	}
 	
 	immediate = {
@@ -283,14 +293,22 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = maimed }
+		NOT = {
+			 OR = {
+				trait = maimed
+				trait = maimed_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 3
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 	}
 	
@@ -430,8 +448,18 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = wounded }
-		NOT = { trait = maimed }
+		NOT = {
+			 OR = {
+				trait = wounded
+				trait = wounded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = maimed
+				trait = maimed_hidden
+			} 
+		}
 	}
 	
 	immediate = {
@@ -536,14 +564,22 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = maimed }
+		NOT = {
+			 OR = {
+				trait = maimed
+				trait = maimed_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 3
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 	}
 	
@@ -1038,7 +1074,10 @@ character_event = {
 			factor = 5
 			modifier = {
 				factor = 100
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 		}
 		any_realm_character = { 
@@ -1139,7 +1178,10 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 100
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 		}
 		reverse_opinion = {
@@ -1225,15 +1267,30 @@ character_event = {
 	option = {
 		name = "EVTOPTA40026"
 		if = {
-			limit = { trait = kind }
+			limit = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 			remove_trait = kind
 		}
 		if = {
-			limit = { trait = just }
+			limit = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 			remove_trait = just
 		}
 		if = {
-			limit = { trait = honest }
+			limit = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				} 
+			}
 			remove_trait = honest
 		}
 		prestige = -100
@@ -3596,7 +3653,10 @@ narrative_event = {
 			}
 			modifier = {
 				factor = 5
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 10
@@ -3604,11 +3664,17 @@ narrative_event = {
 			}
 			modifier = {
 				factor = 0.1
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 		}
 		

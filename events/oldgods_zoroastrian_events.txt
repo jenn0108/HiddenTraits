@@ -48,12 +48,37 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_global_flag = saoshyant_appears
 		OR = {
-			mother = { trait = saoshyant }
-			father = { trait = saoshyant }
-			mother = { trait = saoshyant_descendant }
-			father = { trait = saoshyant_descendant } 
+			mother = {
+				 OR = {
+					trait = saoshyant
+					trait = saoshyant_hidden
+				} 
+			}
+			father = {
+				 OR = {
+					trait = saoshyant
+					trait = saoshyant_hidden
+				} 
+			}
+			mother = {
+				 OR = {
+					trait = saoshyant_descendant
+					trait = saoshyant_descendant_hidden
+				} 
+			}
+			father = { 
+				 OR = {
+					trait = saoshyant_descendant
+					trait = saoshyant_descendant_hidden
+				} 
+			}
 		}
-		NOT = { trait = saoshyant_descendant }
+		NOT = {
+			 OR = {
+				trait = saoshyant_descendant
+				trait = saoshyant_descendant_hidden
+			} 
+		}
 	}
 	
 	mean_time_to_happen = {

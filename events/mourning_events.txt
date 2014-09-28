@@ -24,14 +24,29 @@ character_event = {
 			is_ruler = yes
 			opinion = { who = ROOT value = 50 }
 			OR = {
-				trait = kind
-				trait = charitable
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			NOT = { 
 				OR = {
-					trait = kinslayer 
-					trait = celibate
-					trait = depressed
+					OR = {
+						trait = kinslayer
+						trait = kinslayer_hidden
+					} 
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
+					OR = {
+						trait = depressed
+						trait = depressed_hidden
+					}
 				}
 			}
 		}
@@ -101,7 +116,12 @@ character_event = {
 		father = {
 			is_alive = yes
 			is_ruler = yes
-			NOT = { trait = stressed }
+			NOT = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 		}
 		any_sibling = {
 			is_female = no
@@ -195,7 +215,12 @@ character_event = {
 					in_command = no
 					prisoner = no
 					age = 14
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value = 50 }
 					NOT = {
@@ -227,7 +252,12 @@ character_event = {
 				in_command = no
 				prisoner = no
 				age = 14
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				NOT = { character = ROOT }
 				NOT = {
 					is_liege_of = ROOT
@@ -303,7 +333,12 @@ character_event = {
 				NOT = { character = FROM }
 				prisoner = no
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			reverse_opinion = {
 				modifier = suspect_of_murder
@@ -334,7 +369,12 @@ character_event = {
 				NOT = { character = FROM }
 				prisoner = no
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			imprison = ROOT
 		}
@@ -360,7 +400,12 @@ character_event = {
 				NOT = { character = FROM }
 				prisoner = no
 				age = 16
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			set_character_flag = murder_suspect
 		}

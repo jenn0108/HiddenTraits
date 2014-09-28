@@ -26,8 +26,18 @@ character_event = {
 
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = temperate }
-		NOT = { trait = gluttonous }
+		NOT = {
+			 OR = {
+				trait = temperate
+				trait = temperate_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -35,66 +45,114 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}
 	}
@@ -149,8 +207,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = temperate }
-		NOT = { trait = gluttonous }
+		NOT = {
+			 OR = {
+				trait = temperate
+				trait = temperate_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -158,67 +226,115 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}		
 
@@ -274,8 +390,18 @@ character_event = {
 
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = charitable }
-		NOT = { trait = greedy }
+		NOT = {
+			 OR = {
+				trait = charitable
+				trait = charitable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = greedy
+				trait = greedy_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -283,70 +409,121 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -401,8 +578,18 @@ character_event = {
 
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = charitable }
-		NOT = { trait = greedy }
+		NOT = {
+			 OR = {
+				trait = charitable
+				trait = charitable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = greedy
+				trait = greedy_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -410,70 +597,121 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -529,8 +767,18 @@ character_event = {
 	trigger = {
 		religion_group = christian
 		NOT = { personality_traits = 5 }
-		NOT = { trait = diligent }
-		NOT = { trait = slothful }
+		NOT = {
+			 OR = {
+				trait = diligent
+				trait = diligent_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = slothful
+				trait = slothful_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -538,70 +786,121 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}
 	}
@@ -657,8 +956,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = diligent }
-		NOT = { trait = slothful }
+		NOT = {
+			 OR = {
+				trait = diligent
+				trait = diligent_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = slothful
+				trait = slothful_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -666,71 +975,122 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -785,8 +1145,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = kind }
-		NOT = { trait = envious }
+		NOT = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = envious
+				trait = envious_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -794,78 +1164,135 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -926,8 +1353,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = kind }
-		NOT = { trait = envious }
+		NOT = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = envious
+				trait = envious_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -935,78 +1372,135 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -1061,72 +1555,127 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = wroth }
-		NOT = { trait = patient }
+		NOT = {
+			 OR = {
+				trait = wroth
+				trait = wroth_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = patient
+				trait = patient_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 2.0
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.2
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.75
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.15
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.5
 		}
 	}
@@ -1181,71 +1730,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = wroth }
-		NOT = { trait = patient }
+		NOT = {
+			 OR = {
+				trait = wroth
+				trait = wroth_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = patient
+				trait = patient_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -1300,8 +1904,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = proud }
-		NOT = { trait = humble }
+		NOT = {
+			 OR = {
+				trait = proud
+				trait = proud_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -1309,63 +1923,108 @@ character_event = {
 		days = 1
 
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.1
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 5.0
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.5
 		}
 	}
@@ -1420,71 +2079,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = proud }
-		NOT = { trait = humble }
+		NOT = {
+			 OR = {
+				trait = proud
+				trait = proud_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.5
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.25
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.01
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.5
 		}
 	}
@@ -1541,71 +2255,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = honest }
-		NOT = { trait = deceitful }
+		NOT = {
+			 OR = {
+				trait = honest
+				trait = honest_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -1666,71 +2435,126 @@ character_event = {
 			religion_group = indian_group
 		}
 		NOT = { personality_traits = 5 }
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -1783,71 +2607,126 @@ character_event = {
 	trigger = {
 		religion_group = muslim
 		NOT = { personality_traits = 5 }
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -1882,71 +2761,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = honest }
-		NOT = { trait = deceitful }
+		NOT = {
+			 OR = {
+				trait = honest
+				trait = honest_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -2001,71 +2935,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = craven }
-		NOT = { trait = brave }
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = brave
+				trait = brave_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}
 	}
@@ -2120,72 +3109,127 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = craven }
-		NOT = { trait = brave }
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = brave
+				trait = brave_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -2240,71 +3284,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = shy }
-		NOT = { trait = gregarious }
+		NOT = {
+			 OR = {
+				trait = shy
+				trait = shy_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}
 	}
@@ -2359,72 +3458,127 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = shy }
-		NOT = { trait = gregarious }
+		NOT = {
+			 OR = {
+				trait = shy
+				trait = shy_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 5.0
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -2479,8 +3633,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = content }
-		NOT = { trait = ambitious }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -2488,18 +3652,30 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -2554,8 +3730,18 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = content }
-		NOT = { trait = ambitious }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
@@ -2563,18 +3749,30 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 0.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 			modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}
 	}
@@ -2629,71 +3827,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = just }
-		NOT = { trait = arbitrary }
+		NOT = {
+			 OR = {
+				trait = just
+				trait = just_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -2748,71 +4001,126 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = just }
-		NOT = { trait = arbitrary }
+		NOT = {
+			 OR = {
+				trait = just
+				trait = just_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -2870,71 +4178,126 @@ character_event = {
 			religion_group = muslim
 		}
 		NOT = { personality_traits = 5 }
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -2987,71 +4350,126 @@ character_event = {
 	trigger = {
 		religion_group = muslim
 		NOT = { personality_traits = 5 }
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -3107,72 +4525,127 @@ character_event = {
 	
 	trigger = {
 		NOT = { personality_traits = 5 }
-		NOT = { trait = kind }
-		NOT = { trait = cruel }
+		NOT = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cruel
+				trait = cruel_hidden
+			} 
+		}
 		has_guardian = yes
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -3232,16 +4705,28 @@ character_event = {
 		is_married = no
 		has_guardian = yes
 		NOT = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 	}
 
@@ -3252,22 +4737,34 @@ character_event = {
 		modifier = {
 			factor = 0.75
 			martial = 10
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.75
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 			learning = 10
 		}
 		
 		modifier = {
 			factor = 0.75
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 			any_courtier = {
 				age = 12
 				not = { age = 18 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				reverse_opinion = { who = ROOT value = 25 }
 			}		
 		} 
@@ -3276,10 +4773,16 @@ character_event = {
 			factor = 0.9
 			OR = {
 				guardian = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				father = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 		}
@@ -3306,7 +4809,10 @@ character_event = {
 		is_married = no
 		has_guardian = yes
 		num_traits = 4
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		NOT = {
 			religion_group = muslim
 		}
@@ -3317,7 +4823,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.1
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -3344,7 +4853,10 @@ character_event = {
 		is_married = no
 		has_guardian = yes
 		num_traits = 4
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		OR = {
 			religion_group = muslim
 			religion_group = indian_group
@@ -3356,7 +4868,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.1
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -3384,16 +4899,28 @@ character_event = {
 		is_married = no
 		has_guardian = yes
 		NOT = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}		
 	}
 
@@ -3402,12 +4929,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -3431,7 +4964,10 @@ character_event = {
 		is_married = no
 		has_guardian = yes
 		num_traits = 4
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		NOT = {
 			religion_group = muslim
 		}
@@ -3441,7 +4977,10 @@ character_event = {
 		months = 480
 		modifier = {
 			factor = 0.1
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -3503,7 +5042,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = stutter }
+		NOT = {
+			 OR = {
+				trait = stutter
+				trait = stutter_hidden
+			} 
+		}
 		father = { is_alive = yes }
 		NOT = { personality_traits = 5 }
 
@@ -3512,59 +5056,101 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}		
 	
@@ -3594,7 +5180,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = trusting }
+		NOT = {
+			 OR = {
+				trait = trusting
+				trait = trusting_hidden
+			} 
+		}
 		father = { is_alive = yes }
 		NOT = { personality_traits = 5 }
 	
@@ -3603,63 +5194,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -3688,7 +5324,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = trusting }
+		NOT = {
+			 OR = {
+				trait = trusting
+				trait = trusting_hidden
+			} 
+		}
 		father = { is_alive = yes }
 		NOT = { personality_traits = 5 }
 	}
@@ -3696,63 +5337,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -3781,7 +5467,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = wroth }
+		NOT = {
+			 OR = {
+				trait = wroth
+				trait = wroth_hidden
+			} 
+		}
 		father = { is_alive = yes }
 		NOT = { personality_traits = 5 }
 	}
@@ -3789,64 +5480,109 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -3875,7 +5611,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = greedy }
+		NOT = {
+			 OR = {
+				trait = greedy
+				trait = greedy_hidden
+			} 
+		}
 		father = { is_alive = yes }
 		NOT = { personality_traits = 5 }
 	}
@@ -3883,63 +5624,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -3972,7 +5758,12 @@ character_event = {
 		NOT = { is_abroad = yes }
 		father = { is_alive = yes }
 		mother = { is_alive = no }
-		NOT = { trait = bastard }
+		NOT = {
+			 OR = {
+				trait = bastard
+				trait = bastard_hidden
+			} 
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
@@ -3980,63 +5771,108 @@ character_event = {
 		days = 1
 
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -4066,7 +5902,12 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { trait = gregarious }
+		NOT = {
+			 OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			} 
+		}
 		has_guardian = yes
 		NOT = { personality_traits = 5 }
 	}
@@ -4075,62 +5916,107 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 3
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 		}
 	modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}		
 	}
@@ -4170,64 +6056,109 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -4259,8 +6190,18 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		religion_group = christian
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
@@ -4294,71 +6235,121 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		NOT = { trait = craven }
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -4390,71 +6381,126 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		religion_group = christian
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -4491,63 +6537,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -4585,63 +6676,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -4672,8 +6808,18 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		NOT = { trait = lustful }
-		NOT = { trait = chaste }
+		NOT = {
+			 OR = {
+				trait = lustful
+				trait = lustful_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = chaste
+				trait = chaste_hidden
+			} 
+		}
 		NOT = { personality_traits = 5 }
 	}
 	
@@ -4681,7 +6827,10 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 	
@@ -4712,7 +6861,12 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		religion = catholic
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		guardian = {
 			religion = catholic
 			OR = {
@@ -4727,63 +6881,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -4815,72 +7014,137 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		religion_group = christian
-		NOT = { trait = zealous }
-		NOT = { trait = cynical }
-		NOT = { trait = charitable }
-		NOT = { trait = greedy }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = charitable
+				trait = charitable_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = greedy
+				trait = greedy_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -4911,70 +7175,125 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		NOT = {	guardian = { trait = cruel } }
-		NOT = {	guardian = { trait = arbitrary } }
+		NOT = {
+				guardian = { OR = {
+				trait = cruel
+				trait = cruel_hidden
+			} } 
+		}
+		NOT = {
+				guardian = { OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			} } 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -5005,69 +7324,119 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		NOT = {	trait = kind }
+		NOT = {
+				OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}		
 
@@ -5100,69 +7469,119 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		learning = 4
-		NOT = { trait = diligent }
+		NOT = {
+			 OR = {
+				trait = diligent
+				trait = diligent_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -5194,73 +7613,138 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = { religion_group = indian_group }
-		NOT = { trait = lustful }
-		NOT = { trait = chaste }
-		NOT = { trait = temperate }
-		NOT = { trait = gluttonous }
+		NOT = {
+			 OR = {
+				trait = lustful
+				trait = lustful_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = chaste
+				trait = chaste_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = temperate
+				trait = temperate_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -5296,73 +7780,143 @@ character_event = {
 			religion_group = muslim
 			religion_group = jewish_group
 		}
-		NOT = { trait = cynical }
-		NOT = { trait = craven }
-		NOT = { trait = brave }
-		NOT = { trait = just }
-		NOT = { trait = arbitrary }
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = brave
+				trait = brave_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = just
+				trait = just_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			} 
+		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -5395,16 +7949,28 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		NOT = {
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 		NOT = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		NOT = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 	}
 	
@@ -5415,64 +7981,109 @@ character_event = {
 			factor = 3
 		}
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}	
 	}
@@ -5510,63 +8121,108 @@ character_event = {
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}	
 	}
@@ -5596,80 +8252,137 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		NOT = {
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		NOT = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}		
 	
@@ -5704,79 +8417,136 @@ character_event = {
 			martial = 5
 		}
 		NOT = {
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		NOT = {
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
 		}
 		NOT = {
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.1
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 10
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.1
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 2.0
 		}
 	}
@@ -5805,23 +8575,41 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		trait = ugly
+		OR = {
+			trait = ugly
+			trait = ugly_hidden
+		}
 		guardian = {
 			any_courtier = {
-				trait = fair
+				OR = {
+					trait = fair
+					trait = fair_hidden
+				}
 			}
 		}
 		NOT = {
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		NOT = {
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		NOT = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		NOT = {
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -5854,16 +8642,28 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = {
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		NOT = {
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 	
@@ -5907,76 +8707,130 @@ character_event = {
 			}
 		}
 		NOT = {
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		NOT = {
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		NOT = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 2.0
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.05
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.75
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.2
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.25
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 1.25
 		}
 	}
@@ -6016,74 +8870,125 @@ character_event = {
 			}
 		}
 		NOT = {
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}	
 	}
@@ -6124,77 +9029,131 @@ character_event = {
 			}
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		NOT = {
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		NOT = {
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}	
 	}
@@ -6224,88 +9183,157 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		OR = {
-			trait = kind
-			trait = gregarious 
-			trait = trusting
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			} 
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		NOT = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		NOT = {
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}	
 	}
@@ -6337,79 +9365,136 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		NOT = {
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		NOT = {
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.10
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 1.2
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 0.95
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 1.2
 		}
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 1.5
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 5.0
 		}
 	}
@@ -6439,86 +9524,149 @@ character_event = {
 	trigger = {
 		has_guardian = yes
 		NOT = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		NOT = {
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		NOT = {
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		NOT = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}
@@ -6547,7 +9695,10 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		trait = ill
+		OR = {
+			trait = ill
+			trait = ill_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -6578,7 +9729,10 @@ character_event = {
 	
 	trigger = {
 		has_guardian = yes
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 	}
 	
 	weight_multiplier = {
@@ -6620,74 +9774,125 @@ character_event = {
 			}
 		}
 		NOT = {
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 	}
 	
 	weight_multiplier = {
 		days = 1
 		modifier = {
-			trait = clubfooted
+			OR = {
+				trait = clubfooted
+				trait = clubfooted_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = harelip
+			OR = {
+				trait = harelip
+				trait = harelip_hidden
+			}
 			factor = 0.9
 		}
 		modifier = {
-			trait = hunchback
+			OR = {
+				trait = hunchback
+				trait = hunchback_hidden
+			}
 			factor = 0.7
 		}
 		modifier = {
-			trait = lisp
+			OR = {
+				trait = lisp
+				trait = lisp_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = stutter
+			OR = {
+				trait = stutter
+				trait = stutter_hidden
+			}
 			factor = 0.95
 		}
 		modifier = {
-			trait = fair
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 			factor = 0.8
 		}
 		modifier = {
-			trait = ugly
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 			factor = 1.25
 		}
 		modifier = {
-			trait = dwarf
+			OR = {
+				trait = dwarf
+				trait = dwarf_hidden
+			}
 			factor = 0.9
 		}		
 		modifier = {
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			factor = 1.05
 		}
 		modifier = {
-			trait = quick
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
 			factor = 1.05
 		}	
 		modifier = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 			factor = 0.95
 		}
 		
 		modifier = {
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 			factor = 0.5
 		}
 		modifier = {
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
 			factor = 0.05
 		}
 		modifier = {
-			trait = strong
+			OR = {
+				trait = strong
+				trait = strong_hidden
+			}
 			factor = 5.0
 		}
 		modifier = {
-			trait = weak
+			OR = {
+				trait = weak
+				trait = weak_hidden
+			}
 			factor = 0.05
 		}
 	}

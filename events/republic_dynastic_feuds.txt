@@ -31,7 +31,12 @@ character_event = {
 				age = 16
 				in_command = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				NOT = { reverse_opinion = { who = ROOT value = 0 } }
 				NOT = { has_dynasty_flag = the_victims }
 				NOT = { has_character_flag = the_grand_ball }
@@ -44,7 +49,12 @@ character_event = {
 					in_command = no
 					prisoner = no
 					NOT = { reverse_opinion = { who = ROOT value = 0 } }
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					NOT = { has_dynasty_flag = the_victims }
 					NOT = { has_character_flag = the_grand_ball }
 				}
@@ -174,8 +184,14 @@ character_event = {
 				in_command = no
 				prisoner = no
 				NOT = { 
-					trait = incapable
-					trait = infirm
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
 				}
 			}
 			liege = {
@@ -186,8 +202,14 @@ character_event = {
 					in_command = no
 					prisoner = no
 					NOT = { 
-						trait = incapable
-						trait = infirm
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
+						OR = {
+							trait = infirm
+							trait = infirm_hidden
+						}
 					}
 				}
 			}
@@ -450,8 +472,14 @@ character_event = {
 					NOT = { character = ROOT }
 				}
 				NOT = { 
-					trait = incapable
-					trait = infirm
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
 				}
 			}
 			liege = {
@@ -465,8 +493,14 @@ character_event = {
 					in_command = no
 					prisoner = no
 					NOT = { 
-						trait = incapable
-						trait = infirm
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
+						OR = {
+							trait = infirm
+							trait = infirm_hidden
+						}
 					}
 				}
 			}
@@ -678,15 +712,32 @@ character_event = {
 			is_patrician = yes
 			prisoner = no
 			in_command = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		age = 15
 		NOT = { 
 			age = 30 
-			trait = homosexual
-			trait = infirm
-			trait = incapable
-			trait = eunuch
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			}
 		}
 		father = {
 			OR = {
@@ -699,7 +750,10 @@ character_event = {
 					in_command = no
 					prisoner = no
 					NOT = { 
-						trait = incapable
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
 					}
 					any_child = {
 						is_female = yes
@@ -708,9 +762,18 @@ character_event = {
 						NOT = { age = 30 }
 						prisoner = no
 						NOT = { 
-							trait = incapable
-							trait = infirm
-							trait = homosexual
+							OR = {
+								trait = incapable
+								trait = incapable_hidden
+							}
+							OR = {
+								trait = infirm
+								trait = infirm_hidden
+							}
+							OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							}
 						}
 					}
 				}
@@ -723,7 +786,12 @@ character_event = {
 						NOT = { has_dynasty_flag = romeo_juliet_feud }
 						prisoner = no
 						in_command = no
-						NOT = { trait = incapable }
+						NOT = {
+							 OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+						}
 						any_child = {
 							is_female = yes
 							is_married = no
@@ -731,9 +799,18 @@ character_event = {
 							NOT = { age = 30 }
 							prisoner = no
 							NOT = { 
-								trait = incapable
-								trait = infirm
-								trait = homosexual
+								OR = {
+									trait = incapable
+									trait = incapable_hidden
+								}
+								OR = {
+									trait = infirm
+									trait = infirm_hidden
+								}
+								OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								}
 							}
 						}
 					}
@@ -776,7 +853,12 @@ character_event = {
 							has_dynasty_flag = feud_phase_two
 							prisoner = no
 							in_command = no
-							NOT = { trait = incapable }
+							NOT = {
+								 OR = {
+									trait = incapable
+									trait = incapable_hidden
+								} 
+							}
 						}
 						narrative_event = { id = REP.161 }
 					}
@@ -827,9 +909,18 @@ narrative_event = {
 				NOT = { age = 30 }
 				prisoner = no
 				NOT = { 
-					trait = incapable
-					trait = infirm
-					trait = homosexual
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 			set_character_flag = julia
@@ -856,9 +947,18 @@ narrative_event = {
 				NOT = { age = 30 }
 				prisoner = no
 				NOT = { 
-					trait = incapable
-					trait = infirm
-					trait = homosexual
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 			}
 			set_character_flag = julia
@@ -887,13 +987,24 @@ character_event = {
 			is_patrician = yes
 			prisoner = no
 			in_command = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		age = 15
 		NOT = { 
 			age = 30 
-			trait = homosexual
-			trait = incapable
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		father = {
 			OR = {
@@ -904,16 +1015,33 @@ character_event = {
 					NOT = { has_dynasty_flag = romeo_juliet_feud }
 					prisoner = no
 					in_command = no
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					any_child = {
 						age = 15
 						is_female = no
 						NOT = { 
 							age = 30 
-							trait = homosexual
-							trait = infirm
-							trait = incapable
-							trait = eunuch
+							OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							}
+							OR = {
+								trait = infirm
+								trait = infirm_hidden
+							}
+							OR = {
+								trait = incapable
+								trait = incapable_hidden
+							}
+							OR = {
+								trait = eunuch
+								trait = eunuch_hidden
+							}
 						}
 						prisoner = no
 						is_married = no
@@ -929,16 +1057,33 @@ character_event = {
 						NOT = { has_dynasty_flag = romeo_juliet_feud }
 						prisoner = no
 						in_command = no
-						NOT = { trait = incapable }
+						NOT = {
+							 OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+						}
 						any_child = {
 							age = 15
 							is_female = no
 							NOT = { 
 								age = 30 
-								trait = homosexual
-								trait = infirm
-								trait = incapable
-								trait = eunuch
+								OR = {
+									trait = homosexual
+									trait = homosexual_hidden
+								}
+								OR = {
+									trait = infirm
+									trait = infirm_hidden
+								}
+								OR = {
+									trait = incapable
+									trait = incapable_hidden
+								}
+								OR = {
+									trait = eunuch
+									trait = eunuch_hidden
+								}
 							}
 							prisoner = no
 							is_married = no
@@ -1030,10 +1175,22 @@ narrative_event = {
 				is_female = no
 				NOT = { 
 					age = 30 
-					trait = homosexual
-					trait = infirm
-					trait = incapable
-					trait = eunuch
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					}
 				}
 				is_married = no
 				prisoner = no
@@ -1061,10 +1218,22 @@ narrative_event = {
 				is_female = no
 				NOT = { 
 					age = 30 
-					trait = homosexual
-					trait = infirm
-					trait = incapable
-					trait = eunuch
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					}
 				}
 				is_married = no
 				prisoner = no
@@ -1319,7 +1488,12 @@ character_event = {
 				ai = no
 				in_command = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				has_dynasty_flag = the_victims
 				NOT = { has_dynasty_flag = smugglers_feud }
 				any_child = {
@@ -1330,10 +1504,22 @@ character_event = {
 					in_command = no
 					prisoner = no
 					NOT = { 
-						trait = incapable 
-						trait = infirm
-						trait = blinded
-						trait = craven
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+						OR = {
+							trait = infirm
+							trait = infirm_hidden
+						}
+						OR = {
+							trait = blinded
+							trait = blinded_hidden
+						}
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 					}
 				}
 			}
@@ -1351,10 +1537,22 @@ character_event = {
 						in_command = no
 						prisoner = no
 						NOT = { 
-							trait = incapable 
-							trait = infirm
-							trait = blinded
-							trait = craven
+							OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+							OR = {
+								trait = infirm
+								trait = infirm_hidden
+							}
+							OR = {
+								trait = blinded
+								trait = blinded_hidden
+							}
+							OR = {
+								trait = craven
+								trait = craven_hidden
+							}
 						}
 					}
 				}
@@ -1384,9 +1582,18 @@ character_event = {
 						in_command = no
 						prisoner = no
 						NOT = { 
-							trait = incapable 
-							trait = infirm
-							trait = blinded
+							OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+							OR = {
+								trait = infirm
+								trait = infirm_hidden
+							}
+							OR = {
+								trait = blinded
+								trait = blinded_hidden
+							}
 						}
 					}
 					character_event = { id = REP.181 }
@@ -1419,9 +1626,18 @@ character_event = {
 							in_command = no
 							prisoner = no
 							NOT = { 
-								trait = incapable 
-								trait = infirm
-								trait = blinded
+								OR = {
+									trait = incapable
+									trait = incapable_hidden
+								} 
+								OR = {
+									trait = infirm
+									trait = infirm_hidden
+								}
+								OR = {
+									trait = blinded
+									trait = blinded_hidden
+								}
 							}
 						}
 						character_event = { id = REP.181 }
@@ -1611,8 +1827,14 @@ character_event = {
 		age = 16
 		in_command = no
 		NOT = {
-			trait = infirm
-			trait = blinded
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			OR = {
+				trait = blinded
+				trait = blinded_hidden
+			}
 		}
 		has_dynasty_flag = the_feuders
 		liege = { is_merchant_republic = yes }
@@ -1624,9 +1846,18 @@ character_event = {
 				prisoner = no
 				is_patrician = yes
 				NOT = { 
-					trait = incapable 
-					trait = infirm
-					trait = blinded
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
+					OR = {
+						trait = blinded
+						trait = blinded_hidden
+					}
 				}
 				has_dynasty_flag = the_victims
 				has_dynasty_flag = feud_phase_two
@@ -1640,9 +1871,18 @@ character_event = {
 					in_command = no
 					prisoner = no
 					NOT = { 
-						trait = incapable 
-						trait = infirm
-						trait = blinded
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+						OR = {
+							trait = infirm
+							trait = infirm_hidden
+						}
+						OR = {
+							trait = blinded
+							trait = blinded_hidden
+						}
 					}
 					has_dynasty_flag = the_victims
 					has_dynasty_flag = feud_phase_two
@@ -1915,7 +2155,12 @@ character_event = {
 			is_patrician = yes
 			age = 16
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 	}
 	

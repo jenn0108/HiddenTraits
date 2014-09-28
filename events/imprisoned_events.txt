@@ -19,7 +19,12 @@ character_event = {
 	prisoner = yes
 	
 	trigger = {
-		NOT = { trait = craven }
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		NOT = { religion_group = muslim }
 		has_character_modifier = house_arrest
 	}
@@ -29,15 +34,24 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
@@ -61,18 +75,29 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
 	option = {
 		name = "EVTOPTA50000"
 		trigger = {
-			NOT = { trait = brave }
+			NOT = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				} 
+			}
 		}
 		add_trait = craven
 	}
@@ -181,19 +206,31 @@ character_event = {
 			factor = 20
 			modifier = {
 				factor = 0
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		
@@ -276,11 +313,17 @@ character_event = {
 		months = 12
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -332,15 +375,24 @@ character_event = {
 			factor = 33 
 			modifier = {
 				factor = 0
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 		}
 		tooltip = {
@@ -371,23 +423,38 @@ character_event = {
 			factor = 33 
 			modifier = {
 				factor = 0
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		
@@ -489,17 +556,51 @@ character_event = {
 	capable_only = yes
 	
 	trigger = {
-		NOT = { trait = kind }
-		NOT = { trait = just }
+		NOT = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = just
+				trait = just_hidden
+			} 
+		}
 		OR = {
-			trait = envious
-			trait = wroth
-			trait = arbitrary
-			trait = lunatic
-			trait = possessed
-			trait = paranoid
-			trait = impaler
-			trait = cruel
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		any_courtier = {
 			age = 14
@@ -513,23 +614,38 @@ character_event = {
 		months = 240
 		modifier = {
 			factor = 0.25
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	

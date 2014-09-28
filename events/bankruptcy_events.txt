@@ -111,9 +111,18 @@ character_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = wroth
-				trait = lunatic
-				trait = possessed
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -381,7 +390,12 @@ character_event = {
 		religion = catholic
 		NOT = { wealth = -50 }
 		NOT = { has_character_flag = stolen_church_properties }
-		NOT = { trait = zealous }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
 		any_vassal = {
 			is_theocracy = yes
 		}
@@ -406,7 +420,12 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT = { trait = cynical }
+				NOT = {
+					 OR = {
+						trait = cynical
+						trait = cynical_hidden
+					} 
+				}
 			}
 		}
 		random_vassal = {
@@ -450,7 +469,12 @@ character_event = {
 		name = EVTOPTD38020 # Never ! I will save my Christian soul !
 		piety = 50
 		if = {
-			limit = { 	NOT = { trait = zealous } }
+			limit = {
+				 	NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			change_stewardship = -1
 			add_trait = zealous
 		}
@@ -486,7 +510,10 @@ character_event = {
 			}
 			modifier = {
 				factor = 10
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 100
@@ -501,11 +528,17 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 2
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.5
-				trait = humble
+				OR = {
+					trait = humble
+					trait = humble_hidden
+				}
 			}
 			modifier = {
 				factor = 0

@@ -33,7 +33,10 @@ character_event = {
 	trigger = {
 		has_job_action = action_advance_mil_tech
 		NOT = {
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		location = {
 			owner = {
@@ -167,7 +170,10 @@ character_event = {
 				NOT = { is_liege_of = ROOT }
 				martial = 8
 				OR = {
-					trait = gregarious
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 					diplomacy = 7
 				}
 				opinion = { who = ROOT value = 30 }
@@ -220,7 +226,10 @@ character_event = {
 					NOT = { is_liege_of = ROOT }
 					martial = 8
 					OR = {
-						trait = gregarious
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
 						diplomacy = 7
 					}
 					opinion = { who = ROOT value = 30 }
@@ -428,8 +437,14 @@ character_event = {
 				}
 				independent = no
 				OR = {
-					trait = ambitious
-					trait = deceitful
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			NOT = { has_province_modifier = levy_reinforcements }
@@ -481,8 +496,14 @@ character_event = {
 					NOT = { is_liege_of = ROOT }
 					independent = no
 					OR = {
-						trait = ambitious
-						trait = deceitful
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
 					}
 				}
 				character_event = { id = 20420 days = 7 tooltip = "EVTTOOLTIP20420" }

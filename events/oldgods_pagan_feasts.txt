@@ -29,7 +29,12 @@ character_event = {
 				age = 16
 				prisoner = no
 				war = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			character_event = { id = TOG.701 tooltip = EVTTOOLTIP_TOG_701 }
 		}
@@ -263,7 +268,10 @@ character_event = {
 			has_character_flag = holding_ukon_juhla
 			NOT = { has_character_flag = feast_drunkard }
 		}
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -315,14 +323,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = drunkard } }
+					limit = {
+						 NOT = { OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = drunkard }
+					limit = {
+						 OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_drinking_buddy
 						who = ROOT
@@ -332,7 +350,12 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = drunkard }
+						NOT = {
+							 OR = {
+								trait = drunkard
+								trait = drunkard_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -343,7 +366,10 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						trait = drunkard
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_drinking_buddy
@@ -367,7 +393,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_651
 		trigger = { 
-			NOT = { trait = drunkard } 
+			NOT = { 
+				 OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -378,7 +409,10 @@ character_event = {
 		name = EVTOPTB_TOG_651
 		tooltip_info = drunkard
 		trigger = { 
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_drinking_buddy
@@ -401,7 +435,10 @@ character_event = {
 			any_vassal = {
 				has_character_flag = ukon_juhla_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 				NOT = { character = ROOT }
 			}
 		}
@@ -442,7 +479,10 @@ character_event = {
 			random_vassal = {
 				limit = {
 					has_character_flag = ukon_juhla_feast_vassal
-					trait = gluttonous
+					OR = {
+						trait = gluttonous
+						trait = gluttonous_hidden
+					}
 					NOT = { character = ROOT }
 				}
 				character_event = { id = TOG.723 }
@@ -567,7 +607,10 @@ character_event = {
 			has_character_flag = holding_ukon_juhla 
 			NOT = { has_character_flag = feast_lunatic }
 		}
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -619,14 +662,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lunatic } }
+					limit = {
+						 NOT = { OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lunatic }
+					limit = {
+						 OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_feast_friend
 						who = ROOT
@@ -636,7 +689,12 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lunatic }
+						NOT = {
+							 OR = {
+								trait = lunatic
+								trait = lunatic_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -647,7 +705,10 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						trait = lunatic
+						OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_friend
@@ -671,7 +732,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_657
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -682,7 +748,10 @@ character_event = {
 		name = EVTOPTB_TOG_657
 		tooltip_info = lunatic
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_friend
@@ -706,7 +775,10 @@ character_event = {
 			has_character_flag = holding_ukon_juhla 
 			NOT = { has_character_flag = feast_lustful }
 		}
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		is_female = no
 	}
 	
@@ -762,14 +834,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
@@ -779,7 +861,12 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lustful }
+						NOT = {
+							 OR = {
+								trait = lustful
+								trait = lustful_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -790,7 +877,10 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_lustful_buddy
@@ -823,14 +913,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
@@ -840,7 +940,12 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lustful }
+						NOT = {
+							 OR = {
+								trait = lustful
+								trait = lustful_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -851,7 +956,10 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_lustful_buddy
@@ -882,7 +990,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_659
 		trigger = {
-			NOT = { trait = lustful }
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
 			NOT = { any_spouse = { character = FROM } }
 		}
 		opinion = {
@@ -894,7 +1007,10 @@ character_event = {
 		name = EVTOPTB_TOG_659
 		tooltip_info = lustful
 		trigger = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 			NOT = { any_spouse = { character = FROM } }
 		}
 		opinion = {
@@ -1058,7 +1174,10 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = ukon_juhla_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		is_female = no
 		has_lover = no
 		liege = { 
@@ -1069,7 +1188,10 @@ character_event = {
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_female = no
 				has_lover = no
 			}		
@@ -1115,7 +1237,10 @@ character_event = {
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = no
 				}
 				character_event = { id = TOG.734 }
@@ -1206,7 +1331,10 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = ukon_juhla_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		is_female = yes
 		has_lover = no
 		liege = { 
@@ -1217,7 +1345,10 @@ character_event = {
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_female = yes
 				has_lover = no
 			}		
@@ -1263,7 +1394,10 @@ character_event = {
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = yes
 				}
 				character_event = { id = TOG.737 }
@@ -1359,14 +1493,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = homosexual } }
+					limit = {
+						 NOT = { OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = homosexual }
+					limit = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_homosexual_sympathy
 						who = ROOT
@@ -1376,7 +1520,12 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = homosexual }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -1387,7 +1536,10 @@ character_event = {
 					limit = {
 						has_character_flag = ukon_juhla_feast_vassal
 						NOT = { character = ROOT }
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_homosexual_sympathy
@@ -1411,7 +1563,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_670
 		trigger = {
-			NOT = { trait = homosexual }
+			NOT = {
+				 OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -1422,7 +1579,10 @@ character_event = {
 		name = EVTOPTB_TOG_670
 		tooltip_info = homosexual
 		trigger = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_homosexual_sympathy
@@ -1451,7 +1611,12 @@ character_event = {
 				age = 16
 				prisoner = no
 				war = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			character_event = { id = TOG.751 tooltip = EVTTOOLTIP_TOG_751 }
 		}
@@ -1684,7 +1849,10 @@ character_event = {
 			has_character_flag = holding_uzgavenes 
 			NOT = { has_character_flag = feast_drunkard }
 		}
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -1736,14 +1904,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = drunkard } }
+					limit = {
+						 NOT = { OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = drunkard }
+					limit = {
+						 OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_drinking_buddy
 						who = ROOT
@@ -1753,7 +1931,12 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = drunkard }
+						NOT = {
+							 OR = {
+								trait = drunkard
+								trait = drunkard_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -1764,7 +1947,10 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						trait = drunkard
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_drinking_buddy
@@ -1788,7 +1974,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_651
 		trigger = { 
-			NOT = { trait = drunkard } 
+			NOT = { 
+				 OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -1799,7 +1990,10 @@ character_event = {
 		name = EVTOPTB_TOG_651
 		tooltip_info = drunkard
 		trigger = { 
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_drinking_buddy
@@ -1822,7 +2016,10 @@ character_event = {
 			any_vassal = {
 				has_character_flag = uzgavenes_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 				NOT = { character = ROOT }
 			}
 		}
@@ -1863,7 +2060,10 @@ character_event = {
 			random_vassal = {
 				limit = {
 					has_character_flag = uzgavenes_feast_vassal
-					trait = gluttonous
+					OR = {
+						trait = gluttonous
+						trait = gluttonous_hidden
+					}
 					NOT = { character = ROOT }
 				}
 				character_event = { id = TOG.773 }
@@ -1988,7 +2188,10 @@ character_event = {
 			has_character_flag = holding_uzgavenes
 			NOT = { has_character_flag = feast_lunatic }
 		}
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -2040,14 +2243,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lunatic } }
+					limit = {
+						 NOT = { OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lunatic }
+					limit = {
+						 OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_feast_friend
 						who = ROOT
@@ -2057,7 +2270,12 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lunatic }
+						NOT = {
+							 OR = {
+								trait = lunatic
+								trait = lunatic_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -2068,7 +2286,10 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						trait = lunatic
+						OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_friend
@@ -2092,7 +2313,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_657
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -2103,7 +2329,10 @@ character_event = {
 		name = EVTOPTB_TOG_657
 		tooltip_info = lunatic
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_friend
@@ -2127,7 +2356,10 @@ character_event = {
 			has_character_flag = holding_uzgavenes 
 			NOT = { has_character_flag = feast_lustful }
 		}
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		is_female = no
 	}
 	
@@ -2183,14 +2415,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
@@ -2200,7 +2442,12 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lustful }
+						NOT = {
+							 OR = {
+								trait = lustful
+								trait = lustful_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -2211,7 +2458,10 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_lustful_buddy
@@ -2244,14 +2494,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
@@ -2261,7 +2521,12 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lustful }
+						NOT = {
+							 OR = {
+								trait = lustful
+								trait = lustful_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -2272,7 +2537,10 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_lustful_buddy
@@ -2303,7 +2571,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_659
 		trigger = {
-			NOT = { trait = lustful }
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
 			NOT = { any_spouse = { character = FROM } }
 		}
 		opinion = {
@@ -2315,7 +2588,10 @@ character_event = {
 		name = EVTOPTB_TOG_659
 		tooltip_info = lustful
 		trigger = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 			NOT = { any_spouse = { character = FROM } }
 		}
 		opinion = {
@@ -2479,7 +2755,10 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = uzgavenes_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		is_female = no
 		has_lover = no
 		liege = { 
@@ -2490,7 +2769,10 @@ character_event = {
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_female = no
 				has_lover = no
 			}		
@@ -2536,7 +2818,10 @@ character_event = {
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = no
 				}
 				character_event = { id = TOG.784 }
@@ -2627,7 +2912,10 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = uzgavenes_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		is_female = yes
 		has_lover = no
 		liege = { 
@@ -2638,7 +2926,10 @@ character_event = {
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_female = yes
 				has_lover = no
 			}		
@@ -2684,7 +2975,10 @@ character_event = {
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = yes
 				}
 				character_event = { id = TOG.787 }
@@ -2780,14 +3074,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = homosexual } }
+					limit = {
+						 NOT = { OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = homosexual }
+					limit = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_homosexual_sympathy
 						who = ROOT
@@ -2797,7 +3101,12 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = homosexual }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -2808,7 +3117,10 @@ character_event = {
 					limit = {
 						has_character_flag = uzgavenes_feast_vassal
 						NOT = { character = ROOT }
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_homosexual_sympathy
@@ -2832,7 +3144,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_670
 		trigger = {
-			NOT = { trait = homosexual }
+			NOT = {
+				 OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -2843,7 +3160,10 @@ character_event = {
 		name = EVTOPTB_TOG_670
 		tooltip_info = homosexual
 		trigger = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_homosexual_sympathy
@@ -2872,7 +3192,12 @@ character_event = {
 				age = 16
 				prisoner = no
 				war = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			character_event = { id = TOG.801 tooltip = EVTTOOLTIP_TOG_801 }
 		}
@@ -3008,12 +3333,22 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_845
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 		FROM = {
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				opinion = {
 					modifier = opinion_represented_jarilo
@@ -3024,7 +3359,12 @@ character_event = {
 				limit = { 
 					has_character_flag = attending_jarilo 
 					NOT = { character = ROOT }
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				opinion = {
 					modifier = opinion_represented_jarilo
@@ -3049,12 +3389,20 @@ character_event = {
 		name = EVTOPTB_TOG_845
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		FROM = {
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				opinion = {
 					modifier = opinion_represented_jarilo
@@ -3065,7 +3413,12 @@ character_event = {
 				limit = { 
 					has_character_flag = attending_jarilo 
 					NOT = { character = ROOT }
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				opinion = {
 					modifier = opinion_represented_jarilo
@@ -3100,7 +3453,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_846
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 		tooltip = {
 			opinion = {
@@ -3113,7 +3471,10 @@ character_event = {
 		name = EVTOPTB_TOG_846
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 }
@@ -3130,7 +3491,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_846
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 		tooltip = {
 			opinion = {
@@ -3143,7 +3509,10 @@ character_event = {
 		name = EVTOPTB_TOG_846
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 }
@@ -3162,14 +3531,22 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_845
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 	}
 	option = {
 		name = EVTOPTB_TOG_845
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}
 }
@@ -3312,7 +3689,10 @@ character_event = {
 			has_character_flag = holding_jarilo
 			NOT = { has_character_flag = feast_drunkard }
 		}
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -3364,14 +3744,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = drunkard } }
+					limit = {
+						 NOT = { OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = drunkard }
+					limit = {
+						 OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_drinking_buddy
 						who = ROOT
@@ -3381,7 +3771,12 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = drunkard }
+						NOT = {
+							 OR = {
+								trait = drunkard
+								trait = drunkard_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -3392,7 +3787,10 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						trait = drunkard
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_drinking_buddy
@@ -3416,7 +3814,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_651
 		trigger = { 
-			NOT = { trait = drunkard } 
+			NOT = { 
+				 OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -3427,7 +3830,10 @@ character_event = {
 		name = EVTOPTB_TOG_651
 		tooltip_info = drunkard
 		trigger = { 
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_drinking_buddy
@@ -3450,7 +3856,10 @@ character_event = {
 			any_vassal = {
 				has_character_flag = jarilo_feast_vassal
 				NOT = { has_character_flag = feast_gluttonous }
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 				NOT = { character = ROOT }
 			}
 		}
@@ -3491,7 +3900,10 @@ character_event = {
 			random_vassal = {
 				limit = {
 					has_character_flag = jarilo_feast_vassal
-					trait = gluttonous
+					OR = {
+						trait = gluttonous
+						trait = gluttonous_hidden
+					}
 					NOT = { character = ROOT }
 				}
 				character_event = { id = TOG.823 }
@@ -3616,7 +4028,10 @@ character_event = {
 			has_character_flag = holding_jarilo 
 			NOT = { has_character_flag = feast_lunatic }
 		}
-		trait = lunatic
+		OR = {
+			trait = lunatic
+			trait = lunatic_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -3668,14 +4083,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lunatic } }
+					limit = {
+						 NOT = { OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lunatic }
+					limit = {
+						 OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_feast_friend
 						who = ROOT
@@ -3685,7 +4110,12 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lunatic }
+						NOT = {
+							 OR = {
+								trait = lunatic
+								trait = lunatic_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -3696,7 +4126,10 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						trait = lunatic
+						OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_friend
@@ -3720,7 +4153,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_657
 		trigger = {
-			NOT = { trait = lunatic }
+			NOT = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -3731,7 +4169,10 @@ character_event = {
 		name = EVTOPTB_TOG_657
 		tooltip_info = lunatic
 		trigger = {
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_friend
@@ -3755,7 +4196,10 @@ character_event = {
 			has_character_flag = holding_jarilo 
 			NOT = { has_character_flag = feast_lustful }
 		}
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		is_female = no
 	}
 	
@@ -3811,14 +4255,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
@@ -3828,7 +4282,12 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lustful }
+						NOT = {
+							 OR = {
+								trait = lustful
+								trait = lustful_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -3839,7 +4298,10 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_lustful_buddy
@@ -3872,14 +4334,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = lustful } }
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_lustful_buddy
 						who = ROOT
@@ -3889,7 +4361,12 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = lustful }
+						NOT = {
+							 OR = {
+								trait = lustful
+								trait = lustful_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -3900,7 +4377,10 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						trait = lustful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_lustful_buddy
@@ -3931,7 +4411,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_659
 		trigger = {
-			NOT = { trait = lustful }
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
 			NOT = { any_spouse = { character = FROM } }
 		}
 		opinion = {
@@ -3943,7 +4428,10 @@ character_event = {
 		name = EVTOPTB_TOG_659
 		tooltip_info = lustful
 		trigger = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 			NOT = { any_spouse = { character = FROM } }
 		}
 		opinion = {
@@ -4107,7 +4595,10 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = jarilo_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		is_female = no
 		has_lover = no
 		liege = { 
@@ -4118,7 +4609,10 @@ character_event = {
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_female = no
 				has_lover = no
 			}		
@@ -4164,7 +4658,10 @@ character_event = {
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = no
 				}
 				character_event = { id = TOG.834 }
@@ -4255,7 +4752,10 @@ character_event = {
 		has_dlc = "The Old Gods"
 		has_character_flag = jarilo_feast_vassal
 		NOT = { has_character_flag = feast_homosexual }
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		is_female = yes
 		has_lover = no
 		liege = { 
@@ -4266,7 +4766,10 @@ character_event = {
 				NOT = { has_character_flag = feast_homosexual }
 				NOT = { character = ROOT }
 				opinion = { who = ROOT value =  0 }
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 				is_female = yes
 				has_lover = no
 			}		
@@ -4312,7 +4815,10 @@ character_event = {
 					NOT = { has_character_flag = feast_homosexual }
 					NOT = { character = ROOT }
 					opinion = { who = ROOT value =  0 }
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = yes
 				}
 				character_event = { id = TOG.837 }
@@ -4408,14 +4914,24 @@ character_event = {
 		tooltip = {
 			liege = {
 				if = {
-					limit = { NOT = { trait = homosexual } }
+					limit = {
+						 NOT = { OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} } 
+					}
 					opinion = {
 						modifier = opinion_feast_scandal
 						who = ROOT
 					}
 				}
 				if = {
-					limit = { trait = homosexual }
+					limit = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 					opinion = {
 						modifier = opinion_homosexual_sympathy
 						who = ROOT
@@ -4425,7 +4941,12 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						NOT = { trait = homosexual }
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
 					}
 					opinion = {
 						modifier = opinion_feast_scandal
@@ -4436,7 +4957,10 @@ character_event = {
 					limit = {
 						has_character_flag = jarilo_feast_vassal
 						NOT = { character = ROOT }
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 					}
 					opinion = {
 						modifier = opinion_homosexual_sympathy
@@ -4460,7 +4984,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_670
 		trigger = {
-			NOT = { trait = homosexual }
+			NOT = {
+				 OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				} 
+			}
 		}
 		opinion = {
 			modifier = opinion_feast_scandal
@@ -4471,7 +5000,10 @@ character_event = {
 		name = EVTOPTB_TOG_670
 		tooltip_info = homosexual
 		trigger = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		opinion = {
 			modifier = opinion_homosexual_sympathy

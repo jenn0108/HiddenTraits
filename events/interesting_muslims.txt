@@ -26,7 +26,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				NOT = {
 					any_courtier = {
@@ -132,7 +135,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				NOT = {
 					any_courtier = {
@@ -237,7 +243,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -343,7 +352,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -472,7 +484,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -575,7 +590,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -678,7 +696,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -782,7 +803,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -886,7 +910,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -990,7 +1017,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1094,7 +1124,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1197,7 +1230,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1299,7 +1335,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1403,7 +1442,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1506,7 +1548,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1609,7 +1654,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1712,7 +1760,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1815,7 +1866,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -1917,7 +1971,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2022,7 +2079,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2125,7 +2185,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2232,7 +2295,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2335,7 +2401,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2438,7 +2507,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2541,7 +2613,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2643,7 +2718,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2747,7 +2825,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2850,7 +2931,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -2953,7 +3037,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -3057,7 +3144,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -3161,7 +3251,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -3264,7 +3357,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -3370,7 +3466,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -3474,7 +3573,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {
@@ -3578,7 +3680,10 @@ province_event = {
 				in_command = no
 				age = 16
 				NOT = {
-					trait = on_hajj
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 				religion_group = muslim
 				NOT = {

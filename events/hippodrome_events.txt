@@ -333,7 +333,12 @@ narrative_event = {
 		if = {
 			limit = { 
 				NOT = { can_have_more_leadership_traits = no }
-				NOT = { trait = cavalry_leader }
+				NOT = {
+					 OR = {
+						trait = cavalry_leader
+						trait = cavalry_leader_hidden
+					} 
+				}
 			}
 			add_trait = cavalry_leader
 		}
@@ -380,7 +385,12 @@ narrative_event = {
 		if = {
 			limit = { 
 				NOT = { can_have_more_leadership_traits = no }
-				NOT = { trait = cavalry_leader }
+				NOT = {
+					 OR = {
+						trait = cavalry_leader
+						trait = cavalry_leader_hidden
+					} 
+				}
 			}
 			add_trait = cavalry_leader
 		}
@@ -405,7 +415,12 @@ narrative_event = {
 		if = {
 			limit = { 
 				NOT = { can_have_more_leadership_traits = no }
-				NOT = { trait = cavalry_leader }
+				NOT = {
+					 OR = {
+						trait = cavalry_leader
+						trait = cavalry_leader_hidden
+					} 
+				}
 			}
 			add_trait = cavalry_leader
 		}

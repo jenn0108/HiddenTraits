@@ -45,7 +45,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 	}
 	
@@ -148,7 +151,10 @@ character_event = {
 			martial = 10
 			FROM = {
 				NOT = {
-					trait = wounded
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
 				}
 			}
 		}
@@ -175,7 +181,10 @@ character_event = {
 			intrigue = 10
 			FROM = {
 				NOT = {
-					trait = wounded
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
 				}
 			}
 		}
@@ -284,12 +293,21 @@ character_event = {
 		any_lover = {
 			is_abroad = no
 			OR = {
-				trait = ill
-				trait = pneumonic
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
+				OR = {
+					trait = pneumonic
+					trait = pneumonic_hidden
+				}
 			}
 		}
 		NOT = {
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 
@@ -298,11 +316,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -313,8 +337,14 @@ character_event = {
 				is_female = no
 				is_abroad = no
 				OR = {
-					trait = ill
-					trait = pneumonic
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 			}
 		}
@@ -324,13 +354,22 @@ character_event = {
 				is_female = no
 				is_abroad = no
 				OR = {
-					trait = ill
-					trait = pneumonic
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}			
 			}
 			if = {
 				limit = {
-					trait = ill
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				random = {
 					chance = 10
@@ -339,7 +378,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					trait = pneumonic
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 				random = {
 					chance = 10
@@ -362,13 +404,22 @@ character_event = {
 				is_female = no
 				is_abroad = no
 				OR = {
-					trait = ill
-					trait = pneumonic
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}			
 			}
 			if = {
 				limit = {
-					trait = ill
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				random = {
 					chance = 10
@@ -377,7 +428,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					trait = pneumonic
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 				random = {
 					chance = 10
@@ -395,8 +449,14 @@ character_event = {
 				is_female = no
 				is_abroad = no
 				OR = {
-					trait = ill
-					trait = pneumonic
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}			
 			}		
 			character_event = {
@@ -413,8 +473,14 @@ character_event = {
 				is_female = yes
 				is_abroad = no
 				OR = {
-					trait = ill
-					trait = pneumonic
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 			}
 		}
@@ -424,13 +490,22 @@ character_event = {
 				is_female = no
 				is_abroad = no
 				OR = {
-					trait = ill
-					trait = pneumonic
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}			
 			}
 			if = {
 				limit = {
-					trait = ill
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 				random = {
 					chance = 10
@@ -439,7 +514,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					trait = pneumonic
+					OR = {
+						trait = pneumonic
+						trait = pneumonic_hidden
+					}
 				}
 				random = {
 					chance = 10
@@ -468,10 +546,16 @@ character_event = {
 	trigger = {
 		any_lover = {
 			is_abroad = no
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		NOT = {
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 
@@ -480,11 +564,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -494,7 +584,10 @@ character_event = {
 		random_lover = {
 			limit = {
 				is_abroad = no
-				trait = wounded			
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}			
 			}
 			random = {
 				chance = 10
@@ -509,7 +602,10 @@ character_event = {
 		random_lover = {
 			limit = {
 				is_abroad = no
-				trait = wounded			
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}			
 			}
 			random = {
 				chance = 20
@@ -524,7 +620,10 @@ character_event = {
 		random_lover = {
 			limit = {
 				is_abroad = no
-				trait = wounded			
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}			
 			}
 			character_event = {
 				id = 64046
@@ -552,10 +651,16 @@ character_event = {
 		is_ill = no
 		is_pregnant = no
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
-			trait = celibate
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
 		}
 		any_courtier = {
 			is_married = no
@@ -566,10 +671,16 @@ character_event = {
 			is_pregnant = no
 			age = 12
 			NOT = {
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 			}
 			NOT = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 			}
 			NOT = {
 				family = ROOT
@@ -614,10 +725,16 @@ character_event = {
 				has_epidemic = no
 				is_ill = no
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
 					family = ROOT
@@ -659,10 +776,16 @@ character_event = {
 				is_married = no
 				has_epidemic = no
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				is_ill = no
 				NOT = {
@@ -697,27 +820,45 @@ character_event = {
 			
 			modifier = {
 				factor = 15
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 15
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 		}
 		if = {
 			limit = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 			add_trait = shy
 		}
 		if = {
 			limit = {
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			add_trait = craven
@@ -889,7 +1030,10 @@ character_event = {
 		is_ill = no
 		has_lover = no
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
 			has_character_flag = never_lover
@@ -898,10 +1042,16 @@ character_event = {
 			is_female = yes
 			NOT = { is_close_relative = ROOT }
 			NOT = {
-				trait = homosexual
+				OR = {
+					trait = homosexual
+					trait = homosexual_hidden
+				}
 			}
 			NOT = {
-				trait = celibate
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
 			}
 			age = 16
 			NOT = {
@@ -936,7 +1086,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = lustful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
 				}
 			}
 			add_trait = lustful
@@ -962,10 +1115,16 @@ character_event = {
 				is_female = yes
 				NOT = { is_close_relative = ROOT }
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				age = 16
 				NOT = {
@@ -1005,10 +1164,16 @@ character_event = {
 				is_female = yes
 				NOT = { is_close_relative = ROOT }
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				age = 16
 				NOT = {
@@ -1200,10 +1365,16 @@ character_event = {
 			AND = {
 				is_married = yes
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				has_lover = no
 				spouse = {
@@ -1230,52 +1401,100 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.1
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.1
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.1
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 2
-			spouse = { trait = kind }
+			spouse = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2
-			spouse = { trait = charitable }
+			spouse = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2
-			spouse = { trait = gregarious }
+			spouse = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			spouse = { trait = cruel }
+			spouse = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			spouse = { trait = wroth }
+			spouse = {
+				 OR = {
+					trait = wroth
+					trait = wroth_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			spouse = { trait = envious }
+			spouse = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				} 
+			}
 		}
 	}
 	
@@ -1396,7 +1615,10 @@ character_event = {
 	
 	trigger = {
 		NOT = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		NOT = {
 			spouse = { is_lover = ROOT }
@@ -1405,9 +1627,18 @@ character_event = {
 			is_female = yes
 			is_pregnant = no
 			OR = {
-				trait = ambitious
-				trait = arbitrary
-				trait = wroth
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 	}
@@ -1430,7 +1661,10 @@ character_event = {
 				limit = {
 					OR = {
 						piety = 50
-						trait = zealous
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 						is_theocracy = yes
 					}
 				}
@@ -1446,9 +1680,18 @@ character_event = {
 				is_female = yes
 				is_pregnant = no
 				OR = {
-					trait = ambitious
-					trait = arbitrary
-					trait = wroth
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			prestige = 20
@@ -1479,7 +1722,10 @@ character_event = {
 		name = "EVTOPTC64035" #She gets what she deserves
 		if = {
 			limit = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			prestige = 10
 		}
@@ -1489,9 +1735,18 @@ character_event = {
 				is_female = yes
 				is_pregnant = no
 				OR = {
-					trait = ambitious
-					trait = arbitrary
-					trait = wroth
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
 				}
 			}
 			character_event = {
@@ -1534,7 +1789,10 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 	}
 	
@@ -1614,19 +1872,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.8
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 	}
 	
@@ -1852,7 +2122,10 @@ character_event = {
 		name = "EVTOPTB64055" #Maybe it will pass
 		if = {
 			limit = {
-				trait = chaste
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
 			}
 			prestige = -10
 		}
@@ -1946,13 +2219,28 @@ character_event = {
 		is_ill = no
 		is_married = no
 		OR = {
-			trait = kind
-			trait = just
-			trait = charitable
-			trait = honest
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		NOT = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		any_lover = {
 			is_female = yes
@@ -1969,7 +2257,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = humble
+					OR = {
+						trait = humble
+						trait = humble_hidden
+					}
 				}
 			}
 			random = {
@@ -1989,13 +2280,19 @@ character_event = {
 		trigger = {
 			OR = {
 				NOT = { religion = muslim }
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 		}
 		if = {
 			limit = {
 				NOT = {
-					trait = drunkard
+					OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					}
 				}
 			}
 			random = {
@@ -2015,7 +2312,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 			add_trait = zealous
@@ -2055,10 +2355,22 @@ character_event = {
 		in_command = no
 		is_married = yes
 		OR = {
-			trait = kind
-			trait = just
-			trait = charitable
-			trait = honest
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}		
 		any_lover = {
 			is_female = yes
@@ -2074,19 +2386,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -2111,7 +2435,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = stressed
+					OR = {
+						trait = stressed
+						trait = stressed_hidden
+					}
 				}
 			}
 			random = {
@@ -2147,7 +2474,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = stressed
+					OR = {
+						trait = stressed
+						trait = stressed_hidden
+					}
 				}
 			}
 			random = {
@@ -2197,19 +2527,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -2338,19 +2680,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 	}
 	
@@ -2370,7 +2724,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = deceitful
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 				}
 			}
 			add_trait = deceitful
@@ -2679,9 +3036,18 @@ character_event = {
 		is_consort = no
 		NOT = { num_of_lovers = 2 }		
 		OR = {
-			trait = ambitious
-			trait = gregarious
-			trait = proud
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 		}
 		any_lover = {
 			is_ruler = no
@@ -3050,7 +3416,10 @@ character_event = {
 		war = no
 		in_command = no
 		is_married = yes
-		trait = stressed
+		OR = {
+			trait = stressed
+			trait = stressed_hidden
+		}
 		fertility = 0.4
 		any_lover = {
 			is_female = yes
@@ -3850,23 +4219,38 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 2.5
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 	}
 	
@@ -3884,22 +4268,34 @@ character_event = {
 		name = "EVTOPTA64130" #It's such a stress-relief
 		trigger = {
 			OR = {
-				trait = stressed
-				spouse = {
+				OR = {
 					trait = stressed
+					trait = stressed_hidden
+				}
+				spouse = {
+					OR = {
+						trait = stressed
+						trait = stressed_hidden
+					}
 				}
 			}
 		}
 		if = {
 			limit = {
-				trait = stressed
+				OR = {
+					trait = stressed
+					trait = stressed_hidden
+				}
 			}
 			remove_trait = stressed
 		}
 		if = {
 			limit = {
 				spouse = {
-					trait = stressed
+					OR = {
+						trait = stressed
+						trait = stressed_hidden
+					}
 				}
 			}
 			spouse = {
@@ -3914,22 +4310,34 @@ character_event = {
 		name = "EVTOPTB64130" #It makes me feel so healthy
 		trigger = {
 			OR = {
-				trait = ill
-				spouse = {
+				OR = {
 					trait = ill
+					trait = ill_hidden
+				}
+				spouse = {
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 			}
 		}
 		if = {
 			limit = {
-				trait = ill
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
 			}
 			remove_trait = ill
 		}
 		if = {
 			limit = {
 				spouse = {
-					trait = ill
+					OR = {
+						trait = ill
+						trait = ill_hidden
+					}
 				}
 			}
 			spouse = {
@@ -4004,23 +4412,38 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 2.5
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 	}
 	
@@ -4087,13 +4510,22 @@ character_event = {
 		has_lover = yes
 		NOT = { num_of_lovers = 2 }
 		NOT = {
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		NOT = {
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		NOT = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		NOT = {
 			num_of_traits = 7
@@ -4105,11 +4537,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 	}
 	

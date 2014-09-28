@@ -167,7 +167,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_110
 		trigger = {
-			NOT = { trait = shaivist_hindu }
+			NOT = {
+				 OR = {
+					trait = shaivist_hindu
+					trait = shaivist_hindu_hidden
+				} 
+			}
 		}
 		add_trait = shaivist_hindu
 	}
@@ -175,7 +180,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_110
 		trigger = {
-			NOT = { trait = vaishnavist_hindu }
+			NOT = {
+				 OR = {
+					trait = vaishnavist_hindu
+					trait = vaishnavist_hindu_hidden
+				} 
+			}
 		}
 		add_trait = vaishnavist_hindu
 	}
@@ -183,7 +193,12 @@ character_event = {
 	option = {
 		name = EVTOPTC_RoI_110
 		trigger = {
-			NOT = { trait = shaktist_hindu }
+			NOT = {
+				 OR = {
+					trait = shaktist_hindu
+					trait = shaktist_hindu_hidden
+				} 
+			}
 		}
 		add_trait = shaktist_hindu
 	}
@@ -191,7 +206,12 @@ character_event = {
 	option = {
 		name = EVTOPTD_RoI_110
 		trigger = {
-			NOT = { trait = smartist_hindu }
+			NOT = {
+				 OR = {
+					trait = smartist_hindu
+					trait = smartist_hindu_hidden
+				} 
+			}
 		}
 		add_trait = smartist_hindu
 	}
@@ -209,7 +229,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_111
 		trigger = {
-			NOT = { trait = mahayana_buddhist }
+			NOT = {
+				 OR = {
+					trait = mahayana_buddhist
+					trait = mahayana_buddhist_hidden
+				} 
+			}
 		}
 		add_trait = mahayana_buddhist
 	}
@@ -217,7 +242,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_111
 		trigger = {
-			NOT = { trait = vajrayana_buddhist }
+			NOT = {
+				 OR = {
+					trait = vajrayana_buddhist
+					trait = vajrayana_buddhist_hidden
+				} 
+			}
 		}
 		add_trait = vajrayana_buddhist
 	}
@@ -225,7 +255,12 @@ character_event = {
 	option = {
 		name = EVTOPTC_RoI_111
 		trigger = {
-			NOT = { trait = theravada_buddhist }
+			NOT = {
+				 OR = {
+					trait = theravada_buddhist
+					trait = theravada_buddhist_hidden
+				} 
+			}
 		}
 		add_trait = theravada_buddhist
 	}
@@ -243,7 +278,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_117
 		trigger = {
-			NOT = { trait = digambara_jain }
+			NOT = {
+				 OR = {
+					trait = digambara_jain
+					trait = digambara_jain_hidden
+				} 
+			}
 		}
 		add_trait = digambara_jain
 	}
@@ -251,7 +291,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_117
 		trigger = {
-			NOT = { trait = svetambara_jain }
+			NOT = {
+				 OR = {
+					trait = svetambara_jain
+					trait = svetambara_jain_hidden
+				} 
+			}
 		}
 		add_trait = svetambara_jain
 	}
@@ -268,55 +313,100 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = shaivist_hindu }
+				FROMFROMFROM = {
+					 OR = {
+						trait = shaivist_hindu
+						trait = shaivist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = shaivist_hindu
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = vaishnavist_hindu }
+				FROMFROMFROM = {
+					 OR = {
+						trait = vaishnavist_hindu
+						trait = vaishnavist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = vaishnavist_hindu
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = shaktist_hindu }
+				FROMFROMFROM = {
+					 OR = {
+						trait = shaktist_hindu
+						trait = shaktist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = shaktist_hindu
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = smartist_hindu }
+				FROMFROMFROM = {
+					 OR = {
+						trait = smartist_hindu
+						trait = smartist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = smartist_hindu
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = mahayana_buddhist }
+				FROMFROMFROM = {
+					 OR = {
+						trait = mahayana_buddhist
+						trait = mahayana_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = mahayana_buddhist
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = vajrayana_buddhist }
+				FROMFROMFROM = {
+					 OR = {
+						trait = vajrayana_buddhist
+						trait = vajrayana_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = vajrayana_buddhist
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = theravada_buddhist }
+				FROMFROMFROM = {
+					 OR = {
+						trait = theravada_buddhist
+						trait = theravada_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = theravada_buddhist
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = digambara_jain }
+				FROMFROMFROM = {
+					 OR = {
+						trait = digambara_jain
+						trait = digambara_jain_hidden
+					} 
+				}
 			}
 			add_trait = digambara_jain
 		}
 		if = {
 			limit = {
-				FROMFROMFROM = { trait = svetambara_jain }
+				FROMFROMFROM = {
+					 OR = {
+						trait = svetambara_jain
+						trait = svetambara_jain_hidden
+					} 
+				}
 			}
 			add_trait = svetambara_jain
 		}
@@ -370,55 +460,100 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				liege = { trait = shaivist_hindu }
+				liege = {
+					 OR = {
+						trait = shaivist_hindu
+						trait = shaivist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = shaivist_hindu
 		}
 		if = {
 			limit = {
-				liege = { trait = vaishnavist_hindu }
+				liege = {
+					 OR = {
+						trait = vaishnavist_hindu
+						trait = vaishnavist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = vaishnavist_hindu
 		}
 		if = {
 			limit = {
-				liege = { trait = shaktist_hindu }
+				liege = {
+					 OR = {
+						trait = shaktist_hindu
+						trait = shaktist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = shaktist_hindu
 		}
 		if = {
 			limit = {
-				liege = { trait = smartist_hindu }
+				liege = {
+					 OR = {
+						trait = smartist_hindu
+						trait = smartist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = smartist_hindu
 		}
 		if = {
 			limit = {
-				liege = { trait = mahayana_buddhist }
+				liege = {
+					 OR = {
+						trait = mahayana_buddhist
+						trait = mahayana_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = mahayana_buddhist
 		}
 		if = {
 			limit = {
-				liege = { trait = vajrayana_buddhist }
+				liege = {
+					 OR = {
+						trait = vajrayana_buddhist
+						trait = vajrayana_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = vajrayana_buddhist
 		}
 		if = {
 			limit = {
-				liege = { trait = theravada_buddhist }
+				liege = {
+					 OR = {
+						trait = theravada_buddhist
+						trait = theravada_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = theravada_buddhist
 		}
 		if = {
 			limit = {
-				liege = { trait = digambara_jain }
+				liege = {
+					 OR = {
+						trait = digambara_jain
+						trait = digambara_jain_hidden
+					} 
+				}
 			}
 			add_trait = digambara_jain
 		}
 		if = {
 			limit = {
-				liege = { trait = svetambara_jain }
+				liege = {
+					 OR = {
+						trait = svetambara_jain
+						trait = svetambara_jain_hidden
+					} 
+				}
 			}
 			add_trait = svetambara_jain
 		}
@@ -436,55 +571,100 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				FROM = { trait = shaivist_hindu }
+				FROM = {
+					 OR = {
+						trait = shaivist_hindu
+						trait = shaivist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = shaivist_hindu
 		}
 		if = {
 			limit = {
-				FROM = { trait = vaishnavist_hindu }
+				FROM = {
+					 OR = {
+						trait = vaishnavist_hindu
+						trait = vaishnavist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = vaishnavist_hindu
 		}
 		if = {
 			limit = {
-				FROM = { trait = shaktist_hindu }
+				FROM = {
+					 OR = {
+						trait = shaktist_hindu
+						trait = shaktist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = shaktist_hindu
 		}
 		if = {
 			limit = {
-				FROM = { trait = smartist_hindu }
+				FROM = {
+					 OR = {
+						trait = smartist_hindu
+						trait = smartist_hindu_hidden
+					} 
+				}
 			}
 			add_trait = smartist_hindu
 		}
 		if = {
 			limit = {
-				FROM = { trait = mahayana_buddhist }
+				FROM = {
+					 OR = {
+						trait = mahayana_buddhist
+						trait = mahayana_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = mahayana_buddhist
 		}
 		if = {
 			limit = {
-				FROM = { trait = vajrayana_buddhist }
+				FROM = {
+					 OR = {
+						trait = vajrayana_buddhist
+						trait = vajrayana_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = vajrayana_buddhist
 		}
 		if = {
 			limit = {
-				FROM = { trait = theravada_buddhist }
+				FROM = {
+					 OR = {
+						trait = theravada_buddhist
+						trait = theravada_buddhist_hidden
+					} 
+				}
 			}
 			add_trait = theravada_buddhist
 		}
 		if = {
 			limit = {
-				FROM = { trait = digambara_jain }
+				FROM = {
+					 OR = {
+						trait = digambara_jain
+						trait = digambara_jain_hidden
+					} 
+				}
 			}
 			add_trait = digambara_jain
 		}
 		if = {
 			limit = {
-				FROM = { trait = svetambara_jain }
+				FROM = {
+					 OR = {
+						trait = svetambara_jain
+						trait = svetambara_jain_hidden
+					} 
+				}
 			}
 			add_trait = svetambara_jain
 		}
@@ -826,7 +1006,10 @@ character_event = {
 	
 	trigger = {
 		is_reincarnated = yes
-		trait = reincarnation
+		OR = {
+			trait = reincarnation
+			trait = reincarnation_hidden
+		}
 		has_dlc = "Rajas of India"
 		reincarnation_scope = {
 			OR = {
@@ -881,7 +1064,10 @@ character_event = {
 	
 	trigger = {
 		is_reincarnated = yes
-		trait = reincarnation
+		OR = {
+			trait = reincarnation
+			trait = reincarnation_hidden
+		}
 		has_dlc = "Rajas of India"
 		reincarnation_scope = {
 			spouse_even_if_dead = {
@@ -912,7 +1098,10 @@ character_event = {
 	
 	trigger = {
 		is_reincarnated = yes
-		trait = reincarnation
+		OR = {
+			trait = reincarnation
+			trait = reincarnation_hidden
+		}
 		has_dlc = "Rajas of India"
 		reincarnation_scope = {
 			num_of_children = 1
@@ -954,7 +1143,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_203
-		trigger = { NOT = { trait = zealous } }
+		trigger = {
+			 NOT = { OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} } 
+		}
 		hidden_tooltip = { character_event = { id = RoI.204 } }
 	}
 	option = {
@@ -1030,7 +1224,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_203
-		trigger = { NOT = { trait = zealous } }
+		trigger = {
+			 NOT = { OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} } 
+		}
 		hidden_tooltip = { character_event = { id = RoI.207 } }
 	}
 	option = {
@@ -1106,7 +1305,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_203
-		trigger = { NOT = { trait = zealous } }
+		trigger = {
+			 NOT = { OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} } 
+		}
 		hidden_tooltip = { character_event = { id = RoI.210 } }
 	}
 	option = {
@@ -1263,7 +1467,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_217
 		if = {
-			limit = { NOT = { trait = stressed } }
+			limit = {
+				 NOT = { OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = stressed
@@ -1285,9 +1494,24 @@ character_event = {
 		name = EVTOPTA_RoI_218
 		random_courtier = {
 			limit = {
-				NOT = { trait = incapable }
-				NOT = { trait = maimed }
-				NOT = { trait = wounded }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = maimed
+						trait = maimed_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = wounded
+						trait = wounded_hidden
+					} 
+				}
 			}
 			random_list = {
 				70 = { add_trait = wounded }
@@ -1367,25 +1591,45 @@ character_event = {
 		name = EVTOPTA_RoI_222
 		set_character_flag = loves_diamond
 		if = {
-			limit = { NOT = { trait = shy } }
+			limit = {
+				 NOT = { OR = {
+					trait = shy
+					trait = shy_hidden
+				} } 
+			}
 			add_trait = shy
 		}
 		if = {
-			limit = { NOT = { trait = greedy } }
+			limit = {
+				 NOT = { OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = greedy
 			}
 		}
 		if = {
-			limit = { NOT = { trait = envious } }
+			limit = {
+				 NOT = { OR = {
+					trait = envious
+					trait = envious_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = envious
 			}
 		}
 		if = {
-			limit = { NOT = { trait = lunatic } }
+			limit = {
+				 NOT = { OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} } 
+			}
 			random = {
 				chance = 10
 				add_trait = lunatic
@@ -1407,14 +1651,24 @@ character_event = {
 		name = EVTOPTA_RoI_223
 		prestige = -30
 		if = {
-			limit = { NOT = { trait = paranoid } }
+			limit = {
+				 NOT = { OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = paranoid
 			}
 		}
 		if = {
-			limit = { NOT = { trait = stressed } }
+			limit = {
+				 NOT = { OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} } 
+			}
 			random = {
 				chance = 10
 				add_trait = stressed
@@ -1435,14 +1689,27 @@ character_event = {
 		name = EVTOPTA_RoI_224
 		if = {
 			limit = {
-				trait = stressed
-				NOT = { trait = paranoid }
+				OR = {
+					trait = stressed
+					trait = stressed_hidden
+				}
+				NOT = {
+					 OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					} 
+				}
 			}
 				add_trait = paranoid
 		}
 		if = {
 			limit = {
-				NOT = { trait = stressed }
+				NOT = {
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 30
@@ -1554,11 +1821,21 @@ character_event = {
 		name = EVTOPTA_RoI_230
 		spouse = {
 			if = {
-				limit = { NOT = { trait = lunatic } }
+				limit = {
+					 NOT = { OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} } 
+				}
 				add_trait = lunatic
 			}
 			if = {
-				limit = { trait = lunatic }
+				limit = {
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					} 
+				}
 				add_trait = possessed
 			}
 		}
@@ -1706,7 +1983,12 @@ character_event = {
 		name = EVTOPTA_RoI_244
 		if = {
 			limit = {
-				NOT = { trait = ill }
+				NOT = {
+					 OR = {
+						trait = ill
+						trait = ill_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 30
@@ -1715,7 +1997,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				trait = ill
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
 			}
 			random = {
 				chance = 30
@@ -1961,7 +2246,12 @@ character_event = {
 		name = EVTOPTB_RoI_148
 		hidden_tooltip = { character_event = { id = RoI.149 days = 120 } }
 		if = {
-			limit = { NOT = { trait = cruel } }
+			limit = {
+				 NOT = { OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} } 
+			}
 			add_trait = cruel
 		}
 	}
@@ -2042,7 +2332,12 @@ character_event = {
 					ai = yes
 					at_location = ROOT
 					opinion = { who = ROOT value = 25 }
-					NOT = { trait = craven }
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
 				}
 			}
 			random_courtier = {
@@ -2050,7 +2345,12 @@ character_event = {
 					ai = yes
 					at_location = ROOT
 					opinion = { who = ROOT value = 25 }
-					NOT = { trait = craven }
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
 				}
 				hidden_tooltip = { character_event = { id = RoI.20152 } }
 			}
@@ -2062,7 +2362,12 @@ character_event = {
 						ai = yes
 						at_location = ROOT
 						opinion = { who = ROOT value = 0 }
-						NOT = { trait = craven }
+						NOT = {
+							 OR = {
+								trait = craven
+								trait = craven_hidden
+							} 
+						}
 					}
 				}
 			}
@@ -2126,7 +2431,12 @@ character_event = {
 		name = EVTOPTB_RoI_153
 		prestige = -100
 		if = {
-			limit = { NOT = { trait = craven } }
+			limit = {
+				 NOT = { OR = {
+					trait = craven
+					trait = craven_hidden
+				} } 
+			}
 			add_trait = craven
 		}
 		random_demesne_province = {
@@ -2581,7 +2891,12 @@ character_event = {
 		name = EVTOPTA_RoI_166
 		scaled_wealth = -0.4
 		if = {
-			limit = { NOT = { trait = cruel } }
+			limit = {
+				 NOT = { OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} } 
+			}
 			add_trait = cruel
 		}
 		hidden_tooltip = { character_event = { id = RoI.167 days = 60 } }
@@ -2589,7 +2904,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_166
 		if = {
-			limit = { NOT = { trait = charitable } }
+			limit = {
+				 NOT = { OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} } 
+			}
 			add_trait = charitable
 		}
 		hidden_tooltip = { character_event = { id = RoI.167 days = 60 } }
@@ -2981,7 +3301,10 @@ character_event = {
 		name = EVTOPTB_RoI_193
 		trigger = {
 			NOT = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion_group = indian_group
 			}
 		}
@@ -3095,7 +3418,12 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = cynical }
+				NOT = {
+					 OR = {
+						trait = cynical
+						trait = cynical_hidden
+					} 
+				}
 			}
 			add_trait = cynical
 		}
@@ -3278,7 +3606,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_146
 		trigger = {
-			NOT = { trait = inspiring_leader }
+			NOT = {
+				 OR = {
+					trait = inspiring_leader
+					trait = inspiring_leader_hidden
+				} 
+			}
 		}
 		add_character_modifier = {
 			name = troops_war_weary
@@ -3289,7 +3622,10 @@ character_event = {
 		name = EVTOPTB_RoI_146
 		tooltip_info = inspiring_leader
 		trigger = {
-			trait = inspiring_leader
+			OR = {
+				trait = inspiring_leader
+				trait = inspiring_leader_hidden
+			}
 		}
 		prestige = 30
 	}
@@ -3328,19 +3664,35 @@ character_event = {
 		name = EVTOPTB_RoI_180
 		trigger = {
 			NOT = {
-				trait = paranoid
-				trait = wroth
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		if = {
-			limit = { trait = paranoid }
+			limit = {
+				 OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} 
+			}
 			random = {
 				chance = 50
 				add_trait = wroth
 			}
 		}
 		if = {
-			limit = { NOT = { trait = paranoid } }
+			limit = {
+				 NOT = { OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} } 
+			}
 			random = {
 				chance = 50
 				add_trait = paranoid
@@ -3422,7 +3774,10 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		trait = sympathy_indian
+		OR = {
+			trait = sympathy_indian
+			trait = sympathy_indian_hidden
+		}
 		any_realm_character = {
 			religion_group = indian_group
 			NOT = { is_friend = ROOT }
@@ -3468,7 +3823,10 @@ character_event = {
 		}
 		OR = {
 			religion_group = indian_group
-			trait = sympathy_indian
+			OR = {
+				trait = sympathy_indian
+				trait = sympathy_indian_hidden
+			}
 		}
 		NOT = { has_character_flag = do_not_disturb }
 	}
@@ -3521,11 +3879,21 @@ narrative_event = {
 	option = {
 		name = EVTOPTC_RoI_402
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 		piety = 30
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			random = {
 				chance = 50
 				add_trait = zealous

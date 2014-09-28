@@ -44,19 +44,31 @@ character_event = {
 		months = 480
 		modifier = {
 			factor = 0.25
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -89,19 +101,31 @@ character_event = {
 			factor = 50
 			modifier = {
 				factor = 2.0
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 0.1
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -128,19 +152,31 @@ character_event = {
 			factor = 50
 			modifier = {
 				factor = 0.5
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 10.0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		reverse_opinion = {
@@ -190,19 +226,31 @@ character_event = {
 			factor = 1000
 			modifier = {
 				factor = 0.5
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 10.0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		reverse_opinion = {
@@ -354,23 +402,38 @@ character_event = {
 		months = 960
 		modifier = {
 			factor = 0.25
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 	}
 	
@@ -419,15 +482,24 @@ letter_event = {
 			factor = 25
 			modifier = {
 				factor = 0.1
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -472,11 +544,17 @@ letter_event = {
 			factor = 50
 			modifier = {
 				factor = 2.0
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 		}
 		reverse_opinion = {
@@ -550,15 +628,24 @@ letter_event = {
 			factor = 50
 			modifier = {
 				factor = 0.1
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -811,7 +898,10 @@ character_event = {
 		months = 216
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -823,7 +913,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 5.0
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -857,11 +950,17 @@ letter_event = {
 			factor = 50
 			modifier = {
 				factor = 0.0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 3.0
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		}
 		wealth = -30
@@ -886,11 +985,17 @@ letter_event = {
 			factor = 50
 			modifier = {
 				factor = 0.2
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 1.5
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		}
 		wealth = -15
@@ -913,15 +1018,24 @@ letter_event = {
 			factor = 50
 			modifier = {
 				factor = 2.0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.25
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 			}
 		}
 		FROM = { 
@@ -1063,19 +1177,31 @@ character_event = {
 		months = 480
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -1109,7 +1235,10 @@ letter_event = {
 			factor = 50
 			modifier = {
 				factor = 0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -1162,7 +1291,10 @@ letter_event = {
 			factor = 100
 			modifier = {
 				factor = 0.5
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 0.75
@@ -1264,7 +1396,12 @@ character_event = {
 		liege = {
 			any_vassal = {
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				NOT = { character = PREV }
 				OR = {
 					dynasty = ROOT
@@ -1292,7 +1429,12 @@ character_event = {
 			random_vassal = {
 				limit = {
 					prisoner = no
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					NOT = { character = PREV }
 					OR = {
 						dynasty = ROOT
@@ -1380,9 +1522,18 @@ letter_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = arbitrary
-				trait = cruel
-				trait = lunatic
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
 			}
 		}
 		ai_chance = { 
@@ -1562,7 +1713,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 	}
 	

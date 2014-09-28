@@ -50,19 +50,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -98,9 +110,24 @@ character_event = {
 				ai = no
 				independent = yes
 				FROM = {
-					NOT = { trait = content }
-					NOT = { trait = patient }
-					NOT = { trait = craven }
+					NOT = {
+						 OR = {
+							trait = content
+							trait = content_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = patient
+							trait = patient_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
 					NOT = { age = 65 }
 					has_character_flag = flag_later_title
 				}
@@ -153,24 +180,53 @@ character_event = {
 			if = {
 				limit = {
 					OR = {
-						trait = slothful
-						trait = content
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
+						OR = {
+							trait = content
+							trait = content_hidden
+						}
 					}
-					NOT = { trait = ambitious }
+					NOT = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						} 
+					}
 				}
 				character_event = { id = 37005 days = 865 random = 200 }
 			}
 			if = {
 				limit = {
-					NOT = { trait = slothful }
-					NOT = { trait = content }
-					NOT = { trait = ambitious }
+					NOT = {
+						 OR = {
+							trait = slothful
+							trait = slothful_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = content
+							trait = content_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						} 
+					}
 				}
 				character_event = { id = 37005 days = 385 random = 200 }
 			}
 			if = {
 				limit = {
-					trait = ambitious
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 				character_event = { id = 37005 days = 365 random = 50 }
 			}
@@ -234,9 +290,24 @@ character_event = {
 		name = EVTOPTB37007
 		trigger = {
 			has_character_flag = flag_later_title
-			NOT = { trait = content }
-			NOT = { trait = patient }
-			NOT = { trait = craven }
+			NOT = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = patient
+					trait = patient_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 			NOT = { age = 65 }
 			liege = {
 				independent = yes
@@ -247,7 +318,10 @@ character_event = {
 			factor = 100
 			modifier = {
 				factor = 2.5
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 5.0
@@ -255,7 +329,10 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.25
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 		}
 		
@@ -285,7 +362,12 @@ character_event = {
 		independent = no
 		is_ruler = no
 		prisoner = no
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 		has_ambition = obj_wants_landed_title
 		has_character_flag = flag_promised_title
 		liege = {
@@ -348,9 +430,24 @@ character_event = {
 				ai = no
 				independent = yes
 				FROM = {
-					NOT = { trait = content }
-					NOT = { trait = patient }
-					NOT = { trait = craven }
+					NOT = {
+						 OR = {
+							trait = content
+							trait = content_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = patient
+							trait = patient_hidden
+						} 
+					}
+					NOT = {
+						 OR = {
+							trait = craven
+							trait = craven_hidden
+						} 
+					}
 					NOT = { age = 65 }
 				}
 			}
@@ -386,9 +483,24 @@ character_event = {
 		name = EVTOPTB37007 # I will not stand for this! REVOLT!
 		
 		trigger = {
-			NOT = { trait = content }
-			NOT = { trait = patient }
-			NOT = { trait = craven }
+			NOT = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = patient
+					trait = patient_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 			NOT = { age = 65 }
 			liege = {
 				independent = yes
@@ -399,7 +511,10 @@ character_event = {
 			factor = 100
 			modifier = {
 				factor = 2.5
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 5.0
@@ -407,7 +522,10 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.25
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 		}
 		
@@ -436,7 +554,12 @@ character_event = {
 		independent = no
 		is_ruler = no
 		prisoner = no
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 		FROMFROM = {
 			is_alive = yes
 			independent = yes
@@ -545,7 +668,12 @@ character_event = {
 		independent = no
 		is_ruler = no
 		prisoner = no
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			} 
+		}
 		FROM = {
 			is_alive = yes
 			independent = yes
@@ -942,7 +1070,10 @@ character_event = {
 	trigger = {
 		is_ruler = no
 		NOT = {
-			trait = bastard
+			OR = {
+				trait = bastard
+				trait = bastard_hidden
+			}
 		}
 		has_ambition = obj_get_married
 		NOT = {
@@ -970,19 +1101,31 @@ character_event = {
 		modifier = {
 			factor = 0.25
 			is_female = yes
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1066,7 +1209,10 @@ character_event = {
 		is_betrothed = no
 		is_married = no
 		NOT = {
-			trait = bastard
+			OR = {
+				trait = bastard
+				trait = bastard_hidden
+			}
 		}
 		has_ambition = obj_get_married
 		liege = {
@@ -1084,19 +1230,31 @@ character_event = {
 		modifier = {
 			factor = 0.25
 			is_female = yes
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1224,19 +1382,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.25
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1266,14 +1436,22 @@ character_event = {
 		name = EVTOPTA37057 # Ah well
 		tooltip_info = kind
 		trigger = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
 	option = {
 		name = EVTOPTB37057 # The insolence!
 		trigger = {
-			NOT = { trait = kind }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 		}
 		opinion = {
 			who = FROM
@@ -1287,8 +1465,14 @@ character_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = wroth
-				trait = envious
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 		}
 		FROM = { imprison = ROOT }

@@ -211,7 +211,10 @@ character_event = {
 				empire = { title = e_spain }
 			}
 			has_character_modifier = expelled_jewish
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -263,7 +266,10 @@ character_event = {
 				empire = { title = e_spain }
 			}
 			has_character_modifier = expelled_jewish
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -315,7 +321,10 @@ character_event = {
 				empire = { title = e_spain }
 			}
 			has_character_modifier = expelled_jewish
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -367,7 +376,10 @@ character_event = {
 		}	
 		NOT = { 
 			has_character_modifier = expelled_jewish
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -419,7 +431,10 @@ character_event = {
 		}	
 		NOT = { 
 			has_character_modifier = expelled_jewish
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -471,7 +486,10 @@ character_event = {
 		}	
 		NOT = { 
 			has_character_modifier = expelled_jewish
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -583,7 +601,12 @@ character_event = {
 				age = 16
 				prisoner = no
 				war = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 			}
 			character_event = { id = SoA.501 days = 2 tooltip = EVTTOOLTIP_SoA_501 }
 		}

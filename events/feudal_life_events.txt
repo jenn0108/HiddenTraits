@@ -33,9 +33,18 @@ character_event = {
 		NOT = { religion_group = muslim }
 		NOT = { religion_group = jewish_group }
 		OR = {
-			trait = greedy
-			trait = midas_touched
-			trait = gluttonous
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			OR = {
+				trait = midas_touched
+				trait = midas_touched_hidden
+			}
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		tier = count
 	}
@@ -49,15 +58,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -70,9 +88,15 @@ character_event = {
 		name = EVTOPTB4000
 		tooltip_info = just
 		trigger = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -113,9 +137,18 @@ character_event = {
 			is_priest = yes
 			piety = 50
 			OR = {
-				trait = celibate
-				trait = chaste
-				trait = zealous
+				OR = {
+					trait = celibate
+					trait = celibate_hidden
+				}
+				OR = {
+					trait = chaste
+					trait = chaste_hidden
+				}
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 	}
@@ -125,11 +158,17 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 	}
 	
@@ -153,7 +192,10 @@ character_event = {
 		name = EVTOPTC4040 #Punish cook
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		add_character_modifier = {
 			name = punish_cook
@@ -165,7 +207,10 @@ character_event = {
 		name = EVTOPTD4040 #Hanged
 		tooltip_info = zealous
 		trigger = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		add_character_modifier = {
 			name = kill_lawbreakers
@@ -200,7 +245,10 @@ character_event = {
 			is_priest = yes
 			OR = {
 				piety = 50
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 	}
@@ -210,11 +258,17 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 	}
 	
@@ -238,7 +292,10 @@ character_event = {
 		name = EVTOPTC4040 #Punish cook
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		add_character_modifier = {
 			name = punish_cook
@@ -250,7 +307,10 @@ character_event = {
 		name = EVTOPTD4040 #Hanged
 		tooltip_info = zealous
 		trigger = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		add_character_modifier = {
 			name = kill_lawbreakers
@@ -280,19 +340,15 @@ character_event = {
 		in_command = no
 		tier = count
 		NOT = {
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		NOT = {
-			trait = depressed
-		}
-		any_vassal = {
-			war = no
-			prisoner = no
-			age = 20
 			OR = {
-				trait = slothful
-				trait = content
-				trait = craven
+				trait = depressed
+				trait = depressed_hidden
 			}
 		}
 		any_vassal = {
@@ -300,9 +356,37 @@ character_event = {
 			prisoner = no
 			age = 20
 			OR = {
-				trait = diligent
-				trait = ambitious
-				trait = brave
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+			}
+		}
+		any_vassal = {
+			war = no
+			prisoner = no
+			age = 20
+			OR = {
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 		}
 		NOT = {
@@ -315,19 +399,31 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -339,9 +435,18 @@ character_event = {
 				prisoner = no
 				age = 16
 				OR = {
-					trait = slothful
-					trait = content
-					trait = craven
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 			opinion = {
@@ -357,9 +462,18 @@ character_event = {
 		random_vassal = {
 			limit = {
 				OR = {
-					trait = diligent
-					trait = ambitious
-					trait = brave
+					OR = {
+						trait = diligent
+						trait = diligent_hidden
+					}
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			opinion = {
@@ -375,9 +489,18 @@ character_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = diligent
-				trait = ambitious
-				trait = brave
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -390,7 +513,10 @@ character_event = {
 		name = EVTOPTD4085
 		tooltip_info = diligent
 		trigger = {
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		random_courtier = {
 			limit = {
@@ -438,12 +564,24 @@ character_event = {
 			piety = 100
 		}
 		OR = {
-			trait = zealous
-			trait = cynical
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		OR = {
-			trait = chaste
-			trait = lustful
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 			religion_group = muslim
 		}
 	}
@@ -457,15 +595,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -544,8 +691,14 @@ character_event = {
 				intrigue = 12
 			}
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 		}
 	}
@@ -559,15 +712,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -650,11 +812,17 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -690,9 +858,15 @@ character_event = {
 		name = EVTOPTC4010 #Decapitation
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		if = {
@@ -726,9 +900,15 @@ character_event = {
 		name = EVTOPTD4010
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 			NOT = {
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		if = {
@@ -743,13 +923,22 @@ character_event = {
 		name = EVTOPTE4010
 		trigger = {
 			NOT = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			NOT = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 			}
 			NOT = {
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 		}
 		add_trait = diligent
@@ -777,8 +966,14 @@ character_event = {
 			tier = duke
 		}
 		OR = {
-			trait = brave
-			trait = wroth
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		location = {
 			any_province_lord = {
@@ -789,7 +984,10 @@ character_event = {
 					character = ROOT
 				}
 				NOT = {
-					trait = incapable
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
 				}
 				NOT = {
 					spouse = {
@@ -798,13 +996,25 @@ character_event = {
 				}
 				same_realm = ROOT
 				OR = {
-					trait = trusting
-					trait = slow
-					NOT = {
-						trait = paranoid
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
+					OR = {
+						trait = slow
+						trait = slow_hidden
 					}
 					NOT = {
-						trait = deceitful
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+					}
+					NOT = {
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
 					}
 				}
 			}
@@ -816,11 +1026,17 @@ character_event = {
 		
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -836,7 +1052,10 @@ character_event = {
 						character = ROOT
 					}
 					NOT = {
-						trait = incapable
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
 					}
 					NOT = {
 						spouse = {
@@ -845,13 +1064,25 @@ character_event = {
 					}
 					same_realm = ROOT
 					OR = {
-						trait = trusting
-						trait = slow
-						NOT = {
-							trait = paranoid
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
+						OR = {
+							trait = slow
+							trait = slow_hidden
 						}
 						NOT = {
-							trait = deceitful
+							OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							}
+						}
+						NOT = {
+							OR = {
+								trait = deceitful
+								trait = deceitful_hidden
+							}
 						}
 					}
 				}
@@ -953,9 +1184,18 @@ character_event = {
 		}
 		job_spymaster = {
 			OR = {
-				trait = quick
-				trait = genius
-				trait = deceitful
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 			OR = {
 				diplomacy = 9
@@ -969,19 +1209,31 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -1007,9 +1259,15 @@ character_event = {
 		name = EVTOPTC4050 #Imprisonment
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -1023,14 +1281,26 @@ character_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = diligent
-				trait = strong
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+				OR = {
+					trait = strong
+					trait = strong_hidden
+				}
 			}
 			NOT = {
-				trait = weak
+				OR = {
+					trait = weak
+					trait = weak_hidden
+				}
 			}
 			NOT = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 		}
 		if = {
@@ -1048,7 +1318,10 @@ character_event = {
 		name = EVTOPTE4050 #Eyes removed
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		if = {
 			limit = { religion = jain }
@@ -1085,8 +1358,14 @@ character_event = {
 			prisoner = no
 			age = 20
 			OR = {
-				trait = ambitious
-				trait = brave
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 		}
 	}
@@ -1096,19 +1375,31 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1139,8 +1430,14 @@ character_event = {
 				prisoner = no
 				age = 16
 				OR = {
-					trait = ambitious
-					trait = brave
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 			opinion = {
@@ -1182,7 +1479,10 @@ character_event = {
 				martial = 8
 			}
 			learning = 6
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		job_spymaster = {
 			OR = {
@@ -1209,15 +1509,24 @@ character_event = {
 		}
 		modifier = {
 			factor = 3
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 
@@ -1299,9 +1608,15 @@ character_event = {
 		name = EVTOPTB4022 #Hanged with silken rope
 		tooltip_info = just
 		trigger = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		prestige = 10
@@ -1319,9 +1634,15 @@ character_event = {
 		name = EVTOPTC4022 #Release them!
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 			NOT = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 			}
 		}
 		prestige = -10
@@ -1338,9 +1659,15 @@ character_event = {
 		name = EVTOPTD4022 #Kill them
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 			NOT = {
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 		}
 		if = {
@@ -1362,9 +1689,15 @@ character_event = {
 		name = EVTOPTE4022 #Ears cut off
 		tooltip_info = diligent
 		trigger = {
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 			NOT = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 		}
 		if = {
@@ -1542,9 +1875,18 @@ character_event = {
 		treasury = 100
 		is_ruler = no
 		OR = {
-			trait = trusting
-			trait = charitable
-			trait = slow
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		host = {
 			age = 20
@@ -1553,7 +1895,10 @@ character_event = {
 				character = ROOT
 			}
 			NOT = {
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 		}
 		
@@ -1570,11 +1915,17 @@ character_event = {
 		
 		modifier = {
 			factor = 2.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		modifier = {
 			factor = 1.7
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -1615,7 +1966,10 @@ character_event = {
 		name = EVTOPTB4006 #Imprisonment
 		tooltip_info = just
 		trigger = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		ai_chance = { factor = 40 }
 		FROM = {
@@ -1632,7 +1986,10 @@ character_event = {
 		name = EVTOPTC4006 #Hanged
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		ai_chance = { factor = 20 }
 		if = {
@@ -1654,7 +2011,10 @@ character_event = {
 		name = EVTOPTD4006 #Hands cut off
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		ai_chance = { factor = 30 }
 		if = {
@@ -1860,7 +2220,10 @@ character_event = {
 				}
 			}
 			NOT = {
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 			NOT = {
 				has_character_modifier = the_judger
@@ -1868,7 +2231,10 @@ character_event = {
 		}
 		is_married = yes
 		spouse = {
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 			is_abroad = no
 			prisoner = no
 			is_alive = yes
@@ -1897,19 +2263,31 @@ character_event = {
 		
 		modifier = {
 			factor = 2.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.66
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 	}
 	
@@ -1974,7 +2352,10 @@ character_event = {
 		name = EVTOPTB4016 #Throw him into the dungeon!
 		tooltip_info = just
 		trigger = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		FROM = {
 			opinion = {
@@ -2008,9 +2389,15 @@ character_event = {
 		name = EVTOPTC4016 #Infidelty = crime?
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 		}
 		add_trait = slow
@@ -2118,18 +2505,36 @@ character_event = {
 		in_command = no
 		NOT = { religion = jain }
 		OR = {
-			trait = falconer
-			trait = hunter
-			trait = scholar
+			OR = {
+				trait = falconer
+				trait = falconer_hidden
+			}
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
+			OR = {
+				trait = scholar
+				trait = scholar_hidden
+			}
 		}
 		any_vassal = {
 			prisoner = no
 			age = 20
 			OR = {
-				trait = falconer
-				trait = hunter
+				OR = {
+					trait = falconer
+					trait = falconer_hidden
+				}
+				OR = {
+					trait = hunter
+					trait = hunter_hidden
+				}
 				NOT = {
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 			}
 		}
@@ -2140,19 +2545,31 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		modifier = {
 			factor = 5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -2169,10 +2586,19 @@ character_event = {
 				prisoner = no
 				age = 16
 				OR = {
-					trait = falconer
-					trait = hunter
+					OR = {
+						trait = falconer
+						trait = falconer_hidden
+					}
+					OR = {
+						trait = hunter
+						trait = hunter_hidden
+					}
 					NOT = {
-						trait = craven
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 					}
 				}
 			}
@@ -2189,10 +2615,19 @@ character_event = {
 		random_vassal = {
 			limit = {
 				OR = {
-					trait = falconer
-					trait = hunter
+					OR = {
+						trait = falconer
+						trait = falconer_hidden
+					}
+					OR = {
+						trait = hunter
+						trait = hunter_hidden
+					}
 					NOT = {
-						trait = craven
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
 					}
 				}
 				age = 16
@@ -2234,7 +2669,10 @@ character_event = {
 				character = ROOT
 			}
 			NOT = {
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 			reverse_opinion = { who = ROOT value = 25 }
 		}
@@ -2245,20 +2683,32 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -2271,7 +2721,10 @@ character_event = {
 					character = ROOT
 				}
 				NOT = {
-					trait = incapable
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
 				}
 				reverse_opinion = { who = ROOT value = 25 }
 			}
@@ -2526,13 +2979,22 @@ character_event = {
 			tier = emperor
 		}
 		NOT = {
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		NOT = {
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		NOT = {
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		NOT = {
 			has_character_modifier = big_spender
@@ -2540,8 +3002,14 @@ character_event = {
 		treasury = 30
 		any_vassal = {
 			OR = {
-				trait = greedy
-				trait = gregarious
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 				treasury = 50
 			}
 		}
@@ -2552,12 +3020,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 
 		modifier = {
 			factor = 2.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -2574,9 +3048,15 @@ character_event = {
 		name = EVTOPTB4115
 		tooltip_info = greedy
 		trigger = {
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 			NOT = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 		}
 		add_trait = cynical
@@ -2587,16 +3067,28 @@ character_event = {
 		trigger = {
 			is_female = yes
 			NOT = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			NOT = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			NOT = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			NOT = {
-				trait = depressed
+				OR = {
+					trait = depressed
+					trait = depressed_hidden
+				}
 			}
 		}
 		random_list = {
@@ -2614,10 +3106,19 @@ character_event = {
 		#tooltip_info = 
 		trigger = {
 			OR = {
-				trait = arbitrary
-				trait = greedy
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 				NOT = {
-					trait = shy
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
 				}
 			}
 		}
@@ -2635,13 +3136,22 @@ character_event = {
 		name = EVTOPTE4115
 		trigger = {
 			NOT = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			NOT = {
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			NOT = {
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 		}
 		random_list = {
@@ -2659,8 +3169,14 @@ character_event = {
 		random_vassal = {
 			limit = {
 				OR = {
-					trait = greedy
-					trait = gregarious
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
 					treasury = 50
 				}
 			}
@@ -2710,12 +3226,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.8
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -2736,7 +3258,10 @@ character_event = {
 		name = EVTOPTC4120
 		tooltip_info = proud
 		trigger = {
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
 			any_courtier = {
 				martial = 15
 			}
@@ -2758,9 +3283,15 @@ character_event = {
 		name = EVTOPTD4120
 		tooltip_info = brave
 		trigger = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 			NOT = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 		}
 		prestige = 15
@@ -2770,9 +3301,15 @@ character_event = {
 		name = EVTOPTE4120
 		tooltip_info = gregarious
 		trigger = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 			NOT = {
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -2785,7 +3322,10 @@ character_event = {
 		name = EVTOPTF4120
 		trigger = {
 			NOT = {
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		}
 		add_trait = charitable
@@ -2824,7 +3364,10 @@ character_event = {
 		}
 		any_vassal = {
 			opinion = { who = ROOT value = 20 }
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 	}
 	
@@ -2833,12 +3376,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	
 		modifier = {
 			factor = 2.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -2854,7 +3403,10 @@ character_event = {
 		name = EVTOPTB4125
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		scaled_wealth = -0.05
 		prestige = 15
@@ -2864,7 +3416,10 @@ character_event = {
 		name = EVTOPTC4125
 		tooltip_info = slow
 		trigger = {
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
 		}
 		add_character_modifier = {
 			name = the_pitiful
@@ -2876,7 +3431,10 @@ character_event = {
 		name = EVTOPTD4125
 		tooltip_info = gregarious
 		trigger = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		piety = 10
 	}
@@ -2886,7 +3444,10 @@ character_event = {
 		random_vassal = {
 			limit = {
 				opinion = { who = ROOT value = 20 }
-				trait = brave
+				OR = {
+					trait = brave
+					trait = brave_hidden
+				}
 			}
 			opinion = {
 				modifier = opinion_approves
@@ -2920,7 +3481,10 @@ character_event = {
 			tier = emperor
 		}
 		NOT = {
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		NOT = {
 			has_character_modifier = the_cynical
@@ -2931,9 +3495,18 @@ character_event = {
 		any_vassal = { 
 			opinion = { who = ROOT value = 25 }
 			OR = {
-				trait = honest
-				trait = proud
-				trait = greedy
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 	}
@@ -2943,12 +3516,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.8
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -2958,9 +3537,18 @@ character_event = {
 			limit = {
 				opinion = { who = ROOT value = 25 }
 				OR = {
-					trait = honest
-					trait = proud
-					trait = greedy
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
+					OR = {
+						trait = greedy
+						trait = greedy_hidden
+					}
 				}
 			}
 		}
@@ -2970,7 +3558,10 @@ character_event = {
 		name = EVTOPTB4130
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		add_character_modifier = {
 			name = the_cynical
@@ -2987,8 +3578,14 @@ character_event = {
 		name = EVTOPTD4130
 		#tooltip_info = 
 		trigger = {
-			trait = gregarious
-			trait = kind
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		add_character_modifier = {
 			name = magnanimous_person
@@ -3038,22 +3635,34 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 3
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.8
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 	
@@ -3125,9 +3734,18 @@ character_event = {
 			}
 			diplomacy = 15
 			OR = {
-				trait = gregarious
-				trait = kind
-				trait = charitable
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		}
 	}
@@ -3137,12 +3755,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.8
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 	}
 	
@@ -3163,9 +3787,18 @@ character_event = {
 				}
 				diplomacy = 15
 				OR = {
-					trait = gregarious
-					trait = kind
-					trait = charitable
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 			}
 			set_character_flag = liege_wroth
@@ -3181,9 +3814,15 @@ character_event = {
 		name = EVTOPTC4145
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 			NOT = {
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 		}
 		add_trait = shy
@@ -3198,9 +3837,18 @@ character_event = {
 				}
 				diplomacy = 15
 				OR = {
-					trait = gregarious
-					trait = kind
-					trait = charitable
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
 				}
 			}
 			set_character_flag = liege_gregarious
@@ -3216,7 +3864,10 @@ character_event = {
 		name = EVTOPTE4145
 		tooltip_info = poet
 		trigger = {
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 		}
 		add_character_modifier = {
 			name = the_amiable
@@ -3336,14 +3987,26 @@ character_event = {
 			is_alive = no
 		}
 		OR = {
-			trait = quick
-			trait = genius
+			OR = {
+				trait = quick
+				trait = quick_hidden
+			}
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 		}
 		NOT = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 			has_character_modifier = the_suspicious
 			has_character_modifier = the_kind
 		}
@@ -3354,12 +4017,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 	
@@ -3372,9 +4041,15 @@ character_event = {
 		name = EVTOPTB4150
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 			NOT = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 		}
 		add_trait = paranoid
@@ -3384,7 +4059,10 @@ character_event = {
 		name = EVTOPTC4150
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		prestige = -10
 		change_martial = 1
@@ -3394,9 +4072,15 @@ character_event = {
 		name = EVTOPTD4150
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 			NOT = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -3421,9 +4105,15 @@ character_event = {
 		name = EVTOPTF4150
 		tooltip_info = gregarious
 		trigger = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -3463,12 +4153,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 2.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -3476,9 +4172,15 @@ character_event = {
 		name = EVTOPTA4155
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 			NOT = {
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 		}
 		add_character_modifier = {
@@ -3491,9 +4193,15 @@ character_event = {
 		name = EVTOPTB4155
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 			NOT = {
-				trait = temperate
+				OR = {
+					trait = temperate
+					trait = temperate_hidden
+				}
 			}
 		}
 		prestige = 5
@@ -3503,9 +4211,15 @@ character_event = {
 		name = EVTOPTC4155
 		tooltip_info = temperate
 		trigger = {
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 			NOT = {
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 		}
 		change_learning = 1
@@ -3515,9 +4229,15 @@ character_event = {
 		name = EVTOPTD4155
 		tooltip_info = kind
 		trigger = {
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		change_intrigue = 1
@@ -3570,17 +4290,38 @@ character_event = {
 		war = no
 		in_command = no
 		OR = {
-			trait = lunatic
-			trait = possessed
-			trait = infirm
-			trait = drunkard
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		any_vassal = {
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		any_vassal = {
-			trait = ambitious
-			trait = wroth
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 	}
 	
@@ -3589,11 +4330,17 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 5
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 	}
 	
@@ -3612,7 +4359,10 @@ character_event = {
 		}
 		random_vassal = {
 			limit = {
-				trait = diligent
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
 			}
 			reverse_opinion = {
 				modifier = opinion_my_saviour
@@ -3632,8 +4382,14 @@ character_event = {
 		}
 		random_courtier = {
 			limit = {
-				trait = ambitious
-				trait = wroth
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			reverse_opinion = {
 				modifier = opinion_fool_courtier

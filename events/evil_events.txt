@@ -49,35 +49,75 @@ province_event = {
 		#traits affect this
 		modifier = {
 			factor = 1.5
-			owner = { trait = ambitious }
+			owner = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 5.0
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			owner = { trait = arbitrary }
+			owner = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = greedy }
+			owner = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = cruel }
+			owner = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.1
-			owner = { trait = slothful }
+			owner = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			owner = { trait = incapable }
+			owner = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			owner = { trait = infirm }
+			owner = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				} 
+			}
 		}
 
 		#modify by stewardship and intrigue	
@@ -148,7 +188,12 @@ province_event = {
 	
 		modifier = {
 			factor = 0.75
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}			
 	}
 	
@@ -246,35 +291,75 @@ province_event = {
 		#traits affect this
 		modifier = {
 			factor = 1.5
-			owner = { trait = ambitious }
+			owner = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 5.0
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			owner = { trait = arbitrary }
+			owner = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = greedy }
+			owner = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = cruel }
+			owner = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.1
-			owner = { trait = slothful }
+			owner = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			owner = { trait = incapable }
+			owner = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			owner = { trait = infirm }
+			owner = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				} 
+			}
 		}
 	}
 	
@@ -317,7 +402,12 @@ province_event = {
 	
 		modifier = {
 			factor = 0.75
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}			
 	}
 	
@@ -393,35 +483,75 @@ province_event = {
 		#traits affect this
 		modifier = {
 			factor = 1.5
-			owner = { trait = ambitious }
+			owner = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 5.0
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			owner = { trait = arbitrary }
+			owner = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = greedy }
+			owner = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = cruel }
+			owner = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.1
-			owner = { trait = slothful }
+			owner = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			owner = { trait = incapable }
+			owner = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			owner = { trait = infirm }
+			owner = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				} 
+			}
 		}
 	}
 	
@@ -464,7 +594,12 @@ province_event = {
 	
 		modifier = {
 			factor = 0.75
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}			
 	}
 	
@@ -539,35 +674,75 @@ province_event = {
 		#traits affect this
 		modifier = {
 			factor = 1.5
-			owner = { trait = ambitious }
+			owner = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 5.0
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			owner = { trait = arbitrary }
+			owner = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = greedy }
+			owner = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.7
-			owner = { trait = cruel }
+			owner = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				} 
+			}
 		}		
 		modifier = {
 			factor = 0.1
-			owner = { trait = slothful }
+			owner = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			owner = { trait = incapable }
+			owner = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			owner = { trait = infirm }
+			owner = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				} 
+			}
 		}
 	}
 	
@@ -609,7 +784,12 @@ province_event = {
 	
 		modifier = {
 			factor = 0.75
-			owner = { trait = just }
+			owner = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				} 
+			}
 		}			
 	}
 	

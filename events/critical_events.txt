@@ -23,7 +23,10 @@ character_event = {
 		NOT = {
 			num_traits = 4
 		}
-		trait = indulgent_wastrel
+		OR = {
+			trait = indulgent_wastrel
+			trait = indulgent_wastrel_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -31,7 +34,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.8
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
 		}
 	}
 	
@@ -117,7 +123,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = maimed
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
 				}
 			}
 			random = {

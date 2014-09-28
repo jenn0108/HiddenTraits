@@ -20,95 +20,168 @@ character_event = {
 	prisoner = no
 	
 	trigger = {
-		NOT = { trait = proud }
-		NOT = { trait = humble }
+		NOT = {
+			 OR = {
+				trait = proud
+				trait = proud_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			} 
+		}
 	}
 
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.1
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 0.4
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}
 		
 	}	
@@ -179,11 +252,19 @@ character_event = {
 		}
 		modifier = {
 			factor = 2.0
-			spouse = { trait = poet }
+			spouse = {
+				 OR = {
+					trait = poet
+					trait = poet_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}	
 	
@@ -192,7 +273,12 @@ character_event = {
 		wealth = -10
 		spouse = { fertility = 0.1 }
 		if = {
-			limit = { spouse = { not = {trait = lustful } } }
+			limit = {
+				 spouse = { not = {OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} } } 
+			}
 			spouse = { add_trait = lustful }
 		}
 		opinion = {
@@ -220,7 +306,12 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT= { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		if = {
@@ -244,7 +335,12 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 0
-				NOT= { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		if = {
@@ -290,7 +386,10 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 0.1
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 	}	
 	
@@ -338,7 +437,10 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 1.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}	
 	
@@ -346,7 +448,12 @@ character_event = {
 		name = EVTOPTA73003 # We are rich, we can support this.
 		wealth = -25
 		if = {
-			limit = { trait = greedy }
+			limit = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 			prestige = -5
 		}
 	}	
@@ -386,11 +493,17 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.1
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}		
 	}	
 	
@@ -426,101 +539,180 @@ character_event = {
 	trigger = {
 		in_command = no
 		OR = {
-			trait = fair
-			trait = ugly
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
+			OR = {
+				trait = ugly
+				trait = ugly_hidden
+			}
 		}
-		NOT = {	trait = humble	}
+		NOT = {
+				OR = {
+				trait = humble
+				trait = humble_hidden
+			}	
+		}
 	}
 
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 2.0
-			trait = proud
-			trait = fair
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			OR = {
+				trait = fair
+				trait = fair_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 0.4
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}
 	}	
 	
 	option = {
 		name = EVTOPTA73005 #Introduce fashion at the court
 		if = {
-			limit = { trait = fair }
+			limit = {
+				 OR = {
+					trait = fair
+					trait = fair_hidden
+				} 
+			}
 			random = {
 				chance = 10
 				add_trait = proud 
@@ -571,8 +763,18 @@ character_event = {
 			age = 16
 			NOT = { age = 21 }
 			NOT = { demesne_size = 1 }
-			NOT = { trait = chaste }
-			NOT = { trait = celibate }
+			NOT = {
+				 OR = {
+					trait = chaste
+					trait = chaste_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = celibate
+					trait = celibate_hidden
+				} 
+			}
 		}
 	}
 	immediate = {
@@ -583,8 +785,18 @@ character_event = {
 				age = 16
 				NOT = { age = 21 }
 				NOT = { demesne_size = 1 }
-				NOT = { trait = chaste }
-				NOT = { trait = celibate }
+				NOT = {
+					 OR = {
+						trait = chaste
+						trait = chaste_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = celibate
+						trait = celibate_hidden
+					} 
+				}
 			}
 			set_character_flag = knock_up_maid
 		}
@@ -593,8 +805,18 @@ character_event = {
 	option = {
 		name = EVTOPTA73006 #That's my boy
 		trigger = {
-			NOT = { trait = chaste }
-			NOT = { trait = celibate }
+			NOT = {
+				 OR = {
+					trait = chaste
+					trait = chaste_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = celibate
+					trait = celibate_hidden
+				} 
+			}
 		}
 		piety = -10
 		random_child = {
@@ -695,31 +917,66 @@ character_event = {
 			is_abroad = no
 			prisoner = no
 			is_alive = yes
-			NOT = { trait = shy } 
-			NOT = { trait = zealous }
+			NOT = { 
+				 OR = {
+					trait = shy
+					trait = shy_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			NOT = { demesne_size = 1 }
 			opinion = { who = ROOT value = 10 }
 		}
-		NOT = { trait = zealous }
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
 	}
 
 	weight_multiplier = {
 		days = 1
 		modifier = {
 			factor = 1.25
-			spouse = { trait = stressed }
+			spouse = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			spouse = { trait = greedy }
+			spouse = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			spouse = { trait = fair }
+			spouse = {
+				 OR = {
+					trait = fair
+					trait = fair_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 2.5
-			spouse = { trait = ugly }
+			spouse = {
+				 OR = {
+					trait = ugly
+					trait = ugly_hidden
+				} 
+			}
 		}
 
 	}	
@@ -727,10 +984,20 @@ character_event = {
 	option = {
 		name = EVTOPTA73007 #My money is your money, darling
 		trigger = {
-			NOT = { trait = greedy }
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		if = {
-			limit = { spouse = { trait = stressed  } }
+			limit = {
+				 spouse = { OR = {
+					trait = stressed
+					trait = stressed_hidden
+				}  } 
+			}
 			spouse = { remove_trait = stressed  }
 		}
 		add_trait = charitable
@@ -742,7 +1009,12 @@ character_event = {
 			religion_group = christian
 		}
 		if = {
-			limit = { trait = cynical }
+			limit = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 			prestige = -5
 		}
 		add_trait = zealous
@@ -752,7 +1024,12 @@ character_event = {
 	option = {
 		name = EVTOPTC73007 #Shoo, this is my money you're talking about
 		trigger = {
-			NOT = { trait = greedy }
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		add_trait = greedy
 		spouse = {
@@ -786,11 +1063,17 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 0.05
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}	
 		modifier = {
 			factor = 1.25
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}	
 	}
 	option = {
@@ -832,91 +1115,157 @@ character_event = {
 		days = 1	
 		modifier = {
 			factor = 1.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.2
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.2
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 0.9
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 0.8
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 0.4
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 0.5
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}
 	}
 
@@ -998,85 +1347,145 @@ character_event = {
 		}
 		modifier = {
 			factor = 5.0
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		
 		
 		modifier = {
 			factor = 1.25
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 1.15
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 1.1
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}		
 	}
 	
@@ -1087,14 +1496,54 @@ character_event = {
 	option = {
 		name = EVTOPTA73011 #I am avoiding tempration.
 		trigger = {
-			NOT = { trait = cynical }
-			NOT = { trait = lustful }
-			NOT = { trait = gluttonous }
-			NOT = { trait = greedy }
-			NOT = { trait = slothful }
-			NOT = { trait = envious }
-			NOT = { trait = wroth }
-			NOT = { trait = proud }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = lustful
+					trait = lustful_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = wroth
+					trait = wroth_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
 
 		}
 		health = -1
@@ -1103,62 +1552,109 @@ character_event = {
 	option = {
 		name = EVTOPTB73011 #Forgive me father, for I have sinned.
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 			OR = {
-				trait = lustful
-				trait = gluttonous
-				trait = greedy
-				trait = slothful
-				trait = envious
-				trait = wroth
-				trait = proud
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 		}
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			remove_trait = lustful
 			piety = -20
 		}
 		if = {
 			limit = {
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 			remove_trait = gluttonous
 			piety = -20
 		}
 		if = {
 			limit = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			remove_trait = greedy
 			piety = -20
 		}		
 		if = {
 			limit = {
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 			remove_trait = slothful
 			piety = -20
 		}		
 		if = {
 			limit = {
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			remove_trait = envious
 			piety = -20
 		}		
 		if = {
 			limit = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			remove_trait = wroth
 			piety = -20
 		}
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			remove_trait = proud
 			piety = -20
@@ -1168,8 +1664,16 @@ character_event = {
 		name = EVTOPTC73011 	#I do not fear death...
 		tooltip_info = cynical
 		trigger = { 
-			trait = cynical 
-			NOT = { trait = craven }
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}
 		piety = -5
 		prestige = 5
@@ -1219,7 +1723,10 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 	}
 	
@@ -1264,8 +1771,18 @@ letter_event = {
 		name = EVTOPTB73201 
 		trigger = {
 			job_marshal = { 
-				NOT = { trait = stressed } 
-				NOT = { trait = depressed } 
+				NOT = { 
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
+				NOT = { 
+					 OR = {
+						trait = depressed
+						trait = depressed_hidden
+					} 
+				}
 			}
 		}
 		job_marshal = {
@@ -1312,8 +1829,18 @@ letter_event = {
 	option = {
 		name = EVTOPTB73202 
 		trigger = {
-			NOT = { trait = ambitious }
-			NOT = { trait = proud }
+			NOT = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
 		}
 		prestige = -5
 	}
@@ -1438,7 +1965,10 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 	}
 	immediate = {
@@ -1484,8 +2014,18 @@ letter_event = {
 		name = EVTOPTB73211 
 		trigger = {
 			job_spymaster = { 
-				NOT = { trait = stressed } 
-				NOT = { trait = depressed } 
+				NOT = { 
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
+				NOT = { 
+					 OR = {
+						trait = depressed
+						trait = depressed_hidden
+					} 
+				}
 			}
 		}
 		job_spymaster = {
@@ -1534,8 +2074,18 @@ letter_event = {
 	option = {
 		name = EVTOPTB73212 
 		trigger = {
-			NOT = { trait = ambitious }
-			NOT = { trait = proud }
+			NOT = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
 		}
 		prestige = -5
 	}
@@ -1659,7 +2209,10 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 	}
 	immediate = {
@@ -1703,8 +2256,18 @@ letter_event = {
 		name = EVTOPTB73221 
 		trigger = {
 			job_treasurer = { 
-				NOT = { trait = stressed } 
-				NOT = { trait = depressed } 
+				NOT = { 
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
+				NOT = { 
+					 OR = {
+						trait = depressed
+						trait = depressed_hidden
+					} 
+				}
 			}
 		}
 		job_treasurer = {
@@ -1750,8 +2313,18 @@ letter_event = {
 	option = {
 		name = EVTOPTB73222 
 		trigger = {
-			NOT = { trait = ambitious }
-			NOT = { trait = proud }
+			NOT = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
 		}
 		prestige = -5
 	}
@@ -1896,7 +2469,10 @@ character_event = {
 		
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 	}
 	immediate = {
@@ -1947,8 +2523,18 @@ letter_event = {
 		name = EVTOPTB73231 
 		trigger = {
 			job_spiritual = { 
-				NOT = { trait = stressed } 
-				NOT = { trait = depressed } 
+				NOT = { 
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
+				NOT = { 
+					 OR = {
+						trait = depressed
+						trait = depressed_hidden
+					} 
+				}
 			}
 		}
 		job_spiritual = {
@@ -1994,8 +2580,18 @@ letter_event = {
 	option = {
 		name = EVTOPTB73232 
 		trigger = {
-			NOT = { trait = ambitious }
-			NOT = { trait = proud }
+			NOT = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
 		}
 		prestige = -5
 	}
@@ -2123,7 +2719,10 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 0.25
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 	}
 	immediate = {
@@ -2167,8 +2766,18 @@ letter_event = {
 		name = EVTOPTB73241 
 		trigger = {
 			job_chancellor = { 
-				NOT = { trait = stressed } 
-				NOT = { trait = depressed } 
+				NOT = { 
+					 OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} 
+				}
+				NOT = { 
+					 OR = {
+						trait = depressed
+						trait = depressed_hidden
+					} 
+				}
 			}
 		}
 		job_chancellor = {
@@ -2214,8 +2823,18 @@ letter_event = {
 	option = {
 		name = EVTOPTB73242 
 		trigger = {
-			NOT = { trait = ambitious }
-			NOT = { trait = proud }
+			NOT = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
 		}
 		prestige = -5
 	}

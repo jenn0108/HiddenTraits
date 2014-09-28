@@ -56,9 +56,15 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = mutazilite
+		OR = {
+			trait = mutazilite
+			trait = mutazilite_hidden
+		}
 		liege = { 
-			trait = ashari 
+			OR = {
+				trait = ashari
+				trait = ashari_hidden
+			} 
 			NOT = {
 				has_opinion_modifier = { who = ROOT modifier = opinion_rejected_school }
 			}
@@ -186,9 +192,15 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = ashari
+		OR = {
+			trait = ashari
+			trait = ashari_hidden
+		}
 		liege = { 
-			trait = mutazilite
+			OR = {
+				trait = mutazilite
+				trait = mutazilite_hidden
+			}
 			NOT = {
 				has_opinion_modifier = { who = ROOT modifier = opinion_rejected_school }
 			}
@@ -317,8 +329,14 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = ashari
-		trait = cynical
+		OR = {
+			trait = ashari
+			trait = ashari_hidden
+		}
+		OR = {
+			trait = cynical
+			trait = cynical_hidden
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -364,8 +382,14 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Sons of Abraham"
-		trait = mutazilite
-		trait = zealous
+		OR = {
+			trait = mutazilite
+			trait = mutazilite_hidden
+		}
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 	}
 	
 	mean_time_to_happen = {

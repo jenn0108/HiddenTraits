@@ -449,7 +449,12 @@ character_event = {
 					independent = no
 					NOT = { is_liege_of = ROOT }
 					NOT = { character = ROOT }
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
 					NOT = { has_opinion_modifier = { who = liege modifier = opinion_coerced_into_leaving_faction } }
 					NOT = { has_character_flag = faction_member }
 					age = 16
@@ -465,7 +470,12 @@ character_event = {
 						independent = no
 						NOT = { is_liege_of = ROOT }
 						NOT = { character = ROOT }
-						NOT = { trait = incapable }
+						NOT = {
+							 OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+						}
 						NOT = { has_opinion_modifier = { who = liege modifier = opinion_coerced_into_leaving_faction } }
 						NOT = { has_character_flag = faction_member }
 						age = 16
@@ -564,12 +574,30 @@ letter_event = {
 			any_vassal = {
 				has_character_flag = faction_member
 				OR = {
-					trait = homosexual
-					trait = impaler
-					trait = lustful
-					trait = drunkard
-					trait = hedonist
-					trait = syphilitic
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
+					OR = {
+						trait = impaler
+						trait = impaler_hidden
+					}
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
+					OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					}
+					OR = {
+						trait = hedonist
+						trait = hedonist_hidden
+					}
+					OR = {
+						trait = syphilitic
+						trait = syphilitic_hidden
+					}
 				}
 			}
 		}
@@ -587,11 +615,26 @@ letter_event = {
 			any_vassal = {
 				has_character_flag = faction_member
 				OR = {
-					trait = just
-					trait = honest
-					trait = trusting
-					trait = content
-					trait = kind
+					OR = {
+						trait = just
+						trait = just_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
+					OR = {
+						trait = trusting
+						trait = trusting_hidden
+					}
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
 				}
 			}
 		}
@@ -609,11 +652,26 @@ letter_event = {
 			any_vassal = {
 				has_character_flag = faction_member
 				OR = {
-					trait = craven
-					trait = paranoid
-					trait = cynical
-					trait = humble
-					trait = slothful
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
+					OR = {
+						trait = humble
+						trait = humble_hidden
+					}
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
 				}
 			}
 		}
@@ -632,22 +690,70 @@ letter_event = {
 				has_character_flag = faction_member
 				NOT = {
 					OR = {
-						trait = craven
-						trait = paranoid
-						trait = cynical
-						trait = humble
-						trait = slothful
-						trait = just
-						trait = honest
-						trait = trusting
-						trait = content
-						trait = kind
-						trait = homosexual
-						trait = impaler
-						trait = lustful
-						trait = drunkard
-						trait = hedonist
-						trait = syphilitic
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = humble
+							trait = humble_hidden
+						}
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
+						OR = {
+							trait = honest
+							trait = honest_hidden
+						}
+						OR = {
+							trait = trusting
+							trait = trusting_hidden
+						}
+						OR = {
+							trait = content
+							trait = content_hidden
+						}
+						OR = {
+							trait = kind
+							trait = kind_hidden
+						}
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
+						OR = {
+							trait = impaler
+							trait = impaler_hidden
+						}
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
+						OR = {
+							trait = hedonist
+							trait = hedonist_hidden
+						}
+						OR = {
+							trait = syphilitic
+							trait = syphilitic_hidden
+						}
 					}
 				}
 			}
@@ -684,7 +790,12 @@ letter_event = {
 	option = { # Agree (Homosexual)
 		name = "EVTOPTA9002"
 		tooltip_info = homosexual
-		trigger = { trait = homosexual }
+		trigger = {
+			 OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -704,7 +815,12 @@ letter_event = {
 	option = { # Agree (Impaler)
 		name = "EVTOPTB9002"
 		tooltip_info = impaler
-		trigger = { trait = impaler }
+		trigger = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -724,7 +840,12 @@ letter_event = {
 	option = { # Agree (Lustful)
 		name = "EVTOPTC9002"
 		tooltip_info = lustful
-		trigger = { trait = lustful }
+		trigger = {
+			 OR = {
+				trait = lustful
+				trait = lustful_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -744,7 +865,12 @@ letter_event = {
 	option = { # Agree (Drunkard)
 		name = "EVTOPTD9002"
 		tooltip_info = drunkard
-		trigger = { trait = drunkard }
+		trigger = {
+			 OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -764,7 +890,12 @@ letter_event = {
 	option = { # Agree (Hedonist)
 		name = "EVTOPTE9002"
 		tooltip_info = hedonist
-		trigger = { trait = hedonist }
+		trigger = {
+			 OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -784,7 +915,12 @@ letter_event = {
 	option = { # Agree (Syphilis)
 		name = "EVTOPTF9002"
 		tooltip_info = syphilitic
-		trigger = { trait = syphilitic }
+		trigger = {
+			 OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -884,7 +1020,12 @@ letter_event = {
 		option = { # Agree (Just)
 		name = "EVTOPTA9005"
 		tooltip_info = just
-		trigger = { trait = just }
+		trigger = {
+			 OR = {
+				trait = just
+				trait = just_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -904,7 +1045,12 @@ letter_event = {
 	option = { # Agree (Honest)
 		name = "EVTOPTB9005"
 		tooltip_info = honest
-		trigger = { trait = honest }
+		trigger = {
+			 OR = {
+				trait = honest
+				trait = honest_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -924,7 +1070,12 @@ letter_event = {
 	option = { # Agree (Trusting)
 		name = "EVTOPTC9005"
 		tooltip_info = trusting
-		trigger = { trait = trusting }
+		trigger = {
+			 OR = {
+				trait = trusting
+				trait = trusting_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -944,7 +1095,12 @@ letter_event = {
 	option = { # Agree (Content)
 		name = "EVTOPTD9005"
 		tooltip_info = content
-		trigger = { trait = content }
+		trigger = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -964,7 +1120,12 @@ letter_event = {
 	option = { # Agree (Kind)
 		name = "EVTOPTE9005"
 		tooltip_info = kind
-		trigger = { trait = kind }
+		trigger = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1039,7 +1200,12 @@ letter_event = {
 		option = { # Agree (Craven)
 		name = "EVTOPTA9008"
 		tooltip_info = craven
-		trigger = { trait = craven }
+		trigger = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1059,7 +1225,12 @@ letter_event = {
 	option = { # Agree (Paranoid)
 		name = "EVTOPTB9008"
 		tooltip_info = paranoid
-		trigger = { trait = paranoid }
+		trigger = {
+			 OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1079,7 +1250,12 @@ letter_event = {
 	option = { # Agree (Cynical)
 		name = "EVTOPTC9008"
 		tooltip_info = cynical
-		trigger = { trait = cynical }
+		trigger = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1099,7 +1275,12 @@ letter_event = {
 	option = { # Agree (Humble)
 		name = "EVTOPTD9008"
 		tooltip_info = humble
-		trigger = { trait = humble }
+		trigger = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1119,7 +1300,12 @@ letter_event = {
 	option = { # Agree (Slothful)
 		name = "EVTOPTE9008"
 		tooltip_info = slothful
-		trigger = { trait = slothful }
+		trigger = {
+			 OR = {
+				trait = slothful
+				trait = slothful_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1185,7 +1371,12 @@ character_event = {
 				independent = no
 				NOT = { is_liege_of = ROOT }
 				NOT = { character = ROOT }
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				ROOT = {
 					liege = {
 						NOT = { reverse_has_opinion_modifier = { who = PREVPREV modifier = opinion_coerced_into_joining_faction } }
@@ -1267,12 +1458,30 @@ letter_event = {
 				any_vassal = {
 					has_character_flag = faction_recruit
 					OR = {
-						trait = homosexual
-						trait = impaler
-						trait = lustful
-						trait = drunkard
-						trait = hedonist
-						trait = syphilitic
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
+						OR = {
+							trait = impaler
+							trait = impaler_hidden
+						}
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
+						OR = {
+							trait = hedonist
+							trait = hedonist_hidden
+						}
+						OR = {
+							trait = syphilitic
+							trait = syphilitic_hidden
+						}
 					}
 				}
 			}
@@ -1291,11 +1500,26 @@ letter_event = {
 				any_vassal = {
 					has_character_flag = faction_recruit
 					OR = {
-						trait = craven
-						trait = paranoid
-						trait = cynical
-						trait = humble
-						trait = slothful
+						OR = {
+							trait = craven
+							trait = craven_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = humble
+							trait = humble_hidden
+						}
+						OR = {
+							trait = slothful
+							trait = slothful_hidden
+						}
 					}
 				}
 			}
@@ -1315,17 +1539,50 @@ letter_event = {
 					has_character_flag = faction_recruit
 					NOT = {
 						OR = {
-							trait = craven
-							trait = paranoid
-							trait = cynical
-							trait = humble
-							trait = slothful
-							trait = homosexual
-							trait = impaler
-							trait = lustful
-							trait = drunkard
-							trait = hedonist
-							trait = syphilitic
+							OR = {
+								trait = craven
+								trait = craven_hidden
+							}
+							OR = {
+								trait = paranoid
+								trait = paranoid_hidden
+							}
+							OR = {
+								trait = cynical
+								trait = cynical_hidden
+							}
+							OR = {
+								trait = humble
+								trait = humble_hidden
+							}
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
+							OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							}
+							OR = {
+								trait = impaler
+								trait = impaler_hidden
+							}
+							OR = {
+								trait = lustful
+								trait = lustful_hidden
+							}
+							OR = {
+								trait = drunkard
+								trait = drunkard_hidden
+							}
+							OR = {
+								trait = hedonist
+								trait = hedonist_hidden
+							}
+							OR = {
+								trait = syphilitic
+								trait = syphilitic_hidden
+							}
 						}
 					}
 				}
@@ -1361,7 +1618,12 @@ letter_event = {
 	option = { # Agree (Homosexual)
 		name = "EVTOPTA9002"
 		tooltip_info = homosexual
-		trigger = { trait = homosexual }
+		trigger = {
+			 OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1381,7 +1643,12 @@ letter_event = {
 	option = { # Agree (Impaler)
 		name = "EVTOPTB9002"
 		tooltip_info = impaler
-		trigger = { trait = impaler }
+		trigger = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1401,7 +1668,12 @@ letter_event = {
 	option = { # Agree (Lustful)
 		name = "EVTOPTC9002"
 		tooltip_info = lustful
-		trigger = { trait = lustful }
+		trigger = {
+			 OR = {
+				trait = lustful
+				trait = lustful_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1421,7 +1693,12 @@ letter_event = {
 	option = { # Agree (Drunkard)
 		name = "EVTOPTD9002"
 		tooltip_info = drunkard
-		trigger = { trait = drunkard }
+		trigger = {
+			 OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1441,7 +1718,12 @@ letter_event = {
 	option = { # Agree (Hedonist)
 		name = "EVTOPTE9002"
 		tooltip_info = hedonist
-		trigger = { trait = hedonist }
+		trigger = {
+			 OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1461,7 +1743,12 @@ letter_event = {
 	option = { # Agree (Syphilis)
 		name = "EVTOPTF9002"
 		tooltip_info = syphilitic
-		trigger = { trait = syphilitic }
+		trigger = {
+			 OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1599,7 +1886,12 @@ letter_event = {
 	option = { # Agree (Paranoid)
 		name = "EVTOPTB9008"
 		tooltip_info = paranoid
-		trigger = { trait = paranoid }
+		trigger = {
+			 OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1619,7 +1911,12 @@ letter_event = {
 	option = { # Agree (Cynical)
 		name = "EVTOPTC9008"
 		tooltip_info = cynical
-		trigger = { trait = cynical }
+		trigger = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1639,7 +1936,12 @@ letter_event = {
 	option = { # Agree (Humble)
 		name = "EVTOPTD9008"
 		tooltip_info = humble
-		trigger = { trait = humble }
+		trigger = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -1659,7 +1961,12 @@ letter_event = {
 	option = { # Agree (Slothful)
 		name = "EVTOPTE9008"
 		tooltip_info = slothful
-		trigger = { trait = slothful }
+		trigger = {
+			 OR = {
+				trait = slothful
+				trait = slothful_hidden
+			} 
+		}
 		FROM = {
 			opinion = {
 				modifier = opinion_pleased
@@ -2026,7 +2333,10 @@ character_event = {
 								NOT = { opinion = { who = PREVPREV value = 0 } }
 							}
 						}
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 						is_female = no
 						num_of_vassals = 1
 					}
@@ -2097,7 +2407,10 @@ character_event = {
 								NOT = { opinion = { who = PREVPREV value = 0 } }
 							}
 						}
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 						is_female = no
 						num_of_vassals = 1
 						has_character_flag = vicious_rumor
@@ -2132,7 +2445,10 @@ character_event = {
 								NOT = { opinion = { who = PREVPREV value = 0 } }
 							}
 						}
-						trait = homosexual
+						OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						}
 						is_female = no
 						num_of_vassals = 1
 						has_character_flag = vicious_rumor
@@ -2166,7 +2482,10 @@ character_event = {
 							NOT = { opinion = { who = PREVPREV value = 0 } }
 						}
 					}
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 					is_female = no
 					num_of_vassals = 1
 					has_character_flag = vicious_rumor
@@ -2205,8 +2524,14 @@ character_event = {
 			modifier = {
 				factor = 3.0
 				OR = {
-					trait = wroth
-					trait = paranoid
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 			}
 		}
@@ -2238,9 +2563,18 @@ character_event = {
 			modifier = {
 				factor = 3.0
 				OR = {
-					trait = proud
-					trait = honest
-					trait = brave
+					OR = {
+						trait = proud
+						trait = proud_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
+					OR = {
+						trait = brave
+						trait = brave_hidden
+					}
 				}
 			}
 		}
@@ -2502,14 +2836,24 @@ character_event = {
 			any_vassal = {
 				limit = {
 					NOT = { opinion = { who = ROOT value = 0 } }
-					NOT = { trait = homosexual }
+					NOT = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 				}
 				set_character_flag = opinion_liege_homosexual
 			}
 			any_courtier = {
 				limit = {
 					NOT = { opinion = { who = ROOT value = 0 } }
-					NOT = { trait = homosexual }
+					NOT = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 				}
 				set_character_flag = opinion_liege_homosexual
 			}		

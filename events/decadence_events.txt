@@ -252,7 +252,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		NOT = { has_character_flag = decadence_drunkard }
 	}
 	
@@ -281,7 +284,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = homosexual
+		OR = {
+			trait = homosexual
+			trait = homosexual_hidden
+		}
 		NOT = { has_character_flag = decadence_homosexual }
 	}
 	
@@ -310,7 +316,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = hedonist
+		OR = {
+			trait = hedonist
+			trait = hedonist_hidden
+		}
 		NOT = { has_character_flag = decadence_hedonist }
 	}
 	
@@ -339,7 +348,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = impaler
+		OR = {
+			trait = impaler
+			trait = impaler_hidden
+		}
 		NOT = { has_character_flag = decadence_impaler }
 	}
 	
@@ -368,7 +380,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		NOT = { has_character_flag = decadence_lustful }
 	}
 	
@@ -397,7 +412,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 		NOT = { has_character_flag = decadence_gluttonous }
 	}
 	
@@ -426,7 +444,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = greedy
+		OR = {
+			trait = greedy
+			trait = greedy_hidden
+		}
 		NOT = { has_character_flag = decadence_greedy }
 	}
 	
@@ -455,7 +476,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = slothful
+		OR = {
+			trait = slothful
+			trait = slothful_hidden
+		}
 		NOT = { has_character_flag = decadence_slothful }
 	}
 	
@@ -484,7 +508,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = envious
+		OR = {
+			trait = envious
+			trait = envious_hidden
+		}
 		NOT = { has_character_flag = decadence_envious }
 	}
 	
@@ -513,7 +540,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = wroth
+		OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
 		NOT = { has_character_flag = decadence_wroth }
 	}
 	
@@ -542,7 +572,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		NOT = { has_character_flag = decadence_proud }
 	}
 	
@@ -571,7 +604,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = deceitful
+		OR = {
+			trait = deceitful
+			trait = deceitful_hidden
+		}
 		NOT = { has_character_flag = decadence_deceitful }
 	}
 	
@@ -600,7 +636,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = craven
+		OR = {
+			trait = craven
+			trait = craven_hidden
+		}
 		NOT = { has_character_flag = decadence_craven }
 	}
 	
@@ -629,7 +668,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = content
+		OR = {
+			trait = content
+			trait = content_hidden
+		}
 		NOT = { has_character_flag = decadence_content }
 	}
 	
@@ -658,7 +700,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = arbitrary
+		OR = {
+			trait = arbitrary
+			trait = arbitrary_hidden
+		}
 		NOT = { has_character_flag = decadence_arbitrary }
 	}
 	
@@ -687,7 +732,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = cynical
+		OR = {
+			trait = cynical
+			trait = cynical_hidden
+		}
 		NOT = { has_character_flag = decadence_cynical }
 	}
 	
@@ -716,7 +764,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = paranoid
+		OR = {
+			trait = paranoid
+			trait = paranoid_hidden
+		}
 		NOT = { has_character_flag = decadence_paranoid }
 	}
 	
@@ -745,7 +796,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = cruel
+		OR = {
+			trait = cruel
+			trait = cruel_hidden
+		}
 		NOT = { has_character_flag = decadence_cruel }
 	}
 	
@@ -776,7 +830,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = genius
+		OR = {
+			trait = genius
+			trait = genius_hidden
+		}
 		NOT = { has_character_flag = decadence_genius }
 	}
 	
@@ -805,7 +862,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = celibate
+		OR = {
+			trait = celibate
+			trait = celibate_hidden
+		}
 		NOT = { has_character_flag = decadence_celibate }
 	}
 	
@@ -834,7 +894,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = scholar
+		OR = {
+			trait = scholar
+			trait = scholar_hidden
+		}
 		NOT = { has_character_flag = decadence_scholar }
 	}
 	
@@ -863,7 +926,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = chaste
+		OR = {
+			trait = chaste
+			trait = chaste_hidden
+		}
 		NOT = { has_character_flag = decadence_chaste }
 	}
 	
@@ -892,7 +958,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = temperate
+		OR = {
+			trait = temperate
+			trait = temperate_hidden
+		}
 		NOT = { has_character_flag = decadence_temperate }
 	}
 	
@@ -921,7 +990,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		NOT = { has_character_flag = decadence_charitable }
 	}
 	
@@ -950,7 +1022,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 		NOT = { has_character_flag = decadence_diligent }
 	}
 	
@@ -979,7 +1054,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = kind
+		OR = {
+			trait = kind
+			trait = kind_hidden
+		}
 		NOT = { has_character_flag = decadence_kind }
 	}
 	
@@ -1008,7 +1086,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = patient
+		OR = {
+			trait = patient
+			trait = patient_hidden
+		}
 		NOT = { has_character_flag = decadence_patient }
 	}
 	
@@ -1037,7 +1118,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = humble
+		OR = {
+			trait = humble
+			trait = humble_hidden
+		}
 		NOT = { has_character_flag = decadence_humble }
 	}
 	
@@ -1066,7 +1150,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = honest
+		OR = {
+			trait = honest
+			trait = honest_hidden
+		}
 		NOT = { has_character_flag = decadence_honest }
 	}
 	
@@ -1095,7 +1182,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = brave
+		OR = {
+			trait = brave
+			trait = brave_hidden
+		}
 		NOT = { has_character_flag = decadence_brave }
 	}
 	
@@ -1124,7 +1214,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = ambitious
+		OR = {
+			trait = ambitious
+			trait = ambitious_hidden
+		}
 		NOT = { has_character_flag = decadence_ambitious }
 	}
 	
@@ -1153,7 +1246,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = just
+		OR = {
+			trait = just
+			trait = just_hidden
+		}
 		NOT = { has_character_flag = decadence_just }
 	}
 	
@@ -1182,7 +1278,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		NOT = { has_character_flag = decadence_zealous }
 	}
 	
@@ -1211,7 +1310,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = mujahid
+		OR = {
+			trait = mujahid
+			trait = mujahid_hidden
+		}
 		NOT = { has_character_flag = decadence_mujahid }
 	}
 	
@@ -1240,7 +1342,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = hafiz
+		OR = {
+			trait = hafiz
+			trait = hafiz_hidden
+		}
 		NOT = { has_character_flag = decadence_hafiz }
 	}
 	
@@ -1269,7 +1374,10 @@ character_event = {
 	
 	trigger = {
 		religion_group = muslim
-		trait = hajjaj
+		OR = {
+			trait = hajjaj
+			trait = hajjaj_hidden
+		}
 		NOT = { has_character_flag = decadence_hajjaj }
 	}
 	
@@ -1298,11 +1406,17 @@ character_event = {
 			factor = 10
 			modifier = {
 				factor = 10
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 4
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				liege = {
 					controls_religion = yes # Stay loyal to the Caliph
 					religion = ROOT
@@ -1317,7 +1431,10 @@ character_event = {
 			factor = 3
 			modifier = {
 				factor = 3
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 100
@@ -1390,9 +1507,24 @@ character_event = {
 	trigger = {
 		num_of_dynasty_members = 3 # Does not trigger for tiny dynasties
 		religion_group = muslim
-		NOT = { trait = decadent }
-		NOT = { trait = zealous }
-		NOT = { trait = mujahid }
+		NOT = {
+			 OR = {
+				trait = decadent
+				trait = decadent_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = mujahid
+				trait = mujahid_hidden
+			} 
+		}
 		lower_tier_than = KING
 	}
 	
@@ -1401,91 +1533,157 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = indulgent_wastrel
+			OR = {
+				trait = indulgent_wastrel
+				trait = indulgent_wastrel_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = amateurish_plotter
+			OR = {
+				trait = amateurish_plotter
+				trait = amateurish_plotter_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = bad_priest_muslim
+			OR = {
+				trait = bad_priest_muslim
+				trait = bad_priest_muslim_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = faqih
+			OR = {
+				trait = faqih
+				trait = faqih_hidden
+			}
 		}
 		modifier = {
 			factor = 5.0
-			trait = hafiz
+			OR = {
+				trait = hafiz
+				trait = hafiz_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = ashari
+			OR = {
+				trait = ashari
+				trait = ashari_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = detached_priest
+			OR = {
+				trait = detached_priest
+				trait = detached_priest_hidden
+			}
 		}
 		modifier = {
 			factor = 4.0
-			trait = martial_cleric
+			OR = {
+				trait = martial_cleric
+				trait = martial_cleric_hidden
+			}
 		}
 		modifier = {
 			factor = 8.0
-			trait = scholarly_theologian
+			OR = {
+				trait = scholarly_theologian
+				trait = scholarly_theologian_hidden
+			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = mastermind_theologian
+			OR = {
+				trait = mastermind_theologian
+				trait = mastermind_theologian_hidden
+			}
 		}
 		modifier = {
 			factor = 2.5
@@ -1561,23 +1759,38 @@ character_event = {
 			}
 			modifier = {
 				factor = 4
-				trait = hedonist
+				OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 			}
 			modifier = {
 				factor = 1.5
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}
 		}
 		FROMFROM = {
@@ -1650,7 +1863,12 @@ character_event = {
 			any_dynasty_member = {
 				limit = {
 					is_playable = yes
-					NOT = { trait = decadent }
+					NOT = {
+						 OR = {
+							trait = decadent
+							trait = decadent_hidden
+						} 
+					}
 					NOT = { character = FROM }
 				}
 				
@@ -1793,7 +2011,12 @@ character_event = {
 			any_dynasty_member = {
 				limit = {
 					is_playable = yes
-					NOT = { trait = decadent }
+					NOT = {
+						 OR = {
+							trait = decadent
+							trait = decadent_hidden
+						} 
+					}
 					NOT = { character = FROM }
 				}
 				
@@ -1933,8 +2156,14 @@ character_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					trait = hajjaj
-					trait = on_hajj
+					OR = {
+						trait = hajjaj
+						trait = hajjaj_hidden
+					}
+					OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					}
 				}
 			}
 		}
@@ -2069,13 +2298,34 @@ character_event = {
 		name = EVTOPTC91365 # Suicide
 		trigger = {
 			OR = {
-				trait = stressed
-				trait = depressed
-				trait = maimed
-				trait = blinded
-				trait = eunuch
-				trait = pneumonic
-				trait = leper
+				OR = {
+					trait = stressed
+					trait = stressed_hidden
+				}
+				OR = {
+					trait = depressed
+					trait = depressed_hidden
+				}
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
+				OR = {
+					trait = blinded
+					trait = blinded_hidden
+				}
+				OR = {
+					trait = eunuch
+					trait = eunuch_hidden
+				}
+				OR = {
+					trait = pneumonic
+					trait = pneumonic_hidden
+				}
+				OR = {
+					trait = leper
+					trait = leper_hidden
+				}
 			}
 		}
 		ai_chance = {
@@ -2115,7 +2365,12 @@ character_event = {
 			any_dynasty_member = {
 				limit = {
 					is_playable = yes
-					NOT = { trait = decadent }
+					NOT = {
+						 OR = {
+							trait = decadent
+							trait = decadent_hidden
+						} 
+					}
 					NOT = { character = FROM }
 				}
 				

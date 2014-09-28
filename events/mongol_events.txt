@@ -2054,7 +2054,12 @@ character_event = {
 			title = e_il-khanate
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = il_khanate_arrival days = 14600 }
@@ -2147,7 +2152,12 @@ character_event = {
 			title = e_il-khanate
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = il_khanate_arrival days = 14600 }
@@ -2236,7 +2246,12 @@ character_event = {
 			title = e_il-khanate
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = il_khanate_arrival days = 14600 }
@@ -2326,7 +2341,12 @@ character_event = {
 			title = e_il-khanate
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = il_khanate_arrival days = 14600 }
@@ -2415,7 +2435,12 @@ character_event = {
 			title = e_il-khanate
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = il_khanate_arrival days = 14600 }
@@ -2505,7 +2530,12 @@ character_event = {
 			title = e_golden_horde
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = golden_horde_arrival days = 14600 }
@@ -2598,7 +2628,12 @@ character_event = {
 			title = e_golden_horde
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = golden_horde_arrival days = 14600 }
@@ -2688,7 +2723,12 @@ character_event = {
 			title = e_golden_horde
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = golden_horde_arrival days = 14600 }
@@ -2778,7 +2818,12 @@ character_event = {
 			title = e_golden_horde
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = golden_horde_arrival days = 14600 }
@@ -2868,7 +2913,12 @@ character_event = {
 			title = e_golden_horde
 			holder_scope = {
 				religion = tengri_pagan
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}
 		had_global_flag = { flag = golden_horde_arrival days = 14600 }
@@ -5063,9 +5113,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 		
 		OR = {
@@ -5204,9 +5269,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 	}
 	
@@ -5391,9 +5471,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 	}
 	
@@ -6012,9 +6107,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 		
 		OR = {
@@ -6205,9 +6315,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 	}
 	
@@ -6420,9 +6545,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 	}
 	
@@ -7264,9 +7404,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 		
 		OR = {
@@ -7431,9 +7586,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 	}
 	
@@ -7646,9 +7816,24 @@ character_event = {
 	
 	trigger = {
 		is_alive = yes
-		NOT = { trait = blinded }
-		NOT = { trait = eunuch }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = blinded
+				trait = blinded_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			} 
+		}
 		lower_tier_than = king
 	}
 	

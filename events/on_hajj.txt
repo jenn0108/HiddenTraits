@@ -47,8 +47,18 @@ character_event = {
 			is_female = no
 			age = 20
 			prisoner = no
-			NOT = { trait = on_hajj }
-			NOT = { trait = hajjaj }
+			NOT = {
+				 OR = {
+					trait = on_hajj
+					trait = on_hajj_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = hajjaj
+					trait = hajjaj_hidden
+				} 
+			}
 			religion_group = muslim
 			NOT = {	has_character_flag = ramadan }
 		}
@@ -57,10 +67,25 @@ character_event = {
 				age = 16
 				is_female = no
 				prisoner = no
-				NOT = { trait = on_hajj }
-				NOT = { trait = hajjaj }
+				NOT = {
+					 OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = hajjaj
+						trait = hajjaj_hidden
+					} 
+				}
 				host = { character = ROOT }
-				NOT = { trait = cynical }
+				NOT = {
+					 OR = {
+						trait = cynical
+						trait = cynical_hidden
+					} 
+				}
 				is_ruler = no
 			}
 			has_character_flag = hajj_company
@@ -79,8 +104,18 @@ character_event = {
 				age = 20
 				prisoner = no
 				religion_group = muslim
-				NOT = { trait = on_hajj }
-				NOT = { trait = hajjaj }
+				NOT = {
+					 OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = hajjaj
+						trait = hajjaj_hidden
+					} 
+				}
 			}
 			set_character_flag = invite_to_hajj
 		}
@@ -93,15 +128,24 @@ character_event = {
 			factor = 10
 			modifier = {
 				factor = 20
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			modifier = {
 				factor = 20
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 0
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 		scaled_wealth = -0.05
@@ -124,7 +168,12 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB86001"
-		trigger = { NOT = { trait = charitable } }
+		trigger = {
+			 NOT = { OR = {
+				trait = charitable
+				trait = charitable_hidden
+			} } 
+		}
 		piety = -5
 		random_courtier = {
 			limit = { has_character_flag = invite_to_hajj }
@@ -151,8 +200,18 @@ character_event = {
 			is_female = no
 			age = 40
 			religion_group = muslim
-			NOT = { trait = on_hajj }
-			NOT = { trait = hajjaj }
+			NOT = {
+				 OR = {
+					trait = on_hajj
+					trait = on_hajj_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = hajjaj
+					trait = hajjaj_hidden
+				} 
+			}
 			NOT = { has_character_flag = preparing_hajj }
 			NOT = {	has_character_flag = ramadan }
 			NOT = {	has_character_flag = asked_on_hajj }
@@ -173,11 +232,17 @@ character_event = {
 			factor = 10
 			modifier = {
 				factor = 5
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			modifier = {
 				factor = 5
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}		
 		liege = {
@@ -203,8 +268,18 @@ letter_event = {
 	
 	trigger = {
 		war = no
-		NOT = { trait = on_hajj }
-		NOT = { trait = hajjaj }
+		NOT = {
+			 OR = {
+				trait = on_hajj
+				trait = on_hajj_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = hajjaj
+				trait = hajjaj_hidden
+			} 
+		}
 		NOT = { has_character_flag = preparing_hajj }
 	}
 	
@@ -218,7 +293,10 @@ letter_event = {
 			}
 			modifier = {
 				factor = 20
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}	
 		reverse_opinion = { 
@@ -296,7 +374,10 @@ character_event = {
 	trigger = {
 		has_character_flag = preparing_hajj
 		liege = {
-			trait = hajjaj
+			OR = {
+				trait = hajjaj
+				trait = hajjaj_hidden
+			}
 			is_female = no
 			age = 20
 		}
@@ -344,10 +425,25 @@ character_event = {
 			age = 16
 			is_female = no
 			prisoner = no
-			NOT = { trait = on_hajj }
-			NOT = { trait = hajjaj }
+			NOT = {
+				 OR = {
+					trait = on_hajj
+					trait = on_hajj_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = hajjaj
+					trait = hajjaj_hidden
+				} 
+			}
 			host = { character = ROOT }
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 			is_ruler = no
 			religion_group = muslim
 		}
@@ -368,10 +464,25 @@ character_event = {
 			limit = {
 				age = 16
 				is_female = no
-				NOT = { trait = on_hajj }
-				NOT = { trait = hajjaj }
+				NOT = {
+					 OR = {
+						trait = on_hajj
+						trait = on_hajj_hidden
+					} 
+				}
+				NOT = {
+					 OR = {
+						trait = hajjaj
+						trait = hajjaj_hidden
+					} 
+				}
 				host = { character = ROOT }
-				NOT = { trait = cynical }
+				NOT = {
+					 OR = {
+						trait = cynical
+						trait = cynical_hidden
+					} 
+				}
 				is_ruler = no
 				religion_group = muslim
 			}
@@ -468,7 +579,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		is_ruler = yes
 	}
 	
@@ -583,7 +697,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -604,7 +721,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		is_ruler = yes
 	}
 	
@@ -635,7 +755,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		is_ruler = yes
 
 	}
@@ -696,7 +819,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		on_hajj = {
 			NOT = {
 				has_character_flag = hajj_arrived_in_mecca
@@ -802,8 +928,14 @@ character_event = {
 		name = "EVTOPTC86161"
 		trigger = {
 			OR = {
-				trait = paranoid
-				trait = ambitious
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 				has_character_flag = hajj_bring_guards
 			}
 		}
@@ -929,26 +1061,41 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86170"
 		trigger = {
 			OR = {
-				trait = drunkard
-				trait = gluttonous
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 		}
 		if = {
 			limit = {
-				trait = gluttonous
+				OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				}
 			}
 			remove_trait = gluttonous
 		}
 		if = {
 			limit = {
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 			}
 			remove_trait = drunkard
 		}
@@ -957,8 +1104,18 @@ character_event = {
 	option = {
 		name = "EVTOPTB86170"
 		trigger = {
-			NOT = { trait = drunkard }
-			NOT = { trait = gluttonous }
+			NOT = {
+				 OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = gluttonous
+					trait = gluttonous_hidden
+				} 
+			}
 		}	
 		piety = 15
 	}
@@ -976,7 +1133,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -1055,21 +1215,32 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86320"
 		tooltip_info = greedy
 		trigger = {
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		remove_trait = greedy		
 	}
 	option = {
 		name = "EVTOPTB86320"
 		trigger = {
-			NOT = { trait = greedy }
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		scaled_wealth = 0.1
 	}
@@ -1087,14 +1258,20 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86330"
 		tooltip_info = slothful
 		trigger = {
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		remove_trait = slothful			
 	}
@@ -1102,7 +1279,12 @@ character_event = {
 	option = {
 		name = "EVTOPTB86330"
 		trigger = {
-			NOT = { trait = slothful }
+			NOT = {
+				 OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} 
+			}
 		}
 		prestige = 25
 	}
@@ -1120,21 +1302,32 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86340"
 		tooltip_info = envious
 		trigger = {
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		remove_trait = envious				
 	}
 	option = {
 		name = "EVTOPTB86340"
 		trigger = {
-			NOT = { trait = envious }
+			NOT = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				} 
+			}
 		}	
 		piety = 15	
 	}	
@@ -1152,14 +1345,20 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86350"
 		tooltip_info = deceitful
 		trigger = {
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		remove_trait = deceitful				
 		
@@ -1168,7 +1367,12 @@ character_event = {
 	option = {
 		name = "EVTOPTB86350"
 		trigger = {
-			NOT = { trait = deceitful }
+			NOT = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				} 
+			}
 		}	
 		change_diplomacy = 1		
 	}
@@ -1186,21 +1390,32 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86360"
 		tooltip_info = craven
 		trigger = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		remove_trait = craven		
 	}
 	option = {
 		name = "EVTOPTB86360"
 		trigger = {
-			NOT = { trait = craven }
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
 		}	
 		change_martial = 1		
 	}
@@ -1218,21 +1433,32 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86380"
 		tooltip_info = arbitrary
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		remove_trait = arbitrary				
 	}
 	option = {
 		name = "EVTOPTB86380"
 		trigger = {
-			NOT = { trait = arbitrary }
+			NOT = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} 
+			}
 		}
 		change_diplomacy = 1			
 	}	
@@ -1250,21 +1476,32 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86390"
 		tooltip_info = hedonist
 		trigger = {
-			trait = hedonist
+			OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
 		}
 		remove_trait = hedonist		
 	}
 	option = {
 		name = "EVTOPTB86390"
 		trigger = {
-			NOT = { trait = hedonist }
+			NOT = {
+				 OR = {
+					trait = hedonist
+					trait = hedonist_hidden
+				} 
+			}
 		}
 		change_stewardship = 1
 	}
@@ -1282,14 +1519,20 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86400"
 		tooltip_info = cynical
 		trigger = {
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		remove_trait = cynical
 	}
@@ -1297,7 +1540,12 @@ character_event = {
 	option = {
 		name = "EVTOPTB86400"
 		trigger = {
-			NOT = { trait = cynical }
+			NOT = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
 		}
 		change_diplomacy = 1
 	}
@@ -1315,14 +1563,20 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
 		name = "EVTOPTA86410"
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		remove_trait = wroth
 	}
@@ -1330,7 +1584,12 @@ character_event = {
 	option = {
 		name = "EVTOPTB86410"
 		trigger = {
-			NOT = { trait = wroth }
+			NOT = {
+				 OR = {
+					trait = wroth
+					trait = wroth_hidden
+				} 
+			}
 		}
 		change_stewardship = 1
 	}
@@ -1372,7 +1631,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	
@@ -1411,7 +1673,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -1436,7 +1701,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -1460,7 +1728,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	immediate = {
@@ -1470,7 +1741,10 @@ character_event = {
 		name = "EVTOPTA86550"
 		if = {
 			limit = {
-				trait = proud
+				OR = {
+					trait = proud
+					trait = proud_hidden
+				}
 			}
 			add_trait = ambitious
 		}
@@ -1553,7 +1827,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -1577,7 +1854,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -1600,7 +1880,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -1608,22 +1891,42 @@ character_event = {
 		set_character_flag = on_home_from_hajj
 		clr_character_flag = hajj_arrived_in_mecca
 		if = {
-			limit = { trait = possessed }
+			limit = {
+				 OR = {
+					trait = possessed
+					trait = possessed_hidden
+				} 
+			}
 			remove_trait = possessed
 			remove_character_modifier = voice_of_satan
 			remove_character_modifier = voice_of_jesus
 			remove_character_modifier = holy_comet
 		}
 		if = {
-			limit = { trait = lunatic }
+			limit = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} 
+			}
 			remove_trait = lunatic
 		}
 		if = {
-			limit = { trait = stressed }
+			limit = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 			remove_trait = stressed
 		}	
 		if = {
-			limit = { trait = depressed }
+			limit = {
+				 OR = {
+					trait = depressed
+					trait = depressed_hidden
+				} 
+			}
 			remove_trait = depressed
 		}	
 		piety = 15		
@@ -1642,7 +1945,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	option = {
 		name = "EVTOPTA86630"
@@ -1676,7 +1982,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		NOT = { has_character_flag = hajj_bring_guards }
 		NOT = { has_character_flag = hajj_home_event }
 	}
@@ -1719,7 +2028,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		has_character_flag = hajj_bring_guards
 		NOT = { has_character_flag = hajj_home_event }
 	}
@@ -1749,7 +2061,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		NOT = { has_character_flag = hajj_home_event }
 	}
 	
@@ -1827,17 +2142,40 @@ character_event = {
 	trigger = {
 		is_ruler = yes
 		religion_group = muslim
-		NOT = { trait = hajjaj }
-		NOT = { trait = mujahid}
-		NOT = { trait = on_hajj }
-		NOT = { trait = cynical }
+		NOT = {
+			 OR = {
+				trait = hajjaj
+				trait = hajjaj_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = mujahid
+				trait = mujahid_hidden
+			}
+		}
+		NOT = {
+			 OR = {
+				trait = on_hajj
+				trait = on_hajj_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = cynical
+				trait = cynical_hidden
+			} 
+		}
 		NOT = {	has_character_flag = preparing_hajj }
 		NOT = { has_character_flag = opinion_hajj_promised }
 		NOT = { has_character_flag = opinion_jihad_promised }
 		job_spiritual = {
 			learning = 11
 			age = 30
-			trait = hajjaj
+			OR = {
+				trait = hajjaj
+				trait = hajjaj_hidden
+			}
 		}
 		NOT = { any_war = { religion_group = christian } }
 	}
@@ -1850,7 +2188,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.8
-			trait = faqih
+			OR = {
+				trait = faqih
+				trait = faqih_hidden
+			}
 		}
 	}
 	option = {
@@ -1914,9 +2255,24 @@ character_event = {
 		}
 		prisoner = no		
 		job_spiritual = { learning = 1 }
-		NOT = { trait = hajjaj }
-		NOT = { trait = mujahid }
-		NOT = { trait = on_hajj }
+		NOT = {
+			 OR = {
+				trait = hajjaj
+				trait = hajjaj_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = mujahid
+				trait = mujahid_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = on_hajj
+				trait = on_hajj_hidden
+			} 
+		}
 		NOT = {	has_character_flag = preparing_hajj }
 		any_independent_ruler = { }
 	}
@@ -1950,7 +2306,12 @@ character_event = {
 		war = no
 		has_character_flag = promise_jihad
 		prisoner = no		
-		NOT = { trait = mujahid }
+		NOT = {
+			 OR = {
+				trait = mujahid
+				trait = mujahid_hidden
+			} 
+		}
 		job_spiritual = { learning = 1 }
 		
 		any_independent_ruler = {
@@ -2015,7 +2376,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = { # Shares food
@@ -2040,7 +2404,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2062,7 +2429,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2083,7 +2453,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2113,7 +2486,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2134,7 +2510,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2155,7 +2534,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2178,7 +2560,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2203,7 +2588,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2224,7 +2612,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2245,7 +2636,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2278,7 +2672,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2304,7 +2701,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2325,7 +2725,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		has_global_flag = assassins_founded
 		NOT = { has_global_flag = assassins_scatter }
 		NOT = { has_global_flag = assassins_destroyed }
@@ -2359,7 +2762,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {
@@ -2381,7 +2787,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		NOT = { has_character_flag = hajj_home_event }
 	}
 	
@@ -2410,7 +2819,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		NOT = { has_character_flag = hajj_home_event }
 	}
 	
@@ -2439,7 +2851,10 @@ character_event = {
 	
 	trigger = {
 		has_character_flag = on_home_from_hajj
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		NOT = { has_character_flag = hajj_home_event }
 	}
 	
@@ -2474,7 +2889,10 @@ character_event = {
 	trigger = {
 		has_character_flag = on_home_from_hajj
 		has_character_flag = saved_assassin
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 		NOT = { has_character_flag = hajj_home_event }
 	}
 	
@@ -2504,7 +2922,10 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		trait = on_hajj
+		OR = {
+			trait = on_hajj
+			trait = on_hajj_hidden
+		}
 	}
 	
 	option = {

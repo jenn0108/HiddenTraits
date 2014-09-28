@@ -515,7 +515,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_REP_018
 		trigger = {
-			NOT = { trait = drunkard }
+			NOT = {
+				 OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				} 
+			}
 		}
 		wealth = -50
 	}
@@ -523,7 +528,10 @@ character_event = {
 		name = EVTOPTB_REP_018
 		tooltip_info = drunkard
 		trigger = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		wealth = -50
 	}

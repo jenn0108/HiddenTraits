@@ -34,10 +34,22 @@ character_event = {
 		}
 		spouse = {
 			OR = {
-				trait = wroth
-				trait = cruel
-				trait = arbitrary
-				trait = greedy
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 				NOT = { reverse_opinion = { who = ROOT value = 0 } }
 			}
 			NOT = {
@@ -61,11 +73,17 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -150,14 +168,20 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = content
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			add_trait = content
 		}
 		if = {
 			limit = {
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			random = {
 				chance = 20
@@ -188,7 +212,10 @@ character_event = {
 			
 			modifier = {
 				factor = 4
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 		}
 		FROM = {
@@ -216,7 +243,10 @@ character_event = {
 			
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 		}
 		FROM = {
@@ -314,7 +344,10 @@ character_event = {
 		if = {
 			limit = {
 				NOT = {
-					trait = depressed
+					OR = {
+						trait = depressed
+						trait = depressed_hidden
+					}
 				}
 			}
 			add_trait = depressed
@@ -549,10 +582,22 @@ character_event = {
 						}
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 				}
 				any_courtier = {
@@ -561,10 +606,22 @@ character_event = {
 					is_female = no
 					prisoner = no
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					NOT = {
 						has_minor_title = title_chief_qadi
@@ -581,10 +638,22 @@ character_event = {
 						has_minor_title = title_chief_qadi
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 				}
 			}
@@ -596,19 +665,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -638,10 +719,22 @@ character_event = {
 						has_minor_title = title_chief_qadi
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					NOT = {
 						any_rival = {
@@ -662,10 +755,22 @@ character_event = {
 						has_minor_title = title_chief_qadi
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					NOT = {
 						any_rival = {
@@ -692,10 +797,22 @@ character_event = {
 				has_minor_title = title_chief_qadi
 			}
 			OR = {
-				trait = detached_priest
-				trait = martial_cleric
-				trait = scholarly_theologian
-				trait = mastermind_theologian
+				OR = {
+					trait = detached_priest
+					trait = detached_priest_hidden
+				}
+				OR = {
+					trait = martial_cleric
+					trait = martial_cleric_hidden
+				}
+				OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
 			}
 		}
 		liege = {
@@ -729,10 +846,22 @@ character_event = {
 						}
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 				}
 			}
@@ -756,10 +885,22 @@ character_event = {
 						}
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 				}
 				set_character_flag = suggested_qadi
@@ -1124,11 +1265,23 @@ character_event = {
 				}
 				OR = {
 					NOT = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 					}
-					trait = arbitrary
-					trait = slothful
-					trait = content
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
+					OR = {
+						trait = slothful
+						trait = slothful_hidden
+					}
+					OR = {
+						trait = content
+						trait = content_hidden
+					}
 				}
 			}
 			OR = {
@@ -1141,22 +1294,46 @@ character_event = {
 					is_female = no
 					prisoner = no
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 					NOT = {
@@ -1182,22 +1359,46 @@ character_event = {
 						}
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 				}
@@ -1207,22 +1408,46 @@ character_event = {
 					}
 					is_female = no
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 				}
@@ -1235,19 +1460,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1277,22 +1514,46 @@ character_event = {
 					religion_group = muslim
 					prisoner = no
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 					NOT = {
@@ -1314,22 +1575,46 @@ character_event = {
 						has_minor_title = title_chief_qadi
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 					NOT = {
@@ -1357,10 +1642,22 @@ character_event = {
 			}
 			is_female = no
 			OR = {
-				trait = detached_priest
-				trait = martial_cleric
-				trait = scholarly_theologian
-				trait = mastermind_theologian
+				OR = {
+					trait = detached_priest
+					trait = detached_priest_hidden
+				}
+				OR = {
+					trait = martial_cleric
+					trait = martial_cleric_hidden
+				}
+				OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
 			}
 		}
 		liege = {
@@ -1394,22 +1691,46 @@ character_event = {
 						}
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 				}
@@ -1434,22 +1755,46 @@ character_event = {
 						}
 					}
 					OR = {
-						trait = detached_priest
-						trait = martial_cleric
-						trait = scholarly_theologian
-						trait = mastermind_theologian
+						OR = {
+							trait = detached_priest
+							trait = detached_priest_hidden
+						}
+						OR = {
+							trait = martial_cleric
+							trait = martial_cleric_hidden
+						}
+						OR = {
+							trait = scholarly_theologian
+							trait = scholarly_theologian_hidden
+						}
+						OR = {
+							trait = mastermind_theologian
+							trait = mastermind_theologian_hidden
+						}
 					}
 					OR = {
-						trait = just
+						OR = {
+							trait = just
+							trait = just_hidden
+						}
 						diplomacy = 15
 						NOT = {
-							trait = arbitrary
+							OR = {
+								trait = arbitrary
+								trait = arbitrary_hidden
+							}
 						}
 						NOT = {
-							trait = slothful
+							OR = {
+								trait = slothful
+								trait = slothful_hidden
+							}
 						}
 						NOT = {
-							trait = content
+							OR = {
+								trait = content
+								trait = content_hidden
+							}
 						}
 					}
 				}
@@ -1855,10 +2200,16 @@ character_event = {
 				in_command = no
 				religion_group = muslim
 				age = 16
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 				prisoner = no
 				NOT = {
-					trait = incapable
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
 				}
 			}
 		}
@@ -1869,12 +2220,18 @@ character_event = {
 		
 		modifier = {
 			factor = 5
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -1885,27 +2242,45 @@ character_event = {
 			
 			modifier = {
 				factor = 0.5
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = impaler
+				OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 		}
 		liege = {
@@ -1915,10 +2290,16 @@ character_event = {
 					in_command = no
 					religion_group = muslim
 					age = 16
-					trait = drunkard
+					OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					}
 					prisoner = no
 					NOT = {
-						trait = incapable
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
 					}
 				}
 				random = {
@@ -1945,23 +2326,38 @@ character_event = {
 			
 			modifier = {
 				factor = 2
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = impaler
+				OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
 			}
 		}
 		liege = {
@@ -1971,10 +2367,16 @@ character_event = {
 					in_command = no
 					religion_group = muslim
 					age = 16
-					trait = drunkard
+					OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					}
 					prisoner = no
 					NOT = {
-						trait = incapable
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
 					}
 				}
 				opinion = {
@@ -1996,10 +2398,16 @@ character_event = {
 			any_realm_character = {
 				limit = {
 					piety = 100
-					trait = zealous
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 					religion_group = muslim
 					NOT = {
-						trait = drunkard
+						OR = {
+							trait = drunkard
+							trait = drunkard_hidden
+						}
 					}
 				}
 				opinion = {
@@ -2031,8 +2439,14 @@ character_event = {
 	option = {
 		name = "EVTOPTA105031"
 		trigger = {
-			trait = wounded
-			trait = drunkard
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		prestige = -5
 		tooltip = {
@@ -2042,9 +2456,15 @@ character_event = {
 	option = {
 		name = "EVTOPTB105031"
 		trigger = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 			NOT = {
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 			}
 		}
 		prestige = -5
@@ -2059,9 +2479,15 @@ character_event = {
 		name = "EVTOPTC105031"
 		trigger = {
 			NOT = {
-				trait = wounded
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
 			}
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		prestige = -5
 	}
@@ -2069,10 +2495,16 @@ character_event = {
 		name = "EVTOPTD105031"
 		trigger = {
 			NOT = {
-				trait = wounded
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
 			}
 			NOT = {
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 			}
 		}
 		prestige = -5
@@ -2094,7 +2526,10 @@ character_event = {
 	option = {
 		name = "EVTOPTA105032"
 		trigger = {
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		scaled_wealth = -0.025
 		tooltip = {
@@ -2109,7 +2544,10 @@ character_event = {
 		name = "EVTOPTB105032"
 		trigger = {
 			NOT = {
-				trait = drunkard
+				OR = {
+					trait = drunkard
+					trait = drunkard_hidden
+				}
 			}
 		}
 		scaled_wealth = -0.025
@@ -2162,14 +2600,26 @@ character_event = {
 				is_female = no
 				has_lover = yes
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				religion_group = muslim
 				OR = {
-					trait = lustful
-					trait = deceitful
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
 					NOT = {
-						trait = zealous
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				spouse = {
@@ -2190,15 +2640,24 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	}
 	
@@ -2210,10 +2669,19 @@ character_event = {
 					has_lover = yes
 					religion_group = muslim
 					OR = {
-						trait = lustful
-						trait = deceitful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
 						NOT = {
-							trait = zealous
+							OR = {
+								trait = zealous
+								trait = zealous_hidden
+							}
 						}
 					}
 					spouse = {
@@ -2250,10 +2718,19 @@ character_event = {
 					has_lover = yes
 					religion_group = muslim
 					OR = {
-						trait = lustful
-						trait = deceitful
+						OR = {
+							trait = lustful
+							trait = lustful_hidden
+						}
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
 						NOT = {
-							trait = zealous
+							OR = {
+								trait = zealous
+								trait = zealous_hidden
+							}
 						}
 					}
 					spouse = {
@@ -2413,11 +2890,17 @@ character_event = {
 			}
 			modifier = {
 				factor = 5
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 		}
 		set_character_flag = lost_loving_feeling
@@ -2788,27 +3271,45 @@ character_event = {
 			
 			modifier = {
 				factor = 0.05
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		clr_character_flag = not_convinced_innocence
@@ -2836,27 +3337,45 @@ character_event = {
 			
 			modifier = {
 				factor = 2
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		clr_character_flag = not_convinced_innocence
@@ -2897,27 +3416,45 @@ character_event = {
 			
 			modifier = {
 				factor = 0.05
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		FROM = {
@@ -2948,27 +3485,45 @@ character_event = {
 			
 			modifier = {
 				factor = 0.05
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		FROM = {
@@ -3033,27 +3588,45 @@ character_event = {
 			
 			modifier = {
 				factor = 0.05
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		FROM = {
@@ -3077,27 +3650,45 @@ character_event = {
 			
 			modifier = {
 				factor = 2
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 2
-				trait = arbitrary
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 		FROM = {
@@ -3126,7 +3717,10 @@ character_event = {
 	option = {
 		name = "EVTOPTA105044"
 		trigger = {
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 			NOT = {
 				has_character_flag = qadi_merciful
 			}
@@ -3143,7 +3737,10 @@ character_event = {
 		any_vassal = {
 			limit = {
 				has_lover = no
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion_group = muslim
 			}
 			opinion = {
@@ -3186,7 +3783,10 @@ character_event = {
 		name = "EVTOPTD105044"
 		trigger = {
 			NOT = {
-				trait = wounded
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
 			}
 			NOT = {
 				has_character_flag = qadi_merciful
@@ -3201,7 +3801,10 @@ character_event = {
 		any_vassal = {
 			limit = {
 				has_lover = no
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion_group = muslim
 			}
 			opinion = {
@@ -3262,20 +3865,32 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
@@ -3334,8 +3949,14 @@ character_event = {
 		if = {
 			limit = {
 				OR = {
-					trait = scholar
-					trait = poet
+					OR = {
+						trait = scholar
+						trait = scholar_hidden
+					}
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
 					learning = 15
 				}
 			}
@@ -3368,10 +3989,16 @@ character_event = {
 			limit = {
 				NOT = { learning = 15 }
 				NOT = {
-					trait = poet
+					OR = {
+						trait = poet
+						trait = poet_hidden
+					}
 				}
 				NOT = {
-					trait = scholar
+					OR = {
+						trait = scholar
+						trait = scholar_hidden
+					}
 				}
 			}
 			random_list = {
@@ -3721,8 +4348,14 @@ character_event = {
 		has_minor_title = title_court_calligrapher
 		religion_group = muslim
 		OR = {
-			trait = scholar
-			trait = poet
+			OR = {
+				trait = scholar
+				trait = scholar_hidden
+			}
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 			learning = 20
 		}
 		NOT = {
@@ -3743,19 +4376,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -3898,19 +4543,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 	
@@ -3931,11 +4588,17 @@ character_event = {
 			
 			modifier = {
 				factor = 3
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		}
 		liege = {
@@ -3955,11 +4618,17 @@ character_event = {
 			
 			modifier = {
 				factor = 3
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 		}
 		liege = {
@@ -3979,17 +4648,26 @@ character_event = {
 			
 			modifier = {
 				factor = 3
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 			modifier = {
 				factor = 3
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 		}
 		piety = 10
 		if = {
 			limit = {
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 			remove_trait = greedy
 		}
@@ -4234,7 +4912,10 @@ character_event = {
 		name = "EVTOPTD105068"
 		trigger = {
 			NOT = {
-				trait = paranoid
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
 			}
 		}
 		prestige = -5
@@ -4304,7 +4985,10 @@ character_event = {
 			has_character_modifier = musician_song_timer
 		}
 		OR = {
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 			diplomacy = 15
 		}
 		liege = {
@@ -4346,7 +5030,10 @@ character_event = {
 						age = 30
 					}
 					NOT = {
-						trait = ugly
+						OR = {
+							trait = ugly
+							trait = ugly_hidden
+						}
 					}
 				}
 			}
@@ -4574,7 +5261,10 @@ character_event = {
 			has_character_modifier = poet_verse_timer
 		}
 		OR = {
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
 			diplomacy = 15
 		}
 		liege = {
@@ -4616,7 +5306,10 @@ character_event = {
 						age = 30
 					}
 					NOT = {
-						trait = ugly
+						OR = {
+							trait = ugly
+							trait = ugly_hidden
+						}
 					}
 				}
 			}
@@ -4855,8 +5548,14 @@ character_event = {
 		OR = {
 			intrigue = 15
 			diplomacy = 15
-			trait = deceitful
-			trait = envious
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		NOT = {
 			has_character_modifier = cupbearer_poison_timer
@@ -4874,19 +5573,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}			
 	}
 	
@@ -4905,7 +5616,10 @@ character_event = {
 		host = {
 			if = {
 				limit = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 				random_list = {
 					70 = {
@@ -4973,7 +5687,10 @@ character_event = {
 			if = {
 				limit = {
 					NOT = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 					}
 				}
 				random_list = {
@@ -5045,13 +5762,19 @@ character_event = {
 		name = "EVTOPTB105150"
 		if = {
 			limit = {
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 			remove_trait = deceitful
 		}
 		if = {
 			limit = {
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			remove_trait = envious
 		}
@@ -5253,19 +5976,31 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}			
 	}
 	
@@ -5542,8 +6277,14 @@ character_event = {
 		OR = {
 			intrigue = 15
 			diplomacy = 15
-			trait = deceitful
-			trait = envious
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		NOT = {
 			has_character_modifier = food_taster_poison_timer
@@ -5561,35 +6302,59 @@ character_event = {
 		
 		modifier = {
 			factor = 0.5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}	
 		modifier = {
 			factor = 2
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}	
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}			
 	}
 	
@@ -5608,7 +6373,10 @@ character_event = {
 		host = {
 			if = {
 				limit = {
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 				random_list = {
 					70 = {
@@ -5676,7 +6444,10 @@ character_event = {
 			if = {
 				limit = {
 					NOT = {
-						trait = paranoid
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
 					}
 				}
 				random_list = {
@@ -5748,13 +6519,19 @@ character_event = {
 		name = "EVTOPTB105250"
 		if = {
 			limit = {
-				trait = deceitful
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
 			}
 			remove_trait = deceitful
 		}
 		if = {
 			limit = {
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			remove_trait = envious
 		}

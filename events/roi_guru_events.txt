@@ -266,7 +266,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = drunkard
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
 	}
 	
 	option = {
@@ -315,7 +318,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = hedonist
+		OR = {
+			trait = hedonist
+			trait = hedonist_hidden
+		}
 	}
 	
 	option = {
@@ -361,7 +367,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = impaler
+		OR = {
+			trait = impaler
+			trait = impaler_hidden
+		}
 	}
 	
 	option = {
@@ -444,7 +453,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 	}
 	
 	option = {
@@ -493,7 +505,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = gluttonous
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
 	}
 	
 	option = {
@@ -539,7 +554,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = greedy
+		OR = {
+			trait = greedy
+			trait = greedy_hidden
+		}
 	}
 	
 	option = {
@@ -585,7 +603,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = envious
+		OR = {
+			trait = envious
+			trait = envious_hidden
+		}
 	}
 	
 	option = {
@@ -631,7 +652,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = wroth
+		OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
 	}
 
 	option = {
@@ -711,7 +735,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = proud
+		OR = {
+			trait = proud
+			trait = proud_hidden
+		}
 	}
 	
 	option = {
@@ -792,7 +819,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = arbitrary
+		OR = {
+			trait = arbitrary
+			trait = arbitrary_hidden
+		}
 	}
 	
 	option = {
@@ -839,7 +869,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = cynical
+		OR = {
+			trait = cynical
+			trait = cynical_hidden
+		}
 	}
 	
 	option = {
@@ -886,7 +919,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = cruel
+		OR = {
+			trait = cruel
+			trait = cruel_hidden
+		}
 	}
 	
 	option = {
@@ -933,7 +969,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = duelist
+		OR = {
+			trait = duelist
+			trait = duelist_hidden
+		}
 	}
 	
 	option = {
@@ -980,8 +1019,14 @@ character_event = {
 			NOT = { has_character_flag = fake_guru }
 		}
 		OR = {
-			trait = hunter
-			trait = falconer
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
+			OR = {
+				trait = falconer
+				trait = falconer_hidden
+			}
 		}
 	}
 	
@@ -1032,7 +1077,10 @@ character_event = {
 			has_minor_title = title_guru
 			NOT = { has_character_flag = fake_guru }
 		}
-		trait = paranoid
+		OR = {
+			trait = paranoid
+			trait = paranoid_hidden
+		}
 	}
 	
 	option = {
@@ -1075,10 +1123,30 @@ character_event = {
 	
 	trigger = {
 		has_dlc = "Rajas of India"
-		NOT = { trait = slow }
-		NOT = { trait = inbred }
-		NOT = { trait = imbecile }
-		NOT = { trait = trusting }
+		NOT = {
+			 OR = {
+				trait = slow
+				trait = slow_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = inbred
+				trait = inbred_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = trusting
+				trait = trusting_hidden
+			} 
+		}
 		any_courtier = {
 			has_minor_title = title_guru
 			has_character_flag = fake_guru
@@ -1272,9 +1340,22 @@ character_event = {
 		if = {
 			limit = {
 				OR = {
-					FROM = { trait = zealous }
-					FROM = { trait = ambitious }
-					trait = genius
+					FROM = {
+						 OR = {
+							trait = zealous
+							trait = zealous_hidden
+						} 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						} 
+					}
+					OR = {
+						trait = genius
+						trait = genius_hidden
+					}
 				}
 			}
 			random = {
@@ -1284,9 +1365,24 @@ character_event = {
 		}
 		if = {
 			limit = {
-				FROM = { NOT = { trait = zealous } }
-				FROM = { NOT = { trait = ambitious } }
-				NOT = {	trait = genius }
+				FROM = {
+					 NOT = { OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} } 
+				}
+				FROM = {
+					 NOT = { OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					} } 
+				}
+				NOT = {
+						OR = {
+						trait = genius
+						trait = genius_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 25
@@ -1325,14 +1421,20 @@ character_event = {
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_reject_cruelty
-					trait = impaler
+					OR = {
+						trait = impaler
+						trait = impaler_hidden
+					}
 				}
 				remove_trait = impaler
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_reject_cruelty
-					trait = cruel
+					OR = {
+						trait = cruel
+						trait = cruel_hidden
+					}
 				}
 				remove_trait = cruel
 			}
@@ -1369,14 +1471,20 @@ character_event = {
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_defeat_fear
-					trait = paranoid
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
 				}
 				remove_trait = paranoid
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_defeat_fear
-					trait = craven
+					OR = {
+						trait = craven
+						trait = craven_hidden
+					}
 				}
 				remove_trait = craven
 			}
@@ -1388,7 +1496,12 @@ character_event = {
 			NOT = { has_character_flag = buddhist_obj_success }
 		}
 		if = {
-			limit = { NOT = { trait = slothful } }
+			limit = {
+				 NOT = { OR = {
+					trait = slothful
+					trait = slothful_hidden
+				} } 
+			}
 			prestige = -10
 			piety = -10
 			random = {
@@ -1420,7 +1533,10 @@ character_event = {
 		religion = hindu
 		any_courtier = {
 			has_minor_title = title_guru
-			trait = genius
+			OR = {
+				trait = genius
+				trait = genius_hidden
+			}
 		}
 		NOT = { has_global_flag = basava_advice }
 	}
@@ -1526,8 +1642,14 @@ character_event = {
 		has_dlc = "Rajas of India"
 		religion = buddhist
 		OR = {
-			trait = stressed
-			trait = depressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		any_courtier = {
 			has_minor_title = title_guru
@@ -1554,13 +1676,21 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				trait = genius
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 			FROM = { narrative_event = { id = RoI.3402 } } # Meditation helps
 		}
 		if = {
 			limit = {
-				NOT = {	trait = genius }
+				NOT = {
+						OR = {
+						trait = genius
+						trait = genius_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 50
@@ -1586,11 +1716,21 @@ narrative_event = {
 			religion = hindu
 		}
 		if = {
-			limit = { trait = stressed }
+			limit = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 			remove_trait = stressed
 		}
 		if = {
-			limit = { trait = depressed }
+			limit = {
+				 OR = {
+					trait = depressed
+					trait = depressed_hidden
+				} 
+			}
 			remove_trait = depressed
 		}
 	}
@@ -1600,11 +1740,21 @@ narrative_event = {
 			religion = buddhist
 		}
 		if = {
-			limit = { trait = stressed }
+			limit = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 			remove_trait = stressed
 		}
 		if = {
-			limit = { trait = depressed }
+			limit = {
+				 OR = {
+					trait = depressed
+					trait = depressed_hidden
+				} 
+			}
 			remove_trait = depressed
 		}
 	}
@@ -1614,11 +1764,21 @@ narrative_event = {
 			religion = jain
 		}
 		if = {
-			limit = { trait = stressed }
+			limit = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 			remove_trait = stressed
 		}
 		if = {
-			limit = { trait = depressed }
+			limit = {
+				 OR = {
+					trait = depressed
+					trait = depressed_hidden
+				} 
+			}
 			remove_trait = depressed
 		}
 	}

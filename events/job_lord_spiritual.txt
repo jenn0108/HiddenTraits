@@ -555,7 +555,10 @@ character_event = {
 				religion_group = muslim
 			}
 			NOT = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		add_trait = wounded
@@ -565,8 +568,16 @@ character_event = {
 		name = "EVTOPTB20021"
 		tooltip_info = wroth
 		trigger = {
-			trait = wroth
-			NOT = { trait = humble}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+			}
 		}
 		add_trait = wounded
 		add_trait = zealous
@@ -578,8 +589,16 @@ character_event = {
 			religion_group = muslim
 			NOT = {
 				AND = {
-					trait = wroth
-					NOT = { trait = humble }
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					}
+					NOT = {
+						 OR = {
+							trait = humble
+							trait = humble_hidden
+						} 
+					}
 				}
 			}
 		}
@@ -735,7 +754,12 @@ character_event = {
 	option = {
 		name = "EVTOPTB903"
 		ai_chance = { factor = 25 }
-		trigger = { NOT = { trait = zealous } }
+		trigger = {
+			 NOT = { OR = {
+				trait = zealous
+				trait = zealous_hidden
+			} } 
+		}
 		location = {
 			random_province_lord = {
 				limit = {
@@ -1297,7 +1321,12 @@ character_event = {
 							age = 10
 							prisoner = no
 							at_location = ROOT
-							NOT = { trait = incapable }
+							NOT = {
+								 OR = {
+									trait = incapable
+									trait = incapable_hidden
+								} 
+							}
 							ai = yes
 							religion_group = pagan_group
 						}
@@ -2160,19 +2189,31 @@ character_event = {
 		
 		modifier = {
 			factor = 1.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 		modifier = {
 			factor = 0.50
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
 		}
 	}
 	

@@ -131,7 +131,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = bad_priest_christian
+		OR = {
+			trait = bad_priest_christian
+			trait = bad_priest_christian_hidden
+		}
 		any_liege = {
 			ai = no
 			reverse_has_opinion_modifier = { who = ROOT modifier = opinion_supported_pope }
@@ -280,7 +283,10 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = inbred
+		OR = {
+			trait = inbred
+			trait = inbred_hidden
+		}
 		OR = {
 			AND = {
 				father = {

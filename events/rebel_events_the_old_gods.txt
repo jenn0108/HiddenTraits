@@ -563,7 +563,10 @@ character_event = {
 	desc = OK
 	
 	trigger = {
-		trait = peasant_leader
+		OR = {
+			trait = peasant_leader
+			trait = peasant_leader_hidden
+		}
 		rebel = yes
 		FROM = { 
 			is_capital = yes # The capital holding
@@ -1440,7 +1443,10 @@ character_event = {
 	desc = OK
 	
 	trigger = {
-		trait = heresiarch
+		OR = {
+			trait = heresiarch
+			trait = heresiarch_hidden
+		}
 		rebel = yes
 		FROM = { 
 			is_capital = yes # The capital holding

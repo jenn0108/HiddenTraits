@@ -24,8 +24,14 @@ character_event = {
 		job_chancellor = {
 			diplomacy = 12
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 		}
 		NOT = {
@@ -70,8 +76,14 @@ character_event = {
 		job_marshal = {
 			martial = 12
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 			location = {
 				NOT = {
@@ -128,8 +140,14 @@ character_event = {
 		job_treasurer = {
 			stewardship = 12
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 		}
 		NOT = {
@@ -174,8 +192,14 @@ character_event = {
 		job_spymaster = {
 			intrigue = 12
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 		}
 		NOT = {
@@ -226,8 +250,14 @@ character_event = {
 				religion_group = muslim
 			}
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 		}
 		NOT = {
@@ -274,8 +304,14 @@ character_event = {
 			learning = 12
 			religion_group = muslim
 			OR = {
-				trait = quick
-				trait = genius
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 		}
 		NOT = {
@@ -340,12 +376,18 @@ character_event = {
 				}
 				at_location = ROOT
 				is_female = no
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 				NOT = {
 					character = ROOT
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 			}
 		}
@@ -374,11 +416,17 @@ character_event = {
 			
 			modifier = {
 				factor = 2
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 0.05
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 		}
 		liege = {
@@ -397,11 +445,17 @@ character_event = {
 			
 			modifier = {
 				factor = 0.05
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
 			}
 			modifier = {
 				factor = 3
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 		}
 		prestige = -5
@@ -544,7 +598,10 @@ character_event = {
 	
 	trigger = {
 		has_job_title = job_chancellor
-		trait = diligent
+		OR = {
+			trait = diligent
+			trait = diligent_hidden
+		}
 		liege = { prisoner = no }
 	}
 	
@@ -894,7 +951,10 @@ character_event = {
 	
 	trigger = {
 		has_job_title = job_chancellor
-		trait = slothful
+		OR = {
+			trait = slothful
+			trait = slothful_hidden
+		}
 		independent = no
 		liege = {
 			NOT = {
@@ -1104,7 +1164,10 @@ character_event = {
 	trigger = {
 		independent = no
 		has_job_title = job_spiritual
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		liege = {
 			religion = ROOT
 			NOT = {
@@ -1236,7 +1299,10 @@ character_event = {
 		}
 		any_courtier = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion = ROOT
 				NOT = {
 					character = ROOT
@@ -1337,7 +1403,10 @@ character_event = {
 		}
 		any_courtier = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion = ROOT
 				prisoner = no
 				NOT = {
@@ -1431,7 +1500,10 @@ character_event = {
 	trigger = {
 		independent = no
 		has_job_title = job_spiritual
-		trait = zealous
+		OR = {
+			trait = zealous
+			trait = zealous_hidden
+		}
 		liege = {
 			religion = ROOT
 			NOT = {
@@ -1542,7 +1614,10 @@ character_event = {
 		}
 		any_courtier = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion = ROOT
 				prisoner = no
 				NOT = {
@@ -1633,7 +1708,10 @@ character_event = {
 		}
 		any_courtier = {
 			limit = {
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 				religion = ROOT
 				prisoner = no
 				NOT = {
@@ -1729,7 +1807,10 @@ character_event = {
 	
 	trigger = {
 		job_treasurer = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 	}
 	
@@ -1782,7 +1863,10 @@ character_event = {
 	
 	trigger = {
 		job_treasurer = {
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
 		}
 	}
 	
@@ -1836,8 +1920,14 @@ character_event = {
 	trigger = {
 		job_treasurer = {
 			OR = {
-				trait = kind
-				trait = charitable
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		}
 		any_demesne_province = {
@@ -1894,7 +1984,10 @@ character_event = {
 	
 	trigger = {
 		job_treasurer = {
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 	
@@ -1955,7 +2048,10 @@ character_event = {
 	
 	trigger = {
 		job_treasurer = {
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		any_demesne_province = {
 			has_province_modifier = thieves_guild
@@ -1970,7 +2066,10 @@ character_event = {
 		name = "EVTOPTA75080"
 		if = {
 			limit = {
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
 			}
 			remove_trait = just
 		}
@@ -2058,7 +2157,10 @@ character_event = {
 	
 	trigger = {
 		has_job_title = job_treasurer
-		trait = deceitful
+		OR = {
+			trait = deceitful
+			trait = deceitful_hidden
+		}
 		any_demesne_province = {
 			OR = {
 				has_province_modifier = highway_robber_band
@@ -2182,7 +2284,10 @@ character_event = {
 	
 	trigger = {
 		job_treasurer = {
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 			NOT = {
 				has_character_modifier = greedy_steward_timer
 			}
@@ -2194,7 +2299,10 @@ character_event = {
 		
 		modifier = {
 			factor = 3
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		
 		modifier = {
@@ -2405,15 +2513,27 @@ character_event = {
 			}
 		}
 		OR = {
-			trait = diligent
-			trait = brave
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 			martial = 10
 		}
 		NOT = {
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		NOT = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 	}
 	
@@ -2537,7 +2657,10 @@ character_event = {
 	trigger = {
 		independent = no
 		has_job_title = job_marshal
-		trait = lustful
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
 		demesne_size = 1
 		liege = {
 			NOT = {

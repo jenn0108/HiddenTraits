@@ -218,7 +218,10 @@ character_event = {
 		has_dlc = "Sons of Abraham"
 		
 		NOT = {
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 	
 		is_heretic = no # Heretics, already people of strong conviction, never change religion spontaneously
@@ -247,7 +250,10 @@ character_event = {
 		months = 360
 		modifier = {
 			factor = 0.25
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 			independent = no
 			location = {
 				ROOT = {
@@ -345,7 +351,10 @@ character_event = {
 			factor = 100
 			modifier = {
 				factor = 10.0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		FROM = {
@@ -366,7 +375,10 @@ character_event = {
 			factor = 1000
 			modifier = {
 				factor = 5.0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		FROM = {
@@ -548,7 +560,12 @@ character_event = {
 		any_courtier = {
 			age = 16
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			OR = {
 				same_liege = ROOT
 				is_liege_of = ROOT
@@ -565,19 +582,31 @@ character_event = {
 		months = 120
 		modifier = {
 			factor = 10.0
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 0.25
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -631,7 +660,12 @@ character_event = {
 			limit = {
 				age = 16
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				mercenary = false
 				holy_order = false
 				OR = {
@@ -673,7 +707,10 @@ character_event = {
 			}
 			modifier = {
 				factor = 0.1
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
@@ -813,7 +850,10 @@ letter_event = {
 			factor = 100
 			modifier = {
 				factor = 10.0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		FROMFROM = {
@@ -836,7 +876,10 @@ letter_event = {
 			factor = 1000
 			modifier = {
 				factor = 5.0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		FROMFROM = {
@@ -920,11 +963,17 @@ character_event = {
 			factor = 200
 			modifier = {
 				factor = 10
-				trait = cruel
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 			modifier = {
 				factor = 3
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 		

@@ -62,11 +62,17 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		modifier = {
 			factor = 2
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}	
 	}
 
@@ -75,9 +81,18 @@ character_event = {
 		name = "EVTOPTA74000"
 		trigger = {
 			NOT = {
-				trait = kind
-				trait = charitable
-				trait = honest
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 		}
 		random = {
@@ -95,24 +110,51 @@ character_event = {
 		name = "EVTOPTB74000"
 		trigger = {
 			OR = {
-				trait = kind
-				trait = charitable
-				trait = honest
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
 			}
 			any_vassal = {
 				OR = {
-					trait = kind
-					trait = charitable
-					trait = honest
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 		}
 		random_vassal = {
 			limit = {
 				OR = {
-					trait = kind
-					trait = charitable
-					trait = honest
+					OR = {
+						trait = kind
+						trait = kind_hidden
+					}
+					OR = {
+						trait = charitable
+						trait = charitable_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
 				}
 			}
 			opinion = {
@@ -126,7 +168,10 @@ character_event = {
 	option = {
 		name = "EVTOPTC74000"
 		trigger = {
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 		capital_scope = {
 			add_province_modifier = {
@@ -162,7 +207,12 @@ character_event = {
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
 		}
-		NOT = { trait = paranoid }
+		NOT = {
+			 OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			} 
+		}
 		
 		OR = {
 			NOT = { has_character_flag = fair_event_happened }
@@ -197,20 +247,36 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 
 		modifier = {
 			factor = 2.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 
 	option = {
 		name = "EVTOPTA74005"
 		trigger = {
-			NOT = { trait = trusting }
-			NOT = { trait = paranoid }
+			NOT = {
+				 OR = {
+					trait = trusting
+					trait = trusting_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} 
+			}
 		}
 		add_trait = paranoid
 	}
@@ -218,7 +284,12 @@ character_event = {
 	option = {
 		name = "EVTOPTC74005"
 		trigger = {
-			NOT = { trait = charitable }
+			NOT = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} 
+			}
 		}
 		capital_scope = {
 			add_province_modifier = {
@@ -231,7 +302,12 @@ character_event = {
 	option = {
 		name = "EVTOPTD74005"
 		trigger = {
-			NOT = { trait = greedy }
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
 		}
 		random_vassal = {
 			limit = {
@@ -297,17 +373,26 @@ character_event = {
 
 		modifier = {
 			factor = 3
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.8
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 
@@ -315,8 +400,14 @@ character_event = {
 		name = "EVTOPTA74010"
 		trigger = {
 			NOT = {
-				trait = wroth
-				trait = cruel
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		prestige = 5
@@ -326,8 +417,14 @@ character_event = {
 		name = "EVTOPTE74010"
 		trigger = {
 			OR = {
-				trait = wroth
-				trait = cruel
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		capital_scope = {
@@ -341,10 +438,19 @@ character_event = {
 	option = {
 		name = "EVTOPTG74010"
 		trigger = {
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 			NOT = {
-				trait = wroth
-				trait = cruel
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		treasury = -10
@@ -403,27 +509,44 @@ character_event = {
 
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		modifier = {
 			factor = 3
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.8
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 
 	option = {
 		name = "EVTOPTA74015"
 		trigger = {
-			NOT = { trait = gregarious }
+			NOT = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 		}
 		capital_scope = {
 			add_province_modifier = {
@@ -449,8 +572,18 @@ character_event = {
 	option = {
 		name = "EVTOPTE74015"
 		trigger = {
-			NOT = { trait = gregarious }
-			NOT = { trait = shy }
+			NOT = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = shy
+					trait = shy_hidden
+				} 
+			}
 		}
 		random = {
 			chance = 25
@@ -519,22 +652,34 @@ character_event = {
 
 		modifier = {
 			factor = 5
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 
 		modifier = {
 			factor = 3
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 
 		modifier = {
 			factor = 2.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 
@@ -621,12 +766,18 @@ character_event = {
 		
 		modifier = {
 			factor = 0.75
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 
 		modifier = {
 			factor = 2.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 	}
 
@@ -716,12 +867,18 @@ character_event = {
 
 		modifier = {
 			factor = 0.75
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 
 		modifier = {
 			factor = 5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
 		}
 	}
 
@@ -777,7 +934,10 @@ character_event = {
 		has_character_modifier = holding_summer_fair
 		religion = catholic
 		any_vassal = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		capital_scope = {
 			NOT = { has_province_modifier = peasants_upset }
@@ -816,24 +976,38 @@ character_event = {
 
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 
 		modifier = {
 			factor = 1.5
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 	}
 
 	option = {
 		name = "EVTOPTA74035"
 		trigger = {
-			NOT = { trait = gregarious }
+			NOT = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 		}
 		treasury = 5
 		random_vassal = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			opinion = {
 				modifier = opinion_disgruntled
@@ -846,10 +1020,21 @@ character_event = {
 	option = {
 		name = "EVTOPTB74035"
 		trigger = {
-			NOT = { trait = gregarious }
+			NOT = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 			OR = {
-				trait = wroth
-				trait = cruel
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
 			}
 		}
 		capital_scope = {
@@ -864,7 +1049,12 @@ character_event = {
 		name = "EVTOPTC74035"
 		if = {
 			limit = {
-				NOT = { trait = gregarious }
+				NOT = {
+					 OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					} 
+				}
 			}
 			random = {
 				chance = 25
@@ -878,7 +1068,10 @@ character_event = {
 		}
 		random_vassal = {
 			limit = {
-				trait = gregarious
+				OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				}
 			}
 			opinion = {
 				modifier = opinion_approves
@@ -946,7 +1139,12 @@ character_event = {
 		trigger = {
 			OR = {	
 				ai = no
-				NOT = { trait = zealous }
+				NOT = {
+					 OR = {
+						trait = zealous
+						trait = zealous_hidden
+					} 
+				}
 			}
 		}		
 		piety = -5
@@ -961,7 +1159,12 @@ character_event = {
 			}
 		}
 		if = {
-			limit = { trait = zealous }
+			limit = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			remove_trait = zealous
 		}
 	}
@@ -1032,7 +1235,12 @@ character_event = {
 	option = {
 		name = "EVTOPTA74042" #Allow him
 		trigger = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		piety = -5
 		random_vassal = {
@@ -1314,8 +1522,18 @@ character_event = {
 	option = {
 		name = "EVTOPTA4105"
 		trigger = {
-			NOT = { trait = kind }
-			NOT = { trait = gregarious }
+			NOT = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 		}
 		random_vassal = {
 			limit = {
@@ -1338,8 +1556,16 @@ character_event = {
 	option = {
 		name = "EVTOPTC4105"
 		trigger = {
-			trait = kind
-			NOT = { trait = gregarious }
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 		}
 		random_vassal = {
 			limit = {
@@ -1362,7 +1588,10 @@ character_event = {
 	option = {
 		name = "EVTOPTD4105"
 		trigger = {
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 		random_vassal = {
 			limit = {
@@ -1434,9 +1663,24 @@ character_event = {
 	option = {
 		name = "EVTOPTA4170"
 		trigger = {
-			NOT = { trait = proud }
-			NOT = { trait = craven }
-			NOT = { trait = brave }
+			NOT = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				} 
+			}
 		}
 		random_courtier = {
 			limit = {
@@ -1454,7 +1698,10 @@ character_event = {
 	option = {
 		name = "EVTOPTC4170"
 		trigger = {
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
 		}
 		prestige = -5
 	}
@@ -1462,9 +1709,22 @@ character_event = {
 	option = {
 		name = "EVTOPTD4170"
 		trigger = {
-			trait = proud
-			NOT = { trait = craven }
-			NOT = { trait = brave }
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			NOT = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				} 
+			}
 		}
 		random_courtier = {
 			limit = {
@@ -1482,7 +1742,10 @@ character_event = {
 	option = {
 		name = "EVTOPTE4170"
 		trigger = {
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
 		}
 		prestige = 10
 	}

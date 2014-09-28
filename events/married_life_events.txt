@@ -41,79 +41,136 @@ character_event = {
 		days = 1
 		modifier = {
 			factor = 1.25
-			trait = stressed
+			OR = {
+				trait = stressed
+				trait = stressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = possessed
+			OR = {
+				trait = possessed
+				trait = possessed_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = ill
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = pneumonic
+			OR = {
+				trait = pneumonic
+				trait = pneumonic_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = syphilitic
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = leper
+			OR = {
+				trait = leper
+				trait = leper_hidden
+			}
 		}
 		modifier = {
 			factor = 1.15
-			trait = wounded
+			OR = {
+				trait = wounded
+				trait = wounded_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = maimed
+			OR = {
+				trait = maimed
+				trait = maimed_hidden
+			}
 		}
 		modifier = {
 			factor = 2.0
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
 		}
 		modifier = {
 			factor = 3.0
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = drunkard
+			OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_tuberculosis
+			OR = {
+				trait = has_tuberculosis
+				trait = has_tuberculosis_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_typhoid_fever
+			OR = {
+				trait = has_typhoid_fever
+				trait = has_typhoid_fever_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_typhus
+			OR = {
+				trait = has_typhus
+				trait = has_typhus_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = has_bubonic_plague
+			OR = {
+				trait = has_bubonic_plague
+				trait = has_bubonic_plague_hidden
+			}
 		}
 		modifier = {
 			factor = 1.1
-			trait = has_measles
+			OR = {
+				trait = has_measles
+				trait = has_measles_hidden
+			}
 		}		
 		modifier = {
 			factor = 1.1
-			trait = has_small_pox
+			OR = {
+				trait = has_small_pox
+				trait = has_small_pox_hidden
+			}
 		}		
 	}
 	
@@ -174,7 +231,10 @@ character_event = {
 		any_child = {
 			is_primary_heir = yes
 			NOT = {
-				trait = bastard
+				OR = {
+					trait = bastard
+					trait = bastard_hidden
+				}
 			}
 		}
 		spouse = {
@@ -284,8 +344,14 @@ character_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		trait = ambitious
-		trait = envious
+		OR = {
+			trait = ambitious
+			trait = ambitious_hidden
+		}
+		OR = {
+			trait = envious
+			trait = envious_hidden
+		}
 		spouse = {
 			is_female = no
 			prisoner = no
@@ -318,12 +384,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 	}
 	
@@ -834,23 +906,50 @@ character_event = {
 				age = 16
 			}
 			OR = {
-				trait = ill
-				trait = maimed
-				trait = infirm
+				OR = {
+					trait = ill
+					trait = ill_hidden
+				}
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
+				OR = {
+					trait = infirm
+					trait = infirm_hidden
+				}
 			}
 		}
 		OR = {
-			trait = paranoid
-			trait = cynical
-			trait = wroth
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		spouse = {
 			prisoner = no
 			is_alive = yes
 			OR = {
-				trait = diligent
-				trait = deceitful
-				trait = ambitious
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 		}
 	}
@@ -860,12 +959,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 	}
 	
@@ -941,10 +1046,22 @@ character_event = {
 			}
 		}
 		OR = {
-			trait = ill
-			trait = infirm
-			trait = syphilitic
-			trait = paranoid
+			OR = {
+				trait = ill
+				trait = ill_hidden
+			}
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			OR = {
+				trait = syphilitic
+				trait = syphilitic_hidden
+			}
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}	
 	}
 	
@@ -953,12 +1070,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 	}
 	
@@ -1022,10 +1145,22 @@ character_event = {
 	
 	trigger = {
 		OR = {
-			trait = ambitious
-			trait = diligent
-			trait = elusive_shadow
-			trait = intricate_webweaver
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = elusive_shadow
+				trait = elusive_shadow_hidden
+			}
+			OR = {
+				trait = intricate_webweaver
+				trait = intricate_webweaver_hidden
+			}
 		}
 		any_child = {
 			OR = {
@@ -1042,7 +1177,10 @@ character_event = {
 			}
 		}
 		spouse = {
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
 			prisoner = no
 			is_alive = yes
 			is_abroad = no
@@ -1055,12 +1193,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = charismatic_negotiator
+			OR = {
+				trait = charismatic_negotiator
+				trait = charismatic_negotiator_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
 		}
 	}
 	
@@ -1260,7 +1404,10 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 				host = { character = ROOT }
 			}
 		}
@@ -1574,8 +1721,18 @@ character_event = {
 	trigger = {
 		is_married = yes
 		NOT = { demesne_size = 1 }
-		NOT = { trait = humble }
-		NOT = { trait = kind }
+		NOT = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			} 
+		}
+		NOT = {
+			 OR = {
+				trait = kind
+				trait = kind_hidden
+			} 
+		}
 		spouse = {
 			prisoner = no
 			is_alive = yes
@@ -1586,12 +1743,30 @@ character_event = {
 				NOT = { character = ROOT }
 				NOT = { opinion = { who = ROOT  value = 30 } }
 				OR = {
-					trait = envious
-					trait = wroth 
-					trait = paranoid
-					trait = deceitful
-					trait = arbitrary
-					trait = ambitious
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					OR = {
+						trait = wroth
+						trait = wroth_hidden
+					} 
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					OR = {
+						trait = arbitrary
+						trait = arbitrary_hidden
+					}
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
 				}
 				NOT = { has_character_flag = annoying_courtier }
 			}
@@ -1603,16 +1778,25 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
 		}
 		modifier = {
 			factor = 1.25
-			trait = cruel
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
 		}
 	}
 	
@@ -1630,7 +1814,10 @@ character_event = {
 			factor = 1
 			modifier = {
 				factor = 5
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 		}
 		spouse = {
@@ -1640,12 +1827,30 @@ character_event = {
 					NOT = { character = ROOT }
 					NOT = { opinion = { who = ROOT  value = 30 } }
 					OR = {
-						trait = envious
-						trait = wroth 
-						trait = paranoid
-						trait = deceitful
-						trait = arbitrary
-						trait = ambitious
+						OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						OR = {
+							trait = wroth
+							trait = wroth_hidden
+						} 
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
 					}
 					NOT = { has_character_flag = annoying_courtier }
 				}
@@ -1667,12 +1872,30 @@ character_event = {
 					NOT = { character = ROOT }
 					NOT = { opinion = { who = ROOT  value = 30 } }
 					OR = {
-						trait = envious
-						trait = wroth 
-						trait = paranoid
-						trait = deceitful
-						trait = arbitrary
-						trait = ambitious
+						OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						OR = {
+							trait = wroth
+							trait = wroth_hidden
+						} 
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
 					}
 					NOT = { has_character_flag = annoying_courtier }
 				}
@@ -1812,17 +2035,38 @@ character_event = {
 			any_courtier = {
 				is_councillor = yes
 				OR = {
-					trait = gregarious
-					trait = paranoid
-					trait = cynical
-					trait = zealous
+					OR = {
+						trait = gregarious
+						trait = gregarious_hidden
+					}
+					OR = {
+						trait = paranoid
+						trait = paranoid_hidden
+					}
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
+					OR = {
+						trait = zealous
+						trait = zealous_hidden
+					}
 				}
 			}
 		}
 		OR = {
-			trait = wroth
-			trait = envious
-			trait = arbitrary
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
 		}
 	}
 	
@@ -1831,12 +2075,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
 		}
 	}
 	
@@ -1865,10 +2115,22 @@ character_event = {
 				limit = {
 					is_councillor = yes
 					OR = {
-						trait = gregarious
-						trait = paranoid
-						trait = cynical
-						trait = zealous
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				opinion = {
@@ -1901,10 +2163,22 @@ character_event = {
 				limit = {
 					is_councillor = yes
 					OR = {
-						trait = gregarious
-						trait = paranoid
-						trait = cynical
-						trait = zealous
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				death = {
@@ -1931,10 +2205,22 @@ character_event = {
 				limit = {
 					is_councillor = yes
 					OR = {
-						trait = gregarious
-						trait = paranoid
-						trait = cynical
-						trait = zealous
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				death = {
@@ -1961,10 +2247,22 @@ character_event = {
 				limit = {
 					is_councillor = yes
 					OR = {
-						trait = gregarious
-						trait = paranoid
-						trait = cynical
-						trait = zealous
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				death = {
@@ -1990,10 +2288,22 @@ character_event = {
 				limit = {
 					is_councillor = yes
 					OR = {
-						trait = gregarious
-						trait = paranoid
-						trait = cynical
-						trait = zealous
+						OR = {
+							trait = gregarious
+							trait = gregarious_hidden
+						}
+						OR = {
+							trait = paranoid
+							trait = paranoid_hidden
+						}
+						OR = {
+							trait = cynical
+							trait = cynical_hidden
+						}
+						OR = {
+							trait = zealous
+							trait = zealous_hidden
+						}
 					}
 				}
 				death = {
@@ -2059,16 +2369,25 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 	}
 	
@@ -2155,12 +2474,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
 		}
 	}
 	
@@ -2235,7 +2560,10 @@ character_event = {
 				opinion = { who = ROOT value = 50 }
 			}
 			NOT = {
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 		}
 		treasury = 70
@@ -2249,12 +2577,18 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		
 		modifier = {
 			factor = 0.5
-			trait = wroth
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
 		}
 	}
 	
@@ -2323,10 +2657,16 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			NOT = {
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			NOT = {	
 				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
@@ -2339,11 +2679,21 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			spouse = { trait = diligent }
+			spouse = {
+				 OR = {
+					trait = diligent
+					trait = diligent_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			spouse = { trait = content }
+			spouse = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 	}
 	
@@ -2417,10 +2767,16 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			NOT = {
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			NOT = {	
 				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
@@ -2433,11 +2789,21 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			spouse = { trait = diligent }
+			spouse = {
+				 OR = {
+					trait = diligent
+					trait = diligent_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			spouse = { trait = content }
+			spouse = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 	}
 	
@@ -2511,10 +2877,16 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			NOT = {
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			NOT = {	
 				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
@@ -2527,11 +2899,21 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			spouse = { trait = diligent }
+			spouse = {
+				 OR = {
+					trait = diligent
+					trait = diligent_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			spouse = { trait = content }
+			spouse = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 	}
 	
@@ -2603,10 +2985,16 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			NOT = {
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			NOT = {	
 				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
@@ -2619,20 +3007,36 @@ character_event = {
 		
 		modifier = {
 			factor = 1.5
-			spouse = { trait = diligent }
+			spouse = {
+				 OR = {
+					trait = diligent
+					trait = diligent_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			spouse = { trait = content }
+			spouse = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 		
 		modifier = {
 			factor = 2
-			trait = paranoid
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = trusting
+			OR = {
+				trait = trusting
+				trait = trusting_hidden
+			}
 		}
 	}
 	
@@ -2701,10 +3105,16 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			NOT = {
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			NOT = {	
 				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
@@ -2717,11 +3127,21 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			spouse = { trait = diligent }
+			spouse = {
+				 OR = {
+					trait = diligent
+					trait = diligent_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			spouse = { trait = content }
+			spouse = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 	}
 	
@@ -2790,7 +3210,12 @@ character_event = {
 			age = 16
 			is_female = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			liege = {
 				NOT = {
 					character = PREV
@@ -2803,9 +3228,18 @@ character_event = {
 			}
 		}
 		OR = {
-			trait = ambitious
-			trait = diligent
-			trait = charitable
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		spouse = {
 			is_ruler = yes
@@ -2827,13 +3261,19 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			spouse = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		modifier = {
 			factor = 2
 			spouse = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 	}
@@ -2851,7 +3291,12 @@ character_event = {
 				age = 16
 				is_female = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				liege = {
 					NOT = {
 						character = PREV
@@ -2985,7 +3430,12 @@ character_event = {
 			age = 16
 			is_female = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			liege = {
 				NOT = {
 					character = PREV
@@ -3005,9 +3455,18 @@ character_event = {
 			at_location = ROOT
 		}
 		OR = {
-			trait = ambitious
-			trait = diligent
-			trait = charitable
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		job_marshal = {
 			NOT = {	character = ROOT }
@@ -3020,13 +3479,19 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			spouse = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		modifier = {
 			factor = 2
 			spouse = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 	}
@@ -3044,7 +3509,12 @@ character_event = {
 				age = 16
 				is_female = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				liege = {
 					NOT = {
 						character = PREV
@@ -3178,7 +3648,12 @@ character_event = {
 			age = 16
 			is_female = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			liege = {
 				NOT = {
 					character = PREV
@@ -3191,9 +3666,18 @@ character_event = {
 			}
 		}
 		OR = {
-			trait = ambitious
-			trait = diligent
-			trait = charitable
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		spouse = {
 			is_ruler = yes
@@ -3215,13 +3699,19 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			spouse = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		modifier = {
 			factor = 2
 			spouse = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 	}
@@ -3239,7 +3729,12 @@ character_event = {
 				age = 16
 				is_female = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				liege = {
 					NOT = {
 						character = PREV
@@ -3371,7 +3866,12 @@ character_event = {
 			age = 16
 			is_female = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			liege = {
 				NOT = {
 					character = PREV
@@ -3384,9 +3884,18 @@ character_event = {
 			}
 		}
 		OR = {
-			trait = ambitious
-			trait = diligent
-			trait = charitable
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		spouse = {
 			is_ruler = yes
@@ -3408,13 +3917,19 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			spouse = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		modifier = {
 			factor = 2
 			spouse = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 	}
@@ -3432,7 +3947,12 @@ character_event = {
 				age = 16
 				is_female = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				liege = {
 					NOT = {
 						character = PREV
@@ -3574,7 +4094,12 @@ character_event = {
 			age = 16
 			is_female = no
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			liege = {
 				NOT = {
 					character = PREV
@@ -3587,9 +4112,18 @@ character_event = {
 			}
 		}
 		OR = {
-			trait = ambitious
-			trait = diligent
-			trait = charitable
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
 		}
 		spouse = {
 			is_ruler = yes
@@ -3611,13 +4145,19 @@ character_event = {
 		modifier = {
 			factor = 0.5
 			spouse = {
-				trait = wroth
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
 			}
 		}
 		modifier = {
 			factor = 2
 			spouse = {
-				trait = trusting
+				OR = {
+					trait = trusting
+					trait = trusting_hidden
+				}
 			}
 		}
 	}
@@ -3635,7 +4175,12 @@ character_event = {
 				age = 16
 				is_female = no
 				prisoner = no
-				NOT = { trait = incapable }
+				NOT = {
+					 OR = {
+						trait = incapable
+						trait = incapable_hidden
+					} 
+				}
 				liege = {
 					NOT = {
 						character = PREV
@@ -3781,11 +4326,17 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -3808,13 +4359,22 @@ character_event = {
 					age = 65
 				}
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
-					trait = homosexual
+					OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					}
 				}
 				NOT = {
 					family = ROOT
@@ -4174,10 +4734,16 @@ character_event = {
 				age = 30
 			}
 			NOT = {
-				trait = genius
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 			NOT = {
-				trait = quick
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
 			}
 		}
 		NOT = {
@@ -4199,11 +4765,21 @@ character_event = {
 		
 		modifier = {
 			factor = 1.5
-			spouse = { trait = slow }
+			spouse = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 3
-			spouse = { trait = imbecile }
+			spouse = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				} 
+			}
 		}
 	}
 	
@@ -4852,9 +5428,19 @@ character_event = {
 	
 	trigger = {
 		fertility = 0.65
-		NOT = { trait = celibate }
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			} 
+		}
 		spouse = {
-			NOT = { trait = celibate }
+			NOT = {
+				 OR = {
+					trait = celibate
+					trait = celibate_hidden
+				} 
+			}
 			age = 40
 			war = no
 			in_command = no
@@ -4877,11 +5463,17 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 1.5
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
 		}
 		modifier = {
 			factor = 2
@@ -5199,7 +5791,10 @@ character_event = {
 		add_trait = depressed
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			remove_trait = lustful
 		}
@@ -5219,7 +5814,10 @@ character_event = {
 		add_trait = depressed
 		if = {
 			limit = {
-				trait = lustful
+				OR = {
+					trait = lustful
+					trait = lustful_hidden
+				}
 			}
 			remove_trait = lustful
 		}
@@ -5281,7 +5879,10 @@ character_event = {
 		}
 		modifier = {
 			factor = 0.5
-			trait = chaste
+			OR = {
+				trait = chaste
+				trait = chaste_hidden
+			}
 		}
 		modifier = {
 			factor = 3
@@ -5312,10 +5913,16 @@ character_event = {
 				}
 				is_female = no
 				NOT = {
-					trait = chaste
+					OR = {
+						trait = chaste
+						trait = chaste_hidden
+					}
 				}
 				NOT = {
-					trait = celibate
+					OR = {
+						trait = celibate
+						trait = celibate_hidden
+					}
 				}
 				NOT = {
 					family = ROOT
@@ -5365,10 +5972,16 @@ character_event = {
 			is_abroad = no
 			at_location = ROOT
 			NOT = {
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			NOT = {
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			NOT = {	
 				has_opinion_modifier = { who = ROOT modifier = opinion_denied_advice }
@@ -5381,11 +5994,21 @@ character_event = {
 		
 		modifier = {
 			factor = 2
-			spouse = { trait = diligent }
+			spouse = {
+				 OR = {
+					trait = diligent
+					trait = diligent_hidden
+				} 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			spouse = { trait = content }
+			spouse = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				} 
+			}
 		}
 	}
 	

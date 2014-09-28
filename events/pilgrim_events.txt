@@ -858,7 +858,12 @@ character_event = {
 			factor = 90
 		}
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			add_trait = cynical
 		}
 		random_list = {
@@ -888,7 +893,12 @@ character_event = {
 			factor = 50
 		}
 		if = {
-			limit = { NOT = { trait = wroth } }
+			limit = {
+				 NOT = { OR = {
+					trait = wroth
+					trait = wroth_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = wroth
@@ -901,7 +911,12 @@ character_event = {
 			factor = 50
 		}
 		if = {
-			limit = { NOT = { trait = patient } }
+			limit = {
+				 NOT = { OR = {
+					trait = patient
+					trait = patient_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = patient
@@ -929,7 +944,12 @@ narrative_event = {
 			add_trait = wounded
 			}
 		if = {
-			limit = { NOT = { trait = brave } }
+			limit = {
+				 NOT = { OR = {
+					trait = brave
+					trait = brave_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = brave
@@ -942,7 +962,12 @@ narrative_event = {
 			factor = 20
 		}
 		if = {
-			limit = { NOT = { trait = craven } }
+			limit = {
+				 NOT = { OR = {
+					trait = craven
+					trait = craven_hidden
+				} } 
+			}
 			add_trait = craven
 		}
 	}
@@ -973,7 +998,12 @@ character_event = {
 			factor = 10
 		}
 		if = {
-			limit = { NOT = { trait = brave } }
+			limit = {
+				 NOT = { OR = {
+					trait = brave
+					trait = brave_hidden
+				} } 
+			}
 			add_trait = brave
 		}
 		random = {
@@ -1015,7 +1045,12 @@ character_event = {
 		}
 		wealth = -30
 		if = {
-			limit = { NOT = { trait = charitable } }
+			limit = {
+				 NOT = { OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} } 
+			}
 			add_trait = charitable
 		}
 	}
@@ -1035,117 +1070,252 @@ character_event = {
 		random_list = {
 			10 = {
 				if = {
-					limit = { trait = celibate }
+					limit = {
+						 OR = {
+							trait = celibate
+							trait = celibate_hidden
+						} 
+					}
 					remove_trait = celibate
 				}
 				if = {
-					limit = { trait = hedonist }
+					limit = {
+						 OR = {
+							trait = hedonist
+							trait = hedonist_hidden
+						} 
+					}
 					remove_trait = hedonist
 				}
 				if = {
-					limit = { trait = gardener }
+					limit = {
+						 OR = {
+							trait = gardener
+							trait = gardener_hidden
+						} 
+					}
 					remove_trait = gardener
 				}
 				if = {
-					limit = { trait = mystic }
+					limit = {
+						 OR = {
+							trait = mystic
+							trait = mystic_hidden
+						} 
+					}
 					remove_trait = mystic
 				}
 				if = {
-					limit = { trait = impaler }
+					limit = {
+						 OR = {
+							trait = impaler
+							trait = impaler_hidden
+						} 
+					}
 					remove_trait = impaler
 				}
 				if = {
-					limit = { trait = duelist }
+					limit = {
+						 OR = {
+							trait = duelist
+							trait = duelist_hidden
+						} 
+					}
 					remove_trait = duelist
 				}
 				if = {
-					limit = { trait = hunter }
+					limit = {
+						 OR = {
+							trait = hunter
+							trait = hunter_hidden
+						} 
+					}
 					remove_trait = hunter
 				}
 				if = {
-					limit = { trait = poet }
+					limit = {
+						 OR = {
+							trait = poet
+							trait = poet_hidden
+						} 
+					}
 					remove_trait = poet
 				}
 				if = {
-					limit = { trait = falconer }
+					limit = {
+						 OR = {
+							trait = falconer
+							trait = falconer_hidden
+						} 
+					}
 					remove_trait = falconer
 				}
 				add_trait = scholar
 			}
 			10 = {
 				if = {
-					limit = { trait = celibate }
+					limit = {
+						 OR = {
+							trait = celibate
+							trait = celibate_hidden
+						} 
+					}
 					remove_trait = celibate
 				}
 				if = {
-					limit = { trait = hedonist }
+					limit = {
+						 OR = {
+							trait = hedonist
+							trait = hedonist_hidden
+						} 
+					}
 					remove_trait = hedonist
 				}
 				if = {
-					limit = { trait = scholar }
+					limit = {
+						 OR = {
+							trait = scholar
+							trait = scholar_hidden
+						} 
+					}
 					remove_trait = scholar
 				}
 				if = {
-					limit = { trait = gardener }
+					limit = {
+						 OR = {
+							trait = gardener
+							trait = gardener_hidden
+						} 
+					}
 					remove_trait = gardener
 				}
 				if = {
-					limit = { trait = impaler }
+					limit = {
+						 OR = {
+							trait = impaler
+							trait = impaler_hidden
+						} 
+					}
 					remove_trait = impaler
 				}
 				if = {
-					limit = { trait = duelist }
+					limit = {
+						 OR = {
+							trait = duelist
+							trait = duelist_hidden
+						} 
+					}
 					remove_trait = duelist
 				}
 				if = {
-					limit = { trait = hunter }
+					limit = {
+						 OR = {
+							trait = hunter
+							trait = hunter_hidden
+						} 
+					}
 					remove_trait = hunter
 				}
 				if = {
-					limit = { trait = poet }
+					limit = {
+						 OR = {
+							trait = poet
+							trait = poet_hidden
+						} 
+					}
 					remove_trait = poet
 				}
 				if = {
-					limit = { trait = falconer }
+					limit = {
+						 OR = {
+							trait = falconer
+							trait = falconer_hidden
+						} 
+					}
 					remove_trait = falconer
 				}
 				add_trait = mystic
 			}
 			10 = {
 				if = {
-					limit = { trait = celibate }
+					limit = {
+						 OR = {
+							trait = celibate
+							trait = celibate_hidden
+						} 
+					}
 					remove_trait = celibate
 				}
 				if = {
-					limit = { trait = hedonist }
+					limit = {
+						 OR = {
+							trait = hedonist
+							trait = hedonist_hidden
+						} 
+					}
 					remove_trait = hedonist
 				}
 				if = {
-					limit = { trait = scholar }
+					limit = {
+						 OR = {
+							trait = scholar
+							trait = scholar_hidden
+						} 
+					}
 					remove_trait = scholar
 				}
 				if = {
-					limit = { trait = gardener }
+					limit = {
+						 OR = {
+							trait = gardener
+							trait = gardener_hidden
+						} 
+					}
 					remove_trait = gardener
 				}
 				if = {
-					limit = { trait = mystic }
+					limit = {
+						 OR = {
+							trait = mystic
+							trait = mystic_hidden
+						} 
+					}
 					remove_trait = mystic
 				}
 				if = {
-					limit = { trait = impaler }
+					limit = {
+						 OR = {
+							trait = impaler
+							trait = impaler_hidden
+						} 
+					}
 					remove_trait = impaler
 				}
 				if = {
-					limit = { trait = duelist }
+					limit = {
+						 OR = {
+							trait = duelist
+							trait = duelist_hidden
+						} 
+					}
 					remove_trait = duelist
 				}
 				if = {
-					limit = { trait = hunter }
+					limit = {
+						 OR = {
+							trait = hunter
+							trait = hunter_hidden
+						} 
+					}
 					remove_trait = hunter
 				}
 				if = {
-					limit = { trait = falconer }
+					limit = {
+						 OR = {
+							trait = falconer
+							trait = falconer_hidden
+						} 
+					}
 					remove_trait = falconer
 				}
 				add_trait = poet
@@ -1163,7 +1333,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5031
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = cynical
@@ -1187,7 +1362,12 @@ character_event = {
 		}
 		wealth = -10
 		if = {
-			limit = { NOT = { trait = kind } }
+			limit = {
+				 NOT = { OR = {
+					trait = kind
+					trait = kind_hidden
+				} } 
+			}
 			add_trait = kind
 		}
 	}
@@ -1197,7 +1377,12 @@ character_event = {
 			factor = 10
 		}
 		if = {
-			limit = { trait = kind }
+			limit = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				} 
+			}
 			remove_trait = kind
 		}
 	}
@@ -1215,14 +1400,24 @@ narrative_event = {
 	option = {
 		name = EVTOPTA_SoA_5033
 		if = {
-			limit = { NOT = { trait = arbitrary } }
+			limit = {
+				 NOT = { OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				} } 
+			}
 			add_trait = arbitrary
 		}
 	}
 	option = {
 		name = EVTOPTB_SoA_5033
 		if = {
-			limit = { NOT = { trait = charitable } }
+			limit = {
+				 NOT = { OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} } 
+			}
 			add_trait = charitable
 		}
 	}
@@ -1244,7 +1439,12 @@ character_event = {
 		name = EVTOPTA_SoA_5034
 		wealth = -5
 		if = {
-			limit = { NOT = { trait = charitable } }
+			limit = {
+				 NOT = { OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} } 
+			}
 			add_trait = charitable
 		}
 	}
@@ -1252,7 +1452,10 @@ character_event = {
 		name = EVTOPTB_SoA_5034
 		if = {
 			limit = {
-				trait = charitable
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
 			}
 		remove_trait = charitable
 		}
@@ -1299,7 +1502,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5036
 		if = {
-			limit = { NOT = { trait = proud } }
+			limit = {
+				 NOT = { OR = {
+					trait = proud
+					trait = proud_hidden
+				} } 
+			}
 			random = {
 				chance = 30
 				add_trait = proud
@@ -1337,7 +1545,12 @@ character_event = {
 			add_trait = ill
 		}
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 50
 				add_trait = cynical
@@ -1361,7 +1574,12 @@ character_event = {
 		name = EVTOPTB_SoA_5038
 		wealth = -10
 		if = {
-			limit = { NOT = { trait = charitable } }
+			limit = {
+				 NOT = { OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} } 
+			}
 			add_trait = charitable
 		}
 	}
@@ -1369,18 +1587,33 @@ character_event = {
 		name = EVTOPTC_SoA_5038
 		wealth = 10
 		if = {
-			limit = { trait = charitable }
+			limit = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} 
+			}
 			remove_trait = charitable
 		}
 		if = {
-			limit = { NOT = { trait = deceitful } }
+			limit = {
+				 NOT = { OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				} } 
+			}
 			add_trait = deceitful
 		}
 	}
 	option = {
 		name = EVTOPTD_SoA_5038
 		if = {
-			limit = { trait = charitable }
+			limit = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				} 
+			}
 			remove_trait = charitable
 		}
 	}
@@ -1398,7 +1631,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5039
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = zealous
@@ -1408,7 +1646,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5039
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = cynical
@@ -1439,7 +1682,12 @@ narrative_event = {
 			factor = 10
 		}
 		if = {
-			limit = { NOT = { trait = paranoid } }
+			limit = {
+				 NOT = { OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = paranoid
@@ -2156,7 +2404,12 @@ character_event = {
 		}
 		if = {
 			limit = {
-				NOT = { trait = shy	}
+				NOT = {
+					 OR = {
+						trait = shy
+						trait = shy_hidden
+					}	
+				}
 			}
 			random = {
 				chance = 20
@@ -2614,11 +2867,21 @@ character_event = {
 		random_list = {
 			10 = {
 				if = {
-					limit = { NOT = { trait = cynical } }
+					limit = {
+						 NOT = { OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} } 
+					}
 					character_event = { id = SoA.5056 }   # Stimulated to learning
 				}
 				if = {
-					limit = { trait = cynical }
+					limit = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 					random_list = {
 						20 = { character_event = { id = SoA.5057 } }  # Strong religious experience
 						10 = { character_event = { id = SoA.5058 } }  # Disappointed in the place
@@ -2631,16 +2894,32 @@ character_event = {
 				if = {
 					limit = {
 						OR = {
-							trait = mastermind_theologian
-							trait = scholarly_theologian
+							OR = {
+								trait = mastermind_theologian
+								trait = mastermind_theologian_hidden
+							}
+							OR = {
+								trait = scholarly_theologian
+								trait = scholarly_theologian_hidden
+							}
 						}
 					}
 					character_event = { id = SoA.5059 }  # Mastermind theologian impresses everyone
 				}
 				if = {
 					limit = {
-						NOT = { trait = mastermind_theologian }
-						NOT = { trait = scholarly_theologian }
+						NOT = {
+							 OR = {
+								trait = mastermind_theologian
+								trait = mastermind_theologian_hidden
+							} 
+						}
+						NOT = {
+							 OR = {
+								trait = scholarly_theologian
+								trait = scholarly_theologian_hidden
+							} 
+						}
 					}
 					random_list = {
 						20 = { character_event = { id = SoA.5057 } }  # Strong religious experience
@@ -2652,11 +2931,21 @@ character_event = {
 			}
 			10 = {
 				if = {
-					limit = { trait = lustful }
+					limit = {
+						 OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} 
+					}
 					character_event = { id = SoA.5062 }    # Lustful tourist having fun
 				}
 				if = {
-					limit = { NOT = { trait = lustful }	}
+					limit = {
+						 NOT = { OR = {
+							trait = lustful
+							trait = lustful_hidden
+						} }	
+					}
 					random_list = {
 						20 = { character_event = { id = SoA.5057 } }  # Strong religious experience
 						10 = { character_event = { id = SoA.5058 } }  # Disappointed in the place
@@ -2667,11 +2956,21 @@ character_event = {
 			}
 			10 = {
 				if = {
-					limit = { trait = homosexual }
+					limit = {
+						 OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} 
+					}
 					character_event = { id = SoA.5063 }    # Freedom
 				}
 				if = {
-					limit = { NOT = { trait = homosexual } }
+					limit = {
+						 NOT = { OR = {
+							trait = homosexual
+							trait = homosexual_hidden
+						} } 
+					}
 					random_list = {
 						20 = {  character_event = { id = SoA.5057 } }  # Strong religious experience
 						10 = {  character_event = { id = SoA.5058 } }  # Disappointed in the place
@@ -2684,9 +2983,18 @@ character_event = {
 				if = {
 					limit = {
 						OR = {
-							trait = ill
-							trait = pneumonic
-							trait = syphilitic
+							OR = {
+								trait = ill
+								trait = ill_hidden
+							}
+							OR = {
+								trait = pneumonic
+								trait = pneumonic_hidden
+							}
+							OR = {
+								trait = syphilitic
+								trait = syphilitic_hidden
+							}
 						}
 					}
 					narrative_event = { id = SoA.5064 }
@@ -2695,9 +3003,18 @@ character_event = {
 					limit = {
 						NOT = {
 							OR = {
-								trait = ill
-								trait = pneumonic
-								trait = syphilitic
+								OR = {
+									trait = ill
+									trait = ill_hidden
+								}
+								OR = {
+									trait = pneumonic
+									trait = pneumonic_hidden
+								}
+								OR = {
+									trait = syphilitic
+									trait = syphilitic_hidden
+								}
 							}
 						}
 					}
@@ -2713,8 +3030,14 @@ character_event = {
 				if = {
 					limit = {
 						OR = {
-							trait = lunatic
-							trait = possessed
+							OR = {
+								trait = lunatic
+								trait = lunatic_hidden
+							}
+							OR = {
+								trait = possessed
+								trait = possessed_hidden
+							}
 						}
 					}
 					character_event = { id = SoA.5065 }  # Lunatic/possessed decides (s)he is God
@@ -2723,8 +3046,14 @@ character_event = {
 					limit = {
 						NOT = {
 							OR = {
-								trait = lunatic
-								trait = possessed
+								OR = {
+									trait = lunatic
+									trait = lunatic_hidden
+								}
+								OR = {
+									trait = possessed
+									trait = possessed_hidden
+								}
 							}
 						}
 					}
@@ -2740,8 +3069,14 @@ character_event = {
 				if = {
 					limit = {
 						OR = {
-							trait = drunkard
-							trait = hedonist
+							OR = {
+								trait = drunkard
+								trait = drunkard_hidden
+							}
+							OR = {
+								trait = hedonist
+								trait = hedonist_hidden
+							}
 						}
 					}
 					character_event = { id = SoA.5066 }  # Drunkard/hedonist event
@@ -2750,8 +3085,14 @@ character_event = {
 					limit = {
 						NOT = {
 							OR = {
-								trait = drunkard
-								trait = hedonist
+								OR = {
+									trait = drunkard
+									trait = drunkard_hidden
+								}
+								OR = {
+									trait = hedonist
+									trait = hedonist_hidden
+								}
 							}
 						}
 					}
@@ -2800,7 +3141,12 @@ character_event = {
 			add_trait = scholar
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = zealous
@@ -2827,7 +3173,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5057
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			add_trait = zealous
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -2846,7 +3197,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5058
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			add_trait = cynical
 		}
 		clr_character_flag = good_pilgrimage
@@ -2891,14 +3247,24 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5060
 		if = {
-			limit = { NOT = { trait = gregarious } }
+			limit = {
+				 NOT = { OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} } 
+			}
 			random = {
 				chance = 50
 				add_trait = gregarious
 			}
 		}
 		if = {
-			limit = { trait = gregarious }
+			limit = {
+				 OR = {
+					trait = gregarious
+					trait = gregarious_hidden
+				} 
+			}
 			random = {
 				chance = 20
 				change_diplomacy = 1
@@ -2937,7 +3303,12 @@ character_event = {
 		if = {
 			limit = {
 				is_female = yes
-				NOT = { trait = homosexual }
+				NOT = {
+					 OR = {
+						trait = homosexual
+						trait = homosexual_hidden
+					} 
+				}
 				}
 			random = {
 				chance = 50
@@ -2949,7 +3320,12 @@ character_event = {
 
 
 		if = {
-			limit = { NOT = { trait = syphilitic } }
+			limit = {
+				 NOT = { OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				} } 
+			}
 			random = {
 				chance = 5
 				add_trait = syphilitic
@@ -2963,7 +3339,12 @@ character_event = {
 		name = EVTOPTB_SoA_5062   # Control yourself
 		piety = 10
 		if = {
-			limit = { NOT = { trait = chaste } }
+			limit = {
+				 NOT = { OR = {
+					trait = chaste
+					trait = chaste_hidden
+				} } 
+			}
 			random = {
 				chance = 40
 				add_trait = chaste
@@ -2984,7 +3365,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5063    # Do it
 		if = {
-			limit = { trait = stressed }
+			limit = {
+				 OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} 
+			}
 			remove_trait = stressed
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -2992,11 +3378,21 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5063    # Don't do it
 		if = {
-			limit = { NOT = { trait = stressed } }
+			limit = {
+				 NOT = { OR = {
+					trait = stressed
+					trait = stressed_hidden
+				} } 
+			}
 			add_trait = stressed
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = zealous
@@ -3022,23 +3418,48 @@ narrative_event = {
 			factor = 70
 		}
 		if = {
-			limit = { trait = ill }
+			limit = {
+				 OR = {
+					trait = ill
+					trait = ill_hidden
+				} 
+			}
 			remove_trait = ill
 		}
 		if = {
-			limit = { trait = pneumonic	}
+			limit = {
+				 OR = {
+					trait = pneumonic
+					trait = pneumonic_hidden
+				}	
+			}
 			remove_trait = pneumonic
 		}
 		if = {
-			limit = { trait = syphilitic }
+			limit = {
+				 OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				} 
+			}
 			remove_trait = syphilitic
 		}
 		if = {
-			limit = { trait = wounded }
+			limit = {
+				 OR = {
+					trait = wounded
+					trait = wounded_hidden
+				} 
+			}
 			remove_trait = wounded
 		}
 		if = {
-			limit = { NOT = { trait = zealous } }
+			limit = {
+				 NOT = { OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} } 
+			}
 			add_trait = zealous
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3049,23 +3470,48 @@ narrative_event = {
 			factor = 20
 		}
 		if = {
-			limit = { trait = ill }
+			limit = {
+				 OR = {
+					trait = ill
+					trait = ill_hidden
+				} 
+			}
 			remove_trait = ill
 		}
 		if = {
-			limit = { trait = pneumonic	}
+			limit = {
+				 OR = {
+					trait = pneumonic
+					trait = pneumonic_hidden
+				}	
+			}
 			remove_trait = pneumonic
 		}
 		if = {
-			limit = { trait = syphilitic }
+			limit = {
+				 OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				} 
+			}
 			remove_trait = syphilitic
 		}
 		if = {
-			limit = { trait = wounded }
+			limit = {
+				 OR = {
+					trait = wounded
+					trait = wounded_hidden
+				} 
+			}
 			remove_trait = wounded
 		}
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			add_trait = cynical
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3076,57 +3522,127 @@ narrative_event = {
 			factor = 10
 		}
 		if = {
-			limit = { trait = ill }
+			limit = {
+				 OR = {
+					trait = ill
+					trait = ill_hidden
+				} 
+			}
 			remove_trait = ill
 		}
 		if = {
-			limit = { trait = pneumonic	}
+			limit = {
+				 OR = {
+					trait = pneumonic
+					trait = pneumonic_hidden
+				}	
+			}
 			remove_trait = pneumonic
 		}
 		if = {
-			limit = { trait = syphilitic }
+			limit = {
+				 OR = {
+					trait = syphilitic
+					trait = syphilitic_hidden
+				} 
+			}
 			remove_trait = syphilitic
 		}
 		if = {
-			limit = { trait = wounded }
+			limit = {
+				 OR = {
+					trait = wounded
+					trait = wounded_hidden
+				} 
+			}
 			remove_trait = wounded
 		}
 		if = {
-			limit = { NOT = { trait = mystic } }
+			limit = {
+				 NOT = { OR = {
+					trait = mystic
+					trait = mystic_hidden
+				} } 
+			}
 			if = {
-				limit = { trait = celibate }
+				limit = {
+					 OR = {
+						trait = celibate
+						trait = celibate_hidden
+					} 
+				}
 				remove_trait = celibate
 			}
 			if = {
-				limit = { trait = hedonist }
+				limit = {
+					 OR = {
+						trait = hedonist
+						trait = hedonist_hidden
+					} 
+				}
 				remove_trait = hedonist
 			}
 			if = {
-				limit = { trait = scholar }
+				limit = {
+					 OR = {
+						trait = scholar
+						trait = scholar_hidden
+					} 
+				}
 				remove_trait = scholar
 			}
 			if = {
-				limit = { trait = gardener }
+				limit = {
+					 OR = {
+						trait = gardener
+						trait = gardener_hidden
+					} 
+				}
 				remove_trait = gardener
 			}
 			if = {
-				limit = { trait = impaler }
+				limit = {
+					 OR = {
+						trait = impaler
+						trait = impaler_hidden
+					} 
+				}
 				remove_trait = impaler
 			}
 			if = {
-				limit = { trait = duelist }
+				limit = {
+					 OR = {
+						trait = duelist
+						trait = duelist_hidden
+					} 
+				}
 				remove_trait = duelist
 			}
 			if = {
-				limit = { trait = hunter }
+				limit = {
+					 OR = {
+						trait = hunter
+						trait = hunter_hidden
+					} 
+				}
 				remove_trait = hunter
 			}
 			if = {
-				limit = { trait = poet }
+				limit = {
+					 OR = {
+						trait = poet
+						trait = poet_hidden
+					} 
+				}
 				remove_trait = poet
 			}
 			if = {
-				limit = { trait = falconer }
+				limit = {
+					 OR = {
+						trait = falconer
+						trait = falconer_hidden
+					} 
+				}
 				remove_trait = falconer
 			}
 			add_trait = mystic
@@ -3175,50 +3691,105 @@ character_event = {
 			factor = 80
 		}
 			if = {
-				limit = { NOT = { trait = hedonist } }
+				limit = {
+					 NOT = { OR = {
+						trait = hedonist
+						trait = hedonist_hidden
+					} } 
+				}
 				random = {
 					chance = 30
 					if = {
-						limit = { trait = celibate }
+						limit = {
+							 OR = {
+								trait = celibate
+								trait = celibate_hidden
+							} 
+						}
 						remove_trait = celibate
 					}
 					if = {
-						limit = { trait = mystic }
+						limit = {
+							 OR = {
+								trait = mystic
+								trait = mystic_hidden
+							} 
+						}
 						remove_trait = mystic
 					}
 					if = {
-						limit = { trait = scholar }
+						limit = {
+							 OR = {
+								trait = scholar
+								trait = scholar_hidden
+							} 
+						}
 						remove_trait = scholar
 					}
 					if = {
-						limit = { trait = gardener }
+						limit = {
+							 OR = {
+								trait = gardener
+								trait = gardener_hidden
+							} 
+						}
 						remove_trait = gardener
 					}
 					if = {
-						limit = { trait = impaler }
+						limit = {
+							 OR = {
+								trait = impaler
+								trait = impaler_hidden
+							} 
+						}
 						remove_trait = impaler
 					}
 					if = {
-						limit = { trait = duelist }
+						limit = {
+							 OR = {
+								trait = duelist
+								trait = duelist_hidden
+							} 
+						}
 						remove_trait = duelist
 					}
 					if = {
-						limit = { trait = hunter }
+						limit = {
+							 OR = {
+								trait = hunter
+								trait = hunter_hidden
+							} 
+						}
 						remove_trait = hunter
 					}
 					if = {
-						limit = { trait = poet }
+						limit = {
+							 OR = {
+								trait = poet
+								trait = poet_hidden
+							} 
+						}
 						remove_trait = poet
 					}
 					if = {
-						limit = { trait = falconer }
+						limit = {
+							 OR = {
+								trait = falconer
+								trait = falconer_hidden
+							} 
+						}
 						remove_trait = falconer
 					}
 					add_trait = hedonist
 				}
 			}
 			if = {
-				limit = { NOT = { trait = drunkard } }
+				limit = {
+					 NOT = { OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					} } 
+				}
 				random = {
 					chance = 30
 					add_trait = drunkard
@@ -3233,7 +3804,12 @@ character_event = {
 		}
 		piety = 10
 			if = {
-				limit = { NOT = { trait = stressed } }
+				limit = {
+					 NOT = { OR = {
+						trait = stressed
+						trait = stressed_hidden
+					} } 
+				}
 				random = {
 					chance = 30
 					add_trait = stressed
@@ -3255,7 +3831,12 @@ character_event = {
 	option = {
 		name = EVTOPTA_SoA_5067
 		if = {
-			limit = { trait = zealous }
+			limit = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			remove_trait = zealous
 		}
 		add_trait = sympathy_islam
@@ -3264,7 +3845,12 @@ character_event = {
 	option = {
 		name = EVTOPTB_SoA_5067
 		if = {
-			limit = { trait = zealous }
+			limit = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			remove_trait = zealous
 		}
 		add_trait = sympathy_judaism
@@ -3286,11 +3872,21 @@ character_event = {
 		prestige = -10
 		set_character_flag = abominable_pilgrimage
 		if = {
-			limit = { NOT = { trait = lunatic } }
+			limit = {
+				 NOT = { OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				} } 
+			}
 			add_trait = lunatic
 		}
 		if = {
-			limit = { NOT = { trait = wroth } }
+			limit = {
+				 NOT = { OR = {
+					trait = wroth
+					trait = wroth_hidden
+				} } 
+			}
 			random = {
 				chance = 50
 				add_trait = wroth
@@ -3399,7 +3995,12 @@ character_event = {
 		hidden_tooltip = { remove_trait = on_pilgrimage }
 		piety = -10
 		if = {
-			limit = { NOT = { trait = cynical } }
+			limit = {
+				 NOT = { OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} } 
+			}
 			random = {
 				chance = 20
 				add_trait = cynical
