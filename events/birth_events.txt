@@ -1491,6 +1491,7 @@ character_event = {
 					} 
 				}
 				remove_trait = born_in_the_purple
+				remove_trait = born_in_the_purple_hidden
 			}
 			if = {
 				limit = {
@@ -1500,6 +1501,7 @@ character_event = {
 					} 
 				}
 				remove_trait = saoshyant_descendant
+				remove_trait = saoshyant_descendant_hidden
 			}
 			if = {
 				limit = {
@@ -1509,6 +1511,7 @@ character_event = {
 					} 
 				}
 				remove_trait = sayyid
+				remove_trait = sayyid_hidden
 			}
 			mother = {
 				character_event = { id = 310 tooltip = EVTTOOLTIP310 } # The child's mother is dishonoured
@@ -1535,6 +1538,7 @@ character_event = {
 		name = OK
 		dynasty = FROM
 		remove_trait = bastard
+		remove_trait = bastard_hidden
 		add_trait = legit_bastard_hidden
 		
 		father = {

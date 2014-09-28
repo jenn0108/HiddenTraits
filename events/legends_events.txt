@@ -706,6 +706,7 @@ narrative_event = {
 				}
 			}
 			remove_trait = deceitful
+			remove_trait = deceitful_hidden
 		}
 		if = {
 			limit = {

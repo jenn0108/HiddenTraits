@@ -1023,18 +1023,31 @@ character_event = {
 	
 	immediate = {
 		remove_trait = chaste
+		remove_trait = chaste_hidden
 		remove_trait = kind
+		remove_trait = kind_hidden
 		remove_trait = honest
+		remove_trait = honest_hidden
 		remove_trait = content
+		remove_trait = content_hidden
 		remove_trait = charitable
+		remove_trait = charitable_hidden
 		remove_trait = just
+		remove_trait = just_hidden
 		remove_trait = humble
+		remove_trait = humble_hidden
 		remove_trait = quick
+		remove_trait = quick_hidden
 		remove_trait = slow
+		remove_trait = slow_hidden
 		remove_trait = imbecile
+		remove_trait = imbecile_hidden
 		remove_trait = weak
+		remove_trait = weak_hidden
 		remove_trait = shy
+		remove_trait = shy_hidden
 		remove_trait = trusting
+		remove_trait = trusting_hidden
 		add_trait = lustful_hidden
 		add_trait = envious_hidden
 		add_trait = deceitful_hidden
@@ -1412,6 +1425,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_SOA_3050
 		remove_trait = maimed
+		remove_trait = maimed_hidden
 	}
 }
 
@@ -1449,6 +1463,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_SOA_3051
 		remove_trait = blinded
+		remove_trait = blinded_hidden
 	}
 }
 
@@ -1486,6 +1501,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_SOA_3052
 		remove_trait = eunuch
+		remove_trait = eunuch_hidden
 	}
 }
 
@@ -1538,6 +1554,7 @@ character_event = {
 				}
 			}
 			remove_trait = incapable
+			remove_trait = incapable_hidden
 		}
 		if = {
 			limit = {
@@ -1547,6 +1564,7 @@ character_event = {
 				}
 			}
 			remove_trait = infirm
+			remove_trait = infirm_hidden
 		}
 	}
 }
@@ -1626,6 +1644,7 @@ character_event = {
 				}
 			}
 			remove_trait = syphilitic
+			remove_trait = syphilitic_hidden
 		}
 		if = {
 			limit = {
@@ -1635,6 +1654,7 @@ character_event = {
 				}
 			}
 			remove_trait = leper
+			remove_trait = leper_hidden
 		}
 		if = {
 			limit = {
@@ -1644,6 +1664,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_tuberculosis
+			remove_trait = has_tuberculosis_hidden
 		}
 		if = {
 			limit = {
@@ -1653,6 +1674,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_typhoid_fever
+			remove_trait = has_typhoid_fever_hidden
 		}
 		if = {
 			limit = {
@@ -1662,6 +1684,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_typhus
+			remove_trait = has_typhus_hidden
 		}
 		if = {
 			limit = {
@@ -1671,6 +1694,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_bubonic_plague
+			remove_trait = has_bubonic_plague_hidden
 		}
 		if = {
 			limit = {
@@ -1680,6 +1704,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_measles
+			remove_trait = has_measles_hidden
 		}
 		if = {
 			limit = {
@@ -1689,6 +1714,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_small_pox
+			remove_trait = has_small_pox_hidden
 		}
 		if = {
 			limit = {
@@ -1698,6 +1724,7 @@ character_event = {
 				}
 			}
 			remove_trait = has_aztec_disease
+			remove_trait = has_aztec_disease_hidden
 		}
 	}
 }

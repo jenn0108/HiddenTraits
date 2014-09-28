@@ -75,6 +75,7 @@ character_event = {
 		name = EVTOPTB3000
 		piety = 10
 		remove_trait = lustful
+		remove_trait = lustful_hidden
 		job_spiritual = {
 			opinion = {
 				modifier = opinion_approves
@@ -557,6 +558,7 @@ character_event = {
 			}
 		}
 		remove_trait = chaste
+		remove_trait = chaste_hidden
 		piety = -5
 	}
 
@@ -786,7 +788,8 @@ character_event = {
 				years = 2
 			}
 		}
-		remove_trait = chaste		
+		remove_trait = chaste
+		remove_trait = chaste_hidden		
 	}
 }
 	
@@ -1206,6 +1209,7 @@ character_event = {
 		random = {
 			chance = 5
 			remove_trait = chaste
+			remove_trait = chaste_hidden
 		}
 		spouse = { add_trait = lustful_hidden hidden_tooltip = { character_event = { id = 38272 } } }
 	}
@@ -1218,6 +1222,7 @@ character_event = {
 			chance = 25
 			ROOT = {
 				remove_trait = chaste
+				remove_trait = chaste_hidden
 			}
 		}
 	}
@@ -1329,6 +1334,7 @@ character_event = {
 		}
 		wealth = 50
 		remove_trait = temperate
+		remove_trait = temperate_hidden
 		add_trait = greedy_hidden
 		if = {
 			limit = {
@@ -1338,6 +1344,7 @@ character_event = {
 				}
 			}
 			remove_trait = just
+			remove_trait = just_hidden
 		}
 		random_courtier = {
 			limit = {
@@ -2986,6 +2993,7 @@ character_event = {
 		random = {
 			chance = 50
 			remove_trait = charitable
+			remove_trait = charitable_hidden
 		}
 	}
 }
@@ -3830,6 +3838,7 @@ character_event = {
 			factor = 0
 		}
 		remove_trait = diligent
+		remove_trait = diligent_hidden
 		prestige = -5
 		
 	}
@@ -4921,6 +4930,7 @@ character_event = {
 		}
 		piety = -10
 		remove_trait = kind
+		remove_trait = kind_hidden
 	}
 }
 
@@ -5660,6 +5670,7 @@ character_event = {
 	option = {
 		name = EVTOPTA3201
 		remove_trait = wroth
+		remove_trait = wroth_hidden
 	}
 	option = {
 		name = EVTOPTB3201
@@ -5761,6 +5772,7 @@ character_event = {
 				}
 			}
 			remove_trait = drunkard
+			remove_trait = drunkard_hidden
 		}
 		if = { 
 			limit = {
@@ -5770,6 +5782,7 @@ character_event = {
 				}
 			}
 			remove_trait = gluttonous
+			remove_trait = gluttonous_hidden
 		}
 	}
 }
@@ -6011,6 +6024,7 @@ character_event = {
 				} 
 			}
 			remove_trait = cynical
+			remove_trait = cynical_hidden
 		}
 		if = {
 			limit = { is_heretic = yes }
@@ -6149,6 +6163,7 @@ character_event = {
 		name = EVTOPTB3220
 		piety = 10
 		remove_trait = proud
+		remove_trait = proud_hidden
 	}
 }
 
@@ -7003,11 +7018,13 @@ character_event = {
 			factor = 0
 		}
 		remove_trait = ambitious
+		remove_trait = ambitious_hidden
 		piety = 5
 	}
 	option = {
 		name = EVTOPTB3258
 		remove_trait = humble
+		remove_trait = humble_hidden
 		piety = -5
 	}
 }
@@ -7645,6 +7662,7 @@ character_event = {
 	option = {
 		name = EVTOPTB3282
 		remove_trait = honest
+		remove_trait = honest_hidden
 		
 	}
 }
@@ -9971,6 +9989,7 @@ character_event = {
 			}
 		}
 		remove_trait = depressed
+		remove_trait = depressed_hidden
 		FROM = {
 			reverse_opinion = {
 				modifier = content_pos
@@ -9994,6 +10013,7 @@ character_event = {
 			}
 		}
 		remove_trait = stressed
+		remove_trait = stressed_hidden
 		FROM = {
 			reverse_opinion = {
 				modifier = content_pos
@@ -11993,6 +12013,7 @@ character_event = {
 		random = {
 			chance = 20
 			remove_trait = cynical
+			remove_trait = cynical_hidden
 		}
 	}
 }
@@ -13904,6 +13925,7 @@ character_event = {
 	option = {
 		name = EVTOPTB3520
 		remove_trait = celibate
+		remove_trait = celibate_hidden
 		piety = -10
 		spouse = {
 			add_lover = ROOT
@@ -13929,6 +13951,7 @@ character_event = {
 			}
 		}
 		remove_trait = celibate
+		remove_trait = celibate_hidden
 		piety = -10
 		spouse = {
 			add_lover = ROOT
@@ -14502,6 +14525,7 @@ character_event = {
 			chance = 10
 			
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	}
 }
@@ -15614,6 +15638,7 @@ character_event = {
 			chance = 25
 			
 			remove_trait = scholar
+			remove_trait = scholar_hidden
 		}
 	}
 }
@@ -16354,6 +16379,7 @@ character_event = {
 			}
 			10 = {
 				remove_trait = gardener
+				remove_trait = gardener_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38289 #Notify remove Gardener
@@ -17531,6 +17557,7 @@ character_event = {
 			}
 			15 = {
 				remove_trait = mystic
+				remove_trait = mystic_hidden
 			}
 		}
 	}
@@ -17735,6 +17762,7 @@ character_event = {
 			}
 			33 = {
 				remove_trait = ill
+				remove_trait = ill_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38283 #Notify remove ill
@@ -17766,6 +17794,7 @@ character_event = {
 			chance = 10
 			
 			remove_trait = ill
+			remove_trait = ill_hidden
 		}
 	}
 }
@@ -17945,6 +17974,7 @@ character_event = {
 			}
 			20 = {
 				remove_trait = mystic
+				remove_trait = mystic_hidden
 			}
 		}
 	}
@@ -18894,6 +18924,7 @@ character_event = {
 				chance = 10
 			
 				remove_trait = impaler
+				remove_trait = impaler_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38291 #Notify remove Impaler
@@ -18906,7 +18937,9 @@ character_event = {
 				has_ambition = obj_buddhist_reject_cruelty
 			}
 			remove_trait = impaler
+			remove_trait = impaler_hidden
 			remove_trait = cruel
+			remove_trait = cruel_hidden
 		}
 	}
 }
@@ -19181,6 +19214,7 @@ character_event = {
 			chance = 15
 			
 			remove_trait = impaler
+			remove_trait = impaler_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38291 #Notify remove Impaler
@@ -19596,6 +19630,7 @@ character_event = {
 			chance = 20
 			
 			remove_trait = duelist
+			remove_trait = duelist_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38292 #Notify
@@ -19818,6 +19853,7 @@ character_event = {
 			chance = 25
 			
 			remove_trait = duelist
+			remove_trait = duelist_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38292 #Notify
@@ -19884,6 +19920,7 @@ character_event = {
 			chance = 10
 			
 			remove_trait = duelist
+			remove_trait = duelist_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38292 #Notify
@@ -20126,6 +20163,7 @@ character_event = {
 				chance = 20
 				
 				remove_trait = duelist
+				remove_trait = duelist_hidden
 			}
 		}
 	}
@@ -20331,6 +20369,7 @@ character_event = {
 			chance = 20
 			
 			remove_trait = duelist
+			remove_trait = duelist_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38292 #Notify
@@ -20581,6 +20620,7 @@ character_event = {
 			chance = 20
 			
 			remove_trait = duelist
+			remove_trait = duelist_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38292 #Notify
@@ -20887,6 +20927,7 @@ character_event = {
 			chance = 20
 			
 			remove_trait = hunter
+			remove_trait = hunter_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38293 #Notify
@@ -22563,6 +22604,7 @@ character_event = {
 				}
 			}
 			remove_trait = kind
+			remove_trait = kind_hidden
 		}
 	}
 	option = {
@@ -22977,6 +23019,7 @@ character_event = {
 		name = EVTOPTB3680
 		prestige = -10
 		remove_trait = deceitful
+		remove_trait = deceitful_hidden
 		random_courtier = {
 			limit = {
 				is_female = yes
@@ -23201,6 +23244,7 @@ character_event = {
 			chance = 20
 			
 			remove_trait = poet
+			remove_trait = poet_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38294 #Notify remove Poet
@@ -23219,6 +23263,7 @@ character_event = {
 			}
 			20 = {
 				remove_trait = poet
+				remove_trait = poet_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38294 #Notify remove Poet
@@ -23373,6 +23418,7 @@ character_event = {
 			chance = 70
 			
 			remove_trait = poet
+			remove_trait = poet_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38294 #Notify remove Poet
@@ -24859,6 +24905,7 @@ character_event = {
 			random_list = {
 				25 = {
 					remove_trait = shy
+					remove_trait = shy_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38295 #Nofify Remove Shy
@@ -24982,6 +25029,7 @@ character_event = {
 				}
 				25 = {
 					remove_trait = shy
+					remove_trait = shy_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38295 #Nofify Remove Shy
@@ -25162,6 +25210,7 @@ character_event = {
 				chance = 25
 				
 				remove_trait = gregarious
+				remove_trait = gregarious_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Remove Gregarious
@@ -25243,6 +25292,7 @@ character_event = {
 				chance = 25
 				
 				remove_trait = slothful
+				remove_trait = slothful_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38298 #Notify Remove Slothful
@@ -25261,6 +25311,7 @@ character_event = {
 				chance = 25
 				
 				remove_trait = content
+				remove_trait = content_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38299 #Notify Remove Content
@@ -25302,6 +25353,7 @@ character_event = {
 			}
 			40 = {
 				remove_trait = proud
+				remove_trait = proud_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38300 #Notify Remove Proud
@@ -25467,6 +25519,7 @@ character_event = {
 			chance = 25			
 			
 			remove_trait = gregarious
+			remove_trait = gregarious_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38297 #Notify Remove Gregarious
@@ -25481,6 +25534,7 @@ character_event = {
 			
 			change_intrigue = 1
 			remove_trait = deceitful
+			remove_trait = deceitful_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify Deceitful

@@ -462,6 +462,7 @@ character_event = {
 				}
 			}
 			remove_trait = gregarious
+			remove_trait = gregarious_hidden
 		}
 		if = {
 			limit = {
@@ -477,6 +478,7 @@ character_event = {
 				}
 			}
 			remove_trait = charitable
+			remove_trait = charitable_hidden
 		}
 	}
 }
@@ -1137,6 +1139,7 @@ character_event = {
 		name = EVTOPTA100021
 		add_friend = FROM
 		remove_trait = shy
+		remove_trait = shy_hidden
 		if = {
 			limit = {
 				NOT = {
@@ -1144,6 +1147,7 @@ character_event = {
 				}
 			}
 			remove_trait = chaste
+			remove_trait = chaste_hidden
 		}
 		FROM = {
 			character_event = {
@@ -1155,6 +1159,7 @@ character_event = {
 	option = {
 		name = EVTOPTB100021
 		remove_trait = shy
+		remove_trait = shy_hidden
 		hidden_tooltip = {
 			FROM = {
 				set_character_flag = help_rejected
@@ -1555,6 +1560,7 @@ character_event = {
 			random = {
 				chance = 25
 				remove_trait = chaste
+				remove_trait = chaste_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38303 #Notify Removed Chaste
@@ -1572,6 +1578,7 @@ character_event = {
 			random = {
 				chance = 10
 				remove_trait = shy
+				remove_trait = shy_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38295  #Notify Removed Shy
@@ -1686,6 +1693,7 @@ character_event = {
 				}
 			}
 			remove_trait = proud
+			remove_trait = proud_hidden
 		}
 		if = {
 			limit = {
@@ -1695,6 +1703,7 @@ character_event = {
 				}
 			}
 			remove_trait = chaste
+			remove_trait = chaste_hidden
 		}
 		if = {
 			limit = {
@@ -1706,6 +1715,7 @@ character_event = {
 			random = {
 				chance = 10
 				remove_trait = shy
+				remove_trait = shy_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38295 #Remove shy
@@ -2282,6 +2292,7 @@ character_event = {
 				}
 			}
 			remove_trait = charitable
+			remove_trait = charitable_hidden
 		}
 		if = {
 			limit = {
@@ -2297,6 +2308,7 @@ character_event = {
 				}
 			}
 			remove_trait = kind
+			remove_trait = kind_hidden
 		}
 		reverse_opinion = {
 			modifier = opinion_sad
@@ -2698,6 +2710,7 @@ character_event = {
 				}
 			}
 			remove_trait = chaste
+			remove_trait = chaste_hidden
 		}
 		if = {
 			limit = {
@@ -2707,6 +2720,7 @@ character_event = {
 				}
 			}
 			remove_trait = paranoid
+			remove_trait = paranoid_hidden
 		}
 		if = {
 			limit = {
@@ -2716,6 +2730,7 @@ character_event = {
 				}
 			}
 			remove_trait = shy
+			remove_trait = shy_hidden
 		}
 	}
 	option = {
@@ -3467,6 +3482,7 @@ character_event = {
 				}
 			}
 			remove_trait = wroth
+			remove_trait = wroth_hidden
 		}
 		if = {
 			limit = {
@@ -3484,7 +3500,8 @@ character_event = {
 					}
 				}
 			}
-			remove_trait = cruel		
+			remove_trait = cruel
+			remove_trait = cruel_hidden		
 		}
 		if = {
 			limit = {
@@ -3502,7 +3519,8 @@ character_event = {
 					}
 				}
 			}
-			remove_trait = envious		
+			remove_trait = envious
+			remove_trait = envious_hidden		
 		}
 	}
 	
@@ -4932,6 +4950,7 @@ character_event = {
 	option = {
 		name = EVTOPTD100105
 		remove_trait = crusader
+		remove_trait = crusader_hidden
 	}
 }
 
@@ -5016,6 +5035,7 @@ character_event = {
 		clr_character_flag = crusader_prestige
 		clr_character_flag = crusader_piety
 		remove_trait = crusader
+		remove_trait = crusader_hidden
 	}
 }
 
@@ -6709,6 +6729,7 @@ character_event = {
 				}
 			}
 			remove_trait = gregarious
+			remove_trait = gregarious_hidden
 		}
 		if = {
 			limit = {
@@ -7153,6 +7174,7 @@ character_event = {
 					religion = PREV
 				}
 				remove_trait = cynical
+				remove_trait = cynical_hidden
 			}
 		}
 	}
@@ -8627,6 +8649,7 @@ character_event = {
 				}
 			}
 			remove_trait = paranoid
+			remove_trait = paranoid_hidden
 		}
 		if = {
 			limit = {
@@ -8636,6 +8659,7 @@ character_event = {
 				}
 			}
 			remove_trait = temperate
+			remove_trait = temperate_hidden
 		}
 		if = {
 			limit = {
@@ -13784,6 +13808,7 @@ character_event = {
 				}
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 		if = {
 			limit = {

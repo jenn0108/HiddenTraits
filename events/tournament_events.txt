@@ -1127,6 +1127,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA70014"
 		remove_trait = misguided_warrior
+		remove_trait = misguided_warrior_hidden
 		add_trait = tough_soldier_hidden
 	}
 }
@@ -1172,6 +1173,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA70015"
 		remove_trait = tough_soldier
+		remove_trait = tough_soldier_hidden
 		add_trait = skilled_tactician_hidden
 	}
 }
@@ -1217,6 +1219,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA70016"
 		remove_trait = skilled_tactician
+		remove_trait = skilled_tactician_hidden
 		add_trait = brilliant_strategist_hidden
 	}
 }
@@ -1262,6 +1265,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA70017"
 		remove_trait = brilliant_strategist
+		remove_trait = brilliant_strategist_hidden
 		add_trait = skilled_tactician_hidden
 	}
 }
@@ -1307,6 +1311,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA70018"
 		remove_trait = skilled_tactician
+		remove_trait = skilled_tactician_hidden
 		add_trait = tough_soldier_hidden
 	}
 }
@@ -1352,6 +1357,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA70019"
 		remove_trait = tough_soldier
+		remove_trait = tough_soldier_hidden
 		add_trait = misguided_warrior_hidden
 	}
 }

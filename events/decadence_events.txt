@@ -1836,6 +1836,7 @@ character_event = {
 			}
 		}
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 	}
 }
@@ -1987,6 +1988,7 @@ character_event = {
 			}
 		}
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 	}
 }
@@ -2099,6 +2101,7 @@ character_event = {
 			}
 		}
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 		piety = 100
 		
@@ -2140,6 +2143,7 @@ character_event = {
 		}
 		
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 		piety = 100
 		
@@ -2173,6 +2177,7 @@ character_event = {
 		}
 		
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 		piety = 50
 		
@@ -2203,6 +2208,7 @@ character_event = {
 		}
 		
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 		
 		hidden_tooltip = {
@@ -2292,6 +2298,7 @@ character_event = {
 			}
 		}
 		remove_trait = decadent
+		remove_trait = decadent_hidden
 		clr_character_flag = negotiated_to_drop_decadence
 	}
 	option = {

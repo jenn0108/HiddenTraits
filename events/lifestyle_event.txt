@@ -2265,6 +2265,7 @@ character_event = {
 				}
 			}
 			remove_trait = lustful
+			remove_trait = lustful_hidden
 		}
 	}
 	option = {
@@ -2299,6 +2300,7 @@ character_event = {
 				}
 			}
 			remove_trait = chaste
+			remove_trait = chaste_hidden
 		}
 	}
 	option = {
@@ -2488,6 +2490,7 @@ character_event = {
 				}
 			}
 			remove_trait = diligent
+			remove_trait = diligent_hidden
 		}
 	}
 }
@@ -2591,6 +2594,7 @@ character_event = {
 				}
 			}
 			remove_trait = diligent
+			remove_trait = diligent_hidden
 		}
 	}
 }
@@ -2857,6 +2861,7 @@ character_event = {
 				}
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 		if = {
 			limit = {

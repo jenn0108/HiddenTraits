@@ -132,6 +132,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6001
 		remove_trait = syphilitic
+		remove_trait = syphilitic_hidden
 	}
 }
 
@@ -199,6 +200,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6011
 		remove_trait = leper
+		remove_trait = leper_hidden
 		treasury = -25
 	}
 }
@@ -274,7 +276,9 @@ character_event = {
 		name = EVTOPTA6020
 		add_trait = lunatic_hidden
 		remove_trait = depressed
+		remove_trait = depressed_hidden
 		remove_trait = stressed
+		remove_trait = stressed_hidden
 	}
 }
 
@@ -314,6 +318,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6021
 		remove_trait = lunatic
+		remove_trait = lunatic_hidden
 	}
 }
 
@@ -351,6 +356,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6021
 		remove_trait = lunatic
+		remove_trait = lunatic_hidden
 	}
 }
 
@@ -440,6 +446,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6031
 		remove_trait = possessed
+		remove_trait = possessed_hidden
 		remove_character_modifier = voice_of_satan
 		remove_character_modifier = voice_of_jesus
 		remove_character_modifier = holy_comet
@@ -530,6 +537,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6033
 		remove_trait = possessed
+		remove_trait = possessed_hidden
 	}
 }
 
@@ -648,6 +656,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6041
 		remove_trait = stressed
+		remove_trait = stressed_hidden
 	}
 }
 
@@ -851,6 +860,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6051
 		remove_trait = depressed
+		remove_trait = depressed_hidden
 	}
 }
 
@@ -1007,6 +1017,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6061
 		remove_trait = ill
+		remove_trait = ill_hidden
 	}
 }
 
@@ -1046,6 +1057,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6062
 		remove_trait = sickly
+		remove_trait = sickly_hidden
 	}
 }
 
@@ -1178,6 +1190,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6071
 		remove_trait = pneumonic
+		remove_trait = pneumonic_hidden
 	}
 }
 
@@ -1286,6 +1299,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6081
 		remove_trait = wounded
+		remove_trait = wounded_hidden
 		add_trait = scarred_hidden
 	}
 }
@@ -1465,6 +1479,7 @@ character_event = {
 		name = EVTOPTA6110
 		add_trait = incapable_hidden
 		remove_trait = infirm
+		remove_trait = infirm_hidden
 	}
 }
 
@@ -1550,6 +1565,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6111
 		remove_trait = has_tuberculosis
+		remove_trait = has_tuberculosis_hidden
 	}
 }
 
@@ -1635,6 +1651,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6112
 		remove_trait = has_typhoid_fever
+		remove_trait = has_typhoid_fever_hidden
 	}
 }
 
@@ -1720,6 +1737,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6113
 		remove_trait = has_typhus
+		remove_trait = has_typhus_hidden
 	}
 }
 
@@ -1804,6 +1822,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6114
 		remove_trait = has_bubonic_plague
+		remove_trait = has_bubonic_plague_hidden
 	}
 }
 
@@ -1889,6 +1908,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6115
 		remove_trait = has_measles
+		remove_trait = has_measles_hidden
 	}
 }
 
@@ -1974,6 +1994,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6116
 		remove_trait = has_small_pox
+		remove_trait = has_small_pox_hidden
 	}
 }
 
@@ -2187,7 +2208,8 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6204
-		remove_trait = lustful 
+		remove_trait = lustful
+		remove_trait = lustful_hidden 
 	}
 }
 
@@ -2244,6 +2266,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6206
 		remove_trait = gluttonous
+		remove_trait = gluttonous_hidden
 	}
 }
 
@@ -2300,6 +2323,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6208
 		remove_trait = greedy
+		remove_trait = greedy_hidden
 	}
 }
 
@@ -2356,6 +2380,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6210
 		remove_trait = slothful
+		remove_trait = slothful_hidden
 	}
 }
 #I must be more diligent
@@ -2411,6 +2436,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6212
 		remove_trait = envious
+		remove_trait = envious_hidden
 	}
 }
 #I must be kind
@@ -2466,6 +2492,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6214
 		remove_trait = wroth
+		remove_trait = wroth_hidden
 	}
 }
 
@@ -2522,6 +2549,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6216
 		remove_trait = proud
+		remove_trait = proud_hidden
 	}
 }
 
@@ -2888,6 +2916,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6227
 		remove_trait = chaste
+		remove_trait = chaste_hidden
 	}
 }
 
@@ -2918,6 +2947,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6228
 		remove_trait = chaste
+		remove_trait = chaste_hidden
 	}
 }
 
@@ -2942,6 +2972,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6229
 		remove_trait = patient
+		remove_trait = patient_hidden
 	}
 }
 
@@ -2996,6 +3027,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6231
 		remove_trait = humble
+		remove_trait = humble_hidden
 	}
 }
 
@@ -3050,6 +3082,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6233
 		remove_trait = temperate
+		remove_trait = temperate_hidden
 	}
 }
 
@@ -3104,6 +3137,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6235
 		remove_trait = charitable
+		remove_trait = charitable_hidden
 	}
 }
 
@@ -3158,6 +3192,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6237
 		remove_trait = kind
+		remove_trait = kind_hidden
 	}
 }
 
@@ -3212,6 +3247,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6239
 		remove_trait = diligent
+		remove_trait = diligent_hidden
 	}
 }
 

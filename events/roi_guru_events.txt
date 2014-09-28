@@ -278,6 +278,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = drunkard
+			remove_trait = drunkard_hidden
 		}
 	}
 	option = {
@@ -330,6 +331,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = hedonist
+			remove_trait = hedonist_hidden
 		}
 	}
 	option = {
@@ -379,6 +381,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = impaler
+			remove_trait = impaler_hidden
 		}
 	}
 	option = {
@@ -465,6 +468,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = lustful
+			remove_trait = lustful_hidden
 		}
 	}
 	option = {
@@ -517,6 +521,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = gluttonous
+			remove_trait = gluttonous_hidden
 		}
 	}
 	option = {
@@ -566,6 +571,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = greedy
+			remove_trait = greedy_hidden
 		}
 	}
 	option = {
@@ -615,6 +621,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = envious
+			remove_trait = envious_hidden
 		}
 	}
 	option = {
@@ -664,6 +671,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = wroth
+			remove_trait = wroth_hidden
 		}
 	}
 	option = {
@@ -747,6 +755,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = proud
+			remove_trait = proud_hidden
 		}
 	}
 	option = {
@@ -831,6 +840,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = arbitrary
+			remove_trait = arbitrary_hidden
 		}
 	}
 	option = {
@@ -881,6 +891,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = cynical
+			remove_trait = cynical_hidden
 		}
 	}
 	option = {
@@ -931,6 +942,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = cruel
+			remove_trait = cruel_hidden
 		}
 	}
 	option = {
@@ -981,6 +993,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = duelist
+			remove_trait = duelist_hidden
 		}
 	}
 	option = {
@@ -1036,10 +1049,12 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = hunter
+			remove_trait = hunter_hidden
 		}
 		random = {
 			chance = 10
 			remove_trait = falconer
+			remove_trait = falconer_hidden
 		}
 	}
 	option = {
@@ -1089,6 +1104,7 @@ character_event = {
 		random = {
 			chance = 10
 			remove_trait = paranoid
+			remove_trait = paranoid_hidden
 		}
 	}
 	option = {
@@ -1253,7 +1269,9 @@ character_event = {
 			prestige = -100
 			piety = -100
 			remove_trait = brahmin
+			remove_trait = brahmin_hidden
 			remove_trait = vaishya
+			remove_trait = vaishya_hidden
 		}
 	}
 	
@@ -1411,12 +1429,14 @@ character_event = {
 					has_ambition = obj_buddhist_stop_drinking
 				}
 				remove_trait = drunkard
+				remove_trait = drunkard_hidden
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_abstain_sexual_excess
 				}
 				remove_trait = lustful
+				remove_trait = lustful_hidden
 			}
 			if = {
 				limit = {
@@ -1427,6 +1447,7 @@ character_event = {
 					}
 				}
 				remove_trait = impaler
+				remove_trait = impaler_hidden
 			}
 			if = {
 				limit = {
@@ -1437,36 +1458,42 @@ character_event = {
 					}
 				}
 				remove_trait = cruel
+				remove_trait = cruel_hidden
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_temperance_food
 				}
 				remove_trait = gluttonous
+				remove_trait = gluttonous_hidden
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_reject_greed
 				}
 				remove_trait = greedy
+				remove_trait = greedy_hidden
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_reject_envy
 				}
 				remove_trait = envious
+				remove_trait = envious_hidden
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_reject_hate
 				}
 				remove_trait = wroth
+				remove_trait = wroth_hidden
 			}
 			if = {
 				limit = {
 					has_ambition = obj_buddhist_reject_pride
 				}
 				remove_trait = proud
+				remove_trait = proud_hidden
 			}
 			if = {
 				limit = {
@@ -1477,6 +1504,7 @@ character_event = {
 					}
 				}
 				remove_trait = paranoid
+				remove_trait = paranoid_hidden
 			}
 			if = {
 				limit = {
@@ -1487,6 +1515,7 @@ character_event = {
 					}
 				}
 				remove_trait = craven
+				remove_trait = craven_hidden
 			}
 			clr_character_flag = buddhist_obj_success
 	}
@@ -1723,6 +1752,7 @@ narrative_event = {
 				} 
 			}
 			remove_trait = stressed
+			remove_trait = stressed_hidden
 		}
 		if = {
 			limit = {
@@ -1732,6 +1762,7 @@ narrative_event = {
 				} 
 			}
 			remove_trait = depressed
+			remove_trait = depressed_hidden
 		}
 	}
 	option = {
@@ -1747,6 +1778,7 @@ narrative_event = {
 				} 
 			}
 			remove_trait = stressed
+			remove_trait = stressed_hidden
 		}
 		if = {
 			limit = {
@@ -1756,6 +1788,7 @@ narrative_event = {
 				} 
 			}
 			remove_trait = depressed
+			remove_trait = depressed_hidden
 		}
 	}
 	option = {
@@ -1771,6 +1804,7 @@ narrative_event = {
 				} 
 			}
 			remove_trait = stressed
+			remove_trait = stressed_hidden
 		}
 		if = {
 			limit = {
@@ -1780,6 +1814,7 @@ narrative_event = {
 				} 
 			}
 			remove_trait = depressed
+			remove_trait = depressed_hidden
 		}
 	}
 }

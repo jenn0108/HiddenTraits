@@ -1325,6 +1325,7 @@ character_event = {
 	option = {
 		name = EVTOPTA61152
 		remove_trait = incapable
+		remove_trait = incapable_hidden
 		remove_character_modifier = house_arrest
 		clr_character_flag = imprisoned_by_regent
 		any_courtier = {
@@ -1342,6 +1343,7 @@ character_event = {
 			} 
 		}
 		remove_trait = incapable
+		remove_trait = incapable_hidden
 		remove_character_modifier = house_arrest
 		clr_character_flag = imprisoned_by_regent
 		any_courtier = {
@@ -1390,6 +1392,7 @@ character_event = {
 		ai_chance = { factor = 0 }
 		liege = {
 			remove_trait = incapable
+			remove_trait = incapable_hidden
 			remove_character_modifier = house_arrest
 			clr_character_flag = imprisoned_by_regent
 		}
@@ -1439,6 +1442,7 @@ character_event = {
 	option = {
 		name = EVTOPTA61160
 		remove_trait = incapable
+		remove_trait = incapable_hidden
 		remove_character_modifier = house_arrest
 		clr_character_flag = imprisoned_by_regent
 	}
@@ -1538,6 +1542,7 @@ character_event = {
 	option = {
 		name = EVTOPTA61165
 		remove_trait = incapable
+		remove_trait = incapable_hidden
 		remove_character_modifier = house_arrest
 		clr_character_flag = imprisoned_by_regent
 		random_courtier = {

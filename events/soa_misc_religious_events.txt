@@ -283,6 +283,7 @@ character_event = {
 		random = {
 			chance = 20
 			remove_trait = ill
+			remove_trait = ill_hidden
 			if = {
 				limit = {
 					NOT = {
@@ -309,6 +310,7 @@ character_event = {
 		random = {
 			chance = 20
 			remove_trait = ill
+			remove_trait = ill_hidden
 			if = {
 				limit = {
 					NOT = {
@@ -701,6 +703,7 @@ character_event = {
 		random = {
 			chance = 30
 			remove_trait = ill
+			remove_trait = ill_hidden
 		}
 	}
 	option = {
@@ -1288,6 +1291,7 @@ character_event = {
 		random = {
 			chance = 40
 			remove_trait = possessed
+			remove_trait = possessed_hidden
 			if = {
 				limit = {
 					 NOT = { OR = {
@@ -1324,6 +1328,7 @@ character_event = {
 		random = {
 			chance = 20
 			remove_trait = possessed
+			remove_trait = possessed_hidden
 		}
 	}
 }
@@ -3213,6 +3218,7 @@ narrative_event = {
 				add_lover = FROM
 				FROM = {
 					remove_trait = celibate
+					remove_trait = celibate_hidden
 					prestige = -50
 					if = {
 						limit = { has_nickname = nick_the_maid }

@@ -1320,6 +1320,7 @@ character_event = {
 				}
 			}
 			remove_trait = skilled_tactician
+			remove_trait = skilled_tactician_hidden
 			add_trait = brilliant_strategist_hidden
 		}
 		if = {
@@ -1330,6 +1331,7 @@ character_event = {
 				}
 			}
 			remove_trait = tough_soldier
+			remove_trait = tough_soldier_hidden
 			add_trait = skilled_tactician_hidden
 		}
 		if = {
@@ -1340,6 +1342,7 @@ character_event = {
 				}
 			}
 			remove_trait = misguided_warrior
+			remove_trait = misguided_warrior_hidden
 			add_trait = tough_soldier_hidden
 		}
 	}

@@ -933,6 +933,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA75027"
 		remove_trait = diligent
+		remove_trait = diligent_hidden
 	}
 }
 
@@ -1069,6 +1070,7 @@ character_event = {
 		name = "EVTOPTB75032"
 		prestige = -5
 		remove_trait = slothful
+		remove_trait = slothful_hidden
 		FROM = {
 			opinion = {
 				modifier = opinion_glad
@@ -2072,6 +2074,7 @@ character_event = {
 				}
 			}
 			remove_trait = just
+			remove_trait = just_hidden
 		}
 		random_vassal = {
 			opinion = {
@@ -2474,6 +2477,7 @@ character_event = {
 		name = "EVTOPTA75099"
 		clear_wealth = yes
 		remove_trait = greedy
+		remove_trait = greedy_hidden
 	}
 }
 
@@ -2488,6 +2492,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA75100"
 		remove_trait = greedy
+		remove_trait = greedy_hidden
 	}
 }
 

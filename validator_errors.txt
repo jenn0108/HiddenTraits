@@ -8341,13 +8341,13 @@ Since there is only one item within the AND clause, it is redundant and unnecess
 At <mod>\events\achievement_events.txt [unit_event] (Line 6, column 1):
 Invalid node "unit_event" in scope EventFile (value is: <a complex type>)
 
-At <mod>\events\birth_events.txt [character_event\desc] (Line 2184, column 2):
+At <mod>\events\birth_events.txt [character_event\desc] (Line 2188, column 2):
 "EVTDESC318" is not a valid LocalizationKey.
 
-At <mod>\events\birth_events.txt [character_event\desc] (Line 1768, column 2):
+At <mod>\events\birth_events.txt [character_event\desc] (Line 1772, column 2):
 "EVTDESC312" is not a valid LocalizationKey.
 
-At <mod>\events\birth_events.txt [character_event\option\name] (Line 1780, column 3):
+At <mod>\events\birth_events.txt [character_event\option\name] (Line 1784, column 3):
 "EVTOPTA12" is not a valid LocalizationKey.
 
 At <mod>\events\birth_events.txt [character_event\trigger] (Line 24, column 2):
@@ -8464,7 +8464,7 @@ Invalid node "only_rulers" in scope ProvEvent (value is: yes)
 At <mod>\events\culture_conversion_events.txt [province_event\mean_time_to_happen\modifier\OR\owner\is_capital] (Line 94, column 6):
 Invalid node "is_capital" in scope CharTrigger (value is: ROOT)
 
-At <mod>\events\decadence_events.txt [character_event\option\hidden_tooltip\FROM\character_event\id] (Line 2211, column 6):
+At <mod>\events\decadence_events.txt [character_event\option\hidden_tooltip\FROM\character_event\id] (Line 2217, column 6):
 "91363" is not a valid CharEventId.
 
 At <mod>\events\family_events.txt [character_event\option\name] (Line 588, column 3):
@@ -8488,10 +8488,10 @@ There were 2 duplicates.
 At <mod>\events\feast_events.txt [character_event\option\any_liege\character_event\tooltip] (Line 2476, column 5):
 "EVTTOOLTIP72035" is not a valid LocalizationKey.
 
-At <mod>\events\friends_rivals_events.txt [character_event\option\FROM\character_event\tooltip] (Line 14308, column 5):
+At <mod>\events\friends_rivals_events.txt [character_event\option\FROM\character_event\tooltip] (Line 14333, column 5):
 "EVTTOOLTIPA100513" is not a valid LocalizationKey.
 
-At <mod>\events\friends_rivals_events.txt [character_event\option\random_friend\remove_friend] (Line 7121, column 4):
+At <mod>\events\friends_rivals_events.txt [character_event\option\random_friend\remove_friend] (Line 7142, column 4):
 "FROM" is not a valid ThisChar.
 FROM points to <null>.
 However, a Char was expected.
@@ -8503,13 +8503,13 @@ FROM points to <null>.
 However, a Char was expected.
 The event must have is_triggered_only set to true.
 
-At <mod>\events\furusiyya_events.txt [character_event\option\any_vassal\letter_event\tooltip] (Line 3541, column 5):
+At <mod>\events\furusiyya_events.txt [character_event\option\any_vassal\letter_event\tooltip] (Line 3547, column 5):
 "EVTTOOLTIP88292" is not a valid LocalizationKey.
 
-At <mod>\events\furusiyya_events.txt [character_event\option\any_vassal\letter_event\tooltip] (Line 3557, column 5):
+At <mod>\events\furusiyya_events.txt [character_event\option\any_vassal\letter_event\tooltip] (Line 3563, column 5):
 "EVTTOOLTIP88292" is not a valid LocalizationKey.
 
-At <mod>\events\guardian_events.txt [character_event\option\trigger\religion] (Line 665, column 4):
+At <mod>\events\guardian_events.txt [character_event\option\trigger\religion] (Line 671, column 4):
 "christian" is not a valid Religion or ThisChar, ThisProv, or ThisTitle.
 
 At <mod>\events\hashshashin_order_events.txt [character_event\desc] (Line 657, column 2):
@@ -8530,28 +8530,28 @@ At <mod>\events\hashshashin_order_events.txt [character_event\option\name] (Line
 At <mod>\events\hashshashin_order_events.txt [character_event\desc] (Line 377, column 2):
 "EVTDESC88005" is not a valid LocalizationKey.
 
-At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3308, column 25):
+At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3344, column 25):
 "6304" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3305, column 23):
+At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3341, column 23):
 "6308" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3298, column 25):
+At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3334, column 25):
 "6303" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3295, column 23):
+At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3331, column 23):
 "6307" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3288, column 25):
+At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3324, column 25):
 "6302" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3285, column 23):
+At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3321, column 23):
 "6306" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3278, column 25):
+At <mod>\events\health_events.txt [character_event\option\hidden_tooltip\any_vassal\character_event\id] (Line 3314, column 25):
 "6301" is not a valid CharEventId.
 
-At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3275, column 23):
+At <mod>\events\health_events.txt [character_event\option\character_event\id] (Line 3311, column 23):
 "6305" is not a valid CharEventId.
 
 At <mod>\events\hunting_events.txt [character_event] (Line 1465, column 1):
@@ -8680,10 +8680,10 @@ At <mod>\events\job_spymaster.txt [letter_event\option\random_vassal\character_e
 At <mod>\events\job_spymaster.txt [letter_event\option\random_vassal\character_event\id] (Line 609, column 24):
 "9002" is not a valid CharEventId.
 
-At <mod>\events\lovers_events.txt [character_event\option\lover] (Line 3071, column 3):
+At <mod>\events\lovers_events.txt [character_event\option\lover] (Line 3079, column 3):
 Invalid node "lover" in scope Option (value is: <a complex type>)
 
-At <mod>\events\lovers_events.txt [character_event\option\trigger\OR\NOT\religion] (Line 2282, column 13):
+At <mod>\events\lovers_events.txt [character_event\option\trigger\OR\NOT\religion] (Line 2290, column 13):
 "muslim" is not a valid Religion or ThisChar, ThisProv, or ThisTitle.
 
 At <mod>\events\married_life_events.txt [character_event\desc] (Line 5311, column 2):
@@ -8757,13 +8757,13 @@ Invalid node "usurp_title_plus_barony_if_unlanded" in scope CharCommand (value i
 At <mod>\events\mourning_events.txt [character_event] (Line 594, column 1):
 This triggered-only non-on action event should not have a weight multiplier.
 
-At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\FROM\liege\character_event\tooltip] (Line 4086, column 6):
+At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\FROM\liege\character_event\tooltip] (Line 4091, column 6):
 "EVTTOOLTIP105055" is not a valid LocalizationKey.
 
-At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\random\remove_lover] (Line 3799, column 4):
+At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\random\remove_lover] (Line 3804, column 4):
 "yes" is not a valid ThisChar.
 
-At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\random\remove_lover] (Line 3735, column 4):
+At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\random\remove_lover] (Line 3740, column 4):
 "yes" is not a valid ThisChar.
 
 At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\spouse\character_event\tooltip] (Line 404, column 5):
@@ -8790,13 +8790,13 @@ ThisChar: cannot be because FROM points to <null>.
 	However, a Char was expected.
 	The event must have is_triggered_only set to true.
 
-At <mod>\events\oldgods_mongol_events.txt [character_event\immediate\liege\random_vassal\add_lover] (Line 2924, column 5):
+At <mod>\events\oldgods_mongol_events.txt [character_event\immediate\liege\random_vassal\add_lover] (Line 2927, column 5):
 "FROM" is not a valid ThisChar or CharacterId.
 ThisChar: cannot be because FROM points to <null>.
 	However, a Char was expected.
 	The event must have is_triggered_only set to true.
 
-At <mod>\events\oldgods_mongol_events.txt [character_event\immediate\liege\random_vassal\add_lover] (Line 2766, column 5):
+At <mod>\events\oldgods_mongol_events.txt [character_event\immediate\liege\random_vassal\add_lover] (Line 2769, column 5):
 "FROM" is not a valid ThisChar or CharacterId.
 ThisChar: cannot be because FROM points to <null>.
 	However, a Char was expected.
@@ -8976,10 +8976,10 @@ At <mod>\events\oldgods_runestone_events.txt [character_event\option\if\hidden_t
 At <mod>\events\oldgods_runestone_events.txt [character_event\option\if\hidden_tooltip\character_event\id] (Line 147, column 43):
 "TOG.521" is not a valid CharEventId.
 
-At <mod>\events\on_action_events.txt [character_event\desc] (Line 3451, column 2):
+At <mod>\events\on_action_events.txt [character_event\desc] (Line 3454, column 2):
 "NotShown" is not a valid LocalizationKey.
 
-At <mod>\events\on_action_events.txt [character_event\option\name] (Line 3473, column 3):
+At <mod>\events\on_action_events.txt [character_event\option\name] (Line 3476, column 3):
 "NotShown" is not a valid LocalizationKey.
 
 At <mod>\events\on_action_events.txt [character_event\desc] (Line 20, column 2):
@@ -8988,19 +8988,19 @@ At <mod>\events\on_action_events.txt [character_event\desc] (Line 20, column 2):
 At <mod>\events\on_action_events.txt [letter_event\desc] (Line 12, column 2):
 "A" is not a valid LocalizationKey.
 
-At <mod>\events\on_action_events.txt [diploresponse_event\desc] (Line 1950, column 2):
+At <mod>\events\on_action_events.txt [diploresponse_event\desc] (Line 1953, column 2):
 "EVTDESC209" is not a valid LocalizationKey.
 
-At <mod>\events\on_hajj.txt [character_event\trigger\any_war\religion_group] (Line 2348, column 15):
+At <mod>\events\on_hajj.txt [character_event\trigger\any_war\religion_group] (Line 2364, column 15):
 Invalid node "religion_group" in scope WarTrigger (value is: christian)
 
-At <mod>\events\on_hajj.txt [character_event\trigger\any_independent_ruler] (Line 2277, column 3):
+At <mod>\events\on_hajj.txt [character_event\trigger\any_independent_ruler] (Line 2293, column 3):
 <a complex type> is not a valid CharTrigger.
 
-At <mod>\events\on_hajj.txt [character_event\trigger\NOT\any_war\religion_group] (Line 2180, column 23):
+At <mod>\events\on_hajj.txt [character_event\trigger\NOT\any_war\religion_group] (Line 2196, column 23):
 Invalid node "religion_group" in scope WarTrigger (value is: christian)
 
-At <mod>\events\on_hajj.txt [character_event\option\job_spiritual\opinion\who] (Line 2222, column 5):
+At <mod>\events\on_hajj.txt [character_event\option\job_spiritual\opinion\who] (Line 2238, column 5):
 "FROM" is not a valid ThisChar, OpinionClauseDefinedTypes, ThisProv, or ThisTitle.
 ThisChar: cannot be because FROM points to <null>.
 	However, a Char was expected.
@@ -9012,7 +9012,7 @@ ThisTitle: cannot be because FROM points to <null>.
 	However, a Title was expected.
 	The event must have is_triggered_only set to true.
 
-At <mod>\events\on_hajj.txt [character_event\option\job_spiritual\opinion\who] (Line 2202, column 5):
+At <mod>\events\on_hajj.txt [character_event\option\job_spiritual\opinion\who] (Line 2218, column 5):
 "FROM" is not a valid ThisChar, OpinionClauseDefinedTypes, ThisProv, or ThisTitle.
 ThisChar: cannot be because FROM points to <null>.
 	However, a Char was expected.
@@ -9024,7 +9024,7 @@ ThisTitle: cannot be because FROM points to <null>.
 	However, a Title was expected.
 	The event must have is_triggered_only set to true.
 
-At <mod>\events\pilgrim_events.txt [character_event\desc] (Line 3910, column 2):
+At <mod>\events\pilgrim_events.txt [character_event\desc] (Line 3974, column 2):
 "EVTDESC_SoA_5090" is not a valid LocalizationKey.
 
 At <mod>\events\pilgrim_events.txt [character_event\option\hidden_tooltip\if\limit\OR] (Line 424, column 7):
@@ -9033,775 +9033,775 @@ Since there is only one item within the OR clause, it is redundant and unnecessa
 At <mod>\events\pilgrim_events.txt [character_event\option\hidden_tooltip\if\limit\OR] (Line 361, column 7):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 18270, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 18271, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18139, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18139, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18140, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18140, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 18282, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 18283, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18139, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18139, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18140, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18140, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18139, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18139, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18140, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 18140, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 18226, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 18227, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18132, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18132, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18133, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18133, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 18238, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 18239, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18132, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18132, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18133, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18133, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18132, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18132, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18133, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 18133, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 18063, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 18064, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 18204, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 18205, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 18197, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 18198, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 18137, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 18138, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 18130, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 18131, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17586, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 17587, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 17062, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 17063, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16931, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16931, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16932, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16932, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 17074, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 17075, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16931, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16931, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16932, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16932, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16931, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16931, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16932, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 16932, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 17018, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 17019, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16924, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16924, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16925, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16925, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 17030, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 17031, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16924, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16924, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16925, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16925, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16924, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16924, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16925, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 16925, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 16855, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 16856, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 16996, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 16997, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 16989, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 16990, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 16929, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 16930, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 16922, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 16923, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16377, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 16378, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 15853, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 15854, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15722, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15722, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15723, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15723, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 15865, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 15866, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15722, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15722, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15723, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15723, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15722, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15722, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15723, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 15723, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 15809, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 15810, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15715, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15715, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15716, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15716, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 15821, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 15822, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15715, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15715, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15716, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15716, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15715, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15715, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15716, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 15716, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 15646, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 15647, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 15787, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 15788, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 15780, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 15781, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 15720, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 15721, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 15713, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 15714, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15169, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 15170, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 14646, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 14647, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14515, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14515, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14516, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14516, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 14658, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 14659, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14515, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14515, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14516, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14516, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14515, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14515, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14516, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 14516, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 14602, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 14603, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14508, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14508, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14509, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14509, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 14614, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 14615, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14508, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14508, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14509, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14509, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14508, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14508, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14509, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 14509, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 14439, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 14440, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 14580, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 14581, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 14573, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 14574, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 14513, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 14514, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 14506, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 14507, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13962, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 13963, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 13439, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 13440, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13308, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13308, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13309, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13309, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 13451, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 13452, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13308, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13308, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13309, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13309, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13308, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13308, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13309, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 13309, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 13395, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 13396, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13301, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13301, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13302, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13302, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 13407, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 13408, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13301, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13301, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13302, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13302, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13301, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13301, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13302, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 13302, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 13232, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 13233, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 13373, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 13374, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 13366, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 13367, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 13306, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 13307, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 13299, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 13300, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12785, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 12786, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 12261, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 12262, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12130, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12130, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12131, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12131, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 12273, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 12274, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12130, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12130, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12131, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12131, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12130, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12130, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12131, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 12131, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 12217, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 12218, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12123, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12123, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12124, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12124, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 12229, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 12230, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12123, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12123, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12124, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12124, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12123, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12123, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12124, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 12124, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 12054, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 12055, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 12195, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 12196, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 12188, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 12189, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 12128, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 12129, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 12121, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 12122, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11579, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 11580, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 11058, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 11059, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10927, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10927, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10928, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10928, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 11070, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 11071, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10927, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10927, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10928, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10928, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10927, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10927, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10928, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 10928, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 11014, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 11015, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10920, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10920, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10921, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10921, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 11026, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 11027, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10920, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10920, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10921, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10921, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10920, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10920, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10921, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 10921, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 10851, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 10852, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 10992, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 10993, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 10985, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 10986, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 10925, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 10926, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 10918, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 10919, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10380, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 10381, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 9862, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 9863, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9731, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9731, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9732, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9732, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 9874, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 9875, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9731, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9731, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9732, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9732, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9731, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9731, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9732, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 9732, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 9818, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 9819, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9724, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9724, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9725, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9725, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 9830, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 9831, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9724, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9724, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9725, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9725, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9724, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9724, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9725, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 9725, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 9655, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 9656, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 9796, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 9797, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 9789, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 9790, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 9729, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 9730, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 9722, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 9723, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9185, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 9186, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 8669, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 8670, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8538, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8538, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8539, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8539, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 8681, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 8682, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8538, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8538, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8539, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8539, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8538, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8538, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8539, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 8539, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 8625, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 8626, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8531, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8531, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8532, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8532, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 8637, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 8638, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8531, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8531, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8532, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8532, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8531, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8531, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8532, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 8532, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 8462, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 8463, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 8603, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 8604, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 8596, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 8597, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 8536, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 8537, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 8529, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 8530, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7985, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 7986, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 7462, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 7463, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7331, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7331, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7332, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7332, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 7474, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 7475, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7331, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7331, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7332, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7332, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7331, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7331, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7332, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\character_event\id] (Line 7332, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 7418, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 7419, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7324, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7324, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7325, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7325, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 7430, column 5):
+At <mod>\events\plot_events.txt [character_event\option\if\death\killer] (Line 7431, column 5):
 "FROMFROMFROM" is not a valid ThisChar.
 FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7324, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7324, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7325, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7325, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 Additional information: FROMFROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7324, column 26) could not be determined.
-The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7324, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROMFROM could not be determined, because the FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7325, column 26) could not be determined.
+The FROMFROM of <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\character_event\id] (Line 7325, column 26) could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 7255, column 4):
+At <mod>\events\plot_events.txt [character_event\trigger\OR\FROMFROM] (Line 7256, column 4):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 7396, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 7397, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 7389, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\50\hidden_tooltip\FROMFROM] (Line 7390, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 7329, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\75\hidden_tooltip\FROMFROM] (Line 7330, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
-At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 7322, column 7):
+At <mod>\events\plot_events.txt [character_event\option\hidden_tooltip\random_list\25\hidden_tooltip\FROMFROM] (Line 7323, column 7):
 No direct match found for FROMFROM (is the casing correct?). However, other possible matches in scope CharCommand were found.
 Left: [ThisChar] cannot be correct because of left: FROMFROM points to <null>.
 However, a Char was expected.
-The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44) could not be determined.
-This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6777, column 44), must be called from somewhere else, which it is not.
+The FROMFROM could not be determined, because the FROM of <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44) could not be determined.
+This event , at <mod>\events\plot_events.txt [character_event\option\plot_target_char\character_event\id] (Line 6778, column 44), must be called from somewhere else, which it is not.
 
 At <mod>\events\plot_events.txt [character_event\option\if\limit\FROMFROMFROM] (Line 5725, column 5):
 No direct match found for FROMFROMFROM (is the casing correct?). However, other possible matches in scope CharTrigger were found.
@@ -10569,13 +10569,13 @@ At <mod>\events\soa_holy_order_events.txt [character_event\immediate\FROMFROM\ch
 At <mod>\events\soa_holy_order_events.txt [province_event\desc] (Line 2530, column 2):
 "EVTDESC_SOA_1254" is not a valid LocalizationKey.
 
-At <mod>\events\soa_misc_religious_events.txt [narrative_event\option] (Line 3194, column 2):
+At <mod>\events\soa_misc_religious_events.txt [narrative_event\option] (Line 3199, column 2):
 At most 1 instance(s) of a "tooltip_info" entry are allowed, but there are 3 instances.
 
-At <mod>\events\soa_various_events.txt [character_event\immediate\mother\character_event\id] (Line 1062, column 24):
+At <mod>\events\soa_various_events.txt [character_event\immediate\mother\character_event\id] (Line 1075, column 24):
 "SoA.3021" is not a valid CharEventId.
 
-At <mod>\events\soa_various_events.txt [character_event\immediate\father\character_event\id] (Line 1058, column 24):
+At <mod>\events\soa_various_events.txt [character_event\immediate\father\character_event\id] (Line 1071, column 24):
 "SoA.3021" is not a valid CharEventId.
 
 At <mod>\events\teutonic_order_events.txt [letter_event\option\FROM\letter_event] (Line 393, column 12):
@@ -10590,25 +10590,25 @@ Invalid node "clr_province_flag" in scope Option (value is: land_wanted_by_teuto
 At <mod>\events\teutonic_order_events.txt [province_event\only_rulers] (Line 282, column 2):
 Invalid node "only_rulers" in scope ProvEvent (value is: yes)
 
-At <mod>\events\traits_effects_events.txt [character_event\option\name] (Line 18389, column 3):
+At <mod>\events\traits_effects_events.txt [character_event\option\name] (Line 18419, column 3):
 "EVTOPTD3602" is not a valid LocalizationKey.
 
-At <mod>\events\traits_effects_events.txt [character_event\option\FROM\character_event\id] (Line 10746, column 5):
+At <mod>\events\traits_effects_events.txt [character_event\option\FROM\character_event\id] (Line 10766, column 5):
 "3414" is not a valid CharEventId.
 
-At <mod>\events\traits_effects_events.txt [character_event\trigger\OR] (Line 9526, column 3):
+At <mod>\events\traits_effects_events.txt [character_event\trigger\OR] (Line 9544, column 3):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
 
-At <mod>\events\various_traits_events.txt [character_event\option\trigger\NOT\religion_group] (Line 2237, column 12):
+At <mod>\events\various_traits_events.txt [character_event\option\trigger\NOT\religion_group] (Line 2256, column 12):
 "buddhist" is not a valid ReligionGroup or ThisChar, ThisProv, or ThisTitle.
 
-At <mod>\events\various_traits_events.txt [character_event\option\trigger\NOT\religion_group] (Line 2238, column 12):
+At <mod>\events\various_traits_events.txt [character_event\option\trigger\NOT\religion_group] (Line 2257, column 12):
 "jain" is not a valid ReligionGroup or ThisChar, ThisProv, or ThisTitle.
 
-At <mod>\events\various_traits_events.txt [character_event] (Line 1990, column 1):
+At <mod>\events\various_traits_events.txt [character_event] (Line 2006, column 1):
 This triggered-only non-on action event should not have a weight multiplier.
 
-At <mod>\events\various_traits_events.txt [character_event] (Line 1972, column 1):
+At <mod>\events\various_traits_events.txt [character_event] (Line 1987, column 1):
 This triggered-only non-on action event should not have a weight multiplier.
 
 At <mod>\common\on_actions\00_on_actions.txt [on_entering_port\events\700] (Line 1539, column 3):

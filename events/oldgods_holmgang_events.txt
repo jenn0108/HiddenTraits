@@ -793,6 +793,7 @@ character_event = {
 			random = {
 				chance = 33
 				remove_trait = brave
+				remove_trait = brave_hidden
 			}
 		}
 		if = {

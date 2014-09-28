@@ -1089,6 +1089,7 @@ character_event = {
 				}
 			}
 			remove_trait = gluttonous
+			remove_trait = gluttonous_hidden
 		}
 		if = {
 			limit = {
@@ -1098,6 +1099,7 @@ character_event = {
 				}
 			}
 			remove_trait = drunkard
+			remove_trait = drunkard_hidden
 		}
 	}
 	
@@ -1230,7 +1232,8 @@ character_event = {
 				trait = greedy_hidden
 			}
 		}
-		remove_trait = greedy		
+		remove_trait = greedy
+		remove_trait = greedy_hidden		
 	}
 	option = {
 		name = "EVTOPTB86320"
@@ -1273,7 +1276,8 @@ character_event = {
 				trait = slothful_hidden
 			}
 		}
-		remove_trait = slothful			
+		remove_trait = slothful
+		remove_trait = slothful_hidden			
 	}
 
 	option = {
@@ -1317,7 +1321,8 @@ character_event = {
 				trait = envious_hidden
 			}
 		}
-		remove_trait = envious				
+		remove_trait = envious
+		remove_trait = envious_hidden				
 	}
 	option = {
 		name = "EVTOPTB86340"
@@ -1360,7 +1365,8 @@ character_event = {
 				trait = deceitful_hidden
 			}
 		}
-		remove_trait = deceitful				
+		remove_trait = deceitful
+		remove_trait = deceitful_hidden				
 		
 	}
 
@@ -1405,7 +1411,8 @@ character_event = {
 				trait = craven_hidden
 			}
 		}
-		remove_trait = craven		
+		remove_trait = craven
+		remove_trait = craven_hidden		
 	}
 	option = {
 		name = "EVTOPTB86360"
@@ -1448,7 +1455,8 @@ character_event = {
 				trait = arbitrary_hidden
 			}
 		}
-		remove_trait = arbitrary				
+		remove_trait = arbitrary
+		remove_trait = arbitrary_hidden				
 	}
 	option = {
 		name = "EVTOPTB86380"
@@ -1491,7 +1499,8 @@ character_event = {
 				trait = hedonist_hidden
 			}
 		}
-		remove_trait = hedonist		
+		remove_trait = hedonist
+		remove_trait = hedonist_hidden		
 	}
 	option = {
 		name = "EVTOPTB86390"
@@ -1535,6 +1544,7 @@ character_event = {
 			}
 		}
 		remove_trait = cynical
+		remove_trait = cynical_hidden
 	}
 	
 	option = {
@@ -1579,6 +1589,7 @@ character_event = {
 			}
 		}
 		remove_trait = wroth
+		remove_trait = wroth_hidden
 	}
 
 	option = {
@@ -1898,6 +1909,7 @@ character_event = {
 				} 
 			}
 			remove_trait = possessed
+			remove_trait = possessed_hidden
 			remove_character_modifier = voice_of_satan
 			remove_character_modifier = voice_of_jesus
 			remove_character_modifier = holy_comet
@@ -1910,6 +1922,7 @@ character_event = {
 				} 
 			}
 			remove_trait = lunatic
+			remove_trait = lunatic_hidden
 		}
 		if = {
 			limit = {
@@ -1919,6 +1932,7 @@ character_event = {
 				} 
 			}
 			remove_trait = stressed
+			remove_trait = stressed_hidden
 		}	
 		if = {
 			limit = {
@@ -1928,6 +1942,7 @@ character_event = {
 				} 
 			}
 			remove_trait = depressed
+			remove_trait = depressed_hidden
 		}	
 		piety = 15		
 	}
@@ -2119,6 +2134,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA86800"
 		remove_trait = on_hajj
+		remove_trait = on_hajj_hidden
 		add_trait = hajjaj_hidden
 		
 

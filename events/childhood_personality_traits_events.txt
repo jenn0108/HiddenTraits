@@ -188,6 +188,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1501"
 		remove_trait = gluttonous
+		remove_trait = gluttonous_hidden
 	}
 }
 
@@ -371,6 +372,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1511"
 		remove_trait = temperate
+		remove_trait = temperate_hidden
 	}
 }
 
@@ -559,6 +561,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1521"
 		remove_trait = greedy
+		remove_trait = greedy_hidden
 	}
 }
 
@@ -747,6 +750,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1531"
 		remove_trait = charitable
+		remove_trait = charitable_hidden
 	}
 }
 
@@ -936,6 +940,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1541"
 		remove_trait = slothful
+		remove_trait = slothful_hidden
 	}
 }
 
@@ -1126,6 +1131,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1551"
 		remove_trait = diligent
+		remove_trait = diligent_hidden
 	}
 }
 
@@ -1329,11 +1335,13 @@ character_event = {
 		name = "EVTOPTA1561"
 		trigger = { is_female = yes }
 		remove_trait = envious
+		remove_trait = envious_hidden
 	}
 	option = {
 		name = "EVTOPTB1561"
 		trigger = { is_female = no }
 		remove_trait = envious
+		remove_trait = envious_hidden
 	}
 }
 
@@ -1536,6 +1544,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1571"
 		remove_trait = kind
+		remove_trait = kind_hidden
 	}
 }
 
@@ -1711,6 +1720,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1581"
 		remove_trait = wroth
+		remove_trait = wroth_hidden
 	}
 }
 
@@ -1885,6 +1895,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1591"
 		remove_trait = patient
+		remove_trait = patient_hidden
 	}
 }
 
@@ -2060,6 +2071,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1601"
 		remove_trait = proud
+		remove_trait = proud_hidden
 	}
 }
 
@@ -2234,6 +2246,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1611"
 		remove_trait = humble
+		remove_trait = humble_hidden
 	}
 }
 
@@ -2410,6 +2423,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1621"
 		remove_trait = deceitful
+		remove_trait = deceitful_hidden
 	}
 }
 
@@ -2590,6 +2604,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1631"
 		remove_trait = zealous
+		remove_trait = zealous_hidden
 	}
 }
 
@@ -2916,6 +2931,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1641"
 		remove_trait = honest
+		remove_trait = honest_hidden
 	}
 }
 
@@ -3090,6 +3106,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1651"
 		remove_trait = craven
+		remove_trait = craven_hidden
 	}
 }
 
@@ -3265,6 +3282,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1661"
 		remove_trait = brave
+		remove_trait = brave_hidden
 	}
 }
 
@@ -3439,6 +3457,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1671"
 		remove_trait = shy
+		remove_trait = shy_hidden
 	}
 }
 
@@ -3614,6 +3633,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1681"
 		remove_trait = gregarious
+		remove_trait = gregarious_hidden
 	}
 }
 
@@ -3711,6 +3731,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1691"
 		remove_trait = ambitious
+		remove_trait = ambitious_hidden
 	}
 }
 
@@ -3808,6 +3829,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1701"
 		remove_trait = content
+		remove_trait = content_hidden
 	}
 }
 
@@ -3982,6 +4004,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1711"
 		remove_trait = arbitrary
+		remove_trait = arbitrary_hidden
 	}
 }
 
@@ -4156,6 +4179,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1721"
 		remove_trait = just
+		remove_trait = just_hidden
 	}
 }
 
@@ -4333,6 +4357,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1731"
 		remove_trait = cynical
+		remove_trait = cynical_hidden
 	}
 }
 
@@ -4505,6 +4530,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1731"
 		remove_trait = cynical
+		remove_trait = cynical_hidden
 	}
 }
 
@@ -4686,6 +4712,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA1966"
 		remove_trait = cruel
+		remove_trait = cruel_hidden
 	}
 }
 
@@ -4837,6 +4864,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB1985"
 		remove_trait = homosexual
+		remove_trait = homosexual_hidden
 	}
 }
 
@@ -4882,6 +4910,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB1986"
 		remove_trait = homosexual
+		remove_trait = homosexual_hidden
 	}
 }
 
@@ -4991,6 +5020,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB1985"
 		remove_trait = homosexual
+		remove_trait = homosexual_hidden
 	}
 }
 

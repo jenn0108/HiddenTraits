@@ -1166,6 +1166,7 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	}
 	option = {

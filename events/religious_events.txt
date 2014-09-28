@@ -1590,6 +1590,7 @@ character_event = {
 		piety = -100
 		wealth = -50
 		remove_trait = kinslayer
+		remove_trait = kinslayer_hidden
 		FROM = { character_event = { id = 39212 days = 1 tooltip = EVTTOOLTIP39212 } }
 	}
 	
@@ -3208,6 +3209,7 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	} 
 }
@@ -3276,6 +3278,7 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	} 
 }
@@ -3344,6 +3347,7 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	} 
 }
@@ -3412,6 +3416,7 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	} 
 }
@@ -3472,6 +3477,7 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
+			remove_trait = zealous_hidden
 		}
 	} 
 }

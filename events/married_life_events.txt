@@ -5797,6 +5797,7 @@ character_event = {
 				}
 			}
 			remove_trait = lustful
+			remove_trait = lustful_hidden
 		}
 	}
 }
@@ -5820,6 +5821,7 @@ character_event = {
 				}
 			}
 			remove_trait = lustful
+			remove_trait = lustful_hidden
 		}
 	}
 }

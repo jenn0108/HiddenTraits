@@ -3933,6 +3933,7 @@ character_event = {
 		random = {
 			chance = 50
 			remove_trait = wroth
+			remove_trait = wroth_hidden
 			add_character_modifier = {
 				name = mod_ashamed
 				duration = 60

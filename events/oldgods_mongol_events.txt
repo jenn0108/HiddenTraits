@@ -1443,6 +1443,7 @@ character_event = {
 				} 
 			}
 			remove_trait = cruel
+			remove_trait = cruel_hidden
 		}
 	}
 	option = { # Keep
@@ -1560,6 +1561,7 @@ character_event = {
 					} 
 				}
 				remove_trait = cruel
+				remove_trait = cruel_hidden
 			}
 		}
 		prestige = 25
@@ -1595,6 +1597,7 @@ character_event = {
 				} 
 			}
 			remove_trait = kind
+			remove_trait = kind_hidden
 		}
 		hidden_tooltip = {
 			character_event = { id = TOG.170 days = 5 }

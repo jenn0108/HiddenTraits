@@ -135,6 +135,7 @@ letter_event = {
 			letter_event = { id = SoA.605 days = 3 tooltip = EVTTOOLTIP_SoA_605 }
 		}
 		remove_trait = mutazilite
+		remove_trait = mutazilite_hidden
 		add_trait = ashari_hidden
 	}
 	option = {
@@ -165,6 +166,7 @@ letter_event = {
 		tooltip = {
 			FROM = {
 				remove_trait = mutazilite
+				remove_trait = mutazilite_hidden
 				add_trait = ashari_hidden
 			}
 		}
@@ -259,6 +261,7 @@ letter_event = {
 			letter_event = { id = SoA.613 days = 3 tooltip = EVTTOOLTIP_SoA_613 }
 		}
 		remove_trait = ashari
+		remove_trait = ashari_hidden
 		add_trait = mutazilite_hidden
 	}
 	option = {
@@ -301,6 +304,7 @@ letter_event = {
 		tooltip = {
 			FROM = {
 				remove_trait = ashari
+				remove_trait = ashari_hidden
 				add_trait = mutazilite_hidden
 			}
 		}
@@ -349,6 +353,7 @@ character_event = {
 			factor = 1
 		}
 		remove_trait = ashari
+		remove_trait = ashari_hidden
 		add_trait = mutazilite_hidden
 	}
 	option = {
@@ -369,6 +374,7 @@ character_event = {
 			}
 		}
 		remove_trait = cynical
+		remove_trait = cynical_hidden
 		add_trait = zealous_hidden
 	}
 }
@@ -414,6 +420,7 @@ character_event = {
 			}
 		}
 		remove_trait = mutazilite
+		remove_trait = mutazilite_hidden
 		add_trait = ashari_hidden
 	}
 	option = {
@@ -422,6 +429,7 @@ character_event = {
 			factor = 1
 		}
 		remove_trait = zealous
+		remove_trait = zealous_hidden
 		add_trait = cynical_hidden
 	}
 }

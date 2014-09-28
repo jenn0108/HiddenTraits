@@ -638,6 +638,7 @@ character_event = {
 				is_abroad = no
 			}
 			remove_trait = bastard
+			remove_trait = bastard_hidden
 			add_trait = legit_bastard_hidden
 		}
 	}
@@ -783,6 +784,7 @@ character_event = {
 				}
 			}
 			remove_trait = bastard
+			remove_trait = bastard_hidden
 			add_trait = legit_bastard_hidden
 		}
 	}
@@ -905,6 +907,7 @@ character_event = {
 				}
 			}
 			remove_trait = kind
+			remove_trait = kind_hidden
 			prestige = -20
 		}
 	}
