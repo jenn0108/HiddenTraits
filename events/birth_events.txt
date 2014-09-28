@@ -472,7 +472,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = homosexual
+			add_trait = homosexual_hidden
 		}
 		liege = {
 			add_character_modifier = {
@@ -1168,7 +1168,7 @@ character_event = {
 	
 	option = {
 		name = OK
-		add_trait = pregnant
+		add_trait = pregnant_hidden
 		prestige = 10
 		
 		if = {
@@ -1210,7 +1210,7 @@ character_event = {
 	
 	option = {
 		name = OK
-		add_trait = pregnant
+		add_trait = pregnant_hidden
 		piety = -50
 		prestige = -50
 	}
@@ -1243,7 +1243,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA402
-		add_trait = pregnant
+		add_trait = pregnant_hidden
 		spouse = { character_event = { id = 404 tooltip = EVTTOOLTIP404 } }
 	}
 }
@@ -1311,7 +1311,7 @@ character_event = {
 	
 	option = {
 		name = OK
-		add_trait = pregnant
+		add_trait = pregnant_hidden
 		prestige = 10
 		
 		if = {
@@ -1350,7 +1350,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA412
-		add_trait = pregnant
+		add_trait = pregnant_hidden
 		consort = { character_event = { id = 414 tooltip = EVTTOOLTIP414 } }
 	}
 }
@@ -1535,7 +1535,7 @@ character_event = {
 		name = OK
 		dynasty = FROM
 		remove_trait = bastard
-		add_trait = legit_bastard
+		add_trait = legit_bastard_hidden
 		
 		father = {
 			spouse = {
@@ -1630,7 +1630,7 @@ character_event = {
 	option = {
 		name = OK
 		dynasty = FROM
-		add_trait = bastard
+		add_trait = bastard_hidden
 		
 		father = {
 			spouse = {
@@ -1778,7 +1778,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA12"
-		add_trait = child_of_consort
+		add_trait = child_of_consort_hidden
 	}
 }
 
@@ -1801,10 +1801,10 @@ character_event = {
 				# All is well
 			}
 			10 = {
-				add_trait = sickly
+				add_trait = sickly_hidden
 			}
 			10 = {
-				add_trait = ill
+				add_trait = ill_hidden
 			}
 		}
 	}
@@ -2147,13 +2147,13 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		add_trait = ill
+		add_trait = ill_hidden
 	}
 
 	option = {
 		name = EVTOPTA315
 		tooltip = {
-			add_trait = ill
+			add_trait = ill_hidden
 		}
 	}
 }
@@ -2167,13 +2167,13 @@ character_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		add_trait = pneumonic
+		add_trait = pneumonic_hidden
 	}
 
 	option = {
 		name = EVTOPTA315
 		tooltip = {
-			add_trait = pneumonic
+			add_trait = pneumonic_hidden
 		}
 	}
 }

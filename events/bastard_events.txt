@@ -91,7 +91,7 @@ character_event = {
 			random = {
 				chance = 50
 				
-				add_trait = lustful
+				add_trait = lustful_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38272 #Notify Lustful
@@ -114,7 +114,7 @@ character_event = {
 					religion_group = muslim
 				}
 			}
-			add_trait = chaste
+			add_trait = chaste_hidden
 		}
 	}
 }
@@ -213,7 +213,7 @@ character_event = {
 			}
 		}
 		prestige = -5
-		add_trait = kind
+		add_trait = kind_hidden
 	}
 	option = {
 		name = "EVTOPTC76005"
@@ -253,14 +253,14 @@ character_event = {
 						religion_group = muslim
 					}
 				}
-				add_trait = chaste
+				add_trait = chaste_hidden
 			}
 			health = -1
 		}
 		random = {
 			chance = 25
 			
-			add_trait = cruel
+			add_trait = cruel_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38259 #Notify Cruel
@@ -281,11 +281,11 @@ character_event = {
 	option = {
 		name = "EVTOPTA76006"
 		scaled_wealth = -0.33
-		add_trait = deceitful
+		add_trait = deceitful_hidden
 		random = {
 			chance = 10
 			
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38287 #Notify Kinslayer
@@ -300,7 +300,7 @@ character_event = {
 		random = {
 			chance = 33
 			
-			add_trait = arbitrary
+			add_trait = arbitrary_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38266 #Notify Arbitrary
@@ -310,7 +310,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTC76006"
-		add_trait = trusting
+		add_trait = trusting_hidden
 		job_spymaster = {
 			character_event = {
 				id = 76007
@@ -331,7 +331,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA76007"
 		prestige = 50
-		add_trait = proud
+		add_trait = proud_hidden
 		random = {
 			chance = 15
 			
@@ -402,14 +402,14 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA76008"
-		add_trait = deceitful
+		add_trait = deceitful_hidden
 		FROM = {
 			imprison = ROOT
 		}
 	}
 	option = {
 		name = "EVTOPTB76008"
-		add_trait = honest
+		add_trait = honest_hidden
 		prestige = -20
 	}
 	option = {
@@ -538,7 +538,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB76010"
-		add_trait = honest
+		add_trait = honest_hidden
 	}
 }
 
@@ -590,7 +590,7 @@ character_event = {
 			random = {
 				chance = 33
 				
-				add_trait = wroth
+				add_trait = wroth_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38254 #Notify Wroth
@@ -615,7 +615,7 @@ character_event = {
 			random = {
 				chance = 33
 				
-				add_trait = stressed
+				add_trait = stressed_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify Stressed
@@ -638,7 +638,7 @@ character_event = {
 				is_abroad = no
 			}
 			remove_trait = bastard
-			add_trait = legit_bastard
+			add_trait = legit_bastard_hidden
 		}
 	}
 }
@@ -734,7 +734,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB76020"
 		piety = 10
-		add_trait = content
+		add_trait = content_hidden
 	}
 }
 
@@ -763,7 +763,7 @@ character_event = {
 			random = {
 				chance = 33
 				
-				add_trait = wroth
+				add_trait = wroth_hidden
 				hidden_tooltip = {
 					character_event = {
 						days = 2
@@ -783,7 +783,7 @@ character_event = {
 				}
 			}
 			remove_trait = bastard
-			add_trait = legit_bastard
+			add_trait = legit_bastard_hidden
 		}
 	}
 }
@@ -874,7 +874,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB76025"
 		set_character_flag = raising_bastard
-		add_trait = stressed
+		add_trait = stressed_hidden
 	}
 }
 
@@ -1064,7 +1064,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA76030"
-		add_trait = ambitious
+		add_trait = ambitious_hidden
 	}
 }
 
@@ -1124,7 +1124,7 @@ character_event = {
 		random = {
 			chance = 30
 			
-			add_trait = wroth
+			add_trait = wroth_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38254 #Notify Wroth
@@ -1141,7 +1141,7 @@ character_event = {
 		name = "EVTOPTB76035"
 		random_list = {
 			50 = {
-				add_trait = craven
+				add_trait = craven_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38257 #Notify Craven
@@ -1175,7 +1175,7 @@ character_event = {
 				change_diplomacy = 1
 			}
 			30 = {
-				add_trait = shy
+				add_trait = shy_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38263 #Notify Shy
@@ -1221,7 +1221,7 @@ character_event = {
 				}
 			}
 			20 = {
-				add_trait = deceitful
+				add_trait = deceitful_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -1287,7 +1287,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = chaste
+					add_trait = chaste_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38274 #Notify Chaste
@@ -1300,7 +1300,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = zealous
+					add_trait = zealous_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38269 #Notify Zealous
@@ -1320,7 +1320,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = humble
+					add_trait = humble_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38260 #Notify Humble
@@ -1333,7 +1333,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38263 #Notify Shy
@@ -1353,7 +1353,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = ambitious
+					add_trait = ambitious_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38278 #Notify Ambitious
@@ -1366,7 +1366,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = proud
+					add_trait = proud_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38261 #Notify Proud
@@ -1391,7 +1391,7 @@ character_event = {
 				80 = {
 				}
 				20 = {
-					add_trait = zealous
+					add_trait = zealous_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38269 #Notify Zealous

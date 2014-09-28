@@ -73,7 +73,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = gluttonous
+				add_trait = gluttonous_hidden
 			}
 			opinion = {
 				who = ROOT
@@ -179,7 +179,7 @@ character_event = {
 		random_list = {
 			50 = { 
 				FROM = { 
-					add_trait = temperate
+					add_trait = temperate_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -309,7 +309,7 @@ character_event = {
 		}
 		FROM = { 
 			tooltip = {
-				add_trait = temperate
+				add_trait = temperate_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -402,7 +402,7 @@ character_event = {
 		random = {
 			chance = 10
 			FROM = { 
-				add_trait = gluttonous
+				add_trait = gluttonous_hidden
 				hidden_tooltip = { 
 					ROOT = { 
 						character_event = { 
@@ -455,7 +455,7 @@ character_event = {
 		FROM = { 
 			random_list = {
 				50 = {
-					add_trait = gluttonous
+					add_trait = gluttonous_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -532,7 +532,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = greedy
+				add_trait = greedy_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -626,7 +626,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = { 
-					add_trait = charitable
+					add_trait = charitable_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -754,7 +754,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = charitable
+				add_trait = charitable_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -848,7 +848,7 @@ character_event = {
 		random = {
 			chance = 10
 			FROM = {
-				add_trait = greedy
+				add_trait = greedy_hidden
 				hidden_tooltip = {
 					ROOT = {
 						character_event = {
@@ -901,7 +901,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = {
-					add_trait = greedy
+					add_trait = greedy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -980,7 +980,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = slothful
+				add_trait = slothful_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -1074,7 +1074,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = {
-					add_trait = diligent
+					add_trait = diligent_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -1208,7 +1208,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = diligent
+				add_trait = diligent_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -1313,7 +1313,7 @@ character_event = {
 		random = {
 			chance = 10
 			FROM = { 
-				add_trait = slothful
+				add_trait = slothful_hidden
 				hidden_tooltip = { 
 					ROOT = { 
 						character_event = { 
@@ -1366,7 +1366,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = {
-					add_trait = slothful
+					add_trait = slothful_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -1452,7 +1452,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = envious
+				add_trait = envious_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -1545,7 +1545,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = { 
-					add_trait = kind
+					add_trait = kind_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = {
@@ -1673,7 +1673,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = kind
+				add_trait = kind_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -1767,7 +1767,7 @@ character_event = {
 			random_list = {
 				90 = { }
 				10 = {
-					add_trait = envious
+					add_trait = envious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -1819,7 +1819,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = {
-					add_trait = envious
+					add_trait = envious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -1898,7 +1898,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = wroth
+				add_trait = wroth_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -1944,7 +1944,7 @@ character_event = {
 			random_list = {
 				70 = { }
 				30 = {
-					add_trait = patient
+					add_trait = patient_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -1990,7 +1990,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = {
-					add_trait = patient
+					add_trait = patient_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2117,7 +2117,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = patient
+				add_trait = patient_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -2213,7 +2213,7 @@ character_event = {
 			random_list = {
 				90 = { }
 				10 = {	 
-					add_trait = wroth
+					add_trait = wroth_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2265,7 +2265,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = { 
-					add_trait = wroth
+					add_trait = wroth_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2342,7 +2342,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = proud
+				add_trait = proud_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -2430,7 +2430,7 @@ character_event = {
 		FROM = { 
 			random_list = {
 				50 = {
-					add_trait = humble
+					add_trait = humble_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2542,7 +2542,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = humble
+				add_trait = humble_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -2579,7 +2579,7 @@ character_event = {
 			80 = { }
 			10 = { 
 				FROM = { 
-					add_trait = proud
+					add_trait = proud_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2594,7 +2594,7 @@ character_event = {
 			}
 			10 = { 
 				FROM = { 
-				add_trait = wroth
+				add_trait = wroth_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2641,7 +2641,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = { 
-					add_trait = proud
+					add_trait = proud_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2716,7 +2716,7 @@ character_event = {
 		}	
 		FROM = {
 			tooltip = {
-				add_trait = deceitful
+				add_trait = deceitful_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -2773,7 +2773,7 @@ character_event = {
 			}
 			10 = {
 				FROM = {
-					add_trait = wroth
+					add_trait = wroth_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -2813,7 +2813,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = { 
-					add_trait = honest
+					add_trait = honest_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = {
@@ -2934,7 +2934,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -3039,7 +3039,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -3148,7 +3148,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = honest
+				add_trait = honest_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -3268,7 +3268,7 @@ character_event = {
 		random_list = {
 			50 = {	
 				FROM = { 
-					add_trait = deceitful
+					add_trait = deceitful_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -3337,7 +3337,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = craven
+				add_trait = craven_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -3371,7 +3371,7 @@ character_event = {
 		random_list = {
 			50 = {	
 				FROM = {
-					add_trait = content
+					add_trait = content_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -3428,7 +3428,7 @@ character_event = {
 		random = {
 			chance = 25
 			FROM = { 
-				add_trait = brave 
+				add_trait = brave_hidden 
 				hidden_tooltip = {
 					ROOT = {
 						character_event = {
@@ -3498,7 +3498,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = brave
+				add_trait = brave_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -3588,7 +3588,7 @@ character_event = {
 		random_list = {
 			50 = { 
 				FROM = { 
-					add_trait = craven
+					add_trait = craven_hidden
 					hidden_tooltip = {
 						ROOT = { 
 							character_event = {
@@ -3688,7 +3688,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = shy
+				add_trait = shy_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -3797,7 +3797,7 @@ character_event = {
 		random_list = {
 			50 = {
 				FROM = {
-					add_trait = gregarious
+					add_trait = gregarious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -3934,7 +3934,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -4028,7 +4028,7 @@ character_event = {
 			90 = { }
 			10 = {
 				FROM = { 
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						ROOT = { 
 							character_event = {
@@ -4082,7 +4082,7 @@ character_event = {
 		random_list = {
 			50 = { 
 				FROM = { 
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -4141,7 +4141,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			add_trait = ambitious
+			add_trait = ambitious_hidden
 			hidden_tooltip = {
 				ROOT = {
 					character_event = {
@@ -4217,7 +4217,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = content
+				add_trait = content_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -4296,7 +4296,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = arbitrary
+				add_trait = arbitrary_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -4382,7 +4382,7 @@ character_event = {
 		}
 		FROM = {
 			tooltip = {
-				add_trait = just
+				add_trait = just_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -4476,7 +4476,7 @@ character_event = {
 		}	
 		FROM = {
 			tooltip = {
-				add_trait = cynical
+				add_trait = cynical_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -4595,7 +4595,7 @@ character_event = {
 		}		
 		FROM = {
 			tooltip = {
-				add_trait = cruel
+				add_trait = cruel_hidden
 			}
 			opinion = {
 				modifier = opinion_happy_with_guardian
@@ -4683,7 +4683,7 @@ character_event = {
 		random_list = {
 			50 = {	
 				FROM = { 
-					add_trait = kind 
+					add_trait = kind_hidden 
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -5281,10 +5281,10 @@ character_event = {
 		}		
 		
 		random_list = {
-			50 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
-			25 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
-			15 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
-			10 = {	FROM = { add_trait = stutter	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253} }}}
+			50 = {	FROM = { add_trait = trusting_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			25 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			15 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			10 = {	FROM = { add_trait = stutter_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253} }}}
 		}
 
 	}
@@ -5326,8 +5326,8 @@ character_event = {
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		random_list = {
-			80 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254}}}}
-			15 = {	FROM = { add_trait = deceitful	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
+			80 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254}}}}
+			15 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
 			 5 = {	FROM = { add_trait = stutter	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
 		}
 	}
@@ -5346,9 +5346,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = stutter	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
-			45 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256}}}}
-			5 = {	FROM = { add_trait = trusting   hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			50 = {	FROM = { add_trait = stutter_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
+			45 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256}}}}
+			5 = {	FROM = { add_trait = trusting_hidden   hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
 		}
 	}
 	option = {
@@ -5366,8 +5366,8 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = stutter	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
-			50 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			50 = {	FROM = { add_trait = stutter_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
+			50 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
 		}
 
 	}
@@ -5409,9 +5409,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			30 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			20 = {	FROM = { add_trait = deceitful	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255} }}}
+			50 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			30 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			20 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255} }}}
 		}
 
 	}
@@ -5440,9 +5440,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
-			30 = {	FROM = { add_trait = deceitful	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255} }}}
-			20 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			50 = {	FROM = { add_trait = trusting_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			30 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255} }}}
+			20 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
 		}
 
 	}	
@@ -5476,9 +5476,9 @@ character_event = {
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		random_list = {
-			40 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
-			40 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			20 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			40 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			40 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			20 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 }
@@ -5516,9 +5516,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
-			30 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			20 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			50 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			30 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			20 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
 		}
 	}
 	
@@ -5546,9 +5546,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
-			30 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			20 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			50 = {	FROM = { add_trait = trusting_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			30 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			20 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
 		}
 	}
 	option = {
@@ -5575,9 +5575,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
-			30 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			20 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			50 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			30 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			20 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
 		}
 	}
 }
@@ -5610,10 +5610,10 @@ character_event = {
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		random_list = {
-			40 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-			30 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			20 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			10 = {	FROM = { add_trait = cruel	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
+			40 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			30 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			20 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			10 = {	FROM = { add_trait = cruel_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
 		}
 	}
 
@@ -5632,9 +5632,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			25 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			25 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			50 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			25 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			25 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 
@@ -5653,9 +5653,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			50 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-			20 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			50 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			30 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			20 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
 		}
 	}
 	
@@ -5677,9 +5677,9 @@ character_event = {
 			}
 		}			
 		random_list = {
-			70 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-			20 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
-			10 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			70 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			20 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			10 = {	FROM = { add_trait = trusting_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
 		}
 	}
 }
@@ -5707,9 +5707,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			70 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
-			20 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			10 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			70 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			20 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			10 = {	FROM = { add_trait = trusting_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
 		}
 	}
 	option = {
@@ -5727,8 +5727,8 @@ character_event = {
 			}
 		}		
 		random_list = {
-			60 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			40 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			60 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			40 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
 		}
 	}
 	option = {
@@ -5755,8 +5755,8 @@ character_event = {
 			}
 		}		
 		random_list = {
-			80 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-			20 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			80 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			20 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 	option = {
@@ -5774,8 +5774,8 @@ character_event = {
 			}
 		}		
 		random_list = {
-			90 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
-			10 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			90 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			10 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 }
@@ -5815,9 +5815,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			50 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
-			30 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-			20 = {	FROM = { add_trait = shy	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
+			50 = {	FROM = { add_trait = honest_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
+			30 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			20 = {	FROM = { add_trait = shy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
 		}
 	}
 	option = {
@@ -5840,9 +5840,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			40 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			40 = {	FROM = { add_trait = patient	hidden_tooltip = { ROOT = { character_event = { id = 38164}} character_event = { id = 38264} }}}
-			20 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			40 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			40 = {	FROM = { add_trait = patient_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38164}} character_event = { id = 38264} }}}
+			20 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		
 		}
 	}
@@ -5866,9 +5866,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			50 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			30 = {	FROM = { add_trait = deceitful	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255} }}}
-			20 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			50 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			30 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255} }}}
+			20 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
 		}
 	}
 }
@@ -5901,9 +5901,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			50 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-			30 = {	FROM = { add_trait = shy	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
-			20 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			50 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			30 = {	FROM = { add_trait = shy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
+			20 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 	option = {
@@ -5926,8 +5926,8 @@ character_event = {
 			}
 		}		
 		random_list = {
-			60 = {	FROM = { add_trait = gregarious	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
-			40 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
+			60 = {	FROM = { add_trait = gregarious_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
+			40 = {	FROM = { add_trait = honest_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
 		}
 	}	
 	option = {
@@ -5950,8 +5950,8 @@ character_event = {
 			}
 		}		
 		random_list = {
-			60 = {	FROM = { add_trait = deceitful	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
-			40 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			60 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
+			40 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
 		}
 	}	
 }
@@ -5984,9 +5984,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			50 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
-			45 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-			5 = {	FROM = { add_trait = shy	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
+			50 = {	FROM = { add_trait = just_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+			45 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			5 = {	FROM = { add_trait = shy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
 		}
 	}
 	option = {
@@ -6009,9 +6009,9 @@ character_event = {
 			}
 		}		
 		random_list = {
-			60 = {	FROM = { add_trait = gregarious	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-			10 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			60 = {	FROM = { add_trait = gregarious_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
+			30 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			10 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
 		}
 	}
 	option = {
@@ -6039,8 +6039,8 @@ character_event = {
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
 		random_list = {
-			70 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			30 = {	FROM = { add_trait = deceitful	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
+			70 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			30 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
 		}
 	}
 }
@@ -6080,9 +6080,9 @@ character_event = {
 			}			
 		}
 		random_list = {
-			50 = {	FROM = { add_trait = kind	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
-			40 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
-			10 = {	FROM = { add_trait = gregarious	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
+			50 = {	FROM = { add_trait = kind_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
+			40 = {	FROM = { add_trait = honest_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262} }}}
+			10 = {	FROM = { add_trait = gregarious_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
 		}
 	}
 
@@ -6107,9 +6107,9 @@ character_event = {
 		}
 		
 		random_list = {
-			60 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			30 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			10 = {	FROM = { add_trait = cruel	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
+			60 = {	FROM = { add_trait = zealous_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+			30 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			10 = {	FROM = { add_trait = cruel_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
 		}
 	}
 	option = {
@@ -6126,8 +6126,8 @@ character_event = {
 		}
 		
 		random_list = {
-			80 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
-			20 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			80 = {	FROM = { add_trait = just_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+			20 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
 		}
 	}
 }
@@ -6160,7 +6160,7 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			95 = {	FROM = { add_trait = brave	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
+			95 = {	FROM = { add_trait = brave_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
 			5 = {
 				FROM = { 
 					death = {
@@ -6191,8 +6191,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			50 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-			50 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}
+			50 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			50 = {	FROM = { add_trait = honest_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}
 		}
 	}
 	option = {
@@ -6215,8 +6215,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			60 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
-			40 = {	FROM = { add_trait = shy	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
+			60 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			40 = {	FROM = { add_trait = shy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
 		}
 	}
 }
@@ -6249,8 +6249,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			70 = {	FROM = { add_trait = trusting	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
-			30 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			70 = {	FROM = { add_trait = trusting_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38150}} character_event = { id = 38250} }}}
+			30 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
 		}
 	}
 
@@ -6274,8 +6274,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			90 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			10 = {	FROM = { add_trait = kind	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
+			90 = {	FROM = { add_trait = zealous_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+			10 = {	FROM = { add_trait = kind_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
 		}
 	}
 	option = {
@@ -6298,8 +6298,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			70 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			70 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			30 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		}
 	}
 }
@@ -6332,9 +6332,9 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			60 = {	FROM = { add_trait = patient	hidden_tooltip = { ROOT = { character_event = { id = 38164}} character_event = { id = 38264} }}}
-			30 = {	FROM = { add_trait = craven	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
-			10 = {	FROM = { add_trait = slothful	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			60 = {	FROM = { add_trait = patient_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38164}} character_event = { id = 38264} }}}
+			30 = {	FROM = { add_trait = craven_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38157}} character_event = { id = 38257} }}}
+			10 = {	FROM = { add_trait = slothful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 
@@ -6358,8 +6358,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			50 = {	FROM = { add_trait = brave	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
-			50 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			50 = {	FROM = { add_trait = brave_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
+			50 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
 		}
 	}
 	option = {
@@ -6385,8 +6385,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			70 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}		
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			70 = {	FROM = { add_trait = honest_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}		
+			30 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		}
 	}
 	option = {
@@ -6412,8 +6412,8 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			70 = {	FROM = { add_trait = honest	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}		
-			30 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			70 = {	FROM = { add_trait = honest_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38162}} character_event = { id = 38262 } }}}		
+			30 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		}
 	}
 }
@@ -6454,9 +6454,9 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			80 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
-			10 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
-			10 = {	FROM = { add_trait = slothful hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			80 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			10 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			10 = {	FROM = { add_trait = slothful_hidden hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 
@@ -6487,9 +6487,9 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			40 = {	FROM = { add_trait = ambitious	hidden_tooltip = { ROOT = { character_event = { id = 38178}} character_event = { id = 38278} }}}
-			40 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			20 = {	FROM = { add_trait = gregarious	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
+			40 = {	FROM = { add_trait = ambitious_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38178}} character_event = { id = 38278} }}}
+			40 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			20 = {	FROM = { add_trait = gregarious_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38165}} character_event = { id = 38265} }}}
 		}
 	}
 	option = {
@@ -6511,9 +6511,9 @@ character_event = {
 			}			
 		}		
 		random_list = {
-			70 = {	FROM = { add_trait = envious hidden_tooltip = { ROOT = { character_event = { id = 38171}} character_event = { id = 38271 } }}}		
-			20 = {	FROM = { add_trait = humble	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
-			10 = {	FROM = { add_trait = slothful hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
+			70 = {	FROM = { add_trait = envious_hidden hidden_tooltip = { ROOT = { character_event = { id = 38171}} character_event = { id = 38271 } }}}		
+			20 = {	FROM = { add_trait = humble_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38160}} character_event = { id = 38260 } }}}
+			10 = {	FROM = { add_trait = slothful_hidden hidden_tooltip = { ROOT = { character_event = { id = 38151}} character_event = { id = 38251} }}}
 		}
 	}
 }
@@ -6548,7 +6548,7 @@ character_event = {
 		random_list = {
 			60 = {	
 				FROM = {
-					add_trait = charitable
+					add_trait = charitable_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -6569,7 +6569,7 @@ character_event = {
 						}
 					}
 					FROM = {
-						add_trait = lustful
+						add_trait = lustful_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -6609,7 +6609,7 @@ character_event = {
 		random_list = {
 			60 = {
 				FROM = {
-					add_trait = arbitrary
+					add_trait = arbitrary_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -6630,7 +6630,7 @@ character_event = {
 						}
 					}
 					FROM = { 
-						add_trait = chaste
+						add_trait = chaste_hidden
 						hidden_tooltip = {
 							ROOT = { 
 								character_event = { 
@@ -6677,8 +6677,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			50 = {	FROM = { add_trait = cynical	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
-			50 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			50 = {	FROM = { add_trait = cynical_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38158}} character_event = { id = 38258} }}}
+			50 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
 		}
 	}
 	option = {
@@ -6702,9 +6702,9 @@ character_event = {
 		}		
 		
 		random_list = {
-			50 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			30 = {	FROM = { add_trait = cruel	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
-			20 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			50 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			30 = {	FROM = { add_trait = cruel_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
+			20 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		}
 	}	
 	option = {
@@ -6723,9 +6723,9 @@ character_event = {
 		}		
 		
 		random_list = {
-			50 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			50 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
 			45 = {}
-			5 = {	FROM = { add_trait = paranoid	hidden_tooltip = { ROOT = { character_event = { id = 38175}} character_event = { id = 38275} }}}
+			5 = {	FROM = { add_trait = paranoid_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38175}} character_event = { id = 38275} }}}
 		}
 	}
 }
@@ -6759,8 +6759,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			70 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
-			30 = {	FROM = { add_trait = greedy	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
+			70 = {	FROM = { add_trait = zealous_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+			30 = {	FROM = { add_trait = greedy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38152}} character_event = { id = 38252} }}}
 		}
 	}
 	option = {
@@ -6784,8 +6784,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			70 = {	FROM = { add_trait = charitable	hidden_tooltip = { ROOT = { character_event = { id = 38173}} character_event = { id = 38273} }}}
-			30 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+			70 = {	FROM = { add_trait = charitable_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38173}} character_event = { id = 38273} }}}
+			30 = {	FROM = { add_trait = just_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
 		}
 	}
 }
@@ -6819,8 +6819,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			70 = {	FROM = { add_trait = kind	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
-			30 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+			70 = {	FROM = { add_trait = kind_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
+			30 = {	FROM = { add_trait = just_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
 		}
 	}
 
@@ -6845,8 +6845,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			70 = {	FROM = { add_trait = kind	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
-			30 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			70 = {	FROM = { add_trait = kind_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38168}} character_event = { id = 38268 } }}}
+			30 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
 		}
 	}
 }
@@ -6880,9 +6880,9 @@ character_event = {
 		}		
 		
 		random_list = {
-			50 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
-			40 = {	FROM = { add_trait = cruel	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
-			10 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			50 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			40 = {	FROM = { add_trait = cruel_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38159}} character_event = { id = 38259} }}}
+			10 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		}
 	}
 
@@ -6907,8 +6907,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			80 = {	FROM = { add_trait = wroth	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
-			20 = {	FROM = { add_trait = proud	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
+			80 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254} }}}
+			20 = {	FROM = { add_trait = proud_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38161}} character_event = { id = 38261} }}}
 		}
 	}
 }
@@ -6925,15 +6925,15 @@ character_event = {
 		name = EVTOPTA38218 # Good question, you should ponder it on your own
 		random_list = {
 			70 = {	change_learning = 1}
-			30 = {	FROM = { add_trait = shy	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
+			30 = {	FROM = { add_trait = shy_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38163}} character_event = { id = 38263 } }}}
 		}
 	}
 
 	option = {
 		name = EVTOPTB38218 # You should concentrate on something useful instead
 		random_list = {
-			70 = {	FROM = { add_trait = diligent	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
-			20 = {	FROM = { add_trait = arbitrary	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
+			70 = {	FROM = { add_trait = diligent_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38156}} character_event = { id = 38256} }}}
+			20 = {	FROM = { add_trait = arbitrary_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38166}} character_event = { id = 38266} }}}
 			10 = {	change_learning = -1}
 		}
 	}
@@ -6976,7 +6976,7 @@ character_event = {
 						}
 					}
 					FROM = { 
-						add_trait = chaste
+						add_trait = chaste_hidden
 						hidden_tooltip = {
 							ROOT = { 
 								character_event = { 
@@ -6990,7 +6990,7 @@ character_event = {
 					}
 				}
 			}
-			50 = {	FROM = { add_trait = temperate	hidden_tooltip = { ROOT = { character_event = { id = 38176}} character_event = { id = 38276 } }}}
+			50 = {	FROM = { add_trait = temperate_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38176}} character_event = { id = 38276 } }}}
 		}
 	}
 
@@ -7015,8 +7015,8 @@ character_event = {
 		}		
 		
 		random_list = {
-			50 = {	FROM = { add_trait = lustful	hidden_tooltip = { ROOT = { character_event = { id = 38172}} character_event = { id = 38272} }}}
-			50 = {	FROM = { add_trait = gluttonous	hidden_tooltip = { ROOT = { character_event = { id = 38177}} character_event = { id = 38277 } }}}
+			50 = {	FROM = { add_trait = lustful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38172}} character_event = { id = 38272} }}}
+			50 = {	FROM = { add_trait = gluttonous_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38177}} character_event = { id = 38277 } }}}
 		}
 	}
 }
@@ -7042,8 +7042,8 @@ character_event = {
 			}
 		}
 		random_list = {
-			80 = {	FROM = { add_trait = brave	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
-			20 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+			80 = {	FROM = { add_trait = brave_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38170}} character_event = { id = 38270 } }}}
+			20 = {	FROM = { add_trait = zealous_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
 		}
 	}
 
@@ -7060,8 +7060,8 @@ character_event = {
 			}
 		}		
 		random_list = {
-			80 = {	FROM = { add_trait = just	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
-			20 = {	FROM = { add_trait = zealous	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
+			80 = {	FROM = { add_trait = just_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38167}} character_event = { id = 38267 } }}}
+			20 = {	FROM = { add_trait = zealous_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38169}} character_event = { id = 38269 } }}}
 		}
 	}
 }
@@ -7097,7 +7097,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = brave
+					add_trait = brave_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7110,7 +7110,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = wounded
+					add_trait = wounded_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7141,7 +7141,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = just
+					add_trait = just_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7154,7 +7154,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = humble
+					add_trait = humble_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7212,7 +7212,7 @@ character_event = {
 		FROM = {
 			random = {
 				chance = 10
-				add_trait = shy
+				add_trait = shy_hidden
 				hidden_tooltip = {
 					ROOT = {
 						character_event = {
@@ -7232,7 +7232,7 @@ character_event = {
 			change_learning = 1
 			random_list = {
 				50 = {
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7245,7 +7245,7 @@ character_event = {
 					}
 				}
 				50 = {
-					add_trait = humble
+					add_trait = humble_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7297,7 +7297,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = { 
-					add_trait = cruel 
+					add_trait = cruel_hidden 
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7310,7 +7310,7 @@ character_event = {
 					}
 				}
 				25 = { 
-					add_trait = wroth
+					add_trait = wroth_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7323,7 +7323,7 @@ character_event = {
 					}
 				}
 				25 = { 
-					add_trait = craven
+					add_trait = craven_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7353,7 +7353,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			add_trait = deceitful
+			add_trait = deceitful_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify deceitful
@@ -7397,7 +7397,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = { 
-					add_trait = kind 
+					add_trait = kind_hidden 
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7410,7 +7410,7 @@ character_event = {
 					}
 				}
 				25 = { 
-					add_trait = patient
+					add_trait = patient_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7423,7 +7423,7 @@ character_event = {
 					}
 				}
 				25 = { 
-					add_trait = brave 
+					add_trait = brave_hidden 
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7461,7 +7461,7 @@ character_event = {
 			}
 			random_list = {
 				65 = {
-					add_trait = proud
+					add_trait = proud_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7474,7 +7474,7 @@ character_event = {
 					}
 				}
 				35 = {
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7505,7 +7505,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7518,7 +7518,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = humble
+					add_trait = humble_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7544,7 +7544,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = {
-					add_trait = gregarious
+					add_trait = gregarious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7557,7 +7557,7 @@ character_event = {
 					}
 				}
 				50 = {
-					add_trait = humble
+					add_trait = humble_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7592,7 +7592,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = envious
+					add_trait = envious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7605,7 +7605,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = ambitious
+					add_trait = ambitious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7625,7 +7625,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = arbitrary
+					add_trait = arbitrary_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7638,7 +7638,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = content
+					add_trait = content_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7672,7 +7672,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = envious
+					add_trait = envious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7685,7 +7685,7 @@ character_event = {
 					}
 				}
 				30 = {
-					add_trait = ambitious
+					add_trait = ambitious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7705,7 +7705,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = arbitrary
+					add_trait = arbitrary_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7718,7 +7718,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = content
+					add_trait = content_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7775,7 +7775,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = greedy
+					add_trait = greedy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7788,7 +7788,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = charitable
+					add_trait = charitable_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7817,7 +7817,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = charitable
+					add_trait = charitable_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7843,7 +7843,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = zealous
+					add_trait = zealous_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7856,7 +7856,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = charitable
+					add_trait = charitable_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7879,7 +7879,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				75 = {
-					add_trait = zealous
+					add_trait = zealous_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7892,7 +7892,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = charitable
+					add_trait = charitable_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -7958,7 +7958,7 @@ character_event = {
 			}
 		}
 		FROM = {
-			add_trait = gregarious
+			add_trait = gregarious_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38265 #Notify Gregarious
@@ -7991,7 +7991,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = shy
+					add_trait = shy_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8004,7 +8004,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = gregarious
+					add_trait = gregarious_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8077,7 +8077,7 @@ character_event = {
 			FROM = {
 				random_list = {
 					40 = {
-						add_trait = brave
+						add_trait = brave_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8090,7 +8090,7 @@ character_event = {
 						}
 					}
 					30 = {
-						add_trait = diligent
+						add_trait = diligent_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8103,7 +8103,7 @@ character_event = {
 						}
 					}
 					20 = {
-						add_trait = proud
+						add_trait = proud_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8130,7 +8130,7 @@ character_event = {
 			FROM = {
 				random_list = {
 					60 = {
-						add_trait = diligent
+						add_trait = diligent_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8143,7 +8143,7 @@ character_event = {
 						}
 					}
 					40 = {
-						add_trait = proud
+						add_trait = proud_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8203,7 +8203,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = craven
+					add_trait = craven_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8216,7 +8216,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = proud
+					add_trait = proud_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8277,7 +8277,7 @@ character_event = {
 			FROM = {
 				random_list = {
 					40 = {
-						add_trait = brave
+						add_trait = brave_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8290,7 +8290,7 @@ character_event = {
 						}
 					}
 					30 = {
-						add_trait = diligent
+						add_trait = diligent_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8303,7 +8303,7 @@ character_event = {
 						}
 					}
 					20 = {
-						add_trait = proud
+						add_trait = proud_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8330,7 +8330,7 @@ character_event = {
 			FROM = {
 				random_list = {
 					60 = {
-						add_trait = diligent
+						add_trait = diligent_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8343,7 +8343,7 @@ character_event = {
 						}
 					}
 					40 = {
-						add_trait = proud
+						add_trait = proud_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8398,7 +8398,7 @@ character_event = {
 				}
 				random_list = {
 					75 = {
-						add_trait = chaste
+						add_trait = chaste_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8411,7 +8411,7 @@ character_event = {
 						}
 					}
 					25 = {
-						add_trait = lustful
+						add_trait = lustful_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8449,7 +8449,7 @@ character_event = {
 								religion_group = muslim
 							}
 						}
-						add_trait = chaste
+						add_trait = chaste_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8463,7 +8463,7 @@ character_event = {
 					}
 				}
 				30 = {
-					add_trait = deceitful
+					add_trait = deceitful_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8476,7 +8476,7 @@ character_event = {
 					}
 				}
 				25 = {
-					add_trait = zealous
+					add_trait = zealous_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8489,7 +8489,7 @@ character_event = {
 					}
 				}
 				5 = {
-					add_trait = paranoid
+					add_trait = paranoid_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8519,7 +8519,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = brave
+					add_trait = brave_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8532,7 +8532,7 @@ character_event = {
 					}
 				}
 				10 = {
-					add_trait = gluttonous
+					add_trait = gluttonous_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8545,7 +8545,7 @@ character_event = {
 					}
 				}
 				10 = {
-					add_trait = craven
+					add_trait = craven_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8565,7 +8565,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = gluttonous
+					add_trait = gluttonous_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8598,7 +8598,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				50 = {
-					add_trait = honest
+					add_trait = honest_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8611,7 +8611,7 @@ character_event = {
 					}
 				}
 				35 = {
-					add_trait = brave
+					add_trait = brave_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8624,7 +8624,7 @@ character_event = {
 					}
 				}
 				10 = {
-					add_trait = wounded
+					add_trait = wounded_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8637,7 +8637,7 @@ character_event = {
 					}
 				}
 				5 = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8685,7 +8685,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -8727,7 +8727,7 @@ character_event = {
 			FROM = {
 				random_list = {
 					90 = {
-						add_trait = deceitful
+						add_trait = deceitful_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8740,7 +8740,7 @@ character_event = {
 						}
 					}
 					10 = {
-						add_trait = craven
+						add_trait = craven_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8769,7 +8769,7 @@ character_event = {
 			FROM = {
 				random_list = {
 					50 = {
-						add_trait = deceitful
+						add_trait = deceitful_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8782,7 +8782,7 @@ character_event = {
 						}
 					}
 					50 = {
-						add_trait = craven
+						add_trait = craven_hidden
 						hidden_tooltip = {
 							ROOT = {
 								character_event = {
@@ -8827,7 +8827,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				45 = {
-					add_trait = pneumonic
+					add_trait = pneumonic_hidden
 				}
 				50 = {
 					remove_trait = ill
@@ -9029,7 +9029,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				45 = {
-					add_trait = pneumonic
+					add_trait = pneumonic_hidden
 				}
 				50 = {
 					remove_trait = ill
@@ -9149,7 +9149,7 @@ character_event = {
 			random = {
 				chance = 25
 				
-				add_trait = trusting
+				add_trait = trusting_hidden
 				hidden_tooltip = {
 					ROOT = {
 						character_event = {
@@ -9210,7 +9210,7 @@ character_event = {
 				}
 				change_intrigue = 1
 			}
-			add_trait = deceitful
+			add_trait = deceitful_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify Trusting
@@ -9243,7 +9243,7 @@ character_event = {
 		FROM = {
 			random_list = {
 				80 = {
-					add_trait = honest
+					add_trait = honest_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -9256,7 +9256,7 @@ character_event = {
 					}
 				}
 				20 = {
-					add_trait = deceitful
+					add_trait = deceitful_hidden
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -9298,7 +9298,7 @@ character_event = {
 		random_list = {
 			10 = {	
 				FROM = { 
-					add_trait = arbitrary
+					add_trait = arbitrary_hidden
 						hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -9313,7 +9313,7 @@ character_event = {
 			}
 			10 = {	
 				FROM = { 
-					add_trait = cruel
+					add_trait = cruel_hidden
 					hidden_tooltip = {
 						ROOT = { 
 							character_event = { 
@@ -9328,7 +9328,7 @@ character_event = {
 			}
 			10 = {	
 				FROM = { 
-					add_trait = gluttonous
+					add_trait = gluttonous_hidden
 					hidden_tooltip = { 
 						ROOT = {
 							character_event = { 
@@ -9343,7 +9343,7 @@ character_event = {
 			}
 			10 = {	
 				FROM = { 
-					add_trait = slothful
+					add_trait = slothful_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -9358,7 +9358,7 @@ character_event = {
 			}
 			10 = {	
 				FROM = {
-					add_trait = lustful
+					add_trait = lustful_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -9373,7 +9373,7 @@ character_event = {
 			}
 			10 = {	
 				FROM = { 
-					add_trait = wroth
+					add_trait = wroth_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -9388,7 +9388,7 @@ character_event = {
 			}
 			10 = {	
 				FROM = {
-					add_trait = envious
+					add_trait = envious_hidden
 					hidden_tooltip = { 
 						ROOT = { 
 							character_event = { 
@@ -9403,7 +9403,7 @@ character_event = {
 			}	
 			10 = {	
 				FROM = { 
-						add_trait = greedy
+						add_trait = greedy_hidden
 						hidden_tooltip = {
 							ROOT = { 
 								character_event = { 

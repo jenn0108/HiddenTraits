@@ -561,7 +561,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = wounded
+		add_trait = wounded_hidden
 		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 	option = {
@@ -579,8 +579,8 @@ character_event = {
 				}
 			}
 		}
-		add_trait = wounded
-		add_trait = zealous
+		add_trait = wounded_hidden
+		add_trait = zealous_hidden
 		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 	option = {
@@ -602,7 +602,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = wounded
+		add_trait = wounded_hidden
 		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 }
@@ -2132,7 +2132,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20045"
-		add_trait = wounded
+		add_trait = wounded_hidden
 		hidden_tooltip = {
 			liege = { character_event = { id = 20046 days = 7 } }
 		}

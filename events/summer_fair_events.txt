@@ -97,7 +97,7 @@ character_event = {
 		}
 		random = {
 			chance = 10
-			add_trait = stressed
+			add_trait = stressed_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38282 #Notify Stressed
@@ -278,7 +278,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = paranoid
+		add_trait = paranoid_hidden
 	}
 
 	option = {
@@ -587,7 +587,7 @@ character_event = {
 		}
 		random = {
 			chance = 25
-			add_trait = gregarious
+			add_trait = gregarious_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38265 #Notify Gregarious
@@ -1058,7 +1058,7 @@ character_event = {
 			}
 			random = {
 				chance = 25
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38265 #Notify Gregarious
@@ -1335,7 +1335,7 @@ character_event = {
 		random = {
 			chance = 25
 
-			add_trait = cruel
+			add_trait = cruel_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38259 #Notify Cruel

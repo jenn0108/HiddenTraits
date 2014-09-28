@@ -4664,7 +4664,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -5793,7 +5793,7 @@ character_event = {
 			}
 			random = {
 				chance = 25
-				add_trait = paranoid
+				add_trait = paranoid_hidden
 			}
 		}
 		if = {
@@ -5884,7 +5884,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -7589,7 +7589,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -8796,7 +8796,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -9989,7 +9989,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -11185,7 +11185,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -12388,7 +12388,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -13566,7 +13566,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -14773,7 +14773,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -15980,7 +15980,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -17189,7 +17189,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -18397,7 +18397,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {
@@ -19605,7 +19605,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = kinslayer
+			add_trait = kinslayer_hidden
 		}
 		
 		if = {

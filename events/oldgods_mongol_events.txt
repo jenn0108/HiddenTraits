@@ -591,7 +591,7 @@ character_event = {
 				character_event = { id = TOG.111 }
 			}
 		}
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -606,7 +606,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_111
-		tooltip = { FROM = { add_trait = wounded } }
+		tooltip = { FROM = { add_trait = wounded_hidden } }
 	}
 }
 
@@ -854,7 +854,7 @@ character_event = {
 				who = ROOT
 			}
 		}
-		tooltip = { FROM = { add_trait = wounded } }
+		tooltip = { FROM = { add_trait = wounded_hidden } }
 	}
 	option = { # Do not punish
 		name = EVTOPTB_TOG_115
@@ -906,7 +906,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_116
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -1007,7 +1007,7 @@ character_event = {
 				who = ROOT
 			}
 		}
-		tooltip = { FROM = { add_trait = wounded } }
+		tooltip = { FROM = { add_trait = wounded_hidden } }
 	}
 	option = { # Do not punish
 		name = EVTOPTB_TOG_118
@@ -1163,7 +1163,7 @@ character_event = {
 		name = EVTOPTA_TOG_152
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = hunter
+			add_trait = hunter_hidden
 		}
 		prestige = 100
 	}
@@ -1298,7 +1298,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_160
-		FROM = { add_trait = wounded }
+		FROM = { add_trait = wounded_hidden }
 	}
 }
 
@@ -1313,7 +1313,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_160
-		FROM = { add_trait = maimed }
+		FROM = { add_trait = maimed_hidden }
 	}
 }
 
@@ -1427,7 +1427,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = kind
+			add_trait = kind_hidden
 			hidden_tooltip = {
 				character_event = {
 					days = 2
@@ -1452,7 +1452,7 @@ character_event = {
 		random = {
 			chance = 33
 				
-			add_trait = cruel
+			add_trait = cruel_hidden
 			hidden_tooltip = {
 				character_event = {
 					days = 2
@@ -1492,7 +1492,7 @@ character_event = {
 		random = {
 			chance = 20
 				
-			add_trait = depressed
+			add_trait = depressed_hidden
 			hidden_tooltip = {
 				character_event = {
 					days = 2
@@ -1540,7 +1540,7 @@ character_event = {
 						}
 					}
 				}
-				add_trait = kind
+				add_trait = kind_hidden
 				hidden_tooltip = {
 					character_event = {
 						days = 2
@@ -1579,7 +1579,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = cruel
+			add_trait = cruel_hidden
 			hidden_tooltip = {
 				character_event = {
 					days = 2

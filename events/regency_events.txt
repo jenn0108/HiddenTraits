@@ -922,7 +922,7 @@ character_event = {
 			50 = { 
 				random_courtier = {
 					limit = { has_minor_title = title_regent }
-					add_trait = wounded
+					add_trait = wounded_hidden
 					opinion = {
 						modifier = opinion_mad_as_hell
 						who = ROOT
@@ -1169,7 +1169,7 @@ character_event = {
 	option = {
 		name = EVTOPTA61142
 		liege = {
-			add_trait = incapable
+			add_trait = incapable_hidden
 			add_character_modifier = { 
 				name = house_arrest
 				duration = -1
@@ -1189,7 +1189,7 @@ character_event = {
 	option = {
 		name = EVTOPTA61145
 		liege = {
-			add_trait = incapable
+			add_trait = incapable_hidden
 			add_character_modifier = { 
 					name = house_arrest
 					duration = -1
@@ -1572,7 +1572,7 @@ character_event = {
 	option = {
 		name = EVTOPTA61166
 		random_list = {
-			50 = { add_trait = possessed }
+			50 = { add_trait = possessed_hidden }
 			50 = { }
 		}
 	}
@@ -2042,7 +2042,7 @@ character_event = {
 		name = EVTOPTA61213
 		random_list = {
 			80 = { 
-				add_trait = lunatic
+				add_trait = lunatic_hidden
 				imprison = yes
 			}
 			20 = {
@@ -2974,7 +2974,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA61227
-		add_trait = maimed
+		add_trait = maimed_hidden
 		prestige = -20
 	}
 }
@@ -3062,7 +3062,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA61230
-		add_trait = maimed
+		add_trait = maimed_hidden
 		prestige = -20
 	}
 }

@@ -86,7 +86,7 @@ character_event = {
 	}
 	
 	immediate = {
-		add_trait = saoshyant_descendant
+		add_trait = saoshyant_descendant_hidden
 	}
 	
 	option = {

@@ -130,7 +130,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = content
+			add_trait = content_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38279 #Notify Content
@@ -400,7 +400,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = arbitrary
+			add_trait = arbitrary_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 78006
@@ -443,7 +443,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = just
+			add_trait = just_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38267 #Notify Just
@@ -486,7 +486,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = kind
+			add_trait = kind_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38268 #Notify Kind
@@ -543,7 +543,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = deceitful
+			add_trait = deceitful_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify Deceitful
@@ -764,7 +764,7 @@ character_event = {
 			random = {
 				chance = 25
 				
-				add_trait = stressed
+				add_trait = stressed_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify Stressed
@@ -863,7 +863,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = stressed
+			add_trait = stressed_hidden
 			opinion = {
 				modifier = opinion_upset
 				who = ROOT

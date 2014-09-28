@@ -8482,8 +8482,8 @@ The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' cla
 At <mod>\events\feast_events.txt [character_event\immediate] (Line 5880, column 2):
 The right sides of a "remove_character_modifier" clause may not be identical.
 There were 2 duplicates.
-	[I101227|L5881|C3]: remove_character_modifier = holding_large_feast
-	[I102109|L5903|C3]: remove_character_modifier = holding_large_feast
+	[I101416|L5881|C3]: remove_character_modifier = holding_large_feast
+	[I102298|L5903|C3]: remove_character_modifier = holding_large_feast
 
 At <mod>\events\feast_events.txt [character_event\option\any_liege\character_event\tooltip] (Line 2476, column 5):
 "EVTTOOLTIP72035" is not a valid LocalizationKey.
@@ -8775,8 +8775,8 @@ At <mod>\events\muslim_honorary_titles_events.txt [character_event\option\spouse
 At <mod>\events\oldgods_blot_events.txt [character_event\immediate] (Line 3333, column 2):
 The right sides of a "clr_character_flag" clause may not be identical.
 There were 2 duplicates.
-	[I68238|L3338|C3]: clr_character_flag = feast_drunkard
-	[I68435|L3343|C3]: clr_character_flag = feast_drunkard
+	[I68280|L3338|C3]: clr_character_flag = feast_drunkard
+	[I68477|L3343|C3]: clr_character_flag = feast_drunkard
 
 At <mod>\events\oldgods_blot_events.txt [character_event\immediate\liege\random_vassal\add_lover] (Line 3011, column 5):
 "FROM" is not a valid ThisChar or CharacterId.

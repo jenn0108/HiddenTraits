@@ -816,11 +816,11 @@ character_event = {
 				80 = { }
 				10 = { change_martial = 1 }
 				7 = {
-					add_trait = wounded
+					add_trait = wounded_hidden
 					hidden_tooltip = { character_event = { id = 38280 } }
 				}
 				2 = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = { character_event = { id = 38281 } }
 				}
 				1 = {
@@ -862,11 +862,11 @@ character_event = {
 				80 = { }
 				10 = { change_martial = 1 }
 				7 = {
-					add_trait = wounded
+					add_trait = wounded_hidden
 					hidden_tooltip = { character_event = { id = 38280 } }
 				}
 				2 = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = { character_event = { id = 38281 } }
 				}
 				1 = {
@@ -892,11 +892,11 @@ character_event = {
 			80 = { }
 			10 = { change_martial = 1 }
 			7 = {
-				add_trait = wounded
+				add_trait = wounded_hidden
 				hidden_tooltip = { character_event = { id = 38280 } }
 			}
 			2 = {
-				add_trait = maimed
+				add_trait = maimed_hidden
 				hidden_tooltip = { character_event = { id = 38281 } }
 			}
 			1 = {
@@ -2236,7 +2236,7 @@ character_event = {
 		name = "EVTOPTA72031" #Accept
 		random_list = {
 			35 = {
-				add_trait = wounded
+				add_trait = wounded_hidden
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = wounded_opponent
@@ -2247,7 +2247,7 @@ character_event = {
 				}
 			}
 			35 = {
-				add_trait = maimed
+				add_trait = maimed_hidden
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = maimed_opponent
@@ -2315,7 +2315,7 @@ character_event = {
 				}
 			}
 			20 = {
-				add_trait = maimed
+				add_trait = maimed_hidden
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = maimed_opponent
@@ -2327,7 +2327,7 @@ character_event = {
 				}
 			}
 			30 = {
-				add_trait = wounded
+				add_trait = wounded_hidden
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = wounded_opponent
@@ -2370,7 +2370,7 @@ character_event = {
 				}
 			}
 			10 = {
-				add_trait = maimed
+				add_trait = maimed_hidden
 				FROM = {
 					set_character_flag = maimed_opponent
 					character_event = {
@@ -2380,7 +2380,7 @@ character_event = {
 				}
 			}
 			19 = {
-				add_trait = wounded
+				add_trait = wounded_hidden
 				FROM = {
 					set_character_flag = wounded_opponent
 					character_event = {
@@ -2982,7 +2982,7 @@ character_event = {
 		random = {
 			chance = 25
 
-			add_trait = drunkard
+			add_trait = drunkard_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38286 #Notify Drunkard
@@ -3498,7 +3498,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = just
+			add_trait = just_hidden
 		}
 	}
 	option = {
@@ -3516,7 +3516,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = arbitrary
+			add_trait = arbitrary_hidden
 		}
 		location = {
 			add_province_modifier = {
@@ -3608,7 +3608,7 @@ character_event = {
 			random = {
 				chance = 20
 
-				add_trait = cruel
+				add_trait = cruel_hidden
 			}
 		}
 		if = {
@@ -3627,7 +3627,7 @@ character_event = {
 			random = {
 				chance = 20
 
-				add_trait = arbitrary
+				add_trait = arbitrary_hidden
 			}
 		}
 		random_courtier = {
@@ -3752,7 +3752,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 		}
 		if = {
@@ -3770,7 +3770,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable
+				add_trait = charitable_hidden
 			}
 		}
 		random_vassal = {
@@ -3851,7 +3851,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 		}
 		if = {
@@ -3869,7 +3869,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable
+				add_trait = charitable_hidden
 			}
 		}
 		prestige = 10
@@ -3951,7 +3951,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 		}
 		if = {
@@ -3969,7 +3969,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable
+				add_trait = charitable_hidden
 			}
 		}
 		prestige = 10
@@ -4051,7 +4051,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 		}
 		if = {
@@ -4069,7 +4069,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable
+				add_trait = charitable_hidden
 			}
 		}
 		prestige = 10
@@ -4151,7 +4151,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 		}
 		if = {
@@ -4169,7 +4169,7 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable
+				add_trait = charitable_hidden
 			}
 		}
 		prestige = 10

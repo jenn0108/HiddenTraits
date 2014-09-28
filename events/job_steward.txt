@@ -264,7 +264,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20211"
-		add_trait = wounded
+		add_trait = wounded_hidden
 		custom_tooltip = { text = EVTTOOLTIP20212 }
 	}
 }

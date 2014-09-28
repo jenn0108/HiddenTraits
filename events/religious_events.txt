@@ -1596,7 +1596,7 @@ character_event = {
 	option = {
 		name = "EVTOPTB39211"
 		ai_chance = { factor = 0 }
-		add_trait = cynical
+		add_trait = cynical_hidden
 		FROM = { character_event = { id = 39213 days = 1  tooltip = EVTTOOLTIP39213 } }
 	}
 }
@@ -4022,7 +4022,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = sympathy_pagans
+				add_trait = sympathy_pagans_hidden
 			}
 		}
 		if = {
@@ -4041,7 +4041,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = sympathy_pagans
+				add_trait = sympathy_pagans_hidden
 			}
 		}		
 		
@@ -4384,7 +4384,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = sympathy_pagans
+				add_trait = sympathy_pagans_hidden
 			}
 		}
 		if = {
@@ -4403,7 +4403,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = sympathy_pagans
+				add_trait = sympathy_pagans_hidden
 			}
 		}
 		religion = FROM
@@ -5551,31 +5551,31 @@ character_event = {
 			limit = {
 				religion_group = christian
 			}
-			add_trait = sympathy_christendom
+			add_trait = sympathy_christendom_hidden
 		}
 		if = {
 			limit = {
 				religion_group = muslim
 			}
-			add_trait = sympathy_islam
+			add_trait = sympathy_islam_hidden
 		}
 		if = {
 			limit = {
 				religion_group = pagan_group
 			}
-			add_trait = sympathy_pagans
+			add_trait = sympathy_pagans_hidden
 		}
 		if = {
 			limit = {
 				religion_group = zoroastrian_group
 			}
-			add_trait = sympathy_zoroastrianism
+			add_trait = sympathy_zoroastrianism_hidden
 		}
 		if = {
 			limit = {
 				religion_group = jewish_group
 			}
-			add_trait = sympathy_judaism
+			add_trait = sympathy_judaism_hidden
 		}
 		
 		religion = FROMFROM

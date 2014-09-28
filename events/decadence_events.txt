@@ -1701,7 +1701,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA91300
-		add_trait = decadent
+		add_trait = decadent_hidden
 		
 		hidden_tooltip = {
 			any_dynasty_member = {

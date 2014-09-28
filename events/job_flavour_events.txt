@@ -1004,7 +1004,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = slothful
+			add_trait = slothful_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38251 #Notify slothful
@@ -1057,7 +1057,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = wroth
+			add_trait = wroth_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38254 #Notify Wroth
@@ -2225,7 +2225,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB75091"
-		add_trait = arbitrary
+		add_trait = arbitrary_hidden
 		if = {
 			limit = {	
 				FROM = {
@@ -2333,7 +2333,7 @@ character_event = {
 			80 = {
 			}
 			10 = {
-				add_trait = slothful
+				add_trait = slothful_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38251 #Notify Slothful
@@ -2341,7 +2341,7 @@ character_event = {
 				}
 			}
 			10 = {
-				add_trait = arbitrary
+				add_trait = arbitrary_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38266 #Notify Arbitrary
@@ -2451,7 +2451,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTC75098"
-		add_trait = arbitrary
+		add_trait = arbitrary_hidden
 		FROM = {
 			opinion = {
 				modifier = opinion_upset
@@ -2555,7 +2555,7 @@ character_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_trait = craven
+		add_trait = craven_hidden
 	}
 }
 
@@ -2584,7 +2584,7 @@ character_event = {
 			}
 			5 = {
 				FROM = {
-					add_trait = wounded
+					add_trait = wounded_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38280 #Notify wounded
@@ -2611,7 +2611,7 @@ character_event = {
 			}
 			20 = {
 				FROM = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38281 #Notify maimed
@@ -2621,7 +2621,7 @@ character_event = {
 			}
 			20 = {
 				FROM = {
-					add_trait = wounded
+					add_trait = wounded_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38280 #Notify wounded
@@ -2631,7 +2631,7 @@ character_event = {
 			}
 			10 = {
 				FROM = {
-					add_trait = infirm
+					add_trait = infirm_hidden
 					hidden_tooltip = {
 						character_event = {
 							id = 38284 #Notify maimed
@@ -2713,7 +2713,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = arbitrary
+			add_trait = arbitrary_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38266 #Notify Arbitrary
@@ -2755,7 +2755,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = just
+			add_trait = just_hidden
 			hidden_tooltip = {
 				character_event = {
 					id = 38267 #Notify Just
@@ -2780,7 +2780,7 @@ character_event = {
 			50 = { 
 			}
 			25 = {
-				add_trait = kind
+				add_trait = kind_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38268 #Notify Kind
@@ -2788,7 +2788,7 @@ character_event = {
 				}
 			}
 			25 = {
-				add_trait = arbitrary
+				add_trait = arbitrary_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38266 #Notify Arbitrary

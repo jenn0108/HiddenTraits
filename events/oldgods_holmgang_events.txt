@@ -812,7 +812,7 @@ character_event = {
 			}
 			random = {
 				chance = 33
-				add_trait = craven
+				add_trait = craven_hidden
 			}
 		}
 	}
@@ -1488,7 +1488,7 @@ character_event = {
 			clr_character_flag = holmgang_target
 			clr_character_flag = do_not_disturb
 		}
-		add_trait = scarred
+		add_trait = scarred_hidden
 		prestige = 200
 		tooltip = {
 			FROMFROM = { prestige = -200 }
@@ -1521,7 +1521,7 @@ character_event = {
 			clr_character_flag = do_not_disturb
 		}
 		prestige = 200
-		add_trait = scarred
+		add_trait = scarred_hidden
 		tooltip = {
 			FROMFROM = {
 				death = {
@@ -1659,11 +1659,11 @@ character_event = {
 			clr_character_flag = do_not_disturb
 		}
 		prestige = 50
-		add_trait = wounded
+		add_trait = wounded_hidden
 		tooltip = {
 			FROMFROM = { 
 				prestige = 50 
-				add_trait = wounded
+				add_trait = wounded_hidden
 				opinion = {
 					modifier = opinion_mutual_respect
 					who = ROOT
@@ -1739,7 +1739,7 @@ character_event = {
 			FROMFROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -1774,7 +1774,7 @@ character_event = {
 			FROMFROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = maimed
+		add_trait = maimed_hidden
 	}
 }
 
@@ -1823,7 +1823,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_5005
-		add_trait = scarred
+		add_trait = scarred_hidden
 		prestige = 200
 		tooltip = {
 			FROM = { prestige = -200 }
@@ -1842,7 +1842,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_5005
-		add_trait = scarred
+		add_trait = scarred_hidden
 		prestige = 200
 		tooltip = {
 			FROM = {
@@ -1975,7 +1975,7 @@ character_event = {
 			FROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -1994,7 +1994,7 @@ character_event = {
 			FROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = maimed
+		add_trait = maimed_hidden
 	}
 }
 

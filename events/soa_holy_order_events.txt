@@ -166,7 +166,7 @@ letter_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -667,7 +667,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -1255,7 +1255,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -2781,7 +2781,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -4915,7 +4915,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -5623,7 +5623,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -11661,7 +11661,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -12377,7 +12377,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}
@@ -13085,7 +13085,7 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate
+					add_trait = celibate_hidden
 				}
 			}
 		}

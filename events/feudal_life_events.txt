@@ -81,7 +81,7 @@ character_event = {
 	
 	option = { #Ignore
 		name = EVTOPTA4000
-		add_trait = just
+		add_trait = just_hidden
 	}
 	
 	option = {
@@ -916,7 +916,7 @@ character_event = {
 			piety = -20
 			custom_tooltip = { text = jain_ahimsa_tooltip }
 		}
-		add_trait = cruel
+		add_trait = cruel_hidden
 	}
 	
 	option = {
@@ -941,7 +941,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = diligent
+		add_trait = diligent_hidden
 	}
 }
 
@@ -1125,13 +1125,13 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA4047
-		add_trait = content
-		FROM = { add_trait = ambitious }
+		add_trait = content_hidden
+		FROM = { add_trait = ambitious_hidden }
 	}
 	
 	option = {
 		name = EVTOPTB4047
-		add_trait = just
+		add_trait = just_hidden
 	}
 	
 	option = {
@@ -1143,7 +1143,7 @@ character_event = {
 				years = 1
 			}
 		}
-		add_trait = cruel
+		add_trait = cruel_hidden
 	}
 	
 	option = {
@@ -1155,7 +1155,7 @@ character_event = {
 				years = 1
 			}
 		}
-		add_trait = arbitrary
+		add_trait = arbitrary_hidden
 	}
 }
 
@@ -2400,7 +2400,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = slow
+		add_trait = slow_hidden
 	}
 	
 	option = {
@@ -3059,7 +3059,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = cynical
+		add_trait = cynical_hidden
 	}
 	
 	option = {
@@ -3093,10 +3093,10 @@ character_event = {
 		}
 		random_list = {
 			50 = {
-				add_trait = depressed
+				add_trait = depressed_hidden
 			}
 			50 = {
-				add_trait = cynical
+				add_trait = cynical_hidden
 			}
 		}
 	}
@@ -3124,7 +3124,7 @@ character_event = {
 		}
 		random_list = {
 			50 = {
-				add_trait = shy
+				add_trait = shy_hidden
 			}
 			50 = {
 				prestige = 10
@@ -3156,10 +3156,10 @@ character_event = {
 		}
 		random_list = {
 			50 = {
-				add_trait = kind
+				add_trait = kind_hidden
 			}
 			50 = {
-				add_trait = stressed
+				add_trait = stressed_hidden
 			}
 		}
 	}
@@ -3328,7 +3328,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = charitable
+		add_trait = charitable_hidden
 	}
 }
 
@@ -3571,7 +3571,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC4130
-		add_trait = gregarious
+		add_trait = gregarious_hidden
 	}
 	
 	option = {
@@ -3699,7 +3699,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTC4135
-		add_trait = gluttonous
+		add_trait = gluttonous_hidden
 	}
 }
 
@@ -3825,7 +3825,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = shy
+		add_trait = shy_hidden
 	}
 	
 	option = {
@@ -4034,7 +4034,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA4150
-		add_trait = kind
+		add_trait = kind_hidden
 	}
 	
 	option = {
@@ -4052,7 +4052,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = paranoid
+		add_trait = paranoid_hidden
 	}
 	
 	option = {
@@ -4260,7 +4260,7 @@ character_event = {
 	option = {
 		name = EVTOPTF4155
 		scaled_wealth = -0.05
-		add_trait = charitable
+		add_trait = charitable_hidden
 	}
 }
 
@@ -4346,7 +4346,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA4175
-		add_trait = maimed
+		add_trait = maimed_hidden
 	}
 	
 	option = {
@@ -4354,7 +4354,7 @@ character_event = {
 		random = {
 			chance = 60
 			
-			add_trait = wounded
+			add_trait = wounded_hidden
 			hidden_tooltip = { character_event = { id = 38280 } }
 		}
 		random_vassal = {
@@ -4377,7 +4377,7 @@ character_event = {
 		random = {
 			chance = 70
 			
-			add_trait = wounded
+			add_trait = wounded_hidden
 			hidden_tooltip = { character_event = { id = 38280 } }
 		}
 		random_courtier = {

@@ -192,7 +192,7 @@ character_event = {
 		prestige = 25
 		random = {
 			chance = 15
-			add_trait = proud 
+			add_trait = proud_hidden 
 			hidden_tooltip = { character_event = { id = 38261 }  }
 		}
 	}	
@@ -212,7 +212,7 @@ character_event = {
 		}
 		random = {
 			chance = 15
-			add_trait = humble 
+			add_trait = humble_hidden 
 			hidden_tooltip = { character_event = { id = 38260 }  }
 		}
 		
@@ -279,7 +279,7 @@ character_event = {
 					trait = lustful_hidden
 				} } } 
 			}
-			spouse = { add_trait = lustful }
+			spouse = { add_trait = lustful_hidden }
 		}
 		opinion = {
 			who = ROOT
@@ -322,7 +322,7 @@ character_event = {
 					}
 				}
 			}
-			spouse = { add_trait = chaste }
+			spouse = { add_trait = chaste_hidden }
 		}
 		piety = 10
 	}
@@ -351,7 +351,7 @@ character_event = {
 					}
 				}
 			}
-			spouse = { add_trait = chaste }
+			spouse = { add_trait = chaste_hidden }
 		}
 		piety = 10
 	}
@@ -715,7 +715,7 @@ character_event = {
 			}
 			random = {
 				chance = 10
-				add_trait = proud 
+				add_trait = proud_hidden 
 				hidden_tooltip = { character_event = { id = 38261 }  }
 			}
 		}
@@ -736,7 +736,7 @@ character_event = {
 		
 		random = {
 			chance = 15
-			add_trait = humble 
+			add_trait = humble_hidden 
 			hidden_tooltip = { character_event = { id = 38260 }  }
 		}
 		
@@ -826,7 +826,7 @@ character_event = {
 				who = ROOT
 				years = 2
 			}			
-			add_trait = lustful
+			add_trait = lustful_hidden
 			clr_character_flag = knock_up_maid
 		}
 	}
@@ -866,8 +866,8 @@ character_event = {
 				who = ROOT
 				years = 2
 			}
-			add_trait = wroth
-			add_trait = ambitious
+			add_trait = wroth_hidden
+			add_trait = ambitious_hidden
 			clr_character_flag = knock_up_maid
 		}
 	}
@@ -885,7 +885,7 @@ character_event = {
 				limit = {
 					religion_group = christian
 				}
-				add_trait = chaste
+				add_trait = chaste_hidden
 			}
 			if = {
 				limit = {
@@ -1000,7 +1000,7 @@ character_event = {
 			}
 			spouse = { remove_trait = stressed  }
 		}
-		add_trait = charitable
+		add_trait = charitable_hidden
 		character_event = { id = 73005 days = 10 tooltip = EVTTOOLTIP73005 }
 	}	
 	option = {
@@ -1017,8 +1017,8 @@ character_event = {
 			}
 			prestige = -5
 		}
-		add_trait = zealous
-		spouse = { add_trait = zealous }
+		add_trait = zealous_hidden
+		spouse = { add_trait = zealous_hidden }
 		
 	}	
 	option = {
@@ -1031,7 +1031,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = greedy
+		add_trait = greedy_hidden
 		spouse = {
 			opinion = {
 				who = ROOT
@@ -1822,7 +1822,7 @@ letter_event = {
 		random_list = {
 			50 = {}
 			30 = { change_martial = 1 }
-			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
 	
@@ -2068,7 +2068,7 @@ letter_event = {
 		random_list = {
 			50 = {}
 			30 = { change_intrigue = 1 }
-			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
 	option = {
@@ -2307,7 +2307,7 @@ letter_event = {
 		random_list = {
 			50 = {}
 			30 = { change_stewardship = 1 }
-			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
 	option = {
@@ -2574,7 +2574,7 @@ letter_event = {
 		random_list = {
 			50 = {}
 			30 = { change_learning = 1 }
-			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
 	option = {
@@ -2817,7 +2817,7 @@ letter_event = {
 		random_list = {
 			50 = {}
 			30 = { change_diplomacy = 1 }
-			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
 	option = {

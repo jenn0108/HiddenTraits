@@ -1534,9 +1534,9 @@ character_event = {
 			}
 		}
 		random_list = {
-			80 = {add_trait = crusader }
-			10 = { add_trait = maimed hidden_tooltip = { character_event = { id = 38281 } } }
-			10 = { add_trait = wounded hidden_tooltip = { character_event = { id = 38280 } } }
+			80 = {add_trait = crusader_hidden }
+			10 = { add_trait = maimed_hidden hidden_tooltip = { character_event = { id = 38281 } } }
+			10 = { add_trait = wounded_hidden hidden_tooltip = { character_event = { id = 38280 } } }
 		}
 	}
 
@@ -1550,9 +1550,9 @@ character_event = {
 				}
 			}
 			random_list = {
-				80 = {add_trait = crusader }
-				10 = { add_trait = maimed hidden_tooltip = { character_event = { id = 38281 } } }
-				10 = { add_trait = wounded hidden_tooltip = { character_event = { id = 38280 } } }
+				80 = {add_trait = crusader_hidden }
+				10 = { add_trait = maimed_hidden hidden_tooltip = { character_event = { id = 38281 } } }
+				10 = { add_trait = wounded_hidden hidden_tooltip = { character_event = { id = 38280 } } }
 			}
 		}
 	}
@@ -1648,7 +1648,7 @@ character_event = {
 		}
 		random_list = {
 			60 = {
-				add_trait = maimed
+				add_trait = maimed_hidden
 				prestige = 50
 			}
 			40 = {
@@ -1686,7 +1686,7 @@ character_event = {
 		}
 		random = {
 			chance = 50
-			add_trait = craven
+			add_trait = craven_hidden
 		}
 		prestige = -50
 	}

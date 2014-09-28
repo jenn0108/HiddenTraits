@@ -99,7 +99,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = craven
+		add_trait = craven_hidden
 	}
 	
 	option = {
@@ -275,7 +275,7 @@ character_event = {
 		}
 		random = {
 			chance = 25
-			add_trait = stressed
+			add_trait = stressed_hidden
 		}
 	}
 	
@@ -286,7 +286,7 @@ character_event = {
 		}
 		random = {
 			chance = 25
-			add_trait = depressed
+			add_trait = depressed_hidden
 		}
 	}
 }
@@ -733,7 +733,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA50012"
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -747,7 +747,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA50013"
-		add_trait = maimed
+		add_trait = maimed_hidden
 	}
 }
 

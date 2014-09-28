@@ -395,7 +395,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20311"
-		add_trait = wounded
+		add_trait = wounded_hidden
 		liege = { letter_event = { id = 20312 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 }

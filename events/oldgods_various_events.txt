@@ -141,7 +141,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_3000
-		add_trait = berserker
+		add_trait = berserker_hidden
 	}
 }
 
@@ -406,7 +406,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_3001
-		add_trait = maimed
+		add_trait = maimed_hidden
 	}
 }
 
@@ -677,7 +677,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_3001
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -1246,7 +1246,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_3007
 		FROMFROM = {
-			add_trait = wounded
+			add_trait = wounded_hidden
 			opinion = {
 				modifier = opinion_went_berserk
 				who = ROOT
@@ -1394,7 +1394,7 @@ character_event = {
 	}
 	
 	immediate = {
-		add_trait = varangian
+		add_trait = varangian_hidden
 	}
 	
 	option = {
@@ -1667,7 +1667,7 @@ character_event = {
 				}
 			}
 		}
-		FROM = { add_trait = varangian }
+		FROM = { add_trait = varangian_hidden }
 	}
 }
 
@@ -1758,8 +1758,8 @@ character_event = {
 		name = EVTOPTA_TOG_3115
 		FROM = {
 			move_character = ROOT
-			add_trait = scarred
-			add_trait = varangian
+			add_trait = scarred_hidden
+			add_trait = varangian_hidden
 			change_martial = 4
 		}
 	}
@@ -1830,8 +1830,8 @@ character_event = {
 		name = EVTOPTA_TOG_3117
 		FROM = {
 			move_character = ROOT
-			add_trait = homosexual
-			add_trait = varangian
+			add_trait = homosexual_hidden
+			add_trait = varangian_hidden
 		}
 	}
 }
@@ -1861,7 +1861,7 @@ character_event = {
 	}
 	
 	immediate = {
-		add_trait = blinded
+		add_trait = blinded_hidden
 		father = { character_event = { id = TOG.3119 } }
 		clr_character_flag = serving_varangian
 	}
@@ -1884,9 +1884,9 @@ character_event = {
 		name = EVTOPTA_TOG_3119
 		FROM = {
 			move_character = ROOT
-			tooltip = { add_trait = blinded }
-			add_trait = eunuch
-			add_trait = varangian
+			tooltip = { add_trait = blinded_hidden }
+			add_trait = eunuch_hidden
+			add_trait = varangian_hidden
 		}
 	}
 }
@@ -1993,7 +1993,7 @@ character_event = {
 			}
 			FROM = {
 				hidden_tooltip = { remove_trait = skilled_tactician }
-				add_trait = brilliant_strategist
+				add_trait = brilliant_strategist_hidden
 			}
 		}
 		if = {
@@ -2016,12 +2016,12 @@ character_event = {
 					remove_trait = misguided_warrior
 					remove_trait = tough_soldier
 				}
-				add_trait = skilled_tactician
+				add_trait = skilled_tactician_hidden
 			}
 		}
 		FROM = {
 			change_martial = 2
-			add_trait = varangian
+			add_trait = varangian_hidden
 			move_character = ROOT
 		}
 	}
@@ -2092,9 +2092,9 @@ character_event = {
 		name = EVTOPTA_TOG_3123
 		FROM = {
 			move_character = ROOT
-			add_trait = stressed
-			add_trait = depressed
-			add_trait = varangian
+			add_trait = stressed_hidden
+			add_trait = depressed_hidden
+			add_trait = varangian_hidden
 		}
 	}
 }
@@ -2161,7 +2161,7 @@ character_event = {
 			add_spouse = FROM
 		}
 		FROM = { 
-			add_trait = varangian 
+			add_trait = varangian_hidden 
 			move_character = ROOT
 		}
 	}
@@ -2233,8 +2233,8 @@ character_event = {
 		name = EVTOPTA_TOG_3127
 		FROM = {
 			move_character = ROOT
-			add_trait = zealous
-			add_trait = varangian
+			add_trait = zealous_hidden
+			add_trait = varangian_hidden
 			religion = orthodox
 		}
 	}
@@ -2327,8 +2327,8 @@ character_event = {
 		name = EVTOPTA_TOG_3129
 		FROM = {
 			move_character = ROOT
-			add_trait = brave
-			add_trait = varangian
+			add_trait = brave_hidden
+			add_trait = varangian_hidden
 			change_martial = 2
 		}
 	}
@@ -2521,7 +2521,7 @@ character_event = {
 		name = EVTOPTA_TOG_3133
 		FROM = {
 			move_character = ROOT
-			add_trait = varangian
+			add_trait = varangian_hidden
 		}
 		wealth = 300
 	}
@@ -2556,7 +2556,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_3134
-		add_trait = varangian
+		add_trait = varangian_hidden
 		prestige = 200
 		wealth = 200
 	}
@@ -2587,7 +2587,7 @@ character_event = {
 	}
 	
 	immediate = {
-		add_trait = varangian
+		add_trait = varangian_hidden
 		clr_character_flag = wants_varangian
 		clr_character_flag = serving_varangian
 	}
@@ -3874,7 +3874,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_3320
-		add_trait = viking
+		add_trait = viking_hidden
 	}
 }
 
@@ -4097,7 +4097,7 @@ character_event = {
 		name = EVTOPTA_TOG_3402
 		wealth = 50
 		prestige = 50
-		add_trait = zealous
+		add_trait = zealous_hidden
 		custom_tooltip = { text = odin_option_a }
 	}
 	option = {
@@ -4109,7 +4109,7 @@ character_event = {
 					lifestyle_traits = 1
 				}
 			}
-			add_trait = hunter
+			add_trait = hunter_hidden
 		}
 		custom_tooltip = { text = odin_option_b }
 	}
@@ -4132,7 +4132,7 @@ character_event = {
 					trait = zealous_hidden
 				} } 
 			}
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 		custom_tooltip = { text = odin_option_c }
 	}

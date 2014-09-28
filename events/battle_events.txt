@@ -546,7 +546,7 @@ character_event = {
 	
 	option = {
 		name = CURSES
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -814,7 +814,7 @@ character_event = {
 	
 	option = {
 		name = CURSES
-		add_trait = maimed
+		add_trait = maimed_hidden
 	}
 }
 
@@ -1076,7 +1076,7 @@ character_event = {
 
 	option = {
 		name = CURSES
-		add_trait = incapable
+		add_trait = incapable_hidden
 	}
 }
 
@@ -1320,7 +1320,7 @@ character_event = {
 				}
 			}
 			remove_trait = skilled_tactician
-			add_trait = brilliant_strategist
+			add_trait = brilliant_strategist_hidden
 		}
 		if = {
 			limit = {
@@ -1330,7 +1330,7 @@ character_event = {
 				}
 			}
 			remove_trait = tough_soldier
-			add_trait = skilled_tactician
+			add_trait = skilled_tactician_hidden
 		}
 		if = {
 			limit = {
@@ -1340,7 +1340,7 @@ character_event = {
 				}
 			}
 			remove_trait = misguided_warrior
-			add_trait = tough_soldier
+			add_trait = tough_soldier_hidden
 		}
 	}
 }
@@ -2026,7 +2026,7 @@ character_event = {
 
 	option = {
 		name = EXCELLENT
-		add_trait = brave
+		add_trait = brave_hidden
 	}
 }
 
@@ -2279,7 +2279,7 @@ character_event = {
 
 	option = {
 		name = CURSES
-		add_trait = craven
+		add_trait = craven_hidden
 	}
 }
 
@@ -2314,7 +2314,7 @@ character_event = {
 
 	option = {
 		name = CURSES
-		add_trait = wroth
+		add_trait = wroth_hidden
 	}
 }
 
@@ -2349,7 +2349,7 @@ character_event = {
 
 	option = {
 		name = EXCELLENT
-		add_trait = patient
+		add_trait = patient_hidden
 	}
 }
 
@@ -3047,7 +3047,7 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = cruel
+			add_trait = cruel_hidden
 			hidden_tooltip = {
 				character_event ={
 					id = 38259 #Notify Cruel
@@ -3208,7 +3208,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = jungle_terrain_leader
+		add_trait = jungle_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTL96500 # War elephants
@@ -3221,7 +3221,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = war_elephant_leader
+		add_trait = war_elephant_leader_hidden
 	}
 	option = {
 		name = EVTOPTA96500 # Rough Terrain Specialization
@@ -3249,7 +3249,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = rough_terrain_leader
+		add_trait = rough_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTB96500 # Flat Terrain Specialization
@@ -3278,7 +3278,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = flat_terrain_leader
+		add_trait = flat_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTC96500 # Mountain Terrain Specialization
@@ -3303,7 +3303,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = mountain_terrain_leader
+		add_trait = mountain_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTD96500 # Desert Terrain Leader
@@ -3328,7 +3328,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = desert_terrain_leader
+		add_trait = desert_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTE96500 # Cavalry
@@ -3348,7 +3348,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = cavalry_leader
+		add_trait = cavalry_leader_hidden
 	}
 	option = {
 		name = EVTOPTF96500 # Light Infantry
@@ -3368,7 +3368,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = light_foot_leader
+		add_trait = light_foot_leader_hidden
 	}
 	option = {
 		name = EVTOPTG96500 # Heavy Infantry
@@ -3388,7 +3388,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = heavy_infantry_leader
+		add_trait = heavy_infantry_leader_hidden
 	}
 }
 
@@ -3532,7 +3532,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = organizer
+		add_trait = organizer_hidden
 	}
 	option = { # Experimenter
 		name = EVTOPTB96502
@@ -3544,7 +3544,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = experimenter
+		add_trait = experimenter_hidden
 	}
 	option = { # Holy Warrior
 		name = EVTOPTC96502
@@ -3564,7 +3564,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = holy_warrior
+		add_trait = holy_warrior_hidden
 	}
 	option = { # Unyielding
 		name = EVTOPTD96502
@@ -3576,7 +3576,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = unyielding_leader
+		add_trait = unyielding_leader_hidden
 	}
 }
 
@@ -3724,7 +3724,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = aggressive_leader
+		add_trait = aggressive_leader_hidden
 	}
 	option = {
 		name = EVTOPTI96500 # Defensive
@@ -3740,7 +3740,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = defensive_leader
+		add_trait = defensive_leader_hidden
 	}
 	option = {
 		name = EVTOPTJ96500 # Inspiring
@@ -3752,7 +3752,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = inspiring_leader
+		add_trait = inspiring_leader_hidden
 	}
 	option = { # Trickster
 		name = EVTOPTH96501
@@ -3764,7 +3764,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = trickster
+		add_trait = trickster_hidden
 	}
 }
 
@@ -3924,7 +3924,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = rough_terrain_leader
+		add_trait = rough_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTB96500 # Flat Terrain Specialization
@@ -3953,7 +3953,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = flat_terrain_leader
+		add_trait = flat_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTC96500 # Mountain Terrain Specialization
@@ -3978,7 +3978,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = mountain_terrain_leader
+		add_trait = mountain_terrain_leader_hidden
 	}
 	option = {
 		name = EVTOPTD96500 # Desert Terrain Leader
@@ -4003,7 +4003,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = desert_terrain_leader
+		add_trait = desert_terrain_leader_hidden
 	}
 	option = { # Flanker
 		name = EVTOPTI96501
@@ -4015,7 +4015,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = flanker
+		add_trait = flanker_hidden
 	}
 	option = { # Narrow flank leader
 		name = EVTOPTJ96501
@@ -4032,7 +4032,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = narrow_flank_leader
+		add_trait = narrow_flank_leader_hidden
 	}
 	option = { # Siege leader
 		name = EVTOPTK96501
@@ -4047,6 +4047,6 @@ character_event = {
 				}
 			}
 		}
-		add_trait = siege_leader
+		add_trait = siege_leader_hidden
 	}
 }

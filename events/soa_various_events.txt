@@ -761,7 +761,7 @@ character_event = {
 					clr_character_flag = real_father_check_set
 				}
 			}
-			add_trait = bastard
+			add_trait = bastard_hidden
 			
 			mother = {
 				remove_spouse = yes
@@ -938,7 +938,7 @@ character_event = {
 				}
 				set_father = 0
 			}
-			add_trait = bastard
+			add_trait = bastard_hidden
 		}
 		
 		abdicate = yes
@@ -947,7 +947,7 @@ character_event = {
 			limit = {
 				religion_group = christian
 			}				
-			add_trait = nun
+			add_trait = nun_hidden
 		}
 	}
 	
@@ -968,10 +968,10 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = depressed
+				add_trait = depressed_hidden
 			}
 			25 = {
-				add_trait = stressed
+				add_trait = stressed_hidden
 			}
 		}
 	}
@@ -1035,14 +1035,14 @@ character_event = {
 		remove_trait = weak
 		remove_trait = shy
 		remove_trait = trusting
-		add_trait = lustful
-		add_trait = envious
-		add_trait = deceitful
-		add_trait = ambitious
-		add_trait = cruel
-		add_trait = genius
-		add_trait = possessed
-		add_trait = impaler
+		add_trait = lustful_hidden
+		add_trait = envious_hidden
+		add_trait = deceitful_hidden
+		add_trait = ambitious_hidden
+		add_trait = cruel_hidden
+		add_trait = genius_hidden
+		add_trait = possessed_hidden
+		add_trait = impaler_hidden
 		change_diplomacy = 5
 		change_martial = 5
 		change_stewardship = 5
@@ -1317,7 +1317,7 @@ character_event = {
 	
 	option = { 
 		name = EVTOPTA_SOA_3037
-		add_trait = infirm
+		add_trait = infirm_hidden
 		hidden_tooltip = {
 			mother = { narrative_event = { id = SoA.3041 } }
 			father = { narrative_event = { id = SoA.3041 } }
@@ -2046,7 +2046,7 @@ character_event = {
 					limit = {
 						religion_group = christian
 					}
-					add_trait = nun
+					add_trait = nun_hidden
 				}
 				
 				FROM = {
@@ -2113,7 +2113,7 @@ character_event = {
 					limit = {
 						religion_group = christian
 					}
-					add_trait = nun
+					add_trait = nun_hidden
 				}
 				
 				FROM = {

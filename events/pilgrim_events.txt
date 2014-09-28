@@ -322,7 +322,7 @@ character_event = {
 		name = EVTOPTA_SoA_5094
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5097 days = 30 }
 		}
@@ -385,7 +385,7 @@ character_event = {
 		name = EVTOPTA_SoA_5095
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5098 days = 30 }
 		}
@@ -448,7 +448,7 @@ character_event = {
 		name = EVTOPTA_SoA_5096
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5099 days = 30 }
 		}
@@ -515,7 +515,7 @@ character_event = {
 		name = EVTOPTA_SoA_5021
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5050 days = 30 }
 		}
@@ -579,7 +579,7 @@ character_event = {
 		name = EVTOPTA_SoA_5022
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5051 days = 30 }
 		}
@@ -645,7 +645,7 @@ character_event = {
 		name = EVTOPTA_SoA_5023
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5052 days = 30 }
 		}
@@ -711,7 +711,7 @@ character_event = {
 		name = EVTOPTA_SoA_5024
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5053 days = 30 }
 		}
@@ -776,7 +776,7 @@ character_event = {
 		name = EVTOPTA_SoA_5025
 		clr_character_flag = preparing_pilgrimage
 		hidden_tooltip = {
-			add_trait = on_pilgrimage
+			add_trait = on_pilgrimage_hidden
 			set_character_flag = good_pilgrimage
 			narrative_event = { id = SoA.5054 days = 30 }
 		}
@@ -843,10 +843,10 @@ character_event = {
 		piety = 5
 		random_list = {
 			10 = {
-				add_trait = pneumonic
+				add_trait = pneumonic_hidden
 			}
 			30 = {
-				add_trait = ill
+				add_trait = ill_hidden
 			}
 			60 = {
 			}
@@ -864,14 +864,14 @@ character_event = {
 					trait = cynical_hidden
 				} } 
 			}
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 		random_list = {
 			5 = {
-				add_trait = pneumonic
+				add_trait = pneumonic_hidden
 			}
 			15 = {
-				add_trait = ill
+				add_trait = ill_hidden
 			}
 			80 = {
 			}
@@ -901,7 +901,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = wroth
+				add_trait = wroth_hidden
 			}
 		}
 	}
@@ -919,7 +919,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = patient
+				add_trait = patient_hidden
 			}
 		}
 	}
@@ -941,7 +941,7 @@ narrative_event = {
 		}
 		random = {
 			chance = 10
-			add_trait = wounded
+			add_trait = wounded_hidden
 			}
 		if = {
 			limit = {
@@ -952,7 +952,7 @@ narrative_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = brave
+				add_trait = brave_hidden
 			}
 		}
 	}
@@ -968,7 +968,7 @@ narrative_event = {
 					trait = craven_hidden
 				} } 
 			}
-			add_trait = craven
+			add_trait = craven_hidden
 		}
 	}
 }
@@ -1004,11 +1004,11 @@ character_event = {
 					trait = brave_hidden
 				} } 
 			}
-			add_trait = brave
+			add_trait = brave_hidden
 		}
 		random = {
 				chance = 10
-				add_trait = wounded
+				add_trait = wounded_hidden
 		}
 	}
 }
@@ -1028,7 +1028,7 @@ character_event = {
 		}
 		random = {
 			chance = 20
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 	}
 	option = {
@@ -1051,7 +1051,7 @@ character_event = {
 					trait = charitable_hidden
 				} } 
 			}
-			add_trait = charitable
+			add_trait = charitable_hidden
 		}
 	}
 }
@@ -1150,7 +1150,7 @@ character_event = {
 					}
 					remove_trait = falconer
 				}
-				add_trait = scholar
+				add_trait = scholar_hidden
 			}
 			10 = {
 				if = {
@@ -1234,7 +1234,7 @@ character_event = {
 					}
 					remove_trait = falconer
 				}
-				add_trait = mystic
+				add_trait = mystic_hidden
 			}
 			10 = {
 				if = {
@@ -1318,13 +1318,13 @@ character_event = {
 					}
 					remove_trait = falconer
 				}
-				add_trait = poet
+				add_trait = poet_hidden
 			}
 			10 = {
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 			10 = {
-				add_trait = depressed
+				add_trait = depressed_hidden
 			}
 			50 = {
 			}
@@ -1341,7 +1341,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = cynical
+				add_trait = cynical_hidden
 			}
 		}
 	}
@@ -1368,7 +1368,7 @@ character_event = {
 					trait = kind_hidden
 				} } 
 			}
-			add_trait = kind
+			add_trait = kind_hidden
 		}
 	}
 	option = {
@@ -1406,7 +1406,7 @@ narrative_event = {
 					trait = arbitrary_hidden
 				} } 
 			}
-			add_trait = arbitrary
+			add_trait = arbitrary_hidden
 		}
 	}
 	option = {
@@ -1418,7 +1418,7 @@ narrative_event = {
 					trait = charitable_hidden
 				} } 
 			}
-			add_trait = charitable
+			add_trait = charitable_hidden
 		}
 	}
 	option = {
@@ -1445,7 +1445,7 @@ character_event = {
 					trait = charitable_hidden
 				} } 
 			}
-			add_trait = charitable
+			add_trait = charitable_hidden
 		}
 	}
 	option = {
@@ -1510,7 +1510,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = proud
+				add_trait = proud_hidden
 			}
 		}
 	}
@@ -1532,7 +1532,7 @@ character_event = {
 		piety = 10
 		random = {
 			chance = 40
-			add_trait = ill
+			add_trait = ill_hidden
 		}
 	}
 	option = {
@@ -1542,7 +1542,7 @@ character_event = {
 		}
 		random = {
 			chance = 20
-			add_trait = ill
+			add_trait = ill_hidden
 		}
 		if = {
 			limit = {
@@ -1553,7 +1553,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = cynical
+				add_trait = cynical_hidden
 			}
 		}
 	}
@@ -1580,7 +1580,7 @@ character_event = {
 					trait = charitable_hidden
 				} } 
 			}
-			add_trait = charitable
+			add_trait = charitable_hidden
 		}
 	}
 	option = {
@@ -1602,7 +1602,7 @@ character_event = {
 					trait = deceitful_hidden
 				} } 
 			}
-			add_trait = deceitful
+			add_trait = deceitful_hidden
 		}
 	}
 	option = {
@@ -1639,7 +1639,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 		}
 	}
@@ -1654,7 +1654,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = cynical
+				add_trait = cynical_hidden
 			}
 		}
 	}
@@ -1690,7 +1690,7 @@ narrative_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = paranoid
+				add_trait = paranoid_hidden
 			}
 		}
 	}
@@ -2413,7 +2413,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = shy
+				add_trait = shy_hidden
 			}
 		}
 	}
@@ -3138,7 +3138,7 @@ character_event = {
 		name = EVTOPTA_SoA_5056
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = scholar
+			add_trait = scholar_hidden
 		}
 		if = {
 			limit = {
@@ -3149,7 +3149,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3179,7 +3179,7 @@ character_event = {
 					trait = zealous_hidden
 				} } 
 			}
-			add_trait = zealous
+			add_trait = zealous_hidden
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
@@ -3203,7 +3203,7 @@ character_event = {
 					trait = cynical_hidden
 				} } 
 			}
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 		clr_character_flag = good_pilgrimage
 		set_character_flag = bad_pilgrimage
@@ -3255,7 +3255,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = gregarious
+				add_trait = gregarious_hidden
 			}
 		}
 		if = {
@@ -3328,7 +3328,7 @@ character_event = {
 			}
 			random = {
 				chance = 5
-				add_trait = syphilitic
+				add_trait = syphilitic_hidden
 				clr_character_flag = good_pilgrimage
 				set_character_flag = bad_pilgrimage
 			}
@@ -3347,7 +3347,7 @@ character_event = {
 			}
 			random = {
 				chance = 40
-				add_trait = chaste
+				add_trait = chaste_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3384,7 +3384,7 @@ character_event = {
 					trait = stressed_hidden
 				} } 
 			}
-			add_trait = stressed
+			add_trait = stressed_hidden
 		}
 		if = {
 			limit = {
@@ -3395,7 +3395,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3460,7 +3460,7 @@ narrative_event = {
 					trait = zealous_hidden
 				} } 
 			}
-			add_trait = zealous
+			add_trait = zealous_hidden
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
@@ -3512,7 +3512,7 @@ narrative_event = {
 					trait = cynical_hidden
 				} } 
 			}
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
@@ -3645,7 +3645,7 @@ narrative_event = {
 				}
 				remove_trait = falconer
 			}
-			add_trait = mystic
+			add_trait = mystic_hidden
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
@@ -3780,7 +3780,7 @@ character_event = {
 						}
 						remove_trait = falconer
 					}
-					add_trait = hedonist
+					add_trait = hedonist_hidden
 				}
 			}
 			if = {
@@ -3792,7 +3792,7 @@ character_event = {
 				}
 				random = {
 					chance = 30
-					add_trait = drunkard
+					add_trait = drunkard_hidden
 				}
 			}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3812,7 +3812,7 @@ character_event = {
 				}
 				random = {
 					chance = 30
-					add_trait = stressed
+					add_trait = stressed_hidden
 				}
 			}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
@@ -3839,7 +3839,7 @@ character_event = {
 			}
 			remove_trait = zealous
 		}
-		add_trait = sympathy_islam
+		add_trait = sympathy_islam_hidden
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
 	option = {
@@ -3853,7 +3853,7 @@ character_event = {
 			}
 			remove_trait = zealous
 		}
-		add_trait = sympathy_judaism
+		add_trait = sympathy_judaism_hidden
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
 }
@@ -3878,7 +3878,7 @@ character_event = {
 					trait = lunatic_hidden
 				} } 
 			}
-			add_trait = lunatic
+			add_trait = lunatic_hidden
 		}
 		if = {
 			limit = {
@@ -3889,7 +3889,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = wroth
+				add_trait = wroth_hidden
 			}
 		}
 	}
@@ -3957,7 +3957,7 @@ character_event = {
 		clr_character_flag = pilgrimage_to_santiago
 		clr_character_flag = good_pilgrimage
 		clr_character_flag = do_not_disturb
-		add_trait = pilgrim
+		add_trait = pilgrim_hidden
 		hidden_tooltip = { remove_trait = on_pilgrimage }
 		piety = 30
 	}
@@ -3991,7 +3991,7 @@ character_event = {
 		clr_character_flag = pilgrimage_to_santiago
 		clr_character_flag = bad_pilgrimage
 		clr_character_flag = do_not_disturb
-		add_trait = pilgrim
+		add_trait = pilgrim_hidden
 		hidden_tooltip = { remove_trait = on_pilgrimage }
 		piety = -10
 		if = {
@@ -4003,7 +4003,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = cynical
+				add_trait = cynical_hidden
 			}
 		}
 	}
@@ -4037,7 +4037,7 @@ character_event = {
 		clr_character_flag = pilgrimage_to_santiago
 		clr_character_flag = abominable_pilgrimage
 		clr_character_flag = do_not_disturb
-		add_trait = pilgrim
+		add_trait = pilgrim_hidden
 		hidden_tooltip = { remove_trait = on_pilgrimage }
 		piety = -100
 	}

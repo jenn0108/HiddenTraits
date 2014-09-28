@@ -414,7 +414,7 @@ character_event = {
 				}
 				random_list = {
 					33 = {
-						add_trait = ill
+						add_trait = ill_hidden
 						ROOT = {
 							random_list = {
 								50 = {
@@ -440,7 +440,7 @@ character_event = {
 						}
 					}
 					33 = {
-						add_trait = infirm
+						add_trait = infirm_hidden
 						ROOT = {
 							random_list = {
 								20 = {
@@ -632,7 +632,7 @@ character_event = {
 			}
 			50 = {
 				random_courtier = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = { character_event = { id = 38281 } }
 
 					opinion = {
@@ -780,7 +780,7 @@ character_event = {
 			}
 			50 = {
 				random_courtier = {
-					add_trait = maimed
+					add_trait = maimed_hidden
 					hidden_tooltip = { character_event = { id = 38281 } }
 
 					opinion = {
@@ -1446,7 +1446,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTC30030"
-		add_trait = depressed
+		add_trait = depressed_hidden
 	}
 }
 
@@ -1528,7 +1528,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA30032"
-		add_trait = craven
+		add_trait = craven_hidden
 	}
 	option = {
 		name = "EVTOPTB30032"
@@ -1554,7 +1554,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA30033"
-		add_trait = depressed
+		add_trait = depressed_hidden
 		FROM = {
 			reverse_opinion = {
 				modifier = opinion_dishonorable_scum
@@ -1564,7 +1564,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB30033"
-		add_trait = wroth
+		add_trait = wroth_hidden
 		FROM = {
 			reverse_opinion = {
 				modifier = opinion_dishonorable_scum
@@ -1574,7 +1574,7 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTC30033"
-		add_trait = envious
+		add_trait = envious_hidden
 		FROM = {
 			reverse_opinion = {
 				modifier = opinion_dishonorable_scum
@@ -1632,7 +1632,7 @@ letter_event = {
 	option = {
 		name = "EVTOPTA30036"
 		prestige = -10
-		add_trait = craven
+		add_trait = craven_hidden
 	}
 	
 	option = {
@@ -1805,7 +1805,7 @@ character_event = {
 		trigger = {
 			NOT = { personality_traits = 5 }
 		}
-		add_trait = humble
+		add_trait = humble_hidden
 	}
 	
 	option = {
@@ -2713,7 +2713,7 @@ character_event = {
 				change_diplomacy = 1
 			}
 			80 = {
-				add_trait = content
+				add_trait = content_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content
@@ -2823,7 +2823,7 @@ character_event = {
 				change_martial = 1
 			}
 			80 = {
-				add_trait = content
+				add_trait = content_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content
@@ -2933,7 +2933,7 @@ character_event = {
 				change_stewardship = 1
 			}
 			80 = {
-				add_trait = content
+				add_trait = content_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content
@@ -3051,7 +3051,7 @@ character_event = {
 				change_intrigue = 1
 			}
 			80 = {
-				add_trait = ambitious
+				add_trait = ambitious_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38278 #Notify Ambitious
@@ -3156,7 +3156,7 @@ character_event = {
 				change_learning = 1
 			}
 			80 = {
-				add_trait = content
+				add_trait = content_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content
@@ -5566,7 +5566,7 @@ character_event = {
 		random = {
 			chance = 40
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 	}
 	option = {
@@ -5596,7 +5596,7 @@ character_event = {
 		random = {
 			chance = 40
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 	}
 	option = {
@@ -5625,7 +5625,7 @@ character_event = {
 		random = {
 			chance = 40
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 	}
 	option = {
@@ -5655,7 +5655,7 @@ character_event = {
 		random = {
 			chance = 40
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 	}
 }
@@ -5680,7 +5680,7 @@ character_event = {
 		random = {
 			chance = 60
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 		random = {
 			chance = 10
@@ -5706,7 +5706,7 @@ character_event = {
 		random = {
 			chance = 40
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 		random = {
 			chance = 20
@@ -5734,7 +5734,7 @@ character_event = {
 		random = {
 			chance = 30
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 		random = {
 			chance = 20
@@ -5760,7 +5760,7 @@ character_event = {
 		random = {
 			chance = 20
 			
-			add_trait = lustful
+			add_trait = lustful_hidden
 		}
 		random = {
 			chance = 40
@@ -5788,7 +5788,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA30103"
-		add_trait = depressed
+		add_trait = depressed_hidden
 		if = {
 			limit = {
 				OR = {
@@ -5811,7 +5811,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA30104"
-		add_trait = depressed
+		add_trait = depressed_hidden
 		if = {
 			limit = {
 				OR = {
@@ -6023,7 +6023,7 @@ character_event = {
 				change_learning = 1
 			}
 			80 = {
-				add_trait = content
+				add_trait = content_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content

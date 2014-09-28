@@ -988,7 +988,7 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_trait = kinslayer
+		add_trait = kinslayer_hidden
 		hidden_tooltip = {
 			character_event = { id = 38287 } #Notify Kinslayer
 			any_vassal = {
@@ -1023,7 +1023,7 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_trait = kinslayer
+		add_trait = kinslayer_hidden
 		hidden_tooltip = {
 			character_event = { id = 38287 } #Notify Kinslayer
 			any_vassal = {
@@ -1058,7 +1058,7 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_trait = kinslayer
+		add_trait = kinslayer_hidden
 		hidden_tooltip = {
 			character_event = { id = 38287 } #Notify Kinslayer
 			any_vassal = {
@@ -1093,7 +1093,7 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_trait = kinslayer
+		add_trait = kinslayer_hidden
 		hidden_tooltip = {
 			character_event = { id = 38287 } #Notify Kinslayer
 			any_vassal = {
@@ -1128,7 +1128,7 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_trait = kinslayer
+		add_trait = kinslayer_hidden
 		hidden_tooltip = {
 			character_event = { id = 38287 } #Notify Kinslayer
 			any_vassal = {
@@ -1163,7 +1163,7 @@ character_event = {
 				killer = ROOT
 			}
 		}
-		add_trait = kinslayer
+		add_trait = kinslayer_hidden
 		hidden_tooltip = {
 			character_event = { id = 38287 } #Notify Kinslayer
 			any_vassal = {

@@ -153,12 +153,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA88504
-		add_trait = ill
+		add_trait = ill_hidden
 		character_event = { id = 88522 days = 1 tooltip = EVTTOOLTIP88522 }
 	}
 	option = {
 		name = EVTOPTB88504
-		add_trait = ill
+		add_trait = ill_hidden
 		decadence = -1
 		piety = 15
 		set_character_flag = ramadan_ill
@@ -188,7 +188,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA88505
-		add_trait = infirm
+		add_trait = infirm_hidden
 		character_event = { id = 88522 days = 1 tooltip = EVTTOOLTIP88522 }
 	}
 }
@@ -221,7 +221,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA88506
-		add_trait = temperate
+		add_trait = temperate_hidden
 		decadence = -1
 		piety = 15
 	}
@@ -255,7 +255,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA88507
-		add_trait = charitable
+		add_trait = charitable_hidden
 		decadence = -1
 		piety = 15
 	}

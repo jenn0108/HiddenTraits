@@ -340,7 +340,7 @@ narrative_event = {
 					} 
 				}
 			}
-			add_trait = cavalry_leader
+			add_trait = cavalry_leader_hidden
 		}
 		clr_global_flag = hippodrome_scheme_ongoing
 	}
@@ -392,7 +392,7 @@ narrative_event = {
 					} 
 				}
 			}
-			add_trait = cavalry_leader
+			add_trait = cavalry_leader_hidden
 		}
 		clr_global_flag = hippodrome_scheme_ongoing
 	}
@@ -422,7 +422,7 @@ narrative_event = {
 					} 
 				}
 			}
-			add_trait = cavalry_leader
+			add_trait = cavalry_leader_hidden
 		}
 		clr_global_flag = hippodrome_scheme_ongoing
 		create_character = {

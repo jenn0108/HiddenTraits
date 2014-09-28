@@ -76,22 +76,22 @@ character_event = {
 		name = EVTOPTA24501
 		random_list = {
 			90 = {
-				add_trait = lustful
+				add_trait = lustful_hidden
 			}
 			10 = {
-				add_trait = incapable
+				add_trait = incapable_hidden
 			}
 		}		
 	}
 	
 	option = {
 		name = EVTOPTB24501
-		add_trait = depressed
+		add_trait = depressed_hidden
 		if = {
 			limit = {
 				religion_group = christian
 			}
-			add_trait = celibate
+			add_trait = celibate_hidden
 		}
 	}	
 }
@@ -166,10 +166,10 @@ character_event = {
 			}
 			random_list = {
 				90 = {
-					add_trait = craven
+					add_trait = craven_hidden
 				}
 				10 = {
-					add_trait = brave
+					add_trait = brave_hidden
 				}
 			}			
 		}
@@ -188,7 +188,7 @@ character_event = {
 		name = EVTOPTA24504
 		spouse = {
 			impregnate_cuckoo = PREV 
-			add_trait = stressed
+			add_trait = stressed_hidden
 		}
 	}
 }

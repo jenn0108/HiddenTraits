@@ -665,7 +665,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88260"
-		add_trait = maimed
+		add_trait = maimed_hidden
 		hidden_tooltip = {
 			if = {
 				limit = {
@@ -823,7 +823,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88261"
-		add_trait = wounded
+		add_trait = wounded_hidden
 		hidden_tooltip = {
 			if = {
 				limit = {
@@ -961,7 +961,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88262"
-		add_trait = craven
+		add_trait = craven_hidden
 	}
 }
 
@@ -1087,7 +1087,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88263"
-		add_trait = brave
+		add_trait = brave_hidden
 	}
 }
 
@@ -1212,7 +1212,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA88264"
 		remove_trait = misguided_warrior
-		add_trait = tough_soldier
+		add_trait = tough_soldier_hidden
 	}
 }
 
@@ -1337,7 +1337,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA88265"
 		remove_trait = tough_soldier 
-		add_trait = skilled_tactician
+		add_trait = skilled_tactician_hidden
 	}
 }
 
@@ -1462,7 +1462,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA88266"
 		remove_trait = skilled_tactician 
-		add_trait = brilliant_strategist
+		add_trait = brilliant_strategist_hidden
 	}
 }
 
@@ -1587,7 +1587,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA88267"
 		remove_trait = brilliant_strategist
-		add_trait = skilled_tactician
+		add_trait = skilled_tactician_hidden
 	}
 }
 
@@ -1712,7 +1712,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA88268"
 		remove_trait = skilled_tactician
-		add_trait = tough_soldier
+		add_trait = tough_soldier_hidden
 	}
 }
 
@@ -1837,7 +1837,7 @@ character_event = {
 	option = {
 		name = "EVTOPTA88269"
 		remove_trait = tough_soldier
-		add_trait = misguided_warrior
+		add_trait = misguided_warrior_hidden
 	}
 }
 
@@ -2562,7 +2562,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88273"
-		add_trait = homosexual
+		add_trait = homosexual_hidden
 	}
 }
 
@@ -2653,7 +2653,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88274"
-		add_trait = syphilitic
+		add_trait = syphilitic_hidden
 	}
 }
 
@@ -2740,7 +2740,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88275"
-		add_trait = drunkard
+		add_trait = drunkard_hidden
 	}
 }
 
@@ -2831,7 +2831,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA88276"
-		add_trait = duelist
+		add_trait = duelist_hidden
 	}
 }
 

@@ -198,7 +198,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5002"
-		add_trait = scholar
+		add_trait = scholar_hidden
 		clr_character_flag = LE_ST
 		remove_character_modifier = illumination
 	}
@@ -214,7 +214,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5003"
-		add_trait = mystic
+		add_trait = mystic_hidden
 		clr_character_flag = LE_ST
 		remove_character_modifier = illumination
 	}
@@ -539,7 +539,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5024"
-		add_trait = impaler
+		add_trait = impaler_hidden
 		clr_character_flag = LE_ST
 	}
 	option = {
@@ -587,7 +587,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5025"
-		add_trait = gardener
+		add_trait = gardener_hidden
 		clr_character_flag = LE_ST
 
 	}
@@ -1135,7 +1135,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA5036"
-		add_trait = duelist
+		add_trait = duelist_hidden
 		clr_character_flag = LE_ST
 		random_courtier = {
 			limit = {
@@ -1178,7 +1178,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA5037"
-		add_trait = poet
+		add_trait = poet_hidden
 		clr_character_flag = LE_ST
 		random_courtier = {
 			limit = {
@@ -1337,7 +1337,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA5041" #Forget it
-		add_trait = depressed
+		add_trait = depressed_hidden
 	}
 	
 	option = {
@@ -1393,7 +1393,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA5043" #Forget it
-		add_trait = depressed
+		add_trait = depressed_hidden
 	}
 	
 	option = {
@@ -1480,7 +1480,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5045"
-		add_trait = hunter
+		add_trait = hunter_hidden
 		clr_character_flag = LE_ST
 	}
 	
@@ -1549,7 +1549,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5046"
-		add_trait = falconer
+		add_trait = falconer_hidden
 		clr_character_flag = LE_ST
 	}
 	
@@ -1671,7 +1671,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA5051" #Forget it
-		add_trait = depressed
+		add_trait = depressed_hidden
 	}
 	
 	option = {
@@ -1710,7 +1710,7 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA5053" #Forget it
-		add_trait = depressed
+		add_trait = depressed_hidden
 	}
 	
 	option = {
@@ -1797,7 +1797,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5055"
-		add_trait = poet
+		add_trait = poet_hidden
 		clr_character_flag = LE_ST
 
 	}
@@ -1867,7 +1867,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5046"
-		add_trait = falconer
+		add_trait = falconer_hidden
 		clr_character_flag = LE_ST
 
 	}
@@ -2254,7 +2254,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5065"
-		add_trait = celibate
+		add_trait = celibate_hidden
 		clr_character_flag = LE_ST
 
 		if = {
@@ -2289,7 +2289,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA5066"
-		add_trait = hedonist
+		add_trait = hedonist_hidden
 		clr_character_flag = LE_ST
 		if = {
 			limit = {
@@ -2474,7 +2474,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = content
+			add_trait = content_hidden
 		}
 		if = {
 			limit = {
@@ -2577,7 +2577,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = content
+			add_trait = content_hidden
 		}
 		if = {
 			limit = {
@@ -2607,7 +2607,7 @@ character_event = {
 		name = "EVTOPTA5073"
 		clr_character_flag = LE_ST
 		remove_character_modifier = muslim_hedonist
-		add_trait = hedonist
+		add_trait = hedonist_hidden
 	}
 	option = {
 		name = "EVTOPTB5073"
@@ -2629,7 +2629,7 @@ character_event = {
 		name = "EVTOPTA5074"
 		clr_character_flag = LE_ST
 		remove_character_modifier = muslim_poet
-		add_trait = poet
+		add_trait = poet_hidden
 	}
 	option = {
 		name = "EVTOPTB5074"
@@ -3035,7 +3035,7 @@ character_event = {
 		name = "EVTOPTA5082"
 		remove_character_modifier = aspiring_faqih
 		clr_character_flag = LE_ST
-		add_trait = faqih
+		add_trait = faqih_hidden
 	}
 	option = {
 		name = "EVTOPTB5082"

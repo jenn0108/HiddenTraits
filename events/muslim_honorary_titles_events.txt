@@ -174,7 +174,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = content
+			add_trait = content_hidden
 		}
 		if = {
 			limit = {
@@ -185,7 +185,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = depressed
+				add_trait = depressed_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38288 #Notify Depressed
@@ -350,7 +350,7 @@ character_event = {
 					}
 				}
 			}
-			add_trait = depressed
+			add_trait = depressed_hidden
 		}
 	}
 }
@@ -2308,7 +2308,7 @@ character_event = {
 				}
 				random = {
 					chance = 30
-					add_trait = wounded
+					add_trait = wounded_hidden
 				}
 				character_event = {
 					id = 105031
@@ -2450,7 +2450,7 @@ character_event = {
 		}
 		prestige = -5
 		tooltip = {
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 	}
 	option = {
@@ -2469,7 +2469,7 @@ character_event = {
 		}
 		prestige = -5
 		tooltip = {
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 		tooltip = {
 			remove_trait = drunkard
@@ -3382,7 +3382,7 @@ character_event = {
 		FROM = {
 			random = {
 				chance = 30
-				add_trait = wounded
+				add_trait = wounded_hidden
 			}
 			character_event = {
 				id = 105044
@@ -3529,7 +3529,7 @@ character_event = {
 		FROM = {
 			random = {
 				chance = 30
-				add_trait = wounded
+				add_trait = wounded_hidden
 			}
 			character_event = {
 				id = 105044
@@ -3539,7 +3539,7 @@ character_event = {
 			random_lover = {
 				random = {
 					chance = 30
-					add_trait = wounded
+					add_trait = wounded_hidden
 				}
 				character_event = {
 					id = 64045
@@ -3694,7 +3694,7 @@ character_event = {
 		FROM = {
 			random = {
 				chance = 30
-				add_trait = wounded
+				add_trait = wounded_hidden
 			}
 			character_event = {
 				id = 105044
@@ -3727,7 +3727,7 @@ character_event = {
 		}
 		clr_character_flag = zina_suspected
 		tooltip = {
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 		prestige = -15
 		random = {
@@ -5630,7 +5630,7 @@ character_event = {
 						}
 					}
 					15 = {
-						add_trait = ill
+						add_trait = ill_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -5654,7 +5654,7 @@ character_event = {
 						}
 					}
 					10 = {
-						add_trait = lunatic
+						add_trait = lunatic_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38304 #Notify Lunatic
@@ -5702,7 +5702,7 @@ character_event = {
 						}
 					}
 					25 = {
-						add_trait = ill
+						add_trait = ill_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -5726,7 +5726,7 @@ character_event = {
 						}
 					}
 					20 = {
-						add_trait = lunatic
+						add_trait = lunatic_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38304 #Notify Lunatic
@@ -6387,7 +6387,7 @@ character_event = {
 						}
 					}
 					15 = {
-						add_trait = ill
+						add_trait = ill_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -6411,7 +6411,7 @@ character_event = {
 						}
 					}
 					10 = {
-						add_trait = lunatic
+						add_trait = lunatic_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38304 #Notify Lunatic
@@ -6459,7 +6459,7 @@ character_event = {
 						}
 					}
 					25 = {
-						add_trait = ill
+						add_trait = ill_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38290
@@ -6483,7 +6483,7 @@ character_event = {
 						}
 					}
 					20 = {
-						add_trait = lunatic
+						add_trait = lunatic_hidden
 						hidden_tooltip = {
 							character_event = {
 								id = 38304 #Notify Lunatic

@@ -91,22 +91,22 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_110
-		add_trait = shaivist_hindu
+		add_trait = shaivist_hindu_hidden
 	}
 
 	option = {
 		name = EVTOPTB_RoI_110
-		add_trait = vaishnavist_hindu
+		add_trait = vaishnavist_hindu_hidden
 	}
 
 	option = {
 		name = EVTOPTC_RoI_110
-		add_trait = shaktist_hindu
+		add_trait = shaktist_hindu_hidden
 	}
 
 	option = {
 		name = EVTOPTD_RoI_110
-		add_trait = smartist_hindu
+		add_trait = smartist_hindu_hidden
 	}
 }
 
@@ -121,17 +121,17 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_111
-		add_trait = mahayana_buddhist
+		add_trait = mahayana_buddhist_hidden
 	}
 
 	option = {
 		name = EVTOPTB_RoI_111
-		add_trait = vajrayana_buddhist
+		add_trait = vajrayana_buddhist_hidden
 	}
 
 	option = {
 		name = EVTOPTC_RoI_111
-		add_trait = theravada_buddhist
+		add_trait = theravada_buddhist_hidden
 	}
 }
 
@@ -146,12 +146,12 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_RoI_112
-		add_trait = digambara_jain
+		add_trait = digambara_jain_hidden
 	}
 
 	option = {
 		name = EVTOPTB_RoI_112
-		add_trait = svetambara_jain
+		add_trait = svetambara_jain_hidden
 	}
 }
 
@@ -174,7 +174,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = shaivist_hindu
+		add_trait = shaivist_hindu_hidden
 	}
 
 	option = {
@@ -187,7 +187,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = vaishnavist_hindu
+		add_trait = vaishnavist_hindu_hidden
 	}
 
 	option = {
@@ -200,7 +200,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = shaktist_hindu
+		add_trait = shaktist_hindu_hidden
 	}
 
 	option = {
@@ -213,7 +213,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = smartist_hindu
+		add_trait = smartist_hindu_hidden
 	}
 }
 
@@ -236,7 +236,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = mahayana_buddhist
+		add_trait = mahayana_buddhist_hidden
 	}
 
 	option = {
@@ -249,7 +249,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = vajrayana_buddhist
+		add_trait = vajrayana_buddhist_hidden
 	}
 
 	option = {
@@ -262,7 +262,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = theravada_buddhist
+		add_trait = theravada_buddhist_hidden
 	}
 }
 
@@ -285,7 +285,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = digambara_jain
+		add_trait = digambara_jain_hidden
 	}
 
 	option = {
@@ -298,7 +298,7 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = svetambara_jain
+		add_trait = svetambara_jain_hidden
 	}
 }
 
@@ -320,7 +320,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = shaivist_hindu
+			add_trait = shaivist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -331,7 +331,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = vaishnavist_hindu
+			add_trait = vaishnavist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -342,7 +342,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = shaktist_hindu
+			add_trait = shaktist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -353,7 +353,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = smartist_hindu
+			add_trait = smartist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -364,7 +364,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = mahayana_buddhist
+			add_trait = mahayana_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -375,7 +375,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = vajrayana_buddhist
+			add_trait = vajrayana_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -386,7 +386,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = theravada_buddhist
+			add_trait = theravada_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -397,7 +397,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = digambara_jain
+			add_trait = digambara_jain_hidden
 		}
 		if = {
 			limit = {
@@ -408,7 +408,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = svetambara_jain
+			add_trait = svetambara_jain_hidden
 		}
 	}
 }
@@ -425,25 +425,25 @@ character_event = {
 		if = {
 			limit = { religion = hindu }
 			random_list = {
-				10 = { add_trait = shaivist_hindu }
-				10 = { add_trait = vaishnavist_hindu }
-				10 = { add_trait = shaktist_hindu }
-				10 = { add_trait = smartist_hindu }
+				10 = { add_trait = shaivist_hindu_hidden }
+				10 = { add_trait = vaishnavist_hindu_hidden }
+				10 = { add_trait = shaktist_hindu_hidden }
+				10 = { add_trait = smartist_hindu_hidden }
 			}
 		}
 		if = {
 			limit = { religion = buddhist }
 			random_list = {
-				10 = { add_trait = mahayana_buddhist }
-				10 = { add_trait = vajrayana_buddhist }
-				10 = { add_trait = theravada_buddhist }
+				10 = { add_trait = mahayana_buddhist_hidden }
+				10 = { add_trait = vajrayana_buddhist_hidden }
+				10 = { add_trait = theravada_buddhist_hidden }
 			}
 		}
 		if = {
 			limit = { religion = buddhist }
 			random_list = {
-				10 = { add_trait = digambara_jain }
-				10 = { add_trait = svetambara_jain }
+				10 = { add_trait = digambara_jain_hidden }
+				10 = { add_trait = svetambara_jain_hidden }
 			}
 		}
 	}
@@ -467,7 +467,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = shaivist_hindu
+			add_trait = shaivist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -478,7 +478,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = vaishnavist_hindu
+			add_trait = vaishnavist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -489,7 +489,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = shaktist_hindu
+			add_trait = shaktist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -500,7 +500,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = smartist_hindu
+			add_trait = smartist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -511,7 +511,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = mahayana_buddhist
+			add_trait = mahayana_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -522,7 +522,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = vajrayana_buddhist
+			add_trait = vajrayana_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -533,7 +533,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = theravada_buddhist
+			add_trait = theravada_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -544,7 +544,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = digambara_jain
+			add_trait = digambara_jain_hidden
 		}
 		if = {
 			limit = {
@@ -555,7 +555,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = svetambara_jain
+			add_trait = svetambara_jain_hidden
 		}
 	}
 }
@@ -578,7 +578,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = shaivist_hindu
+			add_trait = shaivist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -589,7 +589,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = vaishnavist_hindu
+			add_trait = vaishnavist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -600,7 +600,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = shaktist_hindu
+			add_trait = shaktist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -611,7 +611,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = smartist_hindu
+			add_trait = smartist_hindu_hidden
 		}
 		if = {
 			limit = {
@@ -622,7 +622,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = mahayana_buddhist
+			add_trait = mahayana_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -633,7 +633,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = vajrayana_buddhist
+			add_trait = vajrayana_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -644,7 +644,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = theravada_buddhist
+			add_trait = theravada_buddhist_hidden
 		}
 		if = {
 			limit = {
@@ -655,7 +655,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = digambara_jain
+			add_trait = digambara_jain_hidden
 		}
 		if = {
 			limit = {
@@ -666,7 +666,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = svetambara_jain
+			add_trait = svetambara_jain_hidden
 		}
 	}
 }
@@ -842,7 +842,7 @@ character_event = {
 		
 		hidden_tooltip = {
 			FROM = {
-				add_trait = reincarnation
+				add_trait = reincarnation_hidden
 				character_event = {
 					id = RoI.10002
 					days = 912
@@ -1183,7 +1183,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_204
 		religion = hindu
-		add_trait = shaivist_hindu
+		add_trait = shaivist_hindu_hidden
 		set_character_flag = india_converted
 		add_character_modifier = {
 			name = hindu_ascetic
@@ -1193,7 +1193,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_204
 		religion = hindu
-		add_trait = shaivist_hindu
+		add_trait = shaivist_hindu_hidden
 		set_character_flag = india_converted
 	}
 	option = {
@@ -1264,7 +1264,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_207
 		religion = buddhist
-		add_trait = mahayana_buddhist
+		add_trait = mahayana_buddhist_hidden
 		set_character_flag = india_converted
 		add_character_modifier = {
 			name = buddhist_ascetic
@@ -1274,7 +1274,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_207
 		religion = buddhist
-		add_trait = mahayana_buddhist
+		add_trait = mahayana_buddhist_hidden
 		set_character_flag = india_converted
 	}
 	option = {
@@ -1345,7 +1345,7 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_210
 		religion = jain
-		add_trait = digambara_jain
+		add_trait = digambara_jain_hidden
 		set_character_flag = india_converted
 		add_character_modifier = {
 			name = jain_naked_ascetic
@@ -1355,7 +1355,7 @@ character_event = {
 	option = {
 		name = EVTOPTB_RoI_210
 		religion = jain
-		add_trait = digambara_jain
+		add_trait = digambara_jain_hidden
 		set_character_flag = india_converted
 	}
 	option = {
@@ -1475,7 +1475,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = stressed
+				add_trait = stressed_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = RoI.240 } }
@@ -1514,9 +1514,9 @@ character_event = {
 				}
 			}
 			random_list = {
-				70 = { add_trait = wounded }
-				25 = { add_trait = maimed }
-				5 = { add_trait = incapable }
+				70 = { add_trait = wounded_hidden }
+				25 = { add_trait = maimed_hidden }
+				5 = { add_trait = incapable_hidden }
 			}
 		}
 		hidden_tooltip = { character_event = { id = RoI.240 } }
@@ -1548,7 +1548,7 @@ character_event = {
 		name = EVTOPTA_RoI_220
 		random = {
 			chance = 20
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 		FROM = {
 			death = {
@@ -1597,7 +1597,7 @@ character_event = {
 					trait = shy_hidden
 				} } 
 			}
-			add_trait = shy
+			add_trait = shy_hidden
 		}
 		if = {
 			limit = {
@@ -1608,7 +1608,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = greedy
+				add_trait = greedy_hidden
 			}
 		}
 		if = {
@@ -1620,7 +1620,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = envious
+				add_trait = envious_hidden
 			}
 		}
 		if = {
@@ -1632,7 +1632,7 @@ character_event = {
 			}
 			random = {
 				chance = 10
-				add_trait = lunatic
+				add_trait = lunatic_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = RoI.240 } }
@@ -1659,7 +1659,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = paranoid
+				add_trait = paranoid_hidden
 			}
 		}
 		if = {
@@ -1671,7 +1671,7 @@ character_event = {
 			}
 			random = {
 				chance = 10
-				add_trait = stressed
+				add_trait = stressed_hidden
 			}
 		}
 	}
@@ -1700,7 +1700,7 @@ character_event = {
 					} 
 				}
 			}
-				add_trait = paranoid
+				add_trait = paranoid_hidden
 		}
 		if = {
 			limit = {
@@ -1713,7 +1713,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = stressed
+				add_trait = stressed_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = RoI.240 } }
@@ -1827,7 +1827,7 @@ character_event = {
 						trait = lunatic_hidden
 					} } 
 				}
-				add_trait = lunatic
+				add_trait = lunatic_hidden
 			}
 			if = {
 				limit = {
@@ -1836,7 +1836,7 @@ character_event = {
 						trait = lunatic_hidden
 					} 
 				}
-				add_trait = possessed
+				add_trait = possessed_hidden
 			}
 		}
 		hidden_tooltip = { character_event = { id = RoI.240 } }
@@ -1878,7 +1878,7 @@ character_event = {
 		}
 		random = {
 			chance = 20
-			add_trait = depressed
+			add_trait = depressed_hidden
 		}
 		hidden_tooltip = { character_event = { id = RoI.240 } }
 	}
@@ -1992,7 +1992,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = ill
+				add_trait = ill_hidden
 			}
 		}
 		if = {
@@ -2004,7 +2004,7 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = pneumonic
+				add_trait = pneumonic_hidden
 			}
 		}
 	}
@@ -2252,7 +2252,7 @@ character_event = {
 					trait = cruel_hidden
 				} } 
 			}
-			add_trait = cruel
+			add_trait = cruel_hidden
 		}
 	}
 	option = {
@@ -2437,7 +2437,7 @@ character_event = {
 					trait = craven_hidden
 				} } 
 			}
-			add_trait = craven
+			add_trait = craven_hidden
 		}
 		random_demesne_province = {
 			limit = {
@@ -2897,7 +2897,7 @@ character_event = {
 					trait = cruel_hidden
 				} } 
 			}
-			add_trait = cruel
+			add_trait = cruel_hidden
 		}
 		hidden_tooltip = { character_event = { id = RoI.167 days = 60 } }
 	}
@@ -2910,7 +2910,7 @@ character_event = {
 					trait = charitable_hidden
 				} } 
 			}
-			add_trait = charitable
+			add_trait = charitable_hidden
 		}
 		hidden_tooltip = { character_event = { id = RoI.167 days = 60 } }
 	}
@@ -3425,7 +3425,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 	}
 }
@@ -3683,7 +3683,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = wroth
+				add_trait = wroth_hidden
 			}
 		}
 		if = {
@@ -3695,7 +3695,7 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = paranoid
+				add_trait = paranoid_hidden
 			}
 		}
 	}
@@ -3867,7 +3867,7 @@ narrative_event = {
 			limit = { NOT = { lifestyle_traits = 1 } }
 			random = {
 				chance = 50
-				add_trait = scholar
+				add_trait = scholar_hidden
 			}
 		}
 		random = {
@@ -3896,7 +3896,7 @@ narrative_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 		}
 	}

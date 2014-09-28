@@ -98,7 +98,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6000
-		add_trait = syphilitic
+		add_trait = syphilitic_hidden
 	}
 }
 
@@ -171,7 +171,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6010
-		add_trait = leper
+		add_trait = leper_hidden
 	}
 }
 
@@ -272,7 +272,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6020
-		add_trait = lunatic
+		add_trait = lunatic_hidden
 		remove_trait = depressed
 		remove_trait = stressed
 	}
@@ -402,7 +402,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6030
-		add_trait = possessed
+		add_trait = possessed_hidden
 	}
 }
 
@@ -492,7 +492,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6032
-		add_trait = possessed
+		add_trait = possessed_hidden
 	}
 }
 
@@ -598,7 +598,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6040
-		add_trait = stressed
+		add_trait = stressed_hidden
 	}
 }
 
@@ -757,7 +757,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6050
-		add_trait = depressed
+		add_trait = depressed_hidden
 	}
 }
 
@@ -955,7 +955,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6060
-		add_trait = ill
+		add_trait = ill_hidden
 	}
 }
 
@@ -1119,7 +1119,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6070
-		add_trait = pneumonic
+		add_trait = pneumonic_hidden
 	}
 }
 
@@ -1251,7 +1251,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6080
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -1286,7 +1286,7 @@ character_event = {
 	option = {
 		name = EVTOPTA6081
 		remove_trait = wounded
-		add_trait = scarred
+		add_trait = scarred_hidden
 	}
 }
 
@@ -1335,7 +1335,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6082
-		add_trait = ill
+		add_trait = ill_hidden
 	}
 }
 
@@ -1402,7 +1402,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6100
-		add_trait = infirm
+		add_trait = infirm_hidden
 	}
 }
 
@@ -1463,7 +1463,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6110
-		add_trait = incapable
+		add_trait = incapable_hidden
 		remove_trait = infirm
 	}
 }
@@ -2218,7 +2218,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6205
-		add_trait = chaste
+		add_trait = chaste_hidden
 	}
 }
 
@@ -2274,7 +2274,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6207
-		add_trait = temperate
+		add_trait = temperate_hidden
 	}
 }
 
@@ -2330,7 +2330,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6209
-		add_trait = charitable
+		add_trait = charitable_hidden
 	}
 }
 
@@ -2385,7 +2385,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6211
-		add_trait = diligent
+		add_trait = diligent_hidden
 	}
 }
 
@@ -2440,7 +2440,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6213
-		add_trait = kind
+		add_trait = kind_hidden
 	}
 }
 
@@ -2496,7 +2496,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6215
-		add_trait = patient
+		add_trait = patient_hidden
 	}
 }
 
@@ -2552,7 +2552,7 @@ character_event = {
 
 	option = {
 		name = EVTOPTA6217
-		add_trait = humble
+		add_trait = humble_hidden
 	}
 }
 
@@ -2837,7 +2837,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6225
-		add_trait = homosexual
+		add_trait = homosexual_hidden
 	}
 }
 
@@ -2971,7 +2971,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6230
-		add_trait = wroth
+		add_trait = wroth_hidden
 	}
 }
 
@@ -3025,7 +3025,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6232
-		add_trait = proud
+		add_trait = proud_hidden
 	}
 }
 
@@ -3079,7 +3079,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6234
-		add_trait = gluttonous
+		add_trait = gluttonous_hidden
 	}
 }
 
@@ -3133,7 +3133,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6236
-		add_trait = greedy
+		add_trait = greedy_hidden
 	}
 }
 
@@ -3187,7 +3187,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6238
-		add_trait = envious
+		add_trait = envious_hidden
 	}
 }
 
@@ -3241,7 +3241,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6240
-		add_trait = slothful
+		add_trait = slothful_hidden
 	}
 }
 
@@ -3624,7 +3624,7 @@ character_event = {
 					trait = lunatic_hidden
 				} } 
 			}
-			add_trait = lunatic
+			add_trait = lunatic_hidden
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
 	}
@@ -3691,7 +3691,7 @@ character_event = {
 					trait = lunatic_hidden
 				} } 
 			}
-			add_trait = lunatic
+			add_trait = lunatic_hidden
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
 	}
@@ -3758,7 +3758,7 @@ character_event = {
 					trait = lunatic_hidden
 				} } 
 			}
-			add_trait = lunatic
+			add_trait = lunatic_hidden
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
 	}
@@ -3825,7 +3825,7 @@ character_event = {
 					trait = lunatic_hidden
 				} } 
 			}
-			add_trait = lunatic
+			add_trait = lunatic_hidden
 		}
 		character_event = { id = 6354 days = 14 tooltip = EVTTOOLTIP6354 }
 	}
@@ -3926,7 +3926,7 @@ character_event = {
 		}		
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = scholar
+			add_trait = scholar_hidden
 		}
 	}
 	option = {

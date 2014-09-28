@@ -956,7 +956,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = stressed
+			add_trait = stressed_hidden
 			set_character_flag = bad_diwali
 		}
 		if = {
@@ -975,22 +975,22 @@ character_event = {
 			hidden_tooltip = {
 				random_list = {
 					10 = {
-						add_trait = ill
+						add_trait = ill_hidden
 						set_character_flag = bad_diwali
 						character_event = { id = 38290 } # Notify
 					}
 					10 = {
-						add_trait = stutter
+						add_trait = stutter_hidden
 						set_character_flag = bad_diwali
 						character_event = { id = 38253 } # Notify
 					}
 					10 = {
-						add_trait = depressed
+						add_trait = depressed_hidden
 						set_character_flag = bad_diwali
 						character_event = { id = 38288 } # Notify
 					}
 					10 = {
-						add_trait = lunatic
+						add_trait = lunatic_hidden
 						set_character_flag = bad_diwali
 						character_event = { id = 38304 } # Notify
 					}
@@ -1194,7 +1194,7 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 	}
 	option = {
@@ -1526,7 +1526,7 @@ character_event = {
 				}
 			}
 		}
-		add_trait = stressed
+		add_trait = stressed_hidden
 		set_character_flag = bad_diwali
 	}
 }
@@ -1722,7 +1722,7 @@ character_event = {
 					trait = cruel_hidden
 				} } 
 			}
-			add_trait = cruel
+			add_trait = cruel_hidden
 		}
 		if = {
 			limit = {
@@ -1733,7 +1733,7 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = zealous
+				add_trait = zealous_hidden
 			}
 		}
 		character_event = { id = RoI.1178 }

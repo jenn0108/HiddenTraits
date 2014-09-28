@@ -282,7 +282,7 @@ character_event = {
 							}
 						}
 					}
-					add_trait = content
+					add_trait = content_hidden
 					piety = 20
 				}
 			}

@@ -159,7 +159,7 @@ character_event = {
 		
 	option = {
 		name = "EVTOPTA1500"
-		add_trait = gluttonous
+		add_trait = gluttonous_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -181,7 +181,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = gluttonous
+			add_trait = gluttonous_hidden
 		}
 	}
 	
@@ -342,7 +342,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1510"
-		add_trait = temperate
+		add_trait = temperate_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -364,7 +364,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = temperate
+			add_trait = temperate_hidden
 		}
 	}
 	
@@ -530,7 +530,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1520"
-		add_trait = greedy
+		add_trait = greedy_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -552,7 +552,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = greedy
+			add_trait = greedy_hidden
 		}
 	}
 	
@@ -718,7 +718,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1530"
-		add_trait = charitable
+		add_trait = charitable_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -740,7 +740,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = charitable
+			add_trait = charitable_hidden
 		}
 	}
 	
@@ -907,7 +907,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1540"
-		add_trait = slothful
+		add_trait = slothful_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -929,7 +929,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = slothful
+			add_trait = slothful_hidden
 		}
 	}
 	
@@ -1097,7 +1097,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1550"
-		add_trait = diligent
+		add_trait = diligent_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -1119,7 +1119,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = diligent
+			add_trait = diligent_hidden
 		}
 	}
 	
@@ -1299,7 +1299,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1560"
-		add_trait = envious
+		add_trait = envious_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -1321,7 +1321,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = envious
+			add_trait = envious_hidden
 		}
 	}
 	
@@ -1507,7 +1507,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1570"
-		add_trait = kind
+		add_trait = kind_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -1529,7 +1529,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = kind
+			add_trait = kind_hidden
 		}
 	}
 	
@@ -1682,7 +1682,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1580"
-		add_trait = wroth
+		add_trait = wroth_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -1704,7 +1704,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = wroth
+			add_trait = wroth_hidden
 		}
 	}
 	
@@ -1856,7 +1856,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1590"
-		add_trait = patient
+		add_trait = patient_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -1878,7 +1878,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = patient
+			add_trait = patient_hidden
 		}
 	}
 	
@@ -2031,7 +2031,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1600"
-		add_trait = proud
+		add_trait = proud_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -2053,7 +2053,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = proud
+			add_trait = proud_hidden
 		}
 	}
 	
@@ -2205,7 +2205,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1610"
-		add_trait = humble
+		add_trait = humble_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -2227,7 +2227,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = humble
+			add_trait = humble_hidden
 		}
 	}
 	
@@ -2381,7 +2381,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1620"
-		add_trait = deceitful
+		add_trait = deceitful_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -2403,7 +2403,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = deceitful
+			add_trait = deceitful_hidden
 		}
 	}
 	
@@ -2561,7 +2561,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1630"
-		add_trait = zealous
+		add_trait = zealous_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -2583,7 +2583,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = zealous
+			add_trait = zealous_hidden
 		}
 	}
 	
@@ -2733,7 +2733,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1630"
-		add_trait = zealous
+		add_trait = zealous_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -2887,7 +2887,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1640"
-		add_trait = honest
+		add_trait = honest_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -2909,7 +2909,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = honest
+			add_trait = honest_hidden
 		}
 	}
 	
@@ -3061,7 +3061,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1650"
-		add_trait = craven
+		add_trait = craven_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3083,7 +3083,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = craven
+			add_trait = craven_hidden
 		}
 	}
 	
@@ -3236,7 +3236,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1660"
-		add_trait = brave
+		add_trait = brave_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3258,7 +3258,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = brave
+			add_trait = brave_hidden
 		}
 	}
 	
@@ -3410,7 +3410,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1670"
-		add_trait = shy
+		add_trait = shy_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3432,7 +3432,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = shy
+			add_trait = shy_hidden
 		}
 	}
 	
@@ -3585,7 +3585,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1680"
-		add_trait = gregarious
+		add_trait = gregarious_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3607,7 +3607,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = gregarious
+			add_trait = gregarious_hidden
 		}
 	}
 	
@@ -3682,7 +3682,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1690"
-		add_trait = ambitious
+		add_trait = ambitious_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3704,7 +3704,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = ambitious
+			add_trait = ambitious_hidden
 		}
 	}
 	
@@ -3779,7 +3779,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1700"
-		add_trait = content
+		add_trait = content_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3801,7 +3801,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = content
+			add_trait = content_hidden
 		}
 	}
 	
@@ -3953,7 +3953,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1710"
-		add_trait = arbitrary
+		add_trait = arbitrary_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -3975,7 +3975,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = arbitrary
+			add_trait = arbitrary_hidden
 		}
 	}
 	
@@ -4127,7 +4127,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1720"
-		add_trait = just
+		add_trait = just_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -4149,7 +4149,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = just
+			add_trait = just_hidden
 		}
 	}
 	
@@ -4304,7 +4304,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1730"
-		add_trait = cynical
+		add_trait = cynical_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -4326,7 +4326,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 	}
 	
@@ -4476,7 +4476,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1730"
-		add_trait = cynical
+		add_trait = cynical_hidden
 		hidden_tooltip = {
 			guardian = {
 				character_event = {
@@ -4498,7 +4498,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = cynical
+			add_trait = cynical_hidden
 		}
 	}
 	
@@ -4652,7 +4652,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1965"
-		add_trait = cruel
+		add_trait = cruel_hidden
 		if = {
 			limit = { religion = jain }
 			piety = -20
@@ -4679,7 +4679,7 @@ character_event = {
 	
 	immediate = {
 		hidden_tooltip = {
-			add_trait = cruel
+			add_trait = cruel_hidden
 		}
 	}
 	
@@ -4791,7 +4791,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1980"
-		add_trait = homosexual
+		add_trait = homosexual_hidden
 	}
 }
 
@@ -4946,7 +4946,7 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA1980"
-		add_trait = homosexual
+		add_trait = homosexual_hidden
 	}
 }
 

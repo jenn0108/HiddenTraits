@@ -928,7 +928,7 @@ character_event = {
 		change_stewardship = 2
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = gardener
+			add_trait = gardener_hidden
 		}
 	}
 }
@@ -1270,7 +1270,7 @@ character_event = {
 	option = {
 		name = EVTOPTA94085
 		character_event = { id = 94088 days = 5 tooltip = EVTTOOLTIP94088 }
-		add_trait = wounded
+		add_trait = wounded_hidden
 	}
 }
 
@@ -2490,7 +2490,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = deceitful
+				add_trait = deceitful_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -2683,7 +2683,7 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = deceitful
+				add_trait = deceitful_hidden
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -3167,7 +3167,7 @@ character_event = {
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		random = {
 			chance = 20
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 	}
 	option = {
@@ -3182,7 +3182,7 @@ character_event = {
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		random = {
 			chance = 5
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 	}
 	option = {
@@ -3202,7 +3202,7 @@ character_event = {
 		}
 		random = {
 			chance = 10
-			add_trait = wounded
+			add_trait = wounded_hidden
 		}
 	}
 }

@@ -441,7 +441,7 @@ character_event = {
 			imprison = yes
 		}
 		wealth = 300
-		add_trait = cruel
+		add_trait = cruel_hidden
 		set_character_flag = stolen_church_properties
 	}
 	option = {
@@ -476,7 +476,7 @@ character_event = {
 				} } 
 			}
 			change_stewardship = -1
-			add_trait = zealous
+			add_trait = zealous_hidden
 		}
 		set_character_flag = stolen_church_properties
 	}
@@ -563,7 +563,7 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA38022 
-		add_trait = excommunicated
+		add_trait = excommunicated_hidden
 		piety = -50
 	}
 }
