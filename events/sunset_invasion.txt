@@ -175,8 +175,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops = 
-				{
+				troops = {
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -199,8 +198,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -223,8 +221,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -248,8 +245,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -272,8 +268,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -296,8 +291,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -321,8 +315,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -345,8 +338,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -369,8 +361,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -394,8 +385,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -418,8 +408,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -442,8 +431,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -469,8 +457,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -493,8 +480,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -517,8 +503,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -545,8 +530,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -569,8 +553,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -593,8 +576,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -621,8 +603,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -645,8 +626,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -669,8 +649,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -699,8 +678,7 @@ narrative_event = {
 							home = FROM
 							owner = ROOT
 							earmark = aztec_invasion_fleet
-							troops =
-							{
+							troops ={
 								galleys = { 1000 1000 }
 							}
 						}
@@ -956,8 +934,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -980,8 +957,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1004,8 +980,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1029,8 +1004,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1053,8 +1027,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1077,8 +1050,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1102,8 +1074,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1126,8 +1097,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1150,8 +1120,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1175,8 +1144,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1199,8 +1167,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1223,8 +1190,7 @@ narrative_event = {
 			spawn_unit = {
 				province = FROM
 				home = FROM
-				troops =
-				{
+				troops ={
 					heavy_infantry = { 2800 2800 }
 					light_infantry = { 1400 1300 }
 					archers = { 1400 1300 }
@@ -1250,8 +1216,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -1274,8 +1239,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -1298,84 +1262,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
-						heavy_infantry = { 2800 2800 }
-						light_infantry = { 1400 1300 }
-						archers = { 1400 1300 }
-					}
-				}
-			}
-		}
-		
-		random = {
-			chance = 50
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = aztec
-				culture = nahuatl
-				female = no
-				age = 30
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = FROM
-					home = FROM
-					troops =
-					{
-						heavy_infantry = { 2800 2800 }
-						light_infantry = { 1400 1300 }
-						archers = { 1400 1300 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = aztec
-				culture = nahuatl
-				female = no
-				age = 25
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = FROM
-					home = FROM
-					troops =
-					{
-						heavy_infantry = { 2800 2800 }
-						light_infantry = { 1400 1300 }
-						archers = { 1400 1300 }
-					}
-				}
-			}
-			create_character = {
-				random_traits = yes
-				dynasty = random
-				religion = aztec
-				culture = nahuatl
-				female = no
-				age = 22
-				attributes = {
-					martial = 12
-				}
-				trait = brilliant_strategist
-			}
-			new_character = {
-				spawn_unit = {
-					province = FROM
-					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -1402,8 +1289,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -1426,8 +1312,7 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -1450,8 +1335,80 @@ narrative_event = {
 				spawn_unit = {
 					province = FROM
 					home = FROM
-					troops =
-					{
+					troops ={
+						heavy_infantry = { 2800 2800 }
+						light_infantry = { 1400 1300 }
+						archers = { 1400 1300 }
+					}
+				}
+			}
+		}
+		
+		random = {
+			chance = 50
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = aztec
+				culture = nahuatl
+				female = no
+				age = 30
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					troops ={
+						heavy_infantry = { 2800 2800 }
+						light_infantry = { 1400 1300 }
+						archers = { 1400 1300 }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = aztec
+				culture = nahuatl
+				female = no
+				age = 25
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					troops ={
+						heavy_infantry = { 2800 2800 }
+						light_infantry = { 1400 1300 }
+						archers = { 1400 1300 }
+					}
+				}
+			}
+			create_character = {
+				random_traits = yes
+				dynasty = random
+				religion = aztec
+				culture = nahuatl
+				female = no
+				age = 22
+				attributes = {
+					martial = 12
+				}
+				trait = brilliant_strategist
+			}
+			new_character = {
+				spawn_unit = {
+					province = FROM
+					home = FROM
+					troops ={
 						heavy_infantry = { 2800 2800 }
 						light_infantry = { 1400 1300 }
 						archers = { 1400 1300 }
@@ -1480,8 +1437,7 @@ narrative_event = {
 							home = FROM
 							owner = ROOT
 							earmark = aztec_invasion_fleet
-							troops =
-							{
+							troops ={
 								galleys = { 1000 1000 }
 							}
 						}
