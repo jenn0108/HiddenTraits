@@ -7,6 +7,14 @@ import re
 # Operate under the assumption that we are running from the root of the mod directory.
 constPathName = ".\\"
 
+def getPrefixTabs(line):
+	tabsMatch = re.match("(\t*)",line)
+	tabs = ""
+	if (tabsMatch):
+		tabs = tabsMatch.group(1)
+		
+	return tabs
+
 def processFile(infileFullPath, matchRegEx, replaceRegEx, scopeRegEx, isIn):
 	# Open the new file which we are going to write out to.  We will delete
 	# the original file and rename the new one.
@@ -46,10 +54,7 @@ def processFile(infileFullPath, matchRegEx, replaceRegEx, scopeRegEx, isIn):
 					# We're doing a replacement and it has a newline in it.  We'll replace each newline with an appropriate
 					# number of tabs in order to preserve the look of the file.  We're also going to be changing the structure
 					# so that the scope opens on the first line, and the close happen on the last.
-					tabsMatch = re.match("(\t*)",line)
-					tabs = ""
-					if (tabsMatch):
-						tabs = tabsMatch.group(1)
+					tabs = getPrefixTabs(line)
 					
 					# Update the replacement so that each newline has an appropriate number of tabs.  We add an extra one
 					# since the lines after the opener should be indented.  We can't use re.sub here because it doesn't match
@@ -87,10 +92,7 @@ def processFile(infileFullPath, matchRegEx, replaceRegEx, scopeRegEx, isIn):
 			
 		# Fall through.  Do the replacement if the lines match.
 		if (scopes[-1]):
-			tabsMatch = re.match("(\t*)",line)
-			tabs = ""
-			if (tabsMatch):
-				tabs = tabsMatch.group(1)
+			tabs = getPrefixTabs(line)
 			#Prefix the \n in the replaceRegEx with the appropriate
 			#number of tabs.
 			newFile.write(re.sub(matchRegEx,replaceRegEx.replace("\\n","\\n" + tabs),line))
