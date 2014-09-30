@@ -191,7 +191,7 @@ character_event = {
 						learning = 10
 					}
 					trait = quick_hidden
-					trait = dutiful_cleric_hidden
+					trait = martial_cleric_hidden
 					trait = weak_hidden
 				}
 				new_character = {
