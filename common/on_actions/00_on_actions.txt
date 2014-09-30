@@ -897,7 +897,6 @@ on_marriage = {
  		501 # Zoroastrian "Xwedodah" marriage
  		502 # Messalian close kin marriage
 		708 # Marriage Game achievement
-		hiddentraits.0 # Converting normal traits to hidden traits
  	}
 }
 
