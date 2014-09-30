@@ -8563,6 +8563,9 @@ At most 1 instance(s) of a "immediate" entry are allowed, but there are 2 instan
 At <mod>\events\hunting_events.txt [character_event] (Line 227, column 1):
 At most 1 instance(s) of a "immediate" entry are allowed, but there are 2 instances.
 
+At <mod>\events\initevent.txt [character_event] (Line 4, column 1):
+The event is set to be triggered only, but it is never called.
+
 At <mod>\events\job_spymaster.txt [character_event\option\liege\character_event\id] (Line 1441, column 33):
 "9021" is not a valid CharEventId.
 
@@ -10611,13 +10614,13 @@ This triggered-only non-on action event should not have a weight multiplier.
 At <mod>\events\various_traits_events.txt [character_event] (Line 1987, column 1):
 This triggered-only non-on action event should not have a weight multiplier.
 
-At <mod>\common\on_actions\00_on_actions.txt [on_entering_port\events\700] (Line 1539, column 3):
+At <mod>\common\on_actions\00_on_actions.txt [on_entering_port\events\700] (Line 1542, column 3):
 "700" is not a valid CharEventId, LetterEventId, DiploRespEventId, or NarrativeEventId.
 
-At <mod>\common\on_actions\00_on_actions.txt [on_bi_yearly_pulse\random_events\10] (Line 380, column 3):
+At <mod>\common\on_actions\00_on_actions.txt [on_bi_yearly_pulse\random_events\10] (Line 384, column 3):
 "3283" is not a valid CharEventId, LetterEventId, DiploRespEventId, NarrativeEventId, or 0.
 
-At <mod>\common\on_actions\00_on_actions.txt [on_yearly_pulse\random_events\50] (Line 218, column 3):
+At <mod>\common\on_actions\00_on_actions.txt [on_yearly_pulse\random_events\50] (Line 222, column 3):
 "RoI.3536" is not a valid CharEventId, LetterEventId, DiploRespEventId, NarrativeEventId, or 0.
 
 At <mod>\common\traits\04_traits.txt [jungle_terrain_leader_hidden] (Line 2182, column 1):

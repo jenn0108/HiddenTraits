@@ -17,9 +17,11 @@ character_event = {
 character_event = {
 	id = hiddentraits.1
 	desc = "HTEVTDESC1"
+	picture = "GFX_evt_library"
 	
 	only_playable = yes
 	is_triggered_only = yes
+	ai = no
 	
 	immediate = {
 		if = {
@@ -264,7 +266,7 @@ character_event = {
 			limit = {
 				trait = has_typhoid_fever_hidden
 			}
-			remove_trait = as_typhoid_fever_hidden
+			remove_trait = has_typhoid_fever_hidden
 			add_trait = has_typhoid_fever
 		}
 		if = {
@@ -805,6 +807,454 @@ character_event = {
 			}
 			remove_trait = siege_leader_hidden
 			add_trait = siege_leader
+		}
+		if = {
+			limit = {
+				trait = mujahid_hidden
+			}
+			remove_trait = mujahid_hidden
+			add_trait = mujahid
+		}
+		if = {
+			limit = {
+				trait = hajjaj_hidden
+			}
+			remove_trait = hajjaj_hidden
+			add_trait = hajjaj
+		}
+		if = {
+			limit = {
+				trait = on_hajj_hidden
+			}
+			remove_trait = on_hajj_hidden
+			add_trait = on_hajj
+		}
+		if = {
+			limit = {
+				trait = faqih_hidden
+			}
+			remove_trait = faqih_hidden
+			add_trait = faqih
+		}
+		if = {
+			limit = {
+				trait = hafiz_hidden
+			}
+			remove_trait = hafiz_hidden
+			add_trait = hafiz
+		}
+		if = {
+			limit = {
+				trait = sayyid_hidden
+			}
+			remove_trait = sayyid_hidden
+			add_trait = sayyid
+		}
+		if = {
+			limit = {
+				trait = pilgrim_hidden
+			}
+			remove_trait = pilgrim_hidden
+			add_trait = pilgrim
+		}
+		if = {
+			limit = {
+				trait = mirza_hidden
+			}
+			remove_trait = mirza_hidden
+			add_trait = mirza
+		}
+		if = {
+			limit = {
+				trait = scarred_hidden
+			}
+			remove_trait = scarred_hidden
+			add_trait = scarred
+		}
+		if = {
+			limit = {
+				trait = eunuch_hidden
+			}
+			remove_trait = eunuch_hidden
+			add_trait = eunuch
+		}
+		if = {
+			limit = {
+				trait = blinded_hidden
+			}
+			remove_trait = blinded_hidden
+			add_trait = blinded
+		}
+		if = {
+			limit = {
+				trait = born_in_the_purple_hidden
+			}
+			remove_trait = born_in_the_purple_hidden
+			add_trait = born_in_the_purple
+		}
+		if = {
+			limit = {
+				trait = born_in_the_purple_hidden
+			}
+			remove_trait = born_in_the_purple_hidden
+			add_trait = born_in_the_purple
+		}
+		if = {
+			limit = {
+				trait = augustus_hidden
+			}
+			remove_trait = augustus_hidden
+			add_trait = augustus
+		}
+		if = {
+			limit = {
+				trait = flat_terrain_leader_hidden
+			}
+			remove_trait = flat_terrain_leader_hidden
+			add_trait = flat_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = rough_terrain_leader_hidden
+			}
+			remove_trait = rough_terrain_leader_hidden
+			add_trait = rough_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = mountain_terrain_leader_hidden
+			}
+			remove_trait = mountain_terrain_leader_hidden
+			add_trait = mountain_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = desert_terrain_leader_hidden
+			}
+			remove_trait = desert_terrain_leader_hidden
+			add_trait = desert_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = holy_warrior_hidden
+			}
+			remove_trait = holy_warrior_hidden
+			add_trait = holy_warrior
+		}
+		if = {
+			limit = {
+				trait = unyielding_leader_hidden
+			}
+			remove_trait = unyielding_leader_hidden
+			add_trait = unyielding_leader
+		}
+		if = {
+			limit = {
+				trait = has_aztec_disease_hidden
+			}
+			remove_trait = has_aztec_disease_hidden
+			add_trait = has_aztec_disease
+		}
+		if = {
+			limit = {
+				trait = child_of_consort_hidden
+			}
+			remove_trait = child_of_consort_hidden
+			add_trait = child_of_consort
+		}
+		if = {
+			limit = {
+				trait = peasant_leader_hidden
+			}
+			remove_trait = peasant_leader_hidden
+			add_trait = peasant_leader
+		}
+		if = {
+			limit = {
+				trait = heresiarch_hidden
+			}
+			remove_trait = heresiarch_hidden
+			add_trait = heresiarch
+		}
+		if = {
+			limit = {
+				trait = berserker_hidden
+			}
+			remove_trait = berserker_hidden
+			add_trait = berserker
+		}
+		if = {
+			limit = {
+				trait = varangian_hidden
+			}
+			remove_trait = varangian_hidden
+			add_trait = varangian
+		}
+		if = {
+			limit = {
+				trait = saoshyant_hidden
+			}
+			remove_trait = saoshyant_hidden
+			add_trait = saoshyant
+		}
+		if = {
+			limit = {
+				trait = saoshyant_descendant_hidden
+			}
+			remove_trait = saoshyant_descendant_hidden
+			add_trait = saoshyant_descendant
+		}
+		if = {
+			limit = {
+				trait = viking_hidden
+			}
+			remove_trait = viking_hidden
+			add_trait = viking
+		}
+		if = {
+			limit = {
+				trait = monk_hidden
+			}
+			remove_trait = monk_hidden
+			add_trait = monk
+		}
+		if = {
+			limit = {
+				trait = nun_hidden
+			}
+			remove_trait = nun_hidden
+			add_trait = nun
+		}
+		if = {
+			limit = {
+				trait = on_pilgrimage_hidden
+			}
+			remove_trait = on_pilgrimage_hidden
+			add_trait = on_pilgrimage
+		}
+		if = {
+			limit = {
+				trait = sickly_hidden
+			}
+			remove_trait = sickly_hidden
+			add_trait = sickly
+		}
+		if = {
+			limit = {
+				trait = mutazilite_hidden
+			}
+			remove_trait = mutazilite_hidden
+			add_trait = mutazilite
+		}
+		if = {
+			limit = {
+				trait = ashari_hidden
+			}
+			remove_trait = ashari_hidden
+			add_trait = ashari
+		}
+		if = {
+			limit = {
+				trait = sympathy_christendom_hidden
+			}
+			remove_trait = sympathy_christendom_hidden
+			add_trait = sympathy_christendom
+		}
+		if = {
+			limit = {
+				trait = sympathy_islam_hidden
+			}
+			remove_trait = sympathy_islam_hidden
+			add_trait = sympathy_islam
+		}
+		if = {
+			limit = {
+				trait = sympathy_pagans_hidden
+			}
+			remove_trait = sympathy_pagans_hidden
+			add_trait = sympathy_pagans
+		}
+		if = {
+			limit = {
+				trait = sympathy_zoroastrianism_hidden
+			}
+			remove_trait = sympathy_zoroastrianism_hidden
+			add_trait = sympathy_zoroastrianism
+		}
+		if = {
+			limit = {
+				trait = sympathy_judaism_hidden
+			}
+			remove_trait = sympathy_judaism_hidden
+			add_trait = sympathy_judaism
+		}
+		if = {
+			limit = {
+				trait = bad_priest_christian_hidden
+			}
+			remove_trait = bad_priest_christian_hidden
+			add_trait = bad_priest_christian
+		}
+		if = {
+			limit = {
+				trait = bad_priest_muslim_hidden
+			}
+			remove_trait = bad_priest_muslim_hidden
+			add_trait = bad_priest_muslim
+		}
+		if = {
+			limit = {
+				trait = bad_priest_norse_hidden
+			}
+			remove_trait = bad_priest_norse_hidden
+			add_trait = bad_priest_norse
+		}
+		if = {
+			limit = {
+				trait = bad_priest_tengri_hidden
+			}
+			remove_trait = bad_priest_tengri_hidden
+			add_trait = bad_priest_tengri
+		}
+		if = {
+			limit = {
+				trait = bad_priest_zoroastrian_hidden
+			}
+			remove_trait = bad_priest_zoroastrian_hidden
+			add_trait = bad_priest_zoroastrian
+		}
+		if = {
+			limit = {
+				trait = bad_priest_aztec_hidden
+			}
+			remove_trait = bad_priest_aztec_hidden
+			add_trait = bad_priest_aztec
+		}
+		if = {
+			limit = {
+				trait = narrow_flank_leader_hidden
+			}
+			remove_trait = narrow_flank_leader_hidden
+			add_trait = narrow_flank_leader
+		}
+		if = {
+			limit = {
+				trait = brahmin_hidden
+			}
+			remove_trait = brahmin_hidden
+			add_trait = brahmin
+		}
+		if = {
+			limit = {
+				trait = kshatriya_hidden
+			}
+			remove_trait = kshatriya_hidden
+			add_trait = kshatriya
+		}
+		if = {
+			limit = {
+				trait = vaishya_hidden
+			}
+			remove_trait = vaishya_hidden
+			add_trait = vaishya
+		}
+		if = {
+			limit = {
+				trait = sympathy_indian_hidden
+			}
+			remove_trait = sympathy_indian_hidden
+			add_trait = sympathy_indian
+		}
+		if = {
+			limit = {
+				trait = shaivist_hindu_hidden
+			}
+			remove_trait = shaivist_hindu_hidden
+			add_trait = shaivist_hindu
+		}
+		if = {
+			limit = {
+				trait = vaishnavist_hindu_hidden
+			}
+			remove_trait = vaishnavist_hindu_hidden
+			add_trait = vaishnavist_hindu
+		}
+		if = {
+			limit = {
+				trait = shaktist_hindu_hidden
+			}
+			remove_trait = shaktist_hindu_hidden
+			add_trait = shaktist_hindu
+		}
+		if = {
+			limit = {
+				trait = smartist_hindu_hidden
+			}
+			remove_trait = smartist_hindu_hidden
+			add_trait = smartist_hindu
+		}
+		if = {
+			limit = {
+				trait = mahayana_buddhist_hidden
+			}
+			remove_trait = mahayana_buddhist_hidden
+			add_trait = mahayana_buddhist
+		}
+		if = {
+			limit = {
+				trait = vajrayana_buddhist_hidden
+			}
+			remove_trait = vajrayana_buddhist_hidden
+			add_trait = vajrayana_buddhist
+		}
+		if = {
+			limit = {
+				trait = theravada_buddhist_hidden
+			}
+			remove_trait = theravada_buddhist_hidden
+			add_trait = theravada_buddhist
+		}
+		if = {
+			limit = {
+				trait = digambara_jain_hidden
+			}
+			remove_trait = digambara_jain_hidden
+			add_trait = digambara_jain
+		}
+		if = {
+			limit = {
+				trait = svetambara_jain_hidden
+			}
+			remove_trait = svetambara_jain_hidden
+			add_trait = svetambara_jain
+		}
+		if = {
+			limit = {
+				trait = decadent_hidden
+			}
+			remove_trait = decadent_hidden
+			add_trait = decadent
+		}
+		if = {
+			limit = {
+				trait = reincarnation_hidden
+			}
+			remove_trait = reincarnation_hidden
+			add_trait = reincarnation
+		}
+		if = {
+			limit = {
+				trait = war_elephant_leader_hidden
+			}
+			remove_trait = war_elephant_leader_hidden
+			add_trait = war_elephant_leader
+		}
+		if = {
+			limit = {
+				trait = jungle_terrain_leader_hidden
+			}
+			remove_trait = jungle_terrain_leader_hidden
+			add_trait = jungle_terrain_leader
 		}
 	}
 	
