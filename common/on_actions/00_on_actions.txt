@@ -858,6 +858,7 @@ on_birth = {
 on_adulthood = {
 	events = {
 		SoA.3020 # Demon child's true nature asserts itself
+		hiddentraits.4 # Hide any the education trait the character got.
 	}
 }
 
