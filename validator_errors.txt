@@ -10611,7 +10611,7 @@ This triggered-only non-on action event should not have a weight multiplier.
 At <mod>\events\various_traits_events.txt [character_event] (Line 1987, column 1):
 This triggered-only non-on action event should not have a weight multiplier.
 
-At <mod>\common\on_actions\00_on_actions.txt [on_entering_port\events\700] (Line 1542, column 3):
+At <mod>\common\on_actions\00_on_actions.txt [on_entering_port\events\700] (Line 1543, column 3):
 "700" is not a valid CharEventId, LetterEventId, DiploRespEventId, or NarrativeEventId.
 
 At <mod>\common\on_actions\00_on_actions.txt [on_bi_yearly_pulse\random_events\10] (Line 384, column 3):

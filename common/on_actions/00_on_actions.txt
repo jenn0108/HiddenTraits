@@ -846,6 +846,7 @@ on_birth = {
 		TOG.3206 # Child Perceived to be Demon Born
 		706 # Full House achievement
 		707 # Keeping it in the Family achievement
+		hiddentraits.2 # Hid any normal traits that the character may have inherited
 	}
 	random_events = {
 		200 = 0
