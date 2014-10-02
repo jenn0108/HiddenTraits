@@ -443,32 +443,32 @@ guiTypes = {
 			
 			guiButtonType =	{
 				name = "sortbutton_diplomacy"
-				position = { x=311 y=-3}
+				position = { x=9999 y=-3}
 				quadTextureSprite ="GFX_icon_diplomacy"	
 				clicksound = click_03
 			}
 			guiButtonType =	{
 				name = "sortbutton_military"
-				position = { x=338 y=-3}
+				position = { x=9999 y=-3}
 				quadTextureSprite ="GFX_icon_martial"	
 				clicksound = click_03
 			}
 			guiButtonType =	{
 				name = "sortbutton_stewardship"
-				position = { x=365 y=-2}
+				position = { x=9999 y=-2}
 				quadTextureSprite ="GFX_icon_stewardship"	
 				clicksound = click_03
 			}
 			guiButtonType =	{
 				name = "sortbutton_intrigue"
-				position = { x=392 y=-2}
+				position = { x=9999 y=-2}
 				quadTextureSprite ="GFX_icon_intrigue"	
 				clicksound = click_03
 			}
 			
 			guiButtonType =	{
 				name = "sortbutton_learning"
-				position = { x=417 y=-3}
+				position = { x=9999 y=-3}
 				quadTextureSprite ="GFX_icon_learning"	
 				clicksound = click_03
 			}
@@ -696,7 +696,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "character_military"
-			position = { x = 338 y = 7 }
+			position = { x = 9999 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -708,7 +708,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "character_stewardship"
-			position = { x = 365 y = 7 }
+			position = { x = 9999 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -720,7 +720,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "character_intrigue"
-			position = { x = 392 y = 7 }
+			position = { x = 9999 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -732,7 +732,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 			name = "character_learning"
-			position = { x = 419 y = 7 }
+			position = { x = 9999 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
