@@ -8332,6 +8332,90 @@ The spouse, ID 205785, is only 15 years old on 1183.1.2, the date of marriage.
 At <mod>\history\characters\welsh.txt [204051\1126.1.1\birth] (Line 102, column 3):
 This character, 204051, is a bastard/legit_bastard, but does not have the trait.
 
+At <mod>\decisions\conversion_decisions.txt [decisions\convert_to_spouse_hindu\effect\if\random\add_trait] (Line 3077, column 6):
+"sympathy_pagan" is not a valid Trait.
+
+At <mod>\decisions\conversion_decisions.txt [decisions\convert_to_spouse_hindu\effect\if\random\add_trait] (Line 3086, column 6):
+"sympathy_pagan" is not a valid Trait.
+
+At <mod>\decisions\crown_laws.txt [de_jure_laws\investiture_law_1\ai_will_do] (Line 454, column 3):
+The required "factor" entry was not found.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_antiking_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 935, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_antiking_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 936, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_claimant_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 819, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_claimant_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 820, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_lower_crown_authority_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 519, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_lower_crown_authority_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 520, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_gavelkind_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 402, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_gavelkind_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 403, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_feudal_elective_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 297, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_feudal_elective_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 298, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_primogeniture_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 191, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_primogeniture_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 192, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_seniority_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 86, column 17):
+"succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\faction_decisions.txt [plot_decisions\faction_succ_seniority_ultimatum\ai_will_do\modifier\liege\any_war\OR\AND\NOT\using_cb] (Line 87, column 17):
+"other_succession_on_liege" is not a valid CasusBelli.
+
+At <mod>\decisions\holy_order_decisions.txt [decisions\expel_saint_anthony] (Line 1395, column 2):
+The string expel_saint_anthony was not found in localization.
+
+At <mod>\decisions\minor_decisions.txt [decisions\celebrate_passover\allow\AND] (Line 1008, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
+At <mod>\decisions\minor_decisions.txt [decisions\hold_jarilo\allow\AND] (Line 938, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
+At <mod>\decisions\minor_decisions.txt [decisions\hold_uzgavenes\allow\AND] (Line 866, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
+At <mod>\decisions\minor_decisions.txt [decisions\hold_ukon_juhla\allow\AND] (Line 794, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
+At <mod>\decisions\minor_decisions.txt [decisions\hold_grand_hunt\effect\hidden_tooltip\letter_event\id] (Line 226, column 22):
+"36080" is not a valid LetterEventId.
+
+At <mod>\decisions\minor_decisions.txt [decisions\feast_0\effect\hidden_tooltip\letter_event\id] (Line 61, column 6):
+"72109" is not a valid LetterEventId.
+
+At <mod>\decisions\realm_decisions.txt [decisions\create_leon\effect\narrative_event\id] (Line 786, column 24):
+"62920" is not a valid NarrativeEventId.
+
+At <mod>\decisions\realm_decisions.txt [decisions\make_rome_capital\potential\any_realm_lord\AND] (Line 462, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
+At <mod>\decisions\realm_decisions.txt [decisions\make_rome_capital\potential\any_realm_lord\AND] (Line 468, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
+At <mod>\decisions\realm_decisions.txt [decisions\claim_constantinople\potential\any_realm_lord\AND] (Line 429, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+
 At <mod>\events\achievement_events.txt [character_event\trigger\OR\AND] (Line 291, column 4):
 Since there is only one item within the AND clause, it is redundant and unnecessary.
 
