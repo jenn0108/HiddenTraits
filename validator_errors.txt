@@ -8332,12 +8332,6 @@ The spouse, ID 205785, is only 15 years old on 1183.1.2, the date of marriage.
 At <mod>\history\characters\welsh.txt [204051\1126.1.1\birth] (Line 102, column 3):
 This character, 204051, is a bastard/legit_bastard, but does not have the trait.
 
-At <mod>\decisions\conversion_decisions.txt [decisions\convert_to_spouse_hindu\effect\if\random\add_trait] (Line 3525, column 6):
-"sympathy_pagan_hidden" is not a valid Trait.
-
-At <mod>\decisions\conversion_decisions.txt [decisions\convert_to_spouse_hindu\effect\if\random\add_trait] (Line 3539, column 6):
-"sympathy_pagan_hidden" is not a valid Trait.
-
 At <mod>\decisions\crown_laws.txt [de_jure_laws\investiture_law_1\ai_will_do] (Line 454, column 3):
 The required "factor" entry was not found.
 
