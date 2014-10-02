@@ -459,7 +459,12 @@ de_jure_laws = {
 				factor = 0
 				OR = {
 					holder_scope = {
-						NOT = { trait = cynical }
+						NOT = {
+							 OR = {
+								trait = cynical
+								trait = cynical_hidden
+							} 
+						}
 					}
 					NOT = { has_law = investiture_law_0 }
 				}

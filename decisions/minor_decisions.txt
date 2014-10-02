@@ -76,7 +76,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -159,7 +162,10 @@ decisions = {
 
 			modifier = {
 				factor = 0
-				trait = slothful
+				OR = {
+					trait = slothful
+					trait = slothful_hidden
+				}
 			}	
 			
 			modifier = {
@@ -240,7 +246,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}			
 			modifier = {
 				factor = 0
@@ -287,7 +296,12 @@ decisions = {
 			}
 			NOT = { month = 10 }
 			wealth = 25
-			NOT = {	trait = incapable }
+			NOT = {
+					OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prisoner = no
 			NOT = { religion = jain }
 		}
@@ -334,7 +348,12 @@ decisions = {
 			has_dlc = "Rajas of India"
 			is_playable = yes
 			age = 16
-			not = { trait = incapable }
+			not = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			religion = hindu
 			NOT = {
 				has_character_modifier = patron_shiva
@@ -358,11 +377,17 @@ decisions = {
 			factor = 0.01
 			modifier = {
 				factor = 5
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 		}
 	}
@@ -372,7 +397,12 @@ decisions = {
 			has_dlc = "Sons of Abraham"
 			is_ruler = yes
 			religion_group = christian
-			NOT = { trait = pilgrim }
+			NOT = {
+				 OR = {
+					trait = pilgrim
+					trait = pilgrim_hidden
+				} 
+			}
 			NOT = { has_character_flag = do_not_disturb }
 		}
 		allow = {
@@ -387,16 +417,66 @@ decisions = {
 			custom_tooltip = {
 				text = health_travel_condition
 				hidden_tooltip = {
-					NOT = {	trait = pregnant }
-					NOT = {	trait = incapable }
-					NOT = {	trait = blinded }
-					NOT = {	trait = has_tuberculosis }
-					NOT = {	trait = has_typhoid_fever }
-					NOT = {	trait = has_typhus }
-					NOT = {	trait = has_bubonic_plague }
-					NOT = {	trait = has_measles }
-					NOT = {	trait = has_small_pox }
-					NOT = {	trait = has_aztec_disease }
+					NOT = {
+							OR = {
+							trait = pregnant
+							trait = pregnant_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = blinded
+							trait = blinded_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_tuberculosis
+							trait = has_tuberculosis_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_typhoid_fever
+							trait = has_typhoid_fever_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_typhus
+							trait = has_typhus_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_bubonic_plague
+							trait = has_bubonic_plague_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_measles
+							trait = has_measles_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_small_pox
+							trait = has_small_pox_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_aztec_disease
+							trait = has_aztec_disease_hidden
+						} 
+					}
 				}
 			}
 		}
@@ -421,7 +501,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 3
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -440,8 +523,18 @@ decisions = {
 			is_female = no
 			is_ruler = yes
 			religion_group = muslim
-			NOT = { trait = hajjaj }
-			NOT = { trait = on_hajj }
+			NOT = {
+				 OR = {
+					trait = hajjaj
+					trait = hajjaj_hidden
+				} 
+			}
+			NOT = {
+				 OR = {
+					trait = on_hajj
+					trait = on_hajj_hidden
+				} 
+			}
 			NOT = {	has_character_flag = preparing_hajj }
 			NOT = {	has_character_flag = ramadan }
 			NOT = {	has_character_flag = activated_hajj }
@@ -459,15 +552,60 @@ decisions = {
 			custom_tooltip = {
 				text = health_travel_condition
 				hidden_tooltip = {
-					NOT = {	trait = incapable }
-					NOT = {	trait = blinded }
-					NOT = {	trait = has_tuberculosis }
-					NOT = {	trait = has_typhoid_fever }
-					NOT = {	trait = has_typhus }
-					NOT = {	trait = has_bubonic_plague }
-					NOT = {	trait = has_measles }
-					NOT = {	trait = has_small_pox }
-					NOT = {	trait = has_aztec_disease }
+					NOT = {
+							OR = {
+							trait = incapable
+							trait = incapable_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = blinded
+							trait = blinded_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_tuberculosis
+							trait = has_tuberculosis_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_typhoid_fever
+							trait = has_typhoid_fever_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_typhus
+							trait = has_typhus_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_bubonic_plague
+							trait = has_bubonic_plague_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_measles
+							trait = has_measles_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_small_pox
+							trait = has_small_pox_hidden
+						} 
+					}
+					NOT = {
+							OR = {
+							trait = has_aztec_disease
+							trait = has_aztec_disease_hidden
+						} 
+					}
 				}
 			}
 		}
@@ -480,9 +618,13 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = decadent
+					OR = {
+						trait = decadent
+						trait = decadent_hidden
+					}
 				}
 				remove_trait = decadent
+				remove_trait = decadent_hidden
 			}
 
 			hidden_tooltip = {
@@ -499,17 +641,26 @@ decisions = {
 			
 			modifier = {
 				factor = 0
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 0
 				is_ruler = no
-				trait = decadent
+				OR = {
+					trait = decadent
+					trait = decadent_hidden
+				}
 			}
 			modifier = {
 				factor = 2
 				is_ruler = yes
-				trait = decadent
+				OR = {
+					trait = decadent
+					trait = decadent_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -535,8 +686,14 @@ decisions = {
 			NOT = { 
 				has_character_flag = ramadan
 				has_character_modifier = observed_ramadan
-				trait = on_hajj
-				trait = incapable
+				OR = {
+					trait = on_hajj
+					trait = on_hajj_hidden
+				}
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 			}
 		}
 		allow = {
@@ -567,10 +724,16 @@ decisions = {
 	commit_suicide = {
 		potential = {
 			age = 16
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		allow = {
-			trait = depressed
+			OR = {
+				trait = depressed
+				trait = depressed_hidden
+			}
 		}
 		effect = {
 			prestige = -200
@@ -680,7 +843,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = craven
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -753,7 +919,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -825,7 +994,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -897,7 +1069,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -969,7 +1144,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -1039,7 +1217,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -1151,12 +1332,20 @@ decisions = {
 			religion = hindu
 			is_feudal = yes
 			has_dlc = "Rajas of India"
-			NOT = { trait = kshatriya }
+			NOT = {
+				 OR = {
+					trait = kshatriya
+					trait = kshatriya_hidden
+				} 
+			}
 		}
 		
 		allow = {
 			OR = {
-				trait = brahmin
+				OR = {
+					trait = brahmin
+					trait = brahmin_hidden
+				}
 				piety = 200
 			}
 			OR = {
@@ -1178,12 +1367,17 @@ decisions = {
 				scaled_wealth = -6
 			}
 			if = {
-				limit = { NOT = { trait = brahmin } }
+				limit = {
+					 NOT = { OR = {
+						trait = brahmin
+						trait = brahmin_hidden
+					} } 
+				}
 				piety = -200
 			}
 			
 			prestige = 50
-			add_trait = kshatriya
+			add_trait = kshatriya_hidden
 			hidden_tooltip = {
 				top_liege = {
 					any_realm_character = {
@@ -1191,7 +1385,12 @@ decisions = {
 							religion = hindu
 							is_adult = yes
 							NOT = { character = ROOT }
-							NOT = { trait = cynical }
+							NOT = {
+								 OR = {
+									trait = cynical
+									trait = cynical_hidden
+								} 
+							}
 						}
 						opinion = {
 							modifier = opinion_changed_caste
@@ -1221,7 +1420,12 @@ decisions = {
 			is_feudal = yes
 			prisoner = no
 			religion = hindu
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			NOT = { has_character_modifier = patron_kali }
 			NOT = {
 				has_character_modifier = holding_diwali_feast
@@ -1280,7 +1484,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.5
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
@@ -1310,7 +1517,12 @@ decisions = {
 			is_feudal = yes
 			prisoner = no
 			religion = buddhist
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			NOT = {
 				has_character_modifier = holding_diwali_feast
 			}
@@ -1370,7 +1582,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.5
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
@@ -1400,7 +1615,12 @@ decisions = {
 			is_feudal = yes
 			prisoner = no
 			religion = jain
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			NOT = {
 				has_character_modifier = holding_diwali_feast
 			}
@@ -1460,7 +1680,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.5
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
@@ -1490,7 +1713,12 @@ decisions = {
 			is_feudal = yes
 			prisoner = no
 			religion = hindu
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			OR = {
 				has_character_modifier = patron_kali
 				capital_scope = { kingdom = { title = k_bengal } }
@@ -1556,7 +1784,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.5
-				trait = shy
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
@@ -1612,7 +1843,10 @@ decisions = {
 			
 			modifier = {
 				factor = 0
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -1643,7 +1877,12 @@ decisions = {
 		allow = {
 			is_adult = yes
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			prestige = 1000
 			realm_size = 220
 			has_landed_title = k_germany

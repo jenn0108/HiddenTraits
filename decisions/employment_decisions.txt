@@ -19,7 +19,7 @@ decisions = {
 						limit = {
 							religion_group = indian_group
 						}
-						add_trait = brahmin
+						add_trait = brahmin_hidden
 						character_event = { id = RoI.30121 }
 					}
 				}
@@ -52,7 +52,7 @@ decisions = {
 						limit = {
 							religion_group = indian_group
 						}
-						add_trait = kshatriya
+						add_trait = kshatriya_hidden
 						character_event = { id = RoI.30121 }
 					}
 				}
@@ -86,7 +86,7 @@ decisions = {
 						limit = {
 							religion_group = indian_group
 						}
-						add_trait = kshatriya
+						add_trait = kshatriya_hidden
 						character_event = { id = RoI.30121 }
 					}
 				}

@@ -10,7 +10,12 @@ decisions = {
 			}
 		}
 		allow = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		effect = {
 			prestige = -500
@@ -32,40 +37,85 @@ decisions = {
 				}
 			}
 			if = {
-				limit = { liege = { trait = shaivist_hindu } }
-				add_trait = shaivist_hindu
+				limit = {
+					 liege = { OR = {
+						trait = shaivist_hindu
+						trait = shaivist_hindu_hidden
+					} } 
+				}
+				add_trait = shaivist_hindu_hidden
 			}
 			if = {
-				limit = { liege = { trait = vaishnavist_hindu } }
-				add_trait = vaishnavist_hindu
+				limit = {
+					 liege = { OR = {
+						trait = vaishnavist_hindu
+						trait = vaishnavist_hindu_hidden
+					} } 
+				}
+				add_trait = vaishnavist_hindu_hidden
 			}
 			if = {
-				limit = { liege = { trait = shaktist_hindu } }
-				add_trait = shaktist_hindu
+				limit = {
+					 liege = { OR = {
+						trait = shaktist_hindu
+						trait = shaktist_hindu_hidden
+					} } 
+				}
+				add_trait = shaktist_hindu_hidden
 			}
 			if = {
-				limit = { liege = { trait = smartist_hindu } }
-				add_trait = smartist_hindu
+				limit = {
+					 liege = { OR = {
+						trait = smartist_hindu
+						trait = smartist_hindu_hidden
+					} } 
+				}
+				add_trait = smartist_hindu_hidden
 			}
 			if = {
-				limit = { liege = { trait = mahayana_buddhist } }
-				add_trait = mahayana_buddhist
+				limit = {
+					 liege = { OR = {
+						trait = mahayana_buddhist
+						trait = mahayana_buddhist_hidden
+					} } 
+				}
+				add_trait = mahayana_buddhist_hidden
 			}
 			if = {
-				limit = { liege = { trait = vajrayana_buddhist } }
-				add_trait = vajrayana_buddhist
+				limit = {
+					 liege = { OR = {
+						trait = vajrayana_buddhist
+						trait = vajrayana_buddhist_hidden
+					} } 
+				}
+				add_trait = vajrayana_buddhist_hidden
 			}
 			if = {
-				limit = { liege = { trait = theravada_buddhist } }
-				add_trait = theravada_buddhist
+				limit = {
+					 liege = { OR = {
+						trait = theravada_buddhist
+						trait = theravada_buddhist_hidden
+					} } 
+				}
+				add_trait = theravada_buddhist_hidden
 			}
 			if = {
-				limit = { liege = { trait = digambara_jain } }
-				add_trait = digambara_jain
+				limit = {
+					 liege = { OR = {
+						trait = digambara_jain
+						trait = digambara_jain_hidden
+					} } 
+				}
+				add_trait = digambara_jain_hidden
 			}
 			if = {
-				limit = { liege = { trait = svetambara_jain } }
-				add_trait = svetambara_jain
+				limit = {
+					 liege = { OR = {
+						trait = svetambara_jain
+						trait = svetambara_jain_hidden
+					} } 
+				}
+				add_trait = svetambara_jain_hidden
 			}
 			piety = 200
 		}
@@ -281,7 +331,12 @@ decisions = {
 			is_heretic = yes
 		}
 		allow = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		effect = {
 			prestige = -500
@@ -348,7 +403,12 @@ decisions = {
 		}
 		
 		allow = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 		}
 		
 		effect = {
@@ -359,11 +419,11 @@ decisions = {
 			
 			if = {
 				limit = { religion_group = pagan_group }
-				add_trait = sympathy_pagans
+				add_trait = sympathy_pagans_hidden
 			}
 			if = {
 				limit = { religion_group = zoroastrian_group }
-				add_trait = sympathy_zoroastrianism
+				add_trait = sympathy_zoroastrianism_hidden
 			}
 			
 			any_war = {
@@ -909,7 +969,12 @@ decisions = {
 			}
 		}
 		allow = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			piety = 50
 		}
 		effect = {
@@ -976,31 +1041,52 @@ decisions = {
 			}
 			modifier = {
 				factor = 0.5
-				trait = slow
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
 			}
 			modifier = {
 				factor = 0.1
-				trait = imbecile
+				OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
 			}
 			modifier = {
 				factor = 0.5
-				trait = content
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
 			}
 			modifier = {
 				factor = 2.0
-				trait = quick
+				OR = {
+					trait = quick
+					trait = quick_hidden
+				}
 			}
 			modifier = {
 				factor = 4.0
-				trait = genius
+				OR = {
+					trait = genius
+					trait = genius_hidden
+				}
 			}
 			modifier = {
 				factor = 5.0
-				trait = cynical # It's the future..
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} # It's the future..
 			}
 			modifier = {
 				factor = 2.0
-				trait = ambitious
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
 			}
 			modifier = {
 				factor = 0
@@ -1018,7 +1104,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = catholic
@@ -1043,20 +1134,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1085,7 +1184,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = cathar
@@ -1110,20 +1214,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1152,7 +1264,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = fraticelli
@@ -1177,20 +1294,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1219,7 +1344,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = waldensian
@@ -1244,20 +1374,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1286,7 +1424,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = lollard
@@ -1311,20 +1454,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1353,7 +1504,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = bogomilist
@@ -1378,20 +1534,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1420,7 +1584,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = nestorian
@@ -1445,20 +1614,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1487,7 +1664,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = monothelite
@@ -1512,20 +1694,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1554,7 +1744,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = iconoclast
@@ -1579,20 +1774,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1621,7 +1824,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = orthodox
@@ -1646,20 +1854,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1688,7 +1904,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = sunni
@@ -1713,20 +1934,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1755,7 +1984,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = zikri
@@ -1780,20 +2014,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1822,7 +2064,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = yazidi
@@ -1847,20 +2094,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1889,7 +2144,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = ibadi
@@ -1914,20 +2174,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -1956,7 +2224,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = shiite
@@ -1981,20 +2254,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2023,7 +2304,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = druze
@@ -2048,20 +2334,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2090,7 +2384,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = hurufi
@@ -2115,20 +2414,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2157,7 +2464,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = zoroastrian
@@ -2182,20 +2494,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2224,7 +2544,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = mazdaki
@@ -2249,20 +2574,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2291,7 +2624,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = manichean
@@ -2316,20 +2654,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2358,7 +2704,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = miaphysite
@@ -2383,20 +2734,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2425,7 +2784,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = monophysite
@@ -2450,20 +2814,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2493,7 +2865,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = jewish
@@ -2518,20 +2895,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2561,7 +2946,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = samaritan
@@ -2586,20 +2976,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2629,7 +3027,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = karaite
@@ -2654,20 +3057,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -2700,7 +3111,12 @@ decisions = {
 		allow = {
 			is_adult = yes
 			prestige = 500
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			any_realm_province = {
 				religion = hindu
 			}
@@ -2783,7 +3199,10 @@ decisions = {
 			}
 			modifier = { # More likely to do it sooner
 				factor = 3
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = { # Sometimes you really need to hurry up
 				factor = 5
@@ -2803,7 +3222,12 @@ decisions = {
 		allow = {
 			is_adult = yes
 			prestige = 500
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			any_realm_province = {
 				religion = buddhist
 			}
@@ -2886,7 +3310,10 @@ decisions = {
 			}
 			modifier = { # More likely to do it sooner
 				factor = 3
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = { # Sometimes you really need to hurry up
 				factor = 5
@@ -2906,7 +3333,12 @@ decisions = {
 		allow = {
 			is_adult = yes
 			prestige = 500
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			any_realm_province = {
 				religion = jain
 			}
@@ -2989,7 +3421,10 @@ decisions = {
 			}
 			modifier = { # More likely to do it sooner
 				factor = 3
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = { # Sometimes you really need to hurry up
 				factor = 5
@@ -3007,7 +3442,12 @@ decisions = {
 			religion_group = indian_group
 		}
 		allow = {
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			prestige = 50
 			custom_tooltip = {
 				text = indian_has_not_converted
@@ -3045,7 +3485,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = hindu
@@ -3070,20 +3515,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagan
+					add_trait = sympathy_pagan_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagan
+					add_trait = sympathy_pagan_hidden
 				}
 			}		
 			
@@ -3100,10 +3553,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = shaivist_hindu
+						OR = {
+							trait = shaivist_hindu
+							trait = shaivist_hindu_hidden
+						}
 					}
 				}
-				add_trait = shaivist_hindu
+				add_trait = shaivist_hindu_hidden
 			}
 			if = {
 				limit = {
@@ -3116,10 +3572,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = vaishnavist_hindu
+						OR = {
+							trait = vaishnavist_hindu
+							trait = vaishnavist_hindu_hidden
+						}
 					}
 				}
-				add_trait = vaishnavist_hindu
+				add_trait = vaishnavist_hindu_hidden
 			}
 			if = {
 				limit = {
@@ -3132,10 +3591,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = shaktist_hindu
+						OR = {
+							trait = shaktist_hindu
+							trait = shaktist_hindu_hidden
+						}
 					}
 				}
-				add_trait = shaktist_hindu
+				add_trait = shaktist_hindu_hidden
 			}
 			if = {
 				limit = {
@@ -3148,10 +3610,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = smartist_hindu
+						OR = {
+							trait = smartist_hindu
+							trait = smartist_hindu_hidden
+						}
 					}
 				}
-				add_trait = smartist_hindu
+				add_trait = smartist_hindu_hidden
 			}
 			hidden_tooltip = {
 				religion_authority = {
@@ -3176,7 +3641,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = buddhist
@@ -3201,20 +3671,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -3231,10 +3709,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = mahayana_buddhist
+						OR = {
+							trait = mahayana_buddhist
+							trait = mahayana_buddhist_hidden
+						}
 					}
 				}
-				add_trait = mahayana_buddhist
+				add_trait = mahayana_buddhist_hidden
 			}
 			if = {
 				limit = {
@@ -3247,10 +3728,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = vajrayana_buddhist
+						OR = {
+							trait = vajrayana_buddhist
+							trait = vajrayana_buddhist_hidden
+						}
 					}
 				}
-				add_trait = vajrayana_buddhist
+				add_trait = vajrayana_buddhist_hidden
 			}
 			if = {
 				limit = {
@@ -3263,10 +3747,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = theravada_buddhist
+						OR = {
+							trait = theravada_buddhist
+							trait = theravada_buddhist_hidden
+						}
 					}
 				}
-				add_trait = theravada_buddhist
+				add_trait = theravada_buddhist_hidden
 			}
 			hidden_tooltip = {
 				religion_authority = {
@@ -3291,7 +3778,12 @@ decisions = {
 			is_playable = yes
 			religion_group = pagan_group
 			controls_religion = no
-			NOT = { trait = zealous }
+			NOT = {
+				 OR = {
+					trait = zealous
+					trait = zealous_hidden
+				} 
+			}
 			OR = {
 				any_spouse = {
 					religion = jain
@@ -3316,20 +3808,28 @@ decisions = {
 			
 			if = {
 				limit = {
-					trait = cynical
+					OR = {
+						trait = cynical
+						trait = cynical_hidden
+					}
 				}
 				random = {
 					chance = 60
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}
 			if = {
 				limit = {
-					NOT = { trait = cynical }
+					NOT = {
+						 OR = {
+							trait = cynical
+							trait = cynical_hidden
+						} 
+					}
 				}
 				random = {
 					chance = 50
-					add_trait = sympathy_pagans
+					add_trait = sympathy_pagans_hidden
 				}
 			}		
 			
@@ -3346,10 +3846,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = digambara_jain
+						OR = {
+							trait = digambara_jain
+							trait = digambara_jain_hidden
+						}
 					}
 				}
-				add_trait = digambara_jain
+				add_trait = digambara_jain_hidden
 			}
 			if = {
 				limit = {
@@ -3362,10 +3865,13 @@ decisions = {
 						hidden_tooltip = {
 							is_alive = yes
 						}
-						trait = svetambara_jain
+						OR = {
+							trait = svetambara_jain
+							trait = svetambara_jain_hidden
+						}
 					}
 				}
-				add_trait = svetambara_jain
+				add_trait = svetambara_jain_hidden
 			}
 			hidden_tooltip = {
 				religion_authority = {

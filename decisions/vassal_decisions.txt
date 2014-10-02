@@ -67,7 +67,12 @@ vassal_decisions = {
 			has_dlc = "Legacy of Rome"
 			prisoner = yes
 			is_female = no
-			NOT = { trait = eunuch }
+			NOT = {
+				 OR = {
+					trait = eunuch
+					trait = eunuch_hidden
+				} 
+			}
 			host = { character = FROM }
 		}
 		allow = {
@@ -89,7 +94,7 @@ vassal_decisions = {
 				}
 			}
 			character_event = { id = LoR.833 tooltip = "EVTTOOLTIPLoR.833" }
-			add_trait = eunuch
+			add_trait = eunuch_hidden
 			prisoner = no
 			opinion = {
 				modifier = opinion_castrated_me
@@ -97,10 +102,15 @@ vassal_decisions = {
 			}
 			FROM = {
 				if = {
-					limit = { NOT = { trait = cruel } }
+					limit = {
+						 NOT = { OR = {
+							trait = cruel
+							trait = cruel_hidden
+						} } 
+					}
 					random = {
 						chance = 25
-						add_trait = cruel
+						add_trait = cruel_hidden
 						hidden_tooltip = {
 							character_event = { id = 38259 }
 						}
@@ -137,7 +147,12 @@ vassal_decisions = {
 			}
 			modifier = {
 				factor = 0
-				FROM = { trait = kind }
+				FROM = {
+					 OR = {
+						trait = kind
+						trait = kind_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 0.2 # Less likely to do it
@@ -146,8 +161,14 @@ vassal_decisions = {
 				factor = 1.2
 				FROM = {
 					OR = {
-						trait = cruel
-						trait = impaler
+						OR = {
+							trait = cruel
+							trait = cruel_hidden
+						}
+						OR = {
+							trait = impaler
+							trait = impaler_hidden
+						}
 					}
 				}
 			}
@@ -163,7 +184,12 @@ vassal_decisions = {
 		potential = {
 			has_dlc = "Legacy of Rome"
 			prisoner = yes
-			NOT = { trait = blinded }
+			NOT = {
+				 OR = {
+					trait = blinded
+					trait = blinded_hidden
+				} 
+			}
 			host = { character = FROM }
 		}
 		allow = {
@@ -176,7 +202,7 @@ vassal_decisions = {
 				}
 			}
 			character_event = { id = LoR.831 tooltip = "EVTTOOLTIPLoR.831" }
-			add_trait = blinded
+			add_trait = blinded_hidden
 			prisoner = no
 			opinion = {
 				modifier = opinion_blinded_me
@@ -184,10 +210,15 @@ vassal_decisions = {
 			}
 			FROM = {
 				if = {
-					limit = { NOT = { trait = cruel } }
+					limit = {
+						 NOT = { OR = {
+							trait = cruel
+							trait = cruel_hidden
+						} } 
+					}
 					random = {
 						chance = 25
-						add_trait = cruel
+						add_trait = cruel_hidden
 						hidden_tooltip = {
 							character_event = { id = 38259 }
 						}
@@ -224,7 +255,12 @@ vassal_decisions = {
 			}
 			modifier = {
 				factor = 0
-				FROM = { trait = kind }
+				FROM = {
+					 OR = {
+						trait = kind
+						trait = kind_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 0.4 # Less likely to do it

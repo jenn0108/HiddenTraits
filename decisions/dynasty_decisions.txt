@@ -9,7 +9,10 @@ dynasty_decisions = {
 		}
 		
 		potential = {
-			trait = bastard
+			OR = {
+				trait = bastard
+				trait = bastard_hidden
+			}
 			is_child_of = FROM
 			is_liege_or_above = FROM
 		}
@@ -19,7 +22,8 @@ dynasty_decisions = {
 		effect = {
 			dynasty = FROM
 			remove_trait = bastard
-			add_trait = legit_bastard
+			remove_trait = bastard_hidden
+			add_trait = legit_bastard_hidden
 			recalc_succession = yes
 			FROM = { piety = -20 }
 			if = {
@@ -58,7 +62,12 @@ dynasty_decisions = {
 					limit = {
 						NOT = { character = ROOT }
 						dynasty = FROM
-						NOT = { trait = bastard }
+						NOT = {
+							 OR = {
+								trait = bastard
+								trait = bastard_hidden
+							} 
+						}
 					}
 					opinion = {
 						who = FROM
@@ -96,7 +105,10 @@ dynasty_decisions = {
 		potential = {
 			is_female = no
 			prisoner = no
-			trait = decadent
+			OR = {
+				trait = decadent
+				trait = decadent_hidden
+			}
 			has_regent = no
 			lower_tier_than = FROM
 		}
@@ -106,7 +118,12 @@ dynasty_decisions = {
 				piety = 100
 				prisoner = no
 				has_regent = no
-				NOT = { trait = decadent }
+				NOT = {
+					 OR = {
+						trait = decadent
+						trait = decadent_hidden
+					} 
+				}
 			}
 			custom_tooltip = {
 				text = "NOT_ALREADY_NEGOTIATED"

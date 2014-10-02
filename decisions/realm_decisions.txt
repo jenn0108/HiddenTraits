@@ -47,7 +47,12 @@ decisions = {
 						NOT = { has_job_title = job_spiritual }
 						age = 16
 						NOT = { age = 50 }
-						NOT = { trait = incapable }
+						NOT = {
+							 OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+						}
 						prisoner = no	
 						is_female = no
 					}
@@ -144,7 +149,12 @@ decisions = {
 			prisoner = no
 			is_playable = yes
 			tier = count
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 		}
 		allow = {
 			liege = {
@@ -254,7 +264,12 @@ decisions = {
 						NOT = { has_job_title = job_spiritual }
 						age = 16
 						NOT = { age = 50 }
-						NOT = { trait = incapable }
+						NOT = {
+							 OR = {
+								trait = incapable
+								trait = incapable_hidden
+							} 
+						}
 						prisoner = no	
 						is_female = no
 					}
@@ -290,7 +305,12 @@ decisions = {
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			NOT = { has_global_flag = rome_restored }
 			has_landed_title = e_byzantium
 			religion_group = christian
@@ -327,7 +347,12 @@ decisions = {
 			has_dlc = "Legacy of Rome"
 			age = 16
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			OR = {
 				has_landed_title = e_byzantium
 				has_landed_title = e_roman_empire
@@ -756,7 +781,7 @@ decisions = {
 			}
 			set_global_flag = saoshyant_appears
 			give_nickname = nick_the_saoshyant
-			add_trait = saoshyant
+			add_trait = saoshyant_hidden
 			prestige = 500
 			piety = 500
 			
@@ -980,7 +1005,10 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 		}
 	}
@@ -996,7 +1024,10 @@ decisions = {
 			NOT = { 
 				religion_group = jewish_group
 				has_character_modifier = expelled_jewish
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
 				any_realm_province = { religion_group = jewish_group }
 			}
 			independent = yes
@@ -1055,17 +1086,29 @@ decisions = {
 			}
 			modifier = {
 				factor = 0
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
-				trait = zealous
-				trait = arbitrary
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
 				has_character_modifier = borrowed_from_jews
-				trait = greedy
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
 			}
 		}
 	}
@@ -1076,8 +1119,14 @@ decisions = {
 			religion = sunni
 			NOT = { 
 				OR = {
-					trait = mutazilite
-					trait = ashari
+					OR = {
+						trait = mutazilite
+						trait = mutazilite_hidden
+					}
+					OR = {
+						trait = ashari
+						trait = ashari_hidden
+					}
 				}
 			}
 			is_ruler = yes
@@ -1090,7 +1139,7 @@ decisions = {
 		}
 		
 		effect = {
-			add_trait = mutazilite
+			add_trait = mutazilite_hidden
 			character_event = { id = SoA.600 tooltip = EVTTOOLTIP_SoA_600 }
 		}
 		
@@ -1103,15 +1152,26 @@ decisions = {
 			
 			modifier = {
 				factor = 0
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
-				liege = { trait = mutazilite }
+				liege = {
+					 OR = {
+						trait = mutazilite
+						trait = mutazilite_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 0.005 # Slow it down
@@ -1124,8 +1184,14 @@ decisions = {
 			religion = sunni
 			NOT = { 
 				OR = {
-					trait = mutazilite
-					trait = ashari
+					OR = {
+						trait = mutazilite
+						trait = mutazilite_hidden
+					}
+					OR = {
+						trait = ashari
+						trait = ashari_hidden
+					}
 				}
 			}
 			is_ruler = yes
@@ -1138,7 +1204,7 @@ decisions = {
 		}
 		
 		effect = {
-			add_trait = ashari
+			add_trait = ashari_hidden
 			character_event = { id = SoA.601 tooltip = EVTTOOLTIP_SoA_601 }
 		}
 		
@@ -1151,15 +1217,26 @@ decisions = {
 			
 			modifier = {
 				factor = 0
-				trait = cynical
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
-				trait = zealous
+				OR = {
+					trait = zealous
+					trait = zealous_hidden
+				}
 			}
 			modifier = {
 				factor = 1.2
-				liege = { trait = ashari }
+				liege = {
+					 OR = {
+						trait = ashari
+						trait = ashari_hidden
+					} 
+				}
 			}
 			modifier = {
 				factor = 1.2
@@ -1208,7 +1285,12 @@ decisions = {
 		allow = {
 			is_adult = yes
 			prisoner = no
-			NOT = {	trait = incapable }
+			NOT = {
+					OR = {
+					trait = incapable
+					trait = incapable_hidden
+				} 
+			}
 			war = no
 			prestige = 1000
 			wealth = 500
