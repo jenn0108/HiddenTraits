@@ -19,3 +19,8 @@ has_measles_hidden_death;of the Measles;de rougeole;an Masern;;del sarampión;;;;
 has_small_pox_hidden_death;of Smallpox;de variole;an Pocken;;de la viruela;;;;;;;;;x
 inbred_hidden_death;an inbred freak;de maladie consanguine;als Missgeburt durch Inzucht;;un monstruo de endogamia;;;;;;;;;x
 weak_hidden_death;of poor physique;de par sa faible constitution;an schlechter körperlicher Verfassung;;físico pobre;;;;;;;;;x
+EVTREVEALTRAITS.0.NAME;Learn about someone in the court you are visiting;French;German;;Spanish;;;;;;;;;x
+EVTREVEALTRAITS.0.DESC;You have discovered a trait about someone in the court you are visiting;French;German;;Spanish;;;;;;;;;x
+EVTREVEALTRAITS.0.OPT1;I will pass this on.;Je vais le faire savoir.;Ich werde dies weitergeben.;;Se lo voy a decir.;;;;;;;;;x
+EVTREVEALTRAITS.1.DESC;Your councillor, [From.GetTitledName], has discovered some information about a member of the court at [From.Location.GetName].;French;German;;Spanish;;;;;;;;;x
+EVTREVEALTRAITS.REVEAL.DESC;Your trait has been revelaed!;French;German;;Spanish;;;;;;;;;x

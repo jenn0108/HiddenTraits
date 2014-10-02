@@ -1,0 +1,2853 @@
+# Events for councillors revealing traits
+
+namespace = revealTraits
+
+# This is the event that the councillor gets.
+# Right now it is one big event that covers all jobs & all traits
+# Basic idea:
+#    revealTraits.0 - event the councillor gets that chooses a random trait group
+#    revealTraits.1 - triggered by the above event.
+character_event = {
+	id = revealTraits.0
+	title = "EVTREVEALTRAITS.0.NAME"
+	desc = "EVTREVEALTRAITS.0.DESC"
+	picture = GFX_evt_whispers  # TODO: put better images for this event.
+	border = GFX_event_normal_frame_intrigue
+
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		liege = { ai = no } # Don't want these events firing all of the time adding traits that random other rulers observe
+		#Triggered by any job.
+		OR = {
+			has_job_action = action_improve_relations
+			has_job_action = action_fabricate_claims
+			has_job_action = action_sow_dissent
+			has_job_action = action_squeeze_peasants
+			has_job_action = action_oversee_construction
+			has_job_action = action_advance_eco_tech
+			has_job_action = action_uncover_plots
+			has_job_action = action_study_technology
+			has_job_action = action_organize_spies
+			has_job_action = action_advance_mil_tech
+			has_job_action = action_train_troops
+			has_job_action = action_assist_arrest
+			has_job_action = action_inquisition
+			has_job_action = action_improve_rel_relations
+			has_job_action = action_advance_cul_tech
+			has_job_action = action_charity
+		}
+		location = {
+			any_province_character = {
+				NOT = { is_liege_of = ROOT }
+				NOT = { character = ROOT }
+				# Ensure that someone in the court the councillor is at has a hidden trait.
+				# TODO: Can we make a custom character flag for having a hidden trait (via set_character_flag)?
+				# TODO: Is this clause necessary for efficiency or is it faster to remove it?
+				OR = {
+					trait = amateurish_plotter_hidden 
+					trait = flamboyant_schemer_hidden 
+					trait = intricate_webweaver_hidden 
+					trait = elusive_shadow_hidden 
+					trait = naive_appeaser_hidden 
+					trait = underhanded_rogue_hidden 
+					trait = charismatic_negotiator_hidden 
+					trait = grey_eminence_hidden 
+					trait = indulgent_wastrel_hidden 
+					trait = thrifty_clerk_hidden 
+					trait = fortune_builder_hidden 
+					trait = midas_touched_hidden 
+					trait = misguided_warrior_hidden 
+					trait = tough_soldier_hidden 
+					trait = skilled_tactician_hidden 
+					trait = brilliant_strategist_hidden 
+					trait = detached_priest_hidden 
+					trait = martial_cleric_hidden 
+					trait = scholarly_theologian_hidden 
+					trait = mastermind_theologian_hidden 
+					trait = stressed_hidden 
+					trait = depressed_hidden 
+					trait = lunatic_hidden 
+					trait = possessed_hidden 
+					trait = ill_hidden 
+					trait = pneumonic_hidden 
+					trait = syphilitic_hidden 
+					trait = leper_hidden 
+					trait = wounded_hidden 
+					trait = maimed_hidden 
+					trait = infirm_hidden 
+					trait = incapable_hidden 
+					trait = drunkard_hidden 
+					trait = has_tuberculosis_hidden 
+					trait = has_typhoid_fever_hidden 
+					trait = has_typhus_hidden 
+					trait = has_bubonic_plague_hidden 
+					trait = has_measles_hidden 
+					trait = has_small_pox_hidden 
+					trait = crusader_hidden 
+					trait = bastard_hidden 
+					trait = twin_hidden 
+					trait = legit_bastard_hidden 
+					trait = pregnant_hidden 
+					trait = excommunicated_hidden 
+					trait = kinslayer_hidden 
+					trait = homosexual_hidden 
+					trait = clubfooted_hidden 
+					trait = harelip_hidden 
+					trait = hunchback_hidden 
+					trait = lisp_hidden 
+					trait = stutter_hidden 
+					trait = fair_hidden 
+					trait = ugly_hidden 
+					trait = dwarf_hidden 
+					trait = genius_hidden 
+					trait = quick_hidden 
+					trait = slow_hidden 
+					trait = imbecile_hidden 
+					trait = inbred_hidden 
+					trait = strong_hidden 
+					trait = weak_hidden 
+					trait = celibate_hidden 
+					trait = hedonist_hidden 
+					trait = scholar_hidden 
+					trait = gardener_hidden 
+					trait = mystic_hidden 
+					trait = impaler_hidden 
+					trait = duelist_hidden 
+					trait = hunter_hidden 
+					trait = poet_hidden 
+					trait = falconer_hidden 
+					trait = lustful_hidden 
+					trait = chaste_hidden 
+					trait = gluttonous_hidden 
+					trait = temperate_hidden 
+					trait = greedy_hidden 
+					trait = charitable_hidden 
+					trait = slothful_hidden 
+					trait = diligent_hidden 
+					trait = envious_hidden 
+					trait = kind_hidden 
+					trait = wroth_hidden 
+					trait = patient_hidden 
+					trait = proud_hidden 
+					trait = humble_hidden 
+					trait = deceitful_hidden 
+					trait = honest_hidden 
+					trait = craven_hidden 
+					trait = brave_hidden 
+					trait = shy_hidden 
+					trait = gregarious_hidden 
+					trait = ambitious_hidden 
+					trait = content_hidden 
+					trait = arbitrary_hidden 
+					trait = just_hidden 
+					trait = cynical_hidden 
+					trait = zealous_hidden 
+					trait = paranoid_hidden 
+					trait = trusting_hidden 
+					trait = cruel_hidden 
+					trait = light_foot_leader_hidden 
+					trait = heavy_infantry_leader_hidden 
+					trait = cavalry_leader_hidden 
+					trait = inspiring_leader_hidden 
+					trait = trickster_hidden 
+					trait = organizer_hidden 
+					trait = defensive_leader_hidden 
+					trait = experimenter_hidden 
+					trait = flanker_hidden 
+					trait = aggressive_leader_hidden 
+					trait = siege_leader_hidden 
+					trait = mujahid_hidden 
+					trait = hajjaj_hidden 
+					trait = on_hajj_hidden 
+					trait = faqih_hidden 
+					trait = hafiz_hidden 
+					trait = sayyid_hidden 
+					trait = pilgrim_hidden 
+					trait = mirza_hidden 
+					trait = scarred_hidden 
+					trait = eunuch_hidden 
+					trait = blinded_hidden 
+					trait = born_in_the_purple_hidden 
+					trait = augustus_hidden 
+					trait = flat_terrain_leader_hidden 
+					trait = rough_terrain_leader_hidden 
+					trait = mountain_terrain_leader_hidden 
+					trait = desert_terrain_leader_hidden 
+					trait = holy_warrior_hidden 
+					trait = unyielding_leader_hidden 
+					trait = has_aztec_disease_hidden 
+					trait = child_of_consort_hidden 
+					trait = peasant_leader_hidden 
+					trait = heresiarch_hidden 
+					trait = berserker_hidden 
+					trait = varangian_hidden 
+					trait = saoshyant_hidden 
+					trait = saoshyant_descendant_hidden 
+					trait = viking_hidden 
+					trait = monk_hidden 
+					trait = nun_hidden 
+					trait = on_pilgrimage_hidden 
+					trait = sickly_hidden 
+					trait = mutazilite_hidden 
+					trait = ashari_hidden 
+					trait = sympathy_christendom_hidden 
+					trait = sympathy_islam_hidden 
+					trait = sympathy_pagans_hidden 
+					trait = sympathy_zoroastrianism_hidden 
+					trait = sympathy_judaism_hidden 
+					trait = bad_priest_christian_hidden 
+					trait = bad_priest_muslim_hidden 
+					trait = bad_priest_norse_hidden 
+					trait = bad_priest_tengri_hidden 
+					trait = bad_priest_zoroastrian_hidden 
+					trait = bad_priest_aztec_hidden 
+					trait = narrow_flank_leader_hidden 
+					trait = brahmin_hidden 
+					trait = kshatriya_hidden 
+					trait = vaishya_hidden 
+					trait = sympathy_indian_hidden 
+					trait = shaivist_hindu_hidden 
+					trait = vaishnavist_hindu_hidden 
+					trait = shaktist_hindu_hidden 
+					trait = smartist_hindu_hidden 
+					trait = mahayana_buddhist_hidden 
+					trait = vajrayana_buddhist_hidden 
+					trait = theravada_buddhist_hidden 
+					trait = digambara_jain_hidden 
+					trait = svetambara_jain_hidden 
+					trait = decadent_hidden 
+					trait = reincarnation_hidden 
+					trait = war_elephant_leader_hidden 
+					trait = jungle_terrain_leader_hidden
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 1.25
+			NOT = { intrigue = 2 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { intrigue = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { intrigue = 4 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { intrigue = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			intrigue = 10
+		}
+		modifier = {
+			factor = 0.75
+			intrigue = 11
+		}
+		modifier = {
+			factor = 0.75
+			intrigue = 12
+		}
+		modifier = {
+			factor = 0.75
+			intrigue = 13
+		}
+	}
+	
+	option = {
+		name = "EVTREVEALTRAITS.0.OPT1"
+		hidden_tooltip = {
+			# TODO: Duplicate this event and modify the weight of each trait group or the traits in each group to make 
+			# the probabilities for discovering each trait differ between councillors.
+			random_list = {
+				25 = {
+					# Group education traits.
+					liege = { letter_event = { id = revealTraits.1 } }# Notify the leige and remove the trait.
+				}
+				25 = {
+					# Group health traits.
+					liege = { letter_event = { id = revealTraits.2 } }# Notify the leige and remove the trait.
+				}
+				5 = {
+					# Group "birth circumstance" traits.
+					liege = { letter_event = { id = revealTraits.3 } }# Notify the leige and remove the trait.
+				}
+				25 = {
+					# Group "appearance" traits.
+					liege = { letter_event = { id = revealTraits.4 } }# Notify the leige and remove the trait.
+				}
+				10 = {
+					# Group lifestyle traits.
+					liege = { letter_event = { id = revealTraits.5 } }# Notify the leige and remove the trait.
+				}
+				# 7 Sins and Virtues:
+				20 = {
+					# Group lustful/chaste traits.
+					liege = { letter_event = { id = revealTraits.6 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group gluttonous/temperate traits.
+					liege = { letter_event = { id = revealTraits.7 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group greedy/charitable traits.
+					liege = { letter_event = { id = revealTraits.8 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group slothful/diligent traits.
+					liege = { letter_event = { id = revealTraits.9 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group envius/kind/cruel traits.
+					liege = { letter_event = { id = revealTraits.10 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group wroth/patient traits.
+					liege = { letter_event = { id = revealTraits.11 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group proud/humble traits.
+					liege = { letter_event = { id = revealTraits.12 } }# Notify the leige and remove the trait.
+				}
+				# Group misc traits by opposites
+				20 = {
+					# Group deceitful/honest traits.
+					liege = { letter_event = { id = revealTraits.13 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group craven/brave traits.
+					liege = { letter_event = { id = revealTraits.14 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group shy/gregarious traits.
+					liege = { letter_event = { id = revealTraits.15 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group ambitious/content traits.
+					liege = { letter_event = { id = revealTraits.16 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group arbitrary/just traits.
+					liege = { letter_event = { id = revealTraits.17 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group cynical/zealous traits.
+					liege = { letter_event = { id = revealTraits.18 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group paranoid/trusting traits.
+					liege = { letter_event = { id = revealTraits.19 } }# Notify the leige and remove the trait.
+				}
+				20 = {
+					# Group military command traits.
+					liege = { letter_event = { id = revealTraits.20 } }# Notify the leige and remove the trait.
+				}
+				5 = {
+					# Group RELIGIOUS 1 (sayyid, mirza, excommunicated, monk, nun) traits.
+					liege = { letter_event = { id = revealTraits.21 } }# Notify the leige and remove the trait.
+				}
+				5 = {
+					# Group RELIGIOUS 2 (crusader, mujahid, Saoshyant, saoshyant_descendant) traits.
+					liege = { letter_event = { id = revealTraits.22 } }# Notify the leige and remove the trait.
+				}
+				5 = {
+					# Group RELIGIOUS 3 (hajjaj, pilgrim, berserker) traits.
+					liege = { letter_event = { id = revealTraits.23 } }# Notify the leige and remove the trait.
+				}
+				5 = {
+					# Group RELIGIOUS 4 (mutazilite, ashari, decadent, religious sect traits, born_in_the_purple) traits.
+					liege = { letter_event = { id = revealTraits.24 } }# Notify the leige and remove the trait.
+				}
+				10 = {
+					# Group random traits unlikely/impossible to be on the same person (peasant_leader, heresiarch, viking, kinslayer, augustus, hafiz, reincarnation, homosexual, varangian).
+					liege = { letter_event = { id = revealTraits.25 } }# Notify the leige and remove the trait.
+				}
+				5 = {
+					# Group "bad_priest" & "sympathy traits traits
+					liege = { letter_event = { id = revealTraits.26 } }# Notify the leige and remove the trait.
+				}
+			}
+		}
+	}
+}
+
+# 1 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.1
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden education trait.
+								trait = amateurish_plotter_hidden 
+								trait = flamboyant_schemer_hidden 
+								trait = intricate_webweaver_hidden 
+								trait = elusive_shadow_hidden 
+								trait = naive_appeaser_hidden 
+								trait = underhanded_rogue_hidden 
+								trait = charismatic_negotiator_hidden 
+								trait = grey_eminence_hidden 
+								trait = indulgent_wastrel_hidden 
+								trait = thrifty_clerk_hidden 
+								trait = fortune_builder_hidden 
+								trait = midas_touched_hidden 
+								trait = misguided_warrior_hidden 
+								trait = tough_soldier_hidden 
+								trait = skilled_tactician_hidden 
+								trait = brilliant_strategist_hidden 
+								trait = detached_priest_hidden 
+								trait = martial_cleric_hidden 
+								trait = scholarly_theologian_hidden 
+								trait = mastermind_theologian_hidden
+							}
+						}
+						character_event = { id = revealTraits.100 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 1.1 Show a hidden education trait on the character
+character_event = {
+	id = revealTraits.100
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = amateurish_plotter_hidden
+			}
+			remove_trait = amateurish_plotter_hidden
+			add_trait = amateurish_plotter
+		}
+		if = {
+			limit = {
+				trait = flamboyant_schemer_hidden
+			}
+			remove_trait = flamboyant_schemer_hidden
+			add_trait = flamboyant_schemer
+		}
+		if = {
+			limit = {
+				trait = intricate_webweaver_hidden
+			}
+			remove_trait = intricate_webweaver_hidden
+			add_trait = intricate_webweaver
+		}
+		if = {
+			limit = {
+				trait = elusive_shadow_hidden
+			}
+			remove_trait = elusive_shadow_hidden
+			add_trait = elusive_shadow
+		}
+		if = {
+			limit = {
+				trait = naive_appeaser_hidden
+			}
+			remove_trait = naive_appeaser_hidden
+			add_trait = naive_appeaser
+		}
+		if = {
+			limit = {
+				trait = underhanded_rogue_hidden
+			}
+			remove_trait = underhanded_rogue_hidden
+			add_trait = underhanded_rogue
+		}
+		if = {
+			limit = {
+				trait = charismatic_negotiator_hidden
+			}
+			remove_trait = charismatic_negotiator_hidden
+			add_trait = charismatic_negotiator
+		}
+		if = {
+			limit = {
+				trait = grey_eminence_hidden
+			}
+			remove_trait = grey_eminence_hidden
+			add_trait = grey_eminence
+		}
+		if = {
+			limit = {
+				trait = indulgent_wastrel_hidden
+			}
+			remove_trait = indulgent_wastrel_hidden
+			add_trait = indulgent_wastrel
+		}
+		if = {
+			limit = {
+				trait = thrifty_clerk_hidden
+			}
+			remove_trait = thrifty_clerk_hidden
+			add_trait = thrifty_clerk
+		}
+		if = {
+			limit = {
+				trait = fortune_builder_hidden
+			}
+			remove_trait = fortune_builder_hidden
+			add_trait = fortune_builder
+		}
+		if = {
+			limit = {
+				trait = midas_touched_hidden
+			}
+			remove_trait = midas_touched_hidden
+			add_trait = midas_touched
+		}
+		if = {
+			limit = {
+				trait = misguided_warrior_hidden
+			}
+			remove_trait = misguided_warrior_hidden
+			add_trait = misguided_warrior
+		}
+		if = {
+			limit = {
+				trait = tough_soldier_hidden
+			}
+			remove_trait = tough_soldier_hidden
+			add_trait = tough_soldier
+		}
+		if = {
+			limit = {
+				trait = skilled_tactician_hidden
+			}
+			remove_trait = skilled_tactician_hidden
+			add_trait = skilled_tactician
+		}
+		if = {
+			limit = {
+				trait = brilliant_strategist_hidden
+			}
+			remove_trait = brilliant_strategist_hidden
+			add_trait = brilliant_strategist
+		}
+		if = {
+			limit = {
+				trait = detached_priest_hidden
+			}
+			remove_trait = detached_priest_hidden
+			add_trait = detached_priest
+		}
+		if = {
+			limit = {
+				trait = martial_cleric_hidden
+			}
+			remove_trait = martial_cleric_hidden
+			add_trait = martial_cleric
+		}
+		if = {
+			limit = {
+				trait = scholarly_theologian_hidden
+			}
+			remove_trait = scholarly_theologian_hidden
+			add_trait = scholarly_theologian
+		}
+		if = {
+			limit = {
+				trait = mastermind_theologian_hidden
+			}
+			remove_trait = mastermind_theologian_hidden
+			add_trait = mastermind_theologian
+		}
+	}
+}
+
+# 2 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.2
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden health trait.
+								trait = stressed_hidden 
+								trait = depressed_hidden 
+								trait = lunatic_hidden 
+								trait = possessed_hidden 
+								trait = ill_hidden 
+								trait = pneumonic_hidden 
+								trait = syphilitic_hidden 
+								trait = leper_hidden 
+								trait = wounded_hidden 
+								trait = maimed_hidden 
+								trait = infirm_hidden 
+								trait = incapable_hidden 
+								trait = drunkard_hidden 
+								trait = has_tuberculosis_hidden 
+								trait = has_typhoid_fever_hidden 
+								trait = has_typhus_hidden 
+								trait = has_bubonic_plague_hidden 
+								trait = has_measles_hidden 
+								trait = has_small_pox_hidden
+								trait = sickly_hidden
+								trait = has_aztec_disease_hidden
+								trait = scarred_hidden
+								trait = eunuch_hidden
+								trait = blinded_hidden
+							}
+						}
+						character_event = { id = revealTraits.200 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 2.1 Show a hidden health trait on a character
+character_event = {
+	id = revealTraits.200
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = stressed_hidden
+			}
+			remove_trait = stressed_hidden
+			add_trait = stressed
+		}
+		if = {
+			limit = {
+				trait = depressed_hidden
+			}
+			remove_trait = depressed_hidden
+			add_trait = depressed
+		}
+		if = {
+			limit = {
+				trait = lunatic_hidden
+			}
+			remove_trait = lunatic_hidden
+			add_trait = lunatic
+		}
+		if = {
+			limit = {
+				trait = possessed_hidden
+			}
+			remove_trait = possessed_hidden
+			add_trait = possessed
+		}
+		if = {
+			limit = {
+				trait = ill_hidden
+			}
+			remove_trait = ill_hidden
+			add_trait = ill
+		}
+		if = {
+			limit = {
+				trait = pneumonic_hidden
+			}
+			remove_trait = pneumonic_hidden
+			add_trait = pneumonic
+		}
+		if = {
+			limit = {
+				trait = syphilitic_hidden
+			}
+			remove_trait = syphilitic_hidden
+			add_trait = syphilitic
+		}
+		if = {
+			limit = {
+				trait = leper_hidden
+			}
+			remove_trait = leper_hidden
+			add_trait = leper
+		}
+		if = {
+			limit = {
+				trait = wounded_hidden
+			}
+			remove_trait = wounded_hidden
+			add_trait = wounded
+		}
+		if = {
+			limit = {
+				trait = maimed_hidden
+			}
+			remove_trait = maimed_hidden
+			add_trait = maimed
+		}
+		if = {
+			limit = {
+				trait = infirm_hidden
+			}
+			remove_trait = infirm_hidden
+			add_trait = infirm
+		}
+		if = {
+			limit = {
+				trait = incapable_hidden
+			}
+			remove_trait = incapable_hidden
+			add_trait = incapable
+		}
+		if = {
+			limit = {
+				trait = drunkard_hidden
+			}
+			remove_trait = drunkard_hidden
+			add_trait = drunkard
+		}
+		if = {
+			limit = {
+				trait = has_tuberculosis_hidden
+			}
+			remove_trait = has_tuberculosis_hidden
+			add_trait = has_tuberculosis
+		}
+		if = {
+			limit = {
+				trait = has_typhoid_fever_hidden
+			}
+			remove_trait = has_typhoid_fever_hidden
+			add_trait = has_typhoid_fever
+		}
+		if = {
+			limit = {
+				trait = has_typhus_hidden
+			}
+			remove_trait = has_typhus_hidden
+			add_trait = has_typhus
+		}
+		if = {
+			limit = {
+				trait = has_bubonic_plague_hidden
+			}
+			remove_trait = has_bubonic_plague_hidden
+			add_trait = has_bubonic_plague
+		}
+		if = {
+			limit = {
+				trait = has_measles_hidden
+			}
+			remove_trait = has_measles_hidden
+			add_trait = has_measles
+		}
+		if = {
+			limit = {
+				trait = has_small_pox_hidden
+			}
+			remove_trait = has_small_pox_hidden
+			add_trait = has_small_pox
+		}
+		if = {
+			limit = {
+				trait = has_aztec_disease_hidden
+			}
+			remove_trait = has_aztec_disease_hidden
+			add_trait = has_aztec_disease
+		}
+		if = {
+			limit = {
+				trait = blinded_hidden
+			}
+			remove_trait = blinded_hidden
+			add_trait = blinded
+		}
+		if = {
+			limit = {
+				trait = eunuch_hidden
+			}
+			remove_trait = eunuch_hidden
+			add_trait = eunuch
+		}
+		if = {
+			limit = {
+				trait = scarred_hidden
+			}
+			remove_trait = scarred_hidden
+			add_trait = scarred
+		}
+		if = {
+			limit = {
+				trait = sickly_hidden
+			}
+			remove_trait = sickly_hidden
+			add_trait = sickly
+		}
+	}
+}
+
+# 3 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.3
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden "birth circumstance" trait.
+								trait = bastard_hidden 
+								trait = twin_hidden 
+								trait = legit_bastard_hidden 
+								trait = pregnant_hidden 
+								trait = child_of_consort_hidden
+							}
+						}
+						character_event = { id = revealTraits.300 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 3.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.300
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = legit_bastard_hidden
+			}
+			remove_trait = legit_bastard_hidden
+			add_trait = legit_bastard
+		}
+		if = {
+			limit = {
+				trait = bastard_hidden
+			}
+			remove_trait = bastard_hidden
+			add_trait = bastard
+		}
+		if = {
+			limit = {
+				trait = twin_hidden
+			}
+			remove_trait = twin_hidden
+			add_trait = twin
+		}
+		if = {
+			limit = {
+				trait = child_of_consort_hidden
+			}
+			remove_trait = child_of_consort_hidden
+			add_trait = child_of_consort
+		}
+		if = {
+			limit = {
+				trait = pregnant_hidden
+			}
+			remove_trait = pregnant_hidden
+			add_trait = pregnant
+		}
+	}
+}
+
+
+# 4 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.4
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden "appearance" trait.
+								trait = clubfooted_hidden 
+								trait = harelip_hidden 
+								trait = hunchback_hidden 
+								trait = lisp_hidden 
+								trait = stutter_hidden 
+								trait = fair_hidden 
+								trait = ugly_hidden 
+								trait = dwarf_hidden 
+								trait = genius_hidden 
+								trait = quick_hidden 
+								trait = slow_hidden 
+								trait = imbecile_hidden 
+								trait = inbred_hidden 
+								trait = strong_hidden 
+								trait = weak_hidden 
+							}
+						}
+						character_event = { id = revealTraits.400 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 4.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.400
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = clubfooted_hidden
+			}
+			remove_trait = clubfooted_hidden
+			add_trait = clubfooted
+		}
+		if = {
+			limit = {
+				trait = harelip_hidden
+			}
+			remove_trait = harelip_hidden
+			add_trait = harelip
+		}
+		if = {
+			limit = {
+				trait = hunchback_hidden
+			}
+			remove_trait = hunchback_hidden
+			add_trait = hunchback
+		}
+		if = {
+			limit = {
+				trait = lisp_hidden
+			}
+			remove_trait = lisp_hidden
+			add_trait = lisp
+		}
+		if = {
+			limit = {
+				trait = stutter_hidden
+			}
+			remove_trait = stutter_hidden
+			add_trait = stutter
+		}
+		if = {
+			limit = {
+				trait = fair_hidden
+			}
+			remove_trait = fair_hidden
+			add_trait = fair
+		}
+		if = {
+			limit = {
+				trait = ugly_hidden
+			}
+			remove_trait = ugly_hidden
+			add_trait = ugly
+		}
+		if = {
+			limit = {
+				trait = dwarf_hidden
+			}
+			remove_trait = dwarf_hidden
+			add_trait = dwarf
+		}
+		if = {
+			limit = {
+				trait = genius_hidden
+			}
+			remove_trait = genius_hidden
+			add_trait = genius
+		}
+		if = {
+			limit = {
+				trait = quick_hidden
+			}
+			remove_trait = quick_hidden
+			add_trait = quick
+		}
+		if = {
+			limit = {
+				trait = slow_hidden
+			}
+			remove_trait = slow_hidden
+			add_trait = slow
+		}
+		if = {
+			limit = {
+				trait = imbecile_hidden
+			}
+			remove_trait = imbecile_hidden
+			add_trait = imbecile
+		}
+		if = {
+			limit = {
+				trait = inbred_hidden
+			}
+			remove_trait = inbred_hidden
+			add_trait = inbred
+		}
+		if = {
+			limit = {
+				trait = strong_hidden
+			}
+			remove_trait = strong_hidden
+			add_trait = strong
+		}
+		if = {
+			limit = {
+				trait = weak_hidden
+			}
+			remove_trait = weak_hidden
+			add_trait = weak
+		}
+	}
+}
+
+# 5 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.5
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden lifestyle trait.
+								trait = celibate_hidden 
+								trait = hedonist_hidden 
+								trait = scholar_hidden 
+								trait = gardener_hidden 
+								trait = mystic_hidden 
+								trait = impaler_hidden 
+								trait = duelist_hidden 
+								trait = hunter_hidden 
+								trait = poet_hidden 
+								trait = falconer_hidden 
+								trait = faqih_hidden
+							}
+						}
+						character_event = { id = revealTraits.500 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 5.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.500
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = celibate_hidden
+			}
+			remove_trait = celibate_hidden
+			add_trait = celibate
+		}
+		if = {
+			limit = {
+				trait = hedonist_hidden
+			}
+			remove_trait = hedonist_hidden
+			add_trait = hedonist
+		}
+		if = {
+			limit = {
+				trait = scholar_hidden
+			}
+			remove_trait = scholar_hidden
+			add_trait = scholar
+		}
+		if = {
+			limit = {
+				trait = gardener_hidden
+			}
+			remove_trait = gardener_hidden
+			add_trait = gardener
+		}
+		if = {
+			limit = {
+				trait = mystic_hidden
+			}
+			remove_trait = mystic_hidden
+			add_trait = mystic
+		}
+		if = {
+			limit = {
+				trait = impaler_hidden
+			}
+			remove_trait = impaler_hidden
+			add_trait = impaler
+		}
+		if = {
+			limit = {
+				trait = duelist_hidden
+			}
+			remove_trait = duelist_hidden
+			add_trait = duelist
+		}
+		if = {
+			limit = {
+				trait = hunter_hidden
+			}
+			remove_trait = hunter_hidden
+			add_trait = hunter
+		}
+		if = {
+			limit = {
+				trait = poet_hidden
+			}
+			remove_trait = poet_hidden
+			add_trait = poet
+		}
+		if = {
+			limit = {
+				trait = falconer_hidden
+			}
+			remove_trait = falconer_hidden
+			add_trait = falconer
+		}
+		# Apparently this is a lifestyle trait
+		if = {
+			limit = {
+				trait = faqih_hidden
+			}
+			remove_trait = faqih_hidden
+			add_trait = faqih
+		}
+	}
+}
+
+# 6 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.6
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have lustful or chaste trait.
+								trait = lustful_hidden
+								trait = chaste_hidden
+							}
+						}
+						character_event = { id = revealTraits.600 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 6.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.600
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = lustful_hidden
+			}
+			remove_trait = lustful_hidden
+			add_trait = lustful
+		}
+		if = {
+			limit = {
+				trait = chaste_hidden
+			}
+			remove_trait = chaste_hidden
+			add_trait = chaste
+		}
+	}
+}
+
+# 7 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.7
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have gluttonous or temperate trait.
+								trait = gluttonous_hidden
+								trait = temperate_hidden
+							}
+						}
+						character_event = { id = revealTraits.700 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 7.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.700
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = gluttonous_hidden
+			}
+			remove_trait = gluttonous_hidden
+			add_trait = gluttonous
+		}
+		if = {
+			limit = {
+				trait = temperate_hidden
+			}
+			remove_trait = temperate_hidden
+			add_trait = temperate
+		}
+	}
+}
+
+#8 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.8
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have greedy or charitable trait.
+								trait = greedy_hidden
+								trait = charitable_hidden
+							}
+						}
+						character_event = { id = revealTraits.800 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 8.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.800
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = greedy_hidden
+			}
+			remove_trait = greedy_hidden
+			add_trait = greedy
+		}
+		if = {
+			limit = {
+				trait = charitable_hidden
+			}
+			remove_trait = charitable_hidden
+			add_trait = charitable
+		}
+	}
+}
+
+# 9 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.9
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have slothful or diligent trait.
+								trait = slothful_hidden
+								trait = diligent_hidden
+							}
+						}
+						character_event = { id = revealTraits.900 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 9.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.900
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = slothful_hidden
+			}
+			remove_trait = slothful_hidden
+			add_trait = slothful
+		}
+		if = {
+			limit = {
+				trait = diligent_hidden
+			}
+			remove_trait = diligent_hidden
+			add_trait = diligent
+		}
+	}
+}
+
+# 10 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.10
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have envious, kind or cruel trait.
+								trait = envious_hidden
+								trait = kind_hidden
+								trait = cruel_hidden
+							}
+						}
+						character_event = { id = revealTraits.1000 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 10.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1000
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = envious_hidden
+			}
+			remove_trait = envious_hidden
+			add_trait = envious
+		}
+		if = {
+			limit = {
+				trait = kind_hidden
+			}
+			remove_trait = kind_hidden
+			add_trait = kind
+		}
+		# dumping cruel in with kind to decrease the number of groups.
+		if = {
+			limit = {
+				trait = cruel_hidden
+			}
+			remove_trait = cruel_hidden
+			add_trait = cruel
+		}
+	}
+}
+
+# 11 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.11
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have wroth or patient trait.
+								trait = wroth_hidden
+								trait = patient_hidden
+							}
+						}
+						character_event = { id = revealTraits.1100 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 11.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1100
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = wroth_hidden
+			}
+			remove_trait = wroth_hidden
+			add_trait = wroth
+		}
+		if = {
+			limit = {
+				trait = patient_hidden
+			}
+			remove_trait = patient_hidden
+			add_trait = patient
+		}
+	}
+}
+
+# 12 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.12
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have proud or humble trait.
+								trait = proud_hidden
+								trait = humble_hidden
+							}
+						}
+						character_event = { id = revealTraits.1200 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 12.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1200
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = proud_hidden
+			}
+			remove_trait = proud_hidden
+			add_trait = proud
+		}
+		if = {
+			limit = {
+				trait = humble_hidden
+			}
+			remove_trait = humble_hidden
+			add_trait = humble
+		}
+	}
+}
+
+# 13 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.13
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have deceitful or honest trait.
+								trait = deceitful_hidden
+								trait = honest_hidden
+							}
+						}
+						character_event = { id = revealTraits.1300 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 13.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1300
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = deceitful_hidden
+			}
+			remove_trait = deceitful_hidden
+			add_trait = deceitful
+		}
+		if = {
+			limit = {
+				trait = honest_hidden
+			}
+			remove_trait = honest_hidden
+			add_trait = honest
+		}
+	}
+}
+
+# 14 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.14
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have craven or brave trait.
+								trait = craven_hidden
+								trait = brave_hidden
+							}
+						}
+						character_event = { id = revealTraits.1400 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 14.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1400
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = craven_hidden
+			}
+			remove_trait = craven_hidden
+			add_trait = craven
+		}
+		if = {
+			limit = {
+				trait = brave_hidden
+			}
+			remove_trait = brave_hidden
+			add_trait = brave
+		}
+	}
+}
+
+# 15 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.15
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have shy or gregarious trait.
+								trait = shy_hidden
+								trait = gregarious_hidden
+							}
+						}
+						character_event = { id = revealTraits.1500 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 15.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1500
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = shy_hidden
+			}
+			remove_trait = shy_hidden
+			add_trait = shy
+		}
+		if = {
+			limit = {
+				trait = gregarious_hidden
+			}
+			remove_trait = gregarious_hidden
+			add_trait = gregarious
+		}
+	}
+}
+
+# 16 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.16
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have ambitious or content trait.
+								trait = ambitious_hidden
+								trait = content_hidden
+							}
+						}
+						character_event = { id = revealTraits.1600 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 16.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1600
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = ambitious_hidden
+			}
+			remove_trait = ambitious_hidden
+			add_trait = ambitious
+		}
+		if = {
+			limit = {
+				trait = content_hidden
+			}
+			remove_trait = content_hidden
+			add_trait = content
+		}
+	}
+}
+
+# 17 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.17
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have arbitrary or just trait.
+								trait = arbitrary_hidden
+								trait = just_hidden
+							}
+						}
+						character_event = { id = revealTraits.1700 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 17.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1700
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = arbitrary_hidden
+			}
+			remove_trait = arbitrary_hidden
+			add_trait = arbitrary
+		}
+		if = {
+			limit = {
+				trait = just_hidden
+			}
+			remove_trait = just_hidden
+			add_trait = just
+		}
+	}
+}
+
+# 18 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.18
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have cynical or zealous trait.
+								trait = cynical_hidden
+								trait = zealous_hidden
+							}
+						}
+						character_event = { id = revealTraits.1800 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 18.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1800
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = cynical_hidden
+			}
+			remove_trait = cynical_hidden
+			add_trait = cynical
+		}
+		if = {
+			limit = {
+				trait = zealous_hidden
+			}
+			remove_trait = zealous_hidden
+			add_trait = zealous
+		}
+	}
+}
+
+# 19 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.19
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have paranoid or trusting trait.
+								trait = paranoid_hidden
+								trait = trusting_hidden
+							}
+						}
+						character_event = { id = revealTraits.1900 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 19.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.1900
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = paranoid_hidden
+			}
+			remove_trait = paranoid_hidden
+			add_trait = paranoid
+		}
+		if = {
+			limit = {
+				trait = trusting_hidden
+			}
+			remove_trait = trusting_hidden
+			add_trait = trusting
+		}
+	}
+}
+
+# 20 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.20
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden military command trait.
+								trait = light_foot_leader_hidden 
+								trait = heavy_infantry_leader_hidden 
+								trait = cavalry_leader_hidden 
+								trait = inspiring_leader_hidden 
+								trait = trickster_hidden 
+								trait = organizer_hidden 
+								trait = defensive_leader_hidden 
+								trait = experimenter_hidden 
+								trait = flanker_hidden 
+								trait = aggressive_leader_hidden 
+								trait = siege_leader_hidden 
+								trait = flat_terrain_leader_hidden 
+								trait = rough_terrain_leader_hidden 
+								trait = mountain_terrain_leader_hidden 
+								trait = desert_terrain_leader_hidden 
+								trait = holy_warrior_hidden 
+								trait = unyielding_leader_hidden 
+								trait = war_elephant_leader_hidden 
+								trait = jungle_terrain_leader_hidden
+								trait = narrow_flank_leader_hidden
+							}
+						}
+						character_event = { id = revealTraits.2000 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 20.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.2000
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = light_foot_leader_hidden
+			}
+			remove_trait = light_foot_leader_hidden
+			add_trait = light_foot_leader
+		}
+		if = {
+			limit = {
+				trait = heavy_infantry_leader_hidden
+			}
+			remove_trait = heavy_infantry_leader_hidden
+			add_trait = heavy_infantry_leader
+		}
+		if = {
+			limit = {
+				trait = cavalry_leader_hidden
+			}
+			remove_trait = cavalry_leader_hidden
+			add_trait = cavalry_leader
+		}
+		if = {
+			limit = {
+				trait = inspiring_leader_hidden
+			}
+			remove_trait = inspiring_leader_hidden
+			add_trait = inspiring_leader
+		}
+		if = {
+			limit = {
+				trait = trickster_hidden
+			}
+			remove_trait = trickster_hidden
+			add_trait = trickster
+		}
+		if = {
+			limit = {
+				trait = organizer_hidden
+			}
+			remove_trait = organizer_hidden
+			add_trait = organizer
+		}
+		if = {
+			limit = {
+				trait = defensive_leader_hidden
+			}
+			remove_trait = defensive_leader_hidden
+			add_trait = defensive_leader
+		}
+		if = {
+			limit = {
+				trait = experimenter_hidden
+			}
+			remove_trait = experimenter_hidden
+			add_trait = experimenter
+		}
+		if = {
+			limit = {
+				trait = flanker_hidden
+			}
+			remove_trait = flanker_hidden
+			add_trait = flanker
+		}
+		if = {
+			limit = {
+				trait = aggressive_leader_hidden
+			}
+			remove_trait = aggressive_leader_hidden
+			add_trait = aggressive_leader
+		}
+		if = {
+			limit = {
+				trait = siege_leader_hidden
+			}
+			remove_trait = siege_leader_hidden
+			add_trait = siege_leader
+		}
+		if = {
+			limit = {
+				trait = flat_terrain_leader_hidden
+			}
+			remove_trait = flat_terrain_leader_hidden
+			add_trait = flat_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = rough_terrain_leader_hidden
+			}
+			remove_trait = rough_terrain_leader_hidden
+			add_trait = rough_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = mountain_terrain_leader_hidden
+			}
+			remove_trait = mountain_terrain_leader_hidden
+			add_trait = mountain_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = desert_terrain_leader_hidden
+			}
+			remove_trait = desert_terrain_leader_hidden
+			add_trait = desert_terrain_leader
+		}
+		if = {
+			limit = {
+				trait = holy_warrior_hidden
+			}
+			remove_trait = holy_warrior_hidden
+			add_trait = holy_warrior
+		}
+		if = {
+			limit = {
+				trait = unyielding_leader_hidden
+			}
+			remove_trait = unyielding_leader_hidden
+			add_trait = unyielding_leader
+		}
+		if = {
+			limit = {
+				trait = narrow_flank_leader_hidden
+			}
+			remove_trait = narrow_flank_leader_hidden
+			add_trait = narrow_flank_leader
+		}
+		if = {
+			limit = {
+				trait = war_elephant_leader_hidden
+			}
+			remove_trait = war_elephant_leader_hidden
+			add_trait = war_elephant_leader
+		}
+		if = {
+			limit = {
+				trait = jungle_terrain_leader_hidden
+			}
+			remove_trait = jungle_terrain_leader_hidden
+			add_trait = jungle_terrain_leader
+		}
+	}
+}
+
+# 21 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.21
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden trait in the RELIGIOUS 1 group.
+								trait = sayyid_hidden
+								trait = mirza_hidden
+								trait = excommunicated_hidden
+								trait = monk_hidden
+								trait = nun_hidden
+								trait = varangian_hidden
+							}
+						}
+						character_event = { id = revealTraits.2100 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 21.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.2100
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = excommunicated_hidden
+			}
+			remove_trait = excommunicated_hidden
+			add_trait = excommunicated
+		}
+		if = {
+			limit = {
+				trait = varangian_hidden
+			}
+			remove_trait = varangian_hidden
+			add_trait = varangian
+		}
+		if = {
+			limit = {
+				trait = monk_hidden
+			}
+			remove_trait = monk_hidden
+			add_trait = monk
+		}
+		if = {
+			limit = {
+				trait = nun_hidden
+			}
+			remove_trait = nun_hidden
+			add_trait = nun
+		}
+		if = {
+			limit = {
+				trait = sayyid_hidden
+			}
+			remove_trait = sayyid_hidden
+			add_trait = sayyid
+		}
+		if = {
+			limit = {
+				trait = mirza_hidden
+			}
+			remove_trait = mirza_hidden
+			add_trait = mirza
+		}
+	}
+}
+
+# 22 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.22
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden trait in the RELIGIOUS 2 group.
+								trait = crusader_hidden
+								trait = mujahid_hidden
+								trait = saoshyant_hidden 
+								trait = saoshyant_descendant_hidden 
+							}
+						}
+						character_event = { id = revealTraits.2200 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 22.1 Show a hidden education trait on a character
+character_event = {
+	id = revealTraits.2200
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = crusader_hidden
+			}
+			remove_trait = crusader_hidden
+			add_trait = crusader
+		}
+		if = {
+			limit = {
+				trait = mujahid_hidden
+			}
+			remove_trait = mujahid_hidden
+			add_trait = mujahid
+		}
+		if = {
+			limit = {
+				trait = saoshyant_hidden
+			}
+			remove_trait = saoshyant_hidden
+			add_trait = saoshyant
+		}
+		if = {
+			limit = {
+				trait = saoshyant_descendant_hidden
+			}
+			remove_trait = saoshyant_descendant_hidden
+			add_trait = saoshyant_descendant
+		}
+	}
+}
+
+# 23 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.23
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden trait from the RELIGIOUS 3 group.
+								trait = pilgrim_hidden
+								trait = on_pilgrimage_hidden
+								trait = hajjaj_hidden
+								trait = on_hajj_hidden
+								trait = berserker_hidden
+							}
+						}
+						character_event = { id = revealTraits.2300 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 23.1 Show a hidden trait on a character
+character_event = {
+	id = revealTraits.2300
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = berserker_hidden
+			}
+			remove_trait = berserker_hidden
+			add_trait = berserker
+		}
+		if = {
+			limit = {
+				trait = hajjaj_hidden
+			}
+			remove_trait = hajjaj_hidden
+			add_trait = hajjaj
+		}
+		if = {
+			limit = {
+				trait = on_hajj_hidden
+			}
+			remove_trait = on_hajj_hidden
+			add_trait = on_hajj
+		}
+		if = {
+			limit = {
+				trait = pilgrim_hidden
+			}
+			remove_trait = pilgrim_hidden
+			add_trait = pilgrim
+		}
+		if = {
+			limit = {
+				trait = on_pilgrimage_hidden
+			}
+			remove_trait = on_pilgrimage_hidden
+			add_trait = on_pilgrimage
+		}
+	}
+}
+
+# 24 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.24
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one trait in the RELIGIOUS 4 group.
+								trait = mutazilite_hidden 
+								trait = ashari_hidden 
+								trait = decadent_hidden
+								trait = brahmin_hidden 
+								trait = kshatriya_hidden 
+								trait = vaishya_hidden 
+								trait = shaivist_hindu_hidden 
+								trait = vaishnavist_hindu_hidden 
+								trait = shaktist_hindu_hidden 
+								trait = smartist_hindu_hidden 
+								trait = mahayana_buddhist_hidden 
+								trait = vajrayana_buddhist_hidden 
+								trait = theravada_buddhist_hidden 
+								trait = digambara_jain_hidden 
+								trait = svetambara_jain_hidden 
+								trait = born_in_the_purple
+							}
+						}
+						character_event = { id = revealTraits.2400 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 24.1 Show a hidden trait on a character
+character_event = {
+	id = revealTraits.2400
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = born_in_the_purple_hidden
+			}
+			remove_trait = born_in_the_purple_hidden
+			add_trait = born_in_the_purple
+		}
+		if = {
+			limit = {
+				trait = mutazilite_hidden
+			}
+			remove_trait = mutazilite_hidden
+			add_trait = mutazilite
+		}
+		if = {
+			limit = {
+				trait = ashari_hidden
+			}
+			remove_trait = ashari_hidden
+			add_trait = ashari
+		}
+		if = {
+			limit = {
+				trait = brahmin_hidden
+			}
+			remove_trait = brahmin_hidden
+			add_trait = brahmin
+		}
+		if = {
+			limit = {
+				trait = kshatriya_hidden
+			}
+			remove_trait = kshatriya_hidden
+			add_trait = kshatriya
+		}
+		if = {
+			limit = {
+				trait = vaishya_hidden
+			}
+			remove_trait = vaishya_hidden
+			add_trait = vaishya
+		}
+		if = {
+			limit = {
+				trait = shaivist_hindu_hidden
+			}
+			remove_trait = shaivist_hindu_hidden
+			add_trait = shaivist_hindu
+		}
+		if = {
+			limit = {
+				trait = vaishnavist_hindu_hidden
+			}
+			remove_trait = vaishnavist_hindu_hidden
+			add_trait = vaishnavist_hindu
+		}
+		if = {
+			limit = {
+				trait = shaktist_hindu_hidden
+			}
+			remove_trait = shaktist_hindu_hidden
+			add_trait = shaktist_hindu
+		}
+		if = {
+			limit = {
+				trait = smartist_hindu_hidden
+			}
+			remove_trait = smartist_hindu_hidden
+			add_trait = smartist_hindu
+		}
+		if = {
+			limit = {
+				trait = mahayana_buddhist_hidden
+			}
+			remove_trait = mahayana_buddhist_hidden
+			add_trait = mahayana_buddhist
+		}
+		if = {
+			limit = {
+				trait = vajrayana_buddhist_hidden
+			}
+			remove_trait = vajrayana_buddhist_hidden
+			add_trait = vajrayana_buddhist
+		}
+		if = {
+			limit = {
+				trait = theravada_buddhist_hidden
+			}
+			remove_trait = theravada_buddhist_hidden
+			add_trait = theravada_buddhist
+		}
+		if = {
+			limit = {
+				trait = digambara_jain_hidden
+			}
+			remove_trait = digambara_jain_hidden
+			add_trait = digambara_jain
+		}
+		if = {
+			limit = {
+				trait = svetambara_jain_hidden
+			}
+			remove_trait = svetambara_jain_hidden
+			add_trait = svetambara_jain
+		}
+		if = {
+			limit = {
+				trait = decadent_hidden
+			}
+			remove_trait = decadent_hidden
+			add_trait = decadent
+		}
+	}
+}
+
+# 25 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.25
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden sympathy or bad priest.
+								trait = sympathy_christendom_hidden 
+								trait = sympathy_islam_hidden 
+								trait = sympathy_pagans_hidden 
+								trait = sympathy_zoroastrianism_hidden 
+								trait = sympathy_judaism_hidden 
+								trait = bad_priest_christian_hidden 
+								trait = bad_priest_muslim_hidden 
+								trait = bad_priest_norse_hidden 
+								trait = bad_priest_tengri_hidden 
+								trait = bad_priest_zoroastrian_hidden 
+								trait = bad_priest_aztec_hidden
+								trait = sympathy_indian_hidden 
+							}
+						}
+						character_event = { id = revealTraits.2500 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 25.1 Show a hidden trait on a character
+character_event = {
+	id = revealTraits.2500
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = sympathy_christendom_hidden
+			}
+			remove_trait = sympathy_christendom_hidden
+			add_trait = sympathy_christendom
+		}
+		if = {
+			limit = {
+				trait = sympathy_islam_hidden
+			}
+			remove_trait = sympathy_islam_hidden
+			add_trait = sympathy_islam
+		}
+		if = {
+			limit = {
+				trait = sympathy_pagans_hidden
+			}
+			remove_trait = sympathy_pagans_hidden
+			add_trait = sympathy_pagans
+		}
+		if = {
+			limit = {
+				trait = sympathy_zoroastrianism_hidden
+			}
+			remove_trait = sympathy_zoroastrianism_hidden
+			add_trait = sympathy_zoroastrianism
+		}
+		if = {
+			limit = {
+				trait = sympathy_judaism_hidden
+			}
+			remove_trait = sympathy_judaism_hidden
+			add_trait = sympathy_judaism
+		}
+		if = {
+			limit = {
+				trait = sympathy_indian_hidden
+			}
+			remove_trait = sympathy_indian_hidden
+			add_trait = sympathy_indian
+		}
+		if = {
+			limit = {
+				trait = bad_priest_christian_hidden
+			}
+			remove_trait = bad_priest_christian_hidden
+			add_trait = bad_priest_christian
+		}
+		if = {
+			limit = {
+				trait = bad_priest_muslim_hidden
+			}
+			remove_trait = bad_priest_muslim_hidden
+			add_trait = bad_priest_muslim
+		}
+		if = {
+			limit = {
+				trait = bad_priest_norse_hidden
+			}
+			remove_trait = bad_priest_norse_hidden
+			add_trait = bad_priest_norse
+		}
+		if = {
+			limit = {
+				trait = bad_priest_tengri_hidden
+			}
+			remove_trait = bad_priest_tengri_hidden
+			add_trait = bad_priest_tengri
+		}
+		if = {
+			limit = {
+				trait = bad_priest_zoroastrian_hidden
+			}
+			remove_trait = bad_priest_zoroastrian_hidden
+			add_trait = bad_priest_zoroastrian
+		}
+		if = {
+			limit = {
+				trait = bad_priest_aztec_hidden
+			}
+			remove_trait = bad_priest_aztec_hidden
+			add_trait = bad_priest_aztec
+		}
+	}
+}
+
+# 26 - Liege is informed that their councillor learned the trait
+letter_event = {
+	id = revealTraits.26
+	desc = "EVTREVEALTRAITS.1.DESC"
+	border = GFX_event_letter_frame_intrigue
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+		hidden_tooltip = {
+			FROM = {
+				location = {
+					random_province_character = {
+						limit = {
+							NOT = { character = FROM } # Not the councillor
+							NOT = { character = ROOT } # Not the player character
+							OR = {
+								# They have to have at least one hidden trait from the group.
+								# This is the catch-all group for random traits. It seems very rare that
+								# the same person would have two or more of these but probably technically possible
+								trait = augustus_hidden 
+								trait = peasant_leader_hidden 
+								trait = heresiarch_hidden 
+								trait = viking_hidden 
+								trait = reincarnation_hidden 
+								trait = kinslayer_hidden 
+								trait = homosexual_hidden 
+								trait = hafiz_hidden 
+							}
+						}
+						character_event = { id = revealTraits.2600 }
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# 26.1 Show a hidden trait on a character
+character_event = {
+	id = revealTraits.2600
+	desc = "EVTREVEALTRAITS.REVEAL.DESC"
+	
+	is_triggered_only = yes
+	
+	option = {
+		if = {
+			limit = {
+				trait = kinslayer_hidden
+			}
+			remove_trait = kinslayer_hidden
+			add_trait = kinslayer
+		}
+		if = {
+			limit = {
+				trait = homosexual_hidden
+			}
+			remove_trait = homosexual_hidden
+			add_trait = homosexual
+		}
+		if = {
+			limit = {
+				trait = augustus_hidden
+			}
+			remove_trait = augustus_hidden
+			add_trait = augustus
+		}
+		if = {
+			limit = {
+				trait = reincarnation_hidden
+			}
+			remove_trait = reincarnation_hidden
+			add_trait = reincarnation
+		}
+		if = {
+			limit = {
+				trait = viking_hidden
+			}
+			remove_trait = viking_hidden
+			add_trait = viking
+		}
+		if = {
+			limit = {
+				trait = hafiz_hidden
+			}
+			remove_trait = hafiz_hidden
+			add_trait = hafiz
+		}
+		if = {
+			limit = {
+				trait = peasant_leader_hidden
+			}
+			remove_trait = peasant_leader_hidden
+			add_trait = peasant_leader
+		}
+		if = {
+			limit = {
+				trait = heresiarch_hidden
+			}
+			remove_trait = heresiarch_hidden
+			add_trait = heresiarch
+		}
+	}
+}
+
