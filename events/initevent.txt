@@ -19,6 +19,7 @@ character_event = {
 	desc = "HTEVTDESC1"
 	picture = "GFX_evt_library"
 	
+	hide_window = yes
 	only_playable = yes
 	is_triggered_only = yes
 	ai = no
