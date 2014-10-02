@@ -52,7 +52,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 0 y = -20 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 
 
@@ -102,7 +102,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 0 y = 0 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 
 		guiButtonType = {
@@ -169,7 +169,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 14 y = 25 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="left_portrait_frame"
@@ -203,7 +203,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 461 y = 25 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="right_portrait_frame"
@@ -364,7 +364,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_50"
 			position = { x = 40 y = 84 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="left_portrait_frame"
@@ -400,7 +400,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_50"
 			position = { x = 508 y = 84 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="right_portrait_frame"
@@ -574,7 +574,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_50"
 			position = { x = 373 y = 87 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="about_portrait_frame"

@@ -1150,7 +1150,7 @@ guiTypes = {
 						position =  { x= 30 y = 119 }
 						Orientation = "UPPER_LEFT"
 						pdx_tooltip = "CHARACTER_TOOLTIP"
-						pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+						#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 					}
 					guiButtonType =
 					{
@@ -1178,7 +1178,7 @@ guiTypes = {
 						position = { x= 143 y = 132 }
 						Orientation = "UPPER_LEFT"
 						pdx_tooltip = "CHARACTER_TOOLTIP"
-						pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+						#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 					}
 					guiButtonType =
 					{
@@ -1484,7 +1484,7 @@ guiTypes = {
 					position =  { x= -201 y = -173 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="player_portrait_frame"
@@ -3456,7 +3456,7 @@ guiTypes = {
 					position =  { x= -75 y = -100 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="player_portrait_frame"
@@ -5185,7 +5185,7 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType =
@@ -5234,7 +5234,7 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType =
@@ -5289,7 +5289,7 @@ guiTypes = {
 			position = { x= 0 y = -3 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType =
 		{

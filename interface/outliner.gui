@@ -948,7 +948,7 @@ guiTypes = {
 			position = { x=0 y =0 }
 			quadTextureSprite ="GFX_outliner_standard"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 
 		instantTextBoxType = 
@@ -965,7 +965,7 @@ guiTypes = {
 			format = right
 			fixedsize = yes
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 	}
 }

@@ -172,7 +172,7 @@ guiTypes = {
 			position = { x= 56 y = 133 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType = {
@@ -549,7 +549,7 @@ guiTypes = {
 			position = { x= 5 y = 6 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType = {
@@ -573,11 +573,11 @@ guiTypes = {
 		iconType = {
 			name ="opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 29 y = 20 }
+			position = { x= 9999 y = 20 }
 		}
 		instantTextBoxType = {
 			name = "opinion"
-			position = { x = 21 y = 26 }
+			position = { x = 9999 y = 26 }
 			textureFile = ""
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -619,7 +619,7 @@ guiTypes = {
 			position = { x= 8 y = 9 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType = {
@@ -653,7 +653,7 @@ guiTypes = {
 			position = { x= 291 y = 9 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="target_portrait_frame"
@@ -768,7 +768,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 370 y = 4 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="target_portrait_frame"
@@ -809,7 +809,7 @@ guiTypes = {
 			position = { x= 8 y = 9 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -863,12 +863,12 @@ guiTypes = {
 		iconType = {
 			name ="opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 382 y = 12 }
+			position = { x= 9999 y = 12 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 				name = "opinion"
-				position = { x = 379 y = 18 }
+				position = { x = 9999 y = 18 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -917,7 +917,7 @@ guiTypes = {
 			position = { x= 8 y = 9 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -984,12 +984,12 @@ guiTypes = {
 		iconType = {
 			name ="opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 334 y = 5 }
+			position = { x= 9999 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 				name = "opinion"
-				position = { x = 326 y = 11 }
+				position = { x = 9999 y = 11 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -1096,7 +1096,7 @@ guiTypes = {
 			quadTextureSprite= "GFX_char_34"
 			position = { x= 16 y = 4 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="target_portrait_frame"

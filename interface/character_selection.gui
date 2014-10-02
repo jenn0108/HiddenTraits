@@ -104,7 +104,7 @@ guiTypes = {
 				position = { x= 14 y = 7 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
-				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+				#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			
 			guiButtonType = {
@@ -129,12 +129,12 @@ guiTypes = {
 			iconType = {
 				name ="opinion_bg"
 				spriteType = "GFX_opinion_bg"
-				position = { x= 0 y = 41 }
+				position = { x= 9999 y = 41 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 					name = "prev_character_opinion"
-					position = { x = -8 y = 47 }
+					position = { x = 9999 y = 47 }
 					textureFile = ""
 					font = "Arial12"
 					borderSize = {x = 0 y = 0}
@@ -515,7 +515,7 @@ guiTypes = {
 			position = { x= 15 y = 7 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 				name ="button_portrait_frame"
@@ -539,7 +539,7 @@ guiTypes = {
 		iconType = {
 			name ="opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 0 y = 41 }
+			position = { x= 9999 y = 41 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
@@ -550,7 +550,7 @@ guiTypes = {
 		}
 		instantTextBoxType = {
 				name = "character_opinion"
-				position = { x = -8 y = 47 }
+				position = { x = 9999 y = 47 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}

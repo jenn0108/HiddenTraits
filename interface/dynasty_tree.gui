@@ -74,7 +74,7 @@ guiTypes = {
 			position = { x = -219 y = 77 }
 			orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			clicksound = generic_click_04
 		}
 			
@@ -84,7 +84,7 @@ guiTypes = {
 			position = { x = -182 y = 77 }
 			orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			clicksound = generic_click_04
 		}
 		
@@ -842,7 +842,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 0 y = 0 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -934,7 +934,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_50"
 			position = { x = 0 y = -5 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -947,7 +947,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 31 y = -24 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="spouce_frame"
@@ -1033,7 +1033,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_75"
 			position = { x = 0 y = 0 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -1099,7 +1099,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_100"
 			position = { x = 0 y = 0 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -1147,7 +1147,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_50"
 			position = { x = -4 y = -2 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
@@ -1250,12 +1250,12 @@ guiTypes = {
 		iconType = {
 			name ="liege_opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 32 y = 15 }
+			position = { x= 9999 y = 15 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "liege_opinion_text"
-			position = { x = 33 y = 21 }
+			position = { x = 9999 y = 21 }
 			textureFile = ""
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}
@@ -1269,12 +1269,12 @@ guiTypes = {
 		iconType = {
 			name ="player_opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= 1 y = 15 }
+			position = { x= 9999 y = 15 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "player_opinion_text"
-			position = { x = 2 y = 21 }
+			position = { x = 9999 y = 21 }
 			textureFile = ""
 			font = "Arial12"
 			borderSize = {x = 0 y = 0}

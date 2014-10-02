@@ -91,7 +91,7 @@ guiTypes = {
 			position = { x = 19 y = 18 }
 			shortcut = "F2"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType =

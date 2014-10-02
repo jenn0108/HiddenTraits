@@ -304,7 +304,7 @@ guiTypes = {
 				position = { x= 30 y = 142 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
-				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+				#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			
 			guiButtonType =

@@ -254,7 +254,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_50"
 			position = { x = 50 y = 18 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType =
 		{
@@ -285,7 +285,7 @@ guiTypes = {
 			position = { x = 50 y = 84 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType =
 		{

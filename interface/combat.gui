@@ -358,7 +358,7 @@ guiTypes = {
 					position = { x= 24 y = 68 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="left_portrait_frame"
@@ -397,7 +397,7 @@ guiTypes = {
 					position = { x= 151 y = 68 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="center_portrait_frame"
@@ -436,7 +436,7 @@ guiTypes = {
 					position = { x= 278 y = 68 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="right_portrait_frame"
@@ -883,7 +883,7 @@ guiTypes = {
 					position = { x= 24 y = 51 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="left_portrait_frame"
@@ -922,7 +922,7 @@ guiTypes = {
 					position = { x= 151 y = 51 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="center_portrait_frame"
@@ -961,7 +961,7 @@ guiTypes = {
 					position = { x= 278 y = 51 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="right_portrait_frame"

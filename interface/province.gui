@@ -149,7 +149,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_100"
 			position = { x = 64 y = 69 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="ruler_portrait_frame"
@@ -879,7 +879,7 @@ guiTypes = {
 					position = { x= 15 y = 45 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="leader_portrait_frame"
@@ -1098,7 +1098,7 @@ guiTypes = {
 					position = { x= 15 y = 45 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			guiButtonType = {
 					name ="leader_portrait_frame"

@@ -86,7 +86,7 @@ guiTypes = {
 				position = { x= 65 y = 59 }
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "CHARACTER_TOOLTIP"
-				pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+				#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 			}
 			
 			guiButtonType = {
@@ -157,12 +157,12 @@ guiTypes = {
 			iconType = {
 				name ="opinion_bg"
 				spriteType = "GFX_opinion_bg"
-				position = { x= 183 y = 108 }
+				position = { x= 9999 y = 108 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "opinion_of_you"
-				position = { x = 175 y = 114 }
+				position = { x = 9999 y = 114 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -175,12 +175,12 @@ guiTypes = {
 			iconType = {
 				name ="opinion_bg2"
 				spriteType = "GFX_opinion_bg"
-				position = { x= 183 y = 130 }
+				position = { x= 9999 y = 130 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
 				name = "opinion_of_liege"
-				position = { x = 175 y = 136 }
+				position = { x = 9999 y = 136 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -353,7 +353,7 @@ guiTypes = {
 					position = { x= 90 y = 205 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="actor_selected_portrait_frame"
@@ -380,7 +380,7 @@ guiTypes = {
 					position = { x= 197 y = 205 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="recipient_selected_portrait_frame"
@@ -408,7 +408,7 @@ guiTypes = {
 					position = { x= 52 y = 188 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="you_portrait_frame"
@@ -434,7 +434,7 @@ guiTypes = {
 					position = { x= 260 y = 188  }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="other_portrait_frame"
@@ -540,7 +540,7 @@ guiTypes = {
 					position = { x= 145 y = 205 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				
 				guiButtonType = {
@@ -568,7 +568,7 @@ guiTypes = {
 					position = { x= 52 y = 188 }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="you_portrait_frame"
@@ -594,7 +594,7 @@ guiTypes = {
 					position = { x= 260 y = 188  }
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "CHARACTER_TOOLTIP"
-					pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+					#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 				}
 				guiButtonType = {
 					name ="other_portrait_frame"
@@ -1046,7 +1046,7 @@ guiTypes = {
 			position = { x= 192 y = -1 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="cb_portrait_frame"

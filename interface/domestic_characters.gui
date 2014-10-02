@@ -580,7 +580,7 @@ guiTypes = {
 			position = { x= 11 y = 7 }
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		
 		guiButtonType = {
@@ -605,12 +605,12 @@ guiTypes = {
 		iconType = {
 			name ="opinion_bg"
 			spriteType = "GFX_opinion_bg"
-			position = { x= -3 y = 41 }
+			position = { x= 9999 y = 41 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 				name = "character_opinion"
-				position = { x = -11 y = 47 }
+				position = { x = 9999 y = 47 }
 				textureFile = ""
 				font = "Arial12"
 				borderSize = {x = 0 y = 0}
@@ -683,7 +683,8 @@ guiTypes = {
 		### stats
 		instantTextBoxType = {
 			name = "character_diplomacy"
-			position = { x = 311 y = 7 }
+#			position = { x = 311 y = 7 }
+			position = { x = 9999 y = 7 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}

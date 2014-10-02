@@ -69,7 +69,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_char_34"
 			position = { x = 0 y = 7 }
 			pdx_tooltip = "CHARACTER_TOOLTIP"
-			pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
+			#pdx_tooltip_delayed = "CHARACTER_TOOLTIP_DELAYED"
 		}
 		guiButtonType = {
 			name ="portrait_frame"
