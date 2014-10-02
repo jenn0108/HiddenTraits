@@ -45,8 +45,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 0.75
 					}
@@ -55,8 +54,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 1.0
 					}
@@ -65,8 +63,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_seniority
 						power = 1.5
 					}
@@ -146,8 +143,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 1.0
 					}
@@ -156,8 +152,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 1.5
 					}
@@ -166,8 +161,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_primogeniture
 						power = 0.75
 					}
@@ -252,8 +246,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 1.0
 					}
@@ -262,8 +255,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 1.5
 					}
@@ -272,8 +264,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_feudal_elective
 						power = 0.75
 					}
@@ -357,8 +348,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 0.75
 					}
@@ -367,8 +357,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 1.0
 					}
@@ -377,8 +366,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_succ_gavelkind
 						power = 1.5
 					}
@@ -474,8 +462,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 0.75
 					}
@@ -484,8 +471,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 1.0
 					}
@@ -494,8 +480,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_lower_crown_authority
 						power = 1.5
 					}
@@ -631,8 +616,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 1.0
 					}
@@ -641,8 +625,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 1.5
 					}
@@ -651,8 +634,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_independence
 						power = 0.75
 					}
@@ -727,8 +709,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 0.75
 					}
@@ -738,8 +719,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 1.0
 					}
@@ -749,8 +729,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0.1
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_claimant
 						power = 1.5
 					}
@@ -910,8 +889,7 @@ plot_decisions = {
 			modifier = {
 				factor = 0
 				NOT = { 
-					faction_power = 
-					{
+					faction_power = {
 						faction = faction_antiking
 						power = 0.5
 					}
