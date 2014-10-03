@@ -387,6 +387,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -588,6 +589,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -821,6 +823,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -903,6 +906,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1064,6 +1068,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1194,6 +1199,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1251,6 +1257,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1308,6 +1315,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1365,6 +1373,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1422,6 +1431,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1488,6 +1498,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1545,6 +1556,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1602,6 +1614,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1659,6 +1672,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1716,6 +1730,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1773,6 +1788,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1830,6 +1846,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1887,6 +1904,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -1944,6 +1962,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2001,6 +2020,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2202,6 +2222,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2291,6 +2312,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2364,6 +2386,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2445,6 +2468,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2614,6 +2638,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
@@ -2751,6 +2776,7 @@ letter_event = {
 	border = GFX_event_letter_frame_intrigue
 	
 	is_triggered_only = yes
+	hide_window = yes
 	
 	option = {
 		name = "OK"
