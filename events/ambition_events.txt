@@ -3292,13 +3292,11 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
-		trigger = {
-			ai = yes
-		}
 		name = EVTOPTA94177
 		tooltip_info = craven
 		trigger = {
-			 OR = {
+			ai = yes
+			OR = {
 				trait = craven
 				trait = craven_hidden
 			} 
@@ -3310,13 +3308,11 @@ character_event = {
 		}
 	}
 	option = {
-		trigger = {
-			ai = yes
-		}
 		name = EVTOPTB94177
 		tooltip_info = impaler
 		trigger = {
-			 OR = {
+			ai = yes
+			OR = {
 				trait = impaler
 				trait = impaler_hidden
 			} 
@@ -3328,12 +3324,10 @@ character_event = {
 		}
 	}
 	option = {
-		trigger = {
-			ai = yes
-		}
 		name = EVTOPTC94177
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		trigger = { 
+			ai = yes
 			NOT = {
 				OR = {
 					trait = impaler
@@ -3352,13 +3346,11 @@ character_event = {
 	}
 	
 	option = {
-		trigger = {
-			ai = no
-		}
 		name = EVTOPTA94177
 		tooltip_info = craven
 		trigger = {
-			 OR = {
+			ai = no
+			OR = {
 				trait = craven
 				trait = craven_hidden
 			} 
@@ -3370,13 +3362,11 @@ character_event = {
 		}
 	}
 	option = {
-		trigger = {
-			ai = no
-		}
 		name = EVTOPTB94177
 		tooltip_info = impaler
 		trigger = {
-			 OR = {
+			ai = no
+			OR = {
 				trait = impaler
 				trait = impaler_hidden
 			} 
@@ -3388,12 +3378,10 @@ character_event = {
 		}
 	}
 	option = {
-		trigger = {
-			ai = no
-		}
 		name = EVTOPTC94177
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		trigger = { 
+			ai = no
 			NOT = {
 				OR = {
 					trait = impaler
