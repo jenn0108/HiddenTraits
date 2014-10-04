@@ -925,11 +925,26 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA94066
 		change_stewardship = 2
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
 			add_trait = gardener_hidden
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA94066
+		change_stewardship = 2
+		if = {
+			limit = { NOT = { lifestyle_traits = 1 } }
+			add_trait = gardener
 		}
 	}
 }
@@ -1269,9 +1284,21 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA94085
 		character_event = { id = 94088 days = 5 tooltip = EVTTOOLTIP94088 }
 		add_trait = wounded_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA94085
+		character_event = { id = 94088 days = 5 tooltip = EVTTOOLTIP94088 }
+		add_trait = wounded
 	}
 }
 
@@ -2474,6 +2501,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA94145
 		change_intrigue = 3
 		if = {
@@ -2492,6 +2522,56 @@ character_event = {
 			random = {
 				chance = 60
 				add_trait = deceitful_hidden
+				hidden_tooltip = {
+					character_event = {
+						id = 38255 #Notify Deceitful
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				} 
+			}
+			remove_trait = honest
+			remove_trait = honest_hidden
+		}
+		hidden_tooltip = {
+			random_list = {
+				40 = {
+				}
+				60 = {
+					character_event = { id = 94146 days = 3000 random = 100 }
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA94145
+		change_intrigue = 3
+		if = {
+			limit = { 
+				NOT = { 
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
+				}
+			}
+			random = {
+				chance = 60
+				add_trait = deceitful
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -2668,6 +2748,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA94152
 		change_intrigue = 3
 		if = {
@@ -2686,6 +2769,56 @@ character_event = {
 			random = {
 				chance = 60
 				add_trait = deceitful_hidden
+				hidden_tooltip = {
+					character_event = {
+						id = 38255 #Notify Deceitful
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				} 
+			}
+			remove_trait = honest
+			remove_trait = honest_hidden
+		}
+		hidden_tooltip = {
+			random_list = {
+				40 = {
+				}
+				60 = {
+					character_event = { id = 94153 days = 3000 random = 100}
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA94152
+		change_intrigue = 3
+		if = {
+			limit = { 
+				NOT = { 
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					OR = {
+						trait = honest
+						trait = honest_hidden
+					}
+				}
+			}
+			random = {
+				chance = 60
+				add_trait = deceitful
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -3159,6 +3292,9 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA94177
 		tooltip_info = craven
 		trigger = {
@@ -3174,6 +3310,9 @@ character_event = {
 		}
 	}
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTB94177
 		tooltip_info = impaler
 		trigger = {
@@ -3189,6 +3328,9 @@ character_event = {
 		}
 	}
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTC94177
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		trigger = { 
@@ -3206,6 +3348,66 @@ character_event = {
 		random = {
 			chance = 10
 			add_trait = wounded_hidden
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA94177
+		tooltip_info = craven
+		trigger = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			} 
+		}
+		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
+		random = {
+			chance = 20
+			add_trait = wounded
+		}
+	}
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTB94177
+		tooltip_info = impaler
+		trigger = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			} 
+		}
+		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
+		random = {
+			chance = 5
+			add_trait = wounded
+		}
+	}
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTC94177
+		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
+		trigger = { 
+			NOT = {
+				OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+			}
+		}
+		random = {
+			chance = 10
+			add_trait = wounded
 		}
 	}
 }
