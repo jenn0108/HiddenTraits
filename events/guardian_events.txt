@@ -5378,7 +5378,7 @@ character_event = {
 		random_list = {
 			80 = {	FROM = { add_trait = wroth_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38154}} character_event = { id = 38254}}}}
 			15 = {	FROM = { add_trait = deceitful_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38155}} character_event = { id = 38255}}}}
-			 5 = {	FROM = { add_trait = stutter	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
+			 5 = {	FROM = { add_trait = stutter_hidden	hidden_tooltip = { ROOT = { character_event = { id = 38153}} character_event = { id = 38253}}}}
 		}
 	}
 	option = {
