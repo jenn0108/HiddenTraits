@@ -8644,6 +8644,84 @@ At most 1 instance(s) of a "immediate" entry are allowed, but there are 2 instan
 At <mod>\events\initevent.txt [character_event] (Line 4, column 1):
 The event is set to be triggered only, but it is never called.
 
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2814, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2678, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2512, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2419, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2344, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2256, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2068, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1992, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1934, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1876, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1818, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1760, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1702, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1644, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1586, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1528, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1462, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1403, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1345, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1287, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1229, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1107, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 949, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 856, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 641, column 1):
+This event needs a picture.
+
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 435, column 1):
+This event needs a picture.
+
 At <mod>\events\job_spymaster.txt [character_event\option\liege\character_event\id] (Line 1441, column 33):
 "9021" is not a valid CharEventId.
 
