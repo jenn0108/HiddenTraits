@@ -8530,10 +8530,10 @@ At <mod>\events\byzantine_events.txt [narrative_event\option\character_event\id]
 At <mod>\events\byzantine_events.txt [narrative_event\option\character_event\id] (Line 638, column 23):
 "LoR.861" is not a valid CharEventId.
 
-At <mod>\events\crusade_events.txt [character_event\desc] (Line 153, column 2):
+At <mod>\events\crusade_events.txt [character_event\desc] (Line 175, column 2):
 "EVTDESC8306" is not a valid LocalizationKey.
 
-At <mod>\events\crusade_events.txt [character_event\option\name] (Line 195, column 3):
+At <mod>\events\crusade_events.txt [character_event\option\name] (Line 217, column 3):
 "EVTOPTA8306" is not a valid LocalizationKey.
 
 At <mod>\events\culture_conversion_events.txt [province_event\mean_time_to_happen\modifier\OR\owner\is_capital] (Line 281, column 6):
@@ -8545,7 +8545,7 @@ Invalid node "only_rulers" in scope ProvEvent (value is: yes)
 At <mod>\events\culture_conversion_events.txt [province_event\mean_time_to_happen\modifier\OR\owner\is_capital] (Line 94, column 6):
 Invalid node "is_capital" in scope CharTrigger (value is: ROOT)
 
-At <mod>\events\decadence_events.txt [character_event\option\hidden_tooltip\FROM\character_event\id] (Line 2217, column 6):
+At <mod>\events\decadence_events.txt [character_event\option\hidden_tooltip\FROM\character_event\id] (Line 2240, column 6):
 "91363" is not a valid CharEventId.
 
 At <mod>\events\family_events.txt [character_event\option\name] (Line 588, column 3):
@@ -8560,13 +8560,13 @@ The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' cla
 At <mod>\events\family_events.txt [character_event\trigger\liege\any_demesne_title\AND] (Line 31, column 5):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
-At <mod>\events\feast_events.txt [character_event\immediate] (Line 5880, column 2):
+At <mod>\events\feast_events.txt [character_event\immediate] (Line 6607, column 2):
 The right sides of a "remove_character_modifier" clause may not be identical.
 There were 2 duplicates.
-	[I101416|L5881|C3]: remove_character_modifier = holding_large_feast
-	[I102298|L5903|C3]: remove_character_modifier = holding_large_feast
+	[I113112|L6608|C3]: remove_character_modifier = holding_large_feast
+	[I113994|L6630|C3]: remove_character_modifier = holding_large_feast
 
-At <mod>\events\feast_events.txt [character_event\option\any_liege\character_event\tooltip] (Line 2476, column 5):
+At <mod>\events\feast_events.txt [character_event\option\any_liege\character_event\tooltip] (Line 2772, column 5):
 "EVTTOOLTIP72035" is not a valid LocalizationKey.
 
 At <mod>\events\friends_rivals_events.txt [character_event\option\FROM\character_event\tooltip] (Line 14333, column 5):

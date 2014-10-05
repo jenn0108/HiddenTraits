@@ -48,8 +48,19 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EVTOPTA8300"
 		add_trait = crusader_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EVTOPTA8300"
+		add_trait = crusader
 	}
 }
 
@@ -94,8 +105,19 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EVTOPTA8301"
 		add_trait = mujahid_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EVTOPTA8301"
+		add_trait = mujahid
 	}
 }
 
@@ -273,8 +295,19 @@ character_event = {
 	}
 
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EXCELLENT"
 		add_trait = zealous_hidden
+	}
+
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EXCELLENT"
+		add_trait = zealous
 	}
 }
 
@@ -321,8 +354,19 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EVTOPTA8320"
 		add_trait = cynical_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EVTOPTA8320"
+		add_trait = cynical
 	}
 }
 

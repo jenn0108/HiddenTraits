@@ -1700,8 +1700,31 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA91300
 		add_trait = decadent_hidden
+		
+		hidden_tooltip = {
+			any_dynasty_member = {
+				limit = {
+					ai = no
+				}
+				character_event = {
+					id = 91370
+					days = 1
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA91300
+		add_trait = decadent
 		
 		hidden_tooltip = {
 			any_dynasty_member = {
