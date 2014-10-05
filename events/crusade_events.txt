@@ -53,7 +53,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = crusader_hidden
+			hidden_tooltip = {
+				add_trait = crusader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -110,7 +112,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = mujahid_hidden
+			hidden_tooltip = {
+				add_trait = mujahid_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -300,7 +304,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = zealous_hidden
+			hidden_tooltip = {
+				add_trait = zealous_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -359,7 +365,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cynical_hidden
+			hidden_tooltip = {
+				add_trait = cynical_hidden
+			}
 		}
 		if = {
 			limit = {

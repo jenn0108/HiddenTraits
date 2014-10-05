@@ -90,7 +90,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = saoshyant_descendant_hidden
+			hidden_tooltip = {
+				add_trait = saoshyant_descendant_hidden
+			}
 		}
 		if = {
 			limit = {

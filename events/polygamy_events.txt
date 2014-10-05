@@ -286,7 +286,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = content_hidden
+						hidden_tooltip = {
+							add_trait = content_hidden
+						}
 					}
 					if = {
 						limit = {

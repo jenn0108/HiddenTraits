@@ -170,7 +170,9 @@ letter_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -682,7 +684,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -1281,7 +1285,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -2818,7 +2824,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4963,7 +4971,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -5682,7 +5692,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -11731,7 +11743,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -12458,7 +12472,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -13177,7 +13193,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = celibate_hidden
+						hidden_tooltip = {
+							add_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {

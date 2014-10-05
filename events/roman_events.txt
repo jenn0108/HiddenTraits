@@ -619,7 +619,9 @@ narrative_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = augustus_hidden
+			hidden_tooltip = {
+				add_trait = augustus_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -949,7 +951,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = augustus_hidden
+			hidden_tooltip = {
+				add_trait = augustus_hidden
+			}
 		}
 		if = {
 			limit = {

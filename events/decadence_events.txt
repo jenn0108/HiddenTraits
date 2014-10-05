@@ -1705,7 +1705,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = decadent_hidden
+			hidden_tooltip = {
+				add_trait = decadent_hidden
+			}
 		}
 		if = {
 			limit = {

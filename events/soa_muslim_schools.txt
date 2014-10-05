@@ -22,7 +22,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = mutazilite_hidden
+			hidden_tooltip = {
+				add_trait = mutazilite_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -58,7 +60,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = ashari_hidden
+			hidden_tooltip = {
+				add_trait = ashari_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -162,7 +166,9 @@ letter_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = ashari_hidden
+			hidden_tooltip = {
+				add_trait = ashari_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -204,7 +210,9 @@ letter_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = ashari_hidden
+					hidden_tooltip = {
+						add_trait = ashari_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -310,7 +318,9 @@ letter_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = mutazilite_hidden
+			hidden_tooltip = {
+				add_trait = mutazilite_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -364,7 +374,9 @@ letter_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = mutazilite_hidden
+					hidden_tooltip = {
+						add_trait = mutazilite_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -424,7 +436,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = mutazilite_hidden
+			hidden_tooltip = {
+				add_trait = mutazilite_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -456,7 +470,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = zealous_hidden
+			hidden_tooltip = {
+				add_trait = zealous_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -513,7 +529,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = ashari_hidden
+			hidden_tooltip = {
+				add_trait = ashari_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -533,7 +551,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cynical_hidden
+			hidden_tooltip = {
+				add_trait = cynical_hidden
+			}
 		}
 		if = {
 			limit = {

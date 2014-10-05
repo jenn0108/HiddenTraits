@@ -655,7 +655,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -711,7 +713,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -782,7 +786,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = ill_hidden
+					hidden_tooltip = {
+						add_trait = ill_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -880,7 +886,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wounded_hidden
+				hidden_tooltip = {
+					add_trait = wounded_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -924,7 +932,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = maimed_hidden
+						hidden_tooltip = {
+							add_trait = maimed_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -993,7 +1003,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = stressed_hidden
+					hidden_tooltip = {
+						add_trait = stressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1031,7 +1043,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1091,7 +1105,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = stressed_hidden
+					hidden_tooltip = {
+						add_trait = stressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1162,7 +1178,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = pneumonic_hidden
+					hidden_tooltip = {
+						add_trait = pneumonic_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1600,7 +1618,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = humble_hidden
+			hidden_tooltip = {
+				add_trait = humble_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1619,7 +1639,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = humble_hidden
+			hidden_tooltip = {
+				add_trait = humble_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1716,7 +1738,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = celibate_hidden
+				hidden_tooltip = {
+					add_trait = celibate_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1758,7 +1782,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = celibate_hidden
+				hidden_tooltip = {
+					add_trait = celibate_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1777,7 +1803,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = celibate_hidden
+				hidden_tooltip = {
+					add_trait = celibate_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1845,7 +1873,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = drunkard_hidden
+			hidden_tooltip = {
+				add_trait = drunkard_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1868,7 +1898,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = ill_hidden
+				hidden_tooltip = {
+					add_trait = ill_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1888,7 +1920,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = gluttonous_hidden
+				hidden_tooltip = {
+					add_trait = gluttonous_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1938,7 +1972,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = drunkard_hidden
+			hidden_tooltip = {
+				add_trait = drunkard_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1961,7 +1997,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = zealous_hidden
+			hidden_tooltip = {
+				add_trait = zealous_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1986,7 +2024,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = lustful_hidden
+			hidden_tooltip = {
+				add_trait = lustful_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2037,7 +2077,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = drunkard_hidden
+			hidden_tooltip = {
+				add_trait = drunkard_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2251,7 +2293,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = drunkard_hidden
+			hidden_tooltip = {
+				add_trait = drunkard_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2551,7 +2595,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = incapable_hidden
+			hidden_tooltip = {
+				add_trait = incapable_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2842,7 +2888,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = cynical_hidden
+					hidden_tooltip = {
+						add_trait = cynical_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -2897,7 +2945,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = stressed_hidden
+					hidden_tooltip = {
+						add_trait = stressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -2967,7 +3017,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = kind_hidden
+						hidden_tooltip = {
+							add_trait = kind_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -2993,7 +3045,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = charitable_hidden
+						hidden_tooltip = {
+							add_trait = charitable_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -3060,7 +3114,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = arbitrary_hidden
+						hidden_tooltip = {
+							add_trait = arbitrary_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -3086,7 +3142,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = cynical_hidden
+						hidden_tooltip = {
+							add_trait = cynical_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -3214,7 +3272,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3233,7 +3293,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3257,7 +3319,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3276,7 +3340,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3462,7 +3528,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = slothful_hidden
+				hidden_tooltip = {
+					add_trait = slothful_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -3533,7 +3601,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = wounded_hidden
+			hidden_tooltip = {
+				add_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3586,7 +3656,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3605,7 +3677,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3629,7 +3703,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3648,7 +3724,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3712,7 +3790,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wroth_hidden
+					hidden_tooltip = {
+						add_trait = wroth_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3731,7 +3811,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = cruel_hidden
+					hidden_tooltip = {
+						add_trait = cruel_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3757,7 +3839,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3782,7 +3866,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3817,7 +3903,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wounded_hidden
+				hidden_tooltip = {
+					add_trait = wounded_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -3916,7 +4004,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3935,7 +4025,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3975,7 +4067,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = content_hidden
+			hidden_tooltip = {
+				add_trait = content_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4033,7 +4127,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4052,7 +4148,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4076,7 +4174,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4095,7 +4195,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4244,7 +4346,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = deceitful_hidden
+					hidden_tooltip = {
+						add_trait = deceitful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4263,7 +4367,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = craven_hidden
+					hidden_tooltip = {
+						add_trait = craven_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4325,7 +4431,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4344,7 +4452,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4368,7 +4478,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4387,7 +4499,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4491,7 +4605,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wroth_hidden
+					hidden_tooltip = {
+						add_trait = wroth_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4510,7 +4626,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = cynical_hidden
+					hidden_tooltip = {
+						add_trait = cynical_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4537,7 +4655,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = zealous_hidden
+				hidden_tooltip = {
+					add_trait = zealous_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4567,7 +4687,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = ambitious_hidden
+				hidden_tooltip = {
+					add_trait = ambitious_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4610,7 +4732,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = gregarious_hidden
+				hidden_tooltip = {
+					add_trait = gregarious_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4672,7 +4796,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wroth_hidden
+				hidden_tooltip = {
+					add_trait = wroth_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4698,7 +4824,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = cruel_hidden
+				hidden_tooltip = {
+					add_trait = cruel_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4763,7 +4891,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cynical_hidden
+			hidden_tooltip = {
+				add_trait = cynical_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4869,7 +4999,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4895,7 +5027,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = proud_hidden
+					hidden_tooltip = {
+						add_trait = proud_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4914,7 +5048,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = honest_hidden
+					hidden_tooltip = {
+						add_trait = honest_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4942,7 +5078,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4961,7 +5099,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5021,7 +5161,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5040,7 +5182,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5064,7 +5208,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5083,7 +5229,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5232,7 +5380,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = deceitful_hidden
+					hidden_tooltip = {
+						add_trait = deceitful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5251,7 +5401,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = craven_hidden
+					hidden_tooltip = {
+						add_trait = craven_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5322,7 +5474,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = gregarious_hidden
+				hidden_tooltip = {
+					add_trait = gregarious_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5346,7 +5500,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5365,7 +5521,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = patient_hidden
+					hidden_tooltip = {
+						add_trait = patient_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5384,7 +5542,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5426,7 +5586,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = zealous_hidden
+				hidden_tooltip = {
+					add_trait = zealous_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5480,7 +5642,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5499,7 +5663,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5523,7 +5689,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5542,7 +5710,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5611,7 +5781,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = gregarious_hidden
+				hidden_tooltip = {
+					add_trait = gregarious_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5635,7 +5807,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5654,7 +5828,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = patient_hidden
+					hidden_tooltip = {
+						add_trait = patient_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5673,7 +5849,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5715,7 +5893,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = zealous_hidden
+				hidden_tooltip = {
+					add_trait = zealous_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5867,7 +6047,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = deceitful_hidden
+					hidden_tooltip = {
+						add_trait = deceitful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5886,7 +6068,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = craven_hidden
+					hidden_tooltip = {
+						add_trait = craven_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5948,7 +6132,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5967,7 +6153,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = brave_hidden
+					hidden_tooltip = {
+						add_trait = brave_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5991,7 +6179,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6010,7 +6200,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6072,7 +6264,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = proud_hidden
+					hidden_tooltip = {
+						add_trait = proud_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6098,7 +6292,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = humble_hidden
+					hidden_tooltip = {
+						add_trait = humble_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6117,7 +6313,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6167,7 +6365,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = wounded_hidden
+			hidden_tooltip = {
+				add_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -6219,7 +6419,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = honest_hidden
+					hidden_tooltip = {
+						add_trait = honest_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6245,7 +6447,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = proud_hidden
+					hidden_tooltip = {
+						add_trait = proud_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6340,7 +6544,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6366,7 +6572,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = proud_hidden
+					hidden_tooltip = {
+						add_trait = proud_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6385,7 +6593,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = deceitful_hidden
+					hidden_tooltip = {
+						add_trait = deceitful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6439,7 +6649,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6465,7 +6677,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = proud_hidden
+					hidden_tooltip = {
+						add_trait = proud_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6519,7 +6733,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = patient_hidden
+					hidden_tooltip = {
+						add_trait = patient_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6545,7 +6761,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = cruel_hidden
+					hidden_tooltip = {
+						add_trait = cruel_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6601,7 +6819,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = fair_hidden
+					hidden_tooltip = {
+						add_trait = fair_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6679,7 +6899,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = shy_hidden
+					hidden_tooltip = {
+						add_trait = shy_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6727,7 +6949,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6789,7 +7013,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -6843,7 +7069,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = depressed_hidden
+					hidden_tooltip = {
+						add_trait = depressed_hidden
+					}
 				}
 				if = {
 					limit = {

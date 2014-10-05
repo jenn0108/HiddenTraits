@@ -134,7 +134,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = content_hidden
+				hidden_tooltip = {
+					add_trait = content_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -415,7 +417,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = arbitrary_hidden
+				hidden_tooltip = {
+					add_trait = arbitrary_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -469,7 +473,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = just_hidden
+				hidden_tooltip = {
+					add_trait = just_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -523,7 +529,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = kind_hidden
+				hidden_tooltip = {
+					add_trait = kind_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -591,7 +599,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = deceitful_hidden
+				hidden_tooltip = {
+					add_trait = deceitful_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -823,7 +833,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = stressed_hidden
+					hidden_tooltip = {
+						add_trait = stressed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -935,7 +947,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = stressed_hidden
+				hidden_tooltip = {
+					add_trait = stressed_hidden
+				}
 			}
 			if = {
 				limit = {

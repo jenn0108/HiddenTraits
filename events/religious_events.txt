@@ -1601,7 +1601,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cynical_hidden
+			hidden_tooltip = {
+				add_trait = cynical_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4043,7 +4045,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = sympathy_pagans_hidden
+					hidden_tooltip = {
+						add_trait = sympathy_pagans_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4073,7 +4077,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = sympathy_pagans_hidden
+					hidden_tooltip = {
+						add_trait = sympathy_pagans_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4427,7 +4433,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = sympathy_pagans_hidden
+					hidden_tooltip = {
+						add_trait = sympathy_pagans_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -4457,7 +4465,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = sympathy_pagans_hidden
+					hidden_tooltip = {
+						add_trait = sympathy_pagans_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -5616,7 +5626,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = sympathy_christendom_hidden
+				hidden_tooltip = {
+					add_trait = sympathy_christendom_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5633,7 +5645,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = sympathy_islam_hidden
+				hidden_tooltip = {
+					add_trait = sympathy_islam_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5650,7 +5664,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = sympathy_pagans_hidden
+				hidden_tooltip = {
+					add_trait = sympathy_pagans_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5667,7 +5683,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = sympathy_zoroastrianism_hidden
+				hidden_tooltip = {
+					add_trait = sympathy_zoroastrianism_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -5684,7 +5702,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = sympathy_judaism_hidden
+				hidden_tooltip = {
+					add_trait = sympathy_judaism_hidden
+				}
 			}
 			if = {
 				limit = {

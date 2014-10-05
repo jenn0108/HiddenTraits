@@ -344,7 +344,9 @@ narrative_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = cavalry_leader_hidden
+				hidden_tooltip = {
+					add_trait = cavalry_leader_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -407,7 +409,9 @@ narrative_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = cavalry_leader_hidden
+				hidden_tooltip = {
+					add_trait = cavalry_leader_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -448,7 +452,9 @@ narrative_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = cavalry_leader_hidden
+				hidden_tooltip = {
+					add_trait = cavalry_leader_hidden
+				}
 			}
 			if = {
 				limit = {

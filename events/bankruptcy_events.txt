@@ -445,7 +445,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cruel_hidden
+			hidden_tooltip = {
+				add_trait = cruel_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -491,7 +493,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = zealous_hidden
+				hidden_tooltip = {
+					add_trait = zealous_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -589,7 +593,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = excommunicated_hidden
+			hidden_tooltip = {
+				add_trait = excommunicated_hidden
+			}
 		}
 		if = {
 			limit = {

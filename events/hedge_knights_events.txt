@@ -239,7 +239,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = gregarious_hidden
+				hidden_tooltip = {
+					add_trait = gregarious_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -368,7 +370,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = just_hidden
+				hidden_tooltip = {
+					add_trait = just_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -596,7 +600,9 @@ character_event = {
 		limit = {
 			ai = yes
 		}
-		add_trait = lustful_hidden
+		hidden_tooltip = {
+			add_trait = lustful_hidden
+		}
 	}
 	if = {
 		limit = {
@@ -618,7 +624,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = lustful_hidden
+					hidden_tooltip = {
+						add_trait = lustful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -660,7 +668,9 @@ character_event = {
 		limit = {
 			ai = yes
 		}
-		add_trait = lustful_hidden
+		hidden_tooltip = {
+			add_trait = lustful_hidden
+		}
 	}
 	if = {
 		limit = {
@@ -682,7 +692,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = lustful_hidden
+					hidden_tooltip = {
+						add_trait = lustful_hidden
+					}
 				}
 				if = {
 					limit = {

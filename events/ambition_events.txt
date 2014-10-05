@@ -933,7 +933,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = gardener_hidden
+				hidden_tooltip = {
+					add_trait = gardener_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1286,7 +1288,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = wounded_hidden
+			hidden_tooltip = {
+				add_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2517,7 +2521,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = deceitful_hidden
+					hidden_tooltip = {
+						add_trait = deceitful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -2722,7 +2728,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = deceitful_hidden
+					hidden_tooltip = {
+						add_trait = deceitful_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3218,7 +3226,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wounded_hidden
+				hidden_tooltip = {
+					add_trait = wounded_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -3244,7 +3254,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wounded_hidden
+				hidden_tooltip = {
+					add_trait = wounded_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -3275,7 +3287,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wounded_hidden
+				hidden_tooltip = {
+					add_trait = wounded_hidden
+				}
 			}
 			if = {
 				limit = {

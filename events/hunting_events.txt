@@ -155,7 +155,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = kind_hidden
+			hidden_tooltip = {
+				add_trait = kind_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -203,7 +205,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = diligent_hidden
+						hidden_tooltip = {
+							add_trait = diligent_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -233,7 +237,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -248,7 +254,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -334,7 +342,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -352,7 +362,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -689,7 +701,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = diligent_hidden
+						hidden_tooltip = {
+							add_trait = diligent_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -719,7 +733,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -734,7 +750,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -881,7 +899,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = craven_hidden
+					hidden_tooltip = {
+						add_trait = craven_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -919,7 +939,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = diligent_hidden
+						hidden_tooltip = {
+							add_trait = diligent_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -949,7 +971,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -964,7 +988,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1115,7 +1141,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = diligent_hidden
+						hidden_tooltip = {
+							add_trait = diligent_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -1145,7 +1173,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1160,7 +1190,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1302,7 +1334,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = wounded_hidden
+				hidden_tooltip = {
+					add_trait = wounded_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1349,7 +1383,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cruel_hidden
+			hidden_tooltip = {
+				add_trait = cruel_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1760,7 +1796,9 @@ character_event = {
 						limit = {
 							ai = yes
 						}
-						add_trait = diligent_hidden
+						hidden_tooltip = {
+							add_trait = diligent_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -1789,7 +1827,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = wounded_hidden
+					hidden_tooltip = {
+						add_trait = wounded_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1804,7 +1844,9 @@ character_event = {
 					limit = {
 						ai = yes
 					}
-					add_trait = maimed_hidden
+					hidden_tooltip = {
+						add_trait = maimed_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1828,7 +1870,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = craven_hidden
+			hidden_tooltip = {
+				add_trait = craven_hidden
+			}
 		}
 		if = {
 			limit = {

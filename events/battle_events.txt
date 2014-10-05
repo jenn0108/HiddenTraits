@@ -550,7 +550,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = wounded_hidden
+			hidden_tooltip = {
+				add_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -829,7 +831,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = maimed_hidden
+			hidden_tooltip = {
+				add_trait = maimed_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1102,7 +1106,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = incapable_hidden
+			hidden_tooltip = {
+				add_trait = incapable_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1358,7 +1364,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = brilliant_strategist_hidden
+				hidden_tooltip = {
+					add_trait = brilliant_strategist_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1380,7 +1388,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = skilled_tactician_hidden
+				hidden_tooltip = {
+					add_trait = skilled_tactician_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1402,7 +1412,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = tough_soldier_hidden
+				hidden_tooltip = {
+					add_trait = tough_soldier_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -2099,7 +2111,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = brave_hidden
+			hidden_tooltip = {
+				add_trait = brave_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2363,7 +2377,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = craven_hidden
+			hidden_tooltip = {
+				add_trait = craven_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2409,7 +2425,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = wroth_hidden
+			hidden_tooltip = {
+				add_trait = wroth_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2455,7 +2473,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = patient_hidden
+			hidden_tooltip = {
+				add_trait = patient_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3164,7 +3184,9 @@ character_event = {
 				limit = {
 					ai = yes
 				}
-				add_trait = cruel_hidden
+				hidden_tooltip = {
+					add_trait = cruel_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -3336,7 +3358,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = jungle_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = jungle_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3360,7 +3384,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = war_elephant_leader_hidden
+			hidden_tooltip = {
+				add_trait = war_elephant_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3399,7 +3425,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = rough_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = rough_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3439,7 +3467,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = flat_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = flat_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3475,7 +3505,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = mountain_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = mountain_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3511,7 +3543,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = desert_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = desert_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3542,7 +3576,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = cavalry_leader_hidden
+			hidden_tooltip = {
+				add_trait = cavalry_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3573,7 +3609,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = light_foot_leader_hidden
+			hidden_tooltip = {
+				add_trait = light_foot_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3604,7 +3642,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = heavy_infantry_leader_hidden
+			hidden_tooltip = {
+				add_trait = heavy_infantry_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3759,7 +3799,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = organizer_hidden
+			hidden_tooltip = {
+				add_trait = organizer_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3782,7 +3824,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = experimenter_hidden
+			hidden_tooltip = {
+				add_trait = experimenter_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3813,7 +3857,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = holy_warrior_hidden
+			hidden_tooltip = {
+				add_trait = holy_warrior_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3836,7 +3882,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = unyielding_leader_hidden
+			hidden_tooltip = {
+				add_trait = unyielding_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3995,7 +4043,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = aggressive_leader_hidden
+			hidden_tooltip = {
+				add_trait = aggressive_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4022,7 +4072,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = defensive_leader_hidden
+			hidden_tooltip = {
+				add_trait = defensive_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4045,7 +4097,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = inspiring_leader_hidden
+			hidden_tooltip = {
+				add_trait = inspiring_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4068,7 +4122,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = trickster_hidden
+			hidden_tooltip = {
+				add_trait = trickster_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4239,7 +4295,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = rough_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = rough_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4279,7 +4337,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = flat_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = flat_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4315,7 +4375,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = mountain_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = mountain_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4351,7 +4413,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = desert_terrain_leader_hidden
+			hidden_tooltip = {
+				add_trait = desert_terrain_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4374,7 +4438,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = flanker_hidden
+			hidden_tooltip = {
+				add_trait = flanker_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4402,7 +4468,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = narrow_flank_leader_hidden
+			hidden_tooltip = {
+				add_trait = narrow_flank_leader_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4428,7 +4496,9 @@ character_event = {
 			limit = {
 				ai = yes
 			}
-			add_trait = siege_leader_hidden
+			hidden_tooltip = {
+				add_trait = siege_leader_hidden
+			}
 		}
 		if = {
 			limit = {
