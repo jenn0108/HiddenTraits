@@ -42,6 +42,9 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EVTOPTA6500"
 		random_list = {
 			50 = {
@@ -54,6 +57,9 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EVTOPTB6500"
 		random_list = {
 			25 = {
@@ -67,6 +73,42 @@ character_event = {
 			}
 			25 = {
 				add_trait = incapable_hidden
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EVTOPTA6500"
+		random_list = {
+			50 = {
+				add_trait = lustful
+			}
+			50 = {
+				add_trait = infirm
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EVTOPTB6500"
+		random_list = {
+			25 = {
+				add_trait = lustful
+			}
+			25 = {
+				add_trait = ambitious
+			}
+			25 = {
+				add_trait = greedy
+			}
+			25 = {
+				add_trait = incapable
 			}
 		}
 	}
@@ -118,6 +160,9 @@ character_event = {
 		}
 	}
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = "EVTOPTB6502"
 		add_trait = cruel_hidden
 		if = {
@@ -132,6 +177,33 @@ character_event = {
 			random = {
 				chance = 25
 				add_trait = maimed_hidden
+				hidden_tooltip = {
+					character_event = {
+						id = 38281 #Notify Maimed
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = "EVTOPTB6502"
+		add_trait = cruel
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+				}
+			}
+			random = {
+				chance = 25
+				add_trait = maimed
 				hidden_tooltip = {
 					character_event = {
 						id = 38281 #Notify Maimed

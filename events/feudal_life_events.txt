@@ -80,8 +80,19 @@ character_event = {
 	}
 	
 	option = { #Ignore
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA4000
 		add_trait = just_hidden
+	}
+	
+	option = { #Ignore
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA4000
+		add_trait = just
 	}
 	
 	option = {
@@ -900,6 +911,7 @@ character_event = {
 		name = EVTOPTD4010
 		tooltip_info = wroth
 		trigger = {
+			ai = yes
 			OR = {
 				trait = wroth
 				trait = wroth_hidden
@@ -922,6 +934,7 @@ character_event = {
 	option = {
 		name = EVTOPTE4010
 		trigger = {
+			ai = yes
 			NOT = {
 				OR = {
 					trait = arbitrary
@@ -942,6 +955,56 @@ character_event = {
 			}
 		}
 		add_trait = diligent_hidden
+	}
+	
+	option = {
+		name = EVTOPTD4010
+		tooltip_info = wroth
+		trigger = {
+			ai = no
+			OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			NOT = {
+				OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+			}
+		}
+		if = {
+			limit = { religion = jain }
+			piety = -20
+			custom_tooltip = { text = jain_ahimsa_tooltip }
+		}
+		add_trait = cruel
+	}
+	
+	option = {
+		name = EVTOPTE4010
+		trigger = {
+			ai = no
+			NOT = {
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
+			}
+		}
+		add_trait = diligent
 	}
 }
 
@@ -1123,18 +1186,28 @@ character_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
+	option = { # Case 1: Both AI
+		trigger = {
+			ai = yes
+			FROM = { ai = yes }
+		}
 		name = EVTOPTA4047
 		add_trait = content_hidden
 		FROM = { add_trait = ambitious_hidden }
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTB4047
 		add_trait = just_hidden
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTC4047 #Imprisonment
 		FROM = {
 			opinion = {
@@ -1147,6 +1220,9 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTD4047
 		FROM = {
 			opinion = {
@@ -1156,6 +1232,67 @@ character_event = {
 			}
 		}
 		add_trait = arbitrary_hidden
+	}
+	
+	
+	option = { # Case 2: Root AI, From player
+		trigger = {
+			ai = no
+			
+		}
+		name = EVTOPTA4047
+		add_trait = content_hidden
+		FROM = { add_trait = ambitious }
+	}
+	
+	option = { # Case 3: Root Player, From AI
+		trigger = {
+			ai = yes
+			FROM = { ai = yes }
+		}
+		name = EVTOPTA4047
+		add_trait = content
+		hidden_tooltip = {
+			FROM = { add_trait = ambitious_hidden }
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTB4047
+		add_trait = just
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTC4047 #Imprisonment
+		FROM = {
+			opinion = {
+				modifier = perfect_punishment
+				who = ROOT
+				years = 1
+			}
+		}
+		add_trait = cruel
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTD4047
+		FROM = {
+			opinion = {
+				modifier = opinion_furious
+				who = ROOT
+				years = 1
+			}
+		}
+		add_trait = arbitrary
 	}
 }
 
@@ -2389,6 +2526,7 @@ character_event = {
 		name = EVTOPTC4016 #Infidelty = crime?
 		tooltip_info = arbitrary
 		trigger = {
+			ai = yes
 			OR = {
 				trait = arbitrary
 				trait = arbitrary_hidden
@@ -2401,6 +2539,25 @@ character_event = {
 			}
 		}
 		add_trait = slow_hidden
+	}
+	
+	option = {
+		name = EVTOPTC4016 #Infidelty = crime?
+		tooltip_info = arbitrary
+		trigger = {
+			ai = no
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			NOT = {
+				OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+			}
+		}
+		add_trait = slow
 	}
 	
 	option = {
@@ -3048,6 +3205,7 @@ character_event = {
 		name = EVTOPTB4115
 		tooltip_info = greedy
 		trigger = {
+			ai = yes
 			OR = {
 				trait = greedy
 				trait = greedy_hidden
@@ -3065,6 +3223,7 @@ character_event = {
 	option = {
 		name = EVTOPTC4115
 		trigger = {
+			ai = yes
 			is_female = yes
 			NOT = {
 				OR = {
@@ -3105,6 +3264,7 @@ character_event = {
 		name = EVTOPTD4115
 		#tooltip_info = 
 		trigger = {
+			ai = yes
 			OR = {
 				OR = {
 					trait = arbitrary
@@ -3135,6 +3295,7 @@ character_event = {
 	option = {
 		name = EVTOPTE4115
 		trigger = {
+			ai = yes
 			NOT = {
 				OR = {
 					trait = greedy
@@ -3184,6 +3345,130 @@ character_event = {
 				modifier = opinion_irritated
 				who = ROOT
 				years = 1
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTB4115
+		tooltip_info = greedy
+		trigger = {
+			ai = no
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			NOT = {
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
+			}
+		}
+		add_trait = cynical
+	}
+	
+	option = {
+		name = EVTOPTC4115
+		trigger = {
+			ai = no
+			is_female = yes
+			NOT = {
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = cynical
+					trait = cynical_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = depressed
+					trait = depressed_hidden
+				}
+			}
+		}
+		random_list = {
+			50 = {
+				add_trait = depressed
+			}
+			50 = {
+				add_trait = cynical
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTD4115
+		#tooltip_info = 
+		trigger = {
+			ai = no
+			OR = {
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				NOT = {
+					OR = {
+						trait = shy
+						trait = shy_hidden
+					}
+				}
+			}
+		}
+		random_list = {
+			50 = {
+				add_trait = shy
+			}
+			50 = {
+				prestige = 10
+			}
+		}
+	}
+	
+	option = {
+		name = EVTOPTE4115
+		trigger = {
+			ai = no
+			NOT = {
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+			}
+			NOT = {
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+			}
+		}
+		random_list = {
+			50 = {
+				add_trait = kind
+			}
+			50 = {
+				add_trait = stressed
 			}
 		}
 	}
@@ -3321,6 +3606,7 @@ character_event = {
 	option = {
 		name = EVTOPTF4120
 		trigger = {
+			ai = yes
 			NOT = {
 				OR = {
 					trait = charitable
@@ -3329,6 +3615,20 @@ character_event = {
 			}
 		}
 		add_trait = charitable_hidden
+	}
+	
+	option = {
+		name = EVTOPTF4120
+		trigger = {
+			ai = no
+			NOT = {
+				OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+			}
+		}
+		add_trait = charitable
 	}
 }
 
@@ -3570,8 +3870,19 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTC4130
 		add_trait = gregarious_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTC4130
+		add_trait = gregarious
 	}
 	
 	option = {
@@ -3698,8 +4009,19 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTC4135
 		add_trait = gluttonous_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTC4135
+		add_trait = gluttonous
 	}
 }
 
@@ -3814,6 +4136,7 @@ character_event = {
 		name = EVTOPTC4145
 		tooltip_info = arbitrary
 		trigger = {
+			ai = yes
 			OR = {
 				trait = arbitrary
 				trait = arbitrary_hidden
@@ -3827,6 +4150,26 @@ character_event = {
 		}
 		add_trait = shy_hidden
 	}
+	
+	option = {
+		name = EVTOPTC4145
+		tooltip_info = arbitrary
+		trigger = {
+			ai = no
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			NOT = {
+				OR = {
+					trait = shy
+					trait = shy_hidden
+				}
+			}
+		}
+		add_trait = shy
+	}
+	
 	
 	option = {
 		name = EVTOPTD4145
@@ -4034,6 +4377,9 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA4150
 		add_trait = kind_hidden
 	}
@@ -4042,6 +4388,7 @@ character_event = {
 		name = EVTOPTB4150
 		tooltip_info = cynical
 		trigger = {
+			ai = yes
 			OR = {
 				trait = cynical
 				trait = cynical_hidden
@@ -4054,6 +4401,33 @@ character_event = {
 			}
 		}
 		add_trait = paranoid_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA4150
+		add_trait = kind
+	}
+	
+	option = {
+		name = EVTOPTB4150
+		tooltip_info = cynical
+		trigger = {
+			ai = yes
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			NOT = {
+				OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
+			}
+		}
+		add_trait = paranoid
 	}
 	
 	option = {
@@ -4259,9 +4633,21 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTF4155
 		scaled_wealth = -0.05
 		add_trait = charitable_hidden
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTF4155
+		scaled_wealth = -0.05
+		add_trait = charitable
 	}
 }
 
@@ -4346,11 +4732,17 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA4175
 		add_trait = maimed_hidden
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTB4175
 		random = {
 			chance = 60
@@ -4374,11 +4766,78 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTC4175
 		random = {
 			chance = 70
 			
 			add_trait = wounded_hidden
+			hidden_tooltip = { character_event = { id = 38280 } }
+		}
+		random_courtier = {
+			limit = {
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				OR = {
+					trait = wroth
+					trait = wroth_hidden
+				}
+			}
+			reverse_opinion = {
+				modifier = opinion_fool_courtier
+				who = ROOT
+				years = 2
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA4175
+		add_trait = maimed
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTB4175
+		random = {
+			chance = 60
+			
+			add_trait = wounded
+			hidden_tooltip = { character_event = { id = 38280 } }
+		}
+		random_vassal = {
+			limit = {
+				OR = {
+					trait = diligent
+					trait = diligent_hidden
+				}
+			}
+			reverse_opinion = {
+				modifier = opinion_my_saviour
+				who = ROOT
+				years = 2
+			}
+		}
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTC4175
+		random = {
+			chance = 70
+			
+			add_trait = wounded
 			hidden_tooltip = { character_event = { id = 38280 } }
 		}
 		random_courtier = {
