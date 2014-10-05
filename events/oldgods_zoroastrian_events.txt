@@ -86,7 +86,18 @@ character_event = {
 	}
 	
 	immediate = {
-		add_trait = saoshyant_descendant_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = saoshyant_descendant_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = saoshyant_descendant
+		}
 	}
 	
 	option = {

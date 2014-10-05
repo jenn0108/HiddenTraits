@@ -1534,9 +1534,48 @@ character_event = {
 			}
 		}
 		random_list = {
-			80 = {add_trait = crusader_hidden }
-			10 = { add_trait = maimed_hidden hidden_tooltip = { character_event = { id = 38281 } } }
-			10 = { add_trait = wounded_hidden hidden_tooltip = { character_event = { id = 38280 } } }
+			80 = {
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = crusader_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = crusader
+				} 
+			}
+			10 = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				} hidden_tooltip = { character_event = { id = 38281 } } 
+			}
+			10 = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				} hidden_tooltip = { character_event = { id = 38280 } } 
+			}
 		}
 	}
 
@@ -1550,9 +1589,48 @@ character_event = {
 				}
 			}
 			random_list = {
-				80 = {add_trait = crusader_hidden }
-				10 = { add_trait = maimed_hidden hidden_tooltip = { character_event = { id = 38281 } } }
-				10 = { add_trait = wounded_hidden hidden_tooltip = { character_event = { id = 38280 } } }
+				80 = {
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = crusader_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = crusader
+					} 
+				}
+				10 = {
+					 if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = maimed_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = maimed
+					} hidden_tooltip = { character_event = { id = 38281 } } 
+				}
+				10 = {
+					 if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = wounded_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = wounded
+					} hidden_tooltip = { character_event = { id = 38280 } } 
+				}
 			}
 		}
 	}
@@ -1648,7 +1726,18 @@ character_event = {
 		}
 		random_list = {
 			60 = {
-				add_trait = maimed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				}
 				prestige = 50
 			}
 			40 = {
@@ -1686,7 +1775,18 @@ character_event = {
 		}
 		random = {
 			chance = 50
-			add_trait = craven_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = craven_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = craven
+			}
 		}
 		prestige = -50
 	}

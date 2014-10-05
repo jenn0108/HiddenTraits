@@ -49,7 +49,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA8300"
-		add_trait = crusader_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = crusader_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = crusader
+		}
 	}
 }
 
@@ -95,7 +106,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA8301"
-		add_trait = mujahid_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = mujahid_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = mujahid
+		}
 	}
 }
 
@@ -274,7 +296,18 @@ character_event = {
 
 	option = {
 		name = "EXCELLENT"
-		add_trait = zealous_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = zealous_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = zealous
+		}
 	}
 }
 
@@ -322,7 +355,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA8320"
-		add_trait = cynical_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = cynical_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = cynical
+		}
 	}
 }
 

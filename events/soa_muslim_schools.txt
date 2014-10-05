@@ -18,7 +18,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_SoA_600
-		add_trait = mutazilite_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = mutazilite_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = mutazilite
+		}
 		if = {
 			limit = {
 				primary_title = { higher_tier_than = COUNT }
@@ -43,7 +54,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_SoA_600
-		add_trait = ashari_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = ashari_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = ashari
+		}
 		piety = 100
 	}
 }
@@ -136,7 +158,18 @@ letter_event = {
 		}
 		remove_trait = mutazilite
 		remove_trait = mutazilite_hidden
-		add_trait = ashari_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = ashari_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = ashari
+		}
 	}
 	option = {
 		name = EVTOPTB_SoA_604
@@ -167,7 +200,18 @@ letter_event = {
 			FROM = {
 				remove_trait = mutazilite
 				remove_trait = mutazilite_hidden
-				add_trait = ashari_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = ashari_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = ashari
+				}
 			}
 		}
 	}
@@ -262,7 +306,18 @@ letter_event = {
 		}
 		remove_trait = ashari
 		remove_trait = ashari_hidden
-		add_trait = mutazilite_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = mutazilite_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = mutazilite
+		}
 	}
 	option = {
 		name = EVTOPTB_SoA_612
@@ -305,7 +360,18 @@ letter_event = {
 			FROM = {
 				remove_trait = ashari
 				remove_trait = ashari_hidden
-				add_trait = mutazilite_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = mutazilite_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = mutazilite
+				}
 			}
 		}
 	}
@@ -354,7 +420,18 @@ character_event = {
 		}
 		remove_trait = ashari
 		remove_trait = ashari_hidden
-		add_trait = mutazilite_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = mutazilite_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = mutazilite
+		}
 	}
 	option = {
 		name = EVTOPTB_SoA_620
@@ -375,7 +452,18 @@ character_event = {
 		}
 		remove_trait = cynical
 		remove_trait = cynical_hidden
-		add_trait = zealous_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = zealous_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = zealous
+		}
 	}
 }
 
@@ -421,7 +509,18 @@ character_event = {
 		}
 		remove_trait = mutazilite
 		remove_trait = mutazilite_hidden
-		add_trait = ashari_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = ashari_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = ashari
+		}
 	}
 	option = {
 		name = EVTOPTB_SoA_621
@@ -430,6 +529,17 @@ character_event = {
 		}
 		remove_trait = zealous
 		remove_trait = zealous_hidden
-		add_trait = cynical_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = cynical_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = cynical
+		}
 	}
 }

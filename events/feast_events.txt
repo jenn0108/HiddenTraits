@@ -816,11 +816,33 @@ character_event = {
 				80 = { }
 				10 = { change_martial = 1 }
 				7 = {
-					add_trait = wounded_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = wounded_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = wounded
+					}
 					hidden_tooltip = { character_event = { id = 38280 } }
 				}
 				2 = {
-					add_trait = maimed_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = maimed_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = maimed
+					}
 					hidden_tooltip = { character_event = { id = 38281 } }
 				}
 				1 = {
@@ -862,11 +884,33 @@ character_event = {
 				80 = { }
 				10 = { change_martial = 1 }
 				7 = {
-					add_trait = wounded_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = wounded_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = wounded
+					}
 					hidden_tooltip = { character_event = { id = 38280 } }
 				}
 				2 = {
-					add_trait = maimed_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = maimed_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = maimed
+					}
 					hidden_tooltip = { character_event = { id = 38281 } }
 				}
 				1 = {
@@ -892,11 +936,33 @@ character_event = {
 			80 = { }
 			10 = { change_martial = 1 }
 			7 = {
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 				hidden_tooltip = { character_event = { id = 38280 } }
 			}
 			2 = {
-				add_trait = maimed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				}
 				hidden_tooltip = { character_event = { id = 38281 } }
 			}
 			1 = {
@@ -2236,7 +2302,18 @@ character_event = {
 		name = "EVTOPTA72031" #Accept
 		random_list = {
 			35 = {
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = wounded_opponent
@@ -2247,7 +2324,18 @@ character_event = {
 				}
 			}
 			35 = {
-				add_trait = maimed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				}
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = maimed_opponent
@@ -2315,7 +2403,18 @@ character_event = {
 				}
 			}
 			20 = {
-				add_trait = maimed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				}
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = maimed_opponent
@@ -2327,7 +2426,18 @@ character_event = {
 				}
 			}
 			30 = {
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 				hidden_tooltip = {
 					FROM = {
 						set_character_flag = wounded_opponent
@@ -2370,7 +2480,18 @@ character_event = {
 				}
 			}
 			10 = {
-				add_trait = maimed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				}
 				FROM = {
 					set_character_flag = maimed_opponent
 					character_event = {
@@ -2380,7 +2501,18 @@ character_event = {
 				}
 			}
 			19 = {
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 				FROM = {
 					set_character_flag = wounded_opponent
 					character_event = {
@@ -2982,7 +3114,18 @@ character_event = {
 		random = {
 			chance = 25
 
-			add_trait = drunkard_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = drunkard_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = drunkard
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38286 #Notify Drunkard
@@ -3498,7 +3641,18 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = just_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = just_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = just
+			}
 		}
 	}
 	option = {
@@ -3516,7 +3670,18 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = arbitrary_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = arbitrary_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = arbitrary
+			}
 		}
 		location = {
 			add_province_modifier = {
@@ -3608,7 +3773,18 @@ character_event = {
 			random = {
 				chance = 20
 
-				add_trait = cruel_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cruel_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cruel
+				}
 			}
 		}
 		if = {
@@ -3627,7 +3803,18 @@ character_event = {
 			random = {
 				chance = 20
 
-				add_trait = arbitrary_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = arbitrary_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = arbitrary
+				}
 			}
 		}
 		random_courtier = {
@@ -3752,7 +3939,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = gregarious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = gregarious
+				}
 			}
 		}
 		if = {
@@ -3770,7 +3968,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = charitable_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = charitable
+				}
 			}
 		}
 		random_vassal = {
@@ -3851,7 +4060,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = gregarious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = gregarious
+				}
 			}
 		}
 		if = {
@@ -3869,7 +4089,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = charitable_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = charitable
+				}
 			}
 		}
 		prestige = 10
@@ -3951,7 +4182,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = gregarious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = gregarious
+				}
 			}
 		}
 		if = {
@@ -3969,7 +4211,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = charitable_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = charitable
+				}
 			}
 		}
 		prestige = 10
@@ -4051,7 +4304,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = gregarious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = gregarious
+				}
 			}
 		}
 		if = {
@@ -4069,7 +4333,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = charitable_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = charitable
+				}
 			}
 		}
 		prestige = 10
@@ -4151,7 +4426,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = gregarious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = gregarious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = gregarious
+				}
 			}
 		}
 		if = {
@@ -4169,7 +4455,18 @@ character_event = {
 			random = {
 				chance = 25
 
-				add_trait = charitable_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = charitable_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = charitable
+				}
 			}
 		}
 		prestige = 10

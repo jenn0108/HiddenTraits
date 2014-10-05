@@ -117,7 +117,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = diligent_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = diligent_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = diligent
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38256 #Notify Diligent
@@ -141,7 +152,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = deceitful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = deceitful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = deceitful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -175,7 +197,18 @@ narrative_event = {
 			random = {
 				chance = 25
 			
-				add_trait = content_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = content_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = content
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content
@@ -215,7 +248,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = diligent_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = diligent_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = diligent
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38256 #Notify Diligent
@@ -239,7 +283,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = ambitious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = ambitious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = ambitious
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38278 #Notify Ambitious
@@ -280,7 +335,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = diligent_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = diligent_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = diligent
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38256 #Notify Diligent
@@ -304,7 +370,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = ambitious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = ambitious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = ambitious
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38278 #Notify Ambitious
@@ -360,7 +437,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = craven_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = craven_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = craven
+			}
 		}
 		if = {
 			limit = {	
@@ -375,7 +463,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = craven_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = craven_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = craven
+			}
 		}
 	}
 	
@@ -408,7 +507,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = deceitful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
 		}
 		if = {
 			limit = {
@@ -423,7 +533,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = patient_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = patient_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = patient
+			}
 		}
 		narrative_event = {
 			id = 10020
@@ -489,7 +610,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = wroth_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wroth_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wroth
+			}
 		}
 		if = {
 			limit = {
@@ -504,7 +636,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 		}
 		any_courtier = {
 			limit = {
@@ -720,7 +863,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = slothful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = slothful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = slothful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38251 #Notify Slothful
@@ -871,7 +1025,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = craven_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = craven_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = craven
+			}
 		}
 		if = {
 			limit = {
@@ -886,7 +1051,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = deceitful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
 		}
 		add_character_modifier = {
 			name = modifier_outfoxed
@@ -961,7 +1137,18 @@ narrative_event = {
 		random = {
 			chance = 10
 			
-			add_trait = wounded_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38280 #Notify Wounded
@@ -1234,7 +1421,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = wroth_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wroth_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wroth
+			}
 		}
 		if = {
 			limit = {
@@ -1249,7 +1447,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 		}
 		any_courtier = {
 			limit = {
@@ -1342,7 +1551,18 @@ narrative_event = {
 		random = {
 			chance = 30
 			
-			add_trait = wounded_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38280 #Notify Wounded
@@ -1374,7 +1594,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = wroth_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wroth_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wroth
+			}
 		}
 		if = {
 			limit = {
@@ -1389,7 +1620,18 @@ narrative_event = {
 					}
 				}
 			}
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 		}
 		any_courtier = {
 			limit = {
@@ -1568,7 +1810,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = slothful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = slothful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = slothful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38251 #Notify Slothful
@@ -1592,7 +1845,18 @@ narrative_event = {
 			random = {
 				chance = 25
 				
-				add_trait = content_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = content_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = content
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38279 #Notify Content

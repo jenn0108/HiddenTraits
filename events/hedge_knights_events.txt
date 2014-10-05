@@ -235,7 +235,18 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = gregarious_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = gregarious_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = gregarious
+			}
 		}
 		if = {
 			limit = {
@@ -353,7 +364,18 @@ character_event = {
 		piety = 5
 		if = {
 			limit = { NOT = { personality_traits = 5 } }
-			add_trait = just_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = just_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = just
+			}
 		}
 	}
 }	
@@ -570,7 +592,18 @@ character_event = {
 	 			is_pregnant = no
 				has_lover = no
 	 		}
-	 		add_trait = lustful_hidden
+	 		if = {
+		limit = {
+			ai = yes
+		}
+		add_trait = lustful_hidden
+	}
+	if = {
+		limit = {
+			ai = no
+		}
+		add_trait = lustful
+	}
 	 		create_character = {
 				random_traits = yes
 				dynasty = random
@@ -581,7 +614,18 @@ character_event = {
 			new_character = {
 	 			impregnate = PREV
 	 			add_lover = PREV
-				add_trait = lustful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lustful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lustful
+				}
 	 		}
 	 	}
 	 	piety = -10
@@ -612,7 +656,18 @@ character_event = {
 	 			is_married = no
 	 			is_pregnant = no
 	 		}
-	 		add_trait = lustful_hidden
+	 		if = {
+		limit = {
+			ai = yes
+		}
+		add_trait = lustful_hidden
+	}
+	if = {
+		limit = {
+			ai = no
+		}
+		add_trait = lustful
+	}
 			create_character = {
 				random_traits = yes
 				dynasty = random
@@ -623,7 +678,18 @@ character_event = {
 			new_character = {
 	 			impregnate = PREV
 	 			add_lover = PREV
-				add_trait = lustful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lustful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lustful
+				}
 				imprison = root
 	 		}
 	 	}		

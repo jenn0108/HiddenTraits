@@ -395,7 +395,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20311"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		liege = { letter_event = { id = 20312 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 }

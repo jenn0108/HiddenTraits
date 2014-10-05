@@ -922,7 +922,18 @@ character_event = {
 			50 = { 
 				random_courtier = {
 					limit = { has_minor_title = title_regent }
-					add_trait = wounded_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = wounded_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = wounded
+					}
 					opinion = {
 						modifier = opinion_mad_as_hell
 						who = ROOT
@@ -1169,7 +1180,18 @@ character_event = {
 	option = {
 		name = EVTOPTA61142
 		liege = {
-			add_trait = incapable_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = incapable_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = incapable
+			}
 			add_character_modifier = { 
 				name = house_arrest
 				duration = -1
@@ -1189,7 +1211,18 @@ character_event = {
 	option = {
 		name = EVTOPTA61145
 		liege = {
-			add_trait = incapable_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = incapable_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = incapable
+			}
 			add_character_modifier = { 
 					name = house_arrest
 					duration = -1
@@ -1577,7 +1610,20 @@ character_event = {
 	option = {
 		name = EVTOPTA61166
 		random_list = {
-			50 = { add_trait = possessed_hidden }
+			50 = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = possessed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = possessed
+				} 
+			}
 			50 = { }
 		}
 	}
@@ -2047,7 +2093,18 @@ character_event = {
 		name = EVTOPTA61213
 		random_list = {
 			80 = { 
-				add_trait = lunatic_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lunatic_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lunatic
+				}
 				imprison = yes
 			}
 			20 = {
@@ -2979,7 +3036,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA61227
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		prestige = -20
 	}
 }
@@ -3067,7 +3135,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA61230
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		prestige = -20
 	}
 }

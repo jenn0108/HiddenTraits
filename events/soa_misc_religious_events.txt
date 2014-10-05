@@ -53,7 +53,18 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB_SoA_5200
-		add_trait = charitable_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = charitable_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = charitable
+		}
 		piety = 10
 	}
 }
@@ -102,7 +113,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 		}
 	}
@@ -236,7 +258,18 @@ character_event = {
 		}
 		random = {
 			chance = 30
-			add_trait = arbitrary_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = arbitrary_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = arbitrary
+			}
 		}
 	}
 	option = {
@@ -293,7 +326,18 @@ character_event = {
 						}
 					}
 				}
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 			}
 		}
 	}
@@ -320,7 +364,18 @@ character_event = {
 						}
 					}
 				}
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 		}
 	}
@@ -364,7 +419,18 @@ character_event = {
 						}
 					}
 				}
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 	}
 }
@@ -432,7 +498,18 @@ character_event = {
 					trait = greedy_hidden
 				} } 
 			}
-			add_trait = greedy_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = greedy_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = greedy
+			}
 		}
 		if = {
 			limit = {
@@ -443,7 +520,18 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 		}
 	}
@@ -478,7 +566,18 @@ character_event = {
 						trait = humble_hidden
 					} } 
 				}
-				add_trait = humble_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = humble_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = humble
+				}
 			}
 	}
 	option = {
@@ -591,7 +690,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = drunkard_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = drunkard_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = drunkard
+				}
 			}
 		}
 	}
@@ -606,7 +716,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = temperate_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = temperate_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = temperate
+				}
 			}
 		}
 	}
@@ -654,7 +775,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = drunkard_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = drunkard_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = drunkard
+				}
 			}
 		}
 	}
@@ -669,7 +801,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = temperate_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = temperate_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = temperate
+				}
 			}
 		}
 	}
@@ -715,7 +858,18 @@ character_event = {
 					trait = paranoid_hidden
 				} } 
 			}
-			add_trait = paranoid_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = paranoid_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = paranoid
+			}
 		}
 	}
 }
@@ -819,7 +973,18 @@ character_event = {
 					trait = cynical_hidden
 				} } 
 			}
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 		}
 	}
 }
@@ -929,13 +1094,35 @@ character_event = {
 				limit = {
 					is_female = yes
 				}
-				add_trait = nun_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = nun_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = nun
+				}
 			}
 			if = {
 				limit = {
 					is_female = no
 				}
-				add_trait = monk_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = monk_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = monk
+				}
 			}
 			opinion = {
 				modifier = opinion_grateful
@@ -951,7 +1138,18 @@ character_event = {
 			factor = 100
 		}
 		FROM = {
-			add_trait = stressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = stressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = stressed
+			}
 			opinion = {
 				modifier = opinion_angry
 				who = ROOT
@@ -1025,7 +1223,18 @@ character_event = {
 					trait = zealous_hidden
 				} } 
 			}
-			add_trait = zealous_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = zealous_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = zealous
+			}
 		}
 		piety = 10
 	}
@@ -1040,7 +1249,18 @@ character_event = {
 			}
 			random = {
 				chance = 50
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 		}
 		if = {
@@ -1052,7 +1272,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 			}
 		}
 	}
@@ -1093,7 +1324,18 @@ character_event = {
 					trait = zealous_hidden
 				} } 
 			}
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 		}
 		piety = 30
 	}
@@ -1116,7 +1358,18 @@ character_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 		}
 	}
@@ -1196,7 +1449,18 @@ character_event = {
 					trait = zealous_hidden
 				} } 
 			}
-			add_trait = zealous_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = zealous_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = zealous
+			}
 		}
 		hidden_tooltip = { spouse = { character_event = { id = SoA.5243 } } }
 	}
@@ -1209,7 +1473,18 @@ character_event = {
 					trait = deceitful_hidden
 				} } 
 			}
-				add_trait = deceitful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = deceitful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = deceitful
+				}
 		}
 		hidden_tooltip = { spouse = { character_event = { id = SoA.5243 } } }
 	}
@@ -1228,7 +1503,18 @@ character_event = {
 		name = EVTOPTA_SoA_5243
 		spouse = {
 			impregnate = ROOT
-			add_trait = pregnant_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = pregnant_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = pregnant
+			}
 		}
 		if = {
 			limit = {
@@ -1237,14 +1523,36 @@ character_event = {
 					trait = zealous_hidden
 				} } 
 			}
-			add_trait = zealous_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = zealous_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = zealous
+			}
 		}
 	}
 	option = {
 		name = EVTOPTB_SoA_5243
 		spouse = {
 			impregnate = ROOT
-			add_trait = pregnant_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = pregnant_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = pregnant
+			}
 		}
 		opinion = {
 				modifier = opinion_angry
@@ -1256,7 +1564,18 @@ character_event = {
 		name = EVTOPTC_SoA_5243
 		spouse = {
 			impregnate = 0
-			add_trait = pregnant_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = pregnant_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = pregnant
+			}
 		}
 		opinion = {
 				modifier = opinion_angry
@@ -1299,16 +1618,49 @@ character_event = {
 						trait = zealous_hidden
 					} } 
 				}
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 			}
 		}
 		random = {
 			chance = 20
-			add_trait = ill_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = ill_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = ill
+			}
 		}
 		random = {
 			chance = 10
-			add_trait = wounded_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			}
 		}
 	}
 	option = {
@@ -1320,7 +1672,18 @@ character_event = {
 					trait = paranoid_hidden
 				} } 
 			}
-			add_trait = paranoid_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = paranoid_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = paranoid
+			}
 		}
 	}
 	option = {
@@ -1422,7 +1785,18 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_christian_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = bad_priest_christian_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = bad_priest_christian
+		}
 		if = {
 			limit = {
 				is_ruler = yes
@@ -1555,7 +1929,18 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5301
-		add_trait = bad_priest_muslim_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = bad_priest_muslim_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = bad_priest_muslim
+		}
 		if = {
 			limit = {
 				is_ruler = yes
@@ -1687,7 +2072,18 @@ character_event = {
 
 	option = {
 		name = EVTOPTA_SoA_5302
-		add_trait = bad_priest_norse_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = bad_priest_norse_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = bad_priest_norse
+		}
 		if = {
 			limit = {
 				is_ruler = yes
@@ -1811,7 +2207,18 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_tengri_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = bad_priest_tengri_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = bad_priest_tengri
+		}
 		if = {
 			limit = {
 				is_ruler = yes
@@ -1932,7 +2339,18 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_zoroastrian_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = bad_priest_zoroastrian_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = bad_priest_zoroastrian
+		}
 		if = {
 			limit = {
 				is_ruler = yes
@@ -2053,7 +2471,18 @@ character_event = {
 	}
 
 	immediate = {
-		add_trait = bad_priest_aztec_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = bad_priest_aztec_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = bad_priest_aztec
+		}
 		if = {
 			limit = {
 				is_ruler = yes
@@ -2693,7 +3122,18 @@ narrative_event = {
 			limit = { NOT = { lifestyle_traits = 1 } }
 			random = {
 				chance = 50
-				add_trait = scholar_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = scholar_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = scholar
+				}
 			}
 		}
 		random = {
@@ -2707,7 +3147,18 @@ narrative_event = {
 			limit = { NOT = { lifestyle_traits = 1 } }
 			random = {
 				chance = 50
-				add_trait = hedonist_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = hedonist_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = hedonist
+				}
 			}
 		}
 				random = {
@@ -2913,7 +3364,18 @@ narrative_event = {
 			limit = { NOT = { lifestyle_traits = 1 } }
 			random = {
 				chance = 50
-				add_trait = scholar_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = scholar_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = scholar
+				}
 			}
 		}
 	}
@@ -3185,7 +3647,18 @@ narrative_event = {
 	option = {
 		name = EVTOPTB_SoA_5357
 		piety = 30
-		add_trait = zealous_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = zealous_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = zealous
+		}
 		hidden_tooltip = { narrative_event = { id = SoA.5359 } }
 	}
 	option = {
@@ -3571,7 +4044,18 @@ narrative_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 			}
 		}
 		any_courtier = {
@@ -3590,7 +4074,18 @@ narrative_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = cynical_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cynical_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cynical
+				}
 			}
 		}
 		any_courtier = {
@@ -3996,7 +4491,18 @@ narrative_event = {
 				has_character_flag = is_jeanne_darc
 			}
 			prisoner = no
-			add_trait = nun_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = nun_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = nun
+			}
 			character_event = { id = SoA.5396 days = 1460 }
 		}
 	}
@@ -4095,7 +4601,18 @@ narrative_event = {
 					trait = cruel_hidden
 				} } 
 			}
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 		}
 		wealth = 30
 		FROM = {
@@ -4140,7 +4657,18 @@ narrative_event = {
 			}
 			random = {
 				chance = 30
-				add_trait = kind_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = kind_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = kind
+				}
 			}
 		}
 	}
@@ -4657,7 +5185,18 @@ character_event = {
 					trait = sympathy_judaism_hidden
 				} } 
 			}
-				add_trait = sympathy_judaism_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = sympathy_judaism_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = sympathy_judaism
+				}
 		}
 		if = {
 			limit = {
@@ -4666,7 +5205,18 @@ character_event = {
 					trait = sympathy_christendom_hidden
 				} } 
 			}
-				add_trait = sympathy_christendom_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = sympathy_christendom_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = sympathy_christendom
+				}
 		}
 	}
 }

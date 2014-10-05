@@ -937,7 +937,18 @@ character_event = {
 		prestige = 30
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = hunter_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = hunter_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = hunter
+			}
 		}
 		set_character_flag = killed_tiger
 		if = {
@@ -974,8 +985,34 @@ character_event = {
 	option = {
 		name = EVTOPTA_RoI_2123
 		random_list = {
-			90 = { add_trait = wounded_hidden }
-			10 = { add_trait = maimed_hidden }
+			90 = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				} 
+			}
+			10 = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				} 
+			}
 		}
 	}
 }

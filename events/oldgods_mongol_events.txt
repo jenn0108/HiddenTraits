@@ -591,7 +591,18 @@ character_event = {
 				character_event = { id = TOG.111 }
 			}
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -606,7 +617,20 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_111
-		tooltip = { FROM = { add_trait = wounded_hidden } }
+		tooltip = {
+			 FROM = { if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			} } 
+		}
 	}
 }
 
@@ -854,7 +878,20 @@ character_event = {
 				who = ROOT
 			}
 		}
-		tooltip = { FROM = { add_trait = wounded_hidden } }
+		tooltip = {
+			 FROM = { if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			} } 
+		}
 	}
 	option = { # Do not punish
 		name = EVTOPTB_TOG_115
@@ -906,7 +943,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_116
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -1007,7 +1055,20 @@ character_event = {
 				who = ROOT
 			}
 		}
-		tooltip = { FROM = { add_trait = wounded_hidden } }
+		tooltip = {
+			 FROM = { if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			} } 
+		}
 	}
 	option = { # Do not punish
 		name = EVTOPTB_TOG_118
@@ -1163,7 +1224,18 @@ character_event = {
 		name = EVTOPTA_TOG_152
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = hunter_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = hunter_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = hunter
+			}
 		}
 		prestige = 100
 	}
@@ -1298,7 +1370,20 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_160
-		FROM = { add_trait = wounded_hidden }
+		FROM = {
+			 if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			} 
+		}
 	}
 }
 
@@ -1313,7 +1398,20 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_160
-		FROM = { add_trait = maimed_hidden }
+		FROM = {
+			 if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = maimed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = maimed
+			} 
+		}
 	}
 }
 
@@ -1427,7 +1525,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = kind_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = kind_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = kind
+			}
 			hidden_tooltip = {
 				character_event = {
 					days = 2
@@ -1453,7 +1562,18 @@ character_event = {
 		random = {
 			chance = 33
 				
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 			hidden_tooltip = {
 				character_event = {
 					days = 2
@@ -1493,7 +1613,18 @@ character_event = {
 		random = {
 			chance = 20
 				
-			add_trait = depressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = depressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = depressed
+			}
 			hidden_tooltip = {
 				character_event = {
 					days = 2
@@ -1541,7 +1672,18 @@ character_event = {
 						}
 					}
 				}
-				add_trait = kind_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = kind_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = kind
+				}
 				hidden_tooltip = {
 					character_event = {
 						days = 2
@@ -1581,7 +1723,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 			hidden_tooltip = {
 				character_event = {
 					days = 2

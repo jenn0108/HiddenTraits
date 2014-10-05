@@ -561,7 +561,18 @@ character_event = {
 				}
 			}
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 	option = {
@@ -579,8 +590,30 @@ character_event = {
 				}
 			}
 		}
-		add_trait = wounded_hidden
-		add_trait = zealous_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = zealous_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = zealous
+		}
 		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 	option = {
@@ -602,7 +635,18 @@ character_event = {
 				}
 			}
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		liege = { letter_event = { id = 20022 days = 7 tooltip = "EVTTOOLTIP20022" } }
 	}
 }
@@ -2132,7 +2176,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20045"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		hidden_tooltip = {
 			liege = { character_event = { id = 20046 days = 7 } }
 		}

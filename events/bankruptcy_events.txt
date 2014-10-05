@@ -441,7 +441,18 @@ character_event = {
 			imprison = yes
 		}
 		wealth = 300
-		add_trait = cruel_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = cruel_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = cruel
+		}
 		set_character_flag = stolen_church_properties
 	}
 	option = {
@@ -476,7 +487,18 @@ character_event = {
 				} } 
 			}
 			change_stewardship = -1
-			add_trait = zealous_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = zealous_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = zealous
+			}
 		}
 		set_character_flag = stolen_church_properties
 	}
@@ -563,7 +585,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA38022 
-		add_trait = excommunicated_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = excommunicated_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = excommunicated
+		}
 		piety = -50
 	}
 }

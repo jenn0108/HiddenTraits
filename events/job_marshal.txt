@@ -102,14 +102,36 @@ character_event = {
 		trigger = {
 			has_character_flag = marshal_wounded 
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		liege = { letter_event = { id = 20380 tooltip = "EVTTOOLTIP20380" } }
 		clr_character_flag = marshal_wounded
 	}
 	option = {
 		name = "EVOPTB938"
 		trigger = { has_character_flag = marshal_maimed }
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		liege = { letter_event = { id = 20381 tooltip = "EVTTOOLTIP20380" } }
 		clr_character_flag = marshal_maimed
 	}
@@ -125,7 +147,20 @@ letter_event = {
 	option = {
 		name = "EVTOPTA20380"
 		tooltip = {
-			FROM = { add_trait = wounded_hidden }
+			FROM = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				} 
+			}
 		}
 	}
 }
@@ -140,7 +175,20 @@ letter_event = {
 	option = {
 		name = "EVTOPTA20381"
 		tooltip = {
-			FROM = { add_trait = maimed_hidden }
+			FROM = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				} 
+			}
 		}
 	}
 }

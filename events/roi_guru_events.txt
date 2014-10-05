@@ -73,8 +73,34 @@ character_event = {
 							}
 						}
 						random_list = {
-							60 = { add_trait = brahmin_hidden }
-							25 = { add_trait = vaishya_hidden }
+							60 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = brahmin_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = brahmin
+								} 
+							}
+							25 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = vaishya_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = vaishya
+								} 
+							}
 							15 = {} # Casteless
 						}
 					}
@@ -93,9 +119,42 @@ character_event = {
 						set_character_flag = is_basava
 						set_global_flag = basava
 						culture = marathi
-						add_trait = shaivist_hindu_hidden
-						add_trait = brahmin_hidden
-						add_trait = brave_hidden
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = shaivist_hindu_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = shaivist_hindu
+						}
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = brahmin_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = brahmin
+						}
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = brave_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = brave
+						}
 					}
 					if = {
 						limit = {
@@ -103,8 +162,34 @@ character_event = {
 							NOT = { has_character_flag = basava }
 						}
 						random_list = {
-							85 = { add_trait = brahmin_hidden }
-							10 = { add_trait = vaishya_hidden }
+							85 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = brahmin_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = brahmin
+								} 
+							}
+							10 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = vaishya_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = vaishya
+								} 
+							}
 							5 = {} # Casteless
 						}
 					}
@@ -114,8 +199,34 @@ character_event = {
 						years = 100
 					}
 					random_list = {  # Small chance of having some unusual memorable trait
-						1 = { add_trait = blinded_hidden }
-						1 = { add_trait = dwarf_hidden }
+						1 = {
+							 if = {
+								limit = {
+									ai = yes
+								}
+								add_trait = blinded_hidden
+							}
+							if = {
+								limit = {
+									ai = no
+								}
+								add_trait = blinded
+							} 
+						}
+						1 = {
+							 if = {
+								limit = {
+									ai = yes
+								}
+								add_trait = dwarf_hidden
+							}
+							if = {
+								limit = {
+									ai = no
+								}
+								add_trait = dwarf
+							} 
+						}
 						50 = {}
 					}
 					character_event = { id = RoI.3002 }
@@ -153,8 +264,34 @@ character_event = {
 							}
 						}
 						random_list = {
-							60 = { add_trait = brahmin_hidden }
-							25 = { add_trait = vaishya_hidden }
+							60 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = brahmin_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = brahmin
+								} 
+							}
+							25 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = vaishya_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = vaishya
+								} 
+							}
 							15 = {} # Casteless
 						}
 					}
@@ -163,8 +300,34 @@ character_event = {
 							religion = hindu
 						}
 						random_list = {
-							85 = { add_trait = brahmin_hidden }
-							10 = { add_trait = vaishya_hidden }
+							85 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = brahmin_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = brahmin
+								} 
+							}
+							10 = {
+								 if = {
+									limit = {
+										ai = yes
+									}
+									add_trait = vaishya_hidden
+								}
+								if = {
+									limit = {
+										ai = no
+									}
+									add_trait = vaishya
+								} 
+							}
 							5 = {} # Casteless
 						}
 					}
@@ -200,7 +363,18 @@ character_event = {
 					give_minor_title = title_guru
 					piety = 100
 					prestige = 50
-					add_trait = brahmin_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = brahmin_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = brahmin
+					}
 					opinion = {
 						modifier = opinion_loyal_servant
 						who = ROOT
@@ -1179,7 +1353,18 @@ character_event = {
 				has_minor_title = title_guru
 				has_character_flag = fake_guru
 			}
-			add_trait = drunkard_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = drunkard_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = drunkard
+			}
 			piety = -50
 		}
 	}
@@ -1209,9 +1394,42 @@ character_event = {
 				has_character_flag = fake_guru
 			}
 			piety = -100
-			add_trait = arbitrary_hidden
-			add_trait = deceitful_hidden
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = arbitrary_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = arbitrary
+			}
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 			add_character_modifier = {
 				name = whoremaster
 				duration = -1
@@ -1254,9 +1472,42 @@ character_event = {
 				has_minor_title = title_guru
 				has_character_flag = fake_guru
 			}
-			add_trait = arbitrary_hidden
-			add_trait = deceitful_hidden
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = arbitrary_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = arbitrary
+			}
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 			add_character_modifier = {
 				name = whoremaster
 				duration = -1
@@ -1535,7 +1786,18 @@ character_event = {
 			piety = -10
 			random = {
 				chance = 5
-				add_trait = slothful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = slothful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = slothful
+				}
 			}
 		}
 	}

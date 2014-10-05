@@ -226,7 +226,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA6911
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		reverse_opinion = {
 			modifier = saved_him_on_battlefield
 			who = FROM

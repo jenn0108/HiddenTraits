@@ -228,7 +228,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA64003"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		FROM = {
 			reverse_opinion = {
 				modifier = opinion_love_rival
@@ -252,7 +263,18 @@ character_event = {
 		trigger = {
 			has_character_flag = wounded_by_lover
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		clr_character_flag = wounded_by_lover
 		FROM = {
 			reverse_opinion = {
@@ -267,7 +289,18 @@ character_event = {
 		trigger = {
 			has_character_flag = made_infirm
 		}
-		add_trait = infirm_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = infirm_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = infirm
+		}
 		clr_character_flag = made_infirm
 		FROM = {
 			reverse_opinion = {
@@ -854,7 +887,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = shy_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = shy_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = shy
+			}
 		}
 		if = {
 			limit = {
@@ -869,7 +913,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = craven_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = craven_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = craven
+			}
 		}
 	}
 }
@@ -945,7 +1000,18 @@ character_event = {
 		name = "EVTOPTA64013" #Accept I'm a failure
 		random_list = {
 			30 = {
-				add_trait = craven_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = craven_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = craven
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38257 #Notify Craven
@@ -959,7 +1025,18 @@ character_event = {
 							religion_group = muslim
 						}
 					}
-					add_trait = chaste_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = chaste_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = chaste
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38274 #Notify Chaste
@@ -970,7 +1047,18 @@ character_event = {
 					limit = {
 						religion_group = muslim
 					}
-					add_trait = cynical_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = cynical_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = cynical
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38258 #Notify Cynical
@@ -979,7 +1067,18 @@ character_event = {
 				}
 			}
 			30 = {
-				add_trait = shy_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = shy_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = shy
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38263 #Notify 
@@ -992,7 +1091,18 @@ character_event = {
 		name = "EVTOPTB64013" #Who dares wins
 		random_list = {
 			30 = {
-				add_trait = ambitious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = ambitious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = ambitious
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38278 #Notify ambitious
@@ -1000,7 +1110,18 @@ character_event = {
 				}
 			}
 			30 = {
-				add_trait = proud_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = proud_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = proud
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38261 #Notify proud
@@ -1008,7 +1129,18 @@ character_event = {
 				}
 			}
 			30 = {
-				add_trait = brave_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = brave_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = brave
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38270 #Notify brave
@@ -1100,7 +1232,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = lustful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = lustful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = lustful
+			}
 		}
 		spouse = {
 			random = {
@@ -1150,7 +1293,18 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB64015"
-		add_trait = deceitful_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = deceitful_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = deceitful
+		}
 		spouse = {
 			random = {
 				chance = 25
@@ -1208,7 +1362,18 @@ character_event = {
 					limit = {
 						religion_group = christian
 					}
-					add_trait = chaste_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = chaste_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = chaste
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38274 #Notify Chaste
@@ -1223,7 +1388,18 @@ character_event = {
 				}
 			}
 			25 = {
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38269 #Notify Zealous
@@ -1241,7 +1417,18 @@ character_event = {
 					limit = {
 						religion_group = christian
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38285 #Notify Celibate
@@ -1264,7 +1451,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA64016"
-		add_trait = stressed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = stressed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = stressed
+		}
 		spouse = {
 			character_event = {
 				id = 64020
@@ -1659,7 +1857,18 @@ character_event = {
 		name = "EVTOPTA64035" #Throw a big party for her entertainment
 		scaled_wealth = -0.1
 		prestige = 10
-		add_trait = charitable_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = charitable_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = charitable
+		}
 		if = {
 			limit = {
 				is_married = no
@@ -1722,7 +1931,18 @@ character_event = {
 			}
 			random = {
 				chance = 10
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 			}
 		}
 	}
@@ -1737,7 +1957,18 @@ character_event = {
 			}
 			prestige = 10
 		}
-		add_trait = greedy_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = greedy_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = greedy
+		}
 		random_lover = {
 			limit = {
 				is_female = yes
@@ -2195,12 +2426,34 @@ character_event = {
 					has_opinion_modifier = { who = PREV modifier = teenage_infatuation }
 					reverse_has_opinion_modifier = { who = PREV modifier = teenage_infatuation }
 				}
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 				remove_opinion = { who = PREV modifier = teenage_infatuation }
 				reverse_remove_opinion = { who = PREV modifier = teenage_infatuation }
 				clr_character_flag = teenage_infatuation
 			}
-			add_trait = stressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = stressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = stressed
+			}
 			opinion = {
 				modifier = opinion_angry
 				who = ROOT
@@ -2274,7 +2527,18 @@ character_event = {
 			random = {
 				chance = 25
 				
-				add_trait = humble_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = humble_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = humble
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38260 #Notify Drunkard
@@ -2306,7 +2570,18 @@ character_event = {
 			random = {
 				chance = 25
 				
-				add_trait = drunkard_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = drunkard_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = drunkard
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38286 #Notify Drunkard
@@ -2326,7 +2601,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = zealous_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = zealous_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = zealous
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38269 #Notify Zealous
@@ -2451,7 +2737,18 @@ character_event = {
 			}
 			random = {
 				chance = 10
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify Stressed
@@ -2490,7 +2787,18 @@ character_event = {
 			}
 			random = {
 				chance = 25
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify Stressed
@@ -2580,7 +2888,18 @@ character_event = {
 			random = {
 				chance = 25
 				
-				add_trait = chaste_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = chaste_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = chaste
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38274 #Notify Chaste
@@ -2595,7 +2914,18 @@ character_event = {
 			50 = {
 			}
 			30 = {
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify Stressed
@@ -2632,7 +2962,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = lustful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lustful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lustful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38272 #Notify Lustful
@@ -2640,7 +2981,18 @@ character_event = {
 				}
 			}
 			25 = {
-				add_trait = cruel_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cruel_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cruel
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38259 #Notify Cruel
@@ -2738,7 +3090,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = deceitful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify Deceitful
@@ -2886,7 +3249,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = lustful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = lustful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = lustful
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38272 #Notify Lustful
@@ -2929,7 +3303,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = deceitful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify Deceitful
@@ -2973,7 +3358,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = craven_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = craven_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = craven
+				}
 					hidden_tooltip = {
 					character_event = {
 						id = 38257 #Notify Craven
@@ -3238,7 +3634,18 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB64090" #Meet with X every night
-		add_trait = stressed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = stressed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = stressed
+		}
 		random_list = {
 			40 = {
 			}
@@ -3343,7 +3750,18 @@ character_event = {
 		prestige = 10
 		random_list = {
 			66 = {
-				add_trait = wroth_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wroth_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wroth
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38254 #Notify Wroth
@@ -3351,7 +3769,18 @@ character_event = {
 				}
 			}
 			33 = {
-				add_trait = cruel_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cruel_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cruel
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38259 #Notify Cruel
@@ -3369,7 +3798,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = kind_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = kind_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = kind
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38268 #Notify Kind
@@ -3381,8 +3821,30 @@ character_event = {
 				limit = {
 					religion_group = christian
 				}
-				add_trait = celibate_hidden
-				add_trait = nun_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = celibate_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = celibate
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = nun_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = nun
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38285 #Notify Celibate
@@ -3400,7 +3862,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = kind_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = kind_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = kind
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38268 #Notify Kind
@@ -3535,7 +4008,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = proud_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = proud_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = proud
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38261 #Notify Proud
@@ -3591,7 +4075,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA64102"
-		add_trait = wroth_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wroth_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wroth
+		}
 		opinion = {
 			modifier = opinion_angry
 			who = FROM
@@ -3659,7 +4154,18 @@ character_event = {
 				}
 			}
 			25 = {
-				add_trait = proud_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = proud_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = proud
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38261 #Notify Proud
@@ -3676,7 +4182,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = deceitful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = deceitful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = deceitful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -3699,7 +4216,18 @@ character_event = {
 			70 = {
 			}
 			20 = {
-				add_trait = deceitful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = deceitful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = deceitful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -3722,7 +4250,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = humble_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = humble_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = humble
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38260 #Notify Humble
@@ -3815,7 +4354,18 @@ character_event = {
 		name = "EVTOPTB64115" #Take him/her to your country manor for some quality time
 		random_list = {
 			75 = {
-				add_trait = lustful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lustful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lustful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38272 #Notify Lustful
@@ -3842,7 +4392,18 @@ character_event = {
 			50 = {
 			}
 			30 = {
-				add_trait = slothful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = slothful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = slothful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38251 #Notify Slothful
@@ -3887,7 +4448,18 @@ character_event = {
 		name = "EVTOPTD64115" #Tell him/her that s/he is absolutely correct
 		random_list = {
 			50 = {
-				add_trait = cruel_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = cruel_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = cruel
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38259 #Notify Slothful
@@ -3895,7 +4467,18 @@ character_event = {
 				}
 			}
 			50 = {
-				add_trait = honest_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = honest_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = honest
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38262 #Notify Slothful
@@ -3993,7 +4576,18 @@ character_event = {
 							religion_group = muslim
 						}
 					}
-					add_trait = chaste_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = chaste_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = chaste
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38274 #Notify Chaste
@@ -4008,7 +4602,18 @@ character_event = {
 				}
 			}
 			50 = {
-				add_trait = humble_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = humble_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = humble
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38260 #Notify Humble
@@ -4026,7 +4631,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38258 #Notify Cynical
@@ -4073,7 +4689,18 @@ character_event = {
 		random = {
 			chance = 10
 			
-			add_trait = craven_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = craven_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = craven
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38257 #Notify Craven
@@ -4570,7 +5197,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = honest_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = honest_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = honest
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38262 #Notify Honest
@@ -4589,7 +5227,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38269 #Notify Zealous
@@ -4603,7 +5252,18 @@ character_event = {
 							religion_group = muslim
 						}
 					}
-					add_trait = chaste_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = chaste_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = chaste
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38274 #Notify Chaste
@@ -4621,7 +5281,18 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTC64140"
-		add_trait = deceitful_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = deceitful_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = deceitful
+		}
 		random = {
 			chance = 25
 			
@@ -4640,7 +5311,18 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38269 #Notify Zealous
@@ -4654,7 +5336,18 @@ character_event = {
 							religion_group = muslim
 						}
 					}
-					add_trait = chaste_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = chaste_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = chaste
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38274 #Notify Chaste

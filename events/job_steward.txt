@@ -264,7 +264,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA20211"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		custom_tooltip = { text = EVTTOOLTIP20212 }
 	}
 }

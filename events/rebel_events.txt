@@ -200,7 +200,18 @@ character_event = {
 				liege = { letter_event = { id = 80051 days = 3 } }
 			}
 		}
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -215,7 +226,18 @@ character_event = {
 				liege = { letter_event = { id = 80052 days = 3 } }
 			}
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -293,7 +315,18 @@ character_event = {
 				liege = { letter_event = { id = 80051 days = 3 } }
 			}
 		}
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -308,7 +341,18 @@ character_event = {
 				liege = { letter_event = { id = 80052 days = 3 } }
 			}
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -387,7 +431,18 @@ character_event = {
 				liege = { letter_event = { id = 80051 days = 3 } }
 			}
 		}
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -402,7 +457,18 @@ character_event = {
 				liege = { letter_event = { id = 80052 days = 3 } }
 			}
 		}
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -469,7 +535,18 @@ character_event = {
 		name = "EVTOPTA80005"
 		trigger = { has_character_flag = character_maimed_by_rebels }
 		liege = { letter_event = { id = 80051 days = 3 } }
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels
@@ -479,7 +556,18 @@ character_event = {
 		name = "EVTOPTA80005"
 		trigger = { has_character_flag = character_wounded_by_rebels }
 		liege = { letter_event = { id = 80052 days = 3 } }
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		# Clear flags
 		clr_character_flag = character_killed_by_rebels
 		clr_character_flag = character_maimed_by_rebels

@@ -99,7 +99,18 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = craven_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = craven_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = craven
+		}
 	}
 	
 	option = {
@@ -275,7 +286,18 @@ character_event = {
 		}
 		random = {
 			chance = 25
-			add_trait = stressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = stressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = stressed
+			}
 		}
 	}
 	
@@ -286,7 +308,18 @@ character_event = {
 		}
 		random = {
 			chance = 25
-			add_trait = depressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = depressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = depressed
+			}
 		}
 	}
 }
@@ -733,7 +766,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA50012"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -747,7 +791,18 @@ character_event = {
 	
 	option = {
 		name = "EVTOPTA50013"
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 	}
 }
 

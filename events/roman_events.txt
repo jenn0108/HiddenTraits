@@ -615,7 +615,18 @@ narrative_event = {
 		e_byzantium = {
 			destroy_landed_title = THIS
 		}
-		add_trait = augustus_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = augustus_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = augustus
+		}
 		give_nickname = nick_the_glorious
 		hidden_tooltip = {
 			activate_title = { title = e_byzantium status = no }
@@ -934,7 +945,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTALoR.45
-		add_trait = augustus_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = augustus_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = augustus
+		}
 	}
 }
 

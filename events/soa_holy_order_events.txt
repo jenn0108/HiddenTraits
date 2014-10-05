@@ -166,7 +166,18 @@ letter_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -667,7 +678,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -1255,7 +1277,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -2781,7 +2814,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -4915,7 +4959,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -5623,7 +5678,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -11661,7 +11727,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -12377,7 +12454,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}
@@ -13085,7 +13173,18 @@ character_event = {
 					hidden_tooltip = {
 						clear_wealth = PREV
 					}
-					add_trait = celibate_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = celibate_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = celibate
+					}
 				}
 			}
 		}

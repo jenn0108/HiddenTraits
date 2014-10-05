@@ -45,10 +45,32 @@ character_event = {
 		name = "EVTOPTA6500"
 		random_list = {
 			50 = {
-				add_trait = lustful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lustful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lustful
+				}
 			}
 			50 = {
-				add_trait = infirm_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = infirm_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = infirm
+				}
 			}
 		}
 	}
@@ -57,16 +79,60 @@ character_event = {
 		name = "EVTOPTB6500"
 		random_list = {
 			25 = {
-				add_trait = lustful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = lustful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = lustful
+				}
 			}
 			25 = {
-				add_trait = ambitious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = ambitious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = ambitious
+				}
 			}
 			25 = {
-				add_trait = greedy_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = greedy_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = greedy
+				}
 			}
 			25 = {
-				add_trait = incapable_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = incapable_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = incapable
+				}
 			}
 		}
 	}
@@ -119,7 +185,18 @@ character_event = {
 	}
 	option = {
 		name = "EVTOPTB6502"
-		add_trait = cruel_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = cruel_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = cruel
+		}
 		if = {
 			limit = {
 				NOT = {
@@ -131,7 +208,18 @@ character_event = {
 			}
 			random = {
 				chance = 25
-				add_trait = maimed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = maimed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = maimed
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38281 #Notify Maimed

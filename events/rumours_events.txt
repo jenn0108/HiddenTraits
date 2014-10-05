@@ -260,7 +260,18 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB69001 #Embrace
-		add_trait = homosexual_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = homosexual_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = homosexual
+		}
 	}
 }
 
@@ -531,7 +542,18 @@ character_event = {
 	}
 	option = {
 		name = EVTOPTB69004 #Embrace
-		add_trait = homosexual_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = homosexual_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = homosexual
+		}
 	}
 }
 
@@ -700,7 +722,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA69007
-		add_trait = stressed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = stressed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = stressed
+		}
 	}
 }
 
@@ -1367,7 +1400,18 @@ character_event = {
 					religion_group = muslim
 				}
 			}
-			add_trait = chaste_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = chaste_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = chaste
+			}
 		}
 		if = {
 			limit = {
@@ -1460,7 +1504,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = maimed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = maimed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = maimed
+			}
 		}
 	}
 	option = {
@@ -1695,7 +1750,18 @@ character_event = {
 	option = {
 		name = EVTOPTA69021 #Deny
 		set_character_flag = impotent_man
-		add_trait = stressed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = stressed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = stressed
+		}
 		FROM = {
 			opinion = {
 				modifier = denied_impotence_rumour
@@ -1716,7 +1782,18 @@ character_event = {
 						religion_group = muslim
 					}
 				}
-				add_trait = chaste_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = chaste_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = chaste
+				}
 			}
 			if = {
 				limit = {
@@ -3091,7 +3168,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 		}
 	}
 	option = {
@@ -3181,7 +3269,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA69046
-		add_trait = zealous_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = zealous_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = zealous
+		}
 		piety = 1
 	}
 	option = {
@@ -3248,7 +3347,18 @@ character_event = {
 		}
 		random_list = {
 			25 = {
-				add_trait = fair_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = fair_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = fair
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38301 #Notify Fair
@@ -3259,7 +3369,18 @@ character_event = {
 				change_martial = 1
 			}
 			25 = {
-				add_trait = paranoid_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = paranoid_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = paranoid
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38275 #Notify 
@@ -3267,7 +3388,18 @@ character_event = {
 				}
 			}
 			25 = {
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify 
@@ -3296,7 +3428,18 @@ character_event = {
 		random = {
 			chance = 33
 			
-			add_trait = possessed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = possessed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = possessed
+			}
 		}
 	}
 }
@@ -4352,7 +4495,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 		}
 		random_child = {
 			limit = {
@@ -4365,7 +4519,18 @@ character_event = {
 			random = {
 				chance = 25
 			
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 				opinion = {
 					modifier = opinion_dislike
 					who = ROOT
@@ -4981,7 +5146,18 @@ character_event = {
 				remove_trait = craven_hidden
 			}
 			10 = {
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 			}
 		}
 	}
@@ -5018,7 +5194,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA69075 #Admit that you are a coward
-		add_trait = craven_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = craven_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = craven
+		}
 		prestige = -5
 		remove_character_modifier = suspected_coward
 		clr_character_flag = flag_suspected_coward

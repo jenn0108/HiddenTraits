@@ -130,7 +130,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = content_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = content_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = content
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38279 #Notify Content
@@ -400,7 +411,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = arbitrary_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = arbitrary_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = arbitrary
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 78006
@@ -443,7 +465,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = just_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = just_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = just
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38267 #Notify Just
@@ -486,7 +519,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = kind_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = kind_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = kind
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38268 #Notify Kind
@@ -543,7 +587,18 @@ character_event = {
 		random = {
 			chance = 25
 			
-			add_trait = deceitful_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = deceitful_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = deceitful
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38255 #Notify Deceitful
@@ -764,7 +819,18 @@ character_event = {
 			random = {
 				chance = 25
 				
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38282 #Notify Stressed
@@ -865,7 +931,18 @@ character_event = {
 					}
 				}
 			}
-			add_trait = stressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = stressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = stressed
+			}
 			opinion = {
 				modifier = opinion_upset
 				who = ROOT

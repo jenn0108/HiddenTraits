@@ -761,7 +761,18 @@ character_event = {
 					clr_character_flag = real_father_check_set
 				}
 			}
-			add_trait = bastard_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = bastard_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = bastard
+			}
 			
 			mother = {
 				remove_spouse = yes
@@ -938,7 +949,18 @@ character_event = {
 				}
 				set_father = 0
 			}
-			add_trait = bastard_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = bastard_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = bastard
+			}
 		}
 		
 		abdicate = yes
@@ -947,7 +969,18 @@ character_event = {
 			limit = {
 				religion_group = christian
 			}				
-			add_trait = nun_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = nun_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = nun
+			}
 		}
 	}
 	
@@ -968,10 +1001,32 @@ character_event = {
 			50 = {
 			}
 			25 = {
-				add_trait = depressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = depressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = depressed
+				}
 			}
 			25 = {
-				add_trait = stressed_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = stressed_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = stressed
+				}
 			}
 		}
 	}
@@ -1048,14 +1103,102 @@ character_event = {
 		remove_trait = shy_hidden
 		remove_trait = trusting
 		remove_trait = trusting_hidden
-		add_trait = lustful_hidden
-		add_trait = envious_hidden
-		add_trait = deceitful_hidden
-		add_trait = ambitious_hidden
-		add_trait = cruel_hidden
-		add_trait = genius_hidden
-		add_trait = possessed_hidden
-		add_trait = impaler_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = lustful_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = lustful
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = envious_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = envious
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = deceitful_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = deceitful
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = ambitious_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = ambitious
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = cruel_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = cruel
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = genius_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = genius
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = possessed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = possessed
+		}
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = impaler_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = impaler
+		}
 		change_diplomacy = 5
 		change_martial = 5
 		change_stewardship = 5
@@ -1330,7 +1473,18 @@ character_event = {
 	
 	option = { 
 		name = EVTOPTA_SOA_3037
-		add_trait = infirm_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = infirm_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = infirm
+		}
 		hidden_tooltip = {
 			mother = { narrative_event = { id = SoA.3041 } }
 			father = { narrative_event = { id = SoA.3041 } }
@@ -2073,7 +2227,18 @@ character_event = {
 					limit = {
 						religion_group = christian
 					}
-					add_trait = nun_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = nun_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = nun
+					}
 				}
 				
 				FROM = {
@@ -2140,7 +2305,18 @@ character_event = {
 					limit = {
 						religion_group = christian
 					}
-					add_trait = nun_hidden
+					if = {
+						limit = {
+							ai = yes
+						}
+						add_trait = nun_hidden
+					}
+					if = {
+						limit = {
+							ai = no
+						}
+						add_trait = nun
+					}
 				}
 				
 				FROM = {

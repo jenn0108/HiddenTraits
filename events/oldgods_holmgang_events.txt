@@ -813,7 +813,18 @@ character_event = {
 			}
 			random = {
 				chance = 33
-				add_trait = craven_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = craven_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = craven
+				}
 			}
 		}
 	}
@@ -1489,7 +1500,18 @@ character_event = {
 			clr_character_flag = holmgang_target
 			clr_character_flag = do_not_disturb
 		}
-		add_trait = scarred_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = scarred_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = scarred
+		}
 		prestige = 200
 		tooltip = {
 			FROMFROM = { prestige = -200 }
@@ -1522,7 +1544,18 @@ character_event = {
 			clr_character_flag = do_not_disturb
 		}
 		prestige = 200
-		add_trait = scarred_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = scarred_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = scarred
+		}
 		tooltip = {
 			FROMFROM = {
 				death = {
@@ -1660,11 +1693,33 @@ character_event = {
 			clr_character_flag = do_not_disturb
 		}
 		prestige = 50
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		tooltip = {
 			FROMFROM = { 
 				prestige = 50 
-				add_trait = wounded_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = wounded_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = wounded
+				}
 				opinion = {
 					modifier = opinion_mutual_respect
 					who = ROOT
@@ -1740,7 +1795,18 @@ character_event = {
 			FROMFROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -1775,7 +1841,18 @@ character_event = {
 			FROMFROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 	}
 }
 
@@ -1824,7 +1901,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_5005
-		add_trait = scarred_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = scarred_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = scarred
+		}
 		prestige = 200
 		tooltip = {
 			FROM = { prestige = -200 }
@@ -1843,7 +1931,18 @@ character_event = {
 	
 	option = {
 		name = EVTOPTA_TOG_5005
-		add_trait = scarred_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = scarred_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = scarred
+		}
 		prestige = 200
 		tooltip = {
 			FROM = {
@@ -1976,7 +2075,18 @@ character_event = {
 			FROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -1995,7 +2105,18 @@ character_event = {
 			FROM = { prestige = 200 }
 		}
 		prestige = -200
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 	}
 }
 

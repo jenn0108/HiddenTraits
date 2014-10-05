@@ -159,7 +159,18 @@ character_event = {
 					dynasty = ROOT 
 					NOT = { religion_group = muslim }
 				}
-				add_trait = kinslayer_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = kinslayer_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = kinslayer
+				}
 			}
 			if = {
 				limit = { 
@@ -264,7 +275,18 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA157"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -318,7 +340,18 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA158"
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 	}
 }
 
@@ -502,7 +535,18 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA160"
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 		if = {
 			limit = {
 				host = { NOT = { character = FROM } }
@@ -623,7 +667,18 @@ character_event = {
 
 	option = {
 		name = "EVTOPTA161"
-		add_trait = maimed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = maimed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = maimed
+		}
 		if = {
 			limit = {
 				host = { NOT = { character = FROM } }
@@ -735,7 +790,20 @@ character_event = {
 				dynasty = FROM 
 				NOT = { FROM = { religion_group = muslim } }
 			}
-			FROM = { add_trait = kinslayer_hidden }
+			FROM = {
+				 if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = kinslayer_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = kinslayer
+				} 
+			}
 		}
 		if = {
 			limit = { spouse = { character = FROM } }

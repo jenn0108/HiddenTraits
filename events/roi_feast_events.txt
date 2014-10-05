@@ -956,7 +956,18 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = stressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = stressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = stressed
+			}
 			set_character_flag = bad_diwali
 		}
 		if = {
@@ -975,22 +986,66 @@ character_event = {
 			hidden_tooltip = {
 				random_list = {
 					10 = {
-						add_trait = ill_hidden
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = ill_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = ill
+						}
 						set_character_flag = bad_diwali
 						character_event = { id = 38290 } # Notify
 					}
 					10 = {
-						add_trait = stutter_hidden
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = stutter_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = stutter
+						}
 						set_character_flag = bad_diwali
 						character_event = { id = 38253 } # Notify
 					}
 					10 = {
-						add_trait = depressed_hidden
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = depressed_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = depressed
+						}
 						set_character_flag = bad_diwali
 						character_event = { id = 38288 } # Notify
 					}
 					10 = {
-						add_trait = lunatic_hidden
+						if = {
+							limit = {
+								ai = yes
+							}
+							add_trait = lunatic_hidden
+						}
+						if = {
+							limit = {
+								ai = no
+							}
+							add_trait = lunatic
+						}
 						set_character_flag = bad_diwali
 						character_event = { id = 38304 } # Notify
 					}
@@ -1194,7 +1249,18 @@ character_event = {
 					} 
 				}
 			}
-			add_trait = cynical_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cynical_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cynical
+			}
 		}
 	}
 	option = {
@@ -1528,7 +1594,18 @@ character_event = {
 				}
 			}
 		}
-		add_trait = stressed_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = stressed_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = stressed
+		}
 		set_character_flag = bad_diwali
 	}
 }
@@ -1724,7 +1801,18 @@ character_event = {
 					trait = cruel_hidden
 				} } 
 			}
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 		}
 		if = {
 			limit = {
@@ -1735,7 +1823,18 @@ character_event = {
 			}
 			random = {
 				chance = 20
-				add_trait = zealous_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = zealous_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = zealous
+				}
 			}
 		}
 		character_event = { id = RoI.1178 }

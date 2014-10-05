@@ -929,7 +929,18 @@ character_event = {
 		change_stewardship = 2
 		if = {
 			limit = { NOT = { lifestyle_traits = 1 } }
-			add_trait = gardener_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = gardener_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = gardener
+			}
 		}
 	}
 }
@@ -1271,7 +1282,18 @@ character_event = {
 	option = {
 		name = EVTOPTA94085
 		character_event = { id = 94088 days = 5 tooltip = EVTTOOLTIP94088 }
-		add_trait = wounded_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = wounded_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = wounded
+		}
 	}
 }
 
@@ -2491,7 +2513,18 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = deceitful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = deceitful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = deceitful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -2685,7 +2718,18 @@ character_event = {
 			}
 			random = {
 				chance = 60
-				add_trait = deceitful_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = deceitful_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = deceitful
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38255 #Notify Deceitful
@@ -3170,7 +3214,18 @@ character_event = {
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		random = {
 			chance = 20
-			add_trait = wounded_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			}
 		}
 	}
 	option = {
@@ -3185,7 +3240,18 @@ character_event = {
 		character_event = { id = 94178 tooltip = EVTTOOLTIP94178 }
 		random = {
 			chance = 5
-			add_trait = wounded_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			}
 		}
 	}
 	option = {
@@ -3205,7 +3271,18 @@ character_event = {
 		}
 		random = {
 			chance = 10
-			add_trait = wounded_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = wounded_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = wounded
+			}
 		}
 	}
 }

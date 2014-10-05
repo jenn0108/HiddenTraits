@@ -340,7 +340,18 @@ narrative_event = {
 					} 
 				}
 			}
-			add_trait = cavalry_leader_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cavalry_leader_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cavalry_leader
+			}
 		}
 		clr_global_flag = hippodrome_scheme_ongoing
 	}
@@ -392,7 +403,18 @@ narrative_event = {
 					} 
 				}
 			}
-			add_trait = cavalry_leader_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cavalry_leader_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cavalry_leader
+			}
 		}
 		clr_global_flag = hippodrome_scheme_ongoing
 	}
@@ -422,7 +444,18 @@ narrative_event = {
 					} 
 				}
 			}
-			add_trait = cavalry_leader_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cavalry_leader_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cavalry_leader
+			}
 		}
 		clr_global_flag = hippodrome_scheme_ongoing
 		create_character = {

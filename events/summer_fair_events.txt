@@ -97,7 +97,18 @@ character_event = {
 		}
 		random = {
 			chance = 10
-			add_trait = stressed_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = stressed_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = stressed
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38282 #Notify Stressed
@@ -278,7 +289,18 @@ character_event = {
 				} 
 			}
 		}
-		add_trait = paranoid_hidden
+		if = {
+			limit = {
+				ai = yes
+			}
+			add_trait = paranoid_hidden
+		}
+		if = {
+			limit = {
+				ai = no
+			}
+			add_trait = paranoid
+		}
 	}
 
 	option = {
@@ -587,7 +609,18 @@ character_event = {
 		}
 		random = {
 			chance = 25
-			add_trait = gregarious_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = gregarious_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = gregarious
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38265 #Notify Gregarious
@@ -1058,7 +1091,18 @@ character_event = {
 			}
 			random = {
 				chance = 25
-				add_trait = gregarious_hidden
+				if = {
+					limit = {
+						ai = yes
+					}
+					add_trait = gregarious_hidden
+				}
+				if = {
+					limit = {
+						ai = no
+					}
+					add_trait = gregarious
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38265 #Notify Gregarious
@@ -1336,7 +1380,18 @@ character_event = {
 		random = {
 			chance = 25
 
-			add_trait = cruel_hidden
+			if = {
+				limit = {
+					ai = yes
+				}
+				add_trait = cruel_hidden
+			}
+			if = {
+				limit = {
+					ai = no
+				}
+				add_trait = cruel
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38259 #Notify Cruel
