@@ -225,8 +225,24 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA6911
 		add_trait = wounded_hidden
+		reverse_opinion = {
+			modifier = saved_him_on_battlefield
+			who = FROM
+			years = 10
+		}		
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA6911
+		add_trait = wounded
 		reverse_opinion = {
 			modifier = saved_him_on_battlefield
 			who = FROM
