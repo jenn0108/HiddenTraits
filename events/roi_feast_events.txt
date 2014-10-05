@@ -1566,7 +1566,9 @@ character_event = {
 				} 
 			}
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1576,7 +1578,9 @@ character_event = {
 				} 
 			}
 			remove_trait = depressed
-			remove_trait = depressed_hidden
+			hidden_tooltip = {
+				remove_trait = depressed_hidden
+			}
 		}
 		add_character_modifier = {
 			name = good_times

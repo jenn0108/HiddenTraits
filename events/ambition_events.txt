@@ -414,7 +414,9 @@ character_event = {
 				}
 			}
 			remove_trait = weak
-			remove_trait = weak_hidden
+			hidden_tooltip = {
+				remove_trait = weak_hidden
+			}
 		}
 		clr_character_flag = warrior_mentor
 	}
@@ -2546,7 +2548,9 @@ character_event = {
 				} 
 			}
 			remove_trait = honest
-			remove_trait = honest_hidden
+			hidden_tooltip = {
+				remove_trait = honest_hidden
+			}
 		}
 		hidden_tooltip = {
 			random_list = {
@@ -2753,7 +2757,9 @@ character_event = {
 				} 
 			}
 			remove_trait = honest
-			remove_trait = honest_hidden
+			hidden_tooltip = {
+				remove_trait = honest_hidden
+			}
 		}
 		hidden_tooltip = {
 			random_list = {

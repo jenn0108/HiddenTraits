@@ -1246,7 +1246,9 @@ character_event = {
 	option = {
 		name = EVTOPTA_TOG_3005
 		remove_trait = berserker
-		remove_trait = berserker_hidden
+		hidden_tooltip = {
+			remove_trait = berserker_hidden
+		}
 	}
 }
 
@@ -2181,7 +2183,9 @@ character_event = {
 			FROM = {
 				hidden_tooltip = {
 					 remove_trait = skilled_tactician
-					remove_trait = skilled_tactician_hidden 
+					hidden_tooltip = {
+						remove_trait = skilled_tactician_hidden
+					} 
 				}
 				if = {
 					limit = {
@@ -2217,9 +2221,13 @@ character_event = {
 			FROM = {
 				hidden_tooltip = { 
 					remove_trait = misguided_warrior
-					remove_trait = misguided_warrior_hidden
+					hidden_tooltip = {
+						remove_trait = misguided_warrior_hidden
+					}
 					remove_trait = tough_soldier
-					remove_trait = tough_soldier_hidden
+					hidden_tooltip = {
+						remove_trait = tough_soldier_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -3957,7 +3965,9 @@ character_event = {
 			clr_character_flag = demon_child_fake
 			clr_character_flag = child_exorcism
 			remove_trait = possessed
-			remove_trait = possessed_hidden
+			hidden_tooltip = {
+				remove_trait = possessed_hidden
+			}
 		}
 	}
 }
@@ -3978,7 +3988,9 @@ character_event = {
 			clr_character_flag = demon_child_fake
 			clr_character_flag = child_exorcism
 			remove_trait = possessed
-			remove_trait = possessed_hidden
+			hidden_tooltip = {
+				remove_trait = possessed_hidden
+			}
 		}
 		FROM = {
 			banish = yes
@@ -3991,7 +4003,9 @@ character_event = {
 			clr_character_flag = demon_child_fake
 			clr_character_flag = child_exorcism
 			remove_trait = possessed
-			remove_trait = possessed_hidden
+			hidden_tooltip = {
+				remove_trait = possessed_hidden
+			}
 		}
 	}
 }
@@ -4540,7 +4554,9 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 		}
 		if = {
 			limit = {

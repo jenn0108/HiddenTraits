@@ -1264,7 +1264,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA88264"
 		remove_trait = misguided_warrior
-		remove_trait = misguided_warrior_hidden
+		hidden_tooltip = {
+			remove_trait = misguided_warrior_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -1403,7 +1405,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA88265"
 		remove_trait = tough_soldier
-		remove_trait = tough_soldier_hidden 
+		hidden_tooltip = {
+			remove_trait = tough_soldier_hidden
+		} 
 		if = {
 			limit = {
 				ai = yes
@@ -1542,7 +1546,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA88266"
 		remove_trait = skilled_tactician
-		remove_trait = skilled_tactician_hidden 
+		hidden_tooltip = {
+			remove_trait = skilled_tactician_hidden
+		} 
 		if = {
 			limit = {
 				ai = yes
@@ -1681,7 +1687,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA88267"
 		remove_trait = brilliant_strategist
-		remove_trait = brilliant_strategist_hidden
+		hidden_tooltip = {
+			remove_trait = brilliant_strategist_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -1820,7 +1828,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA88268"
 		remove_trait = skilled_tactician
-		remove_trait = skilled_tactician_hidden
+		hidden_tooltip = {
+			remove_trait = skilled_tactician_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -1959,7 +1969,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA88269"
 		remove_trait = tough_soldier
-		remove_trait = tough_soldier_hidden
+		hidden_tooltip = {
+			remove_trait = tough_soldier_hidden
+		}
 		if = {
 			limit = {
 				ai = yes

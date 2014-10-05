@@ -270,7 +270,9 @@ character_event = {
 			}
 			scaled_wealth = -0.4
 			remove_trait = greedy
-			remove_trait = greedy_hidden
+			hidden_tooltip = {
+				remove_trait = greedy_hidden
+			}
 		}
 		
 	}

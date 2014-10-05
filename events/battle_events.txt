@@ -1359,7 +1359,9 @@ character_event = {
 				}
 			}
 			remove_trait = skilled_tactician
-			remove_trait = skilled_tactician_hidden
+			hidden_tooltip = {
+				remove_trait = skilled_tactician_hidden
+			}
 			if = {
 				limit = {
 					ai = yes
@@ -1383,7 +1385,9 @@ character_event = {
 				}
 			}
 			remove_trait = tough_soldier
-			remove_trait = tough_soldier_hidden
+			hidden_tooltip = {
+				remove_trait = tough_soldier_hidden
+			}
 			if = {
 				limit = {
 					ai = yes
@@ -1407,7 +1411,9 @@ character_event = {
 				}
 			}
 			remove_trait = misguided_warrior
-			remove_trait = misguided_warrior_hidden
+			hidden_tooltip = {
+				remove_trait = misguided_warrior_hidden
+			}
 			if = {
 				limit = {
 					ai = yes

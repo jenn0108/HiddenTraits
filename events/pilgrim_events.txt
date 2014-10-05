@@ -1363,7 +1363,9 @@ character_event = {
 						} 
 					}
 					remove_trait = celibate
-					remove_trait = celibate_hidden
+					hidden_tooltip = {
+						remove_trait = celibate_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1373,7 +1375,9 @@ character_event = {
 						} 
 					}
 					remove_trait = hedonist
-					remove_trait = hedonist_hidden
+					hidden_tooltip = {
+						remove_trait = hedonist_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1383,7 +1387,9 @@ character_event = {
 						} 
 					}
 					remove_trait = gardener
-					remove_trait = gardener_hidden
+					hidden_tooltip = {
+						remove_trait = gardener_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1393,7 +1399,9 @@ character_event = {
 						} 
 					}
 					remove_trait = mystic
-					remove_trait = mystic_hidden
+					hidden_tooltip = {
+						remove_trait = mystic_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1403,7 +1411,9 @@ character_event = {
 						} 
 					}
 					remove_trait = impaler
-					remove_trait = impaler_hidden
+					hidden_tooltip = {
+						remove_trait = impaler_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1413,7 +1423,9 @@ character_event = {
 						} 
 					}
 					remove_trait = duelist
-					remove_trait = duelist_hidden
+					hidden_tooltip = {
+						remove_trait = duelist_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1423,7 +1435,9 @@ character_event = {
 						} 
 					}
 					remove_trait = hunter
-					remove_trait = hunter_hidden
+					hidden_tooltip = {
+						remove_trait = hunter_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1433,7 +1447,9 @@ character_event = {
 						} 
 					}
 					remove_trait = poet
-					remove_trait = poet_hidden
+					hidden_tooltip = {
+						remove_trait = poet_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1443,7 +1459,9 @@ character_event = {
 						} 
 					}
 					remove_trait = falconer
-					remove_trait = falconer_hidden
+					hidden_tooltip = {
+						remove_trait = falconer_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1469,7 +1487,9 @@ character_event = {
 						} 
 					}
 					remove_trait = celibate
-					remove_trait = celibate_hidden
+					hidden_tooltip = {
+						remove_trait = celibate_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1479,7 +1499,9 @@ character_event = {
 						} 
 					}
 					remove_trait = hedonist
-					remove_trait = hedonist_hidden
+					hidden_tooltip = {
+						remove_trait = hedonist_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1489,7 +1511,9 @@ character_event = {
 						} 
 					}
 					remove_trait = scholar
-					remove_trait = scholar_hidden
+					hidden_tooltip = {
+						remove_trait = scholar_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1499,7 +1523,9 @@ character_event = {
 						} 
 					}
 					remove_trait = gardener
-					remove_trait = gardener_hidden
+					hidden_tooltip = {
+						remove_trait = gardener_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1509,7 +1535,9 @@ character_event = {
 						} 
 					}
 					remove_trait = impaler
-					remove_trait = impaler_hidden
+					hidden_tooltip = {
+						remove_trait = impaler_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1519,7 +1547,9 @@ character_event = {
 						} 
 					}
 					remove_trait = duelist
-					remove_trait = duelist_hidden
+					hidden_tooltip = {
+						remove_trait = duelist_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1529,7 +1559,9 @@ character_event = {
 						} 
 					}
 					remove_trait = hunter
-					remove_trait = hunter_hidden
+					hidden_tooltip = {
+						remove_trait = hunter_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1539,7 +1571,9 @@ character_event = {
 						} 
 					}
 					remove_trait = poet
-					remove_trait = poet_hidden
+					hidden_tooltip = {
+						remove_trait = poet_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1549,7 +1583,9 @@ character_event = {
 						} 
 					}
 					remove_trait = falconer
-					remove_trait = falconer_hidden
+					hidden_tooltip = {
+						remove_trait = falconer_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1575,7 +1611,9 @@ character_event = {
 						} 
 					}
 					remove_trait = celibate
-					remove_trait = celibate_hidden
+					hidden_tooltip = {
+						remove_trait = celibate_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1585,7 +1623,9 @@ character_event = {
 						} 
 					}
 					remove_trait = hedonist
-					remove_trait = hedonist_hidden
+					hidden_tooltip = {
+						remove_trait = hedonist_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1595,7 +1635,9 @@ character_event = {
 						} 
 					}
 					remove_trait = scholar
-					remove_trait = scholar_hidden
+					hidden_tooltip = {
+						remove_trait = scholar_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1605,7 +1647,9 @@ character_event = {
 						} 
 					}
 					remove_trait = gardener
-					remove_trait = gardener_hidden
+					hidden_tooltip = {
+						remove_trait = gardener_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1615,7 +1659,9 @@ character_event = {
 						} 
 					}
 					remove_trait = mystic
-					remove_trait = mystic_hidden
+					hidden_tooltip = {
+						remove_trait = mystic_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1625,7 +1671,9 @@ character_event = {
 						} 
 					}
 					remove_trait = impaler
-					remove_trait = impaler_hidden
+					hidden_tooltip = {
+						remove_trait = impaler_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1635,7 +1683,9 @@ character_event = {
 						} 
 					}
 					remove_trait = duelist
-					remove_trait = duelist_hidden
+					hidden_tooltip = {
+						remove_trait = duelist_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1645,7 +1695,9 @@ character_event = {
 						} 
 					}
 					remove_trait = hunter
-					remove_trait = hunter_hidden
+					hidden_tooltip = {
+						remove_trait = hunter_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1655,7 +1707,9 @@ character_event = {
 						} 
 					}
 					remove_trait = falconer
-					remove_trait = falconer_hidden
+					hidden_tooltip = {
+						remove_trait = falconer_hidden
+					}
 				}
 				if = {
 					limit = {
@@ -1788,7 +1842,9 @@ character_event = {
 				} 
 			}
 			remove_trait = kind
-			remove_trait = kind_hidden
+			hidden_tooltip = {
+				remove_trait = kind_hidden
+			}
 		}
 	}
 }
@@ -1902,7 +1958,9 @@ character_event = {
 				}
 			}
 		remove_trait = charitable
-		remove_trait = charitable_hidden
+		hidden_tooltip = {
+			remove_trait = charitable_hidden
+		}
 		}
 	}
 }
@@ -2104,7 +2162,9 @@ character_event = {
 				} 
 			}
 			remove_trait = charitable
-			remove_trait = charitable_hidden
+			hidden_tooltip = {
+				remove_trait = charitable_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2139,7 +2199,9 @@ character_event = {
 				} 
 			}
 			remove_trait = charitable
-			remove_trait = charitable_hidden
+			hidden_tooltip = {
+				remove_trait = charitable_hidden
+			}
 		}
 	}
 }
@@ -4040,7 +4102,9 @@ character_event = {
 				} 
 			}
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		hidden_tooltip = { character_event = { id = SoA.5090 days = 10 } } # Stay a little longer then go home
 	}
@@ -4120,7 +4184,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = ill
-			remove_trait = ill_hidden
+			hidden_tooltip = {
+				remove_trait = ill_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4130,7 +4196,9 @@ narrative_event = {
 				}	
 			}
 			remove_trait = pneumonic
-			remove_trait = pneumonic_hidden
+			hidden_tooltip = {
+				remove_trait = pneumonic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4140,7 +4208,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = syphilitic
-			remove_trait = syphilitic_hidden
+			hidden_tooltip = {
+				remove_trait = syphilitic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4150,7 +4220,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = wounded
-			remove_trait = wounded_hidden
+			hidden_tooltip = {
+				remove_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4189,7 +4261,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = ill
-			remove_trait = ill_hidden
+			hidden_tooltip = {
+				remove_trait = ill_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4199,7 +4273,9 @@ narrative_event = {
 				}	
 			}
 			remove_trait = pneumonic
-			remove_trait = pneumonic_hidden
+			hidden_tooltip = {
+				remove_trait = pneumonic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4209,7 +4285,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = syphilitic
-			remove_trait = syphilitic_hidden
+			hidden_tooltip = {
+				remove_trait = syphilitic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4219,7 +4297,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = wounded
-			remove_trait = wounded_hidden
+			hidden_tooltip = {
+				remove_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4258,7 +4338,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = ill
-			remove_trait = ill_hidden
+			hidden_tooltip = {
+				remove_trait = ill_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4268,7 +4350,9 @@ narrative_event = {
 				}	
 			}
 			remove_trait = pneumonic
-			remove_trait = pneumonic_hidden
+			hidden_tooltip = {
+				remove_trait = pneumonic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4278,7 +4362,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = syphilitic
-			remove_trait = syphilitic_hidden
+			hidden_tooltip = {
+				remove_trait = syphilitic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4288,7 +4374,9 @@ narrative_event = {
 				} 
 			}
 			remove_trait = wounded
-			remove_trait = wounded_hidden
+			hidden_tooltip = {
+				remove_trait = wounded_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4305,7 +4393,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = celibate
-				remove_trait = celibate_hidden
+				hidden_tooltip = {
+					remove_trait = celibate_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4315,7 +4405,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = hedonist
-				remove_trait = hedonist_hidden
+				hidden_tooltip = {
+					remove_trait = hedonist_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4325,7 +4417,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = scholar
-				remove_trait = scholar_hidden
+				hidden_tooltip = {
+					remove_trait = scholar_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4335,7 +4429,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = gardener
-				remove_trait = gardener_hidden
+				hidden_tooltip = {
+					remove_trait = gardener_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4345,7 +4441,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = impaler
-				remove_trait = impaler_hidden
+				hidden_tooltip = {
+					remove_trait = impaler_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4355,7 +4453,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = duelist
-				remove_trait = duelist_hidden
+				hidden_tooltip = {
+					remove_trait = duelist_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4365,7 +4465,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = hunter
-				remove_trait = hunter_hidden
+				hidden_tooltip = {
+					remove_trait = hunter_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4375,7 +4477,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = poet
-				remove_trait = poet_hidden
+				hidden_tooltip = {
+					remove_trait = poet_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4385,7 +4489,9 @@ narrative_event = {
 					} 
 				}
 				remove_trait = falconer
-				remove_trait = falconer_hidden
+				hidden_tooltip = {
+					remove_trait = falconer_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -4462,7 +4568,9 @@ character_event = {
 							} 
 						}
 						remove_trait = celibate
-						remove_trait = celibate_hidden
+						hidden_tooltip = {
+							remove_trait = celibate_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4472,7 +4580,9 @@ character_event = {
 							} 
 						}
 						remove_trait = mystic
-						remove_trait = mystic_hidden
+						hidden_tooltip = {
+							remove_trait = mystic_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4482,7 +4592,9 @@ character_event = {
 							} 
 						}
 						remove_trait = scholar
-						remove_trait = scholar_hidden
+						hidden_tooltip = {
+							remove_trait = scholar_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4492,7 +4604,9 @@ character_event = {
 							} 
 						}
 						remove_trait = gardener
-						remove_trait = gardener_hidden
+						hidden_tooltip = {
+							remove_trait = gardener_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4502,7 +4616,9 @@ character_event = {
 							} 
 						}
 						remove_trait = impaler
-						remove_trait = impaler_hidden
+						hidden_tooltip = {
+							remove_trait = impaler_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4512,7 +4628,9 @@ character_event = {
 							} 
 						}
 						remove_trait = duelist
-						remove_trait = duelist_hidden
+						hidden_tooltip = {
+							remove_trait = duelist_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4522,7 +4640,9 @@ character_event = {
 							} 
 						}
 						remove_trait = hunter
-						remove_trait = hunter_hidden
+						hidden_tooltip = {
+							remove_trait = hunter_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4532,7 +4652,9 @@ character_event = {
 							} 
 						}
 						remove_trait = poet
-						remove_trait = poet_hidden
+						hidden_tooltip = {
+							remove_trait = poet_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4542,7 +4664,9 @@ character_event = {
 							} 
 						}
 						remove_trait = falconer
-						remove_trait = falconer_hidden
+						hidden_tooltip = {
+							remove_trait = falconer_hidden
+						}
 					}
 					if = {
 						limit = {
@@ -4641,7 +4765,9 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4669,7 +4795,9 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -4830,7 +4958,9 @@ character_event = {
 		}
 		hidden_tooltip = {
 			 remove_trait = on_pilgrimage
-			remove_trait = on_pilgrimage_hidden 
+			hidden_tooltip = {
+				remove_trait = on_pilgrimage_hidden
+			} 
 		}
 		piety = 30
 	}
@@ -4880,7 +5010,9 @@ character_event = {
 		}
 		hidden_tooltip = {
 			 remove_trait = on_pilgrimage
-			remove_trait = on_pilgrimage_hidden 
+			hidden_tooltip = {
+				remove_trait = on_pilgrimage_hidden
+			} 
 		}
 		piety = -10
 		if = {
@@ -4955,7 +5087,9 @@ character_event = {
 		}
 		hidden_tooltip = {
 			 remove_trait = on_pilgrimage
-			remove_trait = on_pilgrimage_hidden 
+			hidden_tooltip = {
+				remove_trait = on_pilgrimage_hidden
+			} 
 		}
 		piety = -100
 	}

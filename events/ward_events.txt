@@ -916,7 +916,9 @@ character_event = {
 					chance = 25
 					
 					remove_trait = shy
-					remove_trait = shy_hidden
+					hidden_tooltip = {
+						remove_trait = shy_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38295 #Notify remove Shy
@@ -935,7 +937,9 @@ character_event = {
 					chance = 25
 					
 					remove_trait = craven
-					remove_trait = craven_hidden
+					hidden_tooltip = {
+						remove_trait = craven_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38296 #Notify remove Craven

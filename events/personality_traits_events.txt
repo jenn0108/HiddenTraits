@@ -7318,7 +7318,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1028"
 		remove_trait = lustful
-		remove_trait = lustful_hidden
+		hidden_tooltip = {
+			remove_trait = lustful_hidden
+		}
 	}
 }
 
@@ -7352,7 +7354,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1000"
 		remove_trait = chaste
-		remove_trait = chaste_hidden
+		hidden_tooltip = {
+			remove_trait = chaste_hidden
+		}
 	}
 }
 
@@ -7386,7 +7390,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1030"
 		remove_trait = temperate
-		remove_trait = temperate_hidden
+		hidden_tooltip = {
+			remove_trait = temperate_hidden
+		}
 	}
 }
 
@@ -7427,7 +7433,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1031"
 		remove_trait = gluttonous
-		remove_trait = gluttonous_hidden
+		hidden_tooltip = {
+			remove_trait = gluttonous_hidden
+		}
 	}
 }
 
@@ -7461,7 +7469,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1032"
 		remove_trait = charitable
-		remove_trait = charitable_hidden
+		hidden_tooltip = {
+			remove_trait = charitable_hidden
+		}
 	}
 }
 
@@ -7502,7 +7512,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1033"
 		remove_trait = greedy
-		remove_trait = greedy_hidden
+		hidden_tooltip = {
+			remove_trait = greedy_hidden
+		}
 	}
 }
 
@@ -7536,7 +7548,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1034"
 		remove_trait = diligent
-		remove_trait = diligent_hidden
+		hidden_tooltip = {
+			remove_trait = diligent_hidden
+		}
 	}
 }
 
@@ -7570,7 +7584,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1035"
 		remove_trait = slothful
-		remove_trait = slothful_hidden
+		hidden_tooltip = {
+			remove_trait = slothful_hidden
+		}
 	}
 }
 
@@ -7604,7 +7620,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1036"
 		remove_trait = kind
-		remove_trait = kind_hidden
+		hidden_tooltip = {
+			remove_trait = kind_hidden
+		}
 	}
 }
 
@@ -7645,7 +7663,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1037"
 		remove_trait = envious
-		remove_trait = envious_hidden
+		hidden_tooltip = {
+			remove_trait = envious_hidden
+		}
 	}
 }
 
@@ -7679,7 +7699,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1038"
 		remove_trait = patient
-		remove_trait = patient_hidden
+		hidden_tooltip = {
+			remove_trait = patient_hidden
+		}
 	}
 }
 
@@ -7720,7 +7742,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1039"
 		remove_trait = wroth
-		remove_trait = wroth_hidden
+		hidden_tooltip = {
+			remove_trait = wroth_hidden
+		}
 	}
 }
 
@@ -7754,7 +7778,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1040"
 		remove_trait = humble
-		remove_trait = humble_hidden
+		hidden_tooltip = {
+			remove_trait = humble_hidden
+		}
 	}
 }
 
@@ -7796,7 +7822,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1041"
 		remove_trait = proud
-		remove_trait = proud_hidden
+		hidden_tooltip = {
+			remove_trait = proud_hidden
+		}
 	}
 }
 
@@ -7831,7 +7859,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1028"
 		remove_trait = lustful
-		remove_trait = lustful_hidden
+		hidden_tooltip = {
+			remove_trait = lustful_hidden
+		}
 	}
 }
 
@@ -7865,7 +7895,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1043"
 		remove_trait = honest
-		remove_trait = honest_hidden
+		hidden_tooltip = {
+			remove_trait = honest_hidden
+		}
 	}
 }
 	
@@ -7899,7 +7931,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1044"
 		remove_trait = deceitful
-		remove_trait = deceitful_hidden
+		hidden_tooltip = {
+			remove_trait = deceitful_hidden
+		}
 	}
 }
 	
@@ -7933,7 +7967,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1045"
 		remove_trait = brave
-		remove_trait = brave_hidden
+		hidden_tooltip = {
+			remove_trait = brave_hidden
+		}
 	}
 }
 	
@@ -7974,7 +8010,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1046"
 		remove_trait = craven
-		remove_trait = craven_hidden
+		hidden_tooltip = {
+			remove_trait = craven_hidden
+		}
 	}
 }
 
@@ -8008,7 +8046,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1047"
 		remove_trait = gregarious
-		remove_trait = gregarious_hidden
+		hidden_tooltip = {
+			remove_trait = gregarious_hidden
+		}
 	}
 }
 
@@ -8042,7 +8082,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1048"
 		remove_trait = shy
-		remove_trait = shy_hidden
+		hidden_tooltip = {
+			remove_trait = shy_hidden
+		}
 	}
 }
 	
@@ -8076,7 +8118,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1049"
 		remove_trait = content
-		remove_trait = content_hidden
+		hidden_tooltip = {
+			remove_trait = content_hidden
+		}
 	}
 }
 
@@ -8110,7 +8154,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1050"
 		remove_trait = ambitious
-		remove_trait = ambitious_hidden
+		hidden_tooltip = {
+			remove_trait = ambitious_hidden
+		}
 	}
 }
 
@@ -8144,7 +8190,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1051"
 		remove_trait = just
-		remove_trait = just_hidden
+		hidden_tooltip = {
+			remove_trait = just_hidden
+		}
 	}
 }
 
@@ -8178,7 +8226,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1052"
 		remove_trait = arbitrary
-		remove_trait = arbitrary_hidden
+		hidden_tooltip = {
+			remove_trait = arbitrary_hidden
+		}
 	}
 }
 
@@ -8212,7 +8262,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1053"
 		remove_trait = zealous
-		remove_trait = zealous_hidden
+		hidden_tooltip = {
+			remove_trait = zealous_hidden
+		}
 	}
 }
 
@@ -8246,7 +8298,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1054"
 		remove_trait = cynical
-		remove_trait = cynical_hidden
+		hidden_tooltip = {
+			remove_trait = cynical_hidden
+		}
 	}
 }
 
@@ -8287,7 +8341,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1057"
 		remove_trait = paranoid
-		remove_trait = paranoid_hidden
+		hidden_tooltip = {
+			remove_trait = paranoid_hidden
+		}
 	}
 }
 
@@ -8321,7 +8377,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA1058"
 		remove_trait = trusting
-		remove_trait = trusting_hidden
+		hidden_tooltip = {
+			remove_trait = trusting_hidden
+		}
 	}
 }
 

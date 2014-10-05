@@ -91,7 +91,9 @@ character_event = {
 			
 			change_diplomacy = -1
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		job_chancellor = {
 			opinion = {
@@ -163,7 +165,9 @@ character_event = {
 			
 			change_martial = -1
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		job_marshal = {
 			opinion = {
@@ -234,7 +238,9 @@ character_event = {
 			
 			change_intrigue = -1
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		job_spymaster = {
 			opinion = {
@@ -305,7 +311,9 @@ character_event = {
 			
 			change_stewardship = -1
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		job_treasurer = {
 			opinion = {
@@ -379,7 +387,9 @@ character_event = {
 			
 			change_learning = -1
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		job_spiritual = {
 			opinion = {
@@ -1098,7 +1108,9 @@ character_event = {
 		random_list = {
 			50 = {
 				remove_trait = depressed
-				remove_trait = depressed_hidden
+				hidden_tooltip = {
+					remove_trait = depressed_hidden
+				}
 			}
 			25 = {
 				if = {
@@ -1132,7 +1144,9 @@ character_event = {
 			chance = 25
 			
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 		}
 	}
 }
@@ -1191,7 +1205,9 @@ character_event = {
 			}
 			33 = {
 				remove_trait = ill
-				remove_trait = ill_hidden
+				hidden_tooltip = {
+					remove_trait = ill_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38283 #Notify remove ill
@@ -1206,7 +1222,9 @@ character_event = {
 			chance = 1
 			
 			remove_trait = ill
-			remove_trait = ill_hidden
+			hidden_tooltip = {
+				remove_trait = ill_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38283 #Notify remove ill
@@ -1263,7 +1281,9 @@ character_event = {
 					}
 				}
 				remove_trait = pneumonic
-				remove_trait = pneumonic_hidden
+				hidden_tooltip = {
+					remove_trait = pneumonic_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -1273,7 +1293,9 @@ character_event = {
 					}
 				}
 				remove_trait = ill
-				remove_trait = ill_hidden
+				hidden_tooltip = {
+					remove_trait = ill_hidden
+				}
 			}
 			hidden_tooltip = {
 				character_event = {
@@ -1326,7 +1348,9 @@ character_event = {
 		name = EVTOPTA65033 
 		scaled_wealth = -1.0
 		remove_trait = leper
-		remove_trait = leper_hidden
+		hidden_tooltip = {
+			remove_trait = leper_hidden
+		}
 	}
 }
 
@@ -1983,7 +2007,9 @@ character_event = {
 			add_trait = drunkard
 		}
 		remove_trait = stressed
-		remove_trait = stressed_hidden
+		hidden_tooltip = {
+			remove_trait = stressed_hidden
+		}
 	}
 	option = {
 		name = EVTOPTB65041	#find solace in god.		
@@ -2009,7 +2035,9 @@ character_event = {
 		}
 		piety = 5
 		remove_trait = stressed
-		remove_trait = stressed_hidden
+		hidden_tooltip = {
+			remove_trait = stressed_hidden
+		}
 	}
 	
 	option = {
@@ -2035,7 +2063,9 @@ character_event = {
 			add_trait = lustful
 		}
 		remove_trait = stressed
-		remove_trait = stressed_hidden
+		hidden_tooltip = {
+			remove_trait = stressed_hidden
+		}
 	}
 }
 
@@ -2271,7 +2301,9 @@ character_event = {
 	option = {
 		name = EVTOPTA65046
 		remove_trait = drunkard
-		remove_trait = drunkard_hidden
+		hidden_tooltip = {
+			remove_trait = drunkard_hidden
+		}
 	}
 }
 
@@ -2459,7 +2491,9 @@ character_event = {
 		change_martial = 1
 		prestige = 5
 		remove_trait = drunkard
-		remove_trait = drunkard_hidden
+		hidden_tooltip = {
+			remove_trait = drunkard_hidden
+		}
 	}
 	option = {
 		name = EVTOPTB65049	#Embroidery will take my mind off it.
@@ -2469,7 +2503,9 @@ character_event = {
 		change_intrigue = 1
 		prestige = 5
 		remove_trait = drunkard
-		remove_trait = drunkard_hidden
+		hidden_tooltip = {
+			remove_trait = drunkard_hidden
+		}
 	}
 	option = {
 		name = EVTOPTC65049	#God cures me!
@@ -2480,7 +2516,9 @@ character_event = {
 		piety = 5
 		change_learning = 1
 		remove_trait = drunkard
-		remove_trait = drunkard_hidden
+		hidden_tooltip = {
+			remove_trait = drunkard_hidden
+		}
 	}
 }
 
@@ -2590,7 +2628,9 @@ character_event = {
 	option = {
 		name = EVTOPTA65051
 		remove_trait = drunkard
-		remove_trait = drunkard_hidden
+		hidden_tooltip = {
+			remove_trait = drunkard_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -2754,7 +2794,9 @@ character_event = {
 	option = {
 		name = EVTOPTA65054
 		remove_trait = ill
-		remove_trait = ill_hidden
+		hidden_tooltip = {
+			remove_trait = ill_hidden
+		}
 		hidden_tooltip = {
 			character_event = {
 				id = 38283 #Notify remove ill
@@ -3070,7 +3112,9 @@ character_event = {
 				}
 				10 = {
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 38283 #Notify remove ill
@@ -3175,7 +3219,9 @@ character_event = {
 				chance = 10
 				
 				remove_trait = ill
-				remove_trait = ill_hidden
+				hidden_tooltip = {
+					remove_trait = ill_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38283 #Notify remove ill
@@ -4711,7 +4757,9 @@ character_event = {
 				}
 			}
 			remove_trait = shy
-			remove_trait = shy_hidden
+			hidden_tooltip = {
+				remove_trait = shy_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -5566,7 +5614,9 @@ character_event = {
 			chance = 1
 			
 			remove_trait = lisp
-			remove_trait = lisp_hidden
+			hidden_tooltip = {
+				remove_trait = lisp_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38302 #Notify remove Lisp
@@ -5873,7 +5923,9 @@ character_event = {
 			chance = 1
 			
 			remove_trait = lisp
-			remove_trait = lisp_hidden
+			hidden_tooltip = {
+				remove_trait = lisp_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 38302 #Notify remove Lisp
@@ -6812,7 +6864,9 @@ character_event = {
 		random_list = {
 			80 = {
 				remove_trait = ugly
-				remove_trait = ugly_hidden
+				hidden_tooltip = {
+					remove_trait = ugly_hidden
+				}
 			}
 			20 = {
 				if = {
@@ -6830,7 +6884,9 @@ character_event = {
 					add_trait = fair
 				}
 				remove_trait = ugly
-				remove_trait = ugly_hidden
+				hidden_tooltip = {
+					remove_trait = ugly_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 38301 #Notify Fair
@@ -6917,7 +6973,9 @@ character_event = {
 			}
 			25 = {
 				remove_trait = gluttonous
-				remove_trait = gluttonous_hidden
+				hidden_tooltip = {
+					remove_trait = gluttonous_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 65151 #Notify Remove Gluttonous
@@ -6932,7 +6990,9 @@ character_event = {
 			has_ambition = obj_buddhist_temperance_food
 		}
 		remove_trait = gluttonous
-		remove_trait = gluttonous_hidden
+		hidden_tooltip = {
+			remove_trait = gluttonous_hidden
+		}
 		hidden_tooltip = {
 			character_event = {
 				id = 65151 #Notify Remove Gluttonous
@@ -7031,7 +7091,9 @@ character_event = {
 			}
 			20 = {
 				remove_trait = gluttonous
-				remove_trait = gluttonous_hidden
+				hidden_tooltip = {
+					remove_trait = gluttonous_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 65151 #Notify Remove Gluttonous
@@ -7046,7 +7108,9 @@ character_event = {
 			has_ambition = obj_buddhist_temperance_food
 		}
 		remove_trait = gluttonous
-		remove_trait = gluttonous_hidden
+		hidden_tooltip = {
+			remove_trait = gluttonous_hidden
+		}
 		hidden_tooltip = {
 			character_event = {
 				id = 65151 #Notify Remove Gluttonous
@@ -7087,7 +7151,9 @@ character_event = {
 			}
 			20 = {
 				remove_trait = gluttonous
-				remove_trait = gluttonous_hidden
+				hidden_tooltip = {
+					remove_trait = gluttonous_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 65151 #Notify Remove Gluttonous
@@ -7221,7 +7287,9 @@ character_event = {
 			
 			change_learning = -1
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		job_spiritual = {
 			opinion = {

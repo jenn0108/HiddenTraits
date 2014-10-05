@@ -1258,7 +1258,9 @@ character_event = {
 				}
 			}
 			remove_trait = gluttonous
-			remove_trait = gluttonous_hidden
+			hidden_tooltip = {
+				remove_trait = gluttonous_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -1268,7 +1270,9 @@ character_event = {
 				}
 			}
 			remove_trait = drunkard
-			remove_trait = drunkard_hidden
+			hidden_tooltip = {
+				remove_trait = drunkard_hidden
+			}
 		}
 	}
 	
@@ -1415,7 +1419,9 @@ character_event = {
 			}
 		}
 		remove_trait = greedy
-		remove_trait = greedy_hidden		
+		hidden_tooltip = {
+			remove_trait = greedy_hidden
+		}		
 	}
 	option = {
 		name = "EVTOPTB86320"
@@ -1459,7 +1465,9 @@ character_event = {
 			}
 		}
 		remove_trait = slothful
-		remove_trait = slothful_hidden			
+		hidden_tooltip = {
+			remove_trait = slothful_hidden
+		}			
 	}
 
 	option = {
@@ -1504,7 +1512,9 @@ character_event = {
 			}
 		}
 		remove_trait = envious
-		remove_trait = envious_hidden				
+		hidden_tooltip = {
+			remove_trait = envious_hidden
+		}				
 	}
 	option = {
 		name = "EVTOPTB86340"
@@ -1548,7 +1558,9 @@ character_event = {
 			}
 		}
 		remove_trait = deceitful
-		remove_trait = deceitful_hidden				
+		hidden_tooltip = {
+			remove_trait = deceitful_hidden
+		}				
 		
 	}
 
@@ -1594,7 +1606,9 @@ character_event = {
 			}
 		}
 		remove_trait = craven
-		remove_trait = craven_hidden		
+		hidden_tooltip = {
+			remove_trait = craven_hidden
+		}		
 	}
 	option = {
 		name = "EVTOPTB86360"
@@ -1638,7 +1652,9 @@ character_event = {
 			}
 		}
 		remove_trait = arbitrary
-		remove_trait = arbitrary_hidden				
+		hidden_tooltip = {
+			remove_trait = arbitrary_hidden
+		}				
 	}
 	option = {
 		name = "EVTOPTB86380"
@@ -1682,7 +1698,9 @@ character_event = {
 			}
 		}
 		remove_trait = hedonist
-		remove_trait = hedonist_hidden		
+		hidden_tooltip = {
+			remove_trait = hedonist_hidden
+		}		
 	}
 	option = {
 		name = "EVTOPTB86390"
@@ -1726,7 +1744,9 @@ character_event = {
 			}
 		}
 		remove_trait = cynical
-		remove_trait = cynical_hidden
+		hidden_tooltip = {
+			remove_trait = cynical_hidden
+		}
 	}
 	
 	option = {
@@ -1771,7 +1791,9 @@ character_event = {
 			}
 		}
 		remove_trait = wroth
-		remove_trait = wroth_hidden
+		hidden_tooltip = {
+			remove_trait = wroth_hidden
+		}
 	}
 
 	option = {
@@ -2130,7 +2152,9 @@ character_event = {
 				} 
 			}
 			remove_trait = possessed
-			remove_trait = possessed_hidden
+			hidden_tooltip = {
+				remove_trait = possessed_hidden
+			}
 			remove_character_modifier = voice_of_satan
 			remove_character_modifier = voice_of_jesus
 			remove_character_modifier = holy_comet
@@ -2143,7 +2167,9 @@ character_event = {
 				} 
 			}
 			remove_trait = lunatic
-			remove_trait = lunatic_hidden
+			hidden_tooltip = {
+				remove_trait = lunatic_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -2153,7 +2179,9 @@ character_event = {
 				} 
 			}
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}	
 		if = {
 			limit = {
@@ -2163,7 +2191,9 @@ character_event = {
 				} 
 			}
 			remove_trait = depressed
-			remove_trait = depressed_hidden
+			hidden_tooltip = {
+				remove_trait = depressed_hidden
+			}
 		}	
 		piety = 15		
 	}
@@ -2381,7 +2411,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA86800"
 		remove_trait = on_hajj
-		remove_trait = on_hajj_hidden
+		hidden_tooltip = {
+			remove_trait = on_hajj_hidden
+		}
 		if = {
 			limit = {
 				ai = yes

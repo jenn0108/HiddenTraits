@@ -29,1232 +29,1584 @@ character_event = {
 			limit = {
 				trait = amateurish_plotter_hidden
 			}
-			remove_trait = amateurish_plotter_hidden
+			hidden_tooltip = {
+				remove_trait = amateurish_plotter_hidden
+			}
 			add_trait = amateurish_plotter
 		}
 		if = {
 			limit = {
 				trait = flamboyant_schemer_hidden
 			}
-			remove_trait = flamboyant_schemer_hidden
+			hidden_tooltip = {
+				remove_trait = flamboyant_schemer_hidden
+			}
 			add_trait = flamboyant_schemer
 		}
 		if = {
 			limit = {
 				trait = intricate_webweaver_hidden
 			}
-			remove_trait = intricate_webweaver_hidden
+			hidden_tooltip = {
+				remove_trait = intricate_webweaver_hidden
+			}
 			add_trait = intricate_webweaver
 		}
 		if = {
 			limit = {
 				trait = elusive_shadow_hidden
 			}
-			remove_trait = elusive_shadow_hidden
+			hidden_tooltip = {
+				remove_trait = elusive_shadow_hidden
+			}
 			add_trait = elusive_shadow
 		}
 		if = {
 			limit = {
 				trait = naive_appeaser_hidden
 			}
-			remove_trait = naive_appeaser_hidden
+			hidden_tooltip = {
+				remove_trait = naive_appeaser_hidden
+			}
 			add_trait = naive_appeaser
 		}
 		if = {
 			limit = {
 				trait = underhanded_rogue_hidden
 			}
-			remove_trait = underhanded_rogue_hidden
+			hidden_tooltip = {
+				remove_trait = underhanded_rogue_hidden
+			}
 			add_trait = underhanded_rogue
 		}
 		if = {
 			limit = {
 				trait = charismatic_negotiator_hidden
 			}
-			remove_trait = charismatic_negotiator_hidden
+			hidden_tooltip = {
+				remove_trait = charismatic_negotiator_hidden
+			}
 			add_trait = charismatic_negotiator
 		}
 		if = {
 			limit = {
 				trait = grey_eminence_hidden
 			}
-			remove_trait = grey_eminence_hidden
+			hidden_tooltip = {
+				remove_trait = grey_eminence_hidden
+			}
 			add_trait = grey_eminence
 		}
 		if = {
 			limit = {
 				trait = indulgent_wastrel_hidden
 			}
-			remove_trait = indulgent_wastrel_hidden
+			hidden_tooltip = {
+				remove_trait = indulgent_wastrel_hidden
+			}
 			add_trait = indulgent_wastrel
 		}
 		if = {
 			limit = {
 				trait = thrifty_clerk_hidden
 			}
-			remove_trait = thrifty_clerk_hidden
+			hidden_tooltip = {
+				remove_trait = thrifty_clerk_hidden
+			}
 			add_trait = thrifty_clerk
 		}
 		if = {
 			limit = {
 				trait = fortune_builder_hidden
 			}
-			remove_trait = fortune_builder_hidden
+			hidden_tooltip = {
+				remove_trait = fortune_builder_hidden
+			}
 			add_trait = fortune_builder
 		}
 		if = {
 			limit = {
 				trait = midas_touched_hidden
 			}
-			remove_trait = midas_touched_hidden
+			hidden_tooltip = {
+				remove_trait = midas_touched_hidden
+			}
 			add_trait = midas_touched
 		}
 		if = {
 			limit = {
 				trait = misguided_warrior_hidden
 			}
-			remove_trait = misguided_warrior_hidden
+			hidden_tooltip = {
+				remove_trait = misguided_warrior_hidden
+			}
 			add_trait = misguided_warrior
 		}
 		if = {
 			limit = {
 				trait = tough_soldier_hidden
 			}
-			remove_trait = tough_soldier_hidden
+			hidden_tooltip = {
+				remove_trait = tough_soldier_hidden
+			}
 			add_trait = tough_soldier
 		}
 		if = {
 			limit = {
 				trait = skilled_tactician_hidden
 			}
-			remove_trait = skilled_tactician_hidden
+			hidden_tooltip = {
+				remove_trait = skilled_tactician_hidden
+			}
 			add_trait = skilled_tactician
 		}
 		if = {
 			limit = {
 				trait = brilliant_strategist_hidden
 			}
-			remove_trait = brilliant_strategist_hidden
+			hidden_tooltip = {
+				remove_trait = brilliant_strategist_hidden
+			}
 			add_trait = brilliant_strategist
 		}
 		if = {
 			limit = {
 				trait = detached_priest_hidden
 			}
-			remove_trait = detached_priest_hidden
+			hidden_tooltip = {
+				remove_trait = detached_priest_hidden
+			}
 			add_trait = detached_priest
 		}
 		if = {
 			limit = {
 				trait = martial_cleric_hidden
 			}
-			remove_trait = martial_cleric_hidden
+			hidden_tooltip = {
+				remove_trait = martial_cleric_hidden
+			}
 			add_trait = martial_cleric
 		}
 		if = {
 			limit = {
 				trait = scholarly_theologian_hidden
 			}
-			remove_trait = scholarly_theologian_hidden
+			hidden_tooltip = {
+				remove_trait = scholarly_theologian_hidden
+			}
 			add_trait = scholarly_theologian
 		}
 		if = {
 			limit = {
 				trait = mastermind_theologian_hidden
 			}
-			remove_trait = mastermind_theologian_hidden
+			hidden_tooltip = {
+				remove_trait = mastermind_theologian_hidden
+			}
 			add_trait = mastermind_theologian
 		}
 		if = {
 			limit = {
 				trait = stressed_hidden
 			}
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 			add_trait = stressed
 		}
 		if = {
 			limit = {
 				trait = depressed_hidden
 			}
-			remove_trait = depressed_hidden
+			hidden_tooltip = {
+				remove_trait = depressed_hidden
+			}
 			add_trait = depressed
 		}
 		if = {
 			limit = {
 				trait = lunatic_hidden
 			}
-			remove_trait = lunatic_hidden
+			hidden_tooltip = {
+				remove_trait = lunatic_hidden
+			}
 			add_trait = lunatic
 		}
 		if = {
 			limit = {
 				trait = possessed_hidden
 			}
-			remove_trait = possessed_hidden
+			hidden_tooltip = {
+				remove_trait = possessed_hidden
+			}
 			add_trait = possessed
 		}
 		if = {
 			limit = {
 				trait = ill_hidden
 			}
-			remove_trait = ill_hidden
+			hidden_tooltip = {
+				remove_trait = ill_hidden
+			}
 			add_trait = ill
 		}
 		if = {
 			limit = {
 				trait = pneumonic_hidden
 			}
-			remove_trait = pneumonic_hidden
+			hidden_tooltip = {
+				remove_trait = pneumonic_hidden
+			}
 			add_trait = pneumonic
 		}
 		if = {
 			limit = {
 				trait = syphilitic_hidden
 			}
-			remove_trait = syphilitic_hidden
+			hidden_tooltip = {
+				remove_trait = syphilitic_hidden
+			}
 			add_trait = syphilitic
 		}
 		if = {
 			limit = {
 				trait = leper_hidden
 			}
-			remove_trait = leper_hidden
+			hidden_tooltip = {
+				remove_trait = leper_hidden
+			}
 			add_trait = leper
 		}
 		if = {
 			limit = {
 				trait = wounded_hidden
 			}
-			remove_trait = wounded_hidden
+			hidden_tooltip = {
+				remove_trait = wounded_hidden
+			}
 			add_trait = wounded
 		}
 		if = {
 			limit = {
 				trait = maimed_hidden
 			}
-			remove_trait = maimed_hidden
+			hidden_tooltip = {
+				remove_trait = maimed_hidden
+			}
 			add_trait = maimed
 		}
 		if = {
 			limit = {
 				trait = infirm_hidden
 			}
-			remove_trait = infirm_hidden
+			hidden_tooltip = {
+				remove_trait = infirm_hidden
+			}
 			add_trait = infirm
 		}
 		if = {
 			limit = {
 				trait = incapable_hidden
 			}
-			remove_trait = incapable_hidden
+			hidden_tooltip = {
+				remove_trait = incapable_hidden
+			}
 			add_trait = incapable
 		}
 		if = {
 			limit = {
 				trait = drunkard_hidden
 			}
-			remove_trait = drunkard_hidden
+			hidden_tooltip = {
+				remove_trait = drunkard_hidden
+			}
 			add_trait = drunkard
 		}
 		if = {
 			limit = {
 				trait = has_tuberculosis_hidden
 			}
-			remove_trait = has_tuberculosis_hidden
+			hidden_tooltip = {
+				remove_trait = has_tuberculosis_hidden
+			}
 			add_trait = has_tuberculosis
 		}
 		if = {
 			limit = {
 				trait = has_typhoid_fever_hidden
 			}
-			remove_trait = has_typhoid_fever_hidden
+			hidden_tooltip = {
+				remove_trait = has_typhoid_fever_hidden
+			}
 			add_trait = has_typhoid_fever
 		}
 		if = {
 			limit = {
 				trait = has_typhus_hidden
 			}
-			remove_trait = has_typhus_hidden
+			hidden_tooltip = {
+				remove_trait = has_typhus_hidden
+			}
 			add_trait = has_typhus
 		}
 		if = {
 			limit = {
 				trait = has_bubonic_plague_hidden
 			}
-			remove_trait = has_bubonic_plague_hidden
+			hidden_tooltip = {
+				remove_trait = has_bubonic_plague_hidden
+			}
 			add_trait = has_bubonic_plague
 		}
 		if = {
 			limit = {
 				trait = has_measles_hidden
 			}
-			remove_trait = has_measles_hidden
+			hidden_tooltip = {
+				remove_trait = has_measles_hidden
+			}
 			add_trait = has_measles
 		}
 		if = {
 			limit = {
 				trait = has_small_pox_hidden
 			}
-			remove_trait = has_small_pox_hidden
+			hidden_tooltip = {
+				remove_trait = has_small_pox_hidden
+			}
 			add_trait = has_small_pox
 		}
 		if = {
 			limit = {
 				trait = crusader_hidden
 			}
-			remove_trait = crusader_hidden
+			hidden_tooltip = {
+				remove_trait = crusader_hidden
+			}
 			add_trait = crusader
 		}
 		if = {
 			limit = {
 				trait = bastard_hidden
 			}
-			remove_trait = bastard_hidden
+			hidden_tooltip = {
+				remove_trait = bastard_hidden
+			}
 			add_trait = bastard
 		}
 		if = {
 			limit = {
 				trait = twin_hidden
 			}
-			remove_trait = twin_hidden
+			hidden_tooltip = {
+				remove_trait = twin_hidden
+			}
 			add_trait = twin
 		}
 		if = {
 			limit = {
 				trait = legit_bastard_hidden
 			}
-			remove_trait = legit_bastard_hidden
+			hidden_tooltip = {
+				remove_trait = legit_bastard_hidden
+			}
 			add_trait = legit_bastard
 		}
 		if = {
 			limit = {
 				trait = pregnant_hidden
 			}
-			remove_trait = pregnant_hidden
+			hidden_tooltip = {
+				remove_trait = pregnant_hidden
+			}
 			add_trait = pregnant
 		}
 		if = {
 			limit = {
 				trait = excommunicated_hidden
 			}
-			remove_trait = excommunicated_hidden
+			hidden_tooltip = {
+				remove_trait = excommunicated_hidden
+			}
 			add_trait = excommunicated
 		}
 		if = {
 			limit = {
 				trait = kinslayer_hidden
 			}
-			remove_trait = kinslayer_hidden
+			hidden_tooltip = {
+				remove_trait = kinslayer_hidden
+			}
 			add_trait = kinslayer
 		}
 		if = {
 			limit = {
 				trait = homosexual_hidden
 			}
-			remove_trait = homosexual_hidden
+			hidden_tooltip = {
+				remove_trait = homosexual_hidden
+			}
 			add_trait = homosexual
 		}
 		if = {
 			limit = {
 				trait = clubfooted_hidden
 			}
-			remove_trait = clubfooted_hidden
+			hidden_tooltip = {
+				remove_trait = clubfooted_hidden
+			}
 			add_trait = clubfooted
 		}
 		if = {
 			limit = {
 				trait = harelip_hidden
 			}
-			remove_trait = harelip_hidden
+			hidden_tooltip = {
+				remove_trait = harelip_hidden
+			}
 			add_trait = harelip
 		}
 		if = {
 			limit = {
 				trait = hunchback_hidden
 			}
-			remove_trait = hunchback_hidden
+			hidden_tooltip = {
+				remove_trait = hunchback_hidden
+			}
 			add_trait = hunchback
 		}
 		if = {
 			limit = {
 				trait = lisp_hidden
 			}
-			remove_trait = lisp_hidden
+			hidden_tooltip = {
+				remove_trait = lisp_hidden
+			}
 			add_trait = lisp
 		}
 		if = {
 			limit = {
 				trait = stutter_hidden
 			}
-			remove_trait = stutter_hidden
+			hidden_tooltip = {
+				remove_trait = stutter_hidden
+			}
 			add_trait = stutter
 		}
 		if = {
 			limit = {
 				trait = fair_hidden
 			}
-			remove_trait = fair_hidden
+			hidden_tooltip = {
+				remove_trait = fair_hidden
+			}
 			add_trait = fair
 		}
 		if = {
 			limit = {
 				trait = ugly_hidden
 			}
-			remove_trait = ugly_hidden
+			hidden_tooltip = {
+				remove_trait = ugly_hidden
+			}
 			add_trait = ugly
 		}
 		if = {
 			limit = {
 				trait = dwarf_hidden
 			}
-			remove_trait = dwarf_hidden
+			hidden_tooltip = {
+				remove_trait = dwarf_hidden
+			}
 			add_trait = dwarf
 		}
 		if = {
 			limit = {
 				trait = genius_hidden
 			}
-			remove_trait = genius_hidden
+			hidden_tooltip = {
+				remove_trait = genius_hidden
+			}
 			add_trait = genius
 		}
 		if = {
 			limit = {
 				trait = quick_hidden
 			}
-			remove_trait = quick_hidden
+			hidden_tooltip = {
+				remove_trait = quick_hidden
+			}
 			add_trait = quick
 		}
 		if = {
 			limit = {
 				trait = slow_hidden
 			}
-			remove_trait = slow_hidden
+			hidden_tooltip = {
+				remove_trait = slow_hidden
+			}
 			add_trait = slow
 		}
 		if = {
 			limit = {
 				trait = imbecile_hidden
 			}
-			remove_trait = imbecile_hidden
+			hidden_tooltip = {
+				remove_trait = imbecile_hidden
+			}
 			add_trait = imbecile
 		}
 		if = {
 			limit = {
 				trait = inbred_hidden
 			}
-			remove_trait = inbred_hidden
+			hidden_tooltip = {
+				remove_trait = inbred_hidden
+			}
 			add_trait = inbred
 		}
 		if = {
 			limit = {
 				trait = strong_hidden
 			}
-			remove_trait = strong_hidden
+			hidden_tooltip = {
+				remove_trait = strong_hidden
+			}
 			add_trait = strong
 		}
 		if = {
 			limit = {
 				trait = weak_hidden
 			}
-			remove_trait = weak_hidden
+			hidden_tooltip = {
+				remove_trait = weak_hidden
+			}
 			add_trait = weak
 		}
 		if = {
 			limit = {
 				trait = celibate_hidden
 			}
-			remove_trait = celibate_hidden
+			hidden_tooltip = {
+				remove_trait = celibate_hidden
+			}
 			add_trait = celibate
 		}
 		if = {
 			limit = {
 				trait = hedonist_hidden
 			}
-			remove_trait = hedonist_hidden
+			hidden_tooltip = {
+				remove_trait = hedonist_hidden
+			}
 			add_trait = hedonist
 		}
 		if = {
 			limit = {
 				trait = scholar_hidden
 			}
-			remove_trait = scholar_hidden
+			hidden_tooltip = {
+				remove_trait = scholar_hidden
+			}
 			add_trait = scholar
 		}
 		if = {
 			limit = {
 				trait = gardener_hidden
 			}
-			remove_trait = gardener_hidden
+			hidden_tooltip = {
+				remove_trait = gardener_hidden
+			}
 			add_trait = gardener
 		}
 		if = {
 			limit = {
 				trait = mystic_hidden
 			}
-			remove_trait = mystic_hidden
+			hidden_tooltip = {
+				remove_trait = mystic_hidden
+			}
 			add_trait = mystic
 		}
 		if = {
 			limit = {
 				trait = impaler_hidden
 			}
-			remove_trait = impaler_hidden
+			hidden_tooltip = {
+				remove_trait = impaler_hidden
+			}
 			add_trait = impaler
 		}
 		if = {
 			limit = {
 				trait = duelist_hidden
 			}
-			remove_trait = duelist_hidden
+			hidden_tooltip = {
+				remove_trait = duelist_hidden
+			}
 			add_trait = duelist
 		}
 		if = {
 			limit = {
 				trait = hunter_hidden
 			}
-			remove_trait = hunter_hidden
+			hidden_tooltip = {
+				remove_trait = hunter_hidden
+			}
 			add_trait = hunter
 		}
 		if = {
 			limit = {
 				trait = poet_hidden
 			}
-			remove_trait = poet_hidden
+			hidden_tooltip = {
+				remove_trait = poet_hidden
+			}
 			add_trait = poet
 		}
 		if = {
 			limit = {
 				trait = falconer_hidden
 			}
-			remove_trait = falconer_hidden
+			hidden_tooltip = {
+				remove_trait = falconer_hidden
+			}
 			add_trait = falconer
 		}
 		if = {
 			limit = {
 				trait = lustful_hidden
 			}
-			remove_trait = lustful_hidden
+			hidden_tooltip = {
+				remove_trait = lustful_hidden
+			}
 			add_trait = lustful
 		}
 		if = {
 			limit = {
 				trait = chaste_hidden
 			}
-			remove_trait = chaste_hidden
+			hidden_tooltip = {
+				remove_trait = chaste_hidden
+			}
 			add_trait = chaste
 		}
 		if = {
 			limit = {
 				trait = gluttonous_hidden
 			}
-			remove_trait = gluttonous_hidden
+			hidden_tooltip = {
+				remove_trait = gluttonous_hidden
+			}
 			add_trait = gluttonous
 		}
 		if = {
 			limit = {
 				trait = temperate_hidden
 			}
-			remove_trait = temperate_hidden
+			hidden_tooltip = {
+				remove_trait = temperate_hidden
+			}
 			add_trait = temperate
 		}
 		if = {
 			limit = {
 				trait = greedy_hidden
 			}
-			remove_trait = greedy_hidden
+			hidden_tooltip = {
+				remove_trait = greedy_hidden
+			}
 			add_trait = greedy
 		}
 		if = {
 			limit = {
 				trait = charitable_hidden
 			}
-			remove_trait = charitable_hidden
+			hidden_tooltip = {
+				remove_trait = charitable_hidden
+			}
 			add_trait = charitable
 		}
 		if = {
 			limit = {
 				trait = slothful_hidden
 			}
-			remove_trait = slothful_hidden
+			hidden_tooltip = {
+				remove_trait = slothful_hidden
+			}
 			add_trait = slothful
 		}
 		if = {
 			limit = {
 				trait = diligent_hidden
 			}
-			remove_trait = diligent_hidden
+			hidden_tooltip = {
+				remove_trait = diligent_hidden
+			}
 			add_trait = diligent
 		}
 		if = {
 			limit = {
 				trait = envious_hidden
 			}
-			remove_trait = envious_hidden
+			hidden_tooltip = {
+				remove_trait = envious_hidden
+			}
 			add_trait = envious
 		}
 		if = {
 			limit = {
 				trait = kind_hidden
 			}
-			remove_trait = kind_hidden
+			hidden_tooltip = {
+				remove_trait = kind_hidden
+			}
 			add_trait = kind
 		}
 		if = {
 			limit = {
 				trait = wroth_hidden
 			}
-			remove_trait = wroth_hidden
+			hidden_tooltip = {
+				remove_trait = wroth_hidden
+			}
 			add_trait = wroth
 		}
 		if = {
 			limit = {
 				trait = patient_hidden
 			}
-			remove_trait = patient_hidden
+			hidden_tooltip = {
+				remove_trait = patient_hidden
+			}
 			add_trait = patient
 		}
 		if = {
 			limit = {
 				trait = proud_hidden
 			}
-			remove_trait = proud_hidden
+			hidden_tooltip = {
+				remove_trait = proud_hidden
+			}
 			add_trait = proud
 		}
 		if = {
 			limit = {
 				trait = humble_hidden
 			}
-			remove_trait = humble_hidden
+			hidden_tooltip = {
+				remove_trait = humble_hidden
+			}
 			add_trait = humble
 		}
 		if = {
 			limit = {
 				trait = deceitful_hidden
 			}
-			remove_trait = deceitful_hidden
+			hidden_tooltip = {
+				remove_trait = deceitful_hidden
+			}
 			add_trait = deceitful
 		}
 		if = {
 			limit = {
 				trait = honest_hidden
 			}
-			remove_trait = honest_hidden
+			hidden_tooltip = {
+				remove_trait = honest_hidden
+			}
 			add_trait = honest
 		}
 		if = {
 			limit = {
 				trait = craven_hidden
 			}
-			remove_trait = craven_hidden
+			hidden_tooltip = {
+				remove_trait = craven_hidden
+			}
 			add_trait = craven
 		}
 		if = {
 			limit = {
 				trait = brave_hidden
 			}
-			remove_trait = brave_hidden
+			hidden_tooltip = {
+				remove_trait = brave_hidden
+			}
 			add_trait = brave
 		}
 		if = {
 			limit = {
 				trait = shy_hidden
 			}
-			remove_trait = shy_hidden
+			hidden_tooltip = {
+				remove_trait = shy_hidden
+			}
 			add_trait = shy
 		}
 		if = {
 			limit = {
 				trait = gregarious_hidden
 			}
-			remove_trait = gregarious_hidden
+			hidden_tooltip = {
+				remove_trait = gregarious_hidden
+			}
 			add_trait = gregarious
 		}
 		if = {
 			limit = {
 				trait = ambitious_hidden
 			}
-			remove_trait = ambitious_hidden
+			hidden_tooltip = {
+				remove_trait = ambitious_hidden
+			}
 			add_trait = ambitious
 		}
 		if = {
 			limit = {
 				trait = content_hidden
 			}
-			remove_trait = content_hidden
+			hidden_tooltip = {
+				remove_trait = content_hidden
+			}
 			add_trait = content
 		}
 		if = {
 			limit = {
 				trait = arbitrary_hidden
 			}
-			remove_trait = arbitrary_hidden
+			hidden_tooltip = {
+				remove_trait = arbitrary_hidden
+			}
 			add_trait = arbitrary
 		}
 		if = {
 			limit = {
 				trait = just_hidden
 			}
-			remove_trait = just_hidden
+			hidden_tooltip = {
+				remove_trait = just_hidden
+			}
 			add_trait = just
 		}
 		if = {
 			limit = {
 				trait = cynical_hidden
 			}
-			remove_trait = cynical_hidden
+			hidden_tooltip = {
+				remove_trait = cynical_hidden
+			}
 			add_trait = cynical
 		}
 		if = {
 			limit = {
 				trait = zealous_hidden
 			}
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 			add_trait = zealous
 		}
 		if = {
 			limit = {
 				trait = paranoid_hidden
 			}
-			remove_trait = paranoid_hidden
+			hidden_tooltip = {
+				remove_trait = paranoid_hidden
+			}
 			add_trait = paranoid
 		}
 		if = {
 			limit = {
 				trait = trusting_hidden
 			}
-			remove_trait = trusting_hidden
+			hidden_tooltip = {
+				remove_trait = trusting_hidden
+			}
 			add_trait = trusting
 		}
 		if = {
 			limit = {
 				trait = cruel_hidden
 			}
-			remove_trait = cruel_hidden
+			hidden_tooltip = {
+				remove_trait = cruel_hidden
+			}
 			add_trait = cruel
 		}
 		if = {
 			limit = {
 				trait = light_foot_leader_hidden
 			}
-			remove_trait = light_foot_leader_hidden
+			hidden_tooltip = {
+				remove_trait = light_foot_leader_hidden
+			}
 			add_trait = light_foot_leader
 		}
 		if = {
 			limit = {
 				trait = heavy_infantry_leader_hidden
 			}
-			remove_trait = heavy_infantry_leader_hidden
+			hidden_tooltip = {
+				remove_trait = heavy_infantry_leader_hidden
+			}
 			add_trait = heavy_infantry_leader
 		}
 		if = {
 			limit = {
 				trait = cavalry_leader_hidden
 			}
-			remove_trait = cavalry_leader_hidden
+			hidden_tooltip = {
+				remove_trait = cavalry_leader_hidden
+			}
 			add_trait = cavalry_leader
 		}
 		if = {
 			limit = {
 				trait = inspiring_leader_hidden
 			}
-			remove_trait = inspiring_leader_hidden
+			hidden_tooltip = {
+				remove_trait = inspiring_leader_hidden
+			}
 			add_trait = inspiring_leader
 		}
 		if = {
 			limit = {
 				trait = trickster_hidden
 			}
-			remove_trait = trickster_hidden
+			hidden_tooltip = {
+				remove_trait = trickster_hidden
+			}
 			add_trait = trickster
 		}
 		if = {
 			limit = {
 				trait = organizer_hidden
 			}
-			remove_trait = organizer_hidden
+			hidden_tooltip = {
+				remove_trait = organizer_hidden
+			}
 			add_trait = organizer
 		}
 		if = {
 			limit = {
 				trait = defensive_leader_hidden
 			}
-			remove_trait = defensive_leader_hidden
+			hidden_tooltip = {
+				remove_trait = defensive_leader_hidden
+			}
 			add_trait = defensive_leader
 		}
 		if = {
 			limit = {
 				trait = experimenter_hidden
 			}
-			remove_trait = experimenter_hidden
+			hidden_tooltip = {
+				remove_trait = experimenter_hidden
+			}
 			add_trait = experimenter
 		}
 		if = {
 			limit = {
 				trait = flanker_hidden
 			}
-			remove_trait = flanker_hidden
+			hidden_tooltip = {
+				remove_trait = flanker_hidden
+			}
 			add_trait = flanker
 		}
 		if = {
 			limit = {
 				trait = aggressive_leader_hidden
 			}
-			remove_trait = aggressive_leader_hidden
+			hidden_tooltip = {
+				remove_trait = aggressive_leader_hidden
+			}
 			add_trait = aggressive_leader
 		}
 		if = {
 			limit = {
 				trait = siege_leader_hidden
 			}
-			remove_trait = siege_leader_hidden
+			hidden_tooltip = {
+				remove_trait = siege_leader_hidden
+			}
 			add_trait = siege_leader
 		}
 		if = {
 			limit = {
 				trait = mujahid_hidden
 			}
-			remove_trait = mujahid_hidden
+			hidden_tooltip = {
+				remove_trait = mujahid_hidden
+			}
 			add_trait = mujahid
 		}
 		if = {
 			limit = {
 				trait = hajjaj_hidden
 			}
-			remove_trait = hajjaj_hidden
+			hidden_tooltip = {
+				remove_trait = hajjaj_hidden
+			}
 			add_trait = hajjaj
 		}
 		if = {
 			limit = {
 				trait = on_hajj_hidden
 			}
-			remove_trait = on_hajj_hidden
+			hidden_tooltip = {
+				remove_trait = on_hajj_hidden
+			}
 			add_trait = on_hajj
 		}
 		if = {
 			limit = {
 				trait = faqih_hidden
 			}
-			remove_trait = faqih_hidden
+			hidden_tooltip = {
+				remove_trait = faqih_hidden
+			}
 			add_trait = faqih
 		}
 		if = {
 			limit = {
 				trait = hafiz_hidden
 			}
-			remove_trait = hafiz_hidden
+			hidden_tooltip = {
+				remove_trait = hafiz_hidden
+			}
 			add_trait = hafiz
 		}
 		if = {
 			limit = {
 				trait = sayyid_hidden
 			}
-			remove_trait = sayyid_hidden
+			hidden_tooltip = {
+				remove_trait = sayyid_hidden
+			}
 			add_trait = sayyid
 		}
 		if = {
 			limit = {
 				trait = pilgrim_hidden
 			}
-			remove_trait = pilgrim_hidden
+			hidden_tooltip = {
+				remove_trait = pilgrim_hidden
+			}
 			add_trait = pilgrim
 		}
 		if = {
 			limit = {
 				trait = mirza_hidden
 			}
-			remove_trait = mirza_hidden
+			hidden_tooltip = {
+				remove_trait = mirza_hidden
+			}
 			add_trait = mirza
 		}
 		if = {
 			limit = {
 				trait = scarred_hidden
 			}
-			remove_trait = scarred_hidden
+			hidden_tooltip = {
+				remove_trait = scarred_hidden
+			}
 			add_trait = scarred
 		}
 		if = {
 			limit = {
 				trait = eunuch_hidden
 			}
-			remove_trait = eunuch_hidden
+			hidden_tooltip = {
+				remove_trait = eunuch_hidden
+			}
 			add_trait = eunuch
 		}
 		if = {
 			limit = {
 				trait = blinded_hidden
 			}
-			remove_trait = blinded_hidden
+			hidden_tooltip = {
+				remove_trait = blinded_hidden
+			}
 			add_trait = blinded
 		}
 		if = {
 			limit = {
 				trait = born_in_the_purple_hidden
 			}
-			remove_trait = born_in_the_purple_hidden
+			hidden_tooltip = {
+				remove_trait = born_in_the_purple_hidden
+			}
 			add_trait = born_in_the_purple
 		}
 		if = {
 			limit = {
 				trait = born_in_the_purple_hidden
 			}
-			remove_trait = born_in_the_purple_hidden
+			hidden_tooltip = {
+				remove_trait = born_in_the_purple_hidden
+			}
 			add_trait = born_in_the_purple
 		}
 		if = {
 			limit = {
 				trait = augustus_hidden
 			}
-			remove_trait = augustus_hidden
+			hidden_tooltip = {
+				remove_trait = augustus_hidden
+			}
 			add_trait = augustus
 		}
 		if = {
 			limit = {
 				trait = flat_terrain_leader_hidden
 			}
-			remove_trait = flat_terrain_leader_hidden
+			hidden_tooltip = {
+				remove_trait = flat_terrain_leader_hidden
+			}
 			add_trait = flat_terrain_leader
 		}
 		if = {
 			limit = {
 				trait = rough_terrain_leader_hidden
 			}
-			remove_trait = rough_terrain_leader_hidden
+			hidden_tooltip = {
+				remove_trait = rough_terrain_leader_hidden
+			}
 			add_trait = rough_terrain_leader
 		}
 		if = {
 			limit = {
 				trait = mountain_terrain_leader_hidden
 			}
-			remove_trait = mountain_terrain_leader_hidden
+			hidden_tooltip = {
+				remove_trait = mountain_terrain_leader_hidden
+			}
 			add_trait = mountain_terrain_leader
 		}
 		if = {
 			limit = {
 				trait = desert_terrain_leader_hidden
 			}
-			remove_trait = desert_terrain_leader_hidden
+			hidden_tooltip = {
+				remove_trait = desert_terrain_leader_hidden
+			}
 			add_trait = desert_terrain_leader
 		}
 		if = {
 			limit = {
 				trait = holy_warrior_hidden
 			}
-			remove_trait = holy_warrior_hidden
+			hidden_tooltip = {
+				remove_trait = holy_warrior_hidden
+			}
 			add_trait = holy_warrior
 		}
 		if = {
 			limit = {
 				trait = unyielding_leader_hidden
 			}
-			remove_trait = unyielding_leader_hidden
+			hidden_tooltip = {
+				remove_trait = unyielding_leader_hidden
+			}
 			add_trait = unyielding_leader
 		}
 		if = {
 			limit = {
 				trait = has_aztec_disease_hidden
 			}
-			remove_trait = has_aztec_disease_hidden
+			hidden_tooltip = {
+				remove_trait = has_aztec_disease_hidden
+			}
 			add_trait = has_aztec_disease
 		}
 		if = {
 			limit = {
 				trait = child_of_consort_hidden
 			}
-			remove_trait = child_of_consort_hidden
+			hidden_tooltip = {
+				remove_trait = child_of_consort_hidden
+			}
 			add_trait = child_of_consort
 		}
 		if = {
 			limit = {
 				trait = peasant_leader_hidden
 			}
-			remove_trait = peasant_leader_hidden
+			hidden_tooltip = {
+				remove_trait = peasant_leader_hidden
+			}
 			add_trait = peasant_leader
 		}
 		if = {
 			limit = {
 				trait = heresiarch_hidden
 			}
-			remove_trait = heresiarch_hidden
+			hidden_tooltip = {
+				remove_trait = heresiarch_hidden
+			}
 			add_trait = heresiarch
 		}
 		if = {
 			limit = {
 				trait = berserker_hidden
 			}
-			remove_trait = berserker_hidden
+			hidden_tooltip = {
+				remove_trait = berserker_hidden
+			}
 			add_trait = berserker
 		}
 		if = {
 			limit = {
 				trait = varangian_hidden
 			}
-			remove_trait = varangian_hidden
+			hidden_tooltip = {
+				remove_trait = varangian_hidden
+			}
 			add_trait = varangian
 		}
 		if = {
 			limit = {
 				trait = saoshyant_hidden
 			}
-			remove_trait = saoshyant_hidden
+			hidden_tooltip = {
+				remove_trait = saoshyant_hidden
+			}
 			add_trait = saoshyant
 		}
 		if = {
 			limit = {
 				trait = saoshyant_descendant_hidden
 			}
-			remove_trait = saoshyant_descendant_hidden
+			hidden_tooltip = {
+				remove_trait = saoshyant_descendant_hidden
+			}
 			add_trait = saoshyant_descendant
 		}
 		if = {
 			limit = {
 				trait = viking_hidden
 			}
-			remove_trait = viking_hidden
+			hidden_tooltip = {
+				remove_trait = viking_hidden
+			}
 			add_trait = viking
 		}
 		if = {
 			limit = {
 				trait = monk_hidden
 			}
-			remove_trait = monk_hidden
+			hidden_tooltip = {
+				remove_trait = monk_hidden
+			}
 			add_trait = monk
 		}
 		if = {
 			limit = {
 				trait = nun_hidden
 			}
-			remove_trait = nun_hidden
+			hidden_tooltip = {
+				remove_trait = nun_hidden
+			}
 			add_trait = nun
 		}
 		if = {
 			limit = {
 				trait = on_pilgrimage_hidden
 			}
-			remove_trait = on_pilgrimage_hidden
+			hidden_tooltip = {
+				remove_trait = on_pilgrimage_hidden
+			}
 			add_trait = on_pilgrimage
 		}
 		if = {
 			limit = {
 				trait = sickly_hidden
 			}
-			remove_trait = sickly_hidden
+			hidden_tooltip = {
+				remove_trait = sickly_hidden
+			}
 			add_trait = sickly
 		}
 		if = {
 			limit = {
 				trait = mutazilite_hidden
 			}
-			remove_trait = mutazilite_hidden
+			hidden_tooltip = {
+				remove_trait = mutazilite_hidden
+			}
 			add_trait = mutazilite
 		}
 		if = {
 			limit = {
 				trait = ashari_hidden
 			}
-			remove_trait = ashari_hidden
+			hidden_tooltip = {
+				remove_trait = ashari_hidden
+			}
 			add_trait = ashari
 		}
 		if = {
 			limit = {
 				trait = sympathy_christendom_hidden
 			}
-			remove_trait = sympathy_christendom_hidden
+			hidden_tooltip = {
+				remove_trait = sympathy_christendom_hidden
+			}
 			add_trait = sympathy_christendom
 		}
 		if = {
 			limit = {
 				trait = sympathy_islam_hidden
 			}
-			remove_trait = sympathy_islam_hidden
+			hidden_tooltip = {
+				remove_trait = sympathy_islam_hidden
+			}
 			add_trait = sympathy_islam
 		}
 		if = {
 			limit = {
 				trait = sympathy_pagans_hidden
 			}
-			remove_trait = sympathy_pagans_hidden
+			hidden_tooltip = {
+				remove_trait = sympathy_pagans_hidden
+			}
 			add_trait = sympathy_pagans
 		}
 		if = {
 			limit = {
 				trait = sympathy_zoroastrianism_hidden
 			}
-			remove_trait = sympathy_zoroastrianism_hidden
+			hidden_tooltip = {
+				remove_trait = sympathy_zoroastrianism_hidden
+			}
 			add_trait = sympathy_zoroastrianism
 		}
 		if = {
 			limit = {
 				trait = sympathy_judaism_hidden
 			}
-			remove_trait = sympathy_judaism_hidden
+			hidden_tooltip = {
+				remove_trait = sympathy_judaism_hidden
+			}
 			add_trait = sympathy_judaism
 		}
 		if = {
 			limit = {
 				trait = bad_priest_christian_hidden
 			}
-			remove_trait = bad_priest_christian_hidden
+			hidden_tooltip = {
+				remove_trait = bad_priest_christian_hidden
+			}
 			add_trait = bad_priest_christian
 		}
 		if = {
 			limit = {
 				trait = bad_priest_muslim_hidden
 			}
-			remove_trait = bad_priest_muslim_hidden
+			hidden_tooltip = {
+				remove_trait = bad_priest_muslim_hidden
+			}
 			add_trait = bad_priest_muslim
 		}
 		if = {
 			limit = {
 				trait = bad_priest_norse_hidden
 			}
-			remove_trait = bad_priest_norse_hidden
+			hidden_tooltip = {
+				remove_trait = bad_priest_norse_hidden
+			}
 			add_trait = bad_priest_norse
 		}
 		if = {
 			limit = {
 				trait = bad_priest_tengri_hidden
 			}
-			remove_trait = bad_priest_tengri_hidden
+			hidden_tooltip = {
+				remove_trait = bad_priest_tengri_hidden
+			}
 			add_trait = bad_priest_tengri
 		}
 		if = {
 			limit = {
 				trait = bad_priest_zoroastrian_hidden
 			}
-			remove_trait = bad_priest_zoroastrian_hidden
+			hidden_tooltip = {
+				remove_trait = bad_priest_zoroastrian_hidden
+			}
 			add_trait = bad_priest_zoroastrian
 		}
 		if = {
 			limit = {
 				trait = bad_priest_aztec_hidden
 			}
-			remove_trait = bad_priest_aztec_hidden
+			hidden_tooltip = {
+				remove_trait = bad_priest_aztec_hidden
+			}
 			add_trait = bad_priest_aztec
 		}
 		if = {
 			limit = {
 				trait = narrow_flank_leader_hidden
 			}
-			remove_trait = narrow_flank_leader_hidden
+			hidden_tooltip = {
+				remove_trait = narrow_flank_leader_hidden
+			}
 			add_trait = narrow_flank_leader
 		}
 		if = {
 			limit = {
 				trait = brahmin_hidden
 			}
-			remove_trait = brahmin_hidden
+			hidden_tooltip = {
+				remove_trait = brahmin_hidden
+			}
 			add_trait = brahmin
 		}
 		if = {
 			limit = {
 				trait = kshatriya_hidden
 			}
-			remove_trait = kshatriya_hidden
+			hidden_tooltip = {
+				remove_trait = kshatriya_hidden
+			}
 			add_trait = kshatriya
 		}
 		if = {
 			limit = {
 				trait = vaishya_hidden
 			}
-			remove_trait = vaishya_hidden
+			hidden_tooltip = {
+				remove_trait = vaishya_hidden
+			}
 			add_trait = vaishya
 		}
 		if = {
 			limit = {
 				trait = sympathy_indian_hidden
 			}
-			remove_trait = sympathy_indian_hidden
+			hidden_tooltip = {
+				remove_trait = sympathy_indian_hidden
+			}
 			add_trait = sympathy_indian
 		}
 		if = {
 			limit = {
 				trait = shaivist_hindu_hidden
 			}
-			remove_trait = shaivist_hindu_hidden
+			hidden_tooltip = {
+				remove_trait = shaivist_hindu_hidden
+			}
 			add_trait = shaivist_hindu
 		}
 		if = {
 			limit = {
 				trait = vaishnavist_hindu_hidden
 			}
-			remove_trait = vaishnavist_hindu_hidden
+			hidden_tooltip = {
+				remove_trait = vaishnavist_hindu_hidden
+			}
 			add_trait = vaishnavist_hindu
 		}
 		if = {
 			limit = {
 				trait = shaktist_hindu_hidden
 			}
-			remove_trait = shaktist_hindu_hidden
+			hidden_tooltip = {
+				remove_trait = shaktist_hindu_hidden
+			}
 			add_trait = shaktist_hindu
 		}
 		if = {
 			limit = {
 				trait = smartist_hindu_hidden
 			}
-			remove_trait = smartist_hindu_hidden
+			hidden_tooltip = {
+				remove_trait = smartist_hindu_hidden
+			}
 			add_trait = smartist_hindu
 		}
 		if = {
 			limit = {
 				trait = mahayana_buddhist_hidden
 			}
-			remove_trait = mahayana_buddhist_hidden
+			hidden_tooltip = {
+				remove_trait = mahayana_buddhist_hidden
+			}
 			add_trait = mahayana_buddhist
 		}
 		if = {
 			limit = {
 				trait = vajrayana_buddhist_hidden
 			}
-			remove_trait = vajrayana_buddhist_hidden
+			hidden_tooltip = {
+				remove_trait = vajrayana_buddhist_hidden
+			}
 			add_trait = vajrayana_buddhist
 		}
 		if = {
 			limit = {
 				trait = theravada_buddhist_hidden
 			}
-			remove_trait = theravada_buddhist_hidden
+			hidden_tooltip = {
+				remove_trait = theravada_buddhist_hidden
+			}
 			add_trait = theravada_buddhist
 		}
 		if = {
 			limit = {
 				trait = digambara_jain_hidden
 			}
-			remove_trait = digambara_jain_hidden
+			hidden_tooltip = {
+				remove_trait = digambara_jain_hidden
+			}
 			add_trait = digambara_jain
 		}
 		if = {
 			limit = {
 				trait = svetambara_jain_hidden
 			}
-			remove_trait = svetambara_jain_hidden
+			hidden_tooltip = {
+				remove_trait = svetambara_jain_hidden
+			}
 			add_trait = svetambara_jain
 		}
 		if = {
 			limit = {
 				trait = decadent_hidden
 			}
-			remove_trait = decadent_hidden
+			hidden_tooltip = {
+				remove_trait = decadent_hidden
+			}
 			add_trait = decadent
 		}
 		if = {
 			limit = {
 				trait = reincarnation_hidden
 			}
-			remove_trait = reincarnation_hidden
+			hidden_tooltip = {
+				remove_trait = reincarnation_hidden
+			}
 			add_trait = reincarnation
 		}
 		if = {
 			limit = {
 				trait = war_elephant_leader_hidden
 			}
-			remove_trait = war_elephant_leader_hidden
+			hidden_tooltip = {
+				remove_trait = war_elephant_leader_hidden
+			}
 			add_trait = war_elephant_leader
 		}
 		if = {
 			limit = {
 				trait = jungle_terrain_leader_hidden
 			}
-			remove_trait = jungle_terrain_leader_hidden
+			hidden_tooltip = {
+				remove_trait = jungle_terrain_leader_hidden
+			}
 			add_trait = jungle_terrain_leader
 		}
 	}

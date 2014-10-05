@@ -5832,7 +5832,9 @@ character_event = {
 			random = {
 				chance = 50
 				remove_trait = trusting
-				remove_trait = trusting_hidden
+				hidden_tooltip = {
+					remove_trait = trusting_hidden
+				}
 			}
 		}
 	}

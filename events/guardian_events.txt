@@ -145,7 +145,9 @@ character_event = {
 			chance = 40
 			FROM = { 
 				remove_trait = gluttonous
-				remove_trait = gluttonous_hidden
+				hidden_tooltip = {
+					remove_trait = gluttonous_hidden
+				}
 				hidden_tooltip = { 
 					character_event = { 
 						id = 1501 
@@ -222,7 +224,9 @@ character_event = {
 			50 = { 
 				FROM = { 
 					remove_trait = gluttonous
-					remove_trait = gluttonous_hidden
+					hidden_tooltip = {
+						remove_trait = gluttonous_hidden
+					}
 					hidden_tooltip = {
 						character_event = {	
 							id = 1501
@@ -262,7 +266,9 @@ character_event = {
 			chance = 20 
 			FROM = { 
 				remove_trait = gluttonous
-				remove_trait = gluttonous_hidden
+				hidden_tooltip = {
+					remove_trait = gluttonous_hidden
+				}
 				hidden_tooltip = { 
 					character_event = {	
 						id = 1501
@@ -537,7 +543,9 @@ character_event = {
 				}
 				40 = { 
 					remove_trait = temperate
-					remove_trait = temperate_hidden
+					hidden_tooltip = {
+						remove_trait = temperate_hidden
+					}
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1511
@@ -669,7 +677,9 @@ character_event = {
 			chance = 40
 			FROM = { 
 				remove_trait = greedy
-				remove_trait = greedy_hidden
+				hidden_tooltip = {
+					remove_trait = greedy_hidden
+				}
 				hidden_tooltip = { 
 					character_event = {	
 						id = 1521
@@ -738,7 +748,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = greedy
-					remove_trait = greedy_hidden
+					hidden_tooltip = {
+						remove_trait = greedy_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1521
@@ -776,7 +788,9 @@ character_event = {
 			chance = 20
 			FROM = { 
 				remove_trait = greedy
-				remove_trait = greedy_hidden
+				hidden_tooltip = {
+					remove_trait = greedy_hidden
+				}
 				hidden_tooltip = { 
 					character_event = {	
 						id = 1521
@@ -1054,7 +1068,9 @@ character_event = {
 			40 = {
 				FROM = {
 					remove_trait = charitable
-					remove_trait = charitable_hidden
+					hidden_tooltip = {
+						remove_trait = charitable_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1531
@@ -1185,7 +1201,9 @@ character_event = {
 			chance = 40
 			FROM = { 
 				remove_trait = slothful
-				remove_trait = slothful_hidden
+				hidden_tooltip = {
+					remove_trait = slothful_hidden
+				}
 				hidden_tooltip = {
 					character_event = {
 						id = 1541
@@ -1255,7 +1273,9 @@ character_event = {
 			40 = {
 				FROM = {
 					remove_trait = slothful
-					remove_trait = slothful_hidden
+					hidden_tooltip = {
+						remove_trait = slothful_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1541
@@ -1293,7 +1313,9 @@ character_event = {
 			chance = 20
 			FROM = {
 				remove_trait = slothful
-				remove_trait = slothful_hidden
+				hidden_tooltip = {
+					remove_trait = slothful_hidden
+				}
 				hidden_tooltip = { 
 					character_event = {	
 						id = 1541
@@ -1588,7 +1610,9 @@ character_event = {
 			40 = { 
 				FROM = {
 					remove_trait = diligent
-					remove_trait = diligent_hidden
+					hidden_tooltip = {
+						remove_trait = diligent_hidden
+					}
 					hidden_tooltip = {
 						character_event = {	
 							id = 1551
@@ -1726,7 +1750,9 @@ character_event = {
 			chance = 40
 			FROM = { 
 				remove_trait = envious
-				remove_trait = envious_hidden
+				hidden_tooltip = {
+					remove_trait = envious_hidden
+				}
 				hidden_tooltip = { 
 					character_event = {	
 						id = 1561
@@ -1793,7 +1819,9 @@ character_event = {
 				}
 				40 = { 
 					remove_trait = envious
-					remove_trait = envious_hidden
+					hidden_tooltip = {
+						remove_trait = envious_hidden
+					}
 					hidden_tooltip = { 
 						character_event = { 
 							id = 1561
@@ -1832,7 +1860,9 @@ character_event = {
 			20 = { 
 				FROM = { 
 					remove_trait = envious
-					remove_trait = envious_hidden 
+					hidden_tooltip = {
+						remove_trait = envious_hidden
+					} 
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1561
@@ -2108,7 +2138,9 @@ character_event = {
 				}
 				40 = {
 					remove_trait = kind
-					remove_trait = kind_hidden
+					hidden_tooltip = {
+						remove_trait = kind_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1571
@@ -2319,7 +2351,9 @@ character_event = {
 				}
 				40 = {
 					remove_trait = wroth
-					remove_trait = wroth_hidden 
+					hidden_tooltip = {
+						remove_trait = wroth_hidden
+					} 
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1581 
@@ -2357,7 +2391,9 @@ character_event = {
 				80 = { }
 				20 = { 
 					remove_trait = wroth
-					remove_trait = wroth_hidden
+					hidden_tooltip = {
+						remove_trait = wroth_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1581
@@ -2635,7 +2671,9 @@ character_event = {
 				}
 				40 = { 
 					remove_trait = patient
-					remove_trait = patient_hidden 
+					hidden_tooltip = {
+						remove_trait = patient_hidden
+					} 
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1591
@@ -2759,7 +2797,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = proud
-					remove_trait = proud_hidden
+					hidden_tooltip = {
+						remove_trait = proud_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1601 
@@ -2828,7 +2868,9 @@ character_event = {
 				}
 				40 = { 
 					remove_trait = proud
-					remove_trait = proud_hidden
+					hidden_tooltip = {
+						remove_trait = proud_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1601
@@ -2866,7 +2908,9 @@ character_event = {
 			20 = { 
 				FROM = { 
 					remove_trait = proud
-					remove_trait = proud_hidden
+					hidden_tooltip = {
+						remove_trait = proud_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1601
@@ -3095,7 +3139,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = humble
-					remove_trait = humble_hidden
+					hidden_tooltip = {
+						remove_trait = humble_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1611
@@ -3216,7 +3262,9 @@ character_event = {
 			40 = {
 				FROM = {
 					remove_trait = deceitful
-					remove_trait = deceitful_hidden
+					hidden_tooltip = {
+						remove_trait = deceitful_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1621
@@ -3308,7 +3356,9 @@ character_event = {
 			40 = {
 				FROM = { 
 					remove_trait = deceitful
-					remove_trait = deceitful_hidden
+					hidden_tooltip = {
+						remove_trait = deceitful_hidden
+					}
 					hidden_tooltip = {
 						character_event = {	
 							id = 1621
@@ -3346,7 +3396,9 @@ character_event = {
 			20 = { 
 				FROM = { 
 					remove_trait = deceitful
-					remove_trait = deceitful_hidden
+					hidden_tooltip = {
+						remove_trait = deceitful_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1621
@@ -3396,7 +3448,9 @@ character_event = {
 				}
 			}
 			remove_trait = cynical
-			remove_trait = cynical_hidden
+			hidden_tooltip = {
+				remove_trait = cynical_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3467,12 +3521,16 @@ character_event = {
 				}
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 			piety = -50
 		}
 		FROM = {
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1631
@@ -3517,7 +3575,9 @@ character_event = {
 				}
 			}
 			remove_trait = cynical
-			remove_trait = cynical_hidden
+			hidden_tooltip = {
+				remove_trait = cynical_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -3587,12 +3647,16 @@ character_event = {
 				}
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 			piety = -50
 		}
 		FROM = {
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1631
@@ -3755,7 +3819,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = honest
-			remove_trait = honest_hidden
+			hidden_tooltip = {
+				remove_trait = honest_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1641
@@ -3824,7 +3890,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = honest
-					remove_trait = honest_hidden 
+					hidden_tooltip = {
+						remove_trait = honest_hidden
+					} 
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1641
@@ -3954,7 +4022,9 @@ character_event = {
 			30 = {
 				FROM = { 
 					remove_trait = craven
-					remove_trait = craven_hidden
+					hidden_tooltip = {
+						remove_trait = craven_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1651
@@ -3987,7 +4057,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = craven
-			remove_trait = craven_hidden
+			hidden_tooltip = {
+				remove_trait = craven_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1651
@@ -4212,7 +4284,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = brave
-					remove_trait = brave_hidden
+					hidden_tooltip = {
+						remove_trait = brave_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1661
@@ -4371,7 +4445,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = shy
-					remove_trait = shy_hidden
+					hidden_tooltip = {
+						remove_trait = shy_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1671
@@ -4449,7 +4525,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = shy
-					remove_trait = shy_hidden
+					hidden_tooltip = {
+						remove_trait = shy_hidden
+					}
 					hidden_tooltip = {
 						character_event = {	
 							id = 1671
@@ -4488,7 +4566,9 @@ character_event = {
 			20 = {	
 				FROM = {
 					remove_trait = shy
-					remove_trait = shy_hidden
+					hidden_tooltip = {
+						remove_trait = shy_hidden
+					}
 					hidden_tooltip = { 
 						character_event = {
 							id = 1671
@@ -4775,7 +4855,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = gregarious
-					remove_trait = gregarious_hidden
+					hidden_tooltip = {
+						remove_trait = gregarious_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1681
@@ -4867,7 +4949,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = ambitious
-			remove_trait = ambitious_hidden
+			hidden_tooltip = {
+				remove_trait = ambitious_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1691
@@ -4953,7 +5037,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = content
-			remove_trait = content_hidden
+			hidden_tooltip = {
+				remove_trait = content_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1701
@@ -5053,7 +5139,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = arbitrary
-			remove_trait = arbitrary_hidden
+			hidden_tooltip = {
+				remove_trait = arbitrary_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1711
@@ -5153,7 +5241,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = just
-			remove_trait = just_hidden
+			hidden_tooltip = {
+				remove_trait = just_hidden
+			}
 			hidden_tooltip = {
 				character_event = {
 					id = 1721
@@ -5201,7 +5291,9 @@ character_event = {
 				}
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 		}	
 		if = {
 			limit = {
@@ -5255,7 +5347,9 @@ character_event = {
 		}
 		FROM = {
 			remove_trait = cynical
-			remove_trait = cynical_hidden
+			hidden_tooltip = {
+				remove_trait = cynical_hidden
+			}
 			if = {
 				limit = {
 					NOT = {
@@ -5404,7 +5498,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = cruel
-					remove_trait = cruel_hidden
+					hidden_tooltip = {
+						remove_trait = cruel_hidden
+					}
 					hidden_tooltip = {
 						character_event = {
 							id = 1966
@@ -5475,7 +5571,9 @@ character_event = {
 			40 = { 
 				FROM = { 
 					remove_trait = cruel
-					remove_trait = cruel_hidden 
+					hidden_tooltip = {
+						remove_trait = cruel_hidden
+					} 
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1966
@@ -5514,7 +5612,9 @@ character_event = {
 			20 = { 
 				FROM = { 
 					remove_trait = cruel
-					remove_trait = cruel_hidden 
+					hidden_tooltip = {
+						remove_trait = cruel_hidden
+					} 
 					hidden_tooltip = { 
 						character_event = {	
 							id = 1966 
@@ -12714,7 +12814,9 @@ character_event = {
 				}
 				50 = {
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -12782,7 +12884,9 @@ character_event = {
 			random_list = {
 				50 = {
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -12931,7 +13035,9 @@ character_event = {
 				}
 				50 = {
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 					hidden_tooltip = {
 						ROOT = {
 							character_event = {
@@ -13003,7 +13109,9 @@ character_event = {
 				chance = 20
 				
 				remove_trait = homosexual
-				remove_trait = homosexual_hidden
+				hidden_tooltip = {
+					remove_trait = homosexual_hidden
+				}
 				opinion = {
 					modifier = opinion_mad_at_guardian
 					who = ROOT
@@ -13035,7 +13143,9 @@ character_event = {
 				chance = 10
 				
 				remove_trait = homosexual
-				remove_trait = homosexual_hidden
+				hidden_tooltip = {
+					remove_trait = homosexual_hidden
+				}
 				opinion = {
 					modifier = opinion_mad_at_guardian
 					who = ROOT

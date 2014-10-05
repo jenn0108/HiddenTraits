@@ -161,7 +161,9 @@ letter_event = {
 			letter_event = { id = SoA.605 days = 3 tooltip = EVTTOOLTIP_SoA_605 }
 		}
 		remove_trait = mutazilite
-		remove_trait = mutazilite_hidden
+		hidden_tooltip = {
+			remove_trait = mutazilite_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -205,7 +207,9 @@ letter_event = {
 		tooltip = {
 			FROM = {
 				remove_trait = mutazilite
-				remove_trait = mutazilite_hidden
+				hidden_tooltip = {
+					remove_trait = mutazilite_hidden
+				}
 				if = {
 					limit = {
 						ai = yes
@@ -313,7 +317,9 @@ letter_event = {
 			letter_event = { id = SoA.613 days = 3 tooltip = EVTTOOLTIP_SoA_613 }
 		}
 		remove_trait = ashari
-		remove_trait = ashari_hidden
+		hidden_tooltip = {
+			remove_trait = ashari_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -369,7 +375,9 @@ letter_event = {
 		tooltip = {
 			FROM = {
 				remove_trait = ashari
-				remove_trait = ashari_hidden
+				hidden_tooltip = {
+					remove_trait = ashari_hidden
+				}
 				if = {
 					limit = {
 						ai = yes
@@ -431,7 +439,9 @@ character_event = {
 			factor = 1
 		}
 		remove_trait = ashari
-		remove_trait = ashari_hidden
+		hidden_tooltip = {
+			remove_trait = ashari_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -465,7 +475,9 @@ character_event = {
 			}
 		}
 		remove_trait = cynical
-		remove_trait = cynical_hidden
+		hidden_tooltip = {
+			remove_trait = cynical_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -524,7 +536,9 @@ character_event = {
 			}
 		}
 		remove_trait = mutazilite
-		remove_trait = mutazilite_hidden
+		hidden_tooltip = {
+			remove_trait = mutazilite_hidden
+		}
 		if = {
 			limit = {
 				ai = yes
@@ -546,7 +560,9 @@ character_event = {
 			factor = 1
 		}
 		remove_trait = zealous
-		remove_trait = zealous_hidden
+		hidden_tooltip = {
+			remove_trait = zealous_hidden
+		}
 		if = {
 			limit = {
 				ai = yes

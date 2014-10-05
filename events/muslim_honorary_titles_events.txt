@@ -2344,7 +2344,9 @@ character_event = {
 				random = {
 					chance = 5
 					remove_trait = drunkard
-					remove_trait = drunkard_hidden
+					hidden_tooltip = {
+						remove_trait = drunkard_hidden
+					}
 				}
 				random = {
 					chance = 30
@@ -2440,7 +2442,9 @@ character_event = {
 				random = {
 					chance = 25
 					remove_trait = drunkard
-					remove_trait = drunkard_hidden
+					hidden_tooltip = {
+						remove_trait = drunkard_hidden
+					}
 				}
 				character_event = {
 					id = 105032
@@ -2553,7 +2557,9 @@ character_event = {
 		}
 		tooltip = {
 			remove_trait = drunkard
-			remove_trait = drunkard_hidden
+			hidden_tooltip = {
+				remove_trait = drunkard_hidden
+			}
 		}		
 	}
 	option = {
@@ -2591,7 +2597,9 @@ character_event = {
 		prestige = -5
 		tooltip = {
 			remove_trait = drunkard
-			remove_trait = drunkard_hidden
+			hidden_tooltip = {
+				remove_trait = drunkard_hidden
+			}
 		}		
 	}
 }
@@ -2635,7 +2643,9 @@ character_event = {
 		scaled_wealth = -0.025
 		tooltip = {
 			remove_trait = drunkard
-			remove_trait = drunkard_hidden
+			hidden_tooltip = {
+				remove_trait = drunkard_hidden
+			}
 		}
 		tooltip = {
 			opinion = {
@@ -4818,7 +4828,9 @@ character_event = {
 				}
 			}
 			remove_trait = greedy
-			remove_trait = greedy_hidden
+			hidden_tooltip = {
+				remove_trait = greedy_hidden
+			}
 		}
 	}
 }
@@ -5969,7 +5981,9 @@ character_event = {
 				}
 			}
 			remove_trait = deceitful
-			remove_trait = deceitful_hidden
+			hidden_tooltip = {
+				remove_trait = deceitful_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -5979,7 +5993,9 @@ character_event = {
 				}
 			}
 			remove_trait = envious
-			remove_trait = envious_hidden
+			hidden_tooltip = {
+				remove_trait = envious_hidden
+			}
 		}
 	}
 }
@@ -6780,7 +6796,9 @@ character_event = {
 				}
 			}
 			remove_trait = deceitful
-			remove_trait = deceitful_hidden
+			hidden_tooltip = {
+				remove_trait = deceitful_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -6790,7 +6808,9 @@ character_event = {
 				}
 			}
 			remove_trait = envious
-			remove_trait = envious_hidden
+			hidden_tooltip = {
+				remove_trait = envious_hidden
+			}
 		}
 	}
 }

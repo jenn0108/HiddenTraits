@@ -5173,7 +5173,9 @@ character_event = {
 			}
 			30 = {
 				remove_trait = craven
-				remove_trait = craven_hidden
+				hidden_tooltip = {
+					remove_trait = craven_hidden
+				}
 			}
 			10 = {
 				if = {

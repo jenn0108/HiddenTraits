@@ -988,6 +988,8 @@ character_event = {
 	option = {
 		name = EVTOPTALoR.46
 		remove_trait = augustus
-		remove_trait = augustus_hidden
+		hidden_tooltip = {
+			remove_trait = augustus_hidden
+		}
 	}
 }

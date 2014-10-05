@@ -413,7 +413,9 @@ character_event = {
 				random = {
 					chance = 10
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 				}
 			}
 			if = {
@@ -426,7 +428,9 @@ character_event = {
 				random = {
 					chance = 10
 					remove_trait = pneumonic
-					remove_trait = pneumonic_hidden
+					hidden_tooltip = {
+						remove_trait = pneumonic_hidden
+					}
 				}
 			}
 			opinion = {
@@ -465,7 +469,9 @@ character_event = {
 				random = {
 					chance = 10
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 				}
 			}
 			if = {
@@ -478,7 +484,9 @@ character_event = {
 				random = {
 					chance = 10
 					remove_trait = pneumonic
-					remove_trait = pneumonic_hidden
+					hidden_tooltip = {
+						remove_trait = pneumonic_hidden
+					}
 				}
 			}
 		}
@@ -553,7 +561,9 @@ character_event = {
 				random = {
 					chance = 10
 					remove_trait = ill
-					remove_trait = ill_hidden
+					hidden_tooltip = {
+						remove_trait = ill_hidden
+					}
 				}
 			}
 			if = {
@@ -566,7 +576,9 @@ character_event = {
 				random = {
 					chance = 10
 					remove_trait = pneumonic
-					remove_trait = pneumonic_hidden
+					hidden_tooltip = {
+						remove_trait = pneumonic_hidden
+					}
 				}
 			}
 			opinion = {
@@ -637,7 +649,9 @@ character_event = {
 			random = {
 				chance = 10
 				remove_trait = wounded
-				remove_trait = wounded_hidden
+				hidden_tooltip = {
+					remove_trait = wounded_hidden
+				}
 			}
 		}
 	}
@@ -656,7 +670,9 @@ character_event = {
 			random = {
 				chance = 20
 				remove_trait = wounded
-				remove_trait = wounded_hidden
+				hidden_tooltip = {
+					remove_trait = wounded_hidden
+				}
 			}
 		}
 	}
@@ -4013,7 +4029,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA64100" #Retire to the country manor with her for a while
 		remove_trait = stressed
-		remove_trait = stressed_hidden
+		hidden_tooltip = {
+			remove_trait = stressed_hidden
+		}
 		random_lover = {
 			limit = {
 				is_female = yes
@@ -4049,7 +4067,9 @@ character_event = {
 		random_list = {
 			50 = {
 				remove_trait = stressed
-				remove_trait = stressed_hidden
+				hidden_tooltip = {
+					remove_trait = stressed_hidden
+				}
 			}
 			25 = {
 				random_lover = {
@@ -5039,7 +5059,9 @@ character_event = {
 				}
 			}
 			remove_trait = stressed
-			remove_trait = stressed_hidden
+			hidden_tooltip = {
+				remove_trait = stressed_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -5082,7 +5104,9 @@ character_event = {
 				}
 			}
 			remove_trait = ill
-			remove_trait = ill_hidden
+			hidden_tooltip = {
+				remove_trait = ill_hidden
+			}
 		}
 		if = {
 			limit = {
@@ -5121,7 +5145,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA64131"
 		remove_trait = stressed
-		remove_trait = stressed_hidden
+		hidden_tooltip = {
+			remove_trait = stressed_hidden
+		}
 	}
 }
 
@@ -5136,7 +5162,9 @@ character_event = {
 	option = {
 		name = "EVTOPTA64132"
 		remove_trait = ill
-		remove_trait = ill_hidden
+		hidden_tooltip = {
+			remove_trait = ill_hidden
+		}
 	}
 }
 

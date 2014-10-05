@@ -1218,7 +1218,9 @@ character_event = {
 				} 
 			}
 			remove_trait = zealous
-			remove_trait = zealous_hidden
+			hidden_tooltip = {
+				remove_trait = zealous_hidden
+			}
 		}
 	}
 	option = {
