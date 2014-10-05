@@ -1562,6 +1562,7 @@ character_event = {
 			if = {
 				limit = {
 					ai = yes
+					ROOT = { ai = yes }
 				}
 				hidden_tooltip = {
 					add_trait = pregnant_hidden
@@ -1569,7 +1570,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					ai = no
+					OR = {
+						ai = no
+						ROOT = { ai = no }
+					}
 				}
 				add_trait = pregnant
 			}
@@ -1604,6 +1608,7 @@ character_event = {
 			if = {
 				limit = {
 					ai = yes
+					ROOT = { ai = yes }
 				}
 				hidden_tooltip = {
 					add_trait = pregnant_hidden
@@ -1611,7 +1616,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					ai = no
+					OR = {
+						ai = no
+						ROOT = { ai = no }
+					}
 				}
 				add_trait = pregnant
 			}
@@ -1629,6 +1637,7 @@ character_event = {
 			if = {
 				limit = {
 					ai = yes
+					ROOT = { ai = yes }
 				}
 				hidden_tooltip = {
 					add_trait = pregnant_hidden
@@ -1636,7 +1645,10 @@ character_event = {
 			}
 			if = {
 				limit = {
-					ai = no
+					OR = {
+						ai = no
+						ROOT = { ai = no }
+					}
 				}
 				add_trait = pregnant
 			}

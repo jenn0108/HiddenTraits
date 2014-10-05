@@ -1184,6 +1184,7 @@ character_event = {
 		if = {
 			limit = {
 				ai = yes
+				father_of_unborn = { ai = yes }
 			}
 			hidden_tooltip = {
 				add_trait = pregnant_hidden
@@ -1191,7 +1192,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				ai = no
+				OR = {
+					ai = no
+					father_of_unborn = { ai = no }
+				}
 			}
 			add_trait = pregnant
 		}
@@ -1239,6 +1243,8 @@ character_event = {
 		if = {
 			limit = {
 				ai = yes
+				father_of_unborn = { ai = yes }
+				any_spouse = { ai = yes }
 			}
 			hidden_tooltip = {
 				add_trait = pregnant_hidden
@@ -1246,7 +1252,11 @@ character_event = {
 		}
 		if = {
 			limit = {
-				ai = no
+				OR = {
+					ai = no
+					father_of_unborn = { ai = no }
+					any_spouse = { ai = no }
+				}
 			}
 			add_trait = pregnant
 		}
@@ -1285,6 +1295,8 @@ character_event = {
 		if = {
 			limit = {
 				ai = yes
+				father_of_unborn = { ai = yes }
+				any_spouse = { ai = yes }
 			}
 			hidden_tooltip = {
 				add_trait = pregnant_hidden
@@ -1292,7 +1304,11 @@ character_event = {
 		}
 		if = {
 			limit = {
-				ai = no
+				OR = {
+					ai = no
+					father_of_unborn = { ai = no }
+					any_spouse = { ai = no }
+				}
 			}
 			add_trait = pregnant
 		}
@@ -1366,6 +1382,7 @@ character_event = {
 		if = {
 			limit = {
 				ai = yes
+				father_of_unborn = { ai = yes }
 			}
 			hidden_tooltip = {
 				add_trait = pregnant_hidden
@@ -1373,7 +1390,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				ai = no
+				OR = {
+					ai = no
+					father_of_unborn = { ai = no }
+				}
 			}
 			add_trait = pregnant
 		}
@@ -1418,6 +1438,7 @@ character_event = {
 		if = {
 			limit = {
 				ai = yes
+				father_of_unborn = { ai = yes }
 			}
 			hidden_tooltip = {
 				add_trait = pregnant_hidden
@@ -1425,7 +1446,10 @@ character_event = {
 		}
 		if = {
 			limit = {
-				ai = no
+				OR = {
+					ai = no
+					father_of_unborn = { ai = no }
+				}
 			}
 			add_trait = pregnant
 		}
