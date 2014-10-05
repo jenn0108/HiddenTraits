@@ -187,6 +187,9 @@ character_event = {
 	}	
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73000 #Give him patronage
 		scaled_wealth = -0.2
 		prestige = 25
@@ -197,6 +200,9 @@ character_event = {
 		}
 	}	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTB73000 #Ignore him
 		any_dynasty_member = {
 			limit = {
@@ -216,7 +222,45 @@ character_event = {
 			hidden_tooltip = { character_event = { id = 38260 }  }
 		}
 		
-	}	
+	}		
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73000 #Give him patronage
+		scaled_wealth = -0.2
+		prestige = 25
+		random = {
+			chance = 15
+			add_trait = proud 
+			hidden_tooltip = { character_event = { id = 38261 }  }
+		}
+	}
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTB73000 #Ignore him
+		any_dynasty_member = {
+			limit = {
+				NOT = {
+					character = ROOT
+				}
+			}
+			opinion = {
+				who = ROOT
+				modifier = disrespects_dynasty
+				months = 120
+			}
+		}
+		random = {
+			chance = 15
+			add_trait = humble 
+			hidden_tooltip = { character_event = { id = 38260 }  }
+		}
+		
+	}
 }	
 
 #Your young wife takes a passion for romantic poetry. She keeps reading any sort of romantic poetry she can get hold of.
@@ -279,7 +323,9 @@ character_event = {
 					trait = lustful_hidden
 				} } } 
 			}
-			spouse = { add_trait = lustful_hidden }
+			hidden_tooltip = {
+				spouse = { add_trait = lustful_hidden }
+			}
 		}
 		opinion = {
 			who = ROOT
@@ -322,7 +368,9 @@ character_event = {
 					}
 				}
 			}
-			spouse = { add_trait = chaste_hidden }
+			hidden_tooltip = {
+				spouse = { add_trait = chaste_hidden }
+			}
 		}
 		piety = 10
 	}
@@ -351,7 +399,9 @@ character_event = {
 					}
 				}
 			}
-			spouse = { add_trait = chaste_hidden }
+			hidden_tooltip =  {
+				spouse = { add_trait = chaste_hidden }
+			}
 		}
 		piety = 10
 	}
@@ -703,9 +753,12 @@ character_event = {
 				trait = has_small_pox_hidden
 			}
 		}
-	}	
+	}
 	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73005 #Introduce fashion at the court
 		if = {
 			limit = {
@@ -731,6 +784,9 @@ character_event = {
 		
 	}	
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTB73005 #There are better ways of spending the taxes
 		piety = 5
 		prestige = 10
@@ -741,7 +797,51 @@ character_event = {
 			hidden_tooltip = { character_event = { id = 38260 }  }
 		}
 		
+	}
+	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73005 #Introduce fashion at the court
+		if = {
+			limit = {
+				 OR = {
+					trait = fair
+					trait = fair_hidden
+				} 
+			}
+			random = {
+				chance = 10
+				add_trait = proud
+				hidden_tooltip = { character_event = { id = 38261 }  }
+			}
+		}
+		scaled_wealth = -0.2
+		prestige = 5
+		piety = -5
+		any_courtier = {
+			wealth = -5
+			prestige = 5
+			piety = -5
+		}
+		
 	}	
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTB73005 #There are better ways of spending the taxes
+		piety = 5
+		prestige = 10
+		
+		random = {
+			chance = 15
+			add_trait = humble
+			hidden_tooltip = { character_event = { id = 38260 }  }
+		}
+		
+	}
 }	
 
 #Your son has got a servant maid pregnant
@@ -827,7 +927,9 @@ character_event = {
 				who = ROOT
 				years = 2
 			}			
-			add_trait = lustful_hidden
+			hidden_tooltip = {
+				add_trait = lustful_hidden
+			}
 			clr_character_flag = knock_up_maid
 		}
 	}
@@ -867,8 +969,10 @@ character_event = {
 				who = ROOT
 				years = 2
 			}
-			add_trait = wroth_hidden
-			add_trait = ambitious_hidden
+			hidden_tooltip = {
+				add_trait = wroth_hidden
+				add_trait = ambitious_hidden
+			}
 			clr_character_flag = knock_up_maid
 		}
 	}
@@ -886,7 +990,9 @@ character_event = {
 				limit = {
 					religion_group = christian
 				}
-				add_trait = chaste_hidden
+				hidden_tooltip = {
+					add_trait = chaste_hidden
+				}
 			}
 			if = {
 				limit = {
@@ -980,13 +1086,14 @@ character_event = {
 			}
 		}
 
-	}	
+	}
 	
 	option = {
 		name = EVTOPTA73007 #My money is your money, darling
 		trigger = {
+			ai = yes
 			NOT = {
-				 OR = {
+				OR = {
 					trait = greedy
 					trait = greedy_hidden
 				} 
@@ -994,22 +1101,23 @@ character_event = {
 		}
 		if = {
 			limit = {
-				 spouse = { OR = {
+				spouse = { OR = {
 					trait = stressed
 					trait = stressed_hidden
 				}  } 
 			}
 			spouse = {
-				 remove_trait = stressed
+				remove_trait = stressed
 				remove_trait = stressed_hidden  
 			}
 		}
 		add_trait = charitable_hidden
 		character_event = { id = 73005 days = 10 tooltip = EVTTOOLTIP73005 }
-	}	
+	}
 	option = {
 		name = EVTOPTB73007 #Let's go to the church instead, darling
 		trigger = {
+			ai = yes
 			religion_group = christian
 		}
 		if = {
@@ -1022,12 +1130,14 @@ character_event = {
 			prestige = -5
 		}
 		add_trait = zealous_hidden
-		spouse = { add_trait = zealous_hidden }
-		
-	}	
+		hidden_tooltip = {
+			spouse = { add_trait = zealous_hidden }
+		}
+	}
 	option = {
 		name = EVTOPTC73007 #Shoo, this is my money you're talking about
 		trigger = {
+			ai = yes
 			NOT = {
 				 OR = {
 					trait = greedy
@@ -1043,7 +1153,74 @@ character_event = {
 				years = 2
 			}
 		}
-	}	
+	}
+	
+	option = {
+		name = EVTOPTA73007 #My money is your money, darling
+		trigger = {
+			ai = no
+			NOT = {
+				OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
+		}
+		if = {
+			limit = {
+				spouse = { OR = {
+					trait = stressed
+					trait = stressed_hidden
+				}  } 
+			}
+			spouse = {
+				remove_trait = stressed
+				remove_trait = stressed_hidden  
+			}
+		}
+		add_trait = charitable
+		character_event = { id = 73005 days = 10 tooltip = EVTTOOLTIP73005 }
+	}
+	option = {
+		name = EVTOPTB73007 #Let's go to the church instead, darling
+		trigger = {
+			religion_group = christian
+			ai = no
+		}
+		if = {
+			limit = {
+				 OR = {
+					trait = cynical
+					trait = cynical_hidden
+				} 
+			}
+			prestige = -5
+		}
+		add_trait = zealous
+		hidden_tooltip = {
+			spouse = { add_trait = zealous_hidden }
+		}
+	}
+	option = {
+		name = EVTOPTC73007 #Shoo, this is my money you're talking about
+		trigger = {
+			ai = no
+			NOT = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				} 
+			}
+		}
+		add_trait = greedy
+		spouse = {
+			opinion = {
+				who = ROOT
+				modifier = not_feeling_apreciated
+				years = 2
+			}
+		}
+	}
 }	
 
 #A famous herald proposed his service
@@ -1829,11 +2006,26 @@ letter_event = {
 	}
 
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73202 
 		random_list = {
 			50 = {}
 			30 = { change_martial = 1 }
 			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
+		}
+	}
+
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73202 
+		random_list = {
+			50 = {}
+			30 = { change_martial = 1 }
+			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
 	
@@ -2075,6 +2267,9 @@ letter_event = {
 	}
 
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73212 
 		random_list = {
 			50 = {}
@@ -2082,6 +2277,19 @@ letter_event = {
 			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
+
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73212 
+		random_list = {
+			50 = {}
+			30 = { change_intrigue = 1 }
+			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+		}
+	}
+	
 	option = {
 		name = EVTOPTB73212 
 		trigger = {
@@ -2314,6 +2522,9 @@ letter_event = {
 	}
 
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73222 
 		random_list = {
 			50 = {}
@@ -2321,6 +2532,19 @@ letter_event = {
 			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
+
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73222 
+		random_list = {
+			50 = {}
+			30 = { change_stewardship = 1 }
+			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+		}
+	}
+	
 	option = {
 		name = EVTOPTB73222 
 		trigger = {
@@ -2581,6 +2805,9 @@ letter_event = {
 	}
 
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73232 
 		random_list = {
 			50 = {}
@@ -2588,6 +2815,19 @@ letter_event = {
 			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
+
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73232 
+		random_list = {
+			50 = {}
+			30 = { change_learning = 1 }
+			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+		}
+	}
+	
 	option = {
 		name = EVTOPTB73232 
 		trigger = {
@@ -2824,6 +3064,9 @@ letter_event = {
 	}
 
 	option = {
+		trigger = {
+			ai = yes
+		}
 		name = EVTOPTA73242 
 		random_list = {
 			50 = {}
@@ -2831,6 +3074,19 @@ letter_event = {
 			20 = { add_trait = stressed_hidden hidden_tooltip = { character_event = { id = 38282 }} }
 		}
 	}
+
+	option = {
+		trigger = {
+			ai = no
+		}
+		name = EVTOPTA73242 
+		random_list = {
+			50 = {}
+			30 = { change_diplomacy = 1 }
+			20 = { add_trait = stressed hidden_tooltip = { character_event = { id = 38282 }} }
+		}
+	}
+	
 	option = {
 		name = EVTOPTB73242 
 		trigger = {
