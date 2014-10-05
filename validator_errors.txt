@@ -8419,13 +8419,16 @@ Since there is only one item within the AND clause, it is redundant and unnecess
 At <mod>\events\achievement_events.txt [unit_event] (Line 6, column 1):
 Invalid node "unit_event" in scope EventFile (value is: <a complex type>)
 
-At <mod>\events\birth_events.txt [character_event\desc] (Line 2188, column 2):
+At <mod>\events\birth_events.txt [character_event\desc] (Line 2476, column 2):
 "EVTDESC318" is not a valid LocalizationKey.
 
-At <mod>\events\birth_events.txt [character_event\desc] (Line 1772, column 2):
+At <mod>\events\birth_events.txt [character_event\desc] (Line 1991, column 2):
 "EVTDESC312" is not a valid LocalizationKey.
 
-At <mod>\events\birth_events.txt [character_event\option\name] (Line 1784, column 3):
+At <mod>\events\birth_events.txt [character_event\option\name] (Line 2020, column 3):
+"EVTOPTA12" is not a valid LocalizationKey.
+
+At <mod>\events\birth_events.txt [character_event\option\name] (Line 2008, column 3):
 "EVTOPTA12" is not a valid LocalizationKey.
 
 At <mod>\events\birth_events.txt [character_event\trigger] (Line 24, column 2):

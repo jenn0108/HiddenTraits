@@ -434,6 +434,10 @@ character_event = {
 	}
 
 	option = {
+		trigger = {
+			liege = { ai = yes }
+			ai = yes
+		}
 		name = EVTOPTA450
 		if = {
 			limit = {
@@ -483,6 +487,64 @@ character_event = {
 			character_event = { id = 451 days = 7 tooltip = EVTTOOLTIP451 }
 		}
 	}
+
+	option = {
+		trigger = {
+			OR = {
+				ai = no
+				liege = { ai = no }
+			}
+		}
+		name = EVTOPTA450
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						liege = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						is_female = yes
+						ROOT = { is_female = yes }
+					}
+					AND = {
+						NOT = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						liege = {
+							 OR = {
+								trait = homosexual
+								trait = homosexual_hidden
+							} 
+						}
+						is_female = no
+						ROOT = { is_female = no }
+					}
+				}
+			}
+			add_trait = homosexual
+		}
+		liege = {
+			add_character_modifier = {
+				name = lustful_affair_timer
+				duration = 365
+				hidden = yes
+			}
+			character_event = { id = 451 days = 7 tooltip = EVTTOOLTIP451 }
+		}
+	}
+	
 	option = {
 		name = EVTOPTB450
 		trigger = {
@@ -1167,8 +1229,33 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			father_of_unborn = { ai = yes }
+			ai = yes
+		}
 		name = OK
 		add_trait = pregnant_hidden
+		prestige = 10
+		
+		if = {
+			limit = {
+				father_of_unborn = {
+					is_alive = yes
+				}
+			}
+			father_of_unborn = { character_event = { id = 403 tooltip = EVTTOOLTIP403 } }
+		}
+	}
+	
+	option = {
+		trigger = {
+			OR = {
+				father_of_unborn = { ai = no }
+				ai = no
+			}
+		}
+		name = OK
+		add_trait = pregnant
 		prestige = 10
 		
 		if = {
@@ -1209,8 +1296,25 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			father_of_unborn = { ai = yes }
+			ai = yes
+		}
 		name = OK
 		add_trait = pregnant_hidden
+		piety = -50
+		prestige = -50
+	}
+	
+	option = {
+		trigger = {
+			OR = {
+				father_of_unborn = { ai = no }
+				ai = no
+			}
+		}
+		name = OK
+		add_trait = pregnant
 		piety = -50
 		prestige = -50
 	}
@@ -1242,8 +1346,26 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			father_of_unborn = { ai = yes }
+			ai = yes
+			any_spouse = { ai = yes }
+		}
 		name = EVTOPTA402
 		add_trait = pregnant_hidden
+		spouse = { character_event = { id = 404 tooltip = EVTTOOLTIP404 } }
+	}
+	
+	option = {
+		trigger = {
+			OR = {
+				father_of_unborn = { ai = no }
+				ai = no
+				any_spouse = { ai = no }
+			}
+		}
+		name = EVTOPTA402
+		add_trait = pregnant
 		spouse = { character_event = { id = 404 tooltip = EVTTOOLTIP404 } }
 	}
 }
@@ -1310,8 +1432,33 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			father_of_unborn = { ai = yes }
+			ai = yes
+		}
 		name = OK
 		add_trait = pregnant_hidden
+		prestige = 10
+		
+		if = {
+			limit = {
+				father_of_unborn = {
+					is_alive = yes
+				}
+			}
+			father_of_unborn = { character_event = { id = 413 tooltip = EVTTOOLTIP413 } }
+		}
+	}
+	
+	option = {
+		trigger = {
+			OR = {
+				father_of_unborn = { ai = no }
+				ai = no
+			}
+		}
+		name = OK
+		add_trait = pregnant
 		prestige = 10
 		
 		if = {
@@ -1349,8 +1496,26 @@ character_event = {
 	}
 	
 	option = {
+		trigger = {
+			father_of_unborn = { ai = yes }
+			ai = yes
+			consort = { ai = yes }
+		}
 		name = EVTOPTA412
 		add_trait = pregnant_hidden
+		consort = { character_event = { id = 414 tooltip = EVTTOOLTIP414 } }
+	}
+	
+	option = {
+		trigger = {
+			OR = {
+				father_of_unborn = { ai = no }
+				ai = no
+				consort = { ai = no }
+			}
+		}
+		name = EVTOPTA412
+		add_trait = pregnant
 		consort = { character_event = { id = 414 tooltip = EVTTOOLTIP414 } }
 	}
 }
@@ -1535,11 +1700,39 @@ character_event = {
 	picture = GFX_evt_birth
 
 	option = {
+		trigger = {
+			ai = yes
+			father = { ai = yes }
+			mother = { ai = yes }
+			father = { spouse = { ai = yes } }
+		}
 		name = OK
 		dynasty = FROM
 		remove_trait = bastard
 		remove_trait = bastard_hidden
 		add_trait = legit_bastard_hidden
+		
+		father = {
+			spouse = {
+				character_event = { id = 305 tooltip = EVTTOOLTIP305 } # The father's wife is enraged
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			OR = {
+				ai = no
+				father = { ai = no }
+				mother = { ai = no }
+				father = { spouse = { ai = no } }
+			}
+		}
+		name = OK
+		dynasty = FROM
+		remove_trait = bastard
+		remove_trait = bastard_hidden
+		add_trait = legit_bastard
 		
 		father = {
 			spouse = {
@@ -1632,9 +1825,35 @@ character_event = {
 	picture = GFX_evt_birth
 
 	option = {
+		trigger = {
+			ai = yes
+			father = { ai = yes }
+			mother = { ai = yes }
+			father = { spouse = { ai = yes } }
+		}
 		name = OK
 		dynasty = FROM
 		add_trait = bastard_hidden
+		
+		father = {
+			spouse = {
+				character_event = { id = 308 tooltip = EVTTOOLTIP308 } # The father's wife is angered
+			}
+		}
+	}
+
+	option = {
+		trigger = {
+			OR = {
+				ai = no
+				father = { ai = no }
+				mother = { ai = no }
+				father = { spouse = { ai = no } }
+			}
+		}
+		name = OK
+		dynasty = FROM
+		add_trait = bastard
 		
 		father = {
 			spouse = {
@@ -1781,8 +2000,25 @@ character_event = {
 	}	
 	
 	option = {
-		name = "EVTOPTA12"
+		trigger = {
+			ai = yes
+			mother = { ai = yes }
+			father = { ai = yes }
+		}
+		name = "EVTOPTA12" # Doesn't matter that this doesn't exist because player will never be a 0 year old child
 		add_trait = child_of_consort_hidden
+	}
+	
+	option = {
+		trigger = {
+			OR = {
+				ai = no
+				mother = { ai = no }
+				father = { ai = no }
+			}
+		}
+		name = "EVTOPTA12" # Doesn't matter that this doesn't exist because player will never be a 0 year old child
+		add_trait = child_of_consort
 	}
 }
 
@@ -1805,10 +2041,44 @@ character_event = {
 				# All is well
 			}
 			10 = {
-				add_trait = sickly_hidden
+				if = {
+					limit = {
+						ai = yes
+						father = { ai = yes }
+						mother = { ai = yes }
+					}
+					add_trait = sickly_hidden
+				}
+				if = {
+					limit = {
+						OR = {
+							ai = no
+							father = { ai = no }
+							mother = { ai = no }
+						}
+					}
+					add_trait = sickly
+				}
 			}
 			10 = {
-				add_trait = ill_hidden
+				if = {
+					limit = {
+						ai = yes
+						father = { ai = yes }
+						mother = { ai = yes }
+					}
+					add_trait = ill_hidden
+				}
+				if = {
+					limit = {
+						OR = {
+							ai = no
+							father = { ai = no }
+							mother = { ai = no }
+						}
+					}
+					add_trait = ill
+				}
 			}
 		}
 	}
@@ -2149,16 +2419,25 @@ character_event = {
 	picture = GFX_evt_illness
 	
 	is_triggered_only = yes
-	
-	immediate = {
+
+	option = {
+		trigger = {
+			ai = yes
+			spouse = { ai = yes }
+		}
+		name = EVTOPTA315
 		add_trait = ill_hidden
 	}
 
 	option = {
-		name = EVTOPTA315
-		tooltip = {
-			add_trait = ill_hidden
+		trigger = {
+			OR = {
+				ai = no
+				spouse = { ai = no }
+			}
 		}
+		name = EVTOPTA315
+		add_trait = ill
 	}
 }
 
@@ -2169,23 +2448,32 @@ character_event = {
 	picture = GFX_evt_illness
 	
 	is_triggered_only = yes
-	
-	immediate = {
+
+	option = {
+		trigger = {
+			ai = yes
+			spouse = { ai = yes }
+		}
+		name = EVTOPTA315
 		add_trait = pneumonic_hidden
 	}
 
 	option = {
-		name = EVTOPTA315
-		tooltip = {
-			add_trait = pneumonic_hidden
+		trigger = {
+			OR = {
+				ai = no
+				spouse = { ai = no }
+			}
 		}
+		name = EVTOPTA315
+		add_trait = pneumonic
 	}
 }
 	
 # On-action event: A bastard child is born, but is not recognized as such by the spouse of the mother
 character_event = {
 	id = 318
-	desc = "EVTDESC318"
+	desc = "EVTDESC318" # Doesn't matter that this doesn't exist because player will never be a 0 year old child
 	picture = "GFX_evt_birth"
 	
 	is_triggered_only = yes 
