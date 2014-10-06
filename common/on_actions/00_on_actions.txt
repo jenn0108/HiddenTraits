@@ -1,8 +1,5 @@
 #character
 on_yearly_pulse = {
-	events = {
-		hiddentraits.1
-	}
 
 	random_events = {
 		

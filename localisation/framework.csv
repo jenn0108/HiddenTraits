@@ -24,3 +24,5 @@ EVTREVEALTRAITS.0.DESC;You have discovered a trait about someone in the court yo
 EVTREVEALTRAITS.0.OPT1;I will pass this on.;Je vais le faire savoir.;Ich werde dies weitergeben.;;Se lo voy a decir.;;;;;;;;;x
 EVTREVEALTRAITS.1.DESC;Your councillor, [From.GetTitledName], has discovered some information about a member of the court at [From.Location.GetName].;French;German;;Spanish;;;;;;;;;x
 EVTREVEALTRAITS.REVEAL.DESC;Your trait has been revelaed!;French;German;;Spanish;;;;;;;;;x
+reveal_my_traits;Reveal Your Traits;French;German;;Spanish;;;;;;;;;x
+reveal_my_traits_desc;Reveal any hidden traits;French;German;;Spanish;;;;;;;;;x
