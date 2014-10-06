@@ -39,12 +39,28 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			NOT = { trait = incapable }
-			NOT = { trait = infirm }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = infirm
+					trait = infirm_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			trait = infirm
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			
 		}
 	}
 	
@@ -54,9 +70,21 @@
 			factor = 0
 			NOT = { 
 				OR = {
-					trait = drunkard
-					trait = hedonist
-					trait = lustful
+					OR = {
+						trait = drunkard
+						trait = drunkard_hidden
+					}
+					
+					OR = {
+						trait = hedonist
+						trait = hedonist_hidden
+					}
+					
+					OR = {
+						trait = lustful
+						trait = lustful_hidden
+					}
+					
 				}
 			}
 		}
@@ -357,10 +385,34 @@
 		modifier = {
 			factor = 0
 			is_female = no
-			NOT = { trait = detached_priest }
-			NOT = { trait = martial_cleric }
-			NOT = { trait = scholarly_theologian }
-			NOT = { trait = mastermind_theologian }
+			NOT = {
+				 OR = {
+					trait = detached_priest
+					trait = detached_priest_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = martial_cleric
+					trait = martial_cleric_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
+				 
+			}
 			NOT = { has_job_title = job_spiritual }
 		}
 
@@ -548,8 +600,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -567,8 +627,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -586,8 +654,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -605,8 +681,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -626,8 +710,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -647,8 +739,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -667,8 +767,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -688,8 +800,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -704,8 +828,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -919,8 +1055,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 	}
@@ -940,8 +1084,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 	}
@@ -961,8 +1113,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 	}
@@ -982,8 +1142,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 	}
@@ -1017,8 +1185,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = peasant_leader
-				trait = heresiarch
+				OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				
+				OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				
 			}
 		}
 	}
@@ -1028,8 +1204,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1051,8 +1239,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1068,8 +1268,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				NOT = { religion = orthodox }
 				is_ruler = yes
@@ -1086,8 +1298,20 @@
 		factor = 1
 		modifier = {
 			factor = 0
-			NOT = { trait = peasant_leader }
-			NOT = { trait = heresiarch }
+			NOT = {
+				 OR = {
+					trait = peasant_leader
+					trait = peasant_leader_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = heresiarch
+					trait = heresiarch_hidden
+				}
+				 
+			}
 			OR = {
 				is_ruler = yes
 				has_minor_title = title_prince
@@ -1224,9 +1448,21 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = maimed
-				trait = wounded
-				trait = scarred
+				OR = {
+					trait = maimed
+					trait = maimed_hidden
+				}
+				
+				OR = {
+					trait = wounded
+					trait = wounded_hidden
+				}
+				
+				OR = {
+					trait = scarred
+					trait = scarred_hidden
+				}
+				
 			}
 		}
    	}
@@ -1237,9 +1473,21 @@
 			factor = 0
 			NOT = { 
 				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+					
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
+					
+					OR = {
+						trait = scarred
+						trait = scarred_hidden
+					}
+					
 				}
 			}
 		}
@@ -1251,9 +1499,21 @@
 			factor = 0
 			NOT = { 
 				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+					
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
+					
+					OR = {
+						trait = scarred
+						trait = scarred_hidden
+					}
+					
 				}
 			}
 		}
@@ -1265,9 +1525,21 @@
 			factor = 0
 			NOT = { 
 				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+					
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
+					
+					OR = {
+						trait = scarred
+						trait = scarred_hidden
+					}
+					
 				}
 			}
 		}
@@ -1279,9 +1551,21 @@
 			factor = 0
 			NOT = { 
 				OR = {
-					trait = maimed
-					trait = wounded
-					trait = scarred
+					OR = {
+						trait = maimed
+						trait = maimed_hidden
+					}
+					
+					OR = {
+						trait = wounded
+						trait = wounded_hidden
+					}
+					
+					OR = {
+						trait = scarred
+						trait = scarred_hidden
+					}
+					
 				}
 			}
 		}
@@ -1295,8 +1579,16 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = has_measles
-				trait = has_small_pox
+				OR = {
+					trait = has_measles
+					trait = has_measles_hidden
+				}
+				
+				OR = {
+					trait = has_small_pox
+					trait = has_small_pox_hidden
+				}
+				
 			}
 		}
  	}
@@ -1307,8 +1599,16 @@
 			factor = 0
 			OR = {
 				NOT = {
-					trait = has_measles
-					trait = has_small_pox
+					OR = {
+						trait = has_measles
+						trait = has_measles_hidden
+					}
+					
+					OR = {
+						trait = has_small_pox
+						trait = has_small_pox_hidden
+					}
+					
 				}
 			}
 		}
@@ -1323,7 +1623,11 @@
 		modifier = {
 			factor = 0
 			OR = {
-				trait = has_bubonic_plague
+				OR = {
+					trait = has_bubonic_plague
+					trait = has_bubonic_plague_hidden
+				}
+				
 			}
 		}
  	}
@@ -1334,7 +1638,11 @@
 			factor = 0
 			OR = {
 				NOT = {
-					trait = has_bubonic_plague
+					OR = {
+						trait = has_bubonic_plague
+						trait = has_bubonic_plague_hidden
+					}
+					
 				}
 			}
 		}
@@ -1348,7 +1656,11 @@
 		factor = 100
 		modifier = {
 			factor = 0
-			trait = blinded
+			OR = {
+				trait = blinded
+				trait = blinded_hidden
+			}
+			
 		}
 	}
 	
@@ -1357,7 +1669,11 @@
 		modifier = {
 			factor = 0
 			NOT = {
-				trait = blinded
+				OR = {
+					trait = blinded
+					trait = blinded_hidden
+				}
+				
 			}
 		}
 	}
