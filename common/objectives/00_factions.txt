@@ -25,7 +25,13 @@ faction_succ_seniority = {
 		independent = no
 		is_landed = yes
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = { 
 			is_feudal = yes 
 			OR = {
@@ -118,7 +124,13 @@ faction_succ_seniority = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 			
 			NOT = { religion_group = muslim }	
@@ -202,9 +214,21 @@ faction_succ_seniority = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}		
@@ -214,9 +238,21 @@ faction_succ_seniority = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}				
 			}
 		}
@@ -235,75 +271,183 @@ faction_succ_seniority = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = charitable }
+			FROM = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = honest }
+			FROM = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = humble }
+			FROM = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = just }
+			FROM = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = proud }
+			FROM = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = greedy }
+			FROM = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = impaler }
+			FROM = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -320,7 +464,11 @@ faction_succ_seniority = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -470,9 +618,21 @@ faction_succ_seniority = {
 			factor = 0
 			opinion = { who = LIEGE value = 25 } 
 			NOT = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -486,9 +646,21 @@ faction_succ_seniority = {
 			factor = 0
 			opinion = { who = LIEGE value = 50 } 
 			OR = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -516,75 +688,147 @@ faction_succ_seniority = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -626,7 +870,13 @@ faction_succ_primogeniture = {
 		independent = no
 		is_landed = yes
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = { 
 			is_feudal = yes 
 			OR = {
@@ -718,7 +968,13 @@ faction_succ_primogeniture = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 			
 			NOT = { religion_group = muslim }	
@@ -787,9 +1043,21 @@ faction_succ_primogeniture = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}		
@@ -799,9 +1067,21 @@ faction_succ_primogeniture = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}					
 			}
 		}
@@ -820,75 +1100,183 @@ faction_succ_primogeniture = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = charitable }
+			FROM = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = honest }
+			FROM = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = humble }
+			FROM = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = just }
+			FROM = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = proud }
+			FROM = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = greedy }
+			FROM = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = impaler }
+			FROM = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -905,7 +1293,11 @@ faction_succ_primogeniture = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -1057,9 +1449,21 @@ faction_succ_primogeniture = {
 			factor = 0
 			opinion = { who = LIEGE value = 25 } 
 			NOT = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -1073,9 +1477,21 @@ faction_succ_primogeniture = {
 			factor = 0
 			opinion = { who = LIEGE value = 50 } 
 			OR = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -1111,75 +1527,147 @@ faction_succ_primogeniture = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -1222,7 +1710,13 @@ faction_succ_gavelkind = {
 		independent = no
 		is_landed = yes
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = { 
 			is_feudal = yes 
 			OR = {
@@ -1312,7 +1806,13 @@ faction_succ_gavelkind = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 			
 			NOT = { religion_group = muslim }	
@@ -1370,7 +1870,11 @@ faction_succ_gavelkind = {
 				FROM = {
 					OR = {
 						NOT = { is_child_of = PREV }
-						trait = bastard
+						OR = {
+							trait = bastard
+							trait = bastard_hidden
+						}
+						
 						AND = {
 							is_female = yes
 							is_pretender = no
@@ -1432,9 +1936,21 @@ faction_succ_gavelkind = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}		
@@ -1444,9 +1960,21 @@ faction_succ_gavelkind = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}					
 			}
 		}
@@ -1471,75 +1999,183 @@ faction_succ_gavelkind = {
 		
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = charitable }
+			FROM = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = honest }
+			FROM = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = humble }
+			FROM = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = just }
+			FROM = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = proud }
+			FROM = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = greedy }
+			FROM = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = impaler }
+			FROM = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -1556,7 +2192,11 @@ faction_succ_gavelkind = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -1658,9 +2298,21 @@ faction_succ_gavelkind = {
 			factor = 0
 			opinion = { who = LIEGE value = 25 } 
 			NOT = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -1674,9 +2326,21 @@ faction_succ_gavelkind = {
 			factor = 0
 			opinion = { who = LIEGE value = 50 } 
 			OR = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -1706,75 +2370,147 @@ faction_succ_gavelkind = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -1816,7 +2552,13 @@ faction_succ_feudal_elective = {
 		independent = no
 		is_landed = yes
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = { 
 			is_feudal = yes 
 			OR = {
@@ -1913,7 +2655,13 @@ faction_succ_feudal_elective = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 			
 			NOT = { religion_group = muslim }	
@@ -2044,9 +2792,21 @@ faction_succ_feudal_elective = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}		
@@ -2056,9 +2816,21 @@ faction_succ_feudal_elective = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}				
 			}
 		}
@@ -2083,75 +2855,183 @@ faction_succ_feudal_elective = {
 		
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = charitable }
+			FROM = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = honest }
+			FROM = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = humble }
+			FROM = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = just }
+			FROM = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = proud }
+			FROM = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = greedy }
+			FROM = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = impaler }
+			FROM = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -2168,7 +3048,11 @@ faction_succ_feudal_elective = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -2272,9 +3156,21 @@ faction_succ_feudal_elective = {
 			factor = 0
 			opinion = { who = LIEGE value = 25 } 
 			NOT = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -2288,9 +3184,21 @@ faction_succ_feudal_elective = {
 			factor = 0
 			opinion = { who = LIEGE value = 50 } 
 			OR = {
-				trait = deceitful
-				trait = ambitious
-				trait = envious
+				OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				
+				OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 			}
 			NOT = {	
 				has_opinion_modifier = {
@@ -2320,75 +3228,147 @@ faction_succ_feudal_elective = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -2430,7 +3410,13 @@ faction_lower_crown_authority = {
 		independent = no
 		is_landed = yes
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = { 
 			is_feudal = yes 
 			OR = {
@@ -2489,7 +3475,13 @@ faction_lower_crown_authority = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 		}
 	}		
@@ -2572,9 +3564,21 @@ faction_lower_crown_authority = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}		
@@ -2584,9 +3588,21 @@ faction_lower_crown_authority = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}				
 			}
 		}
@@ -2619,75 +3635,183 @@ faction_lower_crown_authority = {
 		
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = charitable }
+			FROM = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = honest }
+			FROM = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = humble }
+			FROM = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = just }
+			FROM = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = proud }
+			FROM = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = greedy }
+			FROM = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = impaler }
+			FROM = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -2704,7 +3828,11 @@ faction_lower_crown_authority = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -2806,75 +3934,147 @@ faction_lower_crown_authority = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -2921,7 +4121,13 @@ faction_independence = {
 		is_landed = yes
 		is_adult = yes
 		
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		
 		higher_tier_than = BARON
 		OR = {
@@ -2996,7 +4202,13 @@ faction_independence = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 		}
 	}	
@@ -3203,75 +4415,147 @@ faction_independence = {
 		
 		modifier = {
 			factor = 0.025
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.025
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.025
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -3288,7 +4572,11 @@ faction_independence = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				has_landed_title = k_orthodox
@@ -3536,75 +4824,147 @@ faction_independence = {
 		
 		modifier = {
 			factor = 0.025
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.025
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.025
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -3647,7 +5007,13 @@ faction_claimant = {
 		independent = no
 		is_landed = yes
 		is_adult = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = {
 			is_feudal = yes
 			OR = {
@@ -3759,7 +5125,13 @@ faction_claimant = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 		}
 	}	
@@ -3853,11 +5225,31 @@ faction_claimant = {
 				OR = { 
 					NOT = { religion = FROM }
 					NOT = { culture_group = FROM }
-					trait = blinded
-					trait = eunuch
-					trait = incapable
-					trait = imbecile
-					trait = inbred
+					OR = {
+						trait = blinded
+						trait = blinded_hidden
+					}
+					
+					OR = {
+						trait = eunuch
+						trait = eunuch_hidden
+					}
+					
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					
+					OR = {
+						trait = imbecile
+						trait = imbecile_hidden
+					}
+					
+					OR = {
+						trait = inbred
+						trait = inbred_hidden
+					}
+					
 				}
 			}
 		}
@@ -3867,9 +5259,27 @@ faction_claimant = {
 			has_law = succ_feudal_elective
 			new_character = {
 				character = FROM
-				NOT = { trait = ambitious }
-				NOT = { trait = deceitful }
-				NOT = { trait = proud }
+				NOT = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
+				NOT = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				NOT = {
+					 OR = {
+						trait = proud
+						trait = proud_hidden
+					}
+					 
+				}
 				NOT = { has_strong_claim = PREV }
 			}
 		}
@@ -4035,9 +5445,21 @@ faction_claimant = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}
 			}
 		}		
@@ -4047,9 +5469,21 @@ faction_claimant = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}
@@ -4113,7 +5547,13 @@ faction_claimant = {
 			title = e_byzantium
 			FROM = { culture_group = byzantine }
 			new_character = {
-				NOT = { trait = born_in_the_purple }
+				NOT = {
+					 OR = {
+						trait = born_in_the_purple
+						trait = born_in_the_purple_hidden
+					}
+					 
+				}
 			}
 		}
 		
@@ -4122,7 +5562,11 @@ faction_claimant = {
 			title = e_byzantium
 			FROM = { culture_group = byzantine }
 			new_character = {
-				trait = born_in_the_purple
+				OR = {
+					trait = born_in_the_purple
+					trait = born_in_the_purple_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -4130,7 +5574,11 @@ faction_claimant = {
 			title = e_byzantium
 			FROM = { culture_group = byzantine }
 			holder_scope = {
-				trait = born_in_the_purple
+				OR = {
+					trait = born_in_the_purple
+					trait = born_in_the_purple_hidden
+				}
+				
 			}
 		}
 		
@@ -4139,29 +5587,57 @@ faction_claimant = {
 			title = e_byzantium
 			FROM = { culture_group = byzantine }
 			holder_scope = {
-				NOT = { trait = born_in_the_purple }
+				NOT = {
+					 OR = {
+						trait = born_in_the_purple
+						trait = born_in_the_purple_hidden
+					}
+					 
+				}
 			}
 		}
 		
 		modifier = {
 			factor = 2.0
 			new_character = {
-				trait = sayyid
+				OR = {
+					trait = sayyid
+					trait = sayyid_hidden
+				}
+				
 			}
 			holder_scope = {
-				NOT = { trait = sayyid }
+				NOT = {
+					 OR = {
+						trait = sayyid
+						trait = sayyid_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
 			factor = 1.5
 			new_character = {
-				trait = mirza
+				OR = {
+					trait = mirza
+					trait = mirza_hidden
+				}
+				
 			}
 			holder_scope = {
 				NOT = {
 					OR = {
-						trait = sayyid 
-						trait = mirza 
+						OR = {
+							trait = sayyid
+							trait = sayyid_hidden
+						}
+						 
+						OR = {
+							trait = mirza
+							trait = mirza_hidden
+						}
+						 
 					}
 				}
 			}
@@ -4203,7 +5679,13 @@ faction_claimant = {
 		
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 			OR = {
 				is_conquered = no
 				conquest_culture = FROM
@@ -4211,27 +5693,63 @@ faction_claimant = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -4248,7 +5766,11 @@ faction_claimant = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -4295,11 +5817,31 @@ faction_claimant = {
 					OR = {
 						NOT = { religion = ROOT }
 						NOT = { culture_group = ROOT }
-						trait = blinded
-						trait = eunuch
-						trait = incapable
-						trait = imbecile
-						trait = inbred
+						OR = {
+							trait = blinded
+							trait = blinded_hidden
+						}
+						
+						OR = {
+							trait = eunuch
+							trait = eunuch_hidden
+						}
+						
+						OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
+						
+						OR = {
+							trait = imbecile
+							trait = imbecile_hidden
+						}
+						
+						OR = {
+							trait = inbred
+							trait = inbred_hidden
+						}
+						
 					}
 				}
 			}
@@ -4537,7 +6079,13 @@ faction_claimant = {
 			FROMFROM = {
 				title = e_byzantium
 				new_character = {
-					NOT = { trait = born_in_the_purple }
+					NOT = {
+						 OR = {
+							trait = born_in_the_purple
+							trait = born_in_the_purple_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -4549,17 +6097,25 @@ faction_claimant = {
 				title = e_byzantium
 			}
 			liege = {
-				trait = born_in_the_purple
-			}
-		}
-		
-		modifier = {
-			factor = 2.0
-			culture_group = byzantine
-			FROMFROM = {
-				title = e_byzantium
-				new_character = {
+				OR = {
 					trait = born_in_the_purple
+					trait = born_in_the_purple_hidden
+				}
+				
+			}
+		}
+		
+		modifier = {
+			factor = 2.0
+			culture_group = byzantine
+			FROMFROM = {
+				title = e_byzantium
+				new_character = {
+					OR = {
+						trait = born_in_the_purple
+						trait = born_in_the_purple_hidden
+					}
+					
 				}
 			}
 		}
@@ -4571,7 +6127,13 @@ faction_claimant = {
 				title = e_byzantium
 			}
 			liege = {
-				NOT = { trait = born_in_the_purple }
+				NOT = {
+					 OR = {
+						trait = born_in_the_purple
+						trait = born_in_the_purple_hidden
+					}
+					 
+				}
 			}
 		}
 		
@@ -4579,23 +6141,49 @@ faction_claimant = {
 			factor = 2.0
 			FROMFROM = {
 				new_character = {
-					trait = sayyid
+					OR = {
+						trait = sayyid
+						trait = sayyid_hidden
+					}
+					
 				}
 			}
 			liege = {
-				NOT = { trait = sayyid }
+				NOT = {
+					 OR = {
+						trait = sayyid
+						trait = sayyid_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
 			factor = 1.5
 			FROMFROM = {
 				new_character = {
-					trait = mirza
+					OR = {
+						trait = mirza
+						trait = mirza_hidden
+					}
+					
 				}
 			}
 			liege = {
-				NOT = { trait = sayyid }
-				NOT = { trait = mirza }
+				NOT = {
+					 OR = {
+						trait = sayyid
+						trait = sayyid_hidden
+					}
+					 
+				}
+				NOT = {
+					 OR = {
+						trait = mirza
+						trait = mirza_hidden
+					}
+					 
+				}
 			}
 		}
 		
@@ -4633,7 +6221,11 @@ faction_claimant = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 			FROMFROM = {
 				OR = {
 					is_conquered = no
@@ -4676,27 +6268,51 @@ faction_claimant = {
 		
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	
@@ -4735,7 +6351,13 @@ faction_antiking = {
 			religion = catholic
 			religion = fraticelli
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		primary_title = { higher_tier_than = COUNT }
 		liege = {
 			religion = ROOT
@@ -4799,7 +6421,13 @@ faction_antiking = {
 			independent = no
 			is_landed = yes
 			is_adult = yes
-			NOT = { trait = incapable }
+			NOT = {
+				 OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				 
+			}
 			prisoner = no
 		}
 	}	
@@ -4837,9 +6465,21 @@ faction_antiking = {
 			FROM = { 
 				opinion = { who = LIEGE value = 25 } 
 				NOT = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}
 			}
 		}		
@@ -4849,9 +6489,21 @@ faction_antiking = {
 			FROM = {
 				opinion = { who = LIEGE value = 50 } 
 				OR = {
-					trait = deceitful
-					trait = ambitious
-					trait = envious
+					OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					
+					OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					
+					OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					
 				}			
 			}
 		}
@@ -4876,75 +6528,183 @@ faction_antiking = {
 		
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = imbecile }
+			FROM = {
+				 OR = {
+					trait = imbecile
+					trait = imbecile_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = inbred }
+			FROM = {
+				 OR = {
+					trait = inbred
+					trait = inbred_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.1
-			FROM = { trait = craven }
+			FROM = {
+				 OR = {
+					trait = craven
+					trait = craven_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = charitable }
+			FROM = {
+				 OR = {
+					trait = charitable
+					trait = charitable_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.5
-			FROM = { trait = honest }
+			FROM = {
+				 OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = humble }
+			FROM = {
+				 OR = {
+					trait = humble
+					trait = humble_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.75
-			FROM = { trait = just }
+			FROM = {
+				 OR = {
+					trait = just
+					trait = just_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = proud }
+			FROM = {
+				 OR = {
+					trait = proud
+					trait = proud_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = brave }
+			FROM = {
+				 OR = {
+					trait = brave
+					trait = brave_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = greedy }
+			FROM = {
+				 OR = {
+					trait = greedy
+					trait = greedy_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = impaler }
+			FROM = {
+				 OR = {
+					trait = impaler
+					trait = impaler_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -4961,7 +6721,11 @@ faction_antiking = {
 			factor = 0
 			OR = {
 				prisoner = yes
-				trait = incapable
+				OR = {
+					trait = incapable
+					trait = incapable_hidden
+				}
+				
 				is_adult = no
 				is_landed = no
 				preparing_invasion = yes
@@ -5030,75 +6794,147 @@ faction_antiking = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = imbecile
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = inbred
+			OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.2
-			trait = slow
+			OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.75
-			trait = just
+			OR = {
+				trait = just
+				trait = just_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = arbitrary
+			OR = {
+				trait = arbitrary
+				trait = arbitrary_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 4.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	

@@ -24,22 +24,40 @@ obj_become_chancellor = {
 				liege = { religion = cathar } 
 			}
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
@@ -47,33 +65,65 @@ obj_become_chancellor = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = poet
+			OR = {
+				trait = poet
+				trait = poet_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = falconer
+			OR = {
+				trait = falconer
+				trait = falconer_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = gregarious
+			OR = {
+				trait = gregarious
+				trait = gregarious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = underhanded_rogue
+			OR = {
+				trait = underhanded_rogue
+				trait = underhanded_rogue_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = charismatic_negotiator
-				trait = grey_eminence
+				OR = {
+					trait = charismatic_negotiator
+					trait = charismatic_negotiator_hidden
+				}
+				
+				OR = {
+					trait = grey_eminence
+					trait = grey_eminence_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -110,7 +160,11 @@ obj_become_chancellor = {
 					NOT = { liege = { religion = cathar } }
 				}
 			}
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -147,22 +201,40 @@ obj_become_marshal = {
 				liege = { religion = cathar } 
 			}
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
@@ -170,33 +242,65 @@ obj_become_marshal = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = duelist
+			OR = {
+				trait = duelist
+				trait = duelist_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = hunter
+			OR = {
+				trait = hunter
+				trait = hunter_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = misguided_warrior
+			OR = {
+				trait = misguided_warrior
+				trait = misguided_warrior_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = tough_soldier
+			OR = {
+				trait = tough_soldier
+				trait = tough_soldier_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = skilled_tactician
-				trait = brilliant_strategist
+				OR = {
+					trait = skilled_tactician
+					trait = skilled_tactician_hidden
+				}
+				
+				OR = {
+					trait = brilliant_strategist
+					trait = brilliant_strategist_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -233,7 +337,11 @@ obj_become_marshal = {
 					NOT = { liege = { religion = cathar } }
 				}
 			}
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -270,22 +378,40 @@ obj_become_treasurer = {
 				liege = { religion = cathar }
 			}
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = charitable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
@@ -293,41 +419,81 @@ obj_become_treasurer = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = scholar
+			OR = {
+				trait = scholar
+				trait = scholar_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = gardener
+			OR = {
+				trait = gardener
+				trait = gardener_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = gluttonous
+			OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = temperate
+			OR = {
+				trait = temperate
+				trait = temperate_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = indulgent_wastrel
+			OR = {
+				trait = indulgent_wastrel
+				trait = indulgent_wastrel_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = thrifty_clerk
+			OR = {
+				trait = thrifty_clerk
+				trait = thrifty_clerk_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = fortune_builder
-				trait = midas_touched
+				OR = {
+					trait = fortune_builder
+					trait = fortune_builder_hidden
+				}
+				
+				OR = {
+					trait = midas_touched
+					trait = midas_touched_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -364,7 +530,11 @@ obj_become_treasurer = {
 					NOT = { liege = { religion = cathar } }
 				}
 			}
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -402,26 +572,48 @@ obj_become_spymaster = {
 				liege = { religion = cathar }
 			}
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = kind
+			OR = {
+				trait = kind
+				trait = kind_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = honest
+			OR = {
+				trait = honest
+				trait = honest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
@@ -429,37 +621,73 @@ obj_become_spymaster = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = mystic
+			OR = {
+				trait = mystic
+				trait = mystic_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = impaler
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = deceitful
+			OR = {
+				trait = deceitful
+				trait = deceitful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = amateurish_plotter
+			OR = {
+				trait = amateurish_plotter
+				trait = amateurish_plotter_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = flamboyant_schemer
+			OR = {
+				trait = flamboyant_schemer
+				trait = flamboyant_schemer_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = intricate_webweaver
-				trait = elusive_shadow
+				OR = {
+					trait = intricate_webweaver
+					trait = intricate_webweaver_hidden
+				}
+				
+				OR = {
+					trait = elusive_shadow
+					trait = elusive_shadow_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -498,7 +726,11 @@ obj_become_spymaster = {
 					NOT = { liege = { religion = cathar } }
 				}
 			}
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -543,10 +775,26 @@ obj_become_spiritual = {
 		
 		OR = {
 			NOT = { religion_group = muslim }
-			trait = detached_priest
-			trait = martial_cleric
-			trait = scholarly_theologian
-			trait = mastermind_theologian
+			OR = {
+				trait = detached_priest
+				trait = detached_priest_hidden
+			}
+			
+			OR = {
+				trait = martial_cleric
+				trait = martial_cleric_hidden
+			}
+			
+			OR = {
+				trait = scholarly_theologian
+				trait = scholarly_theologian_hidden
+			}
+			
+			OR = {
+				trait = mastermind_theologian
+				trait = mastermind_theologian_hidden
+			}
+			
 			NOT = { liege = { religion_group = muslim } }
 		}
 		
@@ -571,22 +819,40 @@ obj_become_spiritual = {
 			is_ruler = no
 			is_theocracy = yes
 		}
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.25
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
@@ -594,25 +860,49 @@ obj_become_spiritual = {
 		}
 		modifier = {
 			factor = 1.5
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = detached_priest
+			OR = {
+				trait = detached_priest
+				trait = detached_priest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = martial_cleric
+			OR = {
+				trait = martial_cleric
+				trait = martial_cleric_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = scholarly_theologian
-				trait = mastermind_theologian
+				OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				
+				OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
+				
 			}
 		}
 		modifier = {
@@ -658,10 +948,34 @@ obj_become_spiritual = {
 		AND = {
 			religion_group = muslim
 			liege = { religion_group = muslim }
-			NOT = { trait = detached_priest }
-			NOT = { trait = martial_cleric }
-			NOT = { trait = scholarly_theologian }
-			NOT = { trait = mastermind_theologian }
+			NOT = {
+				 OR = {
+					trait = detached_priest
+					trait = detached_priest_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = martial_cleric
+					trait = martial_cleric_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				 
+			}
+			NOT = {
+				 OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
+				 
+			}
 		}
 		AND = {
 			is_theocracy = no
@@ -675,7 +989,11 @@ obj_become_spiritual = {
 			}
 		}
 		NOT = { liege = { religion = ROOT } }
-		trait = incapable
+		OR = {
+			trait = incapable
+			trait = incapable_hidden
+		}
+		
 	}
 	abort_effect = {
 	}
@@ -709,31 +1027,63 @@ obj_amass_wealth = {
 		is_adult = yes
 		NOT = { wealth = 200 }
 		is_ruler = yes
-		NOT = { trait = charitable }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 1.25
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = fortune_builder
+			OR = {
+				trait = fortune_builder
+				trait = fortune_builder_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = midas_touched
+			OR = {
+				trait = midas_touched
+				trait = midas_touched_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -741,8 +1091,16 @@ obj_amass_wealth = {
 	}
 	abort = {
 		OR = {
-			trait = charitable
-			trait = incapable
+			OR = {
+				trait = charitable
+				trait = charitable_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -761,9 +1119,27 @@ obj_become_paragon_of_virtue = {
 		is_adult = yes
 		NOT = { piety = 100 }
 		is_ruler = yes
-		NOT = { trait = cruel }
-		NOT = { trait = impaler }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		NOT = { religion_group = indian_group }
 	}
 	chance = {
@@ -771,7 +1147,11 @@ obj_become_paragon_of_virtue = {
 		
 		modifier = {
 			factor = 1.25
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
@@ -781,19 +1161,43 @@ obj_become_paragon_of_virtue = {
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = detached_priest
-				trait = martial_cleric
-				trait = scholarly_theologian
-				trait = mastermind_theologian
+				OR = {
+					trait = detached_priest
+					trait = detached_priest_hidden
+				}
+				
+				OR = {
+					trait = martial_cleric
+					trait = martial_cleric_hidden
+				}
+				
+				OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				
+				OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
+				
 			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -801,9 +1205,21 @@ obj_become_paragon_of_virtue = {
 	}
 	abort = {
 		OR = {
-			trait = cruel
-			trait = impaler
-			trait = incapable
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
+			
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -857,16 +1273,38 @@ obj_become_exalted = {
 		is_adult = yes
 		NOT = { prestige = 200 }
 		is_ruler = yes
-		NOT = { trait = content }
-		NOT = { trait = humble }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = content
+				trait = content_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 50
 		
 		modifier = {
 			factor = 1.25
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
@@ -875,11 +1313,19 @@ obj_become_exalted = {
 		}
 		modifier = {
 			factor = 5.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 10.0
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -887,9 +1333,21 @@ obj_become_exalted = {
 	}
 	abort = {
 		OR = {
-			trait = content
-			trait = humble
-			trait = incapable
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -931,9 +1389,27 @@ obj_get_married = {
 		is_consort = no
 		can_marry = yes
 		NOT = { has_landed_title = k_papal_state }
-		NOT = { trait = celibate }
-		NOT = { trait = incapable }
-		NOT = { trait = eunuch }
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			}
+			 
+		}
 		OR = {
 			is_female = no
 			NOT = { age = 40 }
@@ -948,19 +1424,35 @@ obj_get_married = {
 		
 		modifier = {
 			factor = 0.2
-			trait = homosexual
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = shy
+			OR = {
+				trait = shy
+				trait = shy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = lustful
+			OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0 
@@ -990,10 +1482,26 @@ obj_get_married = {
 				age = 40
 			}
 			has_landed_title = k_papal_state
-			trait = celibate
-			trait = incapable
-			trait = eunuch
-			trait = homosexual
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			}
+			
+			OR = {
+				trait = homosexual
+				trait = homosexual_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1030,8 +1538,20 @@ obj_marry_ruler = {
 		is_married = no
 		is_consort = no
 		can_marry = yes
-		NOT = { trait = celibate }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		OR = {
 			is_female = no
 			NOT = { age = 45 }
@@ -1047,19 +1567,35 @@ obj_marry_ruler = {
 		
 		modifier = {
 			factor = 1.5
-			trait = midas_touched
+			OR = {
+				trait = midas_touched
+				trait = midas_touched_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = elusive_shadow
+			OR = {
+				trait = elusive_shadow
+				trait = elusive_shadow_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 5.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1079,8 +1615,16 @@ obj_marry_ruler = {
 				is_ruler = no
 				age = 45
 			}
-			trait = celibate
-			trait = incapable
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1120,8 +1664,20 @@ obj_have_a_daughter = {
 			}
 		}
 		NOT = { age = 75 }
-		NOT = { trait = celibate }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 50
@@ -1151,8 +1707,16 @@ obj_have_a_daughter = {
 				is_female = yes
 			}
 			age = 75
-			trait = celibate
-			trait = incapable
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1201,8 +1765,20 @@ obj_have_a_son = {
 			}
 		}
 		NOT = { age = 75 }
-		NOT = { trait = celibate }
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 50
@@ -1232,8 +1808,16 @@ obj_have_a_son = {
 				is_female = yes
 			}
 			age = 75
-			trait = celibate
-			trait = incapable
+			OR = {
+				trait = celibate
+				trait = celibate_hidden
+			}
+			
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1252,8 +1836,20 @@ obj_wants_landed_title = {
 		is_adult = yes
 		is_female = no
 		is_ruler = no
-		NOT = { trait = incapable }
-		NOT = { trait = eunuch }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = eunuch
+				trait = eunuch_hidden
+			}
+			 
+		}
 		NOT = { has_minor_title = title_guru }
 		liege = {
 			is_feudal = yes
@@ -1283,31 +1879,59 @@ obj_wants_landed_title = {
 		
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.25
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = humble
+			OR = {
+				trait = humble
+				trait = humble_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 3.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
@@ -1359,7 +1983,13 @@ obj_become_heir = {
 		prisoner = no
 		is_adult = yes
 		is_primary_heir = no
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		liege = { any_child = { character = ROOT } }
 		liege = {
 			any_child = {
@@ -1367,10 +1997,26 @@ obj_become_heir = {
 				OR = {
 					has_epidemic = yes
 					is_ill = yes
-					trait = lunatic
-					trait = possessed
-					trait = incapable
-					trait = infirm
+					OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					}
+					
+					OR = {
+						trait = possessed
+						trait = possessed_hidden
+					}
+					
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					
+					OR = {
+						trait = infirm
+						trait = infirm_hidden
+					}
+					
 					AND = {
 						is_female = yes
 						ROOT = { is_female = no }
@@ -1384,34 +2030,62 @@ obj_become_heir = {
 		
 		modifier = {
 			factor = 2.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = greedy
+			OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = envious
+			OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = proud
+			OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.5
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 	}
 	success = {
 		is_primary_heir = yes
 	}
 	abort = {
-		trait = incapable
+		OR = {
+			trait = incapable
+			trait = incapable_hidden
+		}
+		
 	}
 	abort_effect = {
 	}
@@ -1433,8 +2107,20 @@ obj_improve_martial = {
 	
 	allow = {
 		NOT = { martial = 8 }
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 		prisoner = no
 	}
 	chance = {
@@ -1442,23 +2128,43 @@ obj_improve_martial = {
 		
 		modifier = {
 			factor = 1.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = misguided_warrior
+			OR = {
+				trait = misguided_warrior
+				trait = misguided_warrior_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1466,8 +2172,16 @@ obj_improve_martial = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
-			trait = infirm
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1496,8 +2210,20 @@ obj_improve_stewardship = {
 	
 	allow = {
 		NOT = { stewardship = 8 }
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 		prisoner = no
 	}
 	chance = {
@@ -1505,23 +2231,43 @@ obj_improve_stewardship = {
 		
 		modifier = {
 			factor = 1.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = indulgent_wastrel
+			OR = {
+				trait = indulgent_wastrel
+				trait = indulgent_wastrel_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1529,8 +2275,16 @@ obj_improve_stewardship = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
-			trait = infirm
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1562,8 +2316,20 @@ obj_improve_learning = {
 	
 	allow = {
 		NOT = { learning = 8 }
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 		prisoner = no
 	}
 	chance = {
@@ -1571,23 +2337,43 @@ obj_improve_learning = {
 		
 		modifier = {
 			factor = 1.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = detached_priest
+			OR = {
+				trait = detached_priest
+				trait = detached_priest_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1595,8 +2381,16 @@ obj_improve_learning = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
-			trait = infirm
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1624,8 +2418,20 @@ obj_improve_diplomacy = {
 	
 	allow = {
 		NOT = { diplomacy = 8 }
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 		prisoner = no
 	}
 	chance = {
@@ -1633,23 +2439,43 @@ obj_improve_diplomacy = {
 		
 		modifier = {
 			factor = 1.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1657,8 +2483,16 @@ obj_improve_diplomacy = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
-			trait = infirm
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1686,8 +2520,20 @@ obj_improve_intrigue = {
 	
 	allow = {
 		NOT = { intrigue = 8 }
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 		prisoner = no
 	}
 	chance = {
@@ -1695,23 +2541,43 @@ obj_improve_intrigue = {
 		
 		modifier = {
 			factor = 1.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1719,8 +2585,16 @@ obj_improve_intrigue = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
-			trait = infirm
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1749,30 +2623,56 @@ obj_lower_decadence = {
 	allow = {
 		religion_group = muslim
 		decadence = 60
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 1.25
-			trait = diligent
+			OR = {
+				trait = diligent
+				trait = diligent_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.25
-			trait = naive_appeaser
+			OR = {
+				trait = naive_appeaser
+				trait = naive_appeaser_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -1780,7 +2680,11 @@ obj_lower_decadence = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 		}
 	}
 	abort_effect = {
@@ -1818,7 +2722,13 @@ obj_become_king = {
 	}
 	
 	allow = {
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 	}
 	
 	chance = {
@@ -1827,7 +2737,13 @@ obj_become_king = {
 		modifier = {
 			factor = 0
 			NOT = { religion_group = pagan_group }
-			NOT = { trait = ambitious }
+			NOT = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 3.0
@@ -1839,11 +2755,19 @@ obj_become_king = {
 		}
 		modifier = {
 			factor = 3.0
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 2.0
-			trait = brave
+			OR = {
+				trait = brave
+				trait = brave_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 3.0
@@ -1857,15 +2781,27 @@ obj_become_king = {
 		}
 		modifier = {
 			factor = 0.1
-			trait = craven
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = content
+			OR = {
+				trait = content
+				trait = content_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.1
@@ -1897,7 +2833,11 @@ obj_become_king = {
 	
 	abort = {
 		OR = {
-			trait = incapable
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
 			is_playable = no
 			is_landed = no
 			AND = {
@@ -1930,28 +2870,62 @@ obj_buddhist_stop_drinking = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = drunkard
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = drunkard
+			trait = drunkard_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = drunkard }
+		NOT = {
+			 OR = {
+				trait = drunkard
+				trait = drunkard_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -1971,28 +2945,62 @@ obj_buddhist_reject_empty_pleasures = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = hedonist
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = hedonist
+			trait = hedonist_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = hedonist }
+		NOT = {
+			 OR = {
+				trait = hedonist
+				trait = hedonist_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2012,28 +3020,62 @@ obj_buddhist_abstain_sexual_excess = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = lustful
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = lustful
+			trait = lustful_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = lustful }
+		NOT = {
+			 OR = {
+				trait = lustful
+				trait = lustful_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2054,31 +3096,75 @@ obj_buddhist_reject_cruelty = {
 		is_adult = yes
 		religion = buddhist
 		OR = {
-			trait = impaler
-			trait = cruel
+			OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			
+			OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
+			
 		}
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = impaler }
-		NOT = { trait = cruel }
+		NOT = {
+			 OR = {
+				trait = impaler
+				trait = impaler_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = cruel
+				trait = cruel_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2098,28 +3184,62 @@ obj_buddhist_temperance_food = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = gluttonous
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = gluttonous
+			trait = gluttonous_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = gluttonous }
+		NOT = {
+			 OR = {
+				trait = gluttonous
+				trait = gluttonous_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2139,28 +3259,62 @@ obj_buddhist_reject_greed = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = greedy
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = greedy
+			trait = greedy_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = greedy }
+		NOT = {
+			 OR = {
+				trait = greedy
+				trait = greedy_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2180,28 +3334,62 @@ obj_buddhist_reject_envy = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = envious
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = envious
+			trait = envious_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = envious }
+		NOT = {
+			 OR = {
+				trait = envious
+				trait = envious_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2221,28 +3409,62 @@ obj_buddhist_reject_hate = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = wroth
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = wroth
+			trait = wroth_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = wroth }
+		NOT = {
+			 OR = {
+				trait = wroth
+				trait = wroth_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2262,28 +3484,62 @@ obj_buddhist_reject_pride = {
 	allow = {
 		is_adult = yes
 		religion = buddhist
-		trait = proud
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		OR = {
+			trait = proud
+			trait = proud_hidden
+		}
+		
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = proud }
+		NOT = {
+			 OR = {
+				trait = proud
+				trait = proud_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2304,31 +3560,75 @@ obj_buddhist_defeat_fear = {
 		is_adult = yes
 		religion = buddhist
 		OR = {
-			trait = paranoid
-			trait = craven
+			OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
+			
+			OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			
 		}
-		NOT = { trait = incapable }
-		NOT = { trait = infirm }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = infirm
+				trait = infirm_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 100
 		
 		modifier = {
 			factor = 2
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 1.5
-			trait = ambitious
+			OR = {
+				trait = ambitious
+				trait = ambitious_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = slothful
+			OR = {
+				trait = slothful
+				trait = slothful_hidden
+			}
+			
 		}
 	}
 	success = {
-		NOT = { trait = paranoid }
-		NOT = { trait = craven }
+		NOT = {
+			 OR = {
+				trait = paranoid
+				trait = paranoid_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = craven
+				trait = craven_hidden
+			}
+			 
+		}
 	}
 	abort = {
 		NOT = { religion = buddhist }
@@ -2350,17 +3650,45 @@ obj_become_paragon_of_enlightenment = {
 		NOT = { piety = 100 }
 		is_ruler = yes
 		religion_group = indian_group
-		NOT = { trait = slow }
-		NOT = { trait = imbecile }
-		NOT = { trait = inbred }
-		NOT = { trait = lunatic }
+		NOT = {
+			 OR = {
+				trait = slow
+				trait = slow_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = inbred
+				trait = inbred_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			 
+		}
 	}
 	chance = {
 		factor = 50
 		
 		modifier = {
 			factor = 1.25
-			trait = patient
+			OR = {
+				trait = patient
+				trait = patient_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
@@ -2370,19 +3698,43 @@ obj_become_paragon_of_enlightenment = {
 		modifier = {
 			factor = 10.0
 			OR = {
-				trait = detached_priest
-				trait = martial_cleric
-				trait = scholarly_theologian
-				trait = mastermind_theologian
+				OR = {
+					trait = detached_priest
+					trait = detached_priest_hidden
+				}
+				
+				OR = {
+					trait = martial_cleric
+					trait = martial_cleric_hidden
+				}
+				
+				OR = {
+					trait = scholarly_theologian
+					trait = scholarly_theologian_hidden
+				}
+				
+				OR = {
+					trait = mastermind_theologian
+					trait = mastermind_theologian_hidden
+				}
+				
 			}
 		}
 		modifier = {
 			factor = 10.0
-			trait = zealous
+			OR = {
+				trait = zealous
+				trait = zealous_hidden
+			}
+			
 		}
 		modifier = {
 			factor = 0.01
-			trait = cynical
+			OR = {
+				trait = cynical
+				trait = cynical_hidden
+			}
+			
 		}
 	}
 	success = {
@@ -2390,8 +3742,16 @@ obj_become_paragon_of_enlightenment = {
 	}
 	abort = {
 		OR = {
-			trait = incapable
-			trait = lunatic
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			
 		}
 	}
 	abort_effect = {

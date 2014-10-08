@@ -10767,43 +10767,43 @@ This triggered-only non-on action event should not have a weight multiplier.
 At <mod>\events\various_traits_events.txt [character_event] (Line 2290, column 1):
 This triggered-only non-on action event should not have a weight multiplier.
 
-At <mod>\common\objectives\00_ambitions.txt [obj_buddhist_stop_drinking] (Line 1927, column 1):
+At <mod>\common\objectives\00_ambitions.txt [obj_buddhist_stop_drinking] (Line 2867, column 1):
 The string obj_buddhist_stop_drinking_title was not found in localization.
 
-At <mod>\common\objectives\00_ambitions.txt [obj_lower_decadence\abort\OR] (Line 1782, column 3):
+At <mod>\common\objectives\00_ambitions.txt [obj_lower_decadence\abort\OR] (Line 2682, column 3):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
 
-At <mod>\common\objectives\00_ambitions.txt [obj_become_spiritual\abort\AND] (Line 646, column 3):
+At <mod>\common\objectives\00_ambitions.txt [obj_become_spiritual\abort\AND] (Line 936, column 3):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
-At <mod>\common\objectives\00_ambitions.txt [obj_become_spiritual\abort\AND] (Line 658, column 3):
+At <mod>\common\objectives\00_ambitions.txt [obj_become_spiritual\abort\AND] (Line 948, column 3):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
-At <mod>\common\objectives\00_ambitions.txt [obj_become_spiritual\abort\AND] (Line 666, column 3):
+At <mod>\common\objectives\00_ambitions.txt [obj_become_spiritual\abort\AND] (Line 980, column 3):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
-At <mod>\common\objectives\00_factions.txt [faction_succ_primogeniture\membership] (Line 896, column 2):
+At <mod>\common\objectives\00_factions.txt [faction_succ_primogeniture\membership] (Line 1284, column 2):
 The right sides of a "modifier" clause may not be identical.
 There were 2 duplicates.
-	[I18007|L948|C3]: modifier = {   factor = 0  liege = {    NOT = {     year = 1350   }   primary_title = {     is_tribal_type_title = yes   }   culture = ROOT   religion = ROOT  } }
-	[I17826|L938|C3]: modifier = {   factor = 0  liege = {    NOT = {     year = 1350   }   primary_title = {     is_tribal_type_title = yes   }   culture = ROOT   religion = ROOT  } }
+	[I22713|L1340|C3]: modifier = {   factor = 0  liege = {    NOT = {     year = 1350   }   primary_title = {     is_tribal_type_title = yes   }   culture = ROOT   religion = ROOT  } }
+	[I22532|L1330|C3]: modifier = {   factor = 0  liege = {    NOT = {     year = 1350   }   primary_title = {     is_tribal_type_title = yes   }   culture = ROOT   religion = ROOT  } }
 
-At <mod>\common\objectives\00_plots.txt [plot_kill_spouse\allow\OR\AND\lover] (Line 1062, column 5):
+At <mod>\common\objectives\00_plots.txt [plot_kill_spouse\allow\OR\AND\lover] (Line 1502, column 5):
 Invalid node "lover" in scope CharTrigger (value is: <a complex type>)
 
-At <mod>\common\objectives\00_plots.txt [plot_kill_character\potential\hidden_tooltip\OR\AND] (Line 661, column 5):
+At <mod>\common\objectives\00_plots.txt [plot_kill_character\potential\hidden_tooltip\OR\AND] (Line 939, column 5):
 Since there is only one item within the AND clause, it is redundant and unnecessary.
 
-At <mod>\common\objectives\00_plots.txt [plot_kill_character\allow\FROM\OR\spouse\lover] (Line 810, column 6):
+At <mod>\common\objectives\00_plots.txt [plot_kill_character\allow\FROM\OR\spouse\lover] (Line 1160, column 6):
 Invalid node "lover" in scope CharTrigger (value is: <a complex type>)
 
-At <mod>\common\objectives\00_plots.txt [plot_gain_vassal_title\allow\OR\AND\holder_scope\AND] (Line 324, column 6):
+At <mod>\common\objectives\00_plots.txt [plot_gain_vassal_title\allow\OR\AND\holder_scope\AND] (Line 466, column 6):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
-At <mod>\common\objectives\00_plots.txt [plot_gain_vassal_title\abort\OR\NOT\OR\AND\holder_scope\AND] (Line 519, column 8):
+At <mod>\common\objectives\00_plots.txt [plot_gain_vassal_title\abort\OR\NOT\OR\AND\holder_scope\AND] (Line 775, column 8):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
-At <mod>\common\objectives\00_plots.txt [plot_gain_title\chance\modifier\AND] (Line 206, column 4):
+At <mod>\common\objectives\00_plots.txt [plot_gain_title\chance\modifier\AND] (Line 332, column 4):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
 
 At <mod>\common\on_actions\00_on_actions.txt [on_entering_port\events\700] (Line 1541, column 3):

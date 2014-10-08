@@ -22,8 +22,20 @@ plot_gain_title = {
 		independent = no
 		is_landed = yes
 		primary_title = { higher_tier_than = BARON }
-		NOT = { trait = incapable }
-		NOT = { trait = imbecile }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			 
+		}
 		OR = {
 			crownlaw_title = {
 				NOT = {
@@ -103,23 +115,59 @@ plot_gain_title = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0
 			FROM = { opinion = { who = LIEGE value = 50 } }
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}			
 		}		
 		modifier = {
@@ -127,9 +175,27 @@ plot_gain_title = {
 			FROM = { opinion = { who = LIEGE value = 25 } }
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -138,9 +204,27 @@ plot_gain_title = {
 			FROM = { opinion = { who = LIEGE value = 0 } }
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -148,9 +232,27 @@ plot_gain_title = {
 			factor = 0.2
 			FROM = { opinion = { who = LIEGE value = 25 } }
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -163,19 +265,43 @@ plot_gain_title = {
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = quick }
+			FROM = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			# Subtle balance against nepotism
@@ -233,7 +359,11 @@ plot_gain_title = {
 				OR = {
 					is_ruler = no
 					independent = yes
-					trait = incapable
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					
 				}
 			}
 		}
@@ -287,8 +417,20 @@ plot_gain_vassal_title = {
 			higher_tier_than = COUNT
 			temporary = no
 		}
-		NOT = { trait = incapable }
-		NOT = { trait = imbecile }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			 
+		}
 		
 		OR = {
 			ai = no
@@ -399,15 +541,33 @@ plot_gain_vassal_title = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.0
@@ -424,9 +584,27 @@ plot_gain_vassal_title = {
 				opinion = { who = ROOT value = 50 }
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -437,9 +615,27 @@ plot_gain_vassal_title = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -450,9 +646,27 @@ plot_gain_vassal_title = {
 				opinion = { who = ROOT value = 25 }
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -463,9 +677,27 @@ plot_gain_vassal_title = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -479,19 +711,43 @@ plot_gain_vassal_title = {
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = quick }
+			FROM = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -576,7 +832,11 @@ plot_gain_vassal_title = {
 			FROM = {
 				OR = {
 					is_playable = no
-					trait = incapable
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					
 				}
 			}
 			holder_scope = {
@@ -623,23 +883,41 @@ plot_kill_character = {
 	potential = {
 		prisoner = no
 		age = 16
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		NOT = {
 			AND = {
 				ai = yes
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				
 			}
 		}
 		NOT = {
 			AND = {
 				ai = yes
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				
 			}
 		}
 		NOT = {
 			AND = {
 				ai = yes
-				trait = just
+				OR = {
+					trait = just
+					trait = just_hidden
+				}
+				
 			}
 		}
 		
@@ -688,8 +966,16 @@ plot_kill_character = {
 				}
 				
 				# Is nuts...
-				trait = lunatic
-				trait = possessed
+				OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				
+				OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				
 			}
 		}
 	}
@@ -707,7 +993,11 @@ plot_kill_character = {
 		NOT = { is_child_of = FROM } # Not my own children
 		OR = {
 			NOT = { character = FROM }  # Not against myself! (unself I am bonkers)
-			trait = lunatic
+			OR = {
+				trait = lunatic
+				trait = lunatic_hidden
+			}
+			
 		}
 		NOT = { any_spouse = { character = FROM } } # This case is covered by another plot
 		is_within_diplo_range = FROM
@@ -720,9 +1010,21 @@ plot_kill_character = {
 					}
 					OR = {
 						ai = no
-						trait = deceitful
-						trait = ambitious
-						trait = arbitrary
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						
 						NOT = { opinion = { who = ROOT value = 0 } }
 					}
 				}
@@ -734,9 +1036,21 @@ plot_kill_character = {
 					}
 					OR = {
 						ai = no
-						trait = deceitful
-						trait = ambitious
-						trait = arbitrary
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						
 						NOT = { opinion = { who = ROOT value = 0 } }
 					}
 				}
@@ -756,9 +1070,21 @@ plot_kill_character = {
 					NOT = { is_close_relative = ROOT }
 					OR = {
 						ai = no
-						trait = deceitful
-						trait = ambitious
-						trait = arbitrary
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						
 						NOT = { opinion = { who = ROOT value = 0 } }
 					}
 				}
@@ -773,9 +1099,21 @@ plot_kill_character = {
 					NOT = { is_close_relative = ROOT }
 					OR = {
 						ai = no
-						trait = deceitful
-						trait = ambitious
-						trait = arbitrary
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						
 						NOT = { opinion = { who = ROOT value = 0 } }
 					}
 				}
@@ -790,9 +1128,21 @@ plot_kill_character = {
 					NOT = { is_close_relative = ROOT }
 					OR = {
 						ai = no
-						trait = deceitful
-						trait = ambitious
-						trait = arbitrary
+						OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						
+						OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						
+						OR = {
+							trait = arbitrary
+							trait = arbitrary_hidden
+						}
+						
 						AND = {
 							is_female = no
 							NOT = { opinion = { who = ROOT value = 0 } }
@@ -820,8 +1170,16 @@ plot_kill_character = {
 				AND = {
 					same_liege = ROOT
 					OR = {
-						trait = lunatic
-						trait = possessed
+						OR = {
+							trait = lunatic
+							trait = lunatic_hidden
+						}
+						
+						OR = {
+							trait = possessed
+							trait = possessed_hidden
+						}
+						
 					}
 				}
 				
@@ -839,9 +1197,25 @@ plot_kill_character = {
 		modifier = {
 			factor = 0.01
 			FROM = {
-				trait = content
-				NOT = { trait = lunatic } 
-				NOT = { trait = possessed }
+				OR = {
+					trait = content
+					trait = content_hidden
+				}
+				
+				NOT = { 
+					 OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					}
+					 
+				}
+				NOT = {
+					 OR = {
+						trait = possessed
+						trait = possessed_hidden
+					}
+					 
+				}
 			}
 		}
 		
@@ -853,7 +1227,11 @@ plot_kill_character = {
 		modifier = {
 			factor = 2.0
 			FROM = {
-				trait = envious
+				OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				
 				OR = {
 					any_pretender_title = {
 						current_heir = { character = ROOT }
@@ -866,19 +1244,43 @@ plot_kill_character = {
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = arbitrary }
+			FROM = {
+				 OR = {
+					trait = arbitrary
+					trait = arbitrary_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = cruel }
+			FROM = {
+				 OR = {
+					trait = cruel
+					trait = cruel_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 3.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0
@@ -889,9 +1291,27 @@ plot_kill_character = {
 			their_opinion = { who = FROM value = 0 }
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}		
 		}
@@ -996,17 +1416,31 @@ plot_kill_spouse = {
 		prisoner = no
 		age = 16
 		is_married = yes
-		NOT = { trait = incapable }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
 		NOT = {
 			AND = {
 				ai = yes
-				trait = honest
+				OR = {
+					trait = honest
+					trait = honest_hidden
+				}
+				
 			}
 		}
 		NOT = {
 			AND = {
 				ai = yes
-				trait = kind
+				OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				
 			}
 		}
 	}
@@ -1051,7 +1485,13 @@ plot_kill_spouse = {
 					any_heir_title = {
 						holder = ROOT
 					}
-					NOT = { trait = incapable }
+					NOT = {
+						 OR = {
+							trait = incapable
+							trait = incapable_hidden
+						}
+						 
+					}
 					their_opinion = { who = FROM value = 75 }
 				}
 			}
@@ -1067,8 +1507,16 @@ plot_kill_spouse = {
 			# Insane plotter...
 			FROM = { 
 				OR = {
-					trait = lunatic 
-					trait = possessed
+					OR = {
+						trait = lunatic
+						trait = lunatic_hidden
+					}
+					 
+					OR = {
+						trait = possessed
+						trait = possessed_hidden
+					}
+					
 				}
 			}
 		}
@@ -1084,7 +1532,13 @@ plot_kill_spouse = {
 		
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
@@ -1099,9 +1553,27 @@ plot_kill_spouse = {
 			their_opinion = { who = FROM value = 0 }
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}		
 		}
@@ -1119,27 +1591,63 @@ plot_kill_spouse = {
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = paranoid }
+			FROM = {
+				 OR = {
+					trait = paranoid
+					trait = paranoid_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.25
-			FROM = { trait = lunatic }
+			FROM = {
+				 OR = {
+					trait = lunatic
+					trait = lunatic_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.25
-			FROM = { trait = possessed }
+			FROM = {
+				 OR = {
+					trait = possessed
+					trait = possessed_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.25
-			FROM = { trait = intricate_webweaver }
+			FROM = {
+				 OR = {
+					trait = intricate_webweaver
+					trait = intricate_webweaver_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = elusive_shadow }
+			FROM = {
+				 OR = {
+					trait = elusive_shadow
+					trait = elusive_shadow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
@@ -1203,8 +1711,16 @@ plot_weaken_fellow_vassal = {
 		is_landed = yes
 		primary_title = { higher_tier_than = BARON }
 		NOT = {
-			trait = incapable
-			trait = imbecile
+			OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			
+			OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			
 		}
 		OR = {
 			crownlaw_title = {
@@ -1283,15 +1799,33 @@ plot_weaken_fellow_vassal = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1302,9 +1836,27 @@ plot_weaken_fellow_vassal = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -1316,9 +1868,27 @@ plot_weaken_fellow_vassal = {
 				}
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1330,9 +1900,27 @@ plot_weaken_fellow_vassal = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}		
@@ -1344,9 +1932,27 @@ plot_weaken_fellow_vassal = {
 				}
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1406,19 +2012,43 @@ plot_weaken_fellow_vassal = {
 		
 		modifier = {
 			factor = 1.5
-			FROM = { trait = quick }
+			FROM = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -1446,7 +2076,11 @@ plot_weaken_fellow_vassal = {
 				OR = {
 					is_ruler = no
 					independent = yes
-					trait = incapable
+					OR = {
+						trait = incapable
+						trait = incapable_hidden
+					}
+					
 				}
 			}
 		}
@@ -1502,8 +2136,20 @@ plot_gain_liege_title = {
 		is_landed = yes
 		independent = no
 		mercenary = no
-		NOT = { trait = incapable }
-		NOT = { trait = imbecile }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			 
+		}
 		liege = {
 			NOT = { is_father = ROOT }
 			NOT = { is_mother = ROOT }
@@ -1540,15 +2186,33 @@ plot_gain_liege_title = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1557,9 +2221,27 @@ plot_gain_liege_title = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -1569,9 +2251,27 @@ plot_gain_liege_title = {
 				reverse_opinion = { who = FROM value = 50 }
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1581,9 +2281,27 @@ plot_gain_liege_title = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -1593,9 +2311,27 @@ plot_gain_liege_title = {
 				reverse_opinion = { who = FROM value = 25 }
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1641,19 +2377,43 @@ plot_gain_liege_title = {
 	
 		modifier = {
 			factor = 1.5
-			FROM = { trait = quick }
+			FROM = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -1706,8 +2466,20 @@ plot_gain_fellow_vassal_title = {
 		is_feudal = yes
 		is_landed = yes
 		independent = no
-		NOT = { trait = incapable }
-		NOT = { trait = imbecile }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			 
+		}
 	}
 	
 	# Target scope
@@ -1753,15 +2525,33 @@ plot_gain_fellow_vassal_title = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1770,9 +2560,27 @@ plot_gain_fellow_vassal_title = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -1782,9 +2590,27 @@ plot_gain_fellow_vassal_title = {
 				reverse_opinion = { who = FROM value = 50 }
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1794,9 +2620,27 @@ plot_gain_fellow_vassal_title = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -1806,9 +2650,27 @@ plot_gain_fellow_vassal_title = {
 				reverse_opinion = { who = FROM value = 25 }
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1833,19 +2695,43 @@ plot_gain_fellow_vassal_title = {
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = quick }
+			FROM = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 	}
 	
@@ -1903,8 +2789,20 @@ plot_seize_trade_post = {
 		is_merchant_republic = no
 		prisoner = no
 		age = 16
-		NOT = { trait = incapable }
-		NOT = { trait = imbecile }
+		NOT = {
+			 OR = {
+				trait = incapable
+				trait = incapable_hidden
+			}
+			 
+		}
+		NOT = {
+			 OR = {
+				trait = imbecile
+				trait = imbecile_hidden
+			}
+			 
+		}
 	}
 	
 	# Target scope
@@ -1944,15 +2842,33 @@ plot_seize_trade_post = {
 		}
 		modifier = {
 			factor = 0.01
-			FROM = { trait = content }
+			FROM = {
+				 OR = {
+					trait = content
+					trait = content_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = slow }
+			FROM = {
+				 OR = {
+					trait = slow
+					trait = slow_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0.2
-			FROM = { trait = kind }
+			FROM = {
+				 OR = {
+					trait = kind
+					trait = kind_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1963,9 +2879,27 @@ plot_seize_trade_post = {
 				}
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -1978,9 +2912,27 @@ plot_seize_trade_post = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -1993,9 +2945,27 @@ plot_seize_trade_post = {
 				}
 			}
 			OR = {
-				FROM = { trait = envious }
-				FROM = { trait = deceitful }
-				FROM = { trait = ambitious }
+				FROM = {
+					 OR = {
+						trait = envious
+						trait = envious_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = deceitful
+						trait = deceitful_hidden
+					}
+					 
+				}
+				FROM = {
+					 OR = {
+						trait = ambitious
+						trait = ambitious_hidden
+					}
+					 
+				}
 			}
 		}
 		modifier = {
@@ -2008,9 +2978,27 @@ plot_seize_trade_post = {
 			}
 			NOT = {
 				OR = {
-					FROM = { trait = envious }
-					FROM = { trait = deceitful }
-					FROM = { trait = ambitious }
+					FROM = {
+						 OR = {
+							trait = envious
+							trait = envious_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = deceitful
+							trait = deceitful_hidden
+						}
+						 
+					}
+					FROM = {
+						 OR = {
+							trait = ambitious
+							trait = ambitious_hidden
+						}
+						 
+					}
 				}
 			}
 		}
@@ -2038,19 +3026,43 @@ plot_seize_trade_post = {
 		}
 		modifier = {
 			factor = 1.5
-			FROM = { trait = quick }
+			FROM = {
+				 OR = {
+					trait = quick
+					trait = quick_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = envious }
+			FROM = {
+				 OR = {
+					trait = envious
+					trait = envious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 2.0
-			FROM = { trait = deceitful }
+			FROM = {
+				 OR = {
+					trait = deceitful
+					trait = deceitful_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
-			FROM = { trait = ambitious }
+			FROM = {
+				 OR = {
+					trait = ambitious
+					trait = ambitious_hidden
+				}
+				 
+			}
 		}
 		modifier = {
 			factor = 4.0
