@@ -447,6 +447,7 @@ character_event = {
 				remove_trait = amateurish_plotter_hidden
 			}
 			add_trait = amateurish_plotter
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -456,6 +457,7 @@ character_event = {
 				remove_trait = flamboyant_schemer_hidden
 			}
 			add_trait = flamboyant_schemer
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -465,6 +467,7 @@ character_event = {
 				remove_trait = intricate_webweaver_hidden
 			}
 			add_trait = intricate_webweaver
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -474,6 +477,7 @@ character_event = {
 				remove_trait = elusive_shadow_hidden
 			}
 			add_trait = elusive_shadow
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -483,6 +487,7 @@ character_event = {
 				remove_trait = naive_appeaser_hidden
 			}
 			add_trait = naive_appeaser
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -492,6 +497,7 @@ character_event = {
 				remove_trait = underhanded_rogue_hidden
 			}
 			add_trait = underhanded_rogue
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -501,6 +507,7 @@ character_event = {
 				remove_trait = charismatic_negotiator_hidden
 			}
 			add_trait = charismatic_negotiator
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -510,6 +517,7 @@ character_event = {
 				remove_trait = grey_eminence_hidden
 			}
 			add_trait = grey_eminence
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -519,6 +527,7 @@ character_event = {
 				remove_trait = indulgent_wastrel_hidden
 			}
 			add_trait = indulgent_wastrel
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -528,6 +537,7 @@ character_event = {
 				remove_trait = thrifty_clerk_hidden
 			}
 			add_trait = thrifty_clerk
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -537,6 +547,7 @@ character_event = {
 				remove_trait = fortune_builder_hidden
 			}
 			add_trait = fortune_builder
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -546,6 +557,7 @@ character_event = {
 				remove_trait = midas_touched_hidden
 			}
 			add_trait = midas_touched
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -555,6 +567,7 @@ character_event = {
 				remove_trait = misguided_warrior_hidden
 			}
 			add_trait = misguided_warrior
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -564,6 +577,7 @@ character_event = {
 				remove_trait = tough_soldier_hidden
 			}
 			add_trait = tough_soldier
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -573,6 +587,7 @@ character_event = {
 				remove_trait = skilled_tactician_hidden
 			}
 			add_trait = skilled_tactician
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -582,6 +597,7 @@ character_event = {
 				remove_trait = brilliant_strategist_hidden
 			}
 			add_trait = brilliant_strategist
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -591,6 +607,7 @@ character_event = {
 				remove_trait = detached_priest_hidden
 			}
 			add_trait = detached_priest
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -600,6 +617,7 @@ character_event = {
 				remove_trait = martial_cleric_hidden
 			}
 			add_trait = martial_cleric
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -609,6 +627,7 @@ character_event = {
 				remove_trait = scholarly_theologian_hidden
 			}
 			add_trait = scholarly_theologian
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -618,6 +637,7 @@ character_event = {
 				remove_trait = mastermind_theologian_hidden
 			}
 			add_trait = mastermind_theologian
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -693,6 +713,7 @@ character_event = {
 				remove_trait = stressed_hidden
 			}
 			add_trait = stressed
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -702,6 +723,7 @@ character_event = {
 				remove_trait = depressed_hidden
 			}
 			add_trait = depressed
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -711,6 +733,7 @@ character_event = {
 				remove_trait = lunatic_hidden
 			}
 			add_trait = lunatic
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -720,6 +743,7 @@ character_event = {
 				remove_trait = possessed_hidden
 			}
 			add_trait = possessed
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -729,6 +753,7 @@ character_event = {
 				remove_trait = ill_hidden
 			}
 			add_trait = ill
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -738,6 +763,7 @@ character_event = {
 				remove_trait = pneumonic_hidden
 			}
 			add_trait = pneumonic
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -747,6 +773,7 @@ character_event = {
 				remove_trait = syphilitic_hidden
 			}
 			add_trait = syphilitic
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -756,6 +783,7 @@ character_event = {
 				remove_trait = leper_hidden
 			}
 			add_trait = leper
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -765,6 +793,7 @@ character_event = {
 				remove_trait = wounded_hidden
 			}
 			add_trait = wounded
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -774,6 +803,7 @@ character_event = {
 				remove_trait = maimed_hidden
 			}
 			add_trait = maimed
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -783,6 +813,7 @@ character_event = {
 				remove_trait = infirm_hidden
 			}
 			add_trait = infirm
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -792,6 +823,7 @@ character_event = {
 				remove_trait = incapable_hidden
 			}
 			add_trait = incapable
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -801,6 +833,7 @@ character_event = {
 				remove_trait = drunkard_hidden
 			}
 			add_trait = drunkard
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -810,6 +843,7 @@ character_event = {
 				remove_trait = has_tuberculosis_hidden
 			}
 			add_trait = has_tuberculosis
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -819,6 +853,7 @@ character_event = {
 				remove_trait = has_typhoid_fever_hidden
 			}
 			add_trait = has_typhoid_fever
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -828,6 +863,7 @@ character_event = {
 				remove_trait = has_typhus_hidden
 			}
 			add_trait = has_typhus
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -837,6 +873,7 @@ character_event = {
 				remove_trait = has_bubonic_plague_hidden
 			}
 			add_trait = has_bubonic_plague
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -846,6 +883,7 @@ character_event = {
 				remove_trait = has_measles_hidden
 			}
 			add_trait = has_measles
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -855,6 +893,7 @@ character_event = {
 				remove_trait = has_small_pox_hidden
 			}
 			add_trait = has_small_pox
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -864,6 +903,7 @@ character_event = {
 				remove_trait = has_aztec_disease_hidden
 			}
 			add_trait = has_aztec_disease
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -873,6 +913,7 @@ character_event = {
 				remove_trait = blinded_hidden
 			}
 			add_trait = blinded
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -882,6 +923,7 @@ character_event = {
 				remove_trait = eunuch_hidden
 			}
 			add_trait = eunuch
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -891,6 +933,7 @@ character_event = {
 				remove_trait = scarred_hidden
 			}
 			add_trait = scarred
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -900,6 +943,7 @@ character_event = {
 				remove_trait = sickly_hidden
 			}
 			add_trait = sickly
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -956,6 +1000,7 @@ character_event = {
 				remove_trait = legit_bastard_hidden
 			}
 			add_trait = legit_bastard
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -965,6 +1010,7 @@ character_event = {
 				remove_trait = bastard_hidden
 			}
 			add_trait = bastard
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -974,6 +1020,7 @@ character_event = {
 				remove_trait = twin_hidden
 			}
 			add_trait = twin
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -983,6 +1030,7 @@ character_event = {
 				remove_trait = child_of_consort_hidden
 			}
 			add_trait = child_of_consort
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -992,6 +1040,7 @@ character_event = {
 				remove_trait = pregnant_hidden
 			}
 			add_trait = pregnant
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1059,6 +1108,7 @@ character_event = {
 				remove_trait = clubfooted_hidden
 			}
 			add_trait = clubfooted
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1068,6 +1118,7 @@ character_event = {
 				remove_trait = harelip_hidden
 			}
 			add_trait = harelip
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1077,6 +1128,7 @@ character_event = {
 				remove_trait = hunchback_hidden
 			}
 			add_trait = hunchback
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1086,6 +1138,7 @@ character_event = {
 				remove_trait = lisp_hidden
 			}
 			add_trait = lisp
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1095,6 +1148,7 @@ character_event = {
 				remove_trait = stutter_hidden
 			}
 			add_trait = stutter
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1104,6 +1158,7 @@ character_event = {
 				remove_trait = fair_hidden
 			}
 			add_trait = fair
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1113,6 +1168,7 @@ character_event = {
 				remove_trait = ugly_hidden
 			}
 			add_trait = ugly
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1122,6 +1178,7 @@ character_event = {
 				remove_trait = dwarf_hidden
 			}
 			add_trait = dwarf
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1131,6 +1188,7 @@ character_event = {
 				remove_trait = genius_hidden
 			}
 			add_trait = genius
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1140,6 +1198,7 @@ character_event = {
 				remove_trait = quick_hidden
 			}
 			add_trait = quick
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1149,6 +1208,7 @@ character_event = {
 				remove_trait = slow_hidden
 			}
 			add_trait = slow
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1158,6 +1218,7 @@ character_event = {
 				remove_trait = imbecile_hidden
 			}
 			add_trait = imbecile
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1167,6 +1228,7 @@ character_event = {
 				remove_trait = inbred_hidden
 			}
 			add_trait = inbred
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1176,6 +1238,7 @@ character_event = {
 				remove_trait = strong_hidden
 			}
 			add_trait = strong
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1185,6 +1248,7 @@ character_event = {
 				remove_trait = weak_hidden
 			}
 			add_trait = weak
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1247,6 +1311,7 @@ character_event = {
 				remove_trait = celibate_hidden
 			}
 			add_trait = celibate
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1256,6 +1321,7 @@ character_event = {
 				remove_trait = hedonist_hidden
 			}
 			add_trait = hedonist
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1265,6 +1331,7 @@ character_event = {
 				remove_trait = scholar_hidden
 			}
 			add_trait = scholar
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1274,6 +1341,7 @@ character_event = {
 				remove_trait = gardener_hidden
 			}
 			add_trait = gardener
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1283,6 +1351,7 @@ character_event = {
 				remove_trait = mystic_hidden
 			}
 			add_trait = mystic
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1292,6 +1361,7 @@ character_event = {
 				remove_trait = impaler_hidden
 			}
 			add_trait = impaler
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1301,6 +1371,7 @@ character_event = {
 				remove_trait = duelist_hidden
 			}
 			add_trait = duelist
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1310,6 +1381,7 @@ character_event = {
 				remove_trait = hunter_hidden
 			}
 			add_trait = hunter
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1319,6 +1391,7 @@ character_event = {
 				remove_trait = poet_hidden
 			}
 			add_trait = poet
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1328,6 +1401,7 @@ character_event = {
 				remove_trait = falconer_hidden
 			}
 			add_trait = falconer
+			set_character_flag = has_revealed_traits
 		}
 		# Apparently this is a lifestyle trait
 		if = {
@@ -1338,6 +1412,7 @@ character_event = {
 				remove_trait = faqih_hidden
 			}
 			add_trait = faqih
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1391,6 +1466,7 @@ character_event = {
 				remove_trait = lustful_hidden
 			}
 			add_trait = lustful
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1400,6 +1476,7 @@ character_event = {
 				remove_trait = chaste_hidden
 			}
 			add_trait = chaste
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1453,6 +1530,7 @@ character_event = {
 				remove_trait = gluttonous_hidden
 			}
 			add_trait = gluttonous
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1462,6 +1540,7 @@ character_event = {
 				remove_trait = temperate_hidden
 			}
 			add_trait = temperate
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1515,6 +1594,7 @@ character_event = {
 				remove_trait = greedy_hidden
 			}
 			add_trait = greedy
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1524,6 +1604,7 @@ character_event = {
 				remove_trait = charitable_hidden
 			}
 			add_trait = charitable
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1577,6 +1658,7 @@ character_event = {
 				remove_trait = slothful_hidden
 			}
 			add_trait = slothful
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1586,6 +1668,7 @@ character_event = {
 				remove_trait = diligent_hidden
 			}
 			add_trait = diligent
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1640,6 +1723,7 @@ character_event = {
 				remove_trait = envious_hidden
 			}
 			add_trait = envious
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1649,6 +1733,7 @@ character_event = {
 				remove_trait = kind_hidden
 			}
 			add_trait = kind
+			set_character_flag = has_revealed_traits
 		}
 		# dumping cruel in with kind to decrease the number of groups.
 		if = {
@@ -1659,6 +1744,7 @@ character_event = {
 				remove_trait = cruel_hidden
 			}
 			add_trait = cruel
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1712,6 +1798,7 @@ character_event = {
 				remove_trait = wroth_hidden
 			}
 			add_trait = wroth
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1721,6 +1808,7 @@ character_event = {
 				remove_trait = patient_hidden
 			}
 			add_trait = patient
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1774,6 +1862,7 @@ character_event = {
 				remove_trait = proud_hidden
 			}
 			add_trait = proud
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1783,6 +1872,7 @@ character_event = {
 				remove_trait = humble_hidden
 			}
 			add_trait = humble
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1836,6 +1926,7 @@ character_event = {
 				remove_trait = deceitful_hidden
 			}
 			add_trait = deceitful
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1845,6 +1936,7 @@ character_event = {
 				remove_trait = honest_hidden
 			}
 			add_trait = honest
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1898,6 +1990,7 @@ character_event = {
 				remove_trait = craven_hidden
 			}
 			add_trait = craven
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1907,6 +2000,7 @@ character_event = {
 				remove_trait = brave_hidden
 			}
 			add_trait = brave
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -1960,6 +2054,7 @@ character_event = {
 				remove_trait = shy_hidden
 			}
 			add_trait = shy
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -1969,6 +2064,7 @@ character_event = {
 				remove_trait = gregarious_hidden
 			}
 			add_trait = gregarious
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2022,6 +2118,7 @@ character_event = {
 				remove_trait = ambitious_hidden
 			}
 			add_trait = ambitious
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2031,6 +2128,7 @@ character_event = {
 				remove_trait = content_hidden
 			}
 			add_trait = content
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2084,6 +2182,7 @@ character_event = {
 				remove_trait = arbitrary_hidden
 			}
 			add_trait = arbitrary
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2093,6 +2192,7 @@ character_event = {
 				remove_trait = just_hidden
 			}
 			add_trait = just
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2146,6 +2246,7 @@ character_event = {
 				remove_trait = cynical_hidden
 			}
 			add_trait = cynical
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2155,6 +2256,7 @@ character_event = {
 				remove_trait = zealous_hidden
 			}
 			add_trait = zealous
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2208,6 +2310,7 @@ character_event = {
 				remove_trait = paranoid_hidden
 			}
 			add_trait = paranoid
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2217,6 +2320,7 @@ character_event = {
 				remove_trait = trusting_hidden
 			}
 			add_trait = trusting
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2288,6 +2392,7 @@ character_event = {
 				remove_trait = light_foot_leader_hidden
 			}
 			add_trait = light_foot_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2297,6 +2402,7 @@ character_event = {
 				remove_trait = heavy_infantry_leader_hidden
 			}
 			add_trait = heavy_infantry_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2306,6 +2412,7 @@ character_event = {
 				remove_trait = cavalry_leader_hidden
 			}
 			add_trait = cavalry_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2315,6 +2422,7 @@ character_event = {
 				remove_trait = inspiring_leader_hidden
 			}
 			add_trait = inspiring_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2324,6 +2432,7 @@ character_event = {
 				remove_trait = trickster_hidden
 			}
 			add_trait = trickster
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2333,6 +2442,7 @@ character_event = {
 				remove_trait = organizer_hidden
 			}
 			add_trait = organizer
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2342,6 +2452,7 @@ character_event = {
 				remove_trait = defensive_leader_hidden
 			}
 			add_trait = defensive_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2351,6 +2462,7 @@ character_event = {
 				remove_trait = experimenter_hidden
 			}
 			add_trait = experimenter
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2360,6 +2472,7 @@ character_event = {
 				remove_trait = flanker_hidden
 			}
 			add_trait = flanker
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2369,6 +2482,7 @@ character_event = {
 				remove_trait = aggressive_leader_hidden
 			}
 			add_trait = aggressive_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2378,6 +2492,7 @@ character_event = {
 				remove_trait = siege_leader_hidden
 			}
 			add_trait = siege_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2387,6 +2502,7 @@ character_event = {
 				remove_trait = flat_terrain_leader_hidden
 			}
 			add_trait = flat_terrain_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2396,6 +2512,7 @@ character_event = {
 				remove_trait = rough_terrain_leader_hidden
 			}
 			add_trait = rough_terrain_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2405,6 +2522,7 @@ character_event = {
 				remove_trait = mountain_terrain_leader_hidden
 			}
 			add_trait = mountain_terrain_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2414,6 +2532,7 @@ character_event = {
 				remove_trait = desert_terrain_leader_hidden
 			}
 			add_trait = desert_terrain_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2423,6 +2542,7 @@ character_event = {
 				remove_trait = holy_warrior_hidden
 			}
 			add_trait = holy_warrior
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2432,6 +2552,7 @@ character_event = {
 				remove_trait = unyielding_leader_hidden
 			}
 			add_trait = unyielding_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2441,6 +2562,7 @@ character_event = {
 				remove_trait = narrow_flank_leader_hidden
 			}
 			add_trait = narrow_flank_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2450,6 +2572,7 @@ character_event = {
 				remove_trait = war_elephant_leader_hidden
 			}
 			add_trait = war_elephant_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2459,6 +2582,7 @@ character_event = {
 				remove_trait = jungle_terrain_leader_hidden
 			}
 			add_trait = jungle_terrain_leader
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2516,6 +2640,7 @@ character_event = {
 				remove_trait = excommunicated_hidden
 			}
 			add_trait = excommunicated
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2525,6 +2650,7 @@ character_event = {
 				remove_trait = varangian_hidden
 			}
 			add_trait = varangian
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2534,6 +2660,7 @@ character_event = {
 				remove_trait = monk_hidden
 			}
 			add_trait = monk
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2543,6 +2670,7 @@ character_event = {
 				remove_trait = nun_hidden
 			}
 			add_trait = nun
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2552,6 +2680,7 @@ character_event = {
 				remove_trait = sayyid_hidden
 			}
 			add_trait = sayyid
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2561,6 +2690,7 @@ character_event = {
 				remove_trait = mirza_hidden
 			}
 			add_trait = mirza
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2616,6 +2746,7 @@ character_event = {
 				remove_trait = crusader_hidden
 			}
 			add_trait = crusader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2625,6 +2756,7 @@ character_event = {
 				remove_trait = mujahid_hidden
 			}
 			add_trait = mujahid
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2634,6 +2766,7 @@ character_event = {
 				remove_trait = saoshyant_hidden
 			}
 			add_trait = saoshyant
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2643,6 +2776,7 @@ character_event = {
 				remove_trait = saoshyant_descendant_hidden
 			}
 			add_trait = saoshyant_descendant
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2699,6 +2833,7 @@ character_event = {
 				remove_trait = berserker_hidden
 			}
 			add_trait = berserker
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2708,6 +2843,7 @@ character_event = {
 				remove_trait = hajjaj_hidden
 			}
 			add_trait = hajjaj
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2717,6 +2853,7 @@ character_event = {
 				remove_trait = on_hajj_hidden
 			}
 			add_trait = on_hajj
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2726,6 +2863,7 @@ character_event = {
 				remove_trait = pilgrim_hidden
 			}
 			add_trait = pilgrim
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2735,6 +2873,7 @@ character_event = {
 				remove_trait = on_pilgrimage_hidden
 			}
 			add_trait = on_pilgrimage
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -2802,6 +2941,7 @@ character_event = {
 				remove_trait = born_in_the_purple_hidden
 			}
 			add_trait = born_in_the_purple
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2811,6 +2951,7 @@ character_event = {
 				remove_trait = mutazilite_hidden
 			}
 			add_trait = mutazilite
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2820,6 +2961,7 @@ character_event = {
 				remove_trait = ashari_hidden
 			}
 			add_trait = ashari
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2829,6 +2971,7 @@ character_event = {
 				remove_trait = brahmin_hidden
 			}
 			add_trait = brahmin
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2838,6 +2981,7 @@ character_event = {
 				remove_trait = kshatriya_hidden
 			}
 			add_trait = kshatriya
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2847,6 +2991,7 @@ character_event = {
 				remove_trait = vaishya_hidden
 			}
 			add_trait = vaishya
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2856,6 +3001,7 @@ character_event = {
 				remove_trait = shaivist_hindu_hidden
 			}
 			add_trait = shaivist_hindu
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2865,6 +3011,7 @@ character_event = {
 				remove_trait = vaishnavist_hindu_hidden
 			}
 			add_trait = vaishnavist_hindu
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2874,6 +3021,7 @@ character_event = {
 				remove_trait = shaktist_hindu_hidden
 			}
 			add_trait = shaktist_hindu
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2883,6 +3031,7 @@ character_event = {
 				remove_trait = smartist_hindu_hidden
 			}
 			add_trait = smartist_hindu
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2892,6 +3041,7 @@ character_event = {
 				remove_trait = mahayana_buddhist_hidden
 			}
 			add_trait = mahayana_buddhist
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2901,6 +3051,7 @@ character_event = {
 				remove_trait = vajrayana_buddhist_hidden
 			}
 			add_trait = vajrayana_buddhist
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2910,6 +3061,7 @@ character_event = {
 				remove_trait = theravada_buddhist_hidden
 			}
 			add_trait = theravada_buddhist
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2919,6 +3071,7 @@ character_event = {
 				remove_trait = digambara_jain_hidden
 			}
 			add_trait = digambara_jain
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2928,6 +3081,7 @@ character_event = {
 				remove_trait = svetambara_jain_hidden
 			}
 			add_trait = svetambara_jain
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -2937,6 +3091,7 @@ character_event = {
 				remove_trait = decadent_hidden
 			}
 			add_trait = decadent
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -3000,6 +3155,7 @@ character_event = {
 				remove_trait = sympathy_christendom_hidden
 			}
 			add_trait = sympathy_christendom
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3009,6 +3165,7 @@ character_event = {
 				remove_trait = sympathy_islam_hidden
 			}
 			add_trait = sympathy_islam
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3018,6 +3175,7 @@ character_event = {
 				remove_trait = sympathy_pagans_hidden
 			}
 			add_trait = sympathy_pagans
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3027,6 +3185,7 @@ character_event = {
 				remove_trait = sympathy_zoroastrianism_hidden
 			}
 			add_trait = sympathy_zoroastrianism
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3036,6 +3195,7 @@ character_event = {
 				remove_trait = sympathy_judaism_hidden
 			}
 			add_trait = sympathy_judaism
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3045,6 +3205,7 @@ character_event = {
 				remove_trait = sympathy_indian_hidden
 			}
 			add_trait = sympathy_indian
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3054,6 +3215,7 @@ character_event = {
 				remove_trait = bad_priest_christian_hidden
 			}
 			add_trait = bad_priest_christian
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3063,6 +3225,7 @@ character_event = {
 				remove_trait = bad_priest_muslim_hidden
 			}
 			add_trait = bad_priest_muslim
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3072,6 +3235,7 @@ character_event = {
 				remove_trait = bad_priest_norse_hidden
 			}
 			add_trait = bad_priest_norse
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3081,6 +3245,7 @@ character_event = {
 				remove_trait = bad_priest_tengri_hidden
 			}
 			add_trait = bad_priest_tengri
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3090,6 +3255,7 @@ character_event = {
 				remove_trait = bad_priest_zoroastrian_hidden
 			}
 			add_trait = bad_priest_zoroastrian
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3099,6 +3265,7 @@ character_event = {
 				remove_trait = bad_priest_aztec_hidden
 			}
 			add_trait = bad_priest_aztec
+			set_character_flag = has_revealed_traits
 		}
 	}
 }
@@ -3160,6 +3327,7 @@ character_event = {
 				remove_trait = kinslayer_hidden
 			}
 			add_trait = kinslayer
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3169,6 +3337,7 @@ character_event = {
 				remove_trait = homosexual_hidden
 			}
 			add_trait = homosexual
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3178,6 +3347,7 @@ character_event = {
 				remove_trait = augustus_hidden
 			}
 			add_trait = augustus
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3187,6 +3357,7 @@ character_event = {
 				remove_trait = reincarnation_hidden
 			}
 			add_trait = reincarnation
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3196,6 +3367,7 @@ character_event = {
 				remove_trait = viking_hidden
 			}
 			add_trait = viking
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3205,6 +3377,7 @@ character_event = {
 				remove_trait = hafiz_hidden
 			}
 			add_trait = hafiz
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3214,6 +3387,7 @@ character_event = {
 				remove_trait = peasant_leader_hidden
 			}
 			add_trait = peasant_leader
+			set_character_flag = has_revealed_traits
 		}
 		if = {
 			limit = {
@@ -3223,6 +3397,7 @@ character_event = {
 				remove_trait = heresiarch_hidden
 			}
 			add_trait = heresiarch
+			set_character_flag = has_revealed_traits
 		}
 	}
 }

@@ -25,6 +25,7 @@ character_event = {
 	ai = no
 	
 	immediate = {
+		set_character_flag = has_revealed_traits
 		if = {
 			limit = {
 				trait = amateurish_plotter_hidden

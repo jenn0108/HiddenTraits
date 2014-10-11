@@ -17,21 +17,21 @@
 
 # INTRIGUE OUTCOMES
 amateurish_plotter = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	intrigue = 1
 	stewardship = -1
 	random = no
 }
 flamboyant_schemer = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	intrigue = 3
 	stewardship = -1
 	random = no
 }
 intricate_webweaver = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	intrigue = 6
 	martial = 1
@@ -40,7 +40,7 @@ intricate_webweaver = {
 	random = no
 }
 elusive_shadow = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	intrigue = 9
 	martial = 2
@@ -51,14 +51,14 @@ elusive_shadow = {
 
 # DIPLOMACY OUTCOMES
 naive_appeaser = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	diplomacy = 1
 	martial = -1
 	random = no
 }
 underhanded_rogue = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	diplomacy = 3
 	martial = -1
@@ -66,7 +66,7 @@ underhanded_rogue = {
 	random = no
 }
 charismatic_negotiator = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	diplomacy = 6
 	intrigue = 1
@@ -77,7 +77,7 @@ charismatic_negotiator = {
 	random = no
 }
 grey_eminence = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	diplomacy = 9
 	intrigue = 2
@@ -89,14 +89,14 @@ grey_eminence = {
 
 # STEWARDSHIP OUTCOMES
 indulgent_wastrel = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	stewardship = 1
 	diplomacy = -1
 	random = no
 }
 thrifty_clerk = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	stewardship = 3
 	diplomacy = -1
@@ -104,7 +104,7 @@ thrifty_clerk = {
 	random = no
 }
 fortune_builder = {
-	potential = { always = no }	
+	potential = { has_character_flag = has_revealed_traits }	
 	
 	stewardship = 6
 	martial = 1
@@ -114,7 +114,7 @@ fortune_builder = {
 	random = no
 }
 midas_touched = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	stewardship = 9
 	martial = 2
@@ -126,7 +126,7 @@ midas_touched = {
 
 # MARTIAL OUTCOMES
 misguided_warrior = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	martial = 1
 	learning = -1
@@ -135,7 +135,7 @@ misguided_warrior = {
 	random = no
 }
 tough_soldier = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	martial = 3
 	learning = -1
@@ -144,7 +144,7 @@ tough_soldier = {
 	random = no
 }
 skilled_tactician = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	martial = 6
 	intrigue = 1
@@ -155,7 +155,7 @@ skilled_tactician = {
 	random = no
 }
 brilliant_strategist = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	martial = 9
 	intrigue = 2
@@ -170,7 +170,7 @@ brilliant_strategist = {
 
 # ECCLESIASTICAL OUTCOMES
 detached_priest = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	priest = yes
 	
 	learning = 1
@@ -178,7 +178,7 @@ detached_priest = {
 	random = no
 }
 martial_cleric = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	priest = yes
 	
 	learning = 3
@@ -188,7 +188,7 @@ martial_cleric = {
 	random = no
 }
 scholarly_theologian = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	priest = yes
 	
 	learning = 6
@@ -202,7 +202,7 @@ scholarly_theologian = {
 	random = no
 }
 mastermind_theologian = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	priest = yes
 	
 	learning = 9
@@ -221,7 +221,7 @@ mastermind_theologian = {
 ########################
 
 stressed = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	intrigue = -1
 	stewardship = -1
@@ -230,7 +230,7 @@ stressed = {
 	random = no
 }
 depressed = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	diplomacy = -1
 	stewardship = -1
@@ -241,7 +241,7 @@ depressed = {
 	random = no
 }
 lunatic = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	# Highly event driven
 	
@@ -253,7 +253,7 @@ lunatic = {
 	random = no
 }
 possessed = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	
 	sex_appeal_opinion = -25
@@ -265,7 +265,7 @@ possessed = {
 	random = no
 }
 ill = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	is_illness = yes
 	
@@ -282,7 +282,7 @@ ill = {
 	random = no
 }
 pneumonic = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	is_illness = yes
 	
@@ -303,7 +303,7 @@ pneumonic = {
 	random = no
 }
 syphilitic = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	is_illness = yes
 	inherit_chance = 10
@@ -321,7 +321,7 @@ syphilitic = {
 	random = no
 }
 leper = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	is_illness = yes
 	diplomacy = -2
@@ -335,7 +335,7 @@ leper = {
 	random = no
 }
 wounded = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	
 	opposites =  {
@@ -348,7 +348,7 @@ wounded = {
 	random = no
 }
 maimed = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	
 	opposites =  {
@@ -364,7 +364,7 @@ maimed = {
 	random = no
 }
 infirm = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 
 	diplomacy = -3
@@ -380,7 +380,7 @@ infirm = {
 	random = no
 }
 incapable = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	
 	incapacitating = yes # Will need a regent
@@ -396,7 +396,7 @@ incapable = {
 	random = no
 }
 drunkard = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_health = yes
 	
 	stewardship = -2
@@ -409,7 +409,7 @@ drunkard = {
 	random = no
 }
 has_tuberculosis = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -419,7 +419,7 @@ has_tuberculosis = {
 	random = no
 }
 has_typhoid_fever = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -429,7 +429,7 @@ has_typhoid_fever = {
 	random = no
 }
 has_typhus = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -439,7 +439,7 @@ has_typhus = {
 	random = no
 }
 has_bubonic_plague = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -449,7 +449,7 @@ has_bubonic_plague = {
 	random = no
 }
 has_measles = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_epidemic = yes
 	is_illness = yes
 	
@@ -459,7 +459,7 @@ has_measles = {
 	random = no
 }
 has_small_pox = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	is_epidemic = yes
 	is_illness = yes
 
@@ -474,7 +474,7 @@ has_small_pox = {
 ############################
 
 crusader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	martial = 2
 	
@@ -486,7 +486,7 @@ crusader = {
 }
 
 bastard = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	diplomacy = -1
 	same_opinion = 10
 	
@@ -494,26 +494,26 @@ bastard = {
 	random = no
 }
 twin = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	twin_opinion = 30
 	
 	customizer = no
 	random = no
 }
 legit_bastard = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	diplomacy = -1
 	random = no
 }
 pregnant = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	spouse_opinion = 25
 	
 	customizer = no
 	random = no
 }
 excommunicated = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	diplomacy = -5
 	same_religion_opinion = -30
 
@@ -522,7 +522,7 @@ excommunicated = {
 	random = no
 }
 kinslayer = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 
 	diplomacy = -3
 	
@@ -530,7 +530,7 @@ kinslayer = {
 	random = no
 }
 homosexual = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	sex_appeal_opinion = 30 # Only to those of the same sex
 	vassal_opinion = -10
 	
@@ -543,7 +543,7 @@ homosexual = {
 #####################
 
 clubfooted = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -554,7 +554,7 @@ clubfooted = {
 	random = no
 }
 harelip = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -565,7 +565,7 @@ harelip = {
 	random = no
 }
 hunchback = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -578,7 +578,7 @@ hunchback = {
 	random = no
 }
 lisp = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -589,8 +589,7 @@ lisp = {
 	random = no
 }
 stutter = {
-	potential = { always = no }
-	
+	potential = { has_character_flag = has_revealed_traits }
 	inherit_chance = 15
 	
 	same_opinion = 5
@@ -599,7 +598,7 @@ stutter = {
 	random = no
 }
 fair = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -614,7 +613,7 @@ fair = {
 	random = no
 }
 ugly = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 10
 	
@@ -629,7 +628,7 @@ ugly = {
 	random = no
 }
 dwarf = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 25
 	
@@ -640,7 +639,7 @@ dwarf = {
 	random = no
 }
 genius = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -666,7 +665,7 @@ genius = {
 	random = no
 }
 quick = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -689,7 +688,7 @@ quick = {
 	random = no
 }
 slow = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -712,7 +711,7 @@ slow = {
 	random = no
 }
 imbecile = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -739,7 +738,7 @@ imbecile = {
 	random = no
 }
 inbred = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	inbred = yes
 	inherit_chance = 25
 	
@@ -759,7 +758,7 @@ inbred = {
 	random = no
 }
 strong = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -779,7 +778,7 @@ strong = {
 	random = no
 }
 weak = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	
 	inherit_chance = 15
 	
@@ -803,7 +802,7 @@ weak = {
 ################################################
 
 celibate = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 
 	opposites =  {
@@ -822,7 +821,7 @@ celibate = {
 	random = no
 }
 hedonist = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 	
 	opposites =  {
@@ -843,7 +842,7 @@ hedonist = {
 	random = no
 }
 scholar = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 	
 	learning = 2
@@ -852,7 +851,7 @@ scholar = {
 	random = no
 }
 gardener = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 	
 	stewardship = 2
@@ -861,7 +860,7 @@ gardener = {
 	random = no
 }
 mystic = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 	
 	intrigue = 1
@@ -870,7 +869,7 @@ mystic = {
 	random = no
 }
 impaler = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 
 	intrigue = 1
@@ -885,7 +884,7 @@ impaler = {
 	random = no
 }
 duelist = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 	
 	martial = 1
@@ -894,7 +893,7 @@ duelist = {
 	random = no
 }
 hunter = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 
 	martial = 1
@@ -903,7 +902,7 @@ hunter = {
 	random = no
 }
 poet = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 	
 	diplomacy = 1
@@ -912,7 +911,7 @@ poet = {
 	random = no
 }
 falconer = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	lifestyle = yes
 
 	diplomacy = 1
@@ -927,7 +926,7 @@ falconer = {
 
 # THE SEVEN SINS AND VIRTUES
 lustful = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		chaste
@@ -944,7 +943,7 @@ lustful = {
 	random = no
 }
 chaste = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 
 	opposites =  {
@@ -962,7 +961,6 @@ chaste = {
 	random = no
 }
 gluttonous = {
-	potential = { always = no }
 	personality = yes
 	opposites =  {
 		temperate
@@ -980,7 +978,7 @@ gluttonous = {
 	random = no
 }
 temperate = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		gluttonous
@@ -998,7 +996,7 @@ temperate = {
 	random = no
 }
 greedy = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		charitable
@@ -1013,7 +1011,7 @@ greedy = {
 	random = no
 }
 charitable = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		greedy
@@ -1033,7 +1031,7 @@ charitable = {
 	random = no
 }
 slothful = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		diligent
@@ -1055,7 +1053,7 @@ slothful = {
 	random = no
 }
 diligent = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		slothful
@@ -1077,7 +1075,7 @@ diligent = {
 	random = no
 }
 envious = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		kind
@@ -1092,7 +1090,7 @@ envious = {
 	random = no
 }
 kind = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		envious
@@ -1111,7 +1109,7 @@ kind = {
 	random = no
 }
 wroth = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		patient
@@ -1126,7 +1124,7 @@ wroth = {
 	random = no
 }
 patient = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		wroth
@@ -1146,7 +1144,7 @@ patient = {
 	random = no
 }
 proud = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		humble
@@ -1159,7 +1157,7 @@ proud = {
 	random = no
 }
 humble = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		proud
@@ -1177,7 +1175,7 @@ humble = {
 # OTHER
 
 deceitful = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		honest
@@ -1193,7 +1191,7 @@ deceitful = {
 	random = no
 }
 honest = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		deceitful
@@ -1210,7 +1208,7 @@ honest = {
 	random = no
 }
 craven = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		brave
@@ -1227,7 +1225,7 @@ craven = {
 	random = no
 }
 brave = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		craven
@@ -1246,7 +1244,7 @@ brave = {
 	random = no
 }
 shy = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		gregarious
@@ -1257,7 +1255,7 @@ shy = {
 	random = no
 }
 gregarious = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		shy
@@ -1273,7 +1271,7 @@ gregarious = {
 	random = no
 }
 ambitious = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		content
@@ -1294,7 +1292,7 @@ ambitious = {
 	random = no
 }
 content = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		ambitious
@@ -1312,7 +1310,7 @@ content = {
 	random = no
 }
 arbitrary = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		just
@@ -1330,7 +1328,7 @@ arbitrary = {
 	random = no
 }
 just = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		arbitrary
@@ -1350,7 +1348,7 @@ just = {
 	random = no
 }
 cynical = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites = {
 		zealous
@@ -1370,7 +1368,7 @@ cynical = {
 	random = no
 }
 zealous = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		cynical
@@ -1403,7 +1401,7 @@ zealous = {
 	random = no
 }
 paranoid = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		trusting
@@ -1417,7 +1415,7 @@ paranoid = {
 	random = no
 }
 trusting = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		paranoid
@@ -1431,7 +1429,7 @@ trusting = {
 	random = no
 }
 cruel = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		kind
@@ -1453,7 +1451,7 @@ cruel = {
 
 #Leadership traits
 light_foot_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1464,7 +1462,7 @@ light_foot_leader = {
 }
 
 heavy_infantry_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1475,7 +1473,7 @@ heavy_infantry_leader = {
 }
 
 cavalry_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1486,7 +1484,7 @@ cavalry_leader = {
 }
 
 inspiring_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1497,7 +1495,7 @@ inspiring_leader = {
 }
 
 trickster = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1508,7 +1506,7 @@ trickster = {
 }
 
 organizer = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1519,7 +1517,7 @@ organizer = {
 }
 
 defensive_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1530,7 +1528,7 @@ defensive_leader = {
 }
 
 experimenter = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1540,7 +1538,7 @@ experimenter = {
 }
 
 flanker = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1551,7 +1549,7 @@ flanker = {
 }
 
 aggressive_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
@@ -1563,7 +1561,7 @@ aggressive_leader = {
 }
 
 siege_leader = {
-	potential = { always = no }
+	potential = { has_character_flag = has_revealed_traits }
 	leader = yes
 	
 	command_modifier = {
