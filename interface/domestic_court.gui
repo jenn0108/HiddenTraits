@@ -192,16 +192,16 @@ guiTypes = {
 		iconType = {
 			name ="relevant_attribute_icon"
 			spriteType = "GFX_attribute_strip"
-			position = { x= 440 y = -13 }
+			position = { x= 479 y = -12 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "relevant_attribute"
 			position = { x = 471 y = -8 }
 			textureFile = ""
-			font = "vic_22"
+			font = "hidden_font"
 			borderSize = {x = 0 y = 0}
-			text = "14"	
+			text = "14"
 			maxWidth = 40
 			maxHeight = 26
 			format = centre

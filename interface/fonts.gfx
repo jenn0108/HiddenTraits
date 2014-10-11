@@ -624,6 +624,12 @@ bitmapfonts = {
 		color = 0xff000000
 	}
 
+	bitmapfont = {
+		name = "hidden_font"
+		fontname = "hidden_font"
+		color = 0xff000000
+	}
+
 ##	bitmapfont = {
 ##		name = "messagelog"
 ##		fontname = "crap"
