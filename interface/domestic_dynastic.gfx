@@ -128,4 +128,8 @@ spriteTypes = {
 		name = "GFX_charview_wikipedia_link"
 		texturefile = "gfx\\interface\\charview_goto_wiki.dds"
 	}
+	spriteType = {
+		name = "GFX_stat_hiding_box"
+		texturefile = "gfx\\interface\\stat_hiding_box.tga"
+	}
 }

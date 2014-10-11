@@ -1006,10 +1006,17 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+			# Jenn: Evil dirty hack so that you can see your own stats but not
+			# other people's stats.
+			# The graphic for this opinion text box has been changed to a replica
+			# of the background of the stats area.
+			# This only works because the game magically hides this icon for the player
+			# and shows it for everyone else, so it will cover up the stats for
+			# everyone except the player.
 			iconType = {
 				name ="opinion_bg_big"
-				spriteType = "GFX_opinion_bg_big"
-				position = { x= 9999 y = 182 }
+				spriteType = "GFX_stat_hiding_box"
+				position = { x= 367 y = 106 }
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextBoxType = {
@@ -1331,7 +1338,7 @@ guiTypes = {
 			#can reveal traits.
 			instantTextBoxType = {
 				name = "diplomacy"
-				position = { x = 9999 y = 113 }
+				position = { x = 365 y = 113 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1362,7 +1369,7 @@ guiTypes = {
 			#can reveal traits.
 			instantTextBoxType = {
 				name = "martial"
-				position = { x = 9999 y = 134 }
+				position = { x = 365 y = 134 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1393,7 +1400,7 @@ guiTypes = {
 			#can reveal traits.
 			instantTextBoxType = {
 				name = "stewardship"
-				position = { x = 9999 y = 155 }
+				position = { x = 365 y = 155 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1424,7 +1431,7 @@ guiTypes = {
 			#can reveal traits.
 			instantTextBoxType = {
 				name = "intrigue"
-				position = { x = 9999 y = 176 }
+				position = { x = 365 y = 176 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -1455,7 +1462,7 @@ guiTypes = {
 			#can reveal traits.
 			instantTextBoxType = {
 				name = "learning"
-				position = { x = 9999 y = 197 }
+				position = { x = 365 y = 197 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
