@@ -961,6 +961,7 @@ chaste = {
 	random = no
 }
 gluttonous = {
+	potential = { has_character_flag = has_revealed_traits }
 	personality = yes
 	opposites =  {
 		temperate
