@@ -2187,3 +2187,13 @@ jungle_terrain_leader_hidden = {
 		terrain = jungle
 	}
 }
+
+
+#This is the trait the shows your stats not a real trait
+stats = {
+	potential = {
+		age = 16
+	}
+	random = no
+	customizer = no
+}

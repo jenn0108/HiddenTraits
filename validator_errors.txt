@@ -8644,79 +8644,79 @@ At most 1 instance(s) of a "immediate" entry are allowed, but there are 2 instan
 At <mod>\events\initevent.txt [character_event] (Line 4, column 1):
 The event is set to be triggered only, but it is never called.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 3315, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 3340, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 3143, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 3167, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2929, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2952, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2821, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2843, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2734, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2755, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2628, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2648, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2380, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2399, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2298, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2316, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2234, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2251, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2170, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2186, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2106, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2121, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2042, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 2056, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1978, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1991, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1914, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1926, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1850, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1861, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1786, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1796, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1711, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1720, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1646, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1654, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1582, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1589, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1518, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1524, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1454, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1459, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1299, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1303, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1096, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 1099, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 988, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 990, column 1):
 This event needs a picture.
 
-At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 701, column 1):
+At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 702, column 1):
 This event needs a picture.
 
 At <mod>\events\job_reveal_trait_events.txt [character_event] (Line 435, column 1):

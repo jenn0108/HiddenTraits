@@ -1367,5 +1367,14 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
+	# Icon for the stat showing trait
+	spriteType = {
+		name = "GFX_trait_stats"
+		texturefile = "gfx/traits/stat_trait_icon.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
 
 }
